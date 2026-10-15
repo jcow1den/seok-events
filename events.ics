@@ -1,0 +1,1002 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Southeast Oklahoma Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Southeast Oklahoma Events
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:e003@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:Wiggle Worms: Squirrels (10:00 – 10:30 AM)
+DESCRIPTION:10:00 – 10:30 AM\nToddler storytime with stories\, songs\, a
+ nd lots of wiggling.\nConfirm details with the host before you go.\nhttps
+ ://jcow1den.github.io/seok-events/#e003
+LOCATION:McAlester Public Library\, 401 N 2nd St\, McAlester\, OK
+URL:https://jcow1den.github.io/seok-events/#e003
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e004@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:Sun City Laundry Ribbon Cutting (12:00 PM)
+DESCRIPTION:12:00 PM\nChamber ribbon cutting welcoming Sun City Laundry.\n
+ Confirm details with the host before you go.\nhttps://jcow1den.github.io/
+ seok-events/#e004
+LOCATION:Sun City Laundry\, 600 E Wyandotte Ave\, McAlester\, OK
+URL:https://jcow1den.github.io/seok-events/#e004
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e005@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:Move and Groove (2:30 – 3:30 PM)
+DESCRIPTION:2:30 – 3:30 PM\nEasy\, beginner-friendly dance class for all
+  ages.\nConfirm details with the host before you go.\nhttps://jcow1den.gi
+ thub.io/seok-events/#e005
+LOCATION:McAlester Public Library\, 401 N 2nd St\, McAlester\, OK
+URL:https://jcow1den.github.io/seok-events/#e005
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e006@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:Chat and Craft: Pressed Leaf Lanterns (5:00 – 6:00 PM)
+DESCRIPTION:5:00 – 6:00 PM\nAdults chat and make pressed leaf lanterns. 
+ Supplies provided.\nConfirm details with the host before you go.\nhttps:/
+ /jcow1den.github.io/seok-events/#e006
+LOCATION:McAlester Public Library\, 401 N 2nd St\, McAlester\, OK
+URL:https://jcow1den.github.io/seok-events/#e006
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e007@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:Pittsburg County Farmers Market (7:00 AM – 12:00 PM)
+DESCRIPTION:7:00 AM – 12:00 PM\nFarm-fresh eggs\, Oklahoma-grown produce
+ \, baked goods\, and handmade items from local vendors downtown.\nConfirm
+  details with the host before you go.\nhttps://jcow1den.github.io/seok-ev
+ ents/#e007
+LOCATION:Pittsburg County Farmers Market\, 11 N Main St (Main & Choctaw)\,
+  McAlester\, OK
+URL:https://jcow1den.github.io/seok-events/#e007
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e008@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:USDA Food Distribution (5:00 – 7:00 PM)
+DESCRIPTION:5:00 – 7:00 PM\nDrive-through food distribution. Enter at Ad
+ ams St\, exit on Washington Ave.\nConfirm details with the host before yo
+ u go.\nhttps://jcow1den.github.io/seok-events/#e008
+LOCATION:All Saints Episcopal Church\, 325 E Washington Ave\, McAlester\, 
+ OK
+URL:https://jcow1den.github.io/seok-events/#e008
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e009@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:Joe Brown Author Visit (5:30 PM)
+DESCRIPTION:5:30 PM\nBook signing with Western author Joe Brown: his life 
+ story\, readings from his Kelly Can saga\, and guitar. Free\, adults 18+.
+ \nConfirm details with the host before you go.\nhttps://jcow1den.github.i
+ o/seok-events/#e009
+LOCATION:Atoka County Library\, 279 E A St\, Atoka\, OK
+URL:https://jcow1den.github.io/seok-events/#e009
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e010@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:TeenTober: Odd Squad Got Milk? (4:00 – 5:30 PM)
+DESCRIPTION:4:00 – 5:30 PM\nA cooking program just for teens.\nConfirm d
+ etails with the host before you go.\nhttps://jcow1den.github.io/seok-even
+ ts/#e010
+LOCATION:McAlester Public Library\, 401 N 2nd St\, McAlester\, OK
+URL:https://jcow1den.github.io/seok-events/#e010
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e011@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261019
+SUMMARY:Robbers Cave Fall Festival
+DESCRIPTION:Fri – Sun\nOne of the region's biggest fall weekends\, at Ro
+ bbers Cave State Park.\nhttps://jcow1den.github.io/seok-events/#e011
+LOCATION:Robbers Cave State Park\, 2084 NW 146th Rd\, Wilburton\, OK
+URL:https://jcow1den.github.io/seok-events/#e011
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e012@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:Friday Night Karaoke (8:00 PM – last call)
+DESCRIPTION:8:00 PM – last call\nKaraoke night whether you like to sing 
+ or not.\nConfirm details with the host before you go.\nhttps://jcow1den.g
+ ithub.io/seok-events/#e012
+LOCATION:The Moon\, 12986 State Hwy 9 E\, Longtown\, OK
+URL:https://jcow1den.github.io/seok-events/#e012
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e013@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261018
+SUMMARY:20th Annual Poteau BalloonFest
+DESCRIPTION:Fri & Sat\nHot air balloons fly mornings and evenings\, weathe
+ r permitting\, with a balloon glow after sunset and tethered rides starti
+ ng around 7 PM.\nhttps://jcow1den.github.io/seok-events/#e013
+LOCATION:LeFlore County Fairgrounds\, 1509 S Broadway St\, Poteau\, OK 749
+ 53
+URL:https://jcow1den.github.io/seok-events/#e013
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e014@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261018
+SUMMARY:Choctaw Cultural Center Fall Festival
+DESCRIPTION:10:00 AM – 5:00 PM both days\nTwo-day fall festival at the C
+ hoctaw Cultural Center. Free.\nhttps://jcow1den.github.io/seok-events/#e0
+ 14
+LOCATION:Choctaw Cultural Center\, 1919 Hina Hanta Way\, Calera\, OK 74730
+URL:https://jcow1den.github.io/seok-events/#e014
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e015@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:SE Oklahoma Artifact Show (8:00 AM – 5:00 PM)
+DESCRIPTION:8:00 AM – 5:00 PM\nNative American artifact show at the Sout
+ heast Expo Center.\nhttps://jcow1den.github.io/seok-events/#e015
+LOCATION:Southeast Expo Center\, 4500 W US-270\, McAlester\, OK 74501
+URL:https://jcow1den.github.io/seok-events/#e015
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e016@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:Sport Bike Saturdays (3:00 – 9:00 PM)
+DESCRIPTION:3:00 – 9:00 PM\nSport bike riders meet up and cruise from Mc
+ Alester to Eufaula.\nConfirm details with the host before you go.\nhttps:
+ //jcow1den.github.io/seok-events/#e016
+LOCATION:QuikTrip\, 1719 N George Nigh Expy\, McAlester\, OK
+URL:https://jcow1den.github.io/seok-events/#e016
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e017@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:TeenTober: Odd Squad Working on Signatures (3:30 – 5:30 PM)
+DESCRIPTION:3:30 – 5:30 PM\nA signature workshop just for teens.\nConfir
+ m details with the host before you go.\nhttps://jcow1den.github.io/seok-e
+ vents/#e017
+LOCATION:McAlester Public Library\, 401 N 2nd St\, McAlester\, OK
+URL:https://jcow1den.github.io/seok-events/#e017
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e018@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:Austin Duplantis Live (8:00 PM)
+DESCRIPTION:8:00 PM\nSinger Austin Duplantis plays live.\nConfirm details 
+ with the host before you go.\nhttps://jcow1den.github.io/seok-events/#e01
+ 8
+LOCATION:The Shop\, 601 N Hinckley\, Holdenville\, OK
+URL:https://jcow1den.github.io/seok-events/#e018
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e019@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:Simmer Pot Crafting (1:00 PM)
+DESCRIPTION:1:00 PM\nHands-on autumn simmer pot workshop led by Moonbaby S
+ oap's Apothecary.\nConfirm details with the host before you go.\nhttps://
+ jcow1den.github.io/seok-events/#e019
+LOCATION:Prairie Witch Coffee\, 813 E 6th St\, Okmulgee\, OK
+URL:https://jcow1den.github.io/seok-events/#e019
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e020@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20261102
+SUMMARY:Hugo Pumpkin Festival
+DESCRIPTION:Sat 12:30 – 7 PM · Sun 1 – 5 PM\, weekends through Nov 1\
+ nPumpkin patch\, hayrides\, and elephant feeding at a retirement ranch fo
+ r Asian elephants. Proceeds support the elephants. $15 ages 3+\, 2 and un
+ der free\; 30% off online in advance.\nhttps://jcow1den.github.io/seok-ev
+ ents/#e020
+LOCATION:Endangered Ark Foundation\, 2657 E 2070 Rd\, Hugo\, OK 74743
+URL:https://jcow1den.github.io/seok-events/#e020
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e021@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:Wynonna Judd: The Hard Truth Tour (Saturday night)
+DESCRIPTION:Saturday night\nGrammy-winning country star Wynonna Judd in co
+ ncert.\nhttps://jcow1den.github.io/seok-events/#e021
+LOCATION:Choctaw Grand Theater\, Choctaw Casino & Resort\, 4216 S Hwy 69/7
+ 5\, Durant\, OK 74701
+URL:https://jcow1den.github.io/seok-events/#e021
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e022@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:Pride of McAlester: Across the Universe (8:00 – 10:00 PM)
+DESCRIPTION:8:00 – 10:00 PM\nCommunity performance of the Pride of McAle
+ ster's 2026 marching show\, Across the Universe.\nhttps://jcow1den.github
+ .io/seok-events/#e022
+LOCATION:Hook Eales Stadium\, 1261 N 6th St\, McAlester\, OK 74501
+URL:https://jcow1den.github.io/seok-events/#e022
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e023@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:Heritage Hills Halloween Carnival (4:30 – 7:00 PM)
+DESCRIPTION:4:30 – 7:00 PM\nHalloween carnival for the community at Heri
+ tage Hills.\nhttps://jcow1den.github.io/seok-events/#e023
+LOCATION:Heritage Hills Living Center\, 411 N West St\, McAlester\, OK 745
+ 01
+URL:https://jcow1den.github.io/seok-events/#e023
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e024@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:Big Boogie (10:00 PM)
+DESCRIPTION:10:00 PM\nMemphis rapper Big Boogie live in Hochatown.\nhttps:
+ //jcow1den.github.io/seok-events/#e024
+LOCATION:Hochatown Saloon\, Outside Stage\, 28 Old Hochatown Rd\, Broken B
+ ow\, OK 74728
+URL:https://jcow1den.github.io/seok-events/#e024
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e025@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:Wewoka Sorghum Festival (8:00 AM – 5:00 PM)
+DESCRIPTION:8:00 AM – 5:00 PM\n51st annual festival honoring sorghum\, w
+ ith vendors\, Native and cultural food\, a parade\, a 5K\, and a car show
+ . Free.\nhttps://jcow1den.github.io/seok-events/#e025
+LOCATION:Seminole Nation Museum\, 524 S Wewoka Ave\, Wewoka\, OK
+URL:https://jcow1den.github.io/seok-events/#e025
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e026@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:Rabies Vaccine Clinic & Pet Blessing (9:00 AM)
+DESCRIPTION:9:00 AM\nLow-cost rabies vaccinations plus a pet blessing.\nCo
+ nfirm details with the host before you go.\nhttps://jcow1den.github.io/se
+ ok-events/#e026
+LOCATION:All Saints Episcopal Church\, 325 E Washington Ave\, McAlester\, 
+ OK
+URL:https://jcow1den.github.io/seok-events/#e026
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e027@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:Jordie Lane Live (7:00 PM)
+DESCRIPTION:7:00 PM\nSpotlight Series show with Nashville-based Australian
+  singer-songwriter Jordie Lane.\nhttps://jcow1den.github.io/seok-events/#
+ e027
+LOCATION:Spaceship Earth Coffee Co\, 345 E Choctaw Ave\, McAlester\, OK
+URL:https://jcow1den.github.io/seok-events/#e027
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e028@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:America's Guardians Haunted House (7:00 – 10:30 PM)
+DESCRIPTION:7:00 – 10:30 PM\nHalloween haunted house fundraiser. $5. Als
+ o open Oct 31.\nConfirm details with the host before you go.\nhttps://jco
+ w1den.github.io/seok-events/#e028
+LOCATION:America's Guardians Haunted House\, 420 W Main St\, Henryetta\, O
+ K
+URL:https://jcow1den.github.io/seok-events/#e028
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e029@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261026
+SUMMARY:McAlester Gun Show
+DESCRIPTION:Sat 9 AM – 5 PM · Sun 10 AM – 4 PM\nFirearms\, knives\, a
+ mmo\, and accessories. $10\, veterans $9\, 12 and under free\; good both 
+ days.\nConfirm details with the host before you go.\nhttps://jcow1den.git
+ hub.io/seok-events/#e029
+LOCATION:Southeast Expo Center\, 4500 W US-270\, McAlester\, OK 74501
+URL:https://jcow1den.github.io/seok-events/#e029
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e030@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:The Forge Car Show & Fall Festival (8:00 AM – 6:00 PM)
+DESCRIPTION:8:00 AM – 6:00 PM\nCar show and fall festival at First Assem
+ bly of God.\nhttps://jcow1den.github.io/seok-events/#e030
+LOCATION:First Assembly of God\, 1800 Hardy Springs Rd\, McAlester\, OK 74
+ 501
+URL:https://jcow1den.github.io/seok-events/#e030
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e031@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:Fall in Love with Quilts Quilt Show (9:00 AM – 4:00 PM)
+DESCRIPTION:9:00 AM – 4:00 PM\nAnnual quilt show at the Southeast Expo C
+ enter.\nhttps://jcow1den.github.io/seok-events/#e031
+LOCATION:Southeast Expo Center\, 4500 W US-270\, McAlester\, OK 74501
+URL:https://jcow1den.github.io/seok-events/#e031
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e032@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:The CarnEVIL Ball (8:00 PM – midnight)
+DESCRIPTION:8:00 PM – midnight\nHalloween masquerade ball at the Southea
+ st Expo Center.\nhttps://jcow1den.github.io/seok-events/#e032
+LOCATION:Southeast Expo Center\, 4500 W US-270\, McAlester\, OK 74501
+URL:https://jcow1den.github.io/seok-events/#e032
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e033@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261026
+SUMMARY:Toby Keith Foundation Bass Tournament
+DESCRIPTION:Sat – Sun\nLake Eufaula fishing tournament benefiting the To
+ by Keith Foundation.\nhttps://jcow1den.github.io/seok-events/#e033
+LOCATION:Tumbleweed's Steakhouse on the Water\, 400 1/2 Lakeshore Dr\, Euf
+ aula\, OK 74432
+URL:https://jcow1den.github.io/seok-events/#e033
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e035@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:Halloween Trick or Treat (6:00 PM)
+DESCRIPTION:6:00 PM\nFree Halloween trick-or-treat at the Choctaw Cultural
+  Center.\nhttps://jcow1den.github.io/seok-events/#e035
+LOCATION:Choctaw Cultural Center\, 1919 Hina Hanta Way\, Calera\, OK 74730
+URL:https://jcow1den.github.io/seok-events/#e035
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e036@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:Adventure Head Start Trunk or Treat (5:00 – 7:00 PM)
+DESCRIPTION:5:00 – 7:00 PM\nHalloween trunk or treat for kids in costume
+ .\nhttps://jcow1den.github.io/seok-events/#e036
+LOCATION:Adventure Head Start\, 1615 S George Nigh Expy\, McAlester\, OK 7
+ 4501
+URL:https://jcow1den.github.io/seok-events/#e036
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e037@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:Trunk or Treat: Party at the Expo (5:00 – 8:00 PM)
+DESCRIPTION:5:00 – 8:00 PM\nIndoor Halloween party at the Expo with trun
+ k or treat.\nhttps://jcow1den.github.io/seok-events/#e037
+LOCATION:Southeast Expo Center\, 4500 W US-270\, McAlester\, OK 74501
+URL:https://jcow1den.github.io/seok-events/#e037
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e039@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Trick-or-Trot 5K & Fun Run (7:00 AM)
+DESCRIPTION:7:00 AM\nHalloween-themed 5K and fun run.\nConfirm details wit
+ h the host before you go.\nhttps://jcow1den.github.io/seok-events/#e039
+LOCATION:Wintersmith Park\, 1621 Wintersmith Dr\, Ada\, OK
+URL:https://jcow1den.github.io/seok-events/#e039
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e040@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Witches of East End Samhain Festival (3:00 PM)
+DESCRIPTION:3:00 PM\n2nd annual Samhain and Halloween festival.\nConfirm d
+ etails with the host before you go.\nhttps://jcow1den.github.io/seok-even
+ ts/#e040
+LOCATION:Witches of East End\, 1825 N Broadway Ave\, Ada\, OK
+URL:https://jcow1den.github.io/seok-events/#e040
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e041@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:PCFM Trunk or Treat (4:00 – 6:00 PM)
+DESCRIPTION:4:00 – 6:00 PM\n3rd annual downtown trunk or treat at the fa
+ rmers market.\nhttps://jcow1den.github.io/seok-events/#e041
+LOCATION:Pittsburg County Farmers Market\, 11 N Main St\, McAlester\, OK
+URL:https://jcow1den.github.io/seok-events/#e041
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e043@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:America's Guardians Haunted House (7:00 – 10:30 PM)
+DESCRIPTION:7:00 – 10:30 PM\nHalloween haunted house fundraiser. $5.\nCo
+ nfirm details with the host before you go.\nhttps://jcow1den.github.io/se
+ ok-events/#e043
+LOCATION:America's Guardians Haunted House\, 420 W Main St\, Henryetta\, O
+ K
+URL:https://jcow1den.github.io/seok-events/#e043
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e044@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Vampire Ball: Siege Ada (9:00 PM)
+DESCRIPTION:9:00 PM\nHalloween vampire-themed ball.\nConfirm details with 
+ the host before you go.\nhttps://jcow1den.github.io/seok-events/#e044
+LOCATION:1606 Arlington St\, 1606 Arlington St\, Ada\, OK
+URL:https://jcow1den.github.io/seok-events/#e044
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e045@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Trunk or Treat at Choctaw Landing (5:30 – 8:30 PM)
+DESCRIPTION:5:30 – 8:30 PM\nHalloween trunk or treat with the Broken Bow
+  Area Chamber of Commerce.\nConfirm details with the host before you go.\
+ nhttps://jcow1den.github.io/seok-events/#e045
+LOCATION:Choctaw Landing\, 272 N State Hwy 259A\, Broken Bow\, OK 74728
+URL:https://jcow1den.github.io/seok-events/#e045
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e046@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Halloween Glow Party (7:00 – 10:00 PM)
+DESCRIPTION:7:00 – 10:00 PM\nHalloween glow skating party at The Roller 
+ Dome.\nhttps://jcow1den.github.io/seok-events/#e046
+LOCATION:The Roller Dome\, 1209 S George Nigh Expy\, McAlester\, OK 74501
+URL:https://jcow1den.github.io/seok-events/#e046
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e047@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261109
+SUMMARY:Choctaw Powwow
+DESCRIPTION:Fri doors 1 PM\, Grand Entry 7 PM · Sat & Sun from 10 AM\nOne
+  of the nation's largest powwows: gourd dancing\, Grand Entries\, dance a
+ nd drum contests\, and Choctaw hymns Sunday. Free.\nhttps://jcow1den.gith
+ ub.io/seok-events/#e047
+LOCATION:Choctaw Event Center\, 3702 Choctaw Rd\, Durant\, OK 74701
+URL:https://jcow1den.github.io/seok-events/#e047
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e048@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:Olde Town Flea Market (8:00 AM)
+DESCRIPTION:8:00 AM\nFirst-Saturday flea market with vintage finds and han
+ dmade goods.\nConfirm details with the host before you go.\nhttps://jcow1
+ den.github.io/seok-events/#e048
+LOCATION:Olde Town Flea Market\, 2645 N Main St\, McAlester\, OK
+URL:https://jcow1den.github.io/seok-events/#e048
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e049@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:Dancing Rabbit Music Festival Finale (6:00 – 11:30 PM)
+DESCRIPTION:6:00 – 11:30 PM\nFree outdoor music festival downtown on Cho
+ ctaw Avenue.\nhttps://jcow1den.github.io/seok-events/#e049
+LOCATION:East Choctaw Ave\, E Choctaw Ave\, McAlester\, OK
+URL:https://jcow1den.github.io/seok-events/#e049
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e050@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:Bitters and Etchings Cocktail Experience (5:00 PM)
+DESCRIPTION:5:00 PM\nHands-on cocktail-making experience.\nConfirm details
+  with the host before you go.\nhttps://jcow1den.github.io/seok-events/#e0
+ 50
+LOCATION:Bitters and Etchings\, 223 W Main St\, Ada\, OK
+URL:https://jcow1den.github.io/seok-events/#e050
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e051@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:Ribtoberfest: Hawgs n' Hens (8:00 AM – 6:00 PM)
+DESCRIPTION:8:00 AM – 6:00 PM\nGrillmarks Series BBQ competition downtow
+ n: pork ribs and chicken wings\, with public sampling and People's Choice
+  voting.\nhttps://jcow1den.github.io/seok-events/#e051
+LOCATION:East Choctaw Ave\, E Choctaw Ave\, McAlester\, OK
+URL:https://jcow1den.github.io/seok-events/#e051
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e052@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:Jinglebell Market (9:00 AM – 4:00 PM)
+DESCRIPTION:9:00 AM – 4:00 PM\nHoliday shopping market at the Southeast 
+ Expo Center.\nhttps://jcow1den.github.io/seok-events/#e052
+LOCATION:Southeast Expo Center\, 4500 W US-270\, McAlester\, OK 74501
+URL:https://jcow1den.github.io/seok-events/#e052
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e053@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:Sundance Head (10:00 PM)
+DESCRIPTION:10:00 PM\nLive country at Hochatown Saloon.\nhttps://jcow1den.
+ github.io/seok-events/#e053
+LOCATION:Hochatown Saloon\, 28 Old Hochatown Rd\, Broken Bow\, OK 74728
+URL:https://jcow1den.github.io/seok-events/#e053
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e055@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Clay Walker (8:00 PM)
+DESCRIPTION:8:00 PM\nCountry star Clay Walker in concert.\nhttps://jcow1de
+ n.github.io/seok-events/#e055
+LOCATION:Choctaw Grand Theater\, Choctaw Casino & Resort\, 4216 S Hwy 69/7
+ 5\, Durant\, OK 74701
+URL:https://jcow1den.github.io/seok-events/#e055
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e056@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Aaron Watson (10:00 PM)
+DESCRIPTION:10:00 PM\nTexas country artist Aaron Watson\, with Jake Watson
+ .\nhttps://jcow1den.github.io/seok-events/#e056
+LOCATION:Hochatown Saloon\, 28 Old Hochatown Rd\, Broken Bow\, OK 74728
+URL:https://jcow1den.github.io/seok-events/#e056
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e101@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:General Knowledge Trivia (7:00 – 9:15 PM)
+DESCRIPTION:7:00 – 9:15 PM\nTrivia night downtown.\nhttps://jcow1den.git
+ hub.io/seok-events/#e101
+LOCATION:Spaceship Earth Coffee Co\, 345 E Choctaw Ave\, McAlester\, OK
+URL:https://jcow1den.github.io/seok-events/#e101
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e102@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:Karaoke Night (8:00 PM)
+DESCRIPTION:8:00 PM\nFree karaoke downtown.\nhttps://jcow1den.github.io/se
+ ok-events/#e102
+LOCATION:Spaceship Earth Coffee Co\, 345 E Choctaw Ave\, McAlester\, OK
+URL:https://jcow1den.github.io/seok-events/#e102
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e103@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+SUMMARY:Autumn Ragland Live (6:30 – 10:00 PM)
+DESCRIPTION:6:30 – 10:00 PM\nLive music with Autumn Ragland.\nhttps://jc
+ ow1den.github.io/seok-events/#e103
+LOCATION:DWNTWN 312\, McAlester\, OK
+URL:https://jcow1den.github.io/seok-events/#e103
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e104@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:Boos & Brews Costume Party (7:00 – 9:00 PM)
+DESCRIPTION:7:00 – 9:00 PM\nHalloween costume party at BierKraft.\nhttps
+ ://jcow1den.github.io/seok-events/#e104
+LOCATION:BierKraft\, McAlester\, OK
+URL:https://jcow1den.github.io/seok-events/#e104
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e105@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:TJ Wicks Live (6:00 – 8:00 PM)
+DESCRIPTION:6:00 – 8:00 PM\nLive music with TJ Wicks.\nhttps://jcow1den.
+ github.io/seok-events/#e105
+LOCATION:BierKraft\, McAlester\, OK
+URL:https://jcow1den.github.io/seok-events/#e105
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e106@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:David Nail: Down to the Studs (8:00 – 10:00 PM)
+DESCRIPTION:8:00 – 10:00 PM\nCountry singer David Nail in concert\, bene
+ fiting Compassion 365.\nhttps://jcow1den.github.io/seok-events/#e106
+LOCATION:Compassion 365\, McAlester\, OK
+URL:https://jcow1den.github.io/seok-events/#e106
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e107@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:Bottomland (10:00 PM)
+DESCRIPTION:10:00 PM\nLive music at Hochatown Saloon.\nhttps://jcow1den.gi
+ thub.io/seok-events/#e107
+LOCATION:Hochatown Saloon\, 28 Old Hochatown Rd\, Broken Bow\, OK 74728
+URL:https://jcow1den.github.io/seok-events/#e107
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e108@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:Dustin de la Garza (10:00 PM)
+DESCRIPTION:10:00 PM\nLive music at Hochatown Saloon.\nhttps://jcow1den.gi
+ thub.io/seok-events/#e108
+LOCATION:Hochatown Saloon\, 28 Old Hochatown Rd\, Broken Bow\, OK 74728
+URL:https://jcow1den.github.io/seok-events/#e108
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e109@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Logan Ryan Band (10:00 PM)
+DESCRIPTION:10:00 PM\nLive music at Hochatown Saloon.\nhttps://jcow1den.gi
+ thub.io/seok-events/#e109
+LOCATION:Hochatown Saloon\, 28 Old Hochatown Rd\, Broken Bow\, OK 74728
+URL:https://jcow1den.github.io/seok-events/#e109
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e110@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261108
+SUMMARY:Talihina Fall Festival
+DESCRIPTION:9:00 AM – 4:00 PM both days\nLive music\, local vendors\, fo
+ od trucks\, a car show\, quilt show\, kite show\, kids' activities\, and 
+ fire department demonstrations. Free. Drive the Talimena Scenic Drive whi
+ le you're there.\nhttps://jcow1den.github.io/seok-events/#e110
+LOCATION:Talihina Ag Building\, 803 Railroad St\, Talihina\, OK 74571
+URL:https://jcow1den.github.io/seok-events/#e110
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e111@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:Cinema at the Center: Monsters\, Inc. (1:00 PM)
+DESCRIPTION:1:00 PM\nFree family movie at the Choctaw Cultural Center.\nht
+ tps://jcow1den.github.io/seok-events/#e111
+LOCATION:Choctaw Cultural Center\, 1919 Hina Hanta Way\, Calera\, OK 74730
+URL:https://jcow1den.github.io/seok-events/#e111
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e112@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:Susie McEntire-Eaton\, Mark Eaton & Clay Edwards (Time TBA)
+DESCRIPTION:Time TBA\nLive music downtown Atoka.\nConfirm details with the
+  host before you go.\nhttps://jcow1den.github.io/seok-events/#e112
+LOCATION:301 E Court St\, 301 E Court St\, Atoka\, OK
+URL:https://jcow1den.github.io/seok-events/#e112
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e113@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:Will Wesley Live (5:00 – 8:00 PM)
+DESCRIPTION:5:00 – 8:00 PM\nLive music downtown Atoka.\nConfirm details 
+ with the host before you go.\nhttps://jcow1den.github.io/seok-events/#e11
+ 3
+LOCATION:301 E Court St\, 301 E Court St\, Atoka\, OK
+URL:https://jcow1den.github.io/seok-events/#e113
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e114@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:The Broke Teachers (5:00 – 8:00 PM)
+DESCRIPTION:5:00 – 8:00 PM\nLive music downtown Atoka.\nConfirm details 
+ with the host before you go.\nhttps://jcow1den.github.io/seok-events/#e11
+ 4
+LOCATION:301 E Court St\, 301 E Court St\, Atoka\, OK
+URL:https://jcow1den.github.io/seok-events/#e114
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e115@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:Callie Crawford Live (5:00 – 8:00 PM)
+DESCRIPTION:5:00 – 8:00 PM\nLive music downtown Atoka.\nConfirm details 
+ with the host before you go.\nhttps://jcow1den.github.io/seok-events/#e11
+ 5
+LOCATION:301 E Court St\, 301 E Court St\, Atoka\, OK
+URL:https://jcow1den.github.io/seok-events/#e115
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e116@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Braxton Gage Live (5:00 – 8:00 PM)
+DESCRIPTION:5:00 – 8:00 PM\nLive music downtown Atoka.\nConfirm details 
+ with the host before you go.\nhttps://jcow1den.github.io/seok-events/#e11
+ 6
+LOCATION:301 E Court St\, 301 E Court St\, Atoka\, OK
+URL:https://jcow1den.github.io/seok-events/#e116
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e117@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:Travis Tritt & The Frontmen (8:00 PM · doors 6:30)
+DESCRIPTION:8:00 PM · doors 6:30\nCountry legend Travis Tritt with The Fr
+ ontmen. Tickets from about $64.\nhttps://jcow1den.github.io/seok-events/#
+ e117
+LOCATION:Choctaw Grand Theater\, Choctaw Casino & Resort\, 4216 S Hwy 69/7
+ 5\, Durant\, OK 74701
+URL:https://jcow1den.github.io/seok-events/#e117
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e118@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:Gretchen Wilson (8:00 PM · doors 7:00)
+DESCRIPTION:8:00 PM · doors 7:00\nGrammy-winning country singer behind "R
+ edneck Woman." Tickets from about $53 through Ticketmaster.\nhttps://jcow
+ 1den.github.io/seok-events/#e118
+LOCATION:Choctaw Casino & Resort – Pocola\, 3400 Choctaw Rd\, Pocola\, O
+ K 74902
+URL:https://jcow1den.github.io/seok-events/#e118
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e119@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:Lewis Black (8:00 PM · doors 7:00)
+DESCRIPTION:8:00 PM · doors 7:00\nStand-up from Grammy-winning comedian L
+ ewis Black. Tickets from about $74 through Ticketmaster.\nhttps://jcow1de
+ n.github.io/seok-events/#e119
+LOCATION:Choctaw Casino & Resort – Pocola\, 3400 Choctaw Rd\, Pocola\, O
+ K 74902
+URL:https://jcow1den.github.io/seok-events/#e119
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e120@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:Hog Hunters Fishing Tournament (All day)
+DESCRIPTION:All day\nFishing tournament on Lake Eufaula. Check with the Ci
+ ty of Eufaula for the launch site and entry details.\nhttps://jcow1den.gi
+ thub.io/seok-events/#e120
+LOCATION:Lake Eufaula\, Eufaula\, OK
+URL:https://jcow1den.github.io/seok-events/#e120
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e121@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:Jordan Rainer Live (7:00 PM)
+DESCRIPTION:7:00 PM\nAtoka-raised Chickasaw singer-songwriter\, a four-cha
+ ir turn on NBC's The Voice. Tickets $15–$25.\nhttps://jcow1den.github.i
+ o/seok-events/#e121
+LOCATION:McSwain Theatre\, 130 W Main St\, Ada\, OK 74820
+URL:https://jcow1den.github.io/seok-events/#e121
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e122@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:Stigler Fall Festival & Highway 9 Rod Fest (9:00 AM – 3:00 PM)
+DESCRIPTION:9:00 AM – 3:00 PM\nFall festival downtown with vendors\, foo
+ d\, live music\, and a kids' area.\nConfirm details with the host before 
+ you go.\nhttps://jcow1den.github.io/seok-events/#e122
+LOCATION:Downtown Stigler\, Stigler\, OK
+URL:https://jcow1den.github.io/seok-events/#e122
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e123@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:The Williamsons Gospel Concert (6:00 PM)
+DESCRIPTION:6:00 PM\nGospel music with The Williamsons.\nConfirm details w
+ ith the host before you go.\nhttps://jcow1den.github.io/seok-events/#e123
+LOCATION:Eufaula First Free Will Baptist Church\, Eufaula\, OK
+URL:https://jcow1den.github.io/seok-events/#e123
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e124@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:Trends & Treasures Craft Fair (Time TBA)
+DESCRIPTION:Time TBA\nSmall-town craft fair with local artists and growers
+ \, plus a food truck.\nConfirm details with the host before you go.\nhttp
+ s://jcow1den.github.io/seok-events/#e124
+LOCATION:Trends & Treasures\, 510 W Gentry Ave\, Checotah\, OK
+URL:https://jcow1den.github.io/seok-events/#e124
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e125@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:Adopt-A-Block Downtown Cleanup (9:00 AM)
+DESCRIPTION:9:00 AM\nSunday morning volunteer trash pickup downtown.\nhttp
+ s://jcow1den.github.io/seok-events/#e125
+LOCATION:Downtown McAlester\, 340 E Choctaw Ave\, McAlester\, OK
+URL:https://jcow1den.github.io/seok-events/#e125
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e126@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261116
+SUMMARY:Beavers Bend Folk Festival & Craft Show
+DESCRIPTION:Fri & Sat 9 AM – 5 PM · Sun 10 AM – 4 PM\nHandmade crafts
+  and old-time craft demonstrations\, folk and Celtic music\, food\, a pet
+ ting zoo\, and kids' activities.\nConfirm details with the host before yo
+ u go.\nhttps://jcow1den.github.io/seok-events/#e126
+LOCATION:Forest Heritage Center\, Beavers Bend State Park\, Beavers Bend S
+ tate Park\, Broken Bow\, OK
+URL:https://jcow1den.github.io/seok-events/#e126
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e127@seok-events
+DTSTAMP:20261015T194830Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Bayker Blankenship with Read Southall & Caroline Grace (Evening)
+DESCRIPTION:Evening\nCountry triple bill at the Choctaw Grand Theater.\nht
+ tps://jcow1den.github.io/seok-events/#e127
+LOCATION:Choctaw Grand Theater\, Choctaw Casino & Resort\, 4216 S Hwy 69/7
+ 5\, Durant\, OK 74701
+URL:https://jcow1den.github.io/seok-events/#e127
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
