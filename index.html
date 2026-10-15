@@ -1,0 +1,489 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="Festivals, live music, markets, and community events across southeast Oklahoma, from McAlester to Durant to Broken Bow.">
+<meta property="og:title" content="Southeast Oklahoma Events">
+<meta property="og:description" content="What's happening this week from McAlester to Durant to Broken Bow. Filter by your town.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://jcow1den.github.io/seok-events/">
+<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+</head>
+<body>
+<title>Southeast Oklahoma Events</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Figtree:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: a dusk-over-the-Kiamichis masthead, then one scannable column of day groups; condensed highway-sign type for names and dates */
+:root{
+  --bg:#edf0ec; --surface:#ffffff; --raised:#f6f8f5; --ink:#17201b; --muted:#56625a; --line:#d5ddd6;
+  --pine:#1d4a37; --pine-ink:#ffffff; --clay:#b4461d;
+  --sky-top:#c9ddd6; --sky-low:#f3d2a6; --ridge1:#7fa58e; --ridge2:#3f7259; --ridge3:#1d4a37; --hero-ink:#ffffff;
+  --c-festivals:#b4461d; --c-music:#6346a0; --c-markets:#2b7a55; --c-community:#24679a; --c-sports:#9a7413;
+  --chip:#e1e7e2; --on-cat:#ffffff; --sponsor:#fbf7ee; --sponsor-line:#e6d8b8;
+  --display:"Barlow Condensed","Arial Narrow",Arial,sans-serif;
+  --body:"Figtree",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --r:10px;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0f1412; --surface:#181e1b; --raised:#1e2521; --ink:#e6ece7; --muted:#97a39b; --line:#2a332e;
+  --pine:#69b58f; --pine-ink:#0c1510; --clay:#ee8c60;
+  --sky-top:#1b2b33; --sky-low:#5b3a2a; --ridge1:#2b4237; --ridge2:#1c3128; --ridge3:#121d18; --hero-ink:#f2efe6;
+  --c-festivals:#ee8c60; --c-music:#a993e0; --c-markets:#62c08e; --c-community:#6fb0e0; --c-sports:#e0b84f;
+  --chip:#232b27; --on-cat:#10140f; --sponsor:#1f1d16; --sponsor-line:#4a4130; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f1412; --surface:#181e1b; --raised:#1e2521; --ink:#e6ece7; --muted:#97a39b; --line:#2a332e;
+  --pine:#69b58f; --pine-ink:#0c1510; --clay:#ee8c60;
+  --sky-top:#1b2b33; --sky-low:#5b3a2a; --ridge1:#2b4237; --ridge2:#1c3128; --ridge3:#121d18; --hero-ink:#f2efe6;
+  --c-festivals:#ee8c60; --c-music:#a993e0; --c-markets:#62c08e; --c-community:#6fb0e0; --c-sports:#e0b84f;
+  --chip:#232b27; --on-cat:#10140f; --sponsor:#1f1d16; --sponsor-line:#4a4130; color-scheme:dark}
+
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.5}
+.gut{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.wrap{max-width:760px;margin-inline:auto}
+button,input,select,textarea{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--clay);outline-offset:2px}
+
+/* Masthead */
+.hero{position:relative;background:linear-gradient(180deg,var(--sky-top) 0%,var(--sky-low) 62%,var(--sky-low) 100%);overflow:hidden}
+.hero .wrap{position:relative;z-index:2;padding-block:26px 0;display:grid;gap:8px}
+.badge{justify-self:start;display:inline-flex;align-items:center;gap:6px;background:var(--pine);color:var(--pine-ink);
+  font:700 13px/1 var(--display);letter-spacing:.1em;text-transform:uppercase;padding:6px 10px 5px;border-radius:4px}
+.hero h1{margin:4px 0 0;font:800 clamp(40px,11vw,68px)/.92 var(--display);text-transform:uppercase;letter-spacing:-.01em;color:var(--ink);text-wrap:balance}
+.hero h1 span{display:block;color:var(--pine)}
+.hero p.lede{margin:2px 0 0;color:var(--ink);opacity:.82;max-width:44ch;font-weight:500}
+.ridges{display:block;width:100%;height:auto;margin-top:-6px;position:relative;z-index:1}
+.ridges .r1{fill:var(--ridge1)} .ridges .r2{fill:var(--ridge2)} .ridges .r3{fill:var(--ridge3)}
+.under{background:var(--ridge3);color:var(--hero-ink)}
+.under .wrap{padding-block:2px 18px;display:grid;gap:12px}
+.stats{display:flex;gap:18px;flex-wrap:wrap;font-variant-numeric:tabular-nums}
+.stat b{display:block;font:800 30px/1 var(--display)}
+.stat span{font-size:12px;letter-spacing:.06em;text-transform:uppercase;opacity:.8}
+.search{display:flex;align-items:center;gap:8px;background:var(--surface);color:var(--ink);border-radius:999px;padding:4px 6px 4px 14px;box-shadow:0 2px 10px rgba(0,0,0,.18)}
+.search svg{flex:none;width:18px;height:18px;stroke:var(--muted)}
+.search input{flex:1;min-width:0;border:0;background:transparent;padding:10px 0;font-size:16px;outline:none}
+.search select{flex:none;border:0;background:var(--chip);border-radius:999px;padding:9px 10px;font-weight:600;font-size:14px;max-width:46%}
+
+.from{display:flex;align-items:center;gap:8px;font-size:14px;font-weight:600;flex-wrap:wrap}
+.from svg{width:18px;height:18px;stroke:currentColor;flex:none}
+.under .from select{background:transparent;color:var(--hero-ink);border:1px solid color-mix(in srgb,var(--hero-ink) 40%,transparent);border-radius:999px;padding:7px 12px;font-weight:700;font-size:15px;max-width:100%}
+.from select option{color:#17201b;background:#fff}
+.mi{color:var(--ink);font-variant-numeric:tabular-nums}
+/* Filter bar */
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:10;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.bar .wrap{padding-block:10px;display:grid;gap:8px}
+.row{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;padding-bottom:1px}
+.row::-webkit-scrollbar{display:none}
+.chip{flex:none;display:inline-flex;align-items:center;gap:6px;border:0;border-radius:999px;background:var(--chip);color:var(--ink);font-weight:600;font-size:14px;padding:8px 13px;min-height:38px;cursor:pointer;white-space:nowrap}
+.chip svg{width:16px;height:16px}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
+
+main{display:grid;grid-template-columns:minmax(0,1fr);gap:30px;padding-block:22px 36px}
+.under .wrap,.hero .wrap,.bar .wrap{grid-template-columns:minmax(0,1fr)}
+.from select{min-width:0;flex:1 1 160px}
+.search select{min-width:0}
+.sec-h{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin:0 0 12px}
+.sec-h h2{margin:0;font:800 26px/1 var(--display);text-transform:uppercase;letter-spacing:.01em}
+.sec-h small{color:var(--muted);font-weight:600}
+
+/* Weekend highlights */
+.rail{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:6px;scrollbar-width:thin}
+.poster{flex:0 0 min(78%,300px);scroll-snap-align:start;border-radius:var(--r);background:var(--surface);border:1px solid var(--line);
+  display:grid;grid-template-rows:auto 1fr;overflow:hidden;text-align:left;cursor:pointer;padding:0;color:var(--ink)}
+.poster .top{background:var(--cat);color:var(--on-cat);padding:12px 14px 10px;display:flex;justify-content:space-between;align-items:flex-end;gap:8px}
+.poster .top .d{font:800 30px/.9 var(--display);text-transform:uppercase}
+.poster .top .d small{display:block;font-size:13px;letter-spacing:.08em;opacity:.9}
+.poster .top svg{width:28px;height:28px;opacity:.9;flex:none}
+.poster .bd{padding:12px 14px 14px;display:grid;gap:4px;align-content:start}
+.poster .t{font-weight:700;font-size:17px;line-height:1.25;text-wrap:balance}
+.poster .m{color:var(--muted);font-size:14px}
+
+/* Day groups */
+.day{display:grid;grid-template-columns:58px 1fr;gap:14px;align-items:start}
+.date{text-align:center;border-radius:8px;overflow:hidden;background:var(--surface);border:1px solid var(--line)}
+.date .m{background:var(--pine);color:var(--pine-ink);font:700 12px/1 var(--display);letter-spacing:.12em;text-transform:uppercase;padding:5px 0 4px}
+.date .n{font:800 28px/1.05 var(--display);padding-top:3px;font-variant-numeric:tabular-nums}
+.date .w{font:700 11px/1 var(--display);letter-spacing:.1em;text-transform:uppercase;color:var(--muted);padding-bottom:6px}
+.col{display:grid;gap:8px;min-width:0}
+.dh{font:700 15px/1.1 var(--display);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:3px 0 4px}
+.dh.today{color:var(--clay)}
+
+details.ev{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);scroll-margin-top:150px}
+details.ev[open]{box-shadow:0 6px 20px rgba(0,0,0,.08)}
+details.ev.featured{border-color:var(--clay)}
+details.ev>summary{list-style:none;cursor:pointer;padding:12px 14px;display:grid;grid-template-columns:36px 1fr;gap:12px;align-items:start}
+details.ev>summary::-webkit-details-marker{display:none}
+.ic{width:36px;height:36px;border-radius:9px;display:grid;place-items:center;background:color-mix(in srgb,var(--cat) 14%,transparent);color:var(--cat)}
+.ic svg{width:20px;height:20px}
+.sm{display:grid;gap:3px;min-width:0}
+.kick{display:flex;gap:8px;flex-wrap:wrap;align-items:center;font-size:11.5px;font-weight:700;letter-spacing:.07em;text-transform:uppercase}
+.kick .c{color:var(--cat)} .kick .a{color:var(--muted)}
+.tag{display:inline-block;border-radius:4px;padding:2px 6px;font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase}
+.tag.free{background:color-mix(in srgb,var(--c-markets) 16%,transparent);color:var(--c-markets)}
+.tag.multi{background:var(--chip);color:var(--ink)}
+.tag.feat{background:var(--clay);color:var(--on-cat)}
+.ti{font-weight:700;font-size:17px;line-height:1.28;text-wrap:balance}
+.wh{color:var(--muted);font-size:14px}
+.body{padding:12px 14px 14px;border-top:1px dashed var(--line);display:grid;gap:12px}
+.body p{margin:0;max-width:62ch}
+.kv{display:grid;grid-template-columns:70px 1fr;gap:3px 10px;font-size:14px;margin:0}
+.kv dt{color:var(--muted);font-weight:600} .kv dd{margin:0;min-width:0}
+.acts{display:flex;gap:8px;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:var(--raised);color:var(--ink);border-radius:8px;padding:9px 12px;font-weight:600;font-size:14px;text-decoration:none;cursor:pointer;min-height:40px}
+.btn svg{width:16px;height:16px}
+.btn.pri{background:var(--pine);border-color:var(--pine);color:var(--pine-ink)}
+.toast{font-size:13px;color:var(--pine);font-weight:600}
+
+/* Sponsor slots (dormant until SPONSORS has entries) */
+.spon{background:var(--sponsor);border:1px solid var(--sponsor-line);border-radius:var(--r);padding:14px 16px;display:grid;grid-template-columns:auto 1fr;gap:4px 14px;align-items:center;text-decoration:none;color:var(--ink)}
+.spon .lab{grid-column:1/-1;font:700 11px/1 var(--display);letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.spon .logo{width:52px;height:52px;border-radius:8px;background:var(--surface);display:grid;place-items:center;overflow:hidden;font:800 20px/1 var(--display);color:var(--pine)}
+.spon .logo img{width:100%;height:100%;object-fit:cover}
+.spon b{display:block;font-size:16px} .spon span{color:var(--muted);font-size:14px}
+.spon.invite{border-style:dashed;background:transparent}
+
+.empty{padding:28px;text-align:center;color:var(--muted);background:var(--surface);border:1px dashed var(--line);border-radius:var(--r)}
+
+/* Submit + footer */
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:20px;display:grid;gap:14px}
+.panel h2{margin:0;font:800 30px/1 var(--display);text-transform:uppercase}
+.panel p{margin:0;color:var(--muted)}
+form{display:grid;gap:12px}
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media (max-width:520px){.g2{grid-template-columns:1fr}}
+label{display:grid;gap:4px;font-size:14px;font-weight:600;min-width:0}
+input:not(.search input),select:not(.search select),textarea{background:var(--raised);border:1px solid var(--line);border-radius:8px;padding:10px;width:100%;font-size:16px}
+textarea{min-height:84px;resize:vertical}
+.out pre{margin:0;white-space:pre-wrap;background:var(--raised);border:1px solid var(--line);border-radius:8px;padding:12px;font:14px/1.5 var(--body);user-select:all}
+.note{font-size:13px;color:var(--muted)}
+.err{font-size:14px;color:var(--clay);font-weight:600}
+footer{border-top:1px solid var(--line);color:var(--muted);font-size:13px}
+footer .wrap{padding-block:18px 34px;display:grid;gap:6px}
+@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+</style>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-festivals" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v3"/><path d="M12 3l5 2-5 2"/><path d="M3 21l9-14 9 14z"/><path d="M10 21l2-4 2 4"/></symbol>
+  <symbol id="i-music" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></symbol>
+  <symbol id="i-markets" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10h18l-2 10H5z"/><path d="M8 10l4-6 4 6"/><path d="M9 14v3M15 14v3"/></symbol>
+  <symbol id="i-community" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2.5"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><path d="M15 15.5c.6-.3 1.3-.5 2-.5 2.2 0 4 1.8 4 4"/></symbol>
+  <symbol id="i-sports" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21h8M12 17v4"/><path d="M7 4h10v5a5 5 0 0 1-10 0z"/><path d="M17 6h3a3 3 0 0 1-3 4M7 6H4a3 3 0 0 0 3 4"/></symbol>
+  <symbol id="i-all" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 9h18M8 2v4M16 2v4"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s7-6.5 7-12a7 7 0 0 0-14 0c0 5.5 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+  <symbol id="i-cal" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 9h18M8 2v4M16 2v4M12 13v5M9.5 15.5h5"/></symbol>
+  <symbol id="i-share" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a5 5 0 0 0 7 0l3-3a5 5 0 0 0-7-7l-1 1"/><path d="M14 10a5 5 0 0 0-7 0l-3 3a5 5 0 0 0 7 7l1-1"/></symbol>
+  <symbol id="i-search" viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></symbol>
+</svg>
+
+<header class="hero">
+  <div class="wrap gut">
+    <span class="badge">Kiamichi Country · Lake Country</span>
+    <h1>Southeast Oklahoma <span>Events</span></h1>
+    <p class="lede">Festivals, live music, markets, and hometown happenings from McAlester to Durant to Broken Bow, all in one place.</p>
+  </div>
+  <svg class="ridges" viewBox="0 0 1200 170" preserveAspectRatio="none" aria-hidden="true">
+    <path class="r1" d="M0 120 L90 78 L170 98 L260 52 L360 92 L450 60 L560 96 L650 46 L760 88 L860 58 L960 94 L1060 64 L1200 92 L1200 170 L0 170Z"/>
+    <path class="r2" d="M0 138 L110 104 L210 126 L320 86 L430 122 L540 98 L640 128 L750 90 L860 124 L980 100 L1090 128 L1200 108 L1200 170 L0 170Z"/>
+    <path class="r3" d="M0 160 L140 130 L280 152 L420 124 L560 150 L700 128 L840 152 L980 132 L1100 150 L1200 138 L1200 170 L0 170Z"/>
+  </svg>
+  <div class="under">
+    <div class="wrap gut">
+      <div class="stats">
+        <div class="stat"><b id="s-total">0</b><span>Coming up</span></div>
+        <div class="stat"><b id="s-weekend">0</b><span>This weekend</span></div>
+        <div class="stat"><b id="s-towns">0</b><span>Areas covered</span></div>
+      </div>
+      <label class="from" for="from"><svg aria-hidden="true"><use href="#i-pin"/></svg><span>Distances from</span>
+        <select id="from"><option value="">Pick your town</option></select></label>
+      <div class="search" role="search">
+        <svg aria-hidden="true"><use href="#i-search"/></svg>
+        <input id="q" type="search" placeholder="Search events" aria-label="Search events" autocomplete="off">
+        <select id="area" aria-label="Area"></select>
+      </div>
+    </div>
+  </div>
+</header>
+
+<nav class="bar" aria-label="Filter events">
+  <div class="wrap gut">
+    <div class="row" id="when-row" role="group" aria-label="When"></div>
+    <div class="row" id="cat-row" role="group" aria-label="Category"></div>
+    <div class="row" id="dist-row" role="group" aria-label="Distance" hidden></div>
+  </div>
+</nav>
+
+<div class="wrap gut">
+  <main>
+    <section id="hl-sec" aria-labelledby="hl-h">
+      <div class="sec-h"><h2 id="hl-h">Don't miss</h2><small id="hl-sub"></small></div>
+      <div class="rail" id="rail"></div>
+    </section>
+    <div id="area-sponsor"></div>
+    <section aria-labelledby="all-h">
+      <div class="sec-h"><h2 id="all-h">Every event</h2><small id="count"></small></div>
+      <div id="list" style="display:grid;gap:26px" aria-live="polite"></div>
+    </section>
+
+    <section class="panel" id="submit" aria-labelledby="sub-h">
+      <h2 id="sub-h">Got an event?</h2>
+      <p>Listing is free. Fill this out, copy it, and send it to <strong>Southeast Oklahoma Events</strong> on Facebook.</p>
+      <form id="sub-form" novalidate>
+        <label for="f-title">Event name<input id="f-title" maxlength="120"></label>
+        <div class="g2">
+          <label for="f-date">Date<input id="f-date" type="date"></label>
+          <label for="f-time">Time<input id="f-time" placeholder="6:00 – 9:00 PM"></label>
+        </div>
+        <div class="g2">
+          <label for="f-venue">Venue<input id="f-venue" placeholder="Southeast Expo Center"></label>
+          <label for="f-town">Town<input id="f-town" placeholder="McAlester"></label>
+        </div>
+        <label for="f-addr">Street address<input id="f-addr"></label>
+        <div class="g2">
+          <label for="f-cat">Category<select id="f-cat"></select></label>
+          <label for="f-cost">Cost<input id="f-cost" placeholder="Free, $5, $10 at the door"></label>
+        </div>
+        <label for="f-desc">What's happening?<textarea id="f-desc" maxlength="600" placeholder="Who it's for, what to bring, where to park"></textarea></label>
+        <label for="f-contact">Your name or organization<input id="f-contact"></label>
+        <div class="acts"><button class="btn pri" type="submit">Create listing</button></div>
+        <p class="err" id="f-err" role="alert" hidden></p>
+      </form>
+      <div class="out" id="out" hidden style="display:grid;gap:8px">
+        <pre id="out-text"></pre>
+        <div class="acts"><button class="btn pri" type="button" id="copy">Copy listing</button></div>
+        <p class="note" id="copy-note">Paste it into a message to the Southeast Oklahoma Events Facebook page.</p>
+      </div>
+    </section>
+
+    <section class="panel" id="advertise" aria-labelledby="ad-h" hidden>
+      <h2 id="ad-h">Put your business in front of locals</h2>
+      <p>Sponsor your town's listings or feature your event at the top of the page. Message Southeast Oklahoma Events on Facebook for rates.</p>
+    </section>
+  </main>
+</div>
+<footer><div class="wrap gut">
+  <p>Listings come from organizers, venues, chambers of commerce, and libraries across the region. Times change, so check with the host before you drive out. Distances are measured town to town in a straight line, so the drive is usually a little longer.</p>
+  <p>© <span id="yr"></span> Southeast Oklahoma Events</p>
+</div></footer>
+
+<script>
+/* ===== Content ===== */
+const EVENTS = [{"id": "e001", "date": "2026-10-14", "title": "Wilburton Main Street Farmers Market", "category": "markets", "area": "wilburton", "time": "9:00 AM – 1:00 PM", "venue": "Wilburton Main Street", "address": "229 W Main St, Wilburton, OK", "description": "Local farmers, ranchers, bakers, and crafters with fresh produce and handmade goods. Accepts SNAP.", "unconfirmed": true, "lat": 34.9128, "lon": -95.3389}, {"id": "e002", "date": "2026-10-14", "title": "Music & Mahj", "category": "community", "area": "mcalester", "time": "6:00 – 8:00 PM", "venue": "Spaceship Earth Coffee Co", "address": "345 E Choctaw Ave, McAlester, OK", "description": "Mahjong open play plus live music from Good Looks. Expect a full house.", "unconfirmed": true, "lat": 34.9298, "lon": -95.7645}, {"id": "e003", "date": "2026-10-15", "title": "Wiggle Worms: Squirrels", "category": "community", "area": "mcalester", "time": "10:00 – 10:30 AM", "venue": "McAlester Public Library", "address": "401 N 2nd St, McAlester, OK", "description": "Toddler storytime with stories, songs, and lots of wiggling.", "unconfirmed": true, "lat": 34.9298, "lon": -95.7645}, {"id": "e004", "date": "2026-10-15", "title": "Sun City Laundry Ribbon Cutting", "category": "community", "area": "mcalester", "time": "12:00 PM", "venue": "Sun City Laundry", "address": "600 E Wyandotte Ave, McAlester, OK", "description": "Chamber ribbon cutting welcoming Sun City Laundry.", "unconfirmed": true, "lat": 34.9298, "lon": -95.7645}, {"id": "e005", "date": "2026-10-15", "title": "Move and Groove", "category": "community", "area": "mcalester", "time": "2:30 – 3:30 PM", "venue": "McAlester Public Library", "address": "401 N 2nd St, McAlester, OK", "description": "Easy, beginner-friendly dance class for all ages.", "unconfirmed": true, "lat": 34.9298, "lon": -95.7645}, {"id": "e006", "date": "2026-10-15", "title": "Chat and Craft: Pressed Leaf Lanterns", "category": "community", "area": "mcalester", "time": "5:00 – 6:00 PM", "venue": "McAlester Public Library", "address": "401 N 2nd St, McAlester, OK", "description": "Adults chat and make pressed leaf lanterns. Supplies provided.", "unconfirmed": true, "lat": 34.9298, "lon": -95.7645}, {"id": "e007", "date": "2026-10-15", "title": "Pittsburg County Farmers Market", "category": "markets", "area": "mcalester", "time": "7:00 AM – 12:00 PM", "venue": "Pittsburg County Farmers Market", "address": "11 N Main St (Main & Choctaw), McAlester, OK", "description": "Farm-fresh eggs, Oklahoma-grown produce, baked goods, and handmade items from local vendors downtown.", "unconfirmed": true, "lat": 34.9298, "lon": -95.7645}, {"id": "e008", "date": "2026-10-15", "title": "USDA Food Distribution", "category": "community", "area": "mcalester", "time": "5:00 – 7:00 PM", "venue": "All Saints Episcopal Church", "address": "325 E Washington Ave, McAlester, OK", "description": "Drive-through food distribution. Enter at Adams St, exit on Washington Ave.", "unconfirmed": true, "lat": 34.9298, "lon": -95.7645}, {"id": "e009", "date": "2026-10-15", "title": "Joe Brown Author Visit", "category": "community", "area": "atoka", "time": "5:30 PM", "venue": "Atoka County Library", "address": "279 E A St, Atoka, OK", "description": "Book signing with Western author Joe Brown: his life story, readings from his Kelly Can saga, and guitar. Free, adults 18+.", "unconfirmed": true, "lat": 34.3623, "lon": -96.1309}, {"id": "e010", "date": "2026-10-16", "title": "TeenTober: Odd Squad Got Milk?", "category": "community", "area": "mcalester", "time": "4:00 – 5:30 PM", "venue": "McAlester Public Library", "address": "401 N 2nd St, McAlester, OK", "description": "A cooking program just for teens.", "unconfirmed": true, "lat": 34.9298, "lon": -95.7645}, {"id": "e011", "date": "2026-10-16", "endDate": "2026-10-18", "title": "Robbers Cave Fall Festival", "category": "festivals", "area": "wilburton", "time": "Fri – Sun", "venue": "Robbers Cave State Park", "address": "2084 NW 146th Rd, Wilburton, OK", "description": "One of the region's biggest fall weekends, at Robbers Cave State Park.", "lat": 34.9128, "lon": -95.3389}, {"id": "e012", "date": "2026-10-16", "title": "Friday Night Karaoke", "category": "music", "area": "eufaula", "time": "8:00 PM – last call", "venue": "The Moon", "address": "12986 State Hwy 9 E, Longtown, OK", "description": "Karaoke night whether you like to sing or not.", "unconfirmed": true, "lat": 35.2911, "lon": -95.6472}, {"id": "e013", "date": "2026-10-16", "endDate": "2026-10-17", "title": "20th Annual Poteau BalloonFest", "category": "festivals", "area": "poteau", "time": "Fri & Sat", "venue": "LeFlore County Fairgrounds", "address": "1509 S Broadway St, Poteau, OK 74953", "description": "Hot air balloons fly mornings and evenings, weather permitting, with a balloon glow after sunset and tethered rides starting around 7 PM.", "free": false, "lat": 35.0606, "lon": -94.6096}, {"id": "e014", "date": "2026-10-16", "endDate": "2026-10-17", "title": "Choctaw Cultural Center Fall Festival", "category": "festivals", "area": "durant", "time": "10:00 AM – 5:00 PM both days", "venue": "Choctaw Cultural Center", "address": "1919 Hina Hanta Way, Calera, OK 74730", "description": "Two-day fall festival at the Choctaw Cultural Center. Free.", "free": true, "lat": 33.9322, "lon": -96.4308}, {"id": "e015", "date": "2026-10-17", "title": "SE Oklahoma Artifact Show", "category": "festivals", "area": "mcalester", "time": "8:00 AM – 5:00 PM", "venue": "Southeast Expo Center", "address": "4500 W US-270, McAlester, OK 74501", "description": "Native American artifact show at the Southeast Expo Center.", "lat": 34.9298, "lon": -95.7645}, {"id": "e016", "date": "2026-10-17", "title": "Sport Bike Saturdays", "category": "community", "area": "mcalester", "time": "3:00 – 9:00 PM", "venue": "QuikTrip", "address": "1719 N George Nigh Expy, McAlester, OK", "description": "Sport bike riders meet up and cruise from McAlester to Eufaula.", "unconfirmed": true, "lat": 34.9298, "lon": -95.7645}, {"id": "e017", "date": "2026-10-17", "title": "TeenTober: Odd Squad Working on Signatures", "category": "community", "area": "mcalester", "time": "3:30 – 5:30 PM", "venue": "McAlester Public Library", "address": "401 N 2nd St, McAlester, OK", "description": "A signature workshop just for teens.", "unconfirmed": true, "lat": 34.9298, "lon": -95.7645}, {"id": "e018", "date": "2026-10-17", "title": "Austin Duplantis Live", "category": "music", "area": "ada-holdenville", "time": "8:00 PM", "venue": "The Shop", "address": "601 N Hinckley, Holdenville, OK", "description": "Singer Austin Duplantis plays live.", "unconfirmed": true, "lat": 35.0839, "lon": -96.377}, {"id": "e019", "date": "2026-10-17", "title": "Simmer Pot Crafting", "category": "community", "area": "okmulgee-east", "time": "1:00 PM", "venue": "Prairie Witch Coffee", "address": "813 E 6th St, Okmulgee, OK", "description": "Hands-on autumn simmer pot workshop led by Moonbaby Soap's Apothecary.", "unconfirmed": true, "lat": 35.6288, "lon": -95.9697}, {"id": "e020", "date": "2026-09-26", "endDate": "2026-11-01", "title": "Hugo Pumpkin Festival", "category": "festivals", "area": "hugo-antlers", "time": "Sat 12:30 – 7 PM · Sun 1 – 5 PM, weekends through Nov 1", "venue": "Endangered Ark Foundation", "address": "2657 E 2070 Rd, Hugo, OK 74743", "description": "Pumpkin patch, hayrides, and elephant feeding at a retirement ranch for Asian elephants. Proceeds support the elephants. $15 ages 3+, 2 and under free; 30% off online in advance.", "lat": 34.0113, "lon": -95.5139}, {"id": "e021", "date": "2026-10-17", "title": "Wynonna Judd: The Hard Truth Tour", "category": "music", "area": "durant", "time": "Saturday night", "venue": "Choctaw Grand Theater, Choctaw Casino & Resort", "address": "4418 S Hwy 69/75, Durant, OK 74701", "description": "Grammy-winning country star Wynonna Judd in concert.", "lat": 33.9641, "lon": -96.2883}, {"id": "e022", "date": "2026-10-19", "title": "Pride of McAlester: Across the Universe", "category": "music", "area": "mcalester", "time": "8:00 – 10:00 PM", "venue": "Hook Eales Stadium", "address": "1261 N 6th St, McAlester, OK 74501", "description": "Community performance of the Pride of McAlester's 2026 marching show, Across the Universe.", "lat": 34.9298, "lon": -95.7645}, {"id": "e023", "date": "2026-10-23", "title": "Heritage Hills Halloween Carnival", "category": "community", "area": "mcalester", "time": "4:30 – 7:00 PM", "venue": "Heritage Hills Living Center", "address": "411 N West St, McAlester, OK 74501", "description": "Halloween carnival for the community at Heritage Hills.", "lat": 34.9298, "lon": -95.7645}, {"id": "e024", "date": "2026-10-23", "title": "Big Boogie", "category": "music", "area": "idabel-broken-bow", "time": "10:00 PM", "venue": "Hochatown Saloon, Outside Stage", "address": "28 Old Hochatown Rd, Broken Bow, OK 74728", "description": "Memphis rapper Big Boogie live in Hochatown.", "lat": 34.027, "lon": -94.7623}, {"id": "e025", "date": "2026-10-24", "title": "Wewoka Sorghum Festival", "category": "festivals", "area": "ada-holdenville", "time": "8:00 AM – 5:00 PM", "venue": "Seminole Nation Museum", "address": "524 S Wewoka Ave, Wewoka, OK", "description": "51st annual festival honoring sorghum, with vendors, Native and cultural food, a parade, a 5K, and a car show. Free.", "free": true, "lat": 35.1463, "lon": -96.628}, {"id": "e026", "date": "2026-10-24", "title": "Rabies Vaccine Clinic & Pet Blessing", "category": "community", "area": "mcalester", "time": "9:00 AM", "venue": "All Saints Episcopal Church", "address": "325 E Washington Ave, McAlester, OK", "description": "Low-cost rabies vaccinations plus a pet blessing.", "unconfirmed": true, "lat": 34.9298, "lon": -95.7645}, {"id": "e027", "date": "2026-10-24", "title": "Jordie Lane Live", "category": "music", "area": "mcalester", "time": "7:00 PM", "venue": "Spaceship Earth Coffee Co", "address": "345 E Choctaw Ave, McAlester, OK", "description": "Spotlight Series show with Nashville-based Australian singer-songwriter Jordie Lane.", "lat": 34.9298, "lon": -95.7645}, {"id": "e028", "date": "2026-10-24", "title": "America's Guardians Haunted House", "category": "community", "area": "okmulgee-east", "time": "7:00 – 10:30 PM", "venue": "America's Guardians Haunted House", "address": "420 W Main St, Henryetta, OK", "description": "Halloween haunted house fundraiser. $5. Also open Oct 31.", "unconfirmed": true, "lat": 35.4622, "lon": -96.0122}, {"id": "e029", "date": "2026-10-24", "endDate": "2026-10-25", "title": "McAlester Gun Show", "category": "markets", "area": "mcalester", "time": "Sat 9 AM – 5 PM · Sun 10 AM – 4 PM", "venue": "Southeast Expo Center", "address": "4500 W US-270, McAlester, OK 74501", "description": "Firearms, knives, ammo, and accessories. $10, veterans $9, 12 and under free; good both days.", "unconfirmed": true, "lat": 34.9298, "lon": -95.7645}, {"id": "e030", "date": "2026-10-24", "title": "The Forge Car Show & Fall Festival", "category": "festivals", "area": "mcalester", "time": "8:00 AM – 6:00 PM", "venue": "First Assembly of God", "address": "1800 Hardy Springs Rd, McAlester, OK 74501", "description": "Car show and fall festival at First Assembly of God.", "lat": 34.9298, "lon": -95.7645}, {"id": "e031", "date": "2026-10-24", "title": "Fall in Love with Quilts Quilt Show", "category": "markets", "area": "mcalester", "time": "9:00 AM – 4:00 PM", "venue": "Southeast Expo Center", "address": "4500 W US-270, McAlester, OK 74501", "description": "Annual quilt show at the Southeast Expo Center.", "lat": 34.9298, "lon": -95.7645}, {"id": "e032", "date": "2026-10-24", "title": "The CarnEVIL Ball", "category": "community", "area": "mcalester", "time": "8:00 PM – midnight", "venue": "Southeast Expo Center", "address": "4500 W US-270, McAlester, OK 74501", "description": "Halloween masquerade ball at the Southeast Expo Center.", "lat": 34.9298, "lon": -95.7645}, {"id": "e033", "date": "2026-10-24", "endDate": "2026-10-25", "title": "Toby Keith Foundation Bass Tournament", "category": "sports", "area": "eufaula", "time": "Sat – Sun", "venue": "Tumbleweed's Steakhouse on the Water", "address": "400 1/2 Lakeshore Dr, Eufaula, OK 74432", "description": "Lake Eufaula fishing tournament benefiting the Toby Keith Foundation.", "lat": 35.2911, "lon": -95.6472}, {"id": "e035", "date": "2026-10-24", "title": "Halloween Trick or Treat", "category": "community", "area": "durant", "time": "6:00 PM", "venue": "Choctaw Cultural Center", "address": "1919 Hina Hanta Way, Calera, OK 74730", "description": "Free Halloween trick-or-treat at the Choctaw Cultural Center.", "free": true, "lat": 33.9322, "lon": -96.4308}, {"id": "e036", "date": "2026-10-26", "title": "Adventure Head Start Trunk or Treat", "category": "community", "area": "mcalester", "time": "5:00 – 7:00 PM", "venue": "Adventure Head Start", "address": "1615 S George Nigh Expy, McAlester, OK 74501", "description": "Halloween trunk or treat for kids in costume.", "lat": 34.9298, "lon": -95.7645}, {"id": "e037", "date": "2026-10-29", "title": "Trunk or Treat: Party at the Expo", "category": "community", "area": "mcalester", "time": "5:00 – 8:00 PM", "venue": "Southeast Expo Center", "address": "4500 W US-270, McAlester, OK 74501", "description": "Indoor Halloween party at the Expo with trunk or treat.", "lat": 34.9298, "lon": -95.7645}, {"id": "e039", "date": "2026-10-31", "title": "Trick-or-Trot 5K & Fun Run", "category": "sports", "area": "ada-holdenville", "time": "7:00 AM", "venue": "Wintersmith Park", "address": "1621 Wintersmith Dr, Ada, OK", "description": "Halloween-themed 5K and fun run.", "unconfirmed": true, "lat": 34.7773, "lon": -96.6853}, {"id": "e040", "date": "2026-10-31", "title": "Witches of East End Samhain Festival", "category": "festivals", "area": "ada-holdenville", "time": "3:00 PM", "venue": "Witches of East End", "address": "1825 N Broadway Ave, Ada, OK", "description": "2nd annual Samhain and Halloween festival.", "unconfirmed": true, "lat": 34.7773, "lon": -96.6853}, {"id": "e041", "date": "2026-10-31", "title": "PCFM Trunk or Treat", "category": "community", "area": "mcalester", "time": "4:00 – 6:00 PM", "venue": "Pittsburg County Farmers Market", "address": "11 N Main St, McAlester, OK", "description": "3rd annual downtown trunk or treat at the farmers market.", "lat": 34.9298, "lon": -95.7645}, {"id": "e043", "date": "2026-10-31", "title": "America's Guardians Haunted House", "category": "community", "area": "okmulgee-east", "time": "7:00 – 10:30 PM", "venue": "America's Guardians Haunted House", "address": "420 W Main St, Henryetta, OK", "description": "Halloween haunted house fundraiser. $5.", "unconfirmed": true, "lat": 35.4622, "lon": -96.0122}, {"id": "e044", "date": "2026-10-31", "title": "Vampire Ball: Siege Ada", "category": "community", "area": "ada-holdenville", "time": "9:00 PM", "venue": "1606 Arlington St", "address": "1606 Arlington St, Ada, OK", "description": "Halloween vampire-themed ball.", "unconfirmed": true, "lat": 34.7773, "lon": -96.6853}, {"id": "e045", "date": "2026-10-31", "title": "Trunk or Treat at Choctaw Landing", "category": "community", "area": "idabel-broken-bow", "time": "5:30 – 8:30 PM", "venue": "Choctaw Landing", "address": "272 N State Hwy 259A, Broken Bow, OK 74728", "description": "Halloween trunk or treat with the Broken Bow Area Chamber of Commerce.", "unconfirmed": true, "lat": 34.027, "lon": -94.7623}, {"id": "e046", "date": "2026-10-31", "title": "Halloween Glow Party", "category": "community", "area": "mcalester", "time": "7:00 – 10:00 PM", "venue": "The Roller Dome", "address": "1209 S George Nigh Expy, McAlester, OK 74501", "description": "Halloween glow skating party at The Roller Dome.", "lat": 34.9298, "lon": -95.7645}, {"id": "e047", "date": "2026-11-06", "endDate": "2026-11-08", "title": "Choctaw Powwow", "category": "festivals", "area": "durant", "time": "Fri doors 1 PM, Grand Entry 7 PM · Sat & Sun from 10 AM", "venue": "Choctaw Event Center", "address": "3702 Choctaw Rd, Durant, OK 74701", "description": "One of the nation's largest powwows: gourd dancing, Grand Entries, dance and drum contests, and Choctaw hymns Sunday. Free.", "free": true, "lat": 33.9641, "lon": -96.2883}, {"id": "e048", "date": "2026-11-07", "title": "Olde Town Flea Market", "category": "markets", "area": "mcalester", "time": "8:00 AM", "venue": "Olde Town Flea Market", "address": "2645 N Main St, McAlester, OK", "description": "First-Saturday flea market with vintage finds and handmade goods.", "unconfirmed": true, "lat": 34.9298, "lon": -95.7645}, {"id": "e049", "date": "2026-11-07", "title": "Dancing Rabbit Music Festival Finale", "category": "music", "area": "mcalester", "time": "6:00 – 11:30 PM", "venue": "East Choctaw Ave", "address": "E Choctaw Ave, McAlester, OK", "description": "Free outdoor music festival downtown on Choctaw Avenue.", "lat": 34.9298, "lon": -95.7645}, {"id": "e050", "date": "2026-11-07", "title": "Bitters and Etchings Cocktail Experience", "category": "community", "area": "ada-holdenville", "time": "5:00 PM", "venue": "Bitters and Etchings", "address": "223 W Main St, Ada, OK", "description": "Hands-on cocktail-making experience.", "unconfirmed": true, "lat": 34.7773, "lon": -96.6853}, {"id": "e051", "date": "2026-11-07", "title": "Ribtoberfest: Hawgs n' Hens", "category": "festivals", "area": "mcalester", "time": "8:00 AM – 6:00 PM", "venue": "East Choctaw Ave", "address": "345 E Choctaw Ave, McAlester, OK 74501", "description": "Grillmarks Series BBQ competition downtown: pork ribs and chicken wings, with public sampling and People's Choice voting.", "lat": 34.9298, "lon": -95.7645}, {"id": "e052", "date": "2026-11-07", "title": "Jinglebell Market", "category": "markets", "area": "mcalester", "time": "9:00 AM – 4:00 PM", "venue": "Southeast Expo Center", "address": "4500 W US-270, McAlester, OK 74501", "description": "Holiday shopping market at the Southeast Expo Center.", "lat": 34.9298, "lon": -95.7645}, {"id": "e053", "date": "2026-11-07", "title": "Sundance Head", "category": "music", "area": "idabel-broken-bow", "time": "10:00 PM", "venue": "Hochatown Saloon", "address": "28 Old Hochatown Rd, Broken Bow, OK 74728", "description": "Live country at Hochatown Saloon.", "lat": 34.027, "lon": -94.7623}, {"id": "e055", "date": "2026-11-13", "title": "Clay Walker", "category": "music", "area": "durant", "time": "8:00 PM", "venue": "Choctaw Grand Theater, Choctaw Casino & Resort", "address": "4418 S Hwy 69/75, Durant, OK 74701", "description": "Country star Clay Walker in concert.", "lat": 33.9641, "lon": -96.2883}, {"id": "e056", "date": "2026-11-13", "title": "Aaron Watson", "category": "music", "area": "idabel-broken-bow", "time": "10:00 PM", "venue": "Hochatown Saloon", "address": "28 Old Hochatown Rd, Broken Bow, OK 74728", "description": "Texas country artist Aaron Watson, with Jake Watson.", "lat": 34.027, "lon": -94.7623}, {"id": "e101", "date": "2026-10-15", "title": "General Knowledge Trivia", "category": "community", "area": "mcalester", "time": "7:00 – 9:15 PM", "venue": "Spaceship Earth Coffee Co", "address": "345 E Choctaw Ave, McAlester, OK", "description": "Trivia night downtown.", "lat": 34.9298, "lon": -95.7645}, {"id": "e102", "date": "2026-10-17", "title": "Karaoke Night", "category": "music", "area": "mcalester", "time": "8:00 PM", "venue": "Spaceship Earth Coffee Co", "address": "345 E Choctaw Ave, McAlester, OK", "description": "Free karaoke downtown.", "free": true, "lat": 34.9298, "lon": -95.7645}, {"id": "e103", "date": "2026-10-22", "title": "Autumn Ragland Live", "category": "music", "area": "mcalester", "time": "6:30 – 10:00 PM", "venue": "DWNTWN 312", "address": "McAlester, OK", "description": "Live music with Autumn Ragland.", "lat": 34.9298, "lon": -95.7645}, {"id": "e104", "date": "2026-10-23", "title": "Boos & Brews Costume Party", "category": "community", "area": "mcalester", "time": "7:00 – 9:00 PM", "venue": "BierKraft", "address": "McAlester, OK", "description": "Halloween costume party at BierKraft.", "lat": 34.9298, "lon": -95.7645}, {"id": "e105", "date": "2026-10-30", "title": "TJ Wicks Live", "category": "music", "area": "mcalester", "time": "6:00 – 8:00 PM", "venue": "BierKraft", "address": "McAlester, OK", "description": "Live music with TJ Wicks.", "lat": 34.9298, "lon": -95.7645}, {"id": "e106", "date": "2026-11-14", "title": "David Nail: Down to the Studs", "category": "music", "area": "mcalester", "time": "8:00 – 10:00 PM", "venue": "Compassion 365", "address": "McAlester, OK", "description": "Country singer David Nail in concert, benefiting Compassion 365.", "lat": 34.9298, "lon": -95.7645}, {"id": "e107", "date": "2026-10-16", "title": "Bottomland", "category": "music", "area": "idabel-broken-bow", "time": "10:00 PM", "venue": "Hochatown Saloon", "address": "28 Old Hochatown Rd, Broken Bow, OK 74728", "description": "Live music at Hochatown Saloon.", "lat": 34.027, "lon": -94.7623}, {"id": "e108", "date": "2026-11-06", "title": "Dustin de la Garza", "category": "music", "area": "idabel-broken-bow", "time": "10:00 PM", "venue": "Hochatown Saloon", "address": "28 Old Hochatown Rd, Broken Bow, OK 74728", "description": "Live music at Hochatown Saloon.", "lat": 34.027, "lon": -94.7623}, {"id": "e109", "date": "2026-11-14", "title": "Logan Ryan Band", "category": "music", "area": "idabel-broken-bow", "time": "10:00 PM", "venue": "Hochatown Saloon", "address": "28 Old Hochatown Rd, Broken Bow, OK 74728", "description": "Live music at Hochatown Saloon.", "lat": 34.027, "lon": -94.7623}, {"id": "e110", "date": "2026-11-06", "endDate": "2026-11-07", "title": "Talihina Fall Festival", "category": "festivals", "area": "poteau", "time": "9:00 AM – 4:00 PM both days", "venue": "Talihina Ag Building", "address": "803 Railroad St, Talihina, OK 74571", "description": "Live music, local vendors, food trucks, a car show, quilt show, kite show, kids' activities, and fire department demonstrations. Free. Drive the Talimena Scenic Drive while you're there.", "free": true, "lat": 34.7381, "lon": -94.9978}, {"id": "e111", "date": "2026-10-24", "title": "Cinema at the Center: Monsters, Inc.", "category": "community", "area": "durant", "time": "1:00 PM", "venue": "Choctaw Cultural Center", "address": "1919 Hina Hanta Way, Calera, OK 74730", "description": "Free family movie at the Choctaw Cultural Center.", "free": true, "lat": 33.9322, "lon": -96.4308}, {"id": "e112", "date": "2026-10-18", "title": "Susie McEntire-Eaton, Mark Eaton & Clay Edwards", "category": "music", "area": "atoka", "time": "Time TBA", "venue": "301 E Court St", "address": "301 E Court St, Atoka, OK", "description": "Live music downtown Atoka.", "unconfirmed": true, "lat": 34.3623, "lon": -96.1309}, {"id": "e113", "date": "2026-10-16", "title": "Will Wesley Live", "category": "music", "area": "atoka", "time": "5:00 – 8:00 PM", "venue": "301 E Court St", "address": "301 E Court St, Atoka, OK", "description": "Live music downtown Atoka.", "unconfirmed": true, "lat": 34.3623, "lon": -96.1309}, {"id": "e114", "date": "2026-10-30", "title": "The Broke Teachers", "category": "music", "area": "atoka", "time": "5:00 – 8:00 PM", "venue": "301 E Court St", "address": "301 E Court St, Atoka, OK", "description": "Live music downtown Atoka.", "unconfirmed": true, "lat": 34.3623, "lon": -96.1309}, {"id": "e115", "date": "2026-11-07", "title": "Callie Crawford Live", "category": "music", "area": "atoka", "time": "5:00 – 8:00 PM", "venue": "301 E Court St", "address": "301 E Court St, Atoka, OK", "description": "Live music downtown Atoka.", "unconfirmed": true, "lat": 34.3623, "lon": -96.1309}, {"id": "e116", "date": "2026-11-13", "title": "Braxton Gage Live", "category": "music", "area": "atoka", "time": "5:00 – 8:00 PM", "venue": "301 E Court St", "address": "301 E Court St, Atoka, OK", "description": "Live music downtown Atoka.", "unconfirmed": true, "lat": 34.3623, "lon": -96.1309}];
+const TOWNS = [["Achille", 33.8396, -96.3648], ["Ada", 34.7773, -96.6853], ["Albany", 33.8815, -96.1628], ["Albion", 34.6516, -95.0924], ["Alderson", 34.9001, -95.6919], ["Allen", 34.8691, -96.4151], ["Antlers", 34.2349, -95.6254], ["Arkoma", 35.3434, -94.4403], ["Asher", 34.9849, -96.8763], ["Atoka", 34.3623, -96.1309], ["Atwood", 34.9562, -96.3386], ["Battiest", 34.3934, -94.9249], ["Bennington", 33.9771, -96.0188], ["Bethel", 34.3598, -94.8374], ["Blanco", 34.7276, -95.7283], ["Blocker", 35.0615, -95.5683], ["Bokchito", 33.9859, -96.1621], ["Bokoshe", 35.1865, -94.7858], ["Boley", 35.4913, -96.4704], ["Boswell", 34.0245, -95.8403], ["Bowlegs", 35.1462, -96.67], ["Boynton", 35.6577, -95.66], ["Braggs", 35.6671, -95.1904], ["Broken Bow", 34.027, -94.7623], ["Bromide", 34.4233, -96.4867], ["Bunch", 35.6826, -94.7611], ["Caddo", 34.1157, -96.26], ["Calera", 33.9322, -96.4308], ["Calvin", 34.878, -96.271], ["Cameron", 35.1494, -94.506], ["Canadian", 35.1571, -95.6215], ["Caney", 34.2221, -96.2584], ["Cartwright", 33.8668, -96.5672], ["Castle", 35.4732, -96.3791], ["Centrahoma", 34.6066, -96.3386], ["Chandler", 35.7017, -96.8809], ["Checotah", 35.4358, -95.535], ["Clarita", 34.4829, -96.4333], ["Clayton", 34.5906, -95.38], ["Coalgate", 34.5344, -96.2167], ["Colbert", 33.8575, -96.4953], ["Coleman", 34.2625, -96.4588], ["Connerville", 34.4194, -96.6291], ["Cookson", 35.7116, -94.9132], ["Council Hill", 35.5556, -95.6514], ["Cromwell", 35.3405, -96.4546], ["Crowder", 35.1334, -95.6602], ["Daisy", 34.5384, -95.7088], ["Davenport", 35.7089, -96.767], ["Dewar", 35.4551, -95.9498], ["Durant", 33.9641, -96.2883], ["Dustin", 35.2519, -96.0573], ["Eagletown", 34.0364, -94.5596], ["Earlsboro", 35.2628, -96.8041], ["Eufaula", 35.2911, -95.6472], ["Fanshawe", 34.9537, -94.8998], ["Finley", 34.3407, -95.5385], ["Fittstown", 34.6148, -96.6345], ["Fitzhugh", 34.6615, -96.7745], ["Fort Towson", 34.052, -95.253], ["Francis", 34.8737, -96.5956], ["Gans", 35.3946, -94.6901], ["Garvin", 33.9192, -94.986], ["Golden", 34.0303, -94.8986], ["Gore", 35.5418, -95.1095], ["Gowen", 34.8724, -95.469], ["Grant", 33.9302, -95.4893], ["Haileyville", 34.85, -95.5777], ["Hanna", 35.2604, -95.8675], ["Hartshorne", 34.8452, -95.574], ["Haworth", 33.785, -94.633], ["Heavener", 34.8353, -94.6185], ["Hendrix", 33.8016, -96.3581], ["Henryetta", 35.4622, -96.0122], ["Hitchita", 35.5297, -95.7596], ["Hodgen", 34.7538, -94.6391], ["Holdenville", 35.0839, -96.377], ["Howe", 34.9512, -94.6372], ["Hoyt", 35.2685, -95.2994], ["Hugo", 34.0113, -95.5139], ["Idabel", 33.8851, -94.802], ["Indianola", 35.1314, -95.8158], ["Kemp", 33.773, -96.3555], ["Kenefic", 34.1481, -96.3622], ["Keota", 35.2645, -94.9028], ["Kiamichi Christian Mission", 34.5519, -94.9428], ["Kingston", 33.9517, -96.712], ["Kinta", 35.1193, -95.2377], ["Kiowa", 34.7278, -95.9328], ["Konawa", 34.9708, -96.7343], ["Krebs", 34.9255, -95.7216], ["Lamar", 35.0836, -96.1142], ["Lane", 34.2691, -95.9685], ["Lebanon", 33.9687, -96.9064], ["Leflore", 34.8979, -94.9758], ["Lehigh", 34.4756, -96.1889], ["Lequire", 35.0867, -95.0974], ["Madill", 34.0784, -96.7597], ["Mannsville", 34.1899, -96.8778], ["Marble City", 35.5972, -94.8094], ["Maud", 35.1292, -96.7627], ["Mcalester", 34.9298, -95.7645], ["Mccurtain", 35.1404, -95.0127], ["Mead", 33.9944, -96.5299], ["Meeker", 35.5211, -96.9981], ["Milburn", 34.1952, -96.5429], ["Mill Creek", 34.3098, -96.7884], ["Millerton", 33.9801, -95.0025], ["Moffett", 35.3898, -94.4462], ["Monroe", 34.9906, -94.515], ["Morris", 35.6619, -95.8319], ["Moyers", 34.3386, -95.6639], ["Muldrow", 35.402, -94.6332], ["Muse", 34.6641, -94.719], ["Muskogee", 35.7234, -95.4226], ["Nashoba", 34.5072, -95.2075], ["Okemah", 35.4647, -96.3287], ["Okmulgee", 35.6288, -95.9697], ["Oktaha", 35.625, -95.4856], ["Paden", 35.5182, -96.5719], ["Panama", 35.1535, -94.6709], ["Panola", 34.9287, -95.2133], ["Pickens", 34.3965, -95.0119], ["Pittsburg", 34.6975, -95.8439], ["Platter", 33.907, -96.535], ["Pocola", 35.2436, -94.476], ["Porum", 35.3631, -95.2607], ["Poteau", 35.0606, -94.6096], ["Prague", 35.5105, -96.7009], ["Preston", 35.7115, -95.9917], ["Quinton", 35.1547, -95.4671], ["Rattan", 34.2454, -95.3442], ["Ravia", 34.244, -96.7529], ["Red Oak", 34.9422, -95.0904], ["Rentiesville", 35.5214, -95.495], ["Ringold", 34.1799, -95.0704], ["Roff", 34.6153, -96.8423], ["Roland", 35.4538, -94.5291], ["Rufe", 34.1272, -95.1174], ["Saint Louis", 35.0588, -96.8444], ["Sallisaw", 35.4852, -94.779], ["Sasakwa", 34.951, -96.5387], ["Savanna", 34.8354, -95.838], ["Sawyer", 34.0277, -95.3558], ["Schulter", 35.5145, -95.9567], ["Seminole", 35.2383, -96.6694], ["Shady Point", 35.1293, -94.6665], ["Shawnee", 35.3366, -96.9395], ["Smithville", 34.4954, -94.6981], ["Snow", 34.4419, -95.4622], ["Soper", 34.0366, -95.6916], ["Sparks", 35.6138, -96.8163], ["Spencerville", 34.1508, -95.3771], ["Spiro", 35.2492, -94.6265], ["Stidham", 35.3814, -95.7056], ["Stigler", 35.2686, -95.1071], ["Stonewall", 34.6511, -96.5273], ["Stratford", 34.7714, -96.9763], ["Stringtown", 34.4676, -96.0002], ["Stroud", 35.7398, -96.6719], ["Stuart", 34.8826, -96.1381], ["Sulphur", 34.5116, -96.9797], ["Swink", 34.0179, -95.2022], ["Talihina", 34.7381, -94.9978], ["Tecumseh", 35.2502, -96.9667], ["Tishomingo", 34.2643, -96.6675], ["Tupelo", 34.5598, -96.4274], ["Tuskahoma", 34.6622, -95.2362], ["Valliant", 34.0091, -95.0686], ["Vian", 35.5404, -94.9888], ["Wainwright", 35.6126, -95.5644], ["Wapanucka", 34.3866, -96.4532], ["Wardville", 34.6695, -96.0258], ["Warner", 35.4945, -95.3064], ["Watson", 34.4193, -94.5562], ["Webbers Falls", 35.5138, -95.1659], ["Weleetka", 35.3416, -96.1136], ["Wetumka", 35.2396, -96.2421], ["Wewoka", 35.1463, -96.628], ["Whitefield", 35.2646, -95.2645], ["Whitesboro", 34.6926, -94.8852], ["Wilburton", 34.9128, -95.3389], ["Wister", 34.9556, -94.7832], ["Wright City", 34.0799, -94.9929]]; /* [name, lat, lon] — every town and ZIP-code community in southeast Oklahoma */
+
+/* ===== Ad settings (all off for now) =====
+   SPONSORS: one sponsor per area key. Example:
+   mcalester: {name:"Business Name", line:"Short pitch", url:"https://...", logo:"data:image/png;base64,..." , initials:"BN"}
+   Add "featured": true to any event in EVENTS to pin it in Don't miss with a Featured tag.
+   SHOW_AD_INVITES: true shows "Sponsor this area" slots and the Advertise section. */
+const SPONSORS = {};
+const SHOW_AD_INVITES = false;
+const SITE_URL = "https://jcow1den.github.io/seok-events/";
+
+const CATS = {all:"All",festivals:"Festivals",music:"Music",markets:"Markets",community:"Community",sports:"Sports"};
+const AREAS = {all:"All areas",mcalester:"McAlester area",wilburton:"Wilburton",eufaula:"Eufaula",atoka:"Atoka",
+  durant:"Durant","ada-holdenville":"Ada / Holdenville","okmulgee-east":"Okmulgee / Henryetta",
+  "hugo-antlers":"Hugo / Antlers","idabel-broken-bow":"Idabel / Broken Bow",poteau:"Poteau area"};
+const WHEN = {all:"Next 30 days",today:"Today",weekend:"This weekend",week:"Next 7 days",free:"Free"};
+const DIST = {any:"Any distance",mi15:"Within 15 mi",mi30:"Within 30 mi",mi60:"Within 60 mi"};
+const distMi = k => parseInt(k.slice(2),10);
+const state = {cat:"all",area:"all",when:"all",q:"",from:"",dist:"any"};
+try{ Object.assign(state, JSON.parse(localStorage.getItem("seok-f2")||"{}"), {q:""}); }catch(e){}
+const save=()=>{ try{localStorage.setItem("seok-f2",JSON.stringify({cat:state.cat,area:state.area,when:state.when,from:state.from,dist:state.dist}))}catch(e){} };
+function miles(e){
+  const t=TOWNS.find(x=>x[0]===state.from); if(!t||e.lat==null) return null;
+  const R=3958.8, r=Math.PI/180, dLa=(e.lat-t[1])*r, dLo=(e.lon-t[2])*r;
+  const a=Math.sin(dLa/2)**2+Math.cos(t[1]*r)*Math.cos(e.lat*r)*Math.sin(dLo/2)**2;
+  return 2*R*Math.asin(Math.sqrt(a));
+}
+const miLabel = e => { const m=miles(e); return m==null?null: m<2?"In town": Math.round(m)+" mi"; };
+
+/* ===== Dates (Central time) ===== */
+const todayCT = () => new Intl.DateTimeFormat("en-CA",{timeZone:"America/Chicago",year:"numeric",month:"2-digit",day:"2-digit"}).format(new Date());
+const ymd = s => { const [y,m,d]=s.split("-").map(Number); return new Date(Date.UTC(y,m-1,d)); };
+const iso = d => d.toISOString().slice(0,10);
+const addDays=(s,n)=>{const d=ymd(s);d.setUTCDate(d.getUTCDate()+n);return iso(d)};
+const fmt=(s,o)=>ymd(s).toLocaleDateString("en-US",Object.assign({timeZone:"UTC"},o));
+function weekend(today){ const dow=ymd(today).getUTCDay(); const fri = dow===0?addDays(today,-2):dow===6?addDays(today,-1):addDays(today,5-dow); return [fri<today?today:fri, addDays(fri,2)]; }
+function range(today){
+  if(state.when==="today") return [today,today];
+  if(state.when==="weekend") return weekend(today);
+  if(state.when==="week") return [today,addDays(today,6)];
+  return [today,addDays(today,30)];
+}
+const overlaps=(e,a,b)=>!((e.endDate||e.date)<a || e.date>b);
+function startKey(e){
+  if(e.endDate) return -1;
+  const t=(e.time||"").toLowerCase(), m=t.match(/(\d{1,2})(?::(\d{2}))?/), noon=t.indexOf("noon");
+  if(noon>-1&&(!m||noon<m.index)) return 720; if(!m) return 9999;
+  const ap=t.slice(m.index).match(/\b(am|pm)\b/); let h=+m[1]%12; if(ap&&ap[1]==="pm")h+=12; return h*60+(+(m[2]||0));
+}
+
+/* ===== Helpers ===== */
+function h(tag,attrs,...kids){ const n=document.createElement(tag); for(const [k,v] of Object.entries(attrs||{})){ if(v==null||v===false)continue; if(k==="class")n.className=v; else if(k==="style")n.style.cssText=v; else n.setAttribute(k,v);} for(const k of kids.flat()){ if(k==null||k===false)continue; n.append(k.nodeType?k:document.createTextNode(k)); } return n; }
+function icon(id){ const s=document.createElementNS("http://www.w3.org/2000/svg","svg"); s.setAttribute("aria-hidden","true"); const u=document.createElementNS("http://www.w3.org/2000/svg","use"); u.setAttribute("href","#i-"+id); s.append(u); return s; }
+const catVar = c => `--cat:var(--c-${c})`;
+const gcal = e => "https://calendar.google.com/calendar/render?"+new URLSearchParams({action:"TEMPLATE",text:e.title,dates:e.date.replaceAll("-","")+"/"+addDays(e.endDate||e.date,1).replaceAll("-",""),details:(e.time?e.time+"\n\n":"")+e.description,location:[e.venue,e.address].filter(Boolean).join(", ")});
+const maps = e => "https://www.google.com/maps/search/?api=1&query="+encodeURIComponent([e.venue,e.address].filter(Boolean).join(", "));
+const whenText = e => e.endDate ? fmt(e.date,{month:"short",day:"numeric"})+" – "+fmt(e.endDate,{month:"short",day:"numeric"}) : fmt(e.date,{weekday:"long",month:"long",day:"numeric"});
+
+function copyText(text, onOk, onFail){ try{ navigator.clipboard.writeText(text).then(onOk,onFail);}catch(e){onFail();} }
+
+/* ===== Cards ===== */
+function card(e,today){
+  const d=h("details",{class:"ev"+(e.featured?" featured":""),style:catVar(e.category),id:e.id,"data-id":e.id});
+  const tags=[ e.featured&&h("span",{class:"tag feat"},"Featured"), e.free&&h("span",{class:"tag free"},"Free"),
+    e.endDate&&h("span",{class:"tag multi"},(e.date<today?"Ongoing · ":"")+"Thru "+fmt(e.endDate,{month:"short",day:"numeric"})) ];
+  d.append(h("summary",null,
+    h("span",{class:"ic"},icon(e.category)),
+    h("span",{class:"sm"},
+      h("span",{class:"kick"},h("span",{class:"c"},CATS[e.category]),h("span",{class:"a"},AREAS[e.area]),miLabel(e)&&h("span",{class:"mi"},miLabel(e)),...tags),
+      h("span",{class:"ti"},e.title),
+      h("span",{class:"wh"},[e.time,e.venue].filter(Boolean).join(" · ")))));
+  const toast=h("span",{class:"toast",role:"status"});
+  const share=h("button",{class:"btn",type:"button"},icon("share"),"Copy link");
+  share.addEventListener("click",()=>{ const link=SITE_URL+"#"+e.id; copyText(e.title+" — "+whenText(e)+"\n"+link,()=>toast.textContent="Link copied",()=>toast.textContent=link); });
+  d.append(h("div",{class:"body"},
+    e.description&&h("p",null,e.description),
+    e.unconfirmed&&h("p",{class:"note"},"Listed by the organizer. Confirm details with the host before you go."),
+    h("dl",{class:"kv"},h("dt",null,"When"),h("dd",null,whenText(e)+(e.time?" · "+e.time:"")),
+      e.venue&&h("dt",null,"Where"),e.venue&&h("dd",null,e.venue),
+      e.address&&h("dt",null,"Address"),e.address&&h("dd",null,e.address)),
+    h("div",{class:"acts"},
+      h("a",{class:"btn pri",href:maps(e),target:"_blank",rel:"noopener"},icon("pin"),"Directions"),
+      h("a",{class:"btn",href:gcal(e),target:"_blank",rel:"noopener"},icon("cal"),"Add to calendar"),
+      share, toast)));
+  return d;
+}
+function poster(e,today){
+  const b=h("button",{class:"poster",type:"button",style:catVar(e.category)},
+    h("span",{class:"top"},h("span",{class:"d"},h("small",null,e.endDate?"Thru "+fmt(e.endDate,{month:"short",day:"numeric"}):fmt(e.date,{weekday:"long"})),
+      e.date<today?"Now on":fmt(e.date,{month:"short",day:"numeric"})),icon(e.category)),
+    h("span",{class:"bd"},h("span",{class:"kick"},h("span",{class:"c"},CATS[e.category]),e.featured&&h("span",{class:"tag feat"},"Featured"),e.free&&h("span",{class:"tag free"},"Free")),
+      h("span",{class:"t"},e.title),h("span",{class:"m"},[e.venue,AREAS[e.area],miLabel(e)].filter(Boolean).join(" · "))));
+  b.addEventListener("click",()=>openEvent(e.id,true));
+  return b;
+}
+function sponsorCard(areaKey){
+  const s=SPONSORS[areaKey];
+  if(s){ const logo=h("span",{class:"logo"}, s.logo? h("img",{src:s.logo,alt:""}) : (s.initials||s.name.slice(0,2)));
+    return h("a",{class:"spon",href:s.url||"#",target:s.url?"_blank":null,rel:"noopener sponsored"},
+      h("span",{class:"lab"},(areaKey==="all"?"Sponsor":AREAS[areaKey]+" sponsor")),logo,h("span",null,h("b",null,s.name),h("span",null,s.line||""))); }
+  if(SHOW_AD_INVITES && areaKey!=="all") return h("a",{class:"spon invite",href:"#advertise"},h("span",{class:"lab"},"Advertise here"),
+    h("span",{class:"logo"},"+"),h("span",null,h("b",null,"Sponsor the "+AREAS[areaKey]+" listings"),h("span",null,"Your business here, seen by people planning their weekend.")));
+  return null;
+}
+
+/* ===== Render ===== */
+function matches(e){
+  if(state.cat!=="all"&&e.category!==state.cat) return false;
+  if(state.area!=="all"&&e.area!==state.area) return false;
+  if(state.when==="free"&&!e.free) return false;
+  if(state.from&&state.dist!=="any"){ const m=miles(e); if(m!=null&&m>distMi(state.dist)) return false; }
+  if(state.q){ const hay=(e.title+" "+e.venue+" "+e.address+" "+e.description+" "+AREAS[e.area]).toLowerCase();
+    if(!state.q.toLowerCase().split(/\s+/).every(w=>hay.includes(w))) return false; }
+  return true;
+}
+function render(){
+  const today=todayCT(), [a,b]=range(today);
+  const upcoming=EVENTS.filter(e=>(e.endDate||e.date)>=today);
+  const [wa,wb]=weekend(today);
+  document.getElementById("s-total").textContent=upcoming.length;
+  document.getElementById("s-weekend").textContent=upcoming.filter(e=>overlaps(e,wa,wb)).length;
+  document.getElementById("s-towns").textContent=new Set(upcoming.map(e=>e.area)).size;
+
+  // Don't miss: featured first, then festivals and concerts in the next 10 days
+  const pool=upcoming.filter(e=>overlaps(e,today,addDays(today,10))&&(state.area==="all"||e.area===state.area)&&!(state.from&&state.dist!=="any"&&(miles(e)??0)>distMi(state.dist)));
+  const hl=[...pool.filter(e=>e.featured), ...pool.filter(e=>!e.featured&&(e.category==="festivals"||e.category==="music"))]
+    .sort((x,y)=>(y.featured?1:0)-(x.featured?1:0)||x.date.localeCompare(y.date)).slice(0,8);
+  const rail=document.getElementById("rail"); rail.textContent="";
+  hl.forEach(e=>rail.append(poster(e,today)));
+  document.getElementById("hl-sec").hidden=!hl.length||!!state.q;
+  document.getElementById("hl-sub").textContent="Next 10 days"+(state.area!=="all"?" · "+AREAS[state.area]:"")+(state.from&&state.dist!=="any"?" · "+DIST[state.dist].toLowerCase()+" of "+state.from:"");
+  document.getElementById("dist-row").hidden=!state.from;
+
+  const as=document.getElementById("area-sponsor"); as.textContent="";
+  if(state.area!=="all"){ const s=sponsorCard(state.area); if(s) as.append(s); }
+
+  const hits=EVENTS.filter(e=>overlaps(e,a,b)&&matches(e)).sort((x,y)=>x.date.localeCompare(y.date)||startKey(x)-startKey(y)||x.title.localeCompare(y.title));
+  document.getElementById("count").textContent=hits.length+(hits.length===1?" event":" events");
+  const list=document.getElementById("list"); list.textContent="";
+  if(!hits.length){ list.append(h("div",{class:"empty"},state.q?`Nothing matches "${state.q}". Try a town name or a shorter word.`:"Nothing on the calendar for those filters yet. Try another area or a wider date range.")); return; }
+  const groups=new Map(); for(const e of hits){ const k=e.date<a?a:e.date; if(!groups.has(k))groups.set(k,[]); groups.get(k).push(e); }
+  // In-feed sponsors: when browsing all areas, rotate area sponsors between day groups
+  const rot=Object.keys(SPONSORS).filter(k=>k!=="all"); let gi=0;
+  for(const [day,evs] of groups){
+    const label= day===today?"Today": day===addDays(today,1)?"Tomorrow": fmt(day,{weekday:"long"});
+    list.append(h("section",{class:"day","aria-label":fmt(day,{weekday:"long",month:"long",day:"numeric"})},
+      h("div",{class:"date"},h("div",{class:"m"},fmt(day,{month:"short"})),h("div",{class:"n"},fmt(day,{day:"numeric"})),h("div",{class:"w"},fmt(day,{weekday:"short"}))),
+      h("div",{class:"col"},h("div",{class:"dh"+(day===today?" today":"")},label),...evs.map(e=>card(e,today)))));
+    gi++;
+    if(state.area==="all" && (gi===2||gi%5===0)){ const key = SPONSORS.all && gi===2 ? "all" : rot[(Math.floor(gi/5))%Math.max(rot.length,1)]; const s=key&&sponsorCard(key); if(s) list.append(s); }
+  }
+}
+function openEvent(id,scroll){
+  let d=document.getElementById(id);
+  if(!d){ state.cat="all"; state.area="all"; state.when="all"; state.q=""; state.dist="any"; document.getElementById("q").value=""; syncControls(); render(); d=document.getElementById(id); }
+  if(!d) return; d.open=true; if(scroll) d.scrollIntoView({behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth",block:"start"});
+}
+
+/* ===== Controls ===== */
+function chipRow(rowId,map,key,icons){
+  const row=document.getElementById(rowId);
+  for(const [k,v] of Object.entries(map)){
+    const b=h("button",{class:"chip",type:"button","data-k":k,"aria-pressed":String(state[key]===k)}, icons&&icon(k==="all"?"all":k), v);
+    b.addEventListener("click",()=>{ state[key]=k; save(); syncControls(); render(); });
+    row.append(b);
+  }
+}
+function syncControls(){
+  document.querySelectorAll("#when-row .chip").forEach(c=>c.setAttribute("aria-pressed",String(c.dataset.k===state.when)));
+  document.querySelectorAll("#cat-row .chip").forEach(c=>c.setAttribute("aria-pressed",String(c.dataset.k===state.cat)));
+  document.querySelectorAll("#dist-row .chip").forEach(c=>c.setAttribute("aria-pressed",String(c.dataset.k===state.dist)));
+  document.getElementById("area").value=state.area;
+  document.getElementById("from").value=state.from;
+}
+chipRow("when-row",WHEN,"when",false); chipRow("cat-row",CATS,"cat",true); chipRow("dist-row",DIST,"dist",false);
+const fromSel=document.getElementById("from");
+for(const t of TOWNS) fromSel.append(h("option",{value:t[0]},t[0]));
+if(!TOWNS.some(t=>t[0]===state.from)) state.from="";
+if(!DIST[state.dist]) state.dist="any";
+fromSel.addEventListener("change",()=>{ state.from=fromSel.value; if(!state.from) state.dist="any"; save(); syncControls(); render(); });
+const areaSel=document.getElementById("area");
+for(const [k,v] of Object.entries(AREAS)) areaSel.append(h("option",{value:k},v));
+areaSel.addEventListener("change",()=>{ state.area=areaSel.value; save(); render(); });
+let qt; document.getElementById("q").addEventListener("input",ev=>{ clearTimeout(qt); qt=setTimeout(()=>{ state.q=ev.target.value.trim(); render(); },120); });
+if(!AREAS[state.area]) state.area="all"; if(!CATS[state.cat]) state.cat="all"; if(!WHEN[state.when]) state.when="all";
+syncControls(); render();
+document.getElementById("advertise").hidden=!SHOW_AD_INVITES;
+document.getElementById("yr").textContent=todayCT().slice(0,4);
+if(/^#e\d+$/.test(location.hash)) openEvent(location.hash.slice(1),true);
+addEventListener("hashchange",()=>{ if(/^#e\d+$/.test(location.hash)) openEvent(location.hash.slice(1),true); });
+
+/* ===== Submit form ===== */
+const fc=document.getElementById("f-cat");
+Object.entries(CATS).filter(([k])=>k!=="all").forEach(([k,v])=>fc.append(h("option",{value:k},v)));
+document.getElementById("sub-form").addEventListener("submit",ev=>{
+  ev.preventDefault();
+  const v=id=>document.getElementById(id).value.trim(), err=document.getElementById("f-err");
+  if(!v("f-title")||!v("f-date")||!v("f-town")){ err.textContent="Add the event name, date, and town so people can find it."; err.hidden=false; return; }
+  err.hidden=true;
+  document.getElementById("out-text").textContent=["EVENT SUBMISSION — Southeast Oklahoma Events","",
+    "Event: "+v("f-title"),"Date: "+fmt(v("f-date"),{weekday:"long",month:"long",day:"numeric",year:"numeric"}),
+    v("f-time")&&"Time: "+v("f-time"), v("f-venue")&&"Venue: "+v("f-venue"), "Town: "+v("f-town"),
+    v("f-addr")&&"Address: "+v("f-addr"), "Category: "+CATS[v("f-cat")], v("f-cost")&&"Cost: "+v("f-cost"),
+    v("f-desc")&&"Details: "+v("f-desc"), v("f-contact")&&"Submitted by: "+v("f-contact")].filter(Boolean).join("\n");
+  document.getElementById("out").hidden=false; document.getElementById("copy").textContent="Copy listing";
+});
+document.getElementById("copy").addEventListener("click",()=>{
+  const t=document.getElementById("out-text"), b=document.getElementById("copy");
+  copyText(t.textContent,()=>b.textContent="Copied",()=>{ const r=document.createRange(); r.selectNodeContents(t); const s=getSelection(); s.removeAllRanges(); s.addRange(r);
+    document.getElementById("copy-note").textContent="Text selected. Copy it, then paste it into a Facebook message."; });
+});
+</script>
+
+</body>
+</html>
