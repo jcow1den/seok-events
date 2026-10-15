@@ -11,7 +11,8 @@
   "description": "Toddler storytime with stories, songs, and lots of wiggling.",
   "unconfirmed": true,
   "indoor": true,
-  "kids": true
+  "kids": true,
+  "organizer": "McAlester Public Library"
  },
  {
   "id": "e004",
@@ -37,7 +38,8 @@
   "description": "Easy, beginner-friendly dance class for all ages.",
   "unconfirmed": true,
   "indoor": true,
-  "kids": true
+  "kids": true,
+  "organizer": "McAlester Public Library"
  },
  {
   "id": "e006",
@@ -50,7 +52,8 @@
   "address": "401 N 2nd St, McAlester, OK",
   "description": "Adults chat and make pressed leaf lanterns. Supplies provided.",
   "unconfirmed": true,
-  "indoor": true
+  "indoor": true,
+  "organizer": "McAlester Public Library"
  },
  {
   "id": "e007",
@@ -88,7 +91,8 @@
   "address": "279 E A St, Atoka, OK",
   "description": "Book signing with Western author Joe Brown: his life story, readings from his Kelly Can saga, and guitar. Free, adults 18+.",
   "unconfirmed": true,
-  "indoor": true
+  "indoor": true,
+  "organizer": "Atoka County Library"
  },
  {
   "id": "e010",
@@ -101,7 +105,8 @@
   "address": "401 N 2nd St, McAlester, OK",
   "description": "A cooking program just for teens.",
   "unconfirmed": true,
-  "indoor": true
+  "indoor": true,
+  "organizer": "McAlester Public Library"
  },
  {
   "id": "e011",
@@ -141,7 +146,8 @@
   "address": "1509 S Broadway St, Poteau, OK 74953",
   "description": "Hot air balloons fly mornings and evenings, weather permitting, with a balloon glow after sunset and tethered rides starting around 7 PM.",
   "free": false,
-  "kids": true
+  "kids": true,
+  "organizer": "Poteau Chamber of Commerce"
  },
  {
   "id": "e014",
@@ -155,7 +161,8 @@
   "address": "1919 Hina Hanta Way, Calera, OK 74730",
   "description": "Two-day fall festival at the Choctaw Cultural Center. Free.",
   "free": true,
-  "kids": true
+  "kids": true,
+  "organizer": "Choctaw Cultural Center"
  },
  {
   "id": "e015",
@@ -192,7 +199,8 @@
   "address": "401 N 2nd St, McAlester, OK",
   "description": "A signature workshop just for teens.",
   "unconfirmed": true,
-  "indoor": true
+  "indoor": true,
+  "organizer": "McAlester Public Library"
  },
  {
   "id": "e018",
@@ -230,7 +238,11 @@
   "venue": "Endangered Ark Foundation",
   "address": "2657 E 2070 Rd, Hugo, OK 74743",
   "description": "Pumpkin patch, hayrides, and elephant feeding at a retirement ranch for Asian elephants. Proceeds support the elephants. $15 ages 3+, 2 and under free; 30% off online in advance.",
-  "kids": true
+  "kids": true,
+  "offers": {
+   "low": 15
+  },
+  "organizer": "Endangered Ark Foundation"
  },
  {
   "id": "e021",
@@ -242,7 +254,11 @@
   "venue": "Choctaw Grand Theater, Choctaw Casino & Resort",
   "address": "4216 S Hwy 69/75, Durant, OK 74701",
   "description": "Grammy-winning country star Wynonna Judd in concert.",
-  "indoor": true
+  "indoor": true,
+  "performer": [
+   "Wynonna Judd",
+   "Troubadour Blue"
+  ]
  },
  {
   "id": "e022",
@@ -253,7 +269,10 @@
   "time": "8:00 – 10:00 PM",
   "venue": "Hook Eales Stadium",
   "address": "1261 N 6th St, McAlester, OK 74501",
-  "description": "Community performance of the Pride of McAlester's 2026 marching show, Across the Universe."
+  "description": "Community performance of the Pride of McAlester's 2026 marching show, Across the Universe.",
+  "performer": [
+   "Pride of McAlester Marching Band"
+  ]
  },
  {
   "id": "e023",
@@ -276,7 +295,10 @@
   "time": "10:00 PM",
   "venue": "Hochatown Saloon, Outside Stage",
   "address": "28 Old Hochatown Rd, Broken Bow, OK 74728",
-  "description": "Memphis rapper Big Boogie live in Hochatown."
+  "description": "Memphis rapper Big Boogie live in Hochatown.",
+  "performer": [
+   "Big Boogie"
+  ]
  },
  {
   "id": "e025",
@@ -314,7 +336,10 @@
   "venue": "Spaceship Earth Coffee Co",
   "address": "345 E Choctaw Ave, McAlester, OK",
   "description": "Spotlight Series show with Nashville-based Australian singer-songwriter Jordie Lane.",
-  "indoor": true
+  "indoor": true,
+  "performer": [
+   "Jordie Lane"
+  ]
  },
  {
   "id": "e028",
@@ -388,7 +413,8 @@
   "time": "Sat – Sun",
   "venue": "Tumbleweed's Steakhouse on the Water",
   "address": "400 1/2 Lakeshore Dr, Eufaula, OK 74432",
-  "description": "Lake Eufaula fishing tournament benefiting the Toby Keith Foundation."
+  "description": "Lake Eufaula fishing tournament benefiting the Toby Keith Foundation.",
+  "organizer": "Toby Keith Foundation"
  },
  {
   "id": "e035",
@@ -401,7 +427,8 @@
   "address": "1919 Hina Hanta Way, Calera, OK 74730",
   "description": "Free Halloween trick-or-treat at the Choctaw Cultural Center.",
   "free": true,
-  "kids": true
+  "kids": true,
+  "organizer": "Choctaw Cultural Center"
  },
  {
   "id": "e036",
@@ -528,7 +555,8 @@
   "description": "One of the nation's largest powwows: gourd dancing, Grand Entries, dance and drum contests, and Choctaw hymns Sunday. Free.",
   "free": true,
   "indoor": true,
-  "kids": true
+  "kids": true,
+  "organizer": "Choctaw Nation of Oklahoma"
  },
  {
   "id": "e048",
@@ -575,7 +603,8 @@
   "time": "8:00 AM – 6:00 PM",
   "venue": "East Choctaw Ave",
   "address": "E Choctaw Ave, McAlester, OK",
-  "description": "Grillmarks Series BBQ competition downtown: pork ribs and chicken wings, with public sampling and People's Choice voting."
+  "description": "Grillmarks Series BBQ competition downtown: pork ribs and chicken wings, with public sampling and People's Choice voting.",
+  "organizer": "Grillmarks Festival Series"
  },
  {
   "id": "e052",
@@ -598,7 +627,10 @@
   "time": "10:00 PM",
   "venue": "Hochatown Saloon",
   "address": "28 Old Hochatown Rd, Broken Bow, OK 74728",
-  "description": "Live country at Hochatown Saloon."
+  "description": "Live country at Hochatown Saloon.",
+  "performer": [
+   "Sundance Head"
+  ]
  },
  {
   "id": "e055",
@@ -610,7 +642,10 @@
   "venue": "Choctaw Grand Theater, Choctaw Casino & Resort",
   "address": "4216 S Hwy 69/75, Durant, OK 74701",
   "description": "Country star Clay Walker in concert.",
-  "indoor": true
+  "indoor": true,
+  "performer": [
+   "Clay Walker"
+  ]
  },
  {
   "id": "e056",
@@ -621,7 +656,10 @@
   "time": "10:00 PM",
   "venue": "Hochatown Saloon",
   "address": "28 Old Hochatown Rd, Broken Bow, OK 74728",
-  "description": "Texas country artist Aaron Watson, with Jake Watson."
+  "description": "Texas country artist Aaron Watson, with Jake Watson.",
+  "performer": [
+   "Aaron Watson"
+  ]
  },
  {
   "id": "e101",
@@ -657,7 +695,10 @@
   "time": "6:30 – 10:00 PM",
   "venue": "DWNTWN 312",
   "address": "McAlester, OK",
-  "description": "Live music with Autumn Ragland."
+  "description": "Live music with Autumn Ragland.",
+  "performer": [
+   "Autumn Ragland"
+  ]
  },
  {
   "id": "e104",
@@ -681,7 +722,10 @@
   "venue": "BierKraft",
   "address": "McAlester, OK",
   "description": "Live music with TJ Wicks.",
-  "indoor": true
+  "indoor": true,
+  "performer": [
+   "TJ Wicks"
+  ]
  },
  {
   "id": "e106",
@@ -692,7 +736,10 @@
   "time": "8:00 – 10:00 PM",
   "venue": "Compassion 365",
   "address": "McAlester, OK",
-  "description": "Country singer David Nail in concert, benefiting Compassion 365."
+  "description": "Country singer David Nail in concert, benefiting Compassion 365.",
+  "performer": [
+   "David Nail"
+  ]
  },
  {
   "id": "e107",
@@ -703,7 +750,10 @@
   "time": "10:00 PM",
   "venue": "Hochatown Saloon",
   "address": "28 Old Hochatown Rd, Broken Bow, OK 74728",
-  "description": "Live music at Hochatown Saloon."
+  "description": "Live music at Hochatown Saloon.",
+  "performer": [
+   "Bottomland"
+  ]
  },
  {
   "id": "e108",
@@ -714,7 +764,10 @@
   "time": "10:00 PM",
   "venue": "Hochatown Saloon",
   "address": "28 Old Hochatown Rd, Broken Bow, OK 74728",
-  "description": "Live music at Hochatown Saloon."
+  "description": "Live music at Hochatown Saloon.",
+  "performer": [
+   "Dustin de la Garza"
+  ]
  },
  {
   "id": "e109",
@@ -725,7 +778,10 @@
   "time": "10:00 PM",
   "venue": "Hochatown Saloon",
   "address": "28 Old Hochatown Rd, Broken Bow, OK 74728",
-  "description": "Live music at Hochatown Saloon."
+  "description": "Live music at Hochatown Saloon.",
+  "performer": [
+   "Logan Ryan Band"
+  ]
  },
  {
   "id": "e110",
@@ -739,7 +795,8 @@
   "address": "803 Railroad St, Talihina, OK 74571",
   "description": "Live music, local vendors, food trucks, a car show, quilt show, kite show, kids' activities, and fire department demonstrations. Free. Drive the Talimena Scenic Drive while you're there.",
   "free": true,
-  "kids": true
+  "kids": true,
+  "organizer": "Talihina Chamber of Commerce"
  },
  {
   "id": "e111",
@@ -752,7 +809,8 @@
   "address": "1919 Hina Hanta Way, Calera, OK 74730",
   "description": "Free family movie at the Choctaw Cultural Center.",
   "free": true,
-  "kids": true
+  "kids": true,
+  "organizer": "Choctaw Cultural Center"
  },
  {
   "id": "e112",
@@ -824,7 +882,14 @@
   "venue": "Choctaw Grand Theater, Choctaw Casino & Resort",
   "address": "4216 S Hwy 69/75, Durant, OK 74701",
   "description": "Country legend Travis Tritt with The Frontmen. Tickets from about $64.",
-  "indoor": true
+  "indoor": true,
+  "performer": [
+   "Travis Tritt",
+   "The Frontmen"
+  ],
+  "offers": {
+   "low": 63.75
+  }
  },
  {
   "id": "e118",
@@ -836,7 +901,13 @@
   "venue": "Choctaw Casino & Resort – Pocola",
   "address": "3400 Choctaw Rd, Pocola, OK 74902",
   "description": "Grammy-winning country singer behind \"Redneck Woman.\" Tickets from about $53 through Ticketmaster.",
-  "indoor": true
+  "indoor": true,
+  "performer": [
+   "Gretchen Wilson"
+  ],
+  "offers": {
+   "low": 53.05
+  }
  },
  {
   "id": "e119",
@@ -848,7 +919,13 @@
   "venue": "Choctaw Casino & Resort – Pocola",
   "address": "3400 Choctaw Rd, Pocola, OK 74902",
   "description": "Stand-up from Grammy-winning comedian Lewis Black. Tickets from about $74 through Ticketmaster.",
-  "indoor": true
+  "indoor": true,
+  "performer": [
+   "Lewis Black"
+  ],
+  "offers": {
+   "low": 73.6
+  }
  },
  {
   "id": "e120",
@@ -871,7 +948,15 @@
   "venue": "McSwain Theatre",
   "address": "130 W Main St, Ada, OK 74820",
   "description": "Atoka-raised Chickasaw singer-songwriter, a four-chair turn on NBC's The Voice. Tickets $15–$25.",
-  "indoor": true
+  "indoor": true,
+  "performer": [
+   "Jordan Rainer"
+  ],
+  "offers": {
+   "low": 15,
+   "high": 25
+  },
+  "organizer": "Chickasaw Nation"
  },
  {
   "id": "e122",
@@ -934,7 +1019,8 @@
   "address": "Beavers Bend State Park, Broken Bow, OK",
   "description": "Handmade crafts and old-time craft demonstrations, folk and Celtic music, food, a petting zoo, and kids' activities.",
   "unconfirmed": true,
-  "kids": true
+  "kids": true,
+  "organizer": "Oklahoma Forest Heritage Center"
  },
  {
   "id": "e127",
@@ -946,6 +1032,11 @@
   "venue": "Choctaw Grand Theater, Choctaw Casino & Resort",
   "address": "4216 S Hwy 69/75, Durant, OK 74701",
   "description": "Country triple bill at the Choctaw Grand Theater.",
-  "indoor": true
+  "indoor": true,
+  "performer": [
+   "Bayker Blankenship",
+   "Read Southall",
+   "Caroline Grace"
+  ]
  }
 ]

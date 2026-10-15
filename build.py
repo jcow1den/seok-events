@@ -7,6 +7,8 @@ Event fields: id, date (YYYY-MM-DD), endDate (optional), title,
 category (festivals|music|markets|community|sports), area, time, venue,
 address ("street, Town, OK 74501"), description, and optional flags:
 free, kids, indoor, featured, unconfirmed.
+Optional details for Google (only when a source confirms them): performer (list of names),
+organizer (name), offers ({"low": 15} or {"low": 15, "high": 25}, in US dollars).
 """
 import json, sys, re
 from datetime import datetime, timezone, date, timedelta
@@ -73,9 +75,23 @@ for e in live:
         "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
         "location": {"@type": "Place", "name": e.get("venue") or e["town"], "address": postal(e["address"])},
         "description": ((e.get("time") + ". ") if e.get("time") else "") + e.get("description", ""),
-        "image": [SITE + "icons/share.png"],
+        "image": [SITE + "icons/event-1x1.png", SITE + "icons/event-4x3.png", SITE + "icons/event-16x9.png"],
         "url": SITE + "#" + e["id"],
     }
+    if e.get("performer"):
+        item["performer"] = [{"@type": "PerformingGroup" if " band" in n.lower() or n.lower().startswith("the ") else "Person", "name": n}
+                             for n in e["performer"]]
+    if e.get("organizer"):
+        item["organizer"] = {"@type": "Organization", "name": e["organizer"]}
+    if e.get("offers") and not e.get("free"):
+        o = e["offers"]
+        offer = {"@type": "AggregateOffer" if o.get("high") else "Offer", "priceCurrency": "USD", "url": SITE + "#" + e["id"],
+                 "availability": "https://schema.org/InStock"}
+        if o.get("high"):
+            offer.update(lowPrice=o["low"], highPrice=o["high"])
+        else:
+            offer["price"] = o["low"]
+        item["offers"] = offer
     if e.get("free"):
         item["isAccessibleForFree"] = True
         item["offers"] = {"@type": "Offer", "price": 0, "priceCurrency": "USD", "url": SITE + "#" + e["id"],
