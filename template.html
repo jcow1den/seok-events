@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Southeast Oklahoma Events – Festivals, Live Music & Things to Do This Week</title>
-<meta name="description" content="Festivals, live music, markets, and community events across southeast Oklahoma, from McAlester to Durant to Broken Bow. Filter by your town and see what's happening this weekend.">
+<meta name="description" content="Festivals, live music, markets, and community events across southeast Oklahoma, from McAlester to Durant to Broken Bow, plus big shows worth the drive. Filter by your town and see what's happening this weekend.">
 <link rel="canonical" href="https://jcow1den.github.io/seok-events/">
 <meta name="theme-color" content="#1d4a37">
 <link rel="manifest" href="manifest.webmanifest">
@@ -238,6 +238,20 @@ dialog.wxd{overflow-x:hidden}
 .install .tx{flex:1;min-width:0;font-size:14px}
 .install .tx b{display:block;font-size:15px}
 .install .x{border:0;background:transparent;font-size:22px;line-height:1;cursor:pointer;color:var(--muted);padding:4px 6px}
+/* Fun bits */
+.greet{margin:6px 0 0;font:700 18px/1.2 var(--display);letter-spacing:.04em;text-transform:uppercase;color:var(--clay)}
+.greet:empty{display:none}
+.ridges .sun{fill:#e87c48}
+@media (prefers-reduced-motion:no-preference){
+  .ridges .sun{animation:sunrise 1.6s cubic-bezier(.2,.7,.2,1) both}
+  @keyframes sunrise{from{transform:translateY(60px)}to{transform:none}}
+  .heart.pop svg{animation:pop .35s ease}
+  @keyframes pop{0%{transform:scale(1)}50%{transform:scale(1.35)}100%{transform:scale(1)}}
+}
+.surprise{border:0;border-radius:999px;background:var(--clay);color:var(--on-cat);font:700 14px/1 var(--body);padding:9px 14px;cursor:pointer;display:inline-flex;align-items:center;gap:6px;white-space:nowrap}
+.soon{display:inline-block;margin-left:6px;padding:2px 6px;border-radius:4px;background:rgba(255,255,255,.25);font-size:12px;letter-spacing:.06em;vertical-align:middle}
+.snack{position:fixed;left:50%;bottom:calc(18px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:999px;font-weight:700;font-size:14px;z-index:50;box-shadow:0 6px 20px rgba(0,0,0,.25);max-width:calc(100% - 32px);text-align:center}
+.verdict{margin:0;padding:10px 12px;border-radius:8px;background:color-mix(in srgb,var(--c-markets) 14%,transparent);font-weight:700}
 /* Worth the drive */
 #drive-sec .lead{margin:-4px 0 12px;color:var(--muted);font-size:14px;max-width:60ch}
 .drives{display:grid;gap:10px}
@@ -280,9 +294,11 @@ dialog.wxd{overflow-x:hidden}
   <div class="wrap gut">
     <span class="badge">Kiamichi Country · Lake Country</span>
     <h1>Southeast Oklahoma <span>Events</span></h1>
-    <p class="lede">Festivals, live music, markets, and hometown happenings from McAlester to Durant to Broken Bow, all in one place.</p>
+    <p class="lede">Festivals, live music, markets, and hometown happenings across southeast Oklahoma, in big towns and small ones. Plus the big shows worth the drive.</p>
+    <p class="greet" id="greet" aria-live="polite"></p>
   </div>
   <svg class="ridges" viewBox="0 0 1200 170" preserveAspectRatio="none" aria-hidden="true">
+    <circle class="sun" cx="900" cy="70" r="46"/>
     <path class="r1" d="M0 120 L90 78 L170 98 L260 52 L360 92 L450 60 L560 96 L650 46 L760 88 L860 58 L960 94 L1060 64 L1200 92 L1200 170 L0 170Z"/>
     <path class="r2" d="M0 138 L110 104 L210 126 L320 86 L430 122 L540 98 L640 128 L750 90 L860 124 L980 100 L1090 128 L1200 108 L1200 170 L0 170Z"/>
     <path class="r3" d="M0 160 L140 130 L280 152 L420 124 L560 150 L700 128 L840 152 L980 132 L1100 150 L1200 138 L1200 170 L0 170Z"/>
@@ -324,12 +340,12 @@ dialog.wxd{overflow-x:hidden}
       <button class="x" id="install-x" type="button" aria-label="Dismiss">×</button>
     </div>
     <section id="hl-sec" aria-labelledby="hl-h">
-      <div class="sec-h"><h2 id="hl-h">Don't miss</h2><small id="hl-sub"></small></div>
+      <div class="sec-h"><h2 id="hl-h">Don't miss</h2><span class="right"><small id="hl-sub"></small><button class="surprise" id="surprise" type="button">🎲 Surprise me</button></span></div>
       <div class="rail" id="rail"></div>
     </section>
     <div id="area-sponsor"></div>
     <section aria-labelledby="all-h">
-      <div class="sec-h"><h2 id="all-h">Every event</h2><span class="right"><small id="count"></small>
+      <div class="sec-h"><h2 id="all-h">What's going on</h2><span class="right"><small id="count"></small>
         <span class="seg" role="group" aria-label="View"><button type="button" id="v-list" aria-pressed="true">List</button><button type="button" id="v-map" aria-pressed="false">Map</button></span></span></div>
       <div id="map-wrap" hidden><p class="map-note">Pins show each town with events. Tap a pin to see what's on there.</p><div id="map" role="region" aria-label="Map of event towns"></div></div>
       <div id="list" style="display:grid;gap:26px" aria-live="polite"></div>
@@ -337,13 +353,14 @@ dialog.wxd{overflow-x:hidden}
 
     <section id="drive-sec" aria-labelledby="drive-h" hidden>
       <div class="sec-h"><h2 id="drive-h">Worth the drive</h2><small id="drive-count"></small></div>
-      <p class="lead">Big shows within a couple hours of southeast Oklahoma, in Tulsa, Oklahoma City, and Thackerville. Check with the venue for tickets.</p>
+      <p class="lead">Concerts, festivals, big games, and family outings within a few hours of southeast Oklahoma, in Tulsa, Oklahoma City, Muskogee, Norman, Stillwater, Thackerville, and Dallas–Fort Worth. Check with the venue for tickets.</p>
+      <div class="row" id="drive-kinds" role="group" aria-label="Type" style="margin-bottom:12px"></div>
       <div class="drives" id="drives"></div>
     </section>
 
     <section class="panel" id="subscribe" aria-labelledby="cal-h">
-      <h2 id="cal-h">Get every event in your calendar</h2>
-      <p>Subscribe once and every listing shows up in your phone's calendar. It updates on its own as we add events.</p>
+      <h2 id="cal-h">Never miss a good time</h2>
+      <p>Subscribe once and every southeast Oklahoma event on this page shows up in your phone's calendar. It updates on its own as we add events.</p>
       <div class="sub-acts">
         <a class="btn pri" id="cal-apple" href="webcal://jcow1den.github.io/seok-events/events.ics">iPhone / Apple Calendar</a>
         <a class="btn" id="cal-google" target="_blank" rel="noopener" href="https://calendar.google.com/calendar/r?cid=webcal%3A%2F%2Fjcow1den.github.io%2Fseok-events%2Fevents.ics">Google Calendar</a>
@@ -353,8 +370,8 @@ dialog.wxd{overflow-x:hidden}
     </section>
 
     <section class="panel" id="submit" aria-labelledby="sub-h">
-      <h2 id="sub-h">Got an event?</h2>
-      <p>Listing is free. Fill this out, copy it, and send it to <strong>Southeast Oklahoma Events</strong> on Facebook.</p>
+      <h2 id="sub-h">Got something going on?</h2>
+      <p>Church supper, fish fry, car show, garage band? Listing is free. Fill this out, copy it, and send it to <strong>Southeast Oklahoma Events</strong> on Facebook.</p>
       <form id="sub-form" novalidate>
         <label for="f-title">Event name<input id="f-title" maxlength="120"></label>
         <div class="g2">
@@ -397,9 +414,9 @@ dialog.wxd{overflow-x:hidden}
   </div>
 </dialog>
 <footer><div class="wrap gut">
-  <p>Listings come from organizers, venues, chambers of commerce, and libraries across the region. Times change, so check with the host before you drive out. Distances are measured town to town in a straight line, so the drive is usually a little longer.</p>
+  <p>Listings are gathered from organizers, venues, chambers of commerce, libraries, and tourism listings. Times change, so check with the host before you drive out. Distances are measured town to town in a straight line, so the drive is usually a little longer.</p>
   <p>Weather forecasts by <a href="https://open-meteo.com/" target="_blank" rel="noopener" style="color:inherit">Open-Meteo</a>, shown for each event's town. Tap a forecast for hour-by-hour details. <button class="linkbtn" id="install-foot" type="button">Add this site to your home screen</button></p>
-  <p>© <span id="yr"></span> Southeast Oklahoma Events</p>
+  <p>© <span id="yr"></span> Southeast Oklahoma Events · Made in southeast Oklahoma.</p>
 </div></footer>
 
 <script>
@@ -549,7 +566,10 @@ async function openWx(e,day){
       hours.append(h("div",{class:"hr"},h("span",null,hourLabel(tm)),h("span",{class:"i","aria-hidden":"true"},wxIcon(hr.weather_code[k])),
         h("b",null,Math.round(hr.temperature_2m[k])+"°"),h("span",{class:"p"+(pp>=40?" wet":"")},(pp==null?"–":pp+"%")),
         h("span",{class:"sr"},Math.round(hr.wind_speed_10m[k])+" mph"))); });
+    const hi=d.temperature_2m_max[0], verdict = pmax>=50 ? "☔ Bring an umbrella." : hi>=95 ? "🥵 Hot one. Bring water and find some shade." :
+      hi<=45 ? "🧣 Bundle up." : hi<=60 ? "🧥 Jacket weather." : (hi<=85 && (pmax==null||pmax<30)) ? "😎 Great day to be outside." : "";
     body.textContent="";
+    if(verdict) body.append(h("p",{class:"verdict"},verdict));
     body.append(
       h("div",{class:"wx-now"},h("span",{class:"big","aria-hidden":"true"},ic),h("div",null,h("b",null,label),h("span",null,"High "+Math.round(d.temperature_2m_max[0])+"° · Low "+Math.round(d.temperature_2m_min[0])+"°"))),
       h("div",{class:"wx-grid"},
@@ -564,6 +584,8 @@ async function openWx(e,day){
   }
 }
 
+let snackT; function snack(msg){ let s=document.querySelector(".snack"); if(!s){ s=h("div",{class:"snack",role:"status"}); document.body.append(s); }
+  s.textContent=msg; s.hidden=false; clearTimeout(snackT); snackT=setTimeout(()=>{ s.hidden=true; },2400); }
 function copyText(text, onOk, onFail){ try{ navigator.clipboard.writeText(text).then(onOk,onFail);}catch(e){onFail();} }
 
 /* ===== Cards ===== */
@@ -573,7 +595,9 @@ function card(e,today){
     e.endDate&&h("span",{class:"tag multi"},(e.date<today?"Ongoing · ":"")+"Thru "+fmt(e.endDate,{month:"short",day:"numeric"})),
     e.kids&&h("span",{class:"tag kids"},"Kids"), wxFor(e,today,true) ];
   const heart=h("button",{class:"heart",type:"button","aria-pressed":String(SAVED.has(e.id)),"aria-label":"Save "+e.title},icon("heart"));
-  heart.addEventListener("click",ev=>{ ev.preventDefault(); ev.stopPropagation(); toggleSave(e.id); heart.setAttribute("aria-pressed",String(SAVED.has(e.id))); });
+  heart.addEventListener("click",ev=>{ ev.preventDefault(); ev.stopPropagation(); toggleSave(e.id); const on=SAVED.has(e.id);
+    heart.setAttribute("aria-pressed",String(on)); heart.classList.remove("pop"); void heart.offsetWidth; if(on) heart.classList.add("pop");
+    snack(on?"Saved ♥ Find it under Saved anytime.":"Removed from Saved."); });
   d.append(h("summary",null,
     h("span",{class:"ic"},icon(e.category)),
     h("span",{class:"sm"},
@@ -585,7 +609,7 @@ function card(e,today){
   share.addEventListener("click",()=>{ const link=SITE_URL+"#"+e.id; copyText(e.title+" — "+whenText(e)+"\n"+link,()=>toast.textContent="Link copied",()=>toast.textContent=link); });
   d.append(h("div",{class:"body"},
     e.description&&h("p",null,e.description),
-    e.unconfirmed&&h("p",{class:"note"},"Listed by the organizer. Confirm details with the host before you go."),
+    e.unconfirmed&&h("p",{class:"note"},"We haven't confirmed this one with the organizer yet. Check with the host before you go."),
     h("dl",{class:"kv"},h("dt",null,"When"),h("dd",null,whenText(e)+(e.time?" · "+e.time:"")),
       e.venue&&h("dt",null,"Where"),e.venue&&h("dd",null,e.venue),
       e.address&&h("dt",null,"Address"),e.address&&h("dd",null,e.address)),
@@ -597,7 +621,8 @@ function card(e,today){
 }
 function poster(e,today){
   const b=h("button",{class:"poster",type:"button",style:catVar(e.category)},
-    h("span",{class:"top"},h("span",{class:"d"},h("small",null,e.endDate?"Thru "+fmt(e.endDate,{month:"short",day:"numeric"}):fmt(e.date,{weekday:"long"})),
+    h("span",{class:"top"},h("span",{class:"d"},h("small",null,e.endDate?"Thru "+fmt(e.endDate,{month:"short",day:"numeric"}):fmt(e.date,{weekday:"long"}),
+        firstActive(e,today)===today?h("span",{class:"soon"},"Today"):firstActive(e,today)===addDays(today,1)?h("span",{class:"soon"},"Tomorrow"):null),
       (e.date<today&&firstActive(e,today)===today)?"Now on":fmt(firstActive(e,today)||e.date,{month:"short",day:"numeric"})),icon(e.category)),
     h("span",{class:"bd"},h("span",{class:"kick"},h("span",{class:"c"},CATS[e.category]),e.featured&&h("span",{class:"tag feat"},"Featured"),e.free&&h("span",{class:"tag free"},"Free"),wxFor(e,today,false)),
       h("span",{class:"t"},e.title),h("span",{class:"m"},[e.venue,AREAS[e.area],miLabel(e)].filter(Boolean).join(" · "))));
@@ -653,8 +678,8 @@ function render(){
   const list=document.getElementById("list"); list.textContent="";
   if(state.view==="map") drawMap(hits);
   if(!hits.length){ list.append(h("div",{class:"empty"},
-    state.when==="saved"&&!SAVED.size?"You haven't saved any events yet. Tap the heart on any event to keep it here.":
-    state.q?`Nothing matches "${state.q}". Try a town name or a shorter word.`:"Nothing on the calendar for those filters yet. Try another area or a wider date range.")); return; }
+    state.when==="saved"&&!SAVED.size?"Nothing saved yet. Tap the ♥ on anything that looks good and it'll wait for you here.":
+    state.q?`Couldn't find "${state.q}". Try a town name or a shorter word.`:"Quiet out there for those filters. Try another area or a wider date range.")); return; }
   const groups=new Map(); for(const e of hits){ const k=firstActive(e,a); if(!groups.has(k))groups.set(k,[]); groups.get(k).push(e); }
   // In-feed sponsors: when browsing all areas, rotate area sponsors between day groups
   const rot=Object.keys(SPONSORS).filter(k=>k!=="all"); let gi=0;
@@ -667,17 +692,24 @@ function render(){
     if(state.area==="all" && (gi===2||gi%5===0)){ const key = SPONSORS.all && gi===2 ? "all" : rot[(Math.floor(gi/5))%Math.max(rot.length,1)]; const s=key&&sponsorCard(key); if(s) list.append(s); }
   }
 }
+const DKINDS={all:"All",shows:"Concerts & shows",festivals:"Festivals",family:"Family",sports:"Sports"};
+let driveKind="all";
+(function(){ const row=document.getElementById("drive-kinds");
+  for(const [k,v] of Object.entries(DKINDS)){ const b=h("button",{class:"chip",type:"button","data-k":k,"aria-pressed":String(k===driveKind)},v);
+    b.addEventListener("click",()=>{ driveKind=k; row.querySelectorAll(".chip").forEach(c=>c.setAttribute("aria-pressed",String(c.dataset.k===k))); renderDrive(todayCT()); }); row.append(b); } })();
 function renderDrive(today){
   const sec=document.getElementById("drive-sec"), box=document.getElementById("drives"); box.textContent="";
   const q=state.q.toLowerCase();
-  const items=DRIVE.filter(d=>(d.endDate||d.date)>=today && (!q || q.split(/\s+/).every(w=>(d.title+" "+d.city+" "+d.venue+" "+d.description).toLowerCase().includes(w))))
-    .sort((x,y)=>x.date.localeCompare(y.date)||x.title.localeCompare(y.title));
-  sec.hidden=!items.length||state.when==="saved";
-  document.getElementById("drive-count").textContent=items.length+(items.length===1?" show":" shows");
-  for(const d of items){
-    const m=miles(d), when=d.endDate? fmt(d.date,{month:"short",day:"numeric"})+" – "+fmt(d.endDate,{month:"short",day:"numeric"}) : fmt(d.date,{weekday:"long",month:"long",day:"numeric"});
+  const live=DRIVE.filter(d=>firstActive(d,today)!==null && (!q || q.split(/\s+/).every(w=>(d.title+" "+d.city+" "+d.venue+" "+d.description).toLowerCase().includes(w))));
+  const items=live.filter(d=>driveKind==="all"||d.kind===driveKind)
+    .map(d=>[firstActive(d,today),d]).sort((x,y)=>x[0].localeCompare(y[0])||x[1].title.localeCompare(y[1].title));
+  sec.hidden=!live.length||state.when==="saved";
+  if(!items.length) box.append(h("div",{class:"empty"},"Nothing in this one right now. Try another."));
+  document.getElementById("drive-count").textContent=items.length+(items.length===1?" pick":" picks");
+  for(const [next,d] of items){
+    const m=miles(d), when=d.endDate? (d.date<today?"Now through ":fmt(d.date,{month:"short",day:"numeric"})+" – ")+fmt(d.endDate,{month:"short",day:"numeric"}) : fmt(d.date,{weekday:"long",month:"long",day:"numeric"});
     box.append(h("article",{class:"drv",id:d.id},
-      h("div",{class:"date"},h("div",{class:"m"},fmt(d.date,{month:"short"})),h("div",{class:"n"},fmt(d.date,{day:"numeric"})),h("div",{class:"w"},fmt(d.date,{weekday:"short"}))),
+      h("div",{class:"date"},h("div",{class:"m"},fmt(next,{month:"short"})),h("div",{class:"n"},fmt(next,{day:"numeric"})),h("div",{class:"w"},fmt(next,{weekday:"short"}))),
       h("div",{class:"sm"},
         h("span",{class:"city"},d.city+(m!=null?" · about "+Math.round(m)+" mi from "+state.from:"")),
         h("span",{class:"ti"},d.title),
@@ -804,6 +836,28 @@ for(const [k,v] of Object.entries(AREAS)) areaSel.append(h("option",{value:k},v)
 areaSel.addEventListener("change",()=>{ state.area=areaSel.value; save(); render(); });
 let qt; document.getElementById("q").addEventListener("input",ev=>{ clearTimeout(qt); qt=setTimeout(()=>{ state.q=ev.target.value.trim(); render(); },120); });
 if(!AREAS[state.area]) state.area="all"; if(!CATS[state.cat]) state.cat="all"; if(!WHEN[state.when]) state.when="all";
+(function greet(){
+  const today=todayCT(), dw=dow(today), [wa,wb]=weekend(today);
+  const n=EVENTS.filter(e=>(e.endDate||e.date)>=today&&overlaps(e,wa,wb)).length;
+  const days=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+  const line = dw===5 ? "It's Friday. "+(n>1?n+" things to do this weekend.":"Here's your weekend.")
+    : dw===6 ? "It's Saturday. Get out there."
+    : dw===0 ? "Sunday plans? Have a look."
+    : dw===4 ? "Happy Thursday. The weekend's almost here."
+    : "Happy "+days[dw]+". Here's what's coming up.";
+  document.getElementById("greet").textContent=line;
+})();
+document.getElementById("surprise").addEventListener("click",()=>{
+  const today=todayCT(), end=addDays(today,7);
+  const soon=EVENTS.filter(e=>overlaps(e,today,end));
+  let pool=soon.filter(e=>matches(e)&&!e.unconfirmed);
+  if(!pool.length) pool=soon.filter(e=>!e.unconfirmed);
+  if(!pool.length) pool=soon;
+  if(!pool.length){ snack("Nothing this week yet. Check back soon."); return; }
+  const pick=pool[Math.floor(Math.random()*pool.length)];
+  if(state.view==="map") setView("list");
+  openEvent(pick.id,true); snack("How about this one? 🎲");
+});
 syncControls(); updateSavedChip();
 document.getElementById("v-list").setAttribute("aria-pressed",String(state.view==="list"));
 document.getElementById("v-map").setAttribute("aria-pressed",String(state.view==="map"));

@@ -105,6 +105,8 @@ try:
 except FileNotFoundError:
     drive = []
 for d in drive:
+    if d.get("kind") not in ("shows", "festivals", "family", "sports"):
+        sys.exit(f"Worth-the-drive item {d.get('id')} needs kind: shows, festivals, family, or sports")
     for f in ("id", "date", "title", "city", "venue", "address", "lat", "lon", "url"):
         if d.get(f) in (None, ""):
             sys.exit(f"Worth-the-drive item {d.get('id')} is missing {f}")
