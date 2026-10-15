@@ -133,7 +133,31 @@ stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
 lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Southeast Oklahoma Events//EN", "CALSCALE:GREGORIAN",
          "METHOD:PUBLISH", "X-WR-CALNAME:Southeast Oklahoma Events", "X-WR-TIMEZONE:America/Chicago",
          "REFRESH-INTERVAL;VALUE=DURATION:PT12H", "X-PUBLISHED-TTL:PT12H"]
+def open_dates(e):
+    """Each date the event is open. Events with openDays (0=Sun ... 6=Sat) list only those weekdays."""
+    d, last = date.fromisoformat(e["date"]), date.fromisoformat(e.get("endDate") or e["date"])
+    out = []
+    while d <= last:
+        if not e.get("openDays") or (d.isoweekday() % 7) in e["openDays"]:
+            out.append(d)
+        d += timedelta(days=1)
+    return out
+
+
 for e in live:
+    if e.get("openDays"):
+        # One calendar entry per open day, so a weekends-only festival doesn't fill the weekdays
+        for d in open_dates(e):
+            if d.isoformat() < today:
+                continue
+            desc = "\n".join(filter(None, [e.get("time"), e.get("description"), SITE + "#" + e["id"]]))
+            lines += ["BEGIN:VEVENT", f"UID:{e['id']}-{d.strftime('%Y%m%d')}@seok-events", f"DTSTAMP:{stamp}",
+                      "DTSTART;VALUE=DATE:" + d.strftime("%Y%m%d"),
+                      "DTEND;VALUE=DATE:" + (d + timedelta(days=1)).strftime("%Y%m%d"),
+                      "SUMMARY:" + esc(e["title"]), "DESCRIPTION:" + esc(desc),
+                      "LOCATION:" + esc(", ".join(filter(None, [e.get("venue"), e["address"]]))),
+                      "URL:" + SITE + "#" + e["id"], "TRANSP:TRANSPARENT", "END:VEVENT"]
+        continue
     end = date.fromisoformat(e.get("endDate") or e["date"]) + timedelta(days=1)
     desc = "\n".join(filter(None, [e.get("time"), e.get("description"),
                                    "Confirm details with the host before you go." if e.get("unconfirmed") else "",

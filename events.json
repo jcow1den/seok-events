@@ -159,8 +159,7 @@
   "time": "10:00 AM – 5:00 PM both days",
   "venue": "Choctaw Cultural Center",
   "address": "1919 Hina Hanta Way, Calera, OK 74730",
-  "description": "Two-day fall festival at the Choctaw Cultural Center. Free.",
-  "free": true,
+  "description": "Choctaw dancing and storytelling, a stickball demonstration, a fall farmers and art market, and mini pumpkin painting for kids. Included with Choctaw Cultural Center admission; free for Choctaw tribal members and Cultural Center members.",
   "kids": true,
   "organizer": "Choctaw Cultural Center"
  },
@@ -242,7 +241,11 @@
   "offers": {
    "low": 15
   },
-  "organizer": "Endangered Ark Foundation"
+  "organizer": "Endangered Ark Foundation",
+  "openDays": [
+   6,
+   0
+  ]
  },
  {
   "id": "e021",
@@ -283,8 +286,7 @@
   "time": "4:30 – 7:00 PM",
   "venue": "Heritage Hills Living Center",
   "address": "411 N West St, McAlester, OK 74501",
-  "description": "Halloween carnival for the community at Heritage Hills.",
-  "kids": true
+  "description": "Halloween carnival for the community at Heritage Hills."
  },
  {
   "id": "e024",
@@ -376,8 +378,7 @@
   "time": "8:00 AM – 6:00 PM",
   "venue": "First Assembly of God",
   "address": "1800 Hardy Springs Rd, McAlester, OK 74501",
-  "description": "Car show and fall festival at First Assembly of God.",
-  "kids": true
+  "description": "Car show and fall festival at First Assembly of God."
  },
  {
   "id": "e031",
@@ -422,13 +423,14 @@
   "title": "Halloween Trick or Treat",
   "category": "community",
   "area": "durant",
-  "time": "6:00 PM",
+  "time": "6:00 – 8:00 PM",
   "venue": "Choctaw Cultural Center",
   "address": "1919 Hina Hanta Way, Calera, OK 74730",
-  "description": "Free Halloween trick-or-treat at the Choctaw Cultural Center.",
+  "description": "Free indoor trick-or-treat with candy, a costume contest, and a cake walk.",
   "free": true,
   "kids": true,
-  "organizer": "Choctaw Cultural Center"
+  "organizer": "Choctaw Cultural Center",
+  "indoor": true
  },
  {
   "id": "e036",
@@ -465,8 +467,7 @@
   "venue": "Wintersmith Park",
   "address": "1621 Wintersmith Dr, Ada, OK",
   "description": "Halloween-themed 5K and fun run.",
-  "unconfirmed": true,
-  "kids": true
+  "unconfirmed": true
  },
  {
   "id": "e040",
@@ -539,8 +540,7 @@
   "venue": "The Roller Dome",
   "address": "1209 S George Nigh Expy, McAlester, OK 74501",
   "description": "Halloween glow skating party at The Roller Dome.",
-  "indoor": true,
-  "kids": true
+  "indoor": true
  },
  {
   "id": "e047",

@@ -184,7 +184,35 @@ details.ev>summary{grid-template-columns:36px 1fr auto}
 .heart[aria-pressed="true"] svg{fill:currentColor}
 .heart:hover{background:var(--chip)}
 /* Weather */
-.wx{display:inline-flex;align-items:center;gap:4px;border-radius:4px;padding:2px 6px;background:var(--chip);color:var(--ink);font-size:11px;font-weight:700;letter-spacing:.03em;text-transform:none;font-variant-numeric:tabular-nums}
+.wx{display:inline-flex;align-items:center;gap:4px;border:0;border-radius:4px;padding:2px 6px;background:var(--chip);color:var(--ink);font:700 11px/1.4 var(--body);letter-spacing:.03em;text-transform:none;font-variant-numeric:tabular-nums}
+button.wx{cursor:pointer;min-height:24px}
+button.wx:hover{outline:1px solid var(--line)}
+/* Weather details */
+dialog.wxd{border:0;padding:0;border-radius:16px;width:min(520px,calc(100% - 24px));max-height:calc(100% - 24px);overflow:auto;background:var(--surface);color:var(--ink);box-shadow:0 20px 60px rgba(0,0,0,.35)}
+dialog.wxd::backdrop{background:rgba(0,0,0,.5)}
+.wxd-in{padding:18px;display:grid;grid-template-columns:minmax(0,1fr);gap:14px}
+dialog.wxd{overflow-x:hidden}
+.wxd-in>*{min-width:0}
+.wxd .btn{justify-content:center;text-align:center}
+.wxd-h{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
+.wxd-h h3{margin:0;font:800 26px/1.05 var(--display);text-transform:uppercase;text-wrap:balance}
+.wxd-h p{margin:4px 0 0;color:var(--muted);font-size:14px}
+.wxd .x{border:0;background:var(--chip);border-radius:999px;width:36px;height:36px;font-size:22px;line-height:1;cursor:pointer;color:var(--ink);flex:none}
+.wx-now{display:flex;gap:14px;align-items:center}
+.wx-now .big{font-size:46px;line-height:1}
+.wx-now b{display:block;font-size:22px}
+.wx-now span{color:var(--muted);font-size:14px}
+.wx-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.wx-grid div{background:var(--raised);border-radius:8px;padding:8px 10px;font-size:13px;color:var(--muted)}
+.wx-grid b{display:block;color:var(--ink);font-size:16px;font-variant-numeric:tabular-nums}
+.hours-h{margin:0;font:700 14px/1 var(--display);letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.hours{display:flex;gap:6px;overflow-x:auto;padding-bottom:4px}
+.hr{flex:none;width:60px;text-align:center;background:var(--raised);border-radius:8px;padding:8px 4px;font-size:12px;display:grid;gap:3px;font-variant-numeric:tabular-nums}
+.hr .i{font-size:20px}
+.hr b{font-size:15px}
+.hr .p{color:var(--muted);font-weight:700}
+.hr .p.wet{color:var(--c-community)}
+.hr .sr{color:var(--muted);font-size:11px}
 .wx.wet{background:color-mix(in srgb,var(--c-community) 18%,transparent)}
 .tag.kids{background:color-mix(in srgb,var(--c-sports) 18%,transparent);color:var(--ink)}
 .tag.in{background:var(--chip);color:var(--muted)}
@@ -343,9 +371,17 @@ details.ev>summary{grid-template-columns:36px 1fr auto}
     </section>
   </main>
 </div>
+<dialog class="wxd" id="wx-dlg" aria-labelledby="wx-title">
+  <div class="wxd-in">
+    <div class="wxd-h"><div><h3 id="wx-title"></h3><p id="wx-sub"></p></div><button class="x" id="wx-close" type="button" aria-label="Close">×</button></div>
+    <div id="wx-body" aria-live="polite"></div>
+    <a class="btn pri" id="wx-nws" target="_blank" rel="noopener">Full forecast from the National Weather Service</a>
+    <p class="note" id="wx-note"></p>
+  </div>
+</dialog>
 <footer><div class="wrap gut">
   <p>Listings come from organizers, venues, chambers of commerce, and libraries across the region. Times change, so check with the host before you drive out. Distances are measured town to town in a straight line, so the drive is usually a little longer.</p>
-  <p>Weather forecasts by <a href="https://open-meteo.com/" target="_blank" rel="noopener" style="color:inherit">Open-Meteo</a>. <button class="linkbtn" id="install-foot" type="button">Add this site to your home screen</button></p>
+  <p>Weather forecasts by <a href="https://open-meteo.com/" target="_blank" rel="noopener" style="color:inherit">Open-Meteo</a>, shown for each event's town. Tap a forecast for hour-by-hour details. <button class="linkbtn" id="install-foot" type="button">Add this site to your home screen</button></p>
   <p>© <span id="yr"></span> Southeast Oklahoma Events</p>
 </div></footer>
 
@@ -403,7 +439,14 @@ function range(today){
   if(state.when==="saved") return [today,"9999-12-31"];
   return [today,addDays(today,30)];
 }
-const overlaps=(e,a,b)=>!((e.endDate||e.date)<a || e.date>b);
+const dow = s => ymd(s).getUTCDay();
+/* First day on or after `from` that the event is actually open (respects openDays, e.g. weekends only) */
+function firstActive(e,from){
+  let d = e.date>from ? e.date : from; const end = e.endDate||e.date;
+  for(let i=0; i<400 && d<=end; i++){ if(!e.openDays||e.openDays.includes(dow(d))) return d; d=addDays(d,1); }
+  return null;
+}
+const overlaps=(e,a,b)=>{ const f=firstActive(e,a); return f!==null && f<=b; };
 function startKey(e){
   if(e.endDate) return -1;
   const t=(e.time||"").toLowerCase(), m=t.match(/(\d{1,2})(?::(\d{2}))?/), noon=t.indexOf("noon");
@@ -424,7 +467,18 @@ const whenShort = e => e.endDate ? fmt(e.date,{month:"short",day:"numeric"})+"�
 /* ===== Weather (Open-Meteo, free, no account) ===== */
 let WX=null;
 const wxKey = e => e.lat.toFixed(2)+","+e.lon.toFixed(2);
-const wxIcon = c => c===0?"☀️":c<=2?"🌤️":c===3?"☁️":c<=48?"🌫️":c<=67?"🌧️":c<=77?"🌨️":c<=82?"🌦️":"⛈️";
+/* WMO weather codes, as used by Open-Meteo */
+function wxInfo(c){
+  if(c===0) return ["☀️","Clear"]; if(c===1) return ["🌤️","Mostly clear"]; if(c===2) return ["⛅","Partly cloudy"]; if(c===3) return ["☁️","Cloudy"];
+  if(c===45||c===48) return ["🌫️","Fog"];
+  if(c>=51&&c<=55) return ["🌦️","Drizzle"]; if(c===56||c===57) return ["🌧️","Freezing drizzle"];
+  if(c===61) return ["🌧️","Light rain"]; if(c===63) return ["🌧️","Rain"]; if(c===65) return ["🌧️","Heavy rain"]; if(c===66||c===67) return ["🌧️","Freezing rain"];
+  if(c===71||c===73||c===75||c===77) return ["🌨️","Snow"];
+  if(c>=80&&c<=82) return ["🌦️","Rain showers"]; if(c===85||c===86) return ["🌨️","Snow showers"];
+  if(c===95) return ["⛈️","Thunderstorms"]; if(c===96||c===99) return ["⛈️","Thunderstorms with hail"];
+  return ["🌡️","Forecast"];
+}
+const wxIcon = c => wxInfo(c)[0];
 async function loadWeather(){
   try{ const c=JSON.parse(sessionStorage.getItem("seok-wx")||"null"); if(c&&Date.now()-c.t<3*3600e3){ WX=c.d; return true; } }catch(e){}
   const today=todayCT(), end=addDays(today,9);
@@ -440,11 +494,56 @@ async function loadWeather(){
     return true;
   }catch(e){ return false; }
 }
-function wxFor(e,today){
+function wxFor(e,today,clickable){
   if(!WX||e.indoor) return null; const x=WX[wxKey(e)]; if(!x) return null;
-  const i=x.t.indexOf(e.date<today?today:e.date); if(i<0||x.hi[i]==null) return null;
-  const p=x.p[i];
-  return h("span",{class:"wx"+(p>=40?" wet":""),title:"Forecast high and chance of rain"},wxIcon(x.c[i])+" "+Math.round(x.hi[i])+"°"+(p!=null?" · "+p+"% rain":""));
+  const day=firstActive(e,today); if(!day) return null;
+  const i=x.t.indexOf(day); if(i<0||x.hi[i]==null) return null;
+  const p=x.p[i], text=wxIcon(x.c[i])+" "+Math.round(x.hi[i])+"°"+(p!=null?" · "+p+"% rain":"");
+  if(!clickable) return h("span",{class:"wx"+(p>=40?" wet":"")},text);
+  const b=h("button",{type:"button",class:"wx"+(p>=40?" wet":""),"aria-label":"Weather details for "+e.town+", "+fmt(day,{weekday:"long",month:"long",day:"numeric"})},text+" ›");
+  b.addEventListener("click",ev=>{ ev.preventDefault(); ev.stopPropagation(); openWx(e,day); });
+  return b;
+}
+/* ===== Weather details (hour by hour for the event day) ===== */
+const wxDlg=document.getElementById("wx-dlg");
+document.getElementById("wx-close").addEventListener("click",()=>wxDlg.close());
+wxDlg.addEventListener("click",ev=>{ if(ev.target===wxDlg) wxDlg.close(); });
+const hourLabel = s => { const hh=+s.slice(11,13); return (hh%12||12)+(hh<12?" AM":" PM"); };
+const clock = s => { const hh=+s.slice(11,13), mm=s.slice(14,16); return (hh%12||12)+":"+mm+(hh<12?" AM":" PM"); };
+async function openWx(e,day){
+  document.getElementById("wx-title").textContent="Weather in "+e.town;
+  document.getElementById("wx-sub").textContent=fmt(day,{weekday:"long",month:"long",day:"numeric"})+" · for "+e.title;
+  document.getElementById("wx-nws").href="https://forecast.weather.gov/MapClick.php?lat="+e.lat.toFixed(4)+"&lon="+e.lon.toFixed(4);
+  document.getElementById("wx-note").textContent="Forecast for the center of "+e.town+" from Open-Meteo. Forecasts change, so check again closer to the day.";
+  const body=document.getElementById("wx-body"); body.textContent="Loading the forecast…";
+  if(typeof wxDlg.showModal==="function") wxDlg.showModal(); else wxDlg.setAttribute("open","");
+  const url="https://api.open-meteo.com/v1/forecast?latitude="+e.lat+"&longitude="+e.lon+
+    "&hourly=temperature_2m,precipitation_probability,weather_code,wind_speed_10m"+
+    "&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max,wind_speed_10m_max,wind_gusts_10m_max,sunrise,sunset"+
+    "&temperature_unit=fahrenheit&wind_speed_unit=mph&timezone=America%2FChicago&start_date="+day+"&end_date="+day;
+  try{
+    const r=await fetch(url); if(!r.ok) throw 0; const j=await r.json(); const d=j.daily, hr=j.hourly;
+    if(!d||!d.time||d.time[0]!==day) throw 0;
+    const [ic,label]=wxInfo(d.weather_code[0]), pmax=d.precipitation_probability_max[0];
+    const hours=h("div",{class:"hours"});
+    hr.time.forEach((tm,k)=>{ const hh=+tm.slice(11,13); if(hh<6) return;
+      const pp=hr.precipitation_probability[k];
+      hours.append(h("div",{class:"hr"},h("span",null,hourLabel(tm)),h("span",{class:"i","aria-hidden":"true"},wxIcon(hr.weather_code[k])),
+        h("b",null,Math.round(hr.temperature_2m[k])+"°"),h("span",{class:"p"+(pp>=40?" wet":"")},(pp==null?"–":pp+"%")),
+        h("span",{class:"sr"},Math.round(hr.wind_speed_10m[k])+" mph"))); });
+    body.textContent="";
+    body.append(
+      h("div",{class:"wx-now"},h("span",{class:"big","aria-hidden":"true"},ic),h("div",null,h("b",null,label),h("span",null,"High "+Math.round(d.temperature_2m_max[0])+"° · Low "+Math.round(d.temperature_2m_min[0])+"°"))),
+      h("div",{class:"wx-grid"},
+        h("div",null,"Chance of rain",h("b",null,pmax==null?"Not available":pmax+"%")),
+        h("div",null,"Wind",h("b",null,"Up to "+Math.round(d.wind_speed_10m_max[0])+" mph"+(d.wind_gusts_10m_max[0]!=null?", gusts "+Math.round(d.wind_gusts_10m_max[0]):""))),
+        h("div",null,"Sunrise",h("b",null,clock(d.sunrise[0]))),
+        h("div",null,"Sunset",h("b",null,clock(d.sunset[0])))),
+      h("p",{class:"hours-h"},"Hour by hour"), hours,
+      h("p",{class:"note"},"Each hour shows temperature, chance of rain, and wind speed. Swipe for more hours."));
+  }catch(err){
+    body.textContent="The detailed forecast couldn't load right now. Tap the button below for the National Weather Service forecast.";
+  }
 }
 
 function copyText(text, onOk, onFail){ try{ navigator.clipboard.writeText(text).then(onOk,onFail);}catch(e){onFail();} }
@@ -454,7 +553,7 @@ function card(e,today){
   const d=h("details",{class:"ev"+(e.featured?" featured":""),style:catVar(e.category),id:e.id,"data-id":e.id});
   const tags=[ e.featured&&h("span",{class:"tag feat"},"Featured"), e.free&&h("span",{class:"tag free"},"Free"),
     e.endDate&&h("span",{class:"tag multi"},(e.date<today?"Ongoing · ":"")+"Thru "+fmt(e.endDate,{month:"short",day:"numeric"})),
-    e.kids&&h("span",{class:"tag kids"},"Kids"), wxFor(e,today) ];
+    e.kids&&h("span",{class:"tag kids"},"Kids"), wxFor(e,today,true) ];
   const heart=h("button",{class:"heart",type:"button","aria-pressed":String(SAVED.has(e.id)),"aria-label":"Save "+e.title},icon("heart"));
   heart.addEventListener("click",ev=>{ ev.preventDefault(); ev.stopPropagation(); toggleSave(e.id); heart.setAttribute("aria-pressed",String(SAVED.has(e.id))); });
   d.append(h("summary",null,
@@ -481,8 +580,8 @@ function card(e,today){
 function poster(e,today){
   const b=h("button",{class:"poster",type:"button",style:catVar(e.category)},
     h("span",{class:"top"},h("span",{class:"d"},h("small",null,e.endDate?"Thru "+fmt(e.endDate,{month:"short",day:"numeric"}):fmt(e.date,{weekday:"long"})),
-      e.date<today?"Now on":fmt(e.date,{month:"short",day:"numeric"})),icon(e.category)),
-    h("span",{class:"bd"},h("span",{class:"kick"},h("span",{class:"c"},CATS[e.category]),e.featured&&h("span",{class:"tag feat"},"Featured"),e.free&&h("span",{class:"tag free"},"Free"),wxFor(e,today)),
+      (e.date<today&&firstActive(e,today)===today)?"Now on":fmt(firstActive(e,today)||e.date,{month:"short",day:"numeric"})),icon(e.category)),
+    h("span",{class:"bd"},h("span",{class:"kick"},h("span",{class:"c"},CATS[e.category]),e.featured&&h("span",{class:"tag feat"},"Featured"),e.free&&h("span",{class:"tag free"},"Free"),wxFor(e,today,false)),
       h("span",{class:"t"},e.title),h("span",{class:"m"},[e.venue,AREAS[e.area],miLabel(e)].filter(Boolean).join(" · "))));
   b.addEventListener("click",()=>openEvent(e.id,true));
   return b;
@@ -519,7 +618,7 @@ function render(){
   // Don't miss: featured first, then festivals and concerts in the next 10 days
   const pool=upcoming.filter(e=>overlaps(e,today,addDays(today,10))&&(state.area==="all"||e.area===state.area)&&!(state.from&&state.dist!=="any"&&(miles(e)??0)>distMi(state.dist))&&state.tags.every(tg=>e[tg])&&state.when!=="saved");
   const hl=[...pool.filter(e=>e.featured), ...pool.filter(e=>!e.featured&&(e.category==="festivals"||e.category==="music"))]
-    .sort((x,y)=>(y.featured?1:0)-(x.featured?1:0)||x.date.localeCompare(y.date)).slice(0,8);
+    .sort((x,y)=>(y.featured?1:0)-(x.featured?1:0)||firstActive(x,today).localeCompare(firstActive(y,today))).slice(0,8);
   const rail=document.getElementById("rail"); rail.textContent="";
   hl.forEach(e=>rail.append(poster(e,today)));
   document.getElementById("hl-sec").hidden=!hl.length||!!state.q;
@@ -529,14 +628,15 @@ function render(){
   const as=document.getElementById("area-sponsor"); as.textContent="";
   if(state.area!=="all"){ const s=sponsorCard(state.area); if(s) as.append(s); }
 
-  const hits=EVENTS.filter(e=>overlaps(e,a,b)&&matches(e)).sort((x,y)=>x.date.localeCompare(y.date)||startKey(x)-startKey(y)||x.title.localeCompare(y.title));
+  const hits=EVENTS.filter(e=>overlaps(e,a,b)&&matches(e)).map(e=>[firstActive(e,a),e])
+    .sort((x,y)=>x[0].localeCompare(y[0])||startKey(x[1])-startKey(y[1])||x[1].title.localeCompare(y[1].title)).map(p=>p[1]);
   document.getElementById("count").textContent=hits.length+(hits.length===1?" event":" events");
   const list=document.getElementById("list"); list.textContent="";
   if(state.view==="map") drawMap(hits);
   if(!hits.length){ list.append(h("div",{class:"empty"},
     state.when==="saved"&&!SAVED.size?"You haven't saved any events yet. Tap the heart on any event to keep it here.":
     state.q?`Nothing matches "${state.q}". Try a town name or a shorter word.`:"Nothing on the calendar for those filters yet. Try another area or a wider date range.")); return; }
-  const groups=new Map(); for(const e of hits){ const k=e.date<a?a:e.date; if(!groups.has(k))groups.set(k,[]); groups.get(k).push(e); }
+  const groups=new Map(); for(const e of hits){ const k=firstActive(e,a); if(!groups.has(k))groups.set(k,[]); groups.get(k).push(e); }
   // In-feed sponsors: when browsing all areas, rotate area sponsors between day groups
   const rot=Object.keys(SPONSORS).filter(k=>k!=="all"); let gi=0;
   for(const [day,evs] of groups){
