@@ -256,6 +256,66 @@ dialog.wxd{overflow-x:hidden}
 .soon{display:inline-block;margin-left:6px;padding:2px 6px;border-radius:4px;background:rgba(255,255,255,.25);font-size:12px;letter-spacing:.06em;vertical-align:middle}
 .snack{position:fixed;left:50%;bottom:calc(18px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:999px;font-weight:700;font-size:14px;z-index:50;box-shadow:0 6px 20px rgba(0,0,0,.25);max-width:calc(100% - 32px);text-align:center}
 .verdict{margin:0;padding:10px 12px;border-radius:8px;background:color-mix(in srgb,var(--c-markets) 14%,transparent);font-weight:700}
+/* Countdown tag on Worth the drive */
+.cd{display:inline-block;margin-left:8px;padding:1px 6px;border-radius:4px;background:color-mix(in srgb,var(--clay) 14%,transparent);color:var(--clay);font-size:11px;letter-spacing:.06em}
+/* Did you know */
+.dyk{display:flex;gap:12px;align-items:flex-start;background:var(--sponsor);border:1px solid var(--sponsor-line);border-radius:var(--r);padding:12px 14px}
+.dyk .bulb{font-size:22px;line-height:1}
+.dyk b{display:block;font:800 15px/1.2 var(--display);letter-spacing:.06em;text-transform:uppercase;color:var(--clay)}
+.dyk p{margin:2px 0 0}
+.dyk a{font-size:13px;color:var(--muted)}
+/* Plan my weekend */
+.planbar{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:12px 14px}
+.planbar p{margin:0;flex:1 1 220px}
+.planbar b{font:800 18px/1.1 var(--display);letter-spacing:.03em;text-transform:uppercase;display:block}
+.planbar span{color:var(--muted);font-size:14px}
+.pday{display:grid;gap:8px}
+.pday-h{display:flex;justify-content:space-between;align-items:baseline;gap:8px;flex-wrap:wrap;border-bottom:2px solid var(--ink);padding-bottom:4px}
+.pday-h b{font:800 20px/1 var(--display);text-transform:uppercase;letter-spacing:.02em}
+.pday-h span{font-size:13px;color:var(--muted);font-weight:600}
+.pstop{display:grid;grid-template-columns:76px minmax(0,1fr);gap:10px;align-items:start;padding:8px 10px;border-radius:8px;background:var(--raised);border-left:4px solid var(--cat)}
+.pstop .tm{font-size:12.5px;font-weight:700;color:var(--muted);line-height:1.3}
+.pstop .ti{display:block;font-weight:700;line-height:1.25}
+.pstop .wh{display:block;font-size:13px;color:var(--muted)}
+.pstop button{all:unset;cursor:pointer;display:block}
+.pstop button:focus-visible{outline:3px solid var(--clay);outline-offset:2px;border-radius:4px}
+.hop{font-size:12.5px;color:var(--muted);padding-left:14px}
+.pday .btn{justify-self:start}
+/* Small Town Passport */
+#passport .stamps{display:flex;flex-wrap:wrap;gap:10px}
+.stamp{width:92px;height:92px;border-radius:50%;border:3px double var(--cat);color:var(--cat);display:grid;place-content:center;text-align:center;padding:6px;transform:rotate(var(--rot));background:color-mix(in srgb,var(--cat) 7%,transparent)}
+.stamp b{font:800 var(--fs,15px)/1 var(--display);text-transform:uppercase;letter-spacing:0}
+.stamp small{font-size:10.5px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;opacity:.85}
+.pbadges{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px}
+.pbadge{display:flex;gap:10px;align-items:center;padding:8px 10px;border-radius:10px;background:var(--raised);border:1px solid var(--line)}
+.pbadge .em{font-size:24px;line-height:1}
+.pbadge b{display:block;font-size:13.5px;line-height:1.2}
+.pbadge small{font-size:12px;color:var(--muted)}
+.pbadge.locked .em{filter:grayscale(1);opacity:.35}
+.pbadge.locked b{color:var(--muted)}
+.pbadge.got{border-color:var(--pine);background:color-mix(in srgb,var(--pine) 10%,var(--surface))}
+.pass-h{margin:4px 0 0;font:800 18px/1 var(--display);text-transform:uppercase;letter-spacing:.03em}
+.ideas{display:grid;gap:6px}
+.ideas button{all:unset;cursor:pointer;display:block;padding:8px 10px;border-radius:8px;background:var(--raised);border:1px solid var(--line)}
+.ideas button:focus-visible{outline:3px solid var(--clay);outline-offset:2px}
+.ideas small{display:block;color:var(--muted);font-size:13px}
+.went[aria-pressed="true"]{background:var(--pine);border-color:var(--pine);color:var(--pine-ink)}
+.linkbtn{background:none;border:0;padding:0;color:var(--muted);text-decoration:underline;cursor:pointer;font:inherit;font-size:13px}
+/* Seasonal touches */
+.season-top{position:absolute;left:0;right:0;top:0;width:100%;height:34px;z-index:1;pointer-events:none}
+.season-top .wire{fill:none;stroke:#2c3a31;stroke-width:1.5}
+.bulb-l{stroke:rgba(0,0,0,.25);stroke-width:.6}
+.fw line{stroke-width:3;stroke-linecap:round}
+@media (prefers-reduced-motion:no-preference){
+  .bulb-l{animation:twinkle 2.4s ease-in-out infinite}
+  .bulb-l:nth-of-type(3n){animation-delay:.8s} .bulb-l:nth-of-type(3n+1){animation-delay:1.6s}
+  @keyframes twinkle{0%,100%{opacity:1}50%{opacity:.35}}
+  .fw{transform-box:fill-box;transform-origin:center;animation:burst 2.8s ease-out infinite}
+  .fw:nth-of-type(2){animation-delay:1.1s} .fw:nth-of-type(3){animation-delay:1.9s}
+  @keyframes burst{0%{transform:scale(.2);opacity:0}15%{opacity:1}60%{transform:scale(1);opacity:1}100%{transform:scale(1.1);opacity:0}}
+  .pumpkin{transform-box:fill-box;transform-origin:bottom center;animation:wobble 4s ease-in-out infinite}
+  @keyframes wobble{0%,100%{transform:rotate(0)}50%{transform:rotate(-4deg)}}
+}
 /* Worth the drive */
 #drive-sec .lead{margin:-4px 0 12px;color:var(--muted);font-size:14px;max-width:60ch}
 .drives{display:grid;gap:10px}
@@ -289,6 +349,7 @@ dialog.wxd{overflow-x:hidden}
   <symbol id="i-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s7-6.5 7-12a7 7 0 0 0-14 0c0 5.5 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></symbol>
   <symbol id="i-cal" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 9h18M8 2v4M16 2v4M12 13v5M9.5 15.5h5"/></symbol>
   <symbol id="i-share" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a5 5 0 0 0 7 0l3-3a5 5 0 0 0-7-7l-1 1"/><path d="M14 10a5 5 0 0 0-7 0l-3 3a5 5 0 0 0 7 7l1-1"/></symbol>
+  <symbol id="i-send" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="M7 8l5-5 5 5"/><path d="M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"/></symbol>
   <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20s-7-4.4-9.2-8.7C1.3 8.2 3 4.8 6.4 4.6 8.6 4.5 10.2 5.8 12 8c1.8-2.2 3.4-3.5 5.6-3.4 3.4.2 5.1 3.6 3.6 6.7C19 15.6 12 20 12 20z" stroke-linejoin="round"/></symbol>
   <symbol id="i-loc" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></symbol>
   <symbol id="i-search" viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></symbol>
@@ -301,11 +362,14 @@ dialog.wxd{overflow-x:hidden}
     <p class="lede">Festivals, live music, markets, and hometown happenings across southeast Oklahoma, in big towns and small ones. Plus the big shows worth the drive.</p>
     <p class="greet" id="greet" aria-live="polite"></p>
   </div>
+  <svg class="season-top" id="season-top" viewBox="0 0 1200 34" preserveAspectRatio="none" aria-hidden="true" hidden></svg>
   <svg class="ridges" viewBox="0 0 1200 170" preserveAspectRatio="none" aria-hidden="true">
     <circle class="sun" cx="900" cy="70" r="46"/>
     <path class="r1" d="M0 120 L90 78 L170 98 L260 52 L360 92 L450 60 L560 96 L650 46 L760 88 L860 58 L960 94 L1060 64 L1200 92 L1200 170 L0 170Z"/>
     <path class="r2" d="M0 138 L110 104 L210 126 L320 86 L430 122 L540 98 L640 128 L750 90 L860 124 L980 100 L1090 128 L1200 108 L1200 170 L0 170Z"/>
+    <g id="season-sky"></g>
     <path class="r3" d="M0 160 L140 130 L280 152 L420 124 L560 150 L700 128 L840 152 L980 132 L1100 150 L1200 138 L1200 170 L0 170Z"/>
+    <g id="season-ground"></g>
   </svg>
   <div class="under">
     <div class="wrap gut">
@@ -347,6 +411,11 @@ dialog.wxd{overflow-x:hidden}
       <div class="sec-h"><h2 id="hl-h">Don't miss</h2><span class="right"><small id="hl-sub"></small><button class="surprise" id="surprise" type="button">🎲 Surprise me</button></span></div>
       <div class="rail" id="rail"></div>
     </section>
+    <div class="planbar" id="planbar">
+      <p><b>Plan my weekend</b><span id="plan-line">Tap the ♥ on a few things for this weekend and we'll line them up for you.</span></p>
+      <button class="btn pri" id="plan-open" type="button">🗺️ See my weekend</button>
+    </div>
+    <div id="dyk"></div>
     <div id="area-sponsor"></div>
     <section aria-labelledby="all-h">
       <div class="sec-h"><h2 id="all-h">What's going on</h2><span class="right"><small id="count"></small>
@@ -360,6 +429,12 @@ dialog.wxd{overflow-x:hidden}
       <p class="lead">Concerts, festivals, big games, and family outings within a few hours of southeast Oklahoma, in Tulsa, Oklahoma City, Muskogee, Norman, Stillwater, Thackerville, and Dallas–Fort Worth. Check with the venue for tickets.</p>
       <div class="row" id="drive-kinds" role="group" aria-label="Type" style="margin-bottom:12px"></div>
       <div class="drives" id="drives"></div>
+    </section>
+
+    <section class="panel" id="passport" aria-labelledby="pass-h">
+      <h2 id="pass-h">Small Town Passport</h2>
+      <p>At an event? Tap <b>“I went!”</b> on it that day to collect a stamp for that town. Earn badges as you get around southeast Oklahoma. Your passport is saved on this phone or computer.</p>
+      <div id="pass-body"></div>
     </section>
 
     <section class="panel" id="subscribe" aria-labelledby="cal-h">
@@ -417,6 +492,14 @@ dialog.wxd{overflow-x:hidden}
     <p class="note" id="wx-note"></p>
   </div>
 </dialog>
+<dialog class="wxd" id="plan-dlg" aria-labelledby="plan-title">
+  <div class="wxd-in">
+    <div class="wxd-h"><div><h3 id="plan-title">Your weekend</h3><p id="plan-sub"></p></div><button class="x" id="plan-close" type="button" aria-label="Close">×</button></div>
+    <div id="plan-body" style="display:grid;gap:18px"></div>
+    <div class="acts" id="plan-acts"></div>
+    <p class="note">Miles are measured town to town in a straight line. Tap Route for real drive times. Check with the host before you go.</p>
+  </div>
+</dialog>
 <footer><div class="wrap gut">
   <p>Listings are gathered from organizers, venues, chambers of commerce, libraries, and tourism listings. Times change, so check with the host before you drive out. Distances are measured town to town in a straight line, so the drive is usually a little longer.</p>
   <p>Weather forecasts by <a href="https://open-meteo.com/" target="_blank" rel="noopener" style="color:inherit">Open-Meteo</a>, shown for each event's town. Tap a forecast for hour-by-hour details. <button class="linkbtn" id="install-foot" type="button">Add this site to your home screen</button></p>
@@ -463,6 +546,23 @@ function miles(e){
   return 2*R*Math.asin(Math.sqrt(a));
 }
 const miLabel = e => { const m=miles(e); return m==null?null: m<2?"In town": Math.round(m)+" mi"; };
+
+/* ===== "Did you know?" — one fact per area, each checked against the linked source ===== */
+const FACTS = {
+  mcalester:{t:"McAlester is named for J. J. McAlester, who ran a general store here and later served as Oklahoma's lieutenant governor from 1911 to 1915.",url:"https://en.wikipedia.org/wiki/J._J._McAlester"},
+  wilburton:{t:"Legend has it outlaws Belle Starr and Jesse James hid out in the hills at Robbers Cave, now a state park just outside Wilburton.",url:"https://en.wikipedia.org/wiki/Robbers_Cave_State_Park"},
+  eufaula:{t:"Lake Eufaula holds more water than any other lake in Oklahoma, with about 600 miles of shoreline.",url:"https://en.wikipedia.org/wiki/Lake_Eufaula_(Oklahoma)"},
+  atoka:{t:"Atoka is named for Chief Atoka, a Choctaw leader. The name means \u201cball ground.\u201d",url:"https://en.wikipedia.org/wiki/Atoka,_Oklahoma"},
+  durant:{t:"Durant is officially the Magnolia Capital of Oklahoma, and a \u201cWorld's Largest Peanut\u201d monument sits on the city hall lawn.",url:"https://en.wikipedia.org/wiki/Durant,_Oklahoma"},
+  "ada-holdenville":{t:"Ada is named for Ada Reed, the daughter of an early settler, and has been home to the Chickasaw Nation's headquarters since 1975.",url:"https://en.wikipedia.org/wiki/Ada,_Oklahoma"},
+  "okmulgee-east":{t:"The Creek National Capitol in downtown Okmulgee was built in 1878 and is a National Historic Landmark.",url:"https://en.wikipedia.org/wiki/Creek_National_Capitol"},
+  "hugo-antlers":{t:"Hugo is nicknamed \u201cCircus City, USA.\u201d Circus companies spent their winters there, and Showmen's Rest at Mount Olivet Cemetery is the resting place of circus and rodeo performers.",url:"https://en.wikipedia.org/wiki/Hugo,_Oklahoma"},
+  "idabel-broken-bow":{t:"Broken Bow is named after Broken Bow, Nebraska, the former hometown of the Dierks brothers who founded it.",url:"https://en.wikipedia.org/wiki/Broken_Bow,_Oklahoma"},
+  poteau:{t:"Cavanal Hill near Poteau is billed as the \u201cWorld's Highest Hill.\u201d The sign at its base lists 1,999 feet.",url:"https://en.wikipedia.org/wiki/Cavanal_Hill"}
+};
+/* Small Town Passport stamps live only on this phone or computer */
+let PASS=[]; try{ PASS=JSON.parse(localStorage.getItem("seok-pass")||"[]"); if(!Array.isArray(PASS)) PASS=[]; }catch(e){ PASS=[]; }
+const persistPass=()=>{ try{localStorage.setItem("seok-pass",JSON.stringify(PASS))}catch(e){} };
 
 /* ===== Dates (Central time) ===== */
 const todayCT = () => new Intl.DateTimeFormat("en-CA",{timeZone:"America/Chicago",year:"numeric",month:"2-digit",day:"2-digit"}).format(new Date());
@@ -590,6 +690,15 @@ async function openWx(e,day){
 
 let snackT; function snack(msg){ let s=document.querySelector(".snack"); if(!s){ s=h("div",{class:"snack",role:"status"}); document.body.append(s); }
   s.textContent=msg; s.hidden=false; clearTimeout(snackT); snackT=setTimeout(()=>{ s.hidden=true; },2400); }
+/* Share: the phone's own share menu when it has one, otherwise copy the text and link */
+function shareThing(title,lines,url,toast){
+  const text=[title,...lines].filter(Boolean).join("\n");
+  if(navigator.share){ navigator.share({title,text,url}).catch(()=>{}); return; }
+  copyText(text+"\n"+url,()=>{ if(toast) toast.textContent="Copied"; snack("Copied. Paste it in a text or a post."); },()=>{ if(toast) toast.textContent=url; });
+}
+const shareEvent=(e,toast)=>shareThing(e.title,[whenText(e)+(e.time?" · "+e.time:""),[e.venue,e.town].filter(Boolean).join(", ")],SITE_URL+"#"+e.id,toast);
+const daysBetween=(a,b)=>Math.round((ymd(b)-ymd(a))/864e5);
+function countdown(day,today){ const n=daysBetween(today,day); return n<=0?"Today":n===1?"Tomorrow":n<=14?"In "+n+" days":null; }
 function copyText(text, onOk, onFail){ try{ navigator.clipboard.writeText(text).then(onOk,onFail);}catch(e){onFail();} }
 
 /* ===== Cards ===== */
@@ -609,8 +718,11 @@ function card(e,today){
       h("span",{class:"ti"},e.title),
       h("span",{class:"wh"},[e.time,e.venue].filter(Boolean).join(" · "))), heart));
   const toast=h("span",{class:"toast",role:"status"});
-  const share=h("button",{class:"btn",type:"button"},icon("share"),"Copy link");
-  share.addEventListener("click",()=>{ const link=SITE_URL+"#"+e.id; copyText(e.title+" — "+whenText(e)+"\n"+link,()=>toast.textContent="Link copied",()=>toast.textContent=link); });
+  const share=h("button",{class:"btn",type:"button"},icon("send"),"Share");
+  share.addEventListener("click",()=>shareEvent(e,toast));
+  const on=firstActive(e,today)===today, stamped=PASS.some(s=>s.id===e.id);
+  const went=on&&h("button",{class:"btn went",type:"button","aria-pressed":String(stamped)},stamped?"✓ Stamped":"🎟️ I went!");
+  if(went) went.addEventListener("click",()=>{ const now=toggleStamp(e,today); went.setAttribute("aria-pressed",String(now)); went.textContent=now?"✓ Stamped":"🎟️ I went!"; });
   d.append(h("div",{class:"body"},
     e.description&&h("p",null,e.description),
     e.unconfirmed&&h("p",{class:"note"},"We haven't confirmed this one with the organizer yet. Check with the host before you go."),
@@ -620,13 +732,13 @@ function card(e,today){
     h("div",{class:"acts"},
       h("a",{class:"btn pri",href:maps(e),target:"_blank",rel:"noopener"},icon("pin"),"Directions"),
       h("a",{class:"btn",href:gcal(e),target:"_blank",rel:"noopener"},icon("cal"),"Add to calendar"),
-      share, toast)));
+      share, went, toast)));
   return d;
 }
 function poster(e,today){
   const b=h("button",{class:"poster",type:"button",style:catVar(e.category)},
     h("span",{class:"top"},h("span",{class:"d"},h("small",null,e.endDate?"Thru "+fmt(e.endDate,{month:"short",day:"numeric"}):fmt(e.date,{weekday:"long"}),
-        firstActive(e,today)===today?h("span",{class:"soon"},"Today"):firstActive(e,today)===addDays(today,1)?h("span",{class:"soon"},"Tomorrow"):null),
+        (e.date<today&&firstActive(e,today)===today)?null:countdown(firstActive(e,today)||e.date,today)&&h("span",{class:"soon"},countdown(firstActive(e,today)||e.date,today))),
       (e.date<today&&firstActive(e,today)===today)?"Now on":fmt(firstActive(e,today)||e.date,{month:"short",day:"numeric"})),icon(e.category)),
     h("span",{class:"bd"},h("span",{class:"kick"},h("span",{class:"c"},CATS[e.category]),e.featured&&h("span",{class:"tag feat"},"Featured"),e.free&&h("span",{class:"tag free"},"Free"),wxFor(e,today,false)),
       h("span",{class:"t"},e.title),h("span",{class:"m"},[e.venue,AREAS[e.area],miLabel(e)].filter(Boolean).join(" · "))));
@@ -672,6 +784,10 @@ function render(){
   document.getElementById("hl-sub").textContent="Next 10 days"+(state.area!=="all"?" · "+AREAS[state.area]:"")+(state.from&&state.dist!=="any"?" · "+DIST[state.dist].toLowerCase()+" of "+state.from:"");
   document.getElementById("dist-row").hidden=!state.from;
 
+  const dk=document.getElementById("dyk"); dk.textContent="";
+  const fact=FACTS[state.area];
+  if(fact) dk.append(h("div",{class:"dyk"},h("span",{class:"bulb","aria-hidden":"true"},"💡"),
+    h("div",null,h("b",null,"Did you know?"),h("p",null,fact.t),h("a",{href:fact.url,target:"_blank",rel:"noopener"},"Source"))));
   const as=document.getElementById("area-sponsor"); as.textContent="";
   if(state.area!=="all"){ const s=sponsorCard(state.area); if(s) as.append(s); }
 
@@ -715,14 +831,15 @@ function renderDrive(today){
     box.append(h("article",{class:"drv",id:d.id},
       h("div",{class:"date"},h("div",{class:"m"},fmt(next,{month:"short"})),h("div",{class:"n"},fmt(next,{day:"numeric"})),h("div",{class:"w"},fmt(next,{weekday:"short"}))),
       h("div",{class:"sm"},
-        h("span",{class:"city"},d.city+(m!=null?" · about "+Math.round(m)+" mi from "+state.from:"")),
+        h("span",{class:"city"},d.city+(m!=null?" · about "+Math.round(m)+" mi from "+state.from:""),!(d.date<today&&next===today)&&countdown(next,today)&&h("span",{class:"cd"},countdown(next,today))),
         h("span",{class:"ti"},d.title),
         h("span",{class:"wh"},[when,d.time,d.venue].filter(Boolean).join(" · ")),
         d.description&&h("p",null,d.description),
         h("div",{class:"acts"},
           h("a",{class:"btn pri",href:maps(d),target:"_blank",rel:"noopener"},icon("pin"),"Directions"),
           h("a",{class:"btn",href:gcal(d),target:"_blank",rel:"noopener"},icon("cal"),"Add to calendar"),
-          h("a",{class:"btn",href:d.url,target:"_blank",rel:"noopener"},"Event info")))));
+          h("a",{class:"btn",href:d.url,target:"_blank",rel:"noopener"},"Event info"),
+          (()=>{ const b=h("button",{class:"btn",type:"button"},icon("send"),"Share"); b.addEventListener("click",()=>shareThing(d.title,[(d.endDate?when:fmt(next,{weekday:"long",month:"long",day:"numeric"}))+(d.time?" · "+d.time:""),d.venue+", "+d.city],SITE_URL+"#"+d.id)); return b; })()))));
   }
 }
 function openEvent(id,scroll){
@@ -753,7 +870,7 @@ chipRow("when-row",WHEN,"when",false); chipRow("cat-row",CATS,"cat",true); chipR
   for(const [k,v] of Object.entries(TAGS)){ const b=h("button",{class:"chip tagchip",type:"button","data-t":k,"aria-pressed":String(state.tags.includes(k))},v);
     b.addEventListener("click",()=>{ state.tags=state.tags.includes(k)?state.tags.filter(x=>x!==k):[...state.tags,k]; save(); syncControls(); render(); }); row.append(b); } })();
 function savedCount(){ const ids=new Set(EVENTS.filter(e=>(e.endDate||e.date)>=todayCT()).map(e=>e.id)); return [...SAVED].filter(id=>ids.has(id)).length; }
-function updateSavedChip(){ const c=document.querySelector('#when-row .chip[data-k="saved"]'); if(c){ const n=savedCount(); c.textContent="♥ Saved"+(n?" ("+n+")":""); } }
+function updateSavedChip(){ const c=document.querySelector('#when-row .chip[data-k="saved"]'); if(c){ const n=savedCount(); c.textContent="♥ Saved"+(n?" ("+n+")":""); } if(typeof updatePlanBar==="function") updatePlanBar(); }
 function toggleSave(id){ SAVED.has(id)?SAVED.delete(id):SAVED.add(id); persistSaved(); updateSavedChip(); if(state.when==="saved") render(); }
 /* ===== Map (Leaflet + OpenStreetMap, loaded only when someone opens it) ===== */
 let MAP=null, LAYER=null, leafletP=null;
@@ -862,7 +979,153 @@ document.getElementById("surprise").addEventListener("click",()=>{
   if(state.view==="map") setView("list");
   openEvent(pick.id,true); snack("How about this one? 🎲");
 });
-syncControls(); updateSavedChip();
+/* ===== Small Town Passport ===== */
+const BADGES=[
+  {em:"🎟️",name:"First stamp",need:"1 event",ok:s=>s.length>=1,prog:s=>[s.length,1]},
+  {em:"🛻",name:"Back-roads rookie",need:"3 towns",ok:(s,t)=>t>=3,prog:(s,t)=>[t,3]},
+  {em:"🌾",name:"Small-town regular",need:"5 towns",ok:(s,t)=>t>=5,prog:(s,t)=>[t,5]},
+  {em:"🧭",name:"Southeast Oklahoma explorer",need:"10 towns",ok:(s,t)=>t>=10,prog:(s,t)=>[t,10]},
+  {em:"🗺️",name:"All over the map",need:"5 areas",ok:s=>new Set(s.map(x=>x.area)).size>=5,prog:s=>[new Set(s.map(x=>x.area)).size,5]},
+  {em:"🎪",name:"Festival fan",need:"3 festivals",ok:s=>s.filter(x=>x.cat==="festivals").length>=3,prog:s=>[s.filter(x=>x.cat==="festivals").length,3]},
+  {em:"🎸",name:"Live music lover",need:"3 shows",ok:s=>s.filter(x=>x.cat==="music").length>=3,prog:s=>[s.filter(x=>x.cat==="music").length,3]},
+  {em:"🧺",name:"Market regular",need:"3 markets",ok:s=>s.filter(x=>x.cat==="markets").length>=3,prog:s=>[s.filter(x=>x.cat==="markets").length,3]}];
+const townCount=()=>new Set(PASS.map(x=>x.town)).size;
+function toggleStamp(e,today){
+  const i=PASS.findIndex(s=>s.id===e.id);
+  if(i>-1){ PASS.splice(i,1); persistPass(); renderPassport(); snack("Stamp removed."); return false; }
+  const before=BADGES.filter(b=>b.ok(PASS,townCount())).length, newTown=!PASS.some(s=>s.town===e.town);
+  PASS.push({id:e.id,title:e.title,town:e.town,area:e.area,cat:e.category,day:today}); persistPass(); renderPassport();
+  const got=BADGES.filter(b=>b.ok(PASS,townCount()));
+  snack(got.length>before?"🏅 New badge: "+got[got.length-1].name+"!":newTown?"Stamped! "+e.town+" is in your passport. 🎟️":"Stamped! Have fun. 🎟️");
+  return true;
+}
+let clearArmed=false;
+function renderPassport(){
+  const box=document.getElementById("pass-body"); box.textContent=""; const today=todayCT();
+  const towns=new Map(); for(const s of PASS){ if(!towns.has(s.town)) towns.set(s.town,{n:0,cat:s.cat}); towns.get(s.town).n++; }
+  if(towns.size){
+    const st=h("div",{class:"stamps"});
+    let k=0; for(const [town,v] of towns){ const rot=((town.length*37+k*53)%15)-7; k++;
+      st.append(h("div",{class:"stamp",style:catVar(v.cat)+";--rot:"+rot+"deg;--fs:"+Math.max(10,Math.min(16,Math.floor(72/(Math.max(...town.split(" ").map(w=>w.length))*.68))))+"px","aria-label":town+", "+v.n+(v.n===1?" stamp":" stamps")},h("b",null,town),h("small",null,v.n===1?"1 stamp":v.n+" stamps"))); }
+    box.append(h("p",{class:"pass-h"},towns.size+(towns.size===1?" town":" towns")+" · "+PASS.length+(PASS.length===1?" stamp":" stamps")),st);
+  } else box.append(h("div",{class:"empty"},"No stamps yet. Your first one is waiting at an event near you."));
+  const t=townCount(), bg=h("div",{class:"pbadges"});
+  for(const b of BADGES){ const ok=b.ok(PASS,t), [have,need]=b.prog(PASS,t);
+    bg.append(h("div",{class:"pbadge "+(ok?"got":"locked")},h("span",{class:"em","aria-hidden":"true"},b.em),
+      h("span",null,h("b",null,b.name),h("small",null,ok?"Earned":Math.min(have,need)+" of "+b.need)))); }
+  box.append(h("p",{class:"pass-h"},"Badges"),bg);
+  const stamped=new Set(PASS.map(s=>s.town)), seen=new Set();
+  const ideas=EVENTS.filter(e=>!e.unconfirmed&&overlaps(e,today,addDays(today,14))&&!stamped.has(e.town))
+    .map(e=>[firstActive(e,today),e]).sort((x,y)=>x[0].localeCompare(y[0])).filter(([,e])=>!seen.has(e.town)&&seen.add(e.town)).slice(0,3);
+  if(ideas.length){ const li=h("div",{class:"ideas"});
+    for(const [day,e] of ideas){ const b=h("button",{type:"button"},h("b",null,e.town+": "),e.title,h("small",null,fmt(day,{weekday:"long",month:"short",day:"numeric"})+(e.time?" · "+e.time:"")));
+      b.addEventListener("click",()=>{ if(state.view==="map") setView("list"); openEvent(e.id,true); }); li.append(b); }
+    box.append(h("p",{class:"pass-h"},"Next stamp ideas"),li); }
+  if(PASS.length){ const c=h("button",{class:"linkbtn",type:"button"},"Clear my passport");
+    c.addEventListener("click",()=>{ if(!clearArmed){ clearArmed=true; c.textContent="Tap again to clear every stamp"; setTimeout(()=>{ clearArmed=false; c.textContent="Clear my passport"; },4000); return; }
+      PASS=[]; persistPass(); clearArmed=false; renderPassport(); render(); snack("Passport cleared."); });
+    box.append(h("p",null,c)); }
+}
+
+/* ===== Plan my weekend ===== */
+const planDlg=document.getElementById("plan-dlg");
+document.getElementById("plan-close").addEventListener("click",()=>planDlg.close());
+planDlg.addEventListener("click",ev=>{ if(ev.target===planDlg) planDlg.close(); });
+function townMiles(a,b){ const R=3958.8, r=Math.PI/180, dLa=(b.lat-a.lat)*r, dLo=(b.lon-a.lon)*r;
+  const x=Math.sin(dLa/2)**2+Math.cos(a.lat*r)*Math.cos(b.lat*r)*Math.sin(dLo/2)**2; return 2*R*Math.asin(Math.sqrt(x)); }
+function wxDayText(e,day){ if(!WX) return ""; const x=WX[wxKey(e)]; if(!x) return ""; const i=x.t.indexOf(day); if(i<0||x.hi[i]==null) return "";
+  return wxIcon(x.c[i])+" "+Math.round(x.hi[i])+"° in "+e.town+(x.p[i]!=null?" · "+x.p[i]+"% rain":""); }
+const addr = e => [e.venue,e.address].filter(Boolean).join(", ");
+function routeUrl(stops){ const u=new URLSearchParams({api:"1",origin:addr(stops[0]),destination:addr(stops[stops.length-1]),travelmode:"driving"});
+  if(stops.length>2) u.set("waypoints",stops.slice(1,-1).map(addr).join("|")); return "https://www.google.com/maps/dir/?"+u.toString(); }
+function weekendPlanEvents(today){ const [wa,wb]=weekend(today); const ids=new Set(SAVED);
+  return EVENTS.filter(e=>ids.has(e.id)&&overlaps(e,wa,wb)); }
+function updatePlanBar(){
+  const today=todayCT(), n=weekendPlanEvents(today).length, [wa,wb]=weekend(today);
+  const span=wa===wb?fmt(wa,{weekday:"long"}):fmt(wa,{weekday:"short"})+"–"+fmt(wb,{weekday:"short"});
+  document.getElementById("plan-line").textContent= n? n+(n===1?" thing":" things")+" saved for this weekend ("+span+"). Here's how your days line up." :
+    "Tap the ♥ on a few things for this weekend ("+span+") and we'll line them up for you.";
+  document.getElementById("plan-open").textContent="🗺️ See my weekend"+(n?" ("+n+")":"");
+}
+function openPlan(sharedIds){
+  const today=todayCT(), [wa,wb]=weekend(today), body=document.getElementById("plan-body"), acts=document.getElementById("plan-acts");
+  body.textContent=""; acts.textContent="";
+  const shared=Array.isArray(sharedIds);
+  let evs = shared ? EVENTS.filter(e=>sharedIds.includes(e.id)&&(e.endDate||e.date)>=today) : weekendPlanEvents(today);
+  document.getElementById("plan-title").textContent= shared ? "A plan someone shared" : "Your weekend";
+  document.getElementById("plan-sub").textContent= shared ? "Here's what they lined up. Save the ones you like." :
+    (wa===wb?fmt(wa,{weekday:"long",month:"long",day:"numeric"}):fmt(wa,{weekday:"long",month:"short",day:"numeric"})+" – "+fmt(wb,{weekday:"long",month:"short",day:"numeric"}));
+  if(!evs.length){
+    body.append(h("div",{class:"empty"}, shared?"Those events have already happened or come off the calendar.":"Nothing saved for this weekend yet. Tap the ♥ on a few events, then come back here."));
+    const b=h("button",{class:"btn pri",type:"button"},"Show this weekend's events");
+    b.addEventListener("click",()=>{ planDlg.close(); state.when="weekend"; save(); syncControls(); render(); document.getElementById("all-h").scrollIntoView({block:"start"}); });
+    acts.append(b);
+  } else {
+    // Each event goes on its first open day (multi-day events show once, with how long they run)
+    const from = shared ? today : wa, byDay=new Map();
+    for(const e of evs){ const d=firstActive(e,from); if(!d) continue; if(!shared&&d>wb) continue; if(!byDay.has(d)) byDay.set(d,[]); byDay.get(d).push(e); }
+    for(const day of [...byDay.keys()].sort()){
+      const list=byDay.get(day).sort((x,y)=>startKey(x)-startKey(y)||x.title.localeCompare(y.title));
+      const wx=list.map(e=>wxDayText(e,day)).find(Boolean)||"";
+      const sec=h("section",{class:"pday"},h("div",{class:"pday-h"},h("b",null,day===today?"Today":fmt(day,{weekday:"long",month:"short",day:"numeric"})),wx&&h("span",null,wx)));
+      list.forEach((e,i)=>{
+        if(i>0){ const p=list[i-1]; if(p.town!==e.town&&p.lat!=null&&e.lat!=null) sec.append(h("div",{class:"hop"},"↓ about "+Math.round(townMiles(p,e))+" mi to "+e.town));
+          else if(p.town===e.town) sec.append(h("div",{class:"hop"},"↓ same town")); }
+        const b=h("button",{type:"button"},h("span",{class:"ti"},e.title),h("span",{class:"wh"},[e.venue,e.town].filter(Boolean).join(" · ")));
+        b.addEventListener("click",()=>{ planDlg.close(); if(state.view==="map") setView("list"); openEvent(e.id,true); });
+        sec.append(h("div",{class:"pstop",style:catVar(e.category)},h("span",{class:"tm"},e.time||"See details",e.endDate&&h("span",{style:"display:block;font-weight:600"},"Runs thru "+fmt(e.endDate,{month:"short",day:"numeric"}))),b));
+      });
+      const stops=list.filter((e,i)=>i===0||addr(e)!==addr(list[i-1]));
+      if(stops.length>1) sec.append(h("a",{class:"btn",href:routeUrl(stops),target:"_blank",rel:"noopener"},icon("pin"),"Route for "+(day===today?"today":fmt(day,{weekday:"long"}))));
+      else sec.append(h("a",{class:"btn",href:maps(list[0]),target:"_blank",rel:"noopener"},icon("pin"),"Directions"));
+      body.append(sec);
+    }
+    if(shared){
+      const b=h("button",{class:"btn pri",type:"button"},"♥ Save all of these");
+      b.addEventListener("click",()=>{ evs.forEach(e=>SAVED.add(e.id)); persistSaved(); updateSavedChip(); render(); b.textContent="Saved ♥"; snack("Saved. Find them under ♥ Saved."); });
+      acts.append(b);
+    } else {
+      const ids=evs.map(e=>e.id), link=SITE_URL+"#plan="+ids.join(",");
+      const b=h("button",{class:"btn pri",type:"button"},icon("send"),"Send this plan");
+      b.addEventListener("click",()=>shareThing("Our weekend plan",evs.map(e=>"• "+e.title+" ("+fmt(firstActive(e,wa),{weekday:"short"})+", "+e.town+")"),link));
+      acts.append(b);
+      const other=[...SAVED].filter(id=>EVENTS.some(e=>e.id===id&&(e.endDate||e.date)>=today)).length-evs.length;
+      if(other>0){ const o=h("button",{class:"btn",type:"button"},"See "+other+" saved for later");
+        o.addEventListener("click",()=>{ planDlg.close(); state.when="saved"; save(); syncControls(); render(); document.getElementById("all-h").scrollIntoView({block:"start"}); }); acts.append(o); }
+    }
+  }
+  if(typeof planDlg.showModal==="function"){ if(!planDlg.open) planDlg.showModal(); } else planDlg.setAttribute("open","");
+}
+document.getElementById("plan-open").addEventListener("click",()=>openPlan());
+
+/* ===== Seasonal touches (by date in Central time; add ?season=halloween|christmas|july4 to preview) ===== */
+(function(){
+  const today=todayCT(), md=today.slice(5), q=(new URLSearchParams(location.search).get("season")||"").toLowerCase();
+  const season = q || (md>="10-01"&&md<="10-31"?"halloween": (md>="12-01"||md==="01-01")?"christmas": (md>="07-01"&&md<="07-05")?"july4":"");
+  const NS="http://www.w3.org/2000/svg", el=(tag,a)=>{ const n=document.createElementNS(NS,tag); for(const k in a) n.setAttribute(k,a[k]); return n; };
+  const sky=document.getElementById("season-sky"), ground=document.getElementById("season-ground"), top=document.getElementById("season-top");
+  if(season==="halloween"){
+    const pumpkin=(x,y,s,face)=>{ const outer=el("g",{transform:`translate(${x} ${y}) scale(${s})`}), g=el("g",{class:"pumpkin"}); outer.append(g);
+      g.append(el("ellipse",{cx:-9,cy:0,rx:13,ry:15,fill:"#d9661f"}),el("ellipse",{cx:9,cy:0,rx:13,ry:15,fill:"#d9661f"}),el("ellipse",{cx:0,cy:0,rx:11,ry:16,fill:"#ee7f2d"}),
+        el("path",{d:"M-1-15 q1-7 6-9",stroke:"#3d6b2a","stroke-width":3.5,fill:"none","stroke-linecap":"round"}));
+      if(face) g.append(el("path",{d:"M-11-4 l4-6 4 6z M3-4 l4-6 4 6z",fill:"#3a1a08"}),el("path",{d:"M-10 5 q10 8 20 0 l-3 3-3-2-4 3-3-3-4 2z",fill:"#3a1a08"}));
+      return outer; };
+    ground.append(pumpkin(140,142,1.7,true),pumpkin(192,152,1.1,false),pumpkin(1050,146,1.5,true));
+  } else if(season==="christmas"){
+    top.removeAttribute("hidden"); const cols=["#d93a2b","#f2c230","#2f9e5a","#3a7bd5","#e86fb0"];
+    let d="M0 6"; for(let x=0;x<1200;x+=120) d+=` Q${x+60} 30 ${x+120} 6`; top.append(el("path",{class:"wire",d}));
+    let i=0; for(let x=0;x<1200;x+=120) for(const f of [.25,.5,.75]){ const t=f, px=x+120*t, py=6+2*(1-t)*t*24; top.append(el("ellipse",{class:"bulb-l",cx:px,cy:py+5,rx:5,ry:7,fill:cols[i++%cols.length]})); }
+  } else if(season==="july4"){
+    const burst=(x,y,r,c)=>{ const g=el("g",{class:"fw"}); for(let a=0;a<12;a++){ const k=a*Math.PI/6; g.append(el("line",{x1:x+Math.cos(k)*r*.35,y1:y+Math.sin(k)*r*.35,x2:x+Math.cos(k)*r,y2:y+Math.sin(k)*r,stroke:c})); } return g; };
+    sky.append(burst(220,40,30,"#d93a2b"),burst(340,26,22,"#3a7bd5"),burst(560,44,26,"#f2c230"));
+  }
+  // Holiday countdown in the greeting line
+  const g=document.getElementById("greet"), yr=today.slice(0,4);
+  if(season==="halloween"&&!q){ const n=daysBetween(today,yr+"-10-31"); g.textContent+= n>0?" 🎃 "+n+(n===1?" day":" days")+" till Halloween.":" 🎃 Happy Halloween!"; }
+  if(season==="christmas"&&!q&&md>="12-01"){ const n=daysBetween(today,yr+"-12-25"); if(n>=0) g.textContent+= n>0?" 🎄 "+n+(n===1?" day":" days")+" till Christmas.":" 🎄 Merry Christmas!"; }
+})();
+
+syncControls(); updateSavedChip(); renderPassport();
 document.getElementById("v-list").setAttribute("aria-pressed",String(state.view==="list"));
 document.getElementById("v-map").setAttribute("aria-pressed",String(state.view==="map"));
 document.getElementById("map-wrap").hidden=state.view!=="map";
@@ -870,8 +1133,14 @@ render();
 loadWeather().then(ok=>{ if(ok) render(); });
 document.getElementById("advertise").hidden=!SHOW_AD_INVITES;
 document.getElementById("yr").textContent=todayCT().slice(0,4);
-if(/^#e\d+$/.test(location.hash)) openEvent(location.hash.slice(1),true);
-addEventListener("hashchange",()=>{ if(/^#e\d+$/.test(location.hash)) openEvent(location.hash.slice(1),true); });
+function handleHash(){
+  const hs=location.hash;
+  if(/^#e\d+$/.test(hs)) openEvent(hs.slice(1),true);
+  else if(/^#d\d+$/.test(hs)){ driveKind="all"; document.querySelectorAll("#drive-kinds .chip").forEach(c=>c.setAttribute("aria-pressed",String(c.dataset.k==="all"))); renderDrive(todayCT());
+    const el=document.getElementById(hs.slice(1)); if(el) el.scrollIntoView({block:"start"}); }
+  else if(/^#plan=e\d+(,e\d+){0,29}$/.test(hs)) openPlan(hs.slice(6).split(","));
+}
+handleHash(); addEventListener("hashchange",handleHash);
 
 /* ===== Submit form ===== */
 const fc=document.getElementById("f-cat");
