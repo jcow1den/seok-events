@@ -99,11 +99,22 @@ for e in live:
     ld.append(item)
 ld_json = json.dumps(ld, ensure_ascii=False).replace("</", "<\\/")
 
+# ---------- Worth the drive (big shows outside the region; never mixed into local lists, calendar, or Google data) ----------
+try:
+    drive = [d for d in json.load(open("drive.json")) if (d.get("endDate") or d["date"]) >= today]
+except FileNotFoundError:
+    drive = []
+for d in drive:
+    for f in ("id", "date", "title", "city", "venue", "address", "lat", "lon", "url"):
+        if d.get(f) in (None, ""):
+            sys.exit(f"Worth-the-drive item {d.get('id')} is missing {f}")
+
 # ---------- index.html ----------
 tpl = open("template.html").read()
 html = (tpl.replace("__EVENTS__", json.dumps(live, ensure_ascii=False).replace("</", "<\\/"))
            .replace("__TOWNS__", json.dumps(towns, ensure_ascii=False))
            .replace("__JSONLD__", ld_json)
+           .replace("__DRIVE__", json.dumps(drive, ensure_ascii=False).replace("</", "<\\/"))
            .replace("__BUILT__", today))
 open("index.html", "w").write(html)
 

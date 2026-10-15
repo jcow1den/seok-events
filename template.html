@@ -238,6 +238,17 @@ dialog.wxd{overflow-x:hidden}
 .install .tx{flex:1;min-width:0;font-size:14px}
 .install .tx b{display:block;font-size:15px}
 .install .x{border:0;background:transparent;font-size:22px;line-height:1;cursor:pointer;color:var(--muted);padding:4px 6px}
+/* Worth the drive */
+#drive-sec .lead{margin:-4px 0 12px;color:var(--muted);font-size:14px;max-width:60ch}
+.drives{display:grid;gap:10px}
+.drv{display:grid;grid-template-columns:58px minmax(0,1fr);gap:14px;align-items:start;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:12px 14px}
+.drv .date{border:0;background:transparent}
+.drv .date .m{background:var(--clay)}
+.drv .city{font-size:11.5px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--clay)}
+.drv .acts{margin-top:8px;gap:6px}
+.drv .acts .btn{padding:7px 10px;font-size:13px;min-height:36px}
+#drive-sec{scroll-margin-top:170px}
+.drv p{margin:4px 0 0;font-size:14px;color:var(--muted)}
 /* Subscribe */
 .sub-acts{display:flex;gap:8px;flex-wrap:wrap}
 .row .sep{flex:none;width:1px;background:var(--line);margin:6px 2px}
@@ -324,6 +335,12 @@ dialog.wxd{overflow-x:hidden}
       <div id="list" style="display:grid;gap:26px" aria-live="polite"></div>
     </section>
 
+    <section id="drive-sec" aria-labelledby="drive-h" hidden>
+      <div class="sec-h"><h2 id="drive-h">Worth the drive</h2><small id="drive-count"></small></div>
+      <p class="lead">Big shows within a couple hours of southeast Oklahoma, in Tulsa, Oklahoma City, and Thackerville. Check with the venue for tickets.</p>
+      <div class="drives" id="drives"></div>
+    </section>
+
     <section class="panel" id="subscribe" aria-labelledby="cal-h">
       <h2 id="cal-h">Get every event in your calendar</h2>
       <p>Subscribe once and every listing shows up in your phone's calendar. It updates on its own as we add events.</p>
@@ -388,6 +405,7 @@ dialog.wxd{overflow-x:hidden}
 <script>
 /* ===== Content ===== */
 const EVENTS = __EVENTS__;
+const DRIVE = __DRIVE__; /* Big shows outside the region, kept separate from local events */
 const TOWNS = __TOWNS__; /* [name, lat, lon] — every town and ZIP-code community in southeast Oklahoma */
 
 /* ===== Ad settings (all off for now) =====
@@ -628,6 +646,7 @@ function render(){
   const as=document.getElementById("area-sponsor"); as.textContent="";
   if(state.area!=="all"){ const s=sponsorCard(state.area); if(s) as.append(s); }
 
+  renderDrive(today);
   const hits=EVENTS.filter(e=>overlaps(e,a,b)&&matches(e)).map(e=>[firstActive(e,a),e])
     .sort((x,y)=>x[0].localeCompare(y[0])||startKey(x[1])-startKey(y[1])||x[1].title.localeCompare(y[1].title)).map(p=>p[1]);
   document.getElementById("count").textContent=hits.length+(hits.length===1?" event":" events");
@@ -646,6 +665,28 @@ function render(){
       h("div",{class:"col"},h("div",{class:"dh"+(day===today?" today":"")},label),...evs.map(e=>card(e,today)))));
     gi++;
     if(state.area==="all" && (gi===2||gi%5===0)){ const key = SPONSORS.all && gi===2 ? "all" : rot[(Math.floor(gi/5))%Math.max(rot.length,1)]; const s=key&&sponsorCard(key); if(s) list.append(s); }
+  }
+}
+function renderDrive(today){
+  const sec=document.getElementById("drive-sec"), box=document.getElementById("drives"); box.textContent="";
+  const q=state.q.toLowerCase();
+  const items=DRIVE.filter(d=>(d.endDate||d.date)>=today && (!q || q.split(/\s+/).every(w=>(d.title+" "+d.city+" "+d.venue+" "+d.description).toLowerCase().includes(w))))
+    .sort((x,y)=>x.date.localeCompare(y.date)||x.title.localeCompare(y.title));
+  sec.hidden=!items.length||state.when==="saved";
+  document.getElementById("drive-count").textContent=items.length+(items.length===1?" show":" shows");
+  for(const d of items){
+    const m=miles(d), when=d.endDate? fmt(d.date,{month:"short",day:"numeric"})+" – "+fmt(d.endDate,{month:"short",day:"numeric"}) : fmt(d.date,{weekday:"long",month:"long",day:"numeric"});
+    box.append(h("article",{class:"drv",id:d.id},
+      h("div",{class:"date"},h("div",{class:"m"},fmt(d.date,{month:"short"})),h("div",{class:"n"},fmt(d.date,{day:"numeric"})),h("div",{class:"w"},fmt(d.date,{weekday:"short"}))),
+      h("div",{class:"sm"},
+        h("span",{class:"city"},d.city+(m!=null?" · about "+Math.round(m)+" mi from "+state.from:"")),
+        h("span",{class:"ti"},d.title),
+        h("span",{class:"wh"},[when,d.time,d.venue].filter(Boolean).join(" · ")),
+        d.description&&h("p",null,d.description),
+        h("div",{class:"acts"},
+          h("a",{class:"btn pri",href:maps(d),target:"_blank",rel:"noopener"},icon("pin"),"Directions"),
+          h("a",{class:"btn",href:gcal(d),target:"_blank",rel:"noopener"},icon("cal"),"Add to calendar"),
+          h("a",{class:"btn",href:d.url,target:"_blank",rel:"noopener"},"Event info")))));
   }
 }
 function openEvent(id,scroll){
