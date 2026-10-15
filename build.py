@@ -153,5 +153,8 @@ open("sitemap.xml", "w").write(
     '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
     f"  <url><loc>{SITE}</loc><lastmod>{today}</lastmod><changefreq>daily</changefreq></url>\n</urlset>\n")
 
+# Plain-text sitemap: one URL per line (the simplest format Google accepts)
+open("sitemap.txt", "w").write(SITE + "\n")
+
 print(f"Built: {len(live)} upcoming events ({len(events) - len(live)} past dropped), "
       f"{len(ld)} sent to Google, calendar feed and sitemap updated.")
