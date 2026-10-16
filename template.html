@@ -32,7 +32,7 @@
   --bg:#edf0ec; --surface:#ffffff; --raised:#f6f8f5; --ink:#17201b; --muted:#56625a; --line:#d5ddd6;
   --pine:#1d4a37; --pine-ink:#ffffff; --clay:#b4461d;
   --sky-top:#c9ddd6; --sky-low:#f3d2a6; --ridge1:#7fa58e; --ridge2:#3f7259; --ridge3:#1d4a37; --hero-ink:#ffffff;
-  --c-festivals:#b4461d; --c-music:#6346a0; --c-markets:#2b7a55; --c-community:#24679a; --c-sports:#9a7413;
+  --c-festivals:#b4461d; --c-music:#6346a0; --c-markets:#2b7a55; --c-community:#24679a; --c-sports:#9a7413; --c-shows:#a8336a;
   --chip:#e1e7e2; --on-cat:#ffffff; --sponsor:#fbf7ee; --sponsor-line:#e6d8b8;
   --display:"Barlow Condensed","Arial Narrow",Arial,sans-serif;
   --body:"Figtree",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
@@ -42,13 +42,13 @@
   --bg:#0f1412; --surface:#181e1b; --raised:#1e2521; --ink:#e6ece7; --muted:#97a39b; --line:#2a332e;
   --pine:#69b58f; --pine-ink:#0c1510; --clay:#ee8c60;
   --sky-top:#1b2b33; --sky-low:#5b3a2a; --ridge1:#2b4237; --ridge2:#1c3128; --ridge3:#121d18; --hero-ink:#f2efe6;
-  --c-festivals:#ee8c60; --c-music:#a993e0; --c-markets:#62c08e; --c-community:#6fb0e0; --c-sports:#e0b84f;
+  --c-festivals:#ee8c60; --c-music:#a993e0; --c-markets:#62c08e; --c-community:#6fb0e0; --c-sports:#e0b84f; --c-shows:#ec8fbd;
   --chip:#232b27; --on-cat:#10140f; --sponsor:#1f1d16; --sponsor-line:#4a4130; color-scheme:dark}}
 :root[data-theme="dark"]{
   --bg:#0f1412; --surface:#181e1b; --raised:#1e2521; --ink:#e6ece7; --muted:#97a39b; --line:#2a332e;
   --pine:#69b58f; --pine-ink:#0c1510; --clay:#ee8c60;
   --sky-top:#1b2b33; --sky-low:#5b3a2a; --ridge1:#2b4237; --ridge2:#1c3128; --ridge3:#121d18; --hero-ink:#f2efe6;
-  --c-festivals:#ee8c60; --c-music:#a993e0; --c-markets:#62c08e; --c-community:#6fb0e0; --c-sports:#e0b84f;
+  --c-festivals:#ee8c60; --c-music:#a993e0; --c-markets:#62c08e; --c-community:#6fb0e0; --c-sports:#e0b84f; --c-shows:#ec8fbd;
   --chip:#232b27; --on-cat:#10140f; --sponsor:#1f1d16; --sponsor-line:#4a4130; color-scheme:dark}
 
 *{box-sizing:border-box}
@@ -387,6 +387,7 @@ dialog.wxd{overflow-x:hidden}
   <symbol id="i-music" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></symbol>
   <symbol id="i-markets" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10h18l-2 10H5z"/><path d="M8 10l4-6 4 6"/><path d="M9 14v3M15 14v3"/></symbol>
   <symbol id="i-community" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2.5"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><path d="M15 15.5c.6-.3 1.3-.5 2-.5 2.2 0 4 1.8 4 4"/></symbol>
+  <symbol id="i-shows" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 5h18v4a2 2 0 0 0 0 4v4H3v-4a2 2 0 0 0 0-4z"/><path d="M14 5v12" stroke-dasharray="2 2"/></symbol>
   <symbol id="i-sports" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21h8M12 17v4"/><path d="M7 4h10v5a5 5 0 0 1-10 0z"/><path d="M17 6h3a3 3 0 0 1-3 4M7 6H4a3 3 0 0 0 3 4"/></symbol>
   <symbol id="i-all" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 9h18M8 2v4M16 2v4"/></symbol>
   <symbol id="i-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s7-6.5 7-12a7 7 0 0 0-14 0c0 5.5 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></symbol>
@@ -575,11 +576,11 @@ const SHOW_AD_INVITES = false;
 const SITE_URL = "https://jcow1den.github.io/seok-events/";
 const BUILT = "__BUILT__"; /* the day this page was last rebuilt with fresh listings */
 
-const CATS = {all:"All",festivals:"Festivals",music:"Music",markets:"Markets",community:"Community",sports:"Sports"};
+const CATS = {all:"All",festivals:"Festivals",music:"Music",shows:"Shows & comedy",markets:"Markets",community:"Community",sports:"Sports"};
 const AREAS = {all:"All areas",mcalester:"McAlester area",wilburton:"Wilburton",eufaula:"Lake Eufaula area",atoka:"Atoka",
   durant:"Durant","ada-holdenville":"Ada / Holdenville","okmulgee-east":"Okmulgee / Henryetta",
   "hugo-antlers":"Hugo / Antlers","idabel-broken-bow":"Idabel / Broken Bow",poteau:"Poteau area"};
-const WHEN = {all:"Next 30 days",today:"Today",weekend:"This weekend",week:"Next 7 days",saved:"♥ Saved"};
+const WHEN = {all:"Everything coming up",today:"Today",weekend:"This weekend",week:"Next 7 days",month:"Next 30 days",saved:"♥ Saved"};
 const TAGS = {free:"Free",kids:"Kid-friendly",indoor:"Indoors"};
 const DIST = {any:"Any distance",mi15:"Within 15 mi",mi30:"Within 30 mi",mi60:"Within 60 mi"};
 const distMi = k => parseInt(k.slice(2),10);
@@ -629,8 +630,8 @@ function range(today){
   if(state.when==="today") return [today,today];
   if(state.when==="weekend") return weekend(today);
   if(state.when==="week") return [today,addDays(today,6)];
-  if(state.when==="saved") return [today,"9999-12-31"];
-  return [today,addDays(today,30)];
+  if(state.when==="month") return [today,addDays(today,30)];
+  return [today,"9999-12-31"];
 }
 const dow = s => ymd(s).getUTCDay();
 /* First day on or after `from` that the event is actually open (respects openDays, e.g. weekends only) */
@@ -812,7 +813,7 @@ function renderShelves(today,upcoming){
   const byDate=list=>list.map(e=>[firstActive(e,today),e]).filter(x=>x[0]).sort((x,y)=>x[0].localeCompare(y[0])||startKey(x[1])-startKey(y[1])).map(x=>x[1]);
   const savedCats={}; for(const id of SAVED){ const e=EVENTS.find(x=>x.id===id); if(e) savedCats[e.category]=(savedCats[e.category]||0)+1; }
   const favCat=Object.entries(savedCats).sort((a,b)=>b[1]-a[1])[0];
-  const CATWORD={festivals:"festivals",music:"live music",markets:"markets",community:"community events",sports:"sports"};
+  const CATWORD={festivals:"festivals",music:"live music",shows:"shows",markets:"markets",community:"community events",sports:"sports"};
   const rows=[
     {t:"Happening today",s:"No time like the present.",min:1,items:byDate(pool.filter(e=>firstActive(e,today)===today))},
     {t:"Don't miss",s:"The big ones in the next 10 days.",min:1,big:true,items:(()=>{ const p=pool.filter(e=>within(e,10)); return [...byDate(p.filter(e=>e.featured)),...byDate(p.filter(e=>!e.featured&&(e.category==="festivals"||e.category==="music")))]; })()},
@@ -844,14 +845,75 @@ function sponsorCard(areaKey){
 }
 
 /* ===== Render ===== */
+/* ===== Search that understands everyday words ===== */
+const SYN = {
+  concert:{alt:["concert","live","band","singer","tour","music","gospel","symphony","orchestra","choir","jam"],cat:"music",kind:"shows"},
+  show:{alt:["show","concert","tour","live","theater","theatre","musical","comedy","comedian","performance"],cat:"shows",kind:"shows"},
+  comedy:{alt:["comedy","comedian","stand-up","standup","laugh"],cat:"shows"}, comedian:{ref:"comedy"}, funny:{ref:"comedy"},
+  theater:{alt:["theater","theatre","musical","play","production"],cat:"shows"}, theatre:{ref:"theater"}, play:{ref:"theater"}, musical:{ref:"theater"},
+  music:{alt:["music","concert","band","live","singer","karaoke","jam","gospel"],cat:"music",kind:"shows"},
+  band:{alt:["band","concert","live","music"],cat:"music"},
+  gig:{alt:["live","band","concert"],cat:"music"},
+  christmas:{alt:["christmas","xmas","holiday","santa","lights","lighting","lighted","jingle","noel","nativity","carol","sleigh","grinch","elf","tree lighting","winter","yule","wonderland","polar"]},
+  xmas:{ref:"christmas"}, holiday:{ref:"christmas"}, santa:{ref:"christmas"},
+  lights:{alt:["lights","lighting","lighted","glow","christmas","holiday"]},
+  parade:{alt:["parade","boo parade","lighted"]},
+  halloween:{alt:["halloween","trunk or treat","trunk-or-treat","haunted","haunt","costume","boo","spooky","samhain","pumpkin","fright","zombie","monster","vampire","carnevil"]},
+  thanksgiving:{alt:["thanksgiving","turkey","gobble","feast"]},
+  veterans:{alt:["veteran","veterans","military","salute","honor","memorial"]},
+  fireworks:{alt:["fireworks","new year","countdown","independence"]},
+  "new year":{alt:["new year","countdown","nye"]},
+  food:{alt:["food","bbq","barbecue","chili","cook","fish fry","supper","dinner","pancake","taste","rib","wing","feast","sorghum","pie","breakfast","lunch","truck"]},
+  bbq:{ref:"food"}, eat:{ref:"food"},
+  car:{alt:["car","truck","cruise","auto","motorcycle","bike","hot rod","classic"]},
+  rodeo:{alt:["rodeo","bull","horse","ranch","roping","barrel"]},
+  run:{alt:["5k","10k","run","race","marathon","walk","trot"]},
+  fishing:{alt:["fishing","bass","tournament","fish"]},
+  church:{alt:["church","gospel","worship","revival","hymn","faith","blessing","bible","nativity"]},
+  gospel:{alt:["gospel","hymn","hymns","worship","choir","revival","southern gospel"]},
+  craft:{alt:["craft","crafts","art","artisan","handmade","quilt","vendor"]},
+  shopping:{alt:["market","vendor","shopping","flea","craft","bazaar","sale"],cat:"markets"},
+  market:{alt:["market","farmers","flea","bazaar","vendor"],cat:"markets"},
+  festival:{alt:["festival","fest","fair","celebration","jubilee"],cat:"festivals"},
+  fair:{ref:"festival"},
+  game:{alt:["game","vs","tournament","football","basketball","baseball","softball"],cat:"sports",kind:"sports"},
+  sports:{alt:["sports","game","tournament","race","rodeo"],cat:"sports",kind:"sports"},
+  football:{alt:["football","sooners","cowboys","vs"],kind:"sports"},
+  basketball:{alt:["basketball","thunder"],kind:"sports"},
+  kids:{flag:"kids",alt:["kids","children","family","youth","storytime","toddler","teen"]},
+  kid:{ref:"kids"}, family:{ref:"kids"}, children:{ref:"kids"},
+  free:{flag:"free",alt:["free"]},
+  dance:{alt:["dance","dancing","ball","powwow","line dance","square dance"]},
+  movie:{alt:["movie","film","cinema","screening"]}, film:{ref:"movie"},
+  library:{alt:["library","storytime","book"]},
+  casino:{alt:["casino","choctaw grand","resort"]},
+  tonight:{when:"today"}, today:{when:"today"}
+};
+function synOf(w){ let s=SYN[w]||SYN[w.replace(/(es|s)$/,"")]||SYN[w.replace(/s$/,"")]; if(s&&s.ref) s=SYN[s.ref]; return s; }
+/* one query word matches an item if the word itself, one of its everyday meanings, its category, or its flag fits */
+function wordFits(w,hay,item,isDrive){
+  const s=synOf(w);
+  if(!s) return wordStart(w).test(hay);
+  if(altRe(w).test(hay)) return true;
+  if(s.when) return true;
+  if(s.flag&&item[s.flag]) return true;
+  if(!isDrive&&s.cat&&item.category===s.cat) return true;
+  if(isDrive&&s.kind&&item.kind===s.kind) return true;
+  return (s.alt||[]).some(a=>altRe(a).test(hay));
+}
+const WS_RE={}; const wordStart=w=>WS_RE[w]||(WS_RE[w]=new RegExp("(^|[^a-z0-9])"+w.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")));
+const ALT_RE={}; const altRe=a=>ALT_RE[a]||(ALT_RE[a]=new RegExp("(^|[^a-z0-9])"+a.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")+"(s|es)?([^a-z0-9]|$)"));
+function queryWords(q){ q=q.toLowerCase().trim(); const out=[]; for(const ph of ["new year","live music","car show","trunk or treat","fish fry"]) if(q.includes(ph)){ out.push(ph==="live music"?"music":ph==="car show"?"car":ph==="fish fry"?"food":ph); q=q.replace(ph," "); }
+  return out.concat(q.split(/[^a-z0-9'&]+/).filter(w=>w&&!["the","a","an","in","at","on","and","near","for","of","to","events","event","things","stuff","do","what","whats","where","is","are"].includes(w))); }
+function qMatch(item,hay,isDrive){ const ws=queryWords(state.q); return !ws.length || ws.every(w=>wordFits(w,hay,item,isDrive)); }
 function matches(e){
   if(state.cat!=="all"&&e.category!==state.cat) return false;
   if(state.area!=="all"&&e.area!==state.area) return false;
   if(state.when==="saved"&&!SAVED.has(e.id)) return false;
   for(const tg of state.tags) if(!e[tg]) return false;
   if(state.from&&state.dist!=="any"){ const m=miles(e); if(m!=null&&m>distMi(state.dist)) return false; }
-  if(state.q){ const hay=(e.title+" "+e.venue+" "+e.address+" "+e.description+" "+AREAS[e.area]).toLowerCase();
-    if(!state.q.toLowerCase().split(/\s+/).every(w=>hay.includes(w))) return false; }
+  if(state.q){ const hay=(e.title+" "+e.venue+" "+e.address+" "+e.description+" "+AREAS[e.area]+" "+(e.time||"")+" "+CATS[e.category]+" "+(e.performer||[]).join(" ")).toLowerCase();
+    if(!qMatch(e,hay,false)) return false; }
   return true;
 }
 function render(){
@@ -882,7 +944,7 @@ function render(){
   if(state.view==="map") drawMap(hits);
   if(!hits.length){ list.append(h("div",{class:"empty"},
     state.when==="saved"&&!SAVED.size?"Nothing saved yet. Tap the ♥ on anything that looks good and it'll wait for you here.":
-    state.q?`Couldn't find “${state.q}”. Try a town name, or something like “fish fry.”`:"Quieter than a deer stand at dawn. Try another area or a wider date range.")); return; }
+    state.q?`Nothing around here matches “${state.q}” yet${DRIVE.length?" (check Worth the drive below)":""}. Know of one? Tell us below and we'll add it.`:"Quieter than a deer stand at dawn. Try another area or a wider date range.")); return; }
   const groups=new Map(); for(const e of hits){ const k=firstActive(e,a); if(!groups.has(k))groups.set(k,[]); groups.get(k).push(e); }
   // In-feed sponsors: when browsing all areas, rotate area sponsors between day groups
   const rot=Object.keys(SPONSORS).filter(k=>k!=="all"); let gi=0;
@@ -902,8 +964,7 @@ let driveKind="all";
     b.addEventListener("click",()=>{ driveKind=k; row.querySelectorAll(".chip").forEach(c=>c.setAttribute("aria-pressed",String(c.dataset.k===k))); renderDrive(todayCT()); }); row.append(b); } })();
 function renderDrive(today){
   const sec=document.getElementById("drive-sec"), box=document.getElementById("drives"); box.textContent="";
-  const q=state.q.toLowerCase();
-  const live=DRIVE.filter(d=>firstActive(d,today)!==null && (!q || q.split(/\s+/).every(w=>(d.title+" "+d.city+" "+d.venue+" "+d.description).toLowerCase().includes(w))));
+  const live=DRIVE.filter(d=>firstActive(d,today)!==null && (!state.q || qMatch(d,(d.title+" "+d.city+" "+d.venue+" "+d.description+" "+(d.time||"")).toLowerCase(),true)));
   const items=live.filter(d=>driveKind==="all"||d.kind===driveKind)
     .map(d=>[firstActive(d,today),d]).sort((x,y)=>x[0].localeCompare(y[0])||x[1].title.localeCompare(y[1].title));
   sec.hidden=!live.length||state.when==="saved";

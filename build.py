@@ -4,7 +4,7 @@ Edit events.json, then run:  python3 build.py
 Writes index.html, events.ics (calendar feed), and sitemap.xml.
 
 Event fields: id, date (YYYY-MM-DD), endDate (optional), title,
-category (festivals|music|markets|community|sports), area, time, venue,
+category (festivals|music|shows|markets|community|sports), area, time, venue,
 address ("street, Town, OK 74501"), description, and optional flags:
 free, kids, indoor, featured, unconfirmed.
 Optional details for Google (only when a source confirms them): performer (list of names),

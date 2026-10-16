@@ -1038,5 +1038,776 @@
    "Read Southall",
    "Caroline Grace"
   ]
+ },
+ {
+  "id": "e128",
+  "date": "2026-11-20",
+  "title": "John Mulaney: Mister Whatever",
+  "category": "shows",
+  "area": "durant",
+  "time": "7:30 PM",
+  "venue": "Choctaw Grand Theater, Choctaw Casino & Resort",
+  "address": "4216 S Hwy 69/75, Durant, OK 74701",
+  "description": "Stand-up comedy from John Mulaney on his Mister Whatever tour.",
+  "performer": [
+   "John Mulaney"
+  ],
+  "indoor": true
+ },
+ {
+  "id": "e129",
+  "date": "2026-11-21",
+  "title": "Jamey Johnson",
+  "category": "music",
+  "area": "durant",
+  "time": "8:00 PM",
+  "venue": "Choctaw Grand Theater, Choctaw Casino & Resort",
+  "address": "4216 S Hwy 69/75, Durant, OK 74701",
+  "description": "Country singer-songwriter Jamey Johnson live.",
+  "performer": [
+   "Jamey Johnson"
+  ],
+  "indoor": true
+ },
+ {
+  "id": "e130",
+  "date": "2026-11-28",
+  "title": "Chase Matthew: Holdin' It Down Tour",
+  "category": "music",
+  "area": "durant",
+  "time": "8:00 PM",
+  "venue": "Choctaw Grand Theater, Choctaw Casino & Resort",
+  "address": "4216 S Hwy 69/75, Durant, OK 74701",
+  "description": "Country artist Chase Matthew with Tayler Holder.",
+  "performer": [
+   "Chase Matthew",
+   "Tayler Holder"
+  ],
+  "indoor": true
+ },
+ {
+  "id": "e131",
+  "date": "2026-12-04",
+  "title": "Hudson Westbrook",
+  "category": "music",
+  "area": "durant",
+  "time": "8:00 PM",
+  "venue": "Choctaw Grand Theater, Choctaw Casino & Resort",
+  "address": "4216 S Hwy 69/75, Durant, OK 74701",
+  "description": "Texas country singer Hudson Westbrook with special guests Kenny Whitmire and Ethan Burdick.",
+  "performer": [
+   "Hudson Westbrook"
+  ],
+  "indoor": true
+ },
+ {
+  "id": "e132",
+  "date": "2026-12-05",
+  "title": "Darius Rucker",
+  "category": "music",
+  "area": "durant",
+  "time": "8:00 PM",
+  "venue": "Choctaw Grand Theater, Choctaw Casino & Resort",
+  "address": "4216 S Hwy 69/75, Durant, OK 74701",
+  "description": "Country star Darius Rucker live.",
+  "performer": [
+   "Darius Rucker"
+  ],
+  "indoor": true
+ },
+ {
+  "id": "e133",
+  "date": "2026-12-12",
+  "title": "Gwen Stefani",
+  "category": "music",
+  "area": "durant",
+  "time": "8:00 PM",
+  "venue": "Choctaw Grand Theater, Choctaw Casino & Resort",
+  "address": "4216 S Hwy 69/75, Durant, OK 74701",
+  "description": "Gwen Stefani live in Durant.",
+  "performer": [
+   "Gwen Stefani"
+  ],
+  "indoor": true
+ },
+ {
+  "id": "e134",
+  "date": "2026-12-13",
+  "title": "Elvis Christmas Spectacular",
+  "category": "shows",
+  "area": "durant",
+  "time": "3:00 PM",
+  "venue": "Choctaw Grand Theater, Choctaw Casino & Resort",
+  "address": "4216 S Hwy 69/75, Durant, OK 74701",
+  "description": "A Christmas Elvis tribute show starring Kraig Parker.",
+  "performer": [
+   "Kraig Parker"
+  ],
+  "indoor": true
+ },
+ {
+  "id": "e135",
+  "date": "2026-12-18",
+  "title": "Jake Worthington",
+  "category": "music",
+  "area": "durant",
+  "time": "8:00 PM",
+  "venue": "Choctaw Grand Theater, Choctaw Casino & Resort",
+  "address": "4216 S Hwy 69/75, Durant, OK 74701",
+  "description": "Country singer Jake Worthington live.",
+  "performer": [
+   "Jake Worthington"
+  ],
+  "indoor": true
+ },
+ {
+  "id": "e136",
+  "date": "2026-12-19",
+  "title": "Nickelback",
+  "category": "music",
+  "area": "durant",
+  "time": "8:00 PM",
+  "venue": "Choctaw Grand Theater, Choctaw Casino & Resort",
+  "address": "4216 S Hwy 69/75, Durant, OK 74701",
+  "description": "Nickelback live in Durant.",
+  "performer": [
+   "Nickelback"
+  ],
+  "indoor": true
+ },
+ {
+  "id": "e137",
+  "date": "2026-12-31",
+  "title": "Stephen Wilson Jr. on New Year's Eve",
+  "category": "music",
+  "area": "durant",
+  "time": "8:00 PM",
+  "venue": "Choctaw Grand Theater, Choctaw Casino & Resort",
+  "address": "4216 S Hwy 69/75, Durant, OK 74701",
+  "description": "Ring in the new year with singer-songwriter Stephen Wilson Jr.",
+  "performer": [
+   "Stephen Wilson Jr."
+  ],
+  "indoor": true
+ },
+ {
+  "id": "e138",
+  "date": "2027-01-23",
+  "title": "Tom Segura: Preposterous",
+  "category": "shows",
+  "area": "durant",
+  "time": "8:00 PM",
+  "venue": "Choctaw Grand Theater, Choctaw Casino & Resort",
+  "address": "4216 S Hwy 69/75, Durant, OK 74701",
+  "description": "Stand-up comedy from Tom Segura.",
+  "performer": [
+   "Tom Segura"
+  ],
+  "indoor": true
+ },
+ {
+  "id": "e139",
+  "date": "2027-02-12",
+  "title": "Daughtry: 20 Years Unplugged Tour",
+  "category": "music",
+  "area": "durant",
+  "time": "7:00 PM",
+  "venue": "Choctaw Grand Theater, Choctaw Casino & Resort",
+  "address": "4216 S Hwy 69/75, Durant, OK 74701",
+  "description": "Daughtry's 20 Years Unplugged Tour.",
+  "performer": [
+   "Daughtry"
+  ],
+  "indoor": true
+ },
+ {
+  "id": "e140",
+  "date": "2027-03-20",
+  "title": "Jon Pardi",
+  "category": "music",
+  "area": "durant",
+  "time": "8:00 PM",
+  "venue": "Choctaw Grand Theater, Choctaw Casino & Resort",
+  "address": "4216 S Hwy 69/75, Durant, OK 74701",
+  "description": "Country star Jon Pardi live.",
+  "performer": [
+   "Jon Pardi"
+  ],
+  "indoor": true
+ },
+ {
+  "id": "e141",
+  "date": "2027-04-17",
+  "title": "Matt Mathews: Not What I Ordered World Tour",
+  "category": "shows",
+  "area": "durant",
+  "time": "4:30 PM and 8:00 PM",
+  "venue": "Choctaw Grand Theater, Choctaw Casino & Resort",
+  "address": "4216 S Hwy 69/75, Durant, OK 74701",
+  "description": "Comedian Matt Mathews, two shows.",
+  "performer": [
+   "Matt Mathews"
+  ],
+  "indoor": true
+ },
+ {
+  "id": "e142",
+  "date": "2026-11-06",
+  "title": "Choctaw Heritage Festival",
+  "category": "festivals",
+  "area": "durant",
+  "time": "10:00 AM – 5:00 PM daily",
+  "venue": "Choctaw Cultural Center",
+  "address": "1919 Hina Hanta Way, Calera, OK 74730",
+  "description": "A weekend of Choctaw culture alongside the Choctaw Powwow: art market and silent auction, hymn singing, stickball, traditional games, and social dancing demonstrations. Included with Cultural Center admission.",
+  "endDate": "2026-11-08",
+  "organizer": "Choctaw Cultural Center"
+ },
+ {
+  "id": "e143",
+  "date": "2026-12-05",
+  "title": "Choctaw Christmas",
+  "category": "festivals",
+  "area": "durant",
+  "time": "Starts 10:00 AM",
+  "venue": "Choctaw Cultural Center",
+  "address": "1919 Hina Hanta Way, Calera, OK 74730",
+  "description": "Christmas celebration at the Choctaw Cultural Center. See the Cultural Center for the full lineup and tickets.",
+  "organizer": "Choctaw Cultural Center"
+ },
+ {
+  "id": "e144",
+  "date": "2026-12-01",
+  "title": "Durant Christmas Parade",
+  "category": "community",
+  "area": "durant",
+  "time": "7:00 PM",
+  "venue": "Downtown Durant",
+  "address": "215 N 4th Ave, Durant, OK 74701",
+  "description": "Downtown Durant's holiday kickoff parade, always held the first Tuesday of December."
+ },
+ {
+  "id": "e145",
+  "date": "2026-10-31",
+  "title": "Trick or Treat on Main",
+  "category": "community",
+  "area": "durant",
+  "time": "4:00 – 6:00 PM",
+  "venue": "Downtown Main Street",
+  "address": "Main St, Durant, OK 74701",
+  "description": "Downtown businesses hand out candy along Main Street.",
+  "unconfirmed": true
+ },
+ {
+  "id": "e146",
+  "date": "2026-12-04",
+  "title": "Cheery Carriage Rides",
+  "category": "community",
+  "area": "durant",
+  "time": "Evenings",
+  "venue": "Market Square, Downtown Durant",
+  "address": "Market Square, Durant, OK 74701",
+  "description": "Horse-drawn carriage rides through historic downtown Durant, leaving from Market Square.",
+  "endDate": "2026-12-05",
+  "unconfirmed": true
+ },
+ {
+  "id": "e147",
+  "date": "2026-10-24",
+  "title": "Halloween Ghost Painting Class",
+  "category": "community",
+  "area": "mcalester",
+  "time": "5:00 – 6:30 PM",
+  "venue": "Pink Pop",
+  "address": "McAlester, OK",
+  "description": "A Halloween ghost painting class."
+ },
+ {
+  "id": "e148",
+  "date": "2026-10-28",
+  "title": "Trunk or Treat on Electric Ave",
+  "category": "community",
+  "area": "mcalester",
+  "time": "6:00 – 7:00 PM",
+  "venue": "405 W Electric Ave",
+  "address": "405 W Electric Ave, McAlester, OK 74501",
+  "description": "Trunk or treat in McAlester."
+ },
+ {
+  "id": "e149",
+  "date": "2026-11-21",
+  "title": "PCFM 4th Annual Holiday Market",
+  "category": "markets",
+  "area": "mcalester",
+  "time": "11:00 AM – 3:00 PM",
+  "venue": "Pittsburg County Farmers Market",
+  "address": "11 N Main St, McAlester, OK",
+  "description": "The farmers market's annual holiday market downtown."
+ },
+ {
+  "id": "e150",
+  "date": "2026-11-21",
+  "title": "StriKinG McAlester: King of the Ring",
+  "category": "sports",
+  "area": "mcalester",
+  "time": "Doors 5:00 PM · starts 6:00 PM",
+  "venue": "Southeast Expo Center",
+  "address": "4500 W US-270, McAlester, OK 74501",
+  "description": "A night of fights at the Southeast Expo Center.",
+  "indoor": true
+ },
+ {
+  "id": "e151",
+  "date": "2026-11-24",
+  "title": "Festival of Trees & Lights On",
+  "category": "community",
+  "area": "mcalester",
+  "time": "6:00 – 8:00 PM",
+  "venue": "Arvest Park",
+  "address": "Arvest Park, McAlester, OK",
+  "description": "McAlester flips on its Christmas lights at Arvest Park with the Festival of Trees."
+ },
+ {
+  "id": "e152",
+  "date": "2026-11-26",
+  "title": "Thanksgiving Meal Giveaway",
+  "category": "community",
+  "area": "mcalester",
+  "time": "See host for time",
+  "venue": "Southeast Expo Center",
+  "address": "4500 W US-270, McAlester, OK 74501",
+  "description": "The annual Pittsburg County Elected Officials Thanksgiving meal giveaway."
+ },
+ {
+  "id": "e153",
+  "date": "2026-11-28",
+  "title": "The Great McAlester Snowball Fight",
+  "category": "community",
+  "area": "mcalester",
+  "time": "10:00 – 11:00 AM",
+  "venue": "Choctaw Ave, between Main St and 2nd St",
+  "address": "E Choctaw Ave, McAlester, OK",
+  "description": "A downtown snowball fight on Choctaw Avenue."
+ },
+ {
+  "id": "e154",
+  "date": "2026-12-05",
+  "title": "Santa Helper Fair",
+  "category": "markets",
+  "area": "mcalester",
+  "time": "9:00 AM – 4:00 PM",
+  "venue": "Boys & Girls Club",
+  "address": "McAlester, OK",
+  "description": "Holiday shopping fair at the Boys & Girls Club."
+ },
+ {
+  "id": "e155",
+  "date": "2026-12-05",
+  "title": "Michael J. Miller Toy Giveaway",
+  "category": "community",
+  "area": "mcalester",
+  "time": "See host for time",
+  "venue": "Southeast Expo Center",
+  "address": "4500 W US-270, McAlester, OK 74501",
+  "description": "Annual Christmas toy giveaway at the Southeast Expo Center."
+ },
+ {
+  "id": "e156",
+  "date": "2026-12-10",
+  "title": "Kody West Live",
+  "category": "music",
+  "area": "mcalester",
+  "time": "8:00 PM",
+  "venue": "DWNTWN 312",
+  "address": "McAlester, OK",
+  "description": "Spotlight Series show with Texas country artist Kody West.",
+  "performer": [
+   "Kody West"
+  ],
+  "indoor": true
+ },
+ {
+  "id": "e157",
+  "date": "2026-12-11",
+  "title": "Winter Pull Classic: Truck and Tractor Pull",
+  "category": "sports",
+  "area": "mcalester",
+  "time": "See host for times",
+  "venue": "Southeast Expo Center & Motor Speedway",
+  "address": "4500 W US-270, McAlester, OK 74501",
+  "description": "Truck and tractor pulls at the Expo Center.",
+  "endDate": "2026-12-12"
+ },
+ {
+  "id": "e158",
+  "date": "2026-12-12",
+  "title": "Sleigh Bells Market",
+  "category": "markets",
+  "area": "mcalester",
+  "time": "9:00 AM – 5:00 PM",
+  "venue": "Southeast Expo Center",
+  "address": "4500 W US-270, McAlester, OK 74501",
+  "description": "Holiday market with boutiques, handmade goods, jewelry, home decor, art, and crafts.",
+  "indoor": true
+ },
+ {
+  "id": "e159",
+  "date": "2026-12-12",
+  "title": "Community Choir Christmas Concert",
+  "category": "music",
+  "area": "mcalester",
+  "time": "7:00 – 9:00 PM",
+  "venue": "S. Arch Thompson Auditorium",
+  "address": "201 E Adams Ave, McAlester, OK",
+  "description": "Christmas concert by the community choir.",
+  "indoor": true
+ },
+ {
+  "id": "e160",
+  "date": "2026-11-19",
+  "title": "Hometown Christmas Tree & Train Lighting",
+  "category": "community",
+  "area": "idabel-broken-bow",
+  "time": "6:30 PM",
+  "venue": "Broken Bow Chamber lawn",
+  "address": "113 W Martin Luther King Dr, Broken Bow, OK 74728",
+  "description": "Broken Bow lights its hometown Christmas tree and train.",
+  "organizer": "Broken Bow Area Chamber of Commerce"
+ },
+ {
+  "id": "e161",
+  "date": "2026-11-21",
+  "title": "Native Fashion Show & Film Festival",
+  "category": "community",
+  "area": "idabel-broken-bow",
+  "time": "11:00 AM – 8:00 PM",
+  "venue": "Choctaw Landing",
+  "address": "272 N State Hwy 259A, Broken Bow, OK 74728",
+  "description": "Native fashion show and film festival at Choctaw Landing."
+ },
+ {
+  "id": "e162",
+  "date": "2026-11-07",
+  "title": "First Saturday at the Forest Heritage Center",
+  "category": "community",
+  "area": "idabel-broken-bow",
+  "time": "9:00 AM – 3:00 PM",
+  "venue": "Forest Heritage Center, Beavers Bend State Park",
+  "address": "4350 S Hwy 259A, Broken Bow, OK 74728",
+  "description": "Monthly First Saturday program at the Forest Heritage Center in Beavers Bend."
+ },
+ {
+  "id": "e163",
+  "date": "2026-12-05",
+  "title": "First Saturday at the Forest Heritage Center",
+  "category": "community",
+  "area": "idabel-broken-bow",
+  "time": "9:00 AM – 3:00 PM",
+  "venue": "Forest Heritage Center, Beavers Bend State Park",
+  "address": "4350 S Hwy 259A, Broken Bow, OK 74728",
+  "description": "Monthly First Saturday program at the Forest Heritage Center in Beavers Bend."
+ },
+ {
+  "id": "e164",
+  "date": "2026-12-05",
+  "title": "Winter Wonderland Kick Off",
+  "category": "festivals",
+  "area": "idabel-broken-bow",
+  "time": "See host for time",
+  "venue": "Broken Bow City Park",
+  "address": "Broken Bow City Park, Broken Bow, OK",
+  "description": "Broken Bow's Winter Wonderland season kicks off in City Park.",
+  "organizer": "Broken Bow Area Chamber of Commerce"
+ },
+ {
+  "id": "e165",
+  "date": "2026-12-07",
+  "title": "McCurtain County Christmas Parade",
+  "category": "community",
+  "area": "idabel-broken-bow",
+  "time": "6:30 PM",
+  "venue": "Broken Bow (route to be announced)",
+  "address": "Broken Bow, OK",
+  "description": "The 56th annual McCurtain County Christmas Parade. This year's theme: Songs of the Season.",
+  "organizer": "Broken Bow Area Chamber of Commerce"
+ },
+ {
+  "id": "e166",
+  "date": "2026-12-01",
+  "title": "Idabel Christmas Tree Lighting",
+  "category": "community",
+  "area": "idabel-broken-bow",
+  "time": "Time to be announced",
+  "venue": "Idabel (location to be announced)",
+  "address": "Idabel, OK",
+  "description": "Idabel's Christmas tree lighting."
+ },
+ {
+  "id": "e167",
+  "date": "2026-12-04",
+  "title": "Idabel Christmas Parade",
+  "category": "community",
+  "area": "idabel-broken-bow",
+  "time": "Time to be announced",
+  "venue": "Idabel (route to be announced)",
+  "address": "Idabel, OK",
+  "description": "Idabel's Christmas parade."
+ },
+ {
+  "id": "e168",
+  "date": "2026-12-12",
+  "title": "Christmas on the Square",
+  "category": "festivals",
+  "area": "okmulgee-east",
+  "time": "5:00 – 9:00 PM",
+  "venue": "Okmulgee Main Street on the Square",
+  "address": "100 E 6th St, Okmulgee, OK 74447",
+  "description": "Arts market, food trucks, and holiday fun downtown. No cost to attend, and parking is free.",
+  "free": true,
+  "organizer": "Okmulgee Main Street"
+ },
+ {
+  "id": "e169",
+  "date": "2026-12-10",
+  "title": "Okmulgee Festival of Lights Parade",
+  "category": "community",
+  "area": "okmulgee-east",
+  "time": "Time to be announced",
+  "venue": "Downtown Okmulgee",
+  "address": "Okmulgee, OK",
+  "description": "A lighted parade that kicks off Christmas on the Square in downtown Okmulgee.",
+  "organizer": "Okmulgee Main Street"
+ },
+ {
+  "id": "e170",
+  "date": "2026-10-24",
+  "title": "Okmulgee Chili Fest",
+  "category": "festivals",
+  "area": "okmulgee-east",
+  "time": "Time to be announced",
+  "venue": "Downtown Okmulgee",
+  "address": "Okmulgee, OK",
+  "description": "Long-running downtown chili cook-off with food and entertainment.",
+  "organizer": "Okmulgee Main Street"
+ },
+ {
+  "id": "e171",
+  "date": "2026-10-30",
+  "title": "Scare on the Square",
+  "category": "community",
+  "area": "okmulgee-east",
+  "time": "Time to be announced",
+  "venue": "Downtown Okmulgee",
+  "address": "Okmulgee, OK",
+  "description": "Family-friendly Halloween event downtown.",
+  "organizer": "Okmulgee Main Street"
+ },
+ {
+  "id": "e172",
+  "date": "2026-11-21",
+  "title": "Kyle Gates",
+  "category": "music",
+  "area": "idabel-broken-bow",
+  "time": "10:00 PM",
+  "venue": "Hochatown Saloon",
+  "address": "28 Old Hochatown Rd, Broken Bow, OK 74728",
+  "description": "Kyle Gates live at the Hochatown Saloon.",
+  "performer": [
+   "Kyle Gates"
+  ],
+  "unconfirmed": true
+ },
+ {
+  "id": "e173",
+  "date": "2026-11-14",
+  "title": "Los Socios del Ritmo",
+  "category": "music",
+  "area": "poteau",
+  "time": "See venue for time",
+  "venue": "Choctaw Casino & Resort – Pocola",
+  "address": "3400 Choctaw Rd, Pocola, OK 74902",
+  "description": "Los Socios del Ritmo live on the Center Stage.",
+  "performer": [
+   "Los Socios del Ritmo"
+  ],
+  "unconfirmed": true,
+  "indoor": true
+ },
+ {
+  "id": "e174",
+  "date": "2026-11-21",
+  "title": "Chris Janson",
+  "category": "music",
+  "area": "poteau",
+  "time": "See venue for time",
+  "venue": "Choctaw Casino & Resort – Pocola",
+  "address": "3400 Choctaw Rd, Pocola, OK 74902",
+  "description": "Country singer Chris Janson live on the Center Stage.",
+  "performer": [
+   "Chris Janson"
+  ],
+  "unconfirmed": true,
+  "indoor": true
+ },
+ {
+  "id": "e175",
+  "date": "2026-12-26",
+  "title": "Becky Robinson",
+  "category": "shows",
+  "area": "poteau",
+  "time": "See venue for time",
+  "venue": "Choctaw Casino & Resort – Pocola",
+  "address": "3400 Choctaw Rd, Pocola, OK 74902",
+  "description": "Stand-up comedy from Becky Robinson.",
+  "performer": [
+   "Becky Robinson"
+  ],
+  "unconfirmed": true,
+  "indoor": true
+ },
+ {
+  "id": "e176",
+  "date": "2026-10-31",
+  "title": "Tom Davis Music at Reba's Place",
+  "category": "music",
+  "area": "atoka",
+  "time": "5:00 PM",
+  "venue": "Reba's Place",
+  "address": "319 E Court St, Atoka, OK 74525",
+  "description": "Live music at Reba's Place.",
+  "performer": [
+   "Tom Davis"
+  ],
+  "unconfirmed": true,
+  "indoor": true
+ },
+ {
+  "id": "e177",
+  "date": "2026-11-21",
+  "title": "Theran Rose at Reba's Place",
+  "category": "music",
+  "area": "atoka",
+  "time": "5:00 PM",
+  "venue": "Reba's Place",
+  "address": "319 E Court St, Atoka, OK 74525",
+  "description": "Live music at Reba's Place.",
+  "performer": [
+   "Theran Rose"
+  ],
+  "unconfirmed": true,
+  "indoor": true
+ },
+ {
+  "id": "e178",
+  "date": "2026-11-06",
+  "title": "Bo Phillips Band",
+  "category": "music",
+  "area": "durant",
+  "time": "9:30 PM",
+  "venue": "Choctaw Casino & Resort",
+  "address": "4216 S Hwy 69/75, Durant, OK 74701",
+  "description": "Bo Phillips Band live at Choctaw Casino & Resort.",
+  "performer": [
+   "Bo Phillips Band"
+  ],
+  "unconfirmed": true,
+  "indoor": true
+ },
+ {
+  "id": "e179",
+  "date": "2026-11-13",
+  "title": "Don Stalling at Gilley's",
+  "category": "music",
+  "area": "durant",
+  "time": "10:00 PM",
+  "venue": "Gilley's, Choctaw Casino & Resort",
+  "address": "4216 S Hwy 69/75, Durant, OK 74701",
+  "description": "Live music at Gilley's.",
+  "performer": [
+   "Don Stalling"
+  ],
+  "unconfirmed": true,
+  "indoor": true
+ },
+ {
+  "id": "e180",
+  "date": "2026-11-14",
+  "title": "Craig Wayne Boyd at Gilley's",
+  "category": "music",
+  "area": "durant",
+  "time": "9:00 PM",
+  "venue": "Gilley's, Choctaw Casino & Resort",
+  "address": "4216 S Hwy 69/75, Durant, OK 74701",
+  "description": "Craig Wayne Boyd live at Gilley's.",
+  "performer": [
+   "Craig Wayne Boyd"
+  ],
+  "unconfirmed": true,
+  "indoor": true
+ },
+ {
+  "id": "e181",
+  "date": "2026-11-19",
+  "title": "The Williamsons",
+  "category": "music",
+  "area": "mcalester",
+  "time": "7:00 PM",
+  "venue": "Pittsburg Community Church",
+  "address": "Pittsburg, OK",
+  "description": "Gospel group The Williamsons in concert. Also Friday night.",
+  "endDate": "2026-11-20",
+  "performer": [
+   "The Williamsons"
+  ],
+  "unconfirmed": true,
+  "indoor": true
+ },
+ {
+  "id": "e182",
+  "date": "2027-01-30",
+  "title": "Marty Stuart",
+  "category": "music",
+  "area": "hugo-antlers",
+  "time": "7:00 PM",
+  "venue": "Choctaw Casino & Resort – Grant",
+  "address": "1516 Hwy 271 S, Grant, OK 74738",
+  "description": "Country legend Marty Stuart live in Grant.",
+  "performer": [
+   "Marty Stuart"
+  ],
+  "unconfirmed": true,
+  "indoor": true
+ },
+ {
+  "id": "e183",
+  "date": "2027-02-27",
+  "title": "Niko Moon",
+  "category": "music",
+  "area": "durant",
+  "time": "7:00 PM",
+  "venue": "Choctaw Casino & Resort",
+  "address": "4216 S Hwy 69/75, Durant, OK 74701",
+  "description": "Niko Moon live at Choctaw Casino & Resort.",
+  "performer": [
+   "Niko Moon"
+  ],
+  "unconfirmed": true,
+  "indoor": true
+ },
+ {
+  "id": "e184",
+  "date": "2027-04-24",
+  "title": "Joe Pug",
+  "category": "music",
+  "area": "mcalester",
+  "time": "7:00 PM",
+  "venue": "Spaceship Earth Coffee Co",
+  "address": "345 E Choctaw Ave, McAlester, OK",
+  "description": "Singer-songwriter Joe Pug live.",
+  "performer": [
+   "Joe Pug"
+  ],
+  "unconfirmed": true,
+  "indoor": true
  }
 ]
