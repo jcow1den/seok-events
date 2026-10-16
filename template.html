@@ -586,7 +586,8 @@ dialog.wxd{overflow-x:hidden}
   <main>
     <section id="drive-sec" aria-labelledby="drive-h">
       <div class="sec-h"><h2 id="drive-h">Worth the drive</h2><small id="drive-count"></small></div>
-      <p class="lead">Concerts, comedy, festivals, big games, and family outings within a few hours of southeast Oklahoma, in Tulsa, Oklahoma City, Muskogee, Norman, Stillwater, Thackerville, and Dallas–Fort Worth. Check with the venue for tickets.</p>
+      <p class="lead">Concerts, Broadway, comedy, festivals, big games, and family outings within a few hours of southeast Oklahoma: Tulsa, Oklahoma City, Dallas–Fort Worth, and more. Check with the venue for tickets.</p>
+      <div class="row" id="drive-cities" role="group" aria-label="City" style="margin-bottom:8px"></div>
       <div class="row" id="drive-kinds" role="group" aria-label="Type" style="margin-bottom:12px"></div>
       <div class="drives" id="drives"></div>
     </section>
@@ -1041,7 +1042,10 @@ const SYN = {
   movie:{alt:["movie","film","cinema","screening"]}, film:{ref:"movie"},
   library:{alt:["library","storytime","book"]},
   casino:{alt:["casino","choctaw grand","resort"]},
-  tonight:{when:"today"}, today:{when:"today"}
+  tonight:{when:"today"}, today:{when:"today"},
+  okc:{alt:["oklahoma city","okc","norman","edmond"]}, tulsa:{alt:["tulsa","broken arrow","catoosa"]}, dallas:{alt:["dallas","fort worth","arlington"]},
+  broadway:{alt:["broadway","musical","phantom","shucked","ballet","nutcracker"]}, ballet:{alt:["ballet","nutcracker"]}, symphony:{alt:["philharmonic","symphony","orchestra","in concert"]},
+  hockey:{alt:["oilers","hockey"]}
 };
 function synOf(w){ let s=SYN[w]||SYN[w.replace(/(es|s)$/,"")]||SYN[w.replace(/s$/,"")]; if(s&&s.ref) s=SYN[s.ref]; return s; }
 /* one query word matches an item if the word itself, one of its everyday meanings, its category, or its flag fits */
@@ -1157,7 +1161,9 @@ function renderHome(today,upcoming){
     {em:"🧺",t:"Markets",c:n(e=>e.category==="markets"),go:()=>setFilters({cat:"markets"})},
     {em:"🏆",t:"Sports",c:n(e=>e.category==="sports"),go:()=>setFilters({cat:"sports"})},
     {em:"🤝",t:"Community",c:n(e=>e.category==="community"),go:()=>setFilters({cat:"community"})},
-    {em:"🚗",t:"Out of town",c:drives.length,go:()=>go("drive")}];
+    {em:"🌆",t:"Tulsa",c:drives.filter(d=>cityGroup(d.city)==="tulsa").length,go:()=>{ go("drive"); setDriveCity("tulsa"); }},
+    {em:"🌃",t:"Oklahoma City",c:drives.filter(d=>cityGroup(d.city)==="okc").length,go:()=>{ go("drive"); setDriveCity("okc"); }},
+    {em:"🚗",t:"All out of town",c:drives.length,go:()=>{ go("drive"); setDriveCity("all"); }}];
   const tiles=document.getElementById("tiles"); tiles.textContent="";
   for(const x of T){ if(!x.c) continue; const b=h("button",{class:"tile",type:"button"},h("span",{class:"em","aria-hidden":"true"},x.em),h("span",null,h("b",null,x.t),h("small",null,x.c+(x.c===1?" event":" events"))));
     b.addEventListener("click",x.go); tiles.append(b); }
@@ -1185,27 +1191,34 @@ function renderPills(){
 }
 document.getElementById("f-toggle").addEventListener("click",ev=>{ const f=document.getElementById("filters"); const open=!f.classList.contains("open"); f.classList.toggle("open",open); ev.currentTarget.setAttribute("aria-expanded",String(open)); });
 function setFilters(o){ state.when="all"; state.cat="all"; state.tags=[]; state.q=""; document.getElementById("q").value=""; Object.assign(state,o); save(); syncControls(); render(); go("events"); }
-function openDrive(id){ driveKind="all"; DRIVE_LIMIT=999; document.querySelectorAll("#drive-kinds .chip").forEach(c=>c.setAttribute("aria-pressed",String(c.dataset.k==="all"))); go("drive",{noTop:true}); renderDrive(todayCT());
+function openDrive(id){ driveKind="all"; driveCity="all"; document.querySelectorAll("#drive-cities .chip").forEach(c=>c.setAttribute("aria-pressed",String(c.dataset.k==="all"))); DRIVE_LIMIT=999; document.querySelectorAll("#drive-kinds .chip").forEach(c=>c.setAttribute("aria-pressed",String(c.dataset.k==="all"))); go("drive",{noTop:true}); renderDrive(todayCT());
   const el=document.getElementById(id); if(el){ el.scrollIntoView({block:"center"}); el.classList.add("bump"); } }
 /* Count the hero numbers up once, for a little flourish */
 let counted=false;
 function countUp(){ if(counted||matchMedia("(prefers-reduced-motion: reduce)").matches) return; counted=true;
   for(const id of ["s-total","s-weekend","s-drive"]){ const el=document.getElementById(id), to=+el.textContent; if(!to) continue; const t0=performance.now();
     const step=now=>{ const k=Math.min(1,(now-t0)/700); el.textContent=Math.round(to*(1-Math.pow(1-k,3))); if(k<1) requestAnimationFrame(step); }; requestAnimationFrame(step); } }
-const DKINDS={all:"All",shows:"Concerts & shows",festivals:"Festivals",family:"Family",sports:"Sports"};
-let driveKind="all";
+const DKINDS={all:"All types",shows:"Concerts & shows",festivals:"Festivals",family:"Family",sports:"Sports"};
+let driveKind="all", driveCity="all";
+const DCITIES={all:"All cities",tulsa:"Tulsa area",okc:"OKC area",dfw:"Dallas–Fort Worth",other:"Elsewhere"};
+const cityGroup=c=>["Tulsa","Broken Arrow","Catoosa","Jenks","Owasso"].includes(c)?"tulsa":["Oklahoma City","Norman","Edmond","Moore"].includes(c)?"okc":["Dallas","Fort Worth","Arlington","Frisco"].includes(c)?"dfw":"other";
+function setDriveCity(k){ driveCity=k; document.querySelectorAll("#drive-cities .chip").forEach(c=>c.setAttribute("aria-pressed",String(c.dataset.k===k))); renderDrive(todayCT()); }
+(function(){ const row=document.getElementById("drive-cities"), today=todayCT();
+  for(const [k,v] of Object.entries(DCITIES)){ const n=k==="all"?0:DRIVE.filter(d=>firstActive(d,today)!==null&&cityGroup(d.city)===k).length; if(k!=="all"&&!n) continue;
+    const b=h("button",{class:"chip",type:"button","data-k":k,"aria-pressed":String(k===driveCity)},v+(n?" ("+n+")":""));
+    b.addEventListener("click",()=>setDriveCity(k)); row.append(b); } })();
 (function(){ const row=document.getElementById("drive-kinds");
   for(const [k,v] of Object.entries(DKINDS)){ const b=h("button",{class:"chip",type:"button","data-k":k,"aria-pressed":String(k===driveKind)},v);
     b.addEventListener("click",()=>{ driveKind=k; row.querySelectorAll(".chip").forEach(c=>c.setAttribute("aria-pressed",String(c.dataset.k===k))); renderDrive(todayCT()); }); row.append(b); } })();
 function renderDrive(today){
   const sec=document.getElementById("drive-sec"), box=document.getElementById("drives"); box.textContent="";
   const live=DRIVE.filter(d=>firstActive(d,today)!==null && (!state.q || qMatch(d,(d.title+" "+d.city+" "+d.venue+" "+d.description+" "+(d.time||"")).toLowerCase(),true)));
-  const items=live.filter(d=>driveKind==="all"||d.kind===driveKind)
+  const items=live.filter(d=>(driveKind==="all"||d.kind===driveKind)&&(driveCity==="all"||cityGroup(d.city)===driveCity))
     .map(d=>[firstActive(d,today),d]).sort((x,y)=>x[0].localeCompare(y[0])||x[1].title.localeCompare(y[1].title));
   sec.hidden=false;
   if(!items.length) box.append(h("div",{class:"empty"},"Nothing in this one right now. Try another."));
   document.getElementById("drive-count").textContent=items.length+(items.length===1?" pick":" picks");
-  const dsig=driveKind+"|"+state.q; if(dsig!==DRIVE_SIG){ DRIVE_SIG=dsig; if(DRIVE_LIMIT<999) DRIVE_LIMIT=15; }
+  const dsig=driveKind+"|"+driveCity+"|"+state.q; if(dsig!==DRIVE_SIG){ DRIVE_SIG=dsig; if(DRIVE_LIMIT<999) DRIVE_LIMIT=15; }
   for(const [next,d] of items.slice(0,DRIVE_LIMIT)){
     const m=miles(d), when=d.endDate? (d.date<today?"Now through ":fmt(d.date,{month:"short",day:"numeric"})+" – ")+fmt(d.endDate,{month:"short",day:"numeric"}) : fmt(d.date,{weekday:"long",month:"long",day:"numeric"});
     box.append(h("article",{class:"drv",id:d.id},
