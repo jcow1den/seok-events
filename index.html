@@ -67,7 +67,7 @@ button,input,select,textarea{font:inherit;color:inherit}
 .hero .wrap{position:relative;z-index:2;padding-block:26px 0;display:grid;gap:8px}
 .badge{justify-self:start;display:inline-flex;align-items:center;gap:6px;background:var(--pine);color:var(--pine-ink);
   font:700 13px/1 var(--display);letter-spacing:.1em;text-transform:uppercase;padding:6px 10px 5px;border-radius:4px}
-.hero h1{margin:4px 0 0;font:800 clamp(40px,11vw,68px)/.92 var(--display);text-transform:uppercase;letter-spacing:-.01em;color:var(--ink);text-wrap:balance}
+.hero h1{margin:4px 0 0;font:800 clamp(36px,10vw,68px)/.92 var(--display);text-transform:uppercase;letter-spacing:-.01em;color:var(--ink);text-wrap:balance}
 .hero h1 span{display:block;color:var(--pine)}
 .hero p.lede{margin:2px 0 0;color:var(--ink);opacity:.82;max-width:44ch;font-weight:500}
 .ridges{display:block;width:100%;height:auto;margin-top:-6px;position:relative;z-index:1}
@@ -266,6 +266,82 @@ dialog.wxd{overflow-x:hidden}
 .live{display:inline-flex;align-items:center;gap:7px;font-size:12.5px;font-weight:600;opacity:.85;margin-top:2px}
 .dot{width:8px;height:8px;border-radius:50%;background:#4ade80;box-shadow:0 0 0 0 rgba(74,222,128,.6);flex:none}
 @media (prefers-reduced-motion:no-preference){ .dot{animation:pulse 2s infinite} @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(74,222,128,.55)}70%{box-shadow:0 0 0 8px rgba(74,222,128,0)}100%{box-shadow:0 0 0 0 rgba(74,222,128,0)}} }
+/* ===== App layout: top bar + screens ===== */
+.appbar{position:sticky;top:0;z-index:30;background:color-mix(in srgb,var(--bg) 90%,transparent);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-bottom:1px solid var(--line);padding-top:env(safe-area-inset-top,0px)}
+.appbar-in{display:flex;align-items:center;gap:10px;padding-block:8px}
+.brand{display:flex;align-items:center;gap:8px;border:0;background:none;padding:0;cursor:pointer;color:var(--ink);flex:none}
+.brand img{width:34px;height:34px;border-radius:9px}
+.brand span{font:800 15px/1 var(--display);text-transform:uppercase;letter-spacing:.03em;display:grid}
+.brand b{color:var(--pine);font-weight:800}
+.appbar .search{flex:1;min-width:0;box-shadow:none;border:1px solid var(--line);padding:2px 6px 2px 12px}
+.appbar .search input{padding:8px 0}
+.topnav{display:none;gap:2px;flex:none}
+.topnav button{border:0;background:none;color:var(--muted);font:700 14px/1 var(--body);padding:9px 11px;border-radius:999px;cursor:pointer;position:relative}
+.topnav button[aria-current="page"]{background:var(--ink);color:var(--bg)}
+.topnav .n{margin-left:5px;background:var(--clay);color:var(--on-cat);border-radius:999px;font-size:11px;padding:1px 6px}
+@media (min-width:900px){ .topnav{display:flex} .wrap{max-width:860px} }
+@media (max-width:520px){ .brand span{display:none} }
+.view[hidden]{display:none!important}
+@media (prefers-reduced-motion:no-preference){ .view{animation:viewin .22s ease-out} @keyframes viewin{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}} }
+.tabbar button[aria-current="page"]{color:var(--ink)}
+.tabbar button[aria-current="page"] .ti{transform:scale(1.12)}
+.tabbar .ti{transition:transform .15s}
+/* Home tiles (browse by mood) */
+.tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}
+.tile{display:flex;align-items:center;gap:10px;padding:12px;border-radius:12px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer;text-align:left;font:inherit;transition:transform .12s,box-shadow .12s}
+.tile:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(0,0,0,.08)}
+.tile:active{transform:scale(.97)}
+.tile .em{font-size:26px;line-height:1;flex:none}
+.tile b{display:block;font-size:15px;line-height:1.2}
+.tile small{color:var(--muted);font-size:12.5px}
+.stats .stat{border:0;background:none;color:inherit;text-align:left;padding:0;cursor:pointer;font:inherit}
+.stats .stat:hover span{text-decoration:underline}
+/* "New since your last visit" */
+.newpill{justify-self:start;display:inline-flex;align-items:center;gap:8px;border:0;cursor:pointer;background:linear-gradient(90deg,#f6c453,#f39a5b);color:#2a1606;font:800 14px/1 var(--body);padding:10px 14px;border-radius:999px;box-shadow:0 6px 18px rgba(240,140,60,.35)}
+@media (prefers-reduced-motion:no-preference){ .newpill{animation:glow 2.4s ease-in-out infinite} @keyframes glow{0%,100%{box-shadow:0 6px 18px rgba(240,140,60,.35)}50%{box-shadow:0 6px 26px rgba(240,140,60,.7)}} }
+.tag.new{background:#f6c453;color:#2a1606}
+/* Passport progress card on Home */
+.passcard{display:flex;align-items:center;gap:14px;width:100%;text-align:left;border:1px solid var(--line);background:var(--surface);border-radius:14px;padding:14px 16px;cursor:pointer;color:var(--ink);font:inherit}
+.passcard .em{font-size:34px}
+.passcard b{display:block;font:800 19px/1.1 var(--display);text-transform:uppercase;letter-spacing:.02em}
+.passcard small{color:var(--muted)}
+.pbar{height:8px;border-radius:999px;background:var(--chip);overflow:hidden;margin-top:7px}
+.pbar i{display:block;height:100%;background:linear-gradient(90deg,var(--pine),#6fcf97);border-radius:999px;transition:width .6s}
+.streak{display:inline-block;margin-left:6px;font-weight:800;color:var(--clay)}
+/* Worth-the-drive teaser cards */
+.dmini{flex:0 0 min(62%,220px);scroll-snap-align:start;border:1px solid var(--line);background:var(--surface);border-radius:var(--r);padding:12px;text-align:left;cursor:pointer;color:var(--ink);font:inherit;display:grid;gap:4px}
+.dmini .c{font-size:11.5px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--clay)}
+.dmini .t{font-weight:700;line-height:1.25}
+.dmini .w{font-size:13px;color:var(--muted)}
+/* Filters on the Events screen */
+.filters{display:grid;gap:8px;margin-bottom:14px;padding:12px;border:1px solid var(--line);border-radius:14px;background:var(--surface)}
+.frow{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.frow > select{width:auto;flex:1 1 160px;min-width:0;border:1px solid var(--line);background:var(--raised);border-radius:999px;padding:8px 12px;font-weight:700;font-size:14px;color:var(--ink)}
+.filters .from{color:var(--ink)}
+.filters .from select{border:1px solid var(--line);background:var(--raised);border-radius:999px;padding:8px 12px;font-weight:700;font-size:14px;color:var(--ink)}
+.filters .nearbtn{border-color:var(--line);color:var(--ink);background:var(--raised)}
+.clear-f{justify-self:start}
+.fmore{display:grid;gap:8px}
+.ftoggle{display:none}
+.ftoggle .n{margin-left:6px;background:var(--clay);color:var(--on-cat);border-radius:999px;font-size:11px;padding:1px 6px}
+.fpills:empty{display:none}
+.fpill{display:inline-flex;align-items:center;gap:6px;border:0;border-radius:999px;background:var(--ink);color:var(--bg);font:700 13px/1 var(--body);padding:8px 10px;cursor:pointer}
+@media (max-width:699px){
+  .ftoggle{display:inline-flex;margin-left:auto}
+  .fmore{display:none}
+  .filters.open .fmore{display:grid}
+  .filters{padding:10px}
+}
+@media (min-width:700px){ .fpills{display:none} }
+.showmore{justify-self:center;margin:6px auto 0}
+/* Little celebrations */
+.confetti{position:fixed;pointer-events:none;z-index:60;width:8px;height:12px;border-radius:2px;top:0;left:0}
+@media (prefers-reduced-motion:no-preference){
+  .die.roll{display:inline-block;animation:roll .6s ease-out}
+  @keyframes roll{0%{transform:rotate(0) scale(1)}50%{transform:rotate(360deg) scale(1.4)}100%{transform:rotate(720deg) scale(1)}}
+  .bump{animation:bump .4s ease}
+  @keyframes bump{0%{transform:scale(1)}40%{transform:scale(1.35)}100%{transform:scale(1)}}
+}
 /* Shelves (rows of picks, one theme per row) */
 .shelves{display:grid;grid-template-columns:minmax(0,1fr);gap:22px}
 .shelf{min-width:0}
@@ -399,12 +475,29 @@ dialog.wxd{overflow-x:hidden}
   <symbol id="i-search" viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></symbol>
 </svg>
 
+<div class="appbar" id="appbar">
+  <div class="wrap gut appbar-in">
+    <button class="brand" id="brand" type="button" aria-label="Home"><img src="icons/icon-192.png" alt=""><span>SE OK<b>Events</b></span></button>
+    <div class="search" role="search">
+      <svg aria-hidden="true"><use href="#i-search"/></svg>
+      <input id="q" type="search" placeholder="Search “Hugo”, “Christmas”, “free”…" aria-label="Search events, towns, or things to do" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="sugg">
+      <ul class="sugg" id="sugg" role="listbox" aria-label="Suggestions" hidden></ul>
+    </div>
+    <nav class="topnav" aria-label="Sections">
+      <button type="button" data-tab="home">Home</button><button type="button" data-tab="events">Events</button><button type="button" data-tab="drive">Out of town</button><button type="button" data-tab="saved">Saved<span class="n tab-n" hidden></span></button><button type="button" data-tab="more">More</button>
+    </nav>
+  </div>
+</div>
+
+<!-- ===== HOME ===== -->
+<div class="view" id="view-home" data-view="home">
 <header class="hero">
   <div class="wrap gut">
     <span class="badge">Kiamichi Country · Lake Country</span>
     <h1>Southeast Oklahoma <span>Events</span></h1>
     <p class="lede">Festivals, live music, markets, and hometown happenings across southeast Oklahoma, in big towns and small ones. Plus the big shows worth the drive.</p>
     <p class="greet" id="greet" aria-live="polite"></p>
+    <button class="newpill" id="newpill" type="button" hidden></button>
     <button class="nextup" id="nextup" type="button" hidden></button>
   </div>
   <svg class="season-top" id="season-top" viewBox="0 0 1200 34" preserveAspectRatio="none" aria-hidden="true" hidden></svg>
@@ -419,33 +512,14 @@ dialog.wxd{overflow-x:hidden}
   <div class="under">
     <div class="wrap gut">
       <div class="stats">
-        <div class="stat"><b id="s-total">0</b><span>Coming up</span></div>
-        <div class="stat"><b id="s-weekend">0</b><span>This weekend</span></div>
-        <div class="stat"><b id="s-towns">0</b><span>Areas covered</span></div>
+        <button class="stat" type="button" data-jump="all"><b id="s-total">0</b><span>Coming up</span></button>
+        <button class="stat" type="button" data-jump="weekend"><b id="s-weekend">0</b><span>This weekend</span></button>
+        <button class="stat" type="button" data-jump="drive"><b id="s-drive">0</b><span>Out of town</span></button>
       </div>
       <div class="live"><span class="dot" aria-hidden="true"></span><span id="live-txt"></span></div>
-      <div class="from"><svg aria-hidden="true"><use href="#i-pin"/></svg><label for="from">Distances from</label>
-        <select id="from"><option value="">Pick your town</option></select>
-        <button class="nearbtn" id="near" type="button"><svg aria-hidden="true"><use href="#i-loc"/></svg>Near me</button>
-        <span class="from-msg" id="from-msg" role="status"></span></div>
-      <div class="search" role="search">
-        <svg aria-hidden="true"><use href="#i-search"/></svg>
-        <input id="q" type="search" placeholder="Try “Hugo”, “free”, or “fish fry”" aria-label="Search events, towns, or things to do" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="sugg">
-        <ul class="sugg" id="sugg" role="listbox" aria-label="Suggestions" hidden></ul>
-        <select id="area" aria-label="Area"></select>
-      </div>
     </div>
   </div>
 </header>
-
-<nav class="bar" aria-label="Filter events">
-  <div class="wrap gut">
-    <div class="row" id="when-row" role="group" aria-label="When"></div>
-    <div class="row" id="cat-row" role="group" aria-label="Category"></div>
-    <div class="row" id="dist-row" role="group" aria-label="Distance" hidden></div>
-  </div>
-</nav>
-
 <div class="wrap gut">
   <main>
     <div class="install" id="install" hidden>
@@ -454,36 +528,97 @@ dialog.wxd{overflow-x:hidden}
       <button class="btn pri" id="install-go" type="button">Add</button>
       <button class="x" id="install-x" type="button" aria-label="Dismiss">×</button>
     </div>
+    <section aria-labelledby="browse-h">
+      <div class="sec-h"><h2 id="browse-h">What are you in the mood for?</h2></div>
+      <div class="tiles" id="tiles"></div>
+    </section>
     <section id="hl-sec" aria-labelledby="hl-h">
-      <div class="sec-h"><h2 id="hl-h">Good stuff coming up</h2><span class="right"><small id="hl-sub"></small><button class="surprise" id="surprise" type="button">🎲 Surprise me</button></span></div>
+      <div class="sec-h"><h2 id="hl-h">Good stuff coming up</h2><span class="right"><small id="hl-sub"></small><button class="surprise" id="surprise" type="button"><span class="die" aria-hidden="true">🎲</span> Surprise me</button></span></div>
       <div class="shelves" id="shelves"></div>
     </section>
+    <section aria-labelledby="dt-h" id="drive-teaser">
+      <div class="sec-h"><h2 id="dt-h">Worth the drive</h2><button class="linkbtn more-link" type="button" data-tab-go="drive">See all ›</button></div>
+      <div class="rail" id="drive-rail"></div>
+    </section>
+    <button class="passcard" id="passcard" type="button" data-tab-go="saved"></button>
+  </main>
+</div>
+</div>
+
+<!-- ===== EVENTS ===== -->
+<div class="view" id="view-events" data-view="events" hidden>
+<div class="wrap gut">
+  <main>
+    <section aria-labelledby="all-h">
+      <div class="sec-h"><h2 id="all-h">All events</h2><span class="right"><small id="count"></small>
+        <span class="seg" role="group" aria-label="View"><button type="button" id="v-list" aria-pressed="true">List</button><button type="button" id="v-map" aria-pressed="false">Map</button></span></span></div>
+      <div class="filters" id="filters">
+        <div class="frow">
+          <select id="area" aria-label="Area"></select>
+          <button class="btn ftoggle" id="f-toggle" type="button" aria-expanded="false" aria-controls="f-more">⚙ Filters<span class="n" id="f-n" hidden></span></button>
+        </div>
+        <div class="frow fpills" id="f-pills"></div>
+        <div class="fmore" id="f-more">
+        <div class="frow">
+          <div class="from"><svg aria-hidden="true"><use href="#i-pin"/></svg><label for="from">From</label>
+            <select id="from"><option value="">Pick your town</option></select>
+            <button class="nearbtn" id="near" type="button"><svg aria-hidden="true"><use href="#i-loc"/></svg>Near me</button>
+            <span class="from-msg" id="from-msg" role="status"></span></div>
+        </div>
+        <div class="row" id="when-row" role="group" aria-label="When"></div>
+        <div class="row" id="cat-row" role="group" aria-label="Category"></div>
+        <div class="row" id="dist-row" role="group" aria-label="Distance" hidden></div>
+        </div>
+        <button class="linkbtn clear-f" id="clear-f" type="button" hidden>Clear filters</button>
+      </div>
+      <div id="dyk"></div>
+      <div id="area-sponsor"></div>
+      <div id="map-wrap" hidden><p class="map-note">Pins show each town with events. Tap a pin to see what's on there.</p><div id="map" role="region" aria-label="Map of event towns"></div></div>
+      <div id="list" style="display:grid;gap:26px" aria-live="polite"></div>
+    </section>
+  </main>
+</div>
+</div>
+
+<!-- ===== OUT OF TOWN ===== -->
+<div class="view" id="view-drive" data-view="drive" hidden>
+<div class="wrap gut">
+  <main>
+    <section id="drive-sec" aria-labelledby="drive-h">
+      <div class="sec-h"><h2 id="drive-h">Worth the drive</h2><small id="drive-count"></small></div>
+      <p class="lead">Concerts, comedy, festivals, big games, and family outings within a few hours of southeast Oklahoma, in Tulsa, Oklahoma City, Muskogee, Norman, Stillwater, Thackerville, and Dallas–Fort Worth. Check with the venue for tickets.</p>
+      <div class="row" id="drive-kinds" role="group" aria-label="Type" style="margin-bottom:12px"></div>
+      <div class="drives" id="drives"></div>
+    </section>
+  </main>
+</div>
+</div>
+
+<!-- ===== SAVED ===== -->
+<div class="view" id="view-saved" data-view="saved" hidden>
+<div class="wrap gut">
+  <main>
     <div class="planbar" id="planbar">
       <p><b>Plan my weekend</b><span id="plan-line">Tap the ♥ on a few things for this weekend and we'll line them up for you.</span></p>
       <button class="btn pri" id="plan-open" type="button">🗺️ See my weekend</button>
     </div>
-    <div id="dyk"></div>
-    <div id="area-sponsor"></div>
-    <section aria-labelledby="all-h">
-      <div class="sec-h"><h2 id="all-h">What's going on</h2><span class="right"><small id="count"></small>
-        <span class="seg" role="group" aria-label="View"><button type="button" id="v-list" aria-pressed="true">List</button><button type="button" id="v-map" aria-pressed="false">Map</button></span></span></div>
-      <div id="map-wrap" hidden><p class="map-note">Pins show each town with events. Tap a pin to see what's on there.</p><div id="map" role="region" aria-label="Map of event towns"></div></div>
-      <div id="list" style="display:grid;gap:26px" aria-live="polite"></div>
+    <section aria-labelledby="saved-h">
+      <div class="sec-h"><h2 id="saved-h">Your saved events</h2><small id="saved-count"></small></div>
+      <div id="saved-list" style="display:grid;gap:26px"></div>
     </section>
-
-    <section id="drive-sec" aria-labelledby="drive-h" hidden>
-      <div class="sec-h"><h2 id="drive-h">Worth the drive</h2><small id="drive-count"></small></div>
-      <p class="lead">Concerts, festivals, big games, and family outings within a few hours of southeast Oklahoma, in Tulsa, Oklahoma City, Muskogee, Norman, Stillwater, Thackerville, and Dallas–Fort Worth. Check with the venue for tickets.</p>
-      <div class="row" id="drive-kinds" role="group" aria-label="Type" style="margin-bottom:12px"></div>
-      <div class="drives" id="drives"></div>
-    </section>
-
     <section class="panel" id="passport" aria-labelledby="pass-h">
       <h2 id="pass-h">Small Town Passport</h2>
       <p>At an event? Tap <b>“I went!”</b> on it that day to collect a stamp for that town. Earn badges as you get around southeast Oklahoma. Your passport is saved on this phone or computer.</p>
       <div id="pass-body"></div>
     </section>
+  </main>
+</div>
+</div>
 
+<!-- ===== MORE ===== -->
+<div class="view" id="view-more" data-view="more" hidden>
+<div class="wrap gut">
+  <main>
     <section class="panel" id="subscribe" aria-labelledby="cal-h">
       <h2 id="cal-h">Never miss a good time</h2>
       <p>Subscribe once and every southeast Oklahoma event on this page shows up in your phone's calendar. It updates on its own as we add events.</p>
@@ -531,6 +666,7 @@ dialog.wxd{overflow-x:hidden}
     </section>
   </main>
 </div>
+</div>
 <dialog class="wxd" id="wx-dlg" aria-labelledby="wx-title">
   <div class="wxd-in">
     <div class="wxd-h"><div><h3 id="wx-title"></h3><p id="wx-sub"></p></div><button class="x" id="wx-close" type="button" aria-label="Close">×</button></div>
@@ -539,12 +675,12 @@ dialog.wxd{overflow-x:hidden}
     <p class="note" id="wx-note"></p>
   </div>
 </dialog>
-<nav class="tabbar" id="tabbar" aria-label="Shortcuts">
-  <button type="button" data-go="top"><span class="ti" aria-hidden="true">🏠</span>Home</button>
-  <button type="button" data-go="search"><span class="ti" aria-hidden="true">🔍</span>Search</button>
-  <button type="button" data-go="plan"><span class="ti" aria-hidden="true">🗓️</span>Weekend</button>
-  <button type="button" data-go="saved"><span class="ti" aria-hidden="true">♥</span>Saved<span class="n" id="tab-n" hidden></span></button>
-  <button type="button" data-go="passport"><span class="ti" aria-hidden="true">🎟️</span>Passport</button>
+<nav class="tabbar" id="tabbar" aria-label="Sections">
+  <button type="button" data-tab="home"><span class="ti" aria-hidden="true">🏠</span>Home</button>
+  <button type="button" data-tab="events"><span class="ti" aria-hidden="true">📅</span>Events</button>
+  <button type="button" data-tab="drive"><span class="ti" aria-hidden="true">🚗</span>Out of town</button>
+  <button type="button" data-tab="saved"><span class="ti" aria-hidden="true">♥</span>Saved<span class="n tab-n" hidden></span></button>
+  <button type="button" data-tab="more"><span class="ti" aria-hidden="true">☰</span>More</button>
 </nav>
 <dialog class="wxd" id="plan-dlg" aria-labelledby="plan-title">
   <div class="wxd-in">
@@ -580,7 +716,7 @@ const CATS = {all:"All",festivals:"Festivals",music:"Music",shows:"Shows & comed
 const AREAS = {all:"All areas",mcalester:"McAlester area",wilburton:"Wilburton",eufaula:"Lake Eufaula area",atoka:"Atoka",
   durant:"Durant","ada-holdenville":"Ada / Holdenville","okmulgee-east":"Okmulgee / Henryetta",
   "hugo-antlers":"Hugo / Antlers","idabel-broken-bow":"Idabel / Broken Bow",poteau:"Poteau area"};
-const WHEN = {all:"Everything coming up",today:"Today",weekend:"This weekend",week:"Next 7 days",month:"Next 30 days",saved:"♥ Saved"};
+const WHEN = {all:"Everything coming up",today:"Today",weekend:"This weekend",week:"Next 7 days",month:"Next 30 days"};
 const TAGS = {free:"Free",kids:"Kid-friendly",indoor:"Indoors"};
 const DIST = {any:"Any distance",mi15:"Within 15 mi",mi30:"Within 30 mi",mi60:"Within 60 mi"};
 const distMi = k => parseInt(k.slice(2),10);
@@ -615,6 +751,23 @@ const FACTS = {
   "idabel-broken-bow":{t:"Broken Bow is named after Broken Bow, Nebraska, the former hometown of the Dierks brothers who founded it.",url:"https://en.wikipedia.org/wiki/Broken_Bow,_Oklahoma"},
   poteau:{t:"Cavanal Hill near Poteau is billed as the \u201cWorld's Highest Hill.\u201d The sign at its base lists 1,999 feet.",url:"https://en.wikipedia.org/wiki/Cavanal_Hill"}
 };
+/* "New since your last visit" and weekly visit streak (this device only) */
+let NEWIDS=new Set(), STREAK=0;
+(function(){
+  const now=Date.now(), ids=EVENTS.map(e=>e.id).concat(DRIVE.map(d=>d.id));
+  try{
+    const v=JSON.parse(localStorage.getItem("seok-visit")||"null");
+    if(!v||!Array.isArray(v.ids)) localStorage.setItem("seok-visit",JSON.stringify({ids,t:now,newIds:[]}));
+    else if(now-v.t>3*3600e3){ const old=new Set(v.ids); NEWIDS=new Set(ids.filter(i=>!old.has(i))); localStorage.setItem("seok-visit",JSON.stringify({ids,t:now,newIds:[...NEWIDS]})); }
+    else { const cur=new Set(ids); NEWIDS=new Set((v.newIds||[]).filter(i=>cur.has(i))); }
+  }catch(e){}
+  try{
+    const wk=d=>{ const x=new Date(Date.UTC(d.getFullYear(),d.getMonth(),d.getDate())); const day=x.getUTCDay()||7; x.setUTCDate(x.getUTCDate()+4-day); const y0=new Date(Date.UTC(x.getUTCFullYear(),0,1)); return x.getUTCFullYear()*100+Math.ceil(((x-y0)/864e5+1)/7); };
+    const weeks=new Set(JSON.parse(localStorage.getItem("seok-weeks")||"[]")); const d=new Date(); weeks.add(wk(d));
+    localStorage.setItem("seok-weeks",JSON.stringify([...weeks].slice(-60)));
+    let k=0, c=new Date(d); while(weeks.has(wk(c))){ k++; c.setDate(c.getDate()-7); } STREAK=k;
+  }catch(e){}
+})();
 /* Small Town Passport stamps live only on this phone or computer */
 let PASS=[]; try{ PASS=JSON.parse(localStorage.getItem("seok-pass")||"[]"); if(!Array.isArray(PASS)) PASS=[]; }catch(e){ PASS=[]; }
 const persistPass=()=>{ try{localStorage.setItem("seok-pass",JSON.stringify(PASS))}catch(e){} };
@@ -760,12 +913,12 @@ function copyText(text, onOk, onFail){ try{ navigator.clipboard.writeText(text).
 /* ===== Cards ===== */
 function card(e,today){
   const d=h("details",{class:"ev"+(e.featured?" featured":""),style:catVar(e.category),id:e.id,"data-id":e.id});
-  const tags=[ e.featured&&h("span",{class:"tag feat"},"Featured"), e.free&&h("span",{class:"tag free"},"Free"),
+  const tags=[ NEWIDS.has(e.id)&&h("span",{class:"tag new"},"New"), e.featured&&h("span",{class:"tag feat"},"Featured"), e.free&&h("span",{class:"tag free"},"Free"),
     e.endDate&&h("span",{class:"tag multi"},(e.date<today?"Ongoing · ":"")+"Thru "+fmt(e.endDate,{month:"short",day:"numeric"})),
     e.kids&&h("span",{class:"tag kids"},"Kids"), wxFor(e,today,true) ];
   const heart=h("button",{class:"heart",type:"button","aria-pressed":String(SAVED.has(e.id)),"aria-label":"Save "+e.title},icon("heart"));
   heart.addEventListener("click",ev=>{ ev.preventDefault(); ev.stopPropagation(); toggleSave(e.id); const on=SAVED.has(e.id);
-    heart.setAttribute("aria-pressed",String(on)); heart.classList.remove("pop"); void heart.offsetWidth; if(on) heart.classList.add("pop");
+    heart.setAttribute("aria-pressed",String(on)); heart.classList.remove("pop"); void heart.offsetWidth; if(on){ heart.classList.add("pop"); const r=heart.getBoundingClientRect(); confetti(12,r.left+r.width/2,r.top+r.height/2); }
     snack(on?"Saved ♥ Find it under Saved anytime.":"Removed from Saved."); });
   d.append(h("summary",null,
     h("span",{class:"ic"},icon(e.category)),
@@ -809,7 +962,7 @@ function markSeen(id){ SEEN=[id,...SEEN.filter(x=>x!==id)].slice(0,12); try{loca
 let showAllShelves=false;
 function renderShelves(today,upcoming){
   const box=document.getElementById("shelves"); box.textContent="";
-  const pool=upcoming.filter(e=>matches(e));
+  const pool=upcoming.filter(e=>(state.area==="all"||e.area===state.area)&&!(state.from&&state.dist!=="any"&&(miles(e)??0)>distMi(state.dist)));
   const within=(e,n)=>overlaps(e,today,addDays(today,n));
   const byDate=list=>list.map(e=>[firstActive(e,today),e]).filter(x=>x[0]).sort((x,y)=>x[0].localeCompare(y[0])||startKey(x[1])-startKey(y[1])).map(x=>x[1]);
   const savedCats={}; for(const id of SAVED){ const e=EVENTS.find(x=>x.id===id); if(e) savedCats[e.category]=(savedCats[e.category]||0)+1; }
@@ -911,6 +1064,7 @@ function matches(e){
   if(state.cat!=="all"&&e.category!==state.cat&&!state.q) return false;
   if(state.area!=="all"&&e.area!==state.area) return false;
   if(state.when==="saved"&&!SAVED.has(e.id)) return false;
+  if(state.when==="new"&&!NEWIDS.has(e.id)) return false;
   if(!state.q) for(const tg of state.tags) if(!e[tg]) return false;
   if(state.from&&state.dist!=="any"){ const m=miles(e); if(m!=null&&m>distMi(state.dist)) return false; }
   if(state.q){ const hay=(e.title+" "+e.venue+" "+e.address+" "+e.description+" "+AREAS[e.area]+" "+(e.time||"")+" "+CATS[e.category]+" "+(e.performer||[]).join(" ")).toLowerCase();
@@ -923,10 +1077,16 @@ function render(){
   const [wa,wb]=weekend(today);
   document.getElementById("s-total").textContent=upcoming.length;
   document.getElementById("s-weekend").textContent=upcoming.filter(e=>overlaps(e,wa,wb)).length;
-  document.getElementById("s-towns").textContent=new Set(upcoming.map(e=>e.area)).size;
+  document.getElementById("s-drive").textContent=DRIVE.filter(d=>firstActive(d,today)!==null).length;
+  countUp();
 
   const shown=renderShelves(today,upcoming);
-  document.getElementById("hl-sec").hidden=!shown||!!state.q||state.when==="saved";
+  document.getElementById("hl-sec").hidden=!shown;
+  renderHome(today,upcoming);
+  renderSaved(today);
+  const fdef=state.when==="all"&&state.cat==="all"&&!state.tags.length&&state.area==="all"&&state.dist==="any";
+  document.getElementById("clear-f").hidden=fdef;
+  renderPills();
   document.getElementById("hl-sub").textContent=[state.area!=="all"?AREAS[state.area]:"",state.from&&state.dist!=="any"?DIST[state.dist].toLowerCase()+" of "+state.from:""].filter(Boolean).join(" · ");
   document.getElementById("dist-row").hidden=!state.from;
 
@@ -942,14 +1102,18 @@ function render(){
     .sort((x,y)=>x[0].localeCompare(y[0])||startKey(x[1])-startKey(y[1])||x[1].title.localeCompare(y[1].title)).map(p=>p[1]);
   document.getElementById("count").textContent=hits.length+(hits.length===1?" event":" events")+(state.q&&state.when!=="saved"&&state.when!=="all"?" · all dates":"");
   const list=document.getElementById("list"); list.textContent="";
+  const sig=JSON.stringify([state.when,state.cat,state.tags,state.area,state.from,state.dist,state.q]);
+  if(sig!==LIST_SIG){ LIST_SIG=sig; LIST_LIMIT=25; }
   if(state.view==="map") drawMap(hits);
   if(!hits.length){ list.append(h("div",{class:"empty"},
     state.when==="saved"&&!SAVED.size?"Nothing saved yet. Tap the ♥ on anything that looks good and it'll wait for you here.":
-    state.q?`Nothing around here matches “${state.q}” yet${DRIVE.length?" (check Worth the drive below)":""}. Know of one? Tell us below and we'll add it.`:"Quieter than a deer stand at dawn. Try another area or a wider date range.")); return; }
+    state.q?`Nothing around here matches “${state.q}” yet. Check Out of town, or tell us about it under More and we'll add it.`:"Quieter than a deer stand at dawn. Try another area or a wider date range.")); return; }
   const groups=new Map(); for(const e of hits){ const k=firstActive(e,a); if(!groups.has(k))groups.set(k,[]); groups.get(k).push(e); }
   // In-feed sponsors: when browsing all areas, rotate area sponsors between day groups
-  const rot=Object.keys(SPONSORS).filter(k=>k!=="all"); let gi=0;
-  for(const [day,evs] of groups){
+  const rot=Object.keys(SPONSORS).filter(k=>k!=="all"); let gi=0, shownN=0;
+  for(const [day,evsAll] of groups){
+    if(shownN>=LIST_LIMIT) break;
+    const evs=evsAll.slice(0,Math.max(1,LIST_LIMIT-shownN)); shownN+=evs.length;
     const label= day===today?"Today": day===addDays(today,1)?"Tomorrow": fmt(day,{weekday:"long"});
     list.append(h("section",{class:"day","aria-label":fmt(day,{weekday:"long",month:"long",day:"numeric"})},
       h("div",{class:"date"},h("div",{class:"m"},fmt(day,{month:"short"})),h("div",{class:"n"},fmt(day,{day:"numeric"})),h("div",{class:"w"},fmt(day,{weekday:"short"}))),
@@ -957,7 +1121,77 @@ function render(){
     gi++;
     if(state.area==="all" && (gi===2||gi%5===0)){ const key = SPONSORS.all && gi===2 ? "all" : rot[(Math.floor(gi/5))%Math.max(rot.length,1)]; const s=key&&sponsorCard(key); if(s) list.append(s); }
   }
+  if(hits.length>shownN) list.append(moreBtn(hits.length-shownN,"event",()=>{ LIST_LIMIT+=25; render(); }));
 }
+let LIST_LIMIT=25, LIST_SIG="", DRIVE_LIMIT=15, DRIVE_SIG="";
+/* "Show more" that also loads by itself when you scroll to it */
+function moreBtn(left,word,fn){
+  const b=h("button",{class:"btn showmore",type:"button"},"Show more ("+left+" more "+word+(left===1?"":"s")+")");
+  let done=false; const go=()=>{ if(done) return; done=true; fn(); };
+  b.addEventListener("click",go);
+  if("IntersectionObserver" in window){ const io=new IntersectionObserver(es=>{ if(es.some(x=>x.isIntersecting)){ io.disconnect(); go(); } },{rootMargin:"300px"}); setTimeout(()=>io.observe(b),300); }
+  return b;
+}
+/* Saved screen */
+function renderSaved(today){
+  const box=document.getElementById("saved-list"); box.textContent="";
+  const evs=EVENTS.filter(e=>SAVED.has(e.id)&&(e.endDate||e.date)>=today).map(e=>[firstActive(e,today),e]).filter(x=>x[0]).sort((a,b)=>a[0].localeCompare(b[0])||startKey(a[1])-startKey(b[1]));
+  document.getElementById("saved-count").textContent=evs.length?evs.length+(evs.length===1?" event":" events"):"";
+  if(!evs.length){ box.append(h("div",{class:"empty"},"Nothing saved yet. Tap the ♥ on anything that looks good and it'll wait for you here.")); return; }
+  const groups=new Map(); for(const [d,e] of evs){ if(!groups.has(d)) groups.set(d,[]); groups.get(d).push(e); }
+  for(const [day,list] of groups) box.append(h("section",{class:"day"},
+    h("div",{class:"date"},h("div",{class:"m"},fmt(day,{month:"short"})),h("div",{class:"n"},fmt(day,{day:"numeric"})),h("div",{class:"w"},fmt(day,{weekday:"short"}))),
+    h("div",{class:"col"},h("div",{class:"dh"+(day===today?" today":"")},day===today?"Today":day===addDays(today,1)?"Tomorrow":fmt(day,{weekday:"long"})),...list.map(e=>card(e,today)))));
+}
+/* Home extras: mood tiles, out-of-town teaser, passport progress */
+function renderHome(today,upcoming){
+  const [wa,wb]=weekend(today), drives=DRIVE.filter(d=>firstActive(d,today)!==null);
+  const n=f=>upcoming.filter(f).length;
+  const T=[
+    {em:"📅",t:"This weekend",c:n(e=>overlaps(e,wa,wb)),go:()=>setFilters({when:"weekend"})},
+    {em:"🎸",t:"Live music",c:n(e=>e.category==="music"),go:()=>setFilters({cat:"music"})},
+    {em:"🎪",t:"Festivals",c:n(e=>e.category==="festivals"),go:()=>setFilters({cat:"festivals"})},
+    {em:"🎭",t:"Shows & comedy",c:n(e=>e.category==="shows"),go:()=>setFilters({cat:"shows"})},
+    {em:"🆓",t:"Free stuff",c:n(e=>e.free),go:()=>setFilters({tags:["free"]})},
+    {em:"🧒",t:"Bring the kids",c:n(e=>e.kids),go:()=>setFilters({tags:["kids"]})},
+    {em:"🧺",t:"Markets",c:n(e=>e.category==="markets"),go:()=>setFilters({cat:"markets"})},
+    {em:"🏆",t:"Sports",c:n(e=>e.category==="sports"),go:()=>setFilters({cat:"sports"})},
+    {em:"🤝",t:"Community",c:n(e=>e.category==="community"),go:()=>setFilters({cat:"community"})},
+    {em:"🚗",t:"Out of town",c:drives.length,go:()=>go("drive")}];
+  const tiles=document.getElementById("tiles"); tiles.textContent="";
+  for(const x of T){ if(!x.c) continue; const b=h("button",{class:"tile",type:"button"},h("span",{class:"em","aria-hidden":"true"},x.em),h("span",null,h("b",null,x.t),h("small",null,x.c+(x.c===1?" event":" events"))));
+    b.addEventListener("click",x.go); tiles.append(b); }
+  const rail=document.getElementById("drive-rail"); rail.textContent="";
+  drives.map(d=>[firstActive(d,today),d]).sort((a,b)=>a[0].localeCompare(b[0])).slice(0,10).forEach(([next,d])=>{
+    const b=h("button",{class:"dmini",type:"button"},h("span",{class:"c"},d.city),h("span",{class:"t"},d.title),h("span",{class:"w"},(d.endDate&&d.date<today?"Now through "+fmt(d.endDate,{month:"short",day:"numeric"}):fmt(next,{weekday:"short",month:"short",day:"numeric"}))+(countdown(next,today)?" · "+countdown(next,today):"")));
+    b.addEventListener("click",()=>openDrive(d.id)); rail.append(b); });
+  document.getElementById("drive-teaser").hidden=!drives.length;
+  const towns=new Set(PASS.map(s=>s.town)).size, next=[1,3,5,10,20].find(x=>x>towns)||towns+5;
+  const pc=document.getElementById("passcard"); pc.textContent="";
+  pc.append(h("span",{class:"em","aria-hidden":"true"},"🎟️"),h("span",{style:"flex:1;min-width:0"},
+    h("b",null,"Small Town Passport",STREAK>=2&&h("span",{class:"streak"},"🔥 "+STREAK+"-week streak")),
+    h("small",null,towns?towns+(towns===1?" town":" towns")+" stamped. "+(next-towns)+" more to your next badge.":"Go to an event, tap “I went!”, and start collecting towns."),
+    h("div",{class:"pbar","aria-hidden":"true"},h("i",{style:"width:"+Math.round(100*Math.min(1,towns/next))+"%"}))));
+}
+/* Active filters as tappable pills (phones), plus a count on the Filters button */
+function renderPills(){
+  const box=document.getElementById("f-pills"); box.textContent=""; const P=[];
+  if(state.when!=="all") P.push([WHEN[state.when]||state.when,()=>state.when="all"]);
+  if(state.cat!=="all") P.push([CATS[state.cat],()=>state.cat="all"]);
+  for(const tg of state.tags) P.push([TAGS[tg],()=>state.tags=state.tags.filter(x=>x!==tg)]);
+  if(state.from&&state.dist!=="any") P.push([DIST[state.dist]+" of "+state.from,()=>state.dist="any"]);
+  for(const [label,undo] of P){ const b=h("button",{class:"fpill",type:"button","aria-label":"Remove filter: "+label},label," ✕"); b.addEventListener("click",()=>{ undo(); save(); syncControls(); render(); }); box.append(b); }
+  const n=document.getElementById("f-n"); n.textContent=P.length; n.hidden=!P.length;
+}
+document.getElementById("f-toggle").addEventListener("click",ev=>{ const f=document.getElementById("filters"); const open=!f.classList.contains("open"); f.classList.toggle("open",open); ev.currentTarget.setAttribute("aria-expanded",String(open)); });
+function setFilters(o){ state.when="all"; state.cat="all"; state.tags=[]; state.q=""; document.getElementById("q").value=""; Object.assign(state,o); save(); syncControls(); render(); go("events"); }
+function openDrive(id){ driveKind="all"; DRIVE_LIMIT=999; document.querySelectorAll("#drive-kinds .chip").forEach(c=>c.setAttribute("aria-pressed",String(c.dataset.k==="all"))); go("drive",{noTop:true}); renderDrive(todayCT());
+  const el=document.getElementById(id); if(el){ el.scrollIntoView({block:"center"}); el.classList.add("bump"); } }
+/* Count the hero numbers up once, for a little flourish */
+let counted=false;
+function countUp(){ if(counted||matchMedia("(prefers-reduced-motion: reduce)").matches) return; counted=true;
+  for(const id of ["s-total","s-weekend","s-drive"]){ const el=document.getElementById(id), to=+el.textContent; if(!to) continue; const t0=performance.now();
+    const step=now=>{ const k=Math.min(1,(now-t0)/700); el.textContent=Math.round(to*(1-Math.pow(1-k,3))); if(k<1) requestAnimationFrame(step); }; requestAnimationFrame(step); } }
 const DKINDS={all:"All",shows:"Concerts & shows",festivals:"Festivals",family:"Family",sports:"Sports"};
 let driveKind="all";
 (function(){ const row=document.getElementById("drive-kinds");
@@ -968,10 +1202,11 @@ function renderDrive(today){
   const live=DRIVE.filter(d=>firstActive(d,today)!==null && (!state.q || qMatch(d,(d.title+" "+d.city+" "+d.venue+" "+d.description+" "+(d.time||"")).toLowerCase(),true)));
   const items=live.filter(d=>driveKind==="all"||d.kind===driveKind)
     .map(d=>[firstActive(d,today),d]).sort((x,y)=>x[0].localeCompare(y[0])||x[1].title.localeCompare(y[1].title));
-  sec.hidden=!live.length||state.when==="saved";
+  sec.hidden=false;
   if(!items.length) box.append(h("div",{class:"empty"},"Nothing in this one right now. Try another."));
   document.getElementById("drive-count").textContent=items.length+(items.length===1?" pick":" picks");
-  for(const [next,d] of items){
+  const dsig=driveKind+"|"+state.q; if(dsig!==DRIVE_SIG){ DRIVE_SIG=dsig; if(DRIVE_LIMIT<999) DRIVE_LIMIT=15; }
+  for(const [next,d] of items.slice(0,DRIVE_LIMIT)){
     const m=miles(d), when=d.endDate? (d.date<today?"Now through ":fmt(d.date,{month:"short",day:"numeric"})+" – ")+fmt(d.endDate,{month:"short",day:"numeric"}) : fmt(d.date,{weekday:"long",month:"long",day:"numeric"});
     box.append(h("article",{class:"drv",id:d.id},
       h("div",{class:"date"},h("div",{class:"m"},fmt(next,{month:"short"})),h("div",{class:"n"},fmt(next,{day:"numeric"})),h("div",{class:"w"},fmt(next,{weekday:"short"}))),
@@ -986,10 +1221,15 @@ function renderDrive(today){
           h("a",{class:"btn",href:d.url,target:"_blank",rel:"noopener"},"Event info"),
           (()=>{ const b=h("button",{class:"btn",type:"button"},icon("send"),"Share"); b.addEventListener("click",()=>shareThing(d.title,[(d.endDate?when:fmt(next,{weekday:"long",month:"long",day:"numeric"}))+(d.time?" · "+d.time:""),d.venue+", "+d.city],SITE_URL+"#"+d.id)); return b; })()))));
   }
+  if(items.length>DRIVE_LIMIT) box.append(moreBtn(items.length-DRIVE_LIMIT,"pick",()=>{ DRIVE_LIMIT+=15; renderDrive(todayCT()); }));
+  if(DRIVE_LIMIT>=999) DRIVE_LIMIT=15;
 }
 function openEvent(id,scroll){
-  let d=document.getElementById(id);
-  if(!d){ state.cat="all"; state.area="all"; state.when="all"; state.q=""; state.dist="any"; state.tags=[]; document.getElementById("q").value=""; syncControls(); render(); d=document.getElementById(id); }
+  if(TAB!=="events"&&TAB!=="saved") go("events",{noTop:true});
+  const inTab=()=>document.querySelector("#view-"+TAB+" [id='"+id+"']");
+  let d=inTab();
+  if(!d&&TAB==="events"){ LIST_LIMIT=9999; render(); d=inTab(); }
+  if(!d){ if(TAB!=="events") go("events",{noTop:true}); state.cat="all"; state.area="all"; state.when="all"; state.q=""; state.dist="any"; state.tags=[]; document.getElementById("q").value=""; syncControls(); render(); LIST_SIG=JSON.stringify([state.when,state.cat,state.tags,state.area,state.from,state.dist,state.q]); LIST_LIMIT=9999; render(); d=inTab(); }
   if(!d) return; d.open=true; if(scroll) d.scrollIntoView({behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth",block:"start"});
 }
 
@@ -1015,8 +1255,20 @@ chipRow("when-row",WHEN,"when",false); chipRow("cat-row",CATS,"cat",true); chipR
   for(const [k,v] of Object.entries(TAGS)){ const b=h("button",{class:"chip tagchip",type:"button","data-t":k,"aria-pressed":String(state.tags.includes(k))},v);
     b.addEventListener("click",()=>{ state.tags=state.tags.includes(k)?state.tags.filter(x=>x!==k):[...state.tags,k]; save(); syncControls(); render(); }); row.append(b); } })();
 function savedCount(){ const ids=new Set(EVENTS.filter(e=>(e.endDate||e.date)>=todayCT()).map(e=>e.id)); return [...SAVED].filter(id=>ids.has(id)).length; }
-function updateSavedChip(){ const c=document.querySelector('#when-row .chip[data-k="saved"]'); if(c){ const n=savedCount(); c.textContent="♥ Saved"+(n?" ("+n+")":""); const tn=document.getElementById("tab-n"); if(tn){ tn.textContent=n; tn.hidden=!n; } } if(typeof updatePlanBar==="function") updatePlanBar(); }
-function toggleSave(id){ SAVED.has(id)?SAVED.delete(id):SAVED.add(id); persistSaved(); updateSavedChip(); if(state.when==="saved") render(); }
+let lastSavedN=null;
+function updateSavedChip(){ const n=savedCount();
+  document.querySelectorAll(".tab-n").forEach(tn=>{ tn.textContent=n; tn.hidden=!n; if(lastSavedN!==null&&n>lastSavedN){ tn.classList.remove("bump"); void tn.offsetWidth; tn.classList.add("bump"); } });
+  lastSavedN=n; if(typeof updatePlanBar==="function") updatePlanBar(); }
+function toggleSave(id){ const was=SAVED.size; SAVED.has(id)?SAVED.delete(id):SAVED.add(id); persistSaved(); updateSavedChip();
+  if(SAVED.has(id)){ try{ navigator.vibrate&&navigator.vibrate(8); }catch(e){} if(was===0) confetti(40); }
+  if(TAB==="saved") renderSaved(todayCT()); }
+/* Confetti: a quick burst for the good moments (skipped if the device asks for less motion) */
+function confetti(n=30,x,y){
+  if(matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  const cols=["#f6c453","#ee8c60","#69b58f","#6fb0e0","#a993e0","#ec8fbd"]; x=x??innerWidth/2; y=y??innerHeight/3;
+  for(let i=0;i<n;i++){ const p=document.createElement("i"); p.className="confetti"; p.style.background=cols[i%cols.length]; document.body.append(p);
+    const a=Math.random()*Math.PI*2, v=120+Math.random()*220, dx=Math.cos(a)*v, dy=Math.sin(a)*v-160;
+    p.animate([{transform:`translate(${x}px,${y}px) rotate(0)`,opacity:1},{transform:`translate(${x+dx}px,${y+dy+380}px) rotate(${Math.random()*720}deg)`,opacity:0}],{duration:1000+Math.random()*500,easing:"cubic-bezier(.2,.7,.3,1)"}).onfinish=()=>p.remove(); } }
 /* ===== Map (Leaflet + OpenStreetMap, loaded only when someone opens it) ===== */
 let MAP=null, LAYER=null, leafletP=null;
 function loadLeaflet(){
@@ -1117,6 +1369,9 @@ if(!AREAS[state.area]) state.area="all"; if(!CATS[state.cat]) state.cat="all"; i
   document.getElementById("greet").textContent=line;
 })();
 document.getElementById("surprise").addEventListener("click",()=>{
+  const die=document.querySelector("#surprise .die"); die.classList.remove("roll"); void die.offsetWidth; die.classList.add("roll");
+  setTimeout(surprisePick, matchMedia("(prefers-reduced-motion: reduce)").matches?0:450); });
+function surprisePick(){
   const today=todayCT(), end=addDays(today,7);
   const soon=EVENTS.filter(e=>overlaps(e,today,end));
   let pool=soon.filter(e=>matches(e)&&!e.unconfirmed);
@@ -1125,8 +1380,8 @@ document.getElementById("surprise").addEventListener("click",()=>{
   if(!pool.length){ snack("Nothing this week yet. Check back soon."); return; }
   const pick=pool[Math.floor(Math.random()*pool.length)];
   if(state.view==="map") setView("list");
-  openEvent(pick.id,true); snack(["How about this one? 🎲","This one looks fun. 🎲","Feeling lucky? Try this. 🎲"][Math.floor(Math.random()*3)]);
-});
+  openEvent(pick.id,true); confetti(24); snack(["How about this one? 🎲","This one looks fun. 🎲","Feeling lucky? Try this. 🎲"][Math.floor(Math.random()*3)]);
+}
 /* ===== Small Town Passport ===== */
 const BADGES=[
   {em:"🎟️",name:"First stamp",need:"1 event",ok:s=>s.length>=1,prog:s=>[s.length,1]},
@@ -1145,6 +1400,7 @@ function toggleStamp(e,today){
   PASS.push({id:e.id,title:e.title,town:e.town,area:e.area,cat:e.category,day:today}); persistPass(); renderPassport();
   const got=BADGES.filter(b=>b.ok(PASS,townCount()));
   snack(got.length>before?"🏅 New badge: "+got[got.length-1].name+"!":newTown?"Stamped! "+e.town+" is in your passport. 🎟️":"Stamped! Have fun. 🎟️");
+  confetti(got.length>before?70:30); render();
   return true;
 }
 let clearArmed=false;
@@ -1206,7 +1462,7 @@ function openPlan(sharedIds){
   if(!evs.length){
     body.append(h("div",{class:"empty"}, shared?"Those events have already happened or come off the calendar.":"Nothing saved for this weekend yet. Tap the ♥ on a few events, then come back here."));
     const b=h("button",{class:"btn pri",type:"button"},"Show this weekend's events");
-    b.addEventListener("click",()=>{ planDlg.close(); state.when="weekend"; save(); syncControls(); render(); document.getElementById("all-h").scrollIntoView({block:"start"}); });
+    b.addEventListener("click",()=>{ planDlg.close(); setFilters({when:"weekend"}); });
     acts.append(b);
   } else {
     // Each event goes on its first open day (multi-day events show once, with how long they run)
@@ -1239,7 +1495,7 @@ function openPlan(sharedIds){
       acts.append(b);
       const other=[...SAVED].filter(id=>EVENTS.some(e=>e.id===id&&(e.endDate||e.date)>=today)).length-evs.length;
       if(other>0){ const o=h("button",{class:"btn",type:"button"},"See "+other+" saved for later");
-        o.addEventListener("click",()=>{ planDlg.close(); state.when="saved"; save(); syncControls(); render(); document.getElementById("all-h").scrollIntoView({block:"start"}); }); acts.append(o); }
+        o.addEventListener("click",()=>{ planDlg.close(); go("saved"); }); acts.append(o); }
     }
   }
   if(typeof planDlg.showModal==="function"){ if(!planDlg.open) planDlg.showModal(); } else planDlg.setAttribute("open","");
@@ -1298,15 +1554,32 @@ document.getElementById("plan-open").addEventListener("click",()=>openPlan());
   btn.hidden=false;
 })();
 
-/* ===== Bottom tab bar (phones) ===== */
-document.getElementById("tabbar").addEventListener("click",ev=>{
-  const b=ev.target.closest("button[data-go]"); if(!b) return; const go=b.dataset.go, smooth=matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth";
-  if(go==="top") scrollTo({top:0,behavior:smooth});
-  else if(go==="search"){ const q=document.getElementById("q"); q.scrollIntoView({block:"center",behavior:smooth}); setTimeout(()=>q.focus(),250); }
-  else if(go==="plan") openPlan();
-  else if(go==="saved"){ state.when="saved"; save(); syncControls(); render(); if(state.view==="map") setView("list"); document.getElementById("all-h").scrollIntoView({block:"start",behavior:smooth}); }
-  else if(go==="passport") document.getElementById("passport").scrollIntoView({block:"start",behavior:smooth});
+/* ===== Screens: Home, Events, Out of town, Saved, More ===== */
+let TAB="home";
+const TABS=["home","events","drive","saved","more"];
+function go(tab,opts={}){
+  if(!TABS.includes(tab)) tab="home";
+  const changed=tab!==TAB; TAB=tab;
+  document.querySelectorAll(".view").forEach(v=>v.hidden=v.dataset.view!==tab);
+  document.querySelectorAll("[data-tab]").forEach(b=>{ if(b.dataset.tab===tab) b.setAttribute("aria-current","page"); else b.removeAttribute("aria-current"); });
+  if(tab==="saved"){ renderSaved(todayCT()); renderPassport(); }
+  if(tab==="events"&&state.view==="map") setTimeout(()=>MAP&&MAP.invalidateSize(),50);
+  if(changed&&!opts.noHistory){ try{ history.pushState({tab},"",tab==="home"?location.pathname+location.search:"#/"+tab); }catch(e){} }
+  if(!opts.noTop) scrollTo({top:0});
+}
+document.addEventListener("click",ev=>{
+  const b=ev.target.closest("[data-tab],[data-tab-go]"); if(b){ ev.preventDefault(); const tb=b.dataset.tab||b.dataset.tabGo; if(tb==="events"&&b.closest(".tabbar,.topnav")){ /* plain Events tab keeps current filters */ } go(tb); return; }
+  const j=ev.target.closest("[data-jump]"); if(j){ const k=j.dataset.jump; if(k==="drive") go("drive"); else setFilters(k==="weekend"?{when:"weekend"}:{}); }
 });
+document.getElementById("brand").addEventListener("click",()=>go("home"));
+addEventListener("popstate",()=>{ const m=location.hash.match(/^#\/(\w+)/); go(m?m[1]:"home",{noHistory:true}); });
+document.getElementById("clear-f").addEventListener("click",()=>{ state.area="all"; state.dist="any"; setFilters({}); });
+/* New since your last visit */
+(function(){ const n=EVENTS.filter(e=>NEWIDS.has(e.id)&&(e.endDate||e.date)>=todayCT()).length; const pill=document.getElementById("newpill");
+  if(n){ WHEN.new="✨ New ("+n+")";
+    const row=document.getElementById("when-row"), b=h("button",{class:"chip",type:"button","data-k":"new","aria-pressed":String(state.when==="new")},WHEN.new);
+    b.addEventListener("click",()=>{ state.when="new"; save(); syncControls(); render(); }); row.insertBefore(b,row.querySelector(".sep")); pill.textContent="✨ "+n+" new event"+(n===1?"":"s")+" since your last visit"; pill.hidden=false; pill.addEventListener("click",()=>setFilters({when:"new"})); } })();
+document.getElementById("q").addEventListener("input",ev=>{ if(ev.target.value.trim()&&TAB!=="events"&&TAB!=="drive") go("events",{noTop:true}); });
 
 /* ===== Search suggestions (towns, quick filters, and events) ===== */
 (function(){
@@ -1340,8 +1613,7 @@ document.getElementById("tabbar").addEventListener("click",ev=>{
     ul.hidden=false; q.setAttribute("aria-expanded","true");
   }
   function close(){ ul.hidden=true; q.setAttribute("aria-expanded","false"); q.removeAttribute("aria-activedescendant"); sel=-1; }
-  function choose(i){ const it=items[i]; if(!it) return; close(); it.run(); save(); syncControls(); render(); q.blur();
-    document.getElementById("all-h").scrollIntoView({block:"start",behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth"}); }
+  function choose(i){ const it=items[i]; if(!it) return; close(); it.run(); save(); syncControls(); render(); q.blur(); go("events"); }
   function mark(i){ sel=(i+items.length)%items.length; [...ul.children].forEach((li,k)=>li.setAttribute("aria-selected",String(k===sel))); q.setAttribute("aria-activedescendant","sg"+sel); }
   q.addEventListener("input",build); q.addEventListener("focus",build);
   q.addEventListener("keydown",ev=>{ if(ul.hidden) return;
@@ -1361,9 +1633,9 @@ document.getElementById("yr").textContent=todayCT().slice(0,4);
 function handleHash(){
   const hs=location.hash;
   if(/^#e\d+$/.test(hs)) openEvent(hs.slice(1),true);
-  else if(/^#d\d+$/.test(hs)){ driveKind="all"; document.querySelectorAll("#drive-kinds .chip").forEach(c=>c.setAttribute("aria-pressed",String(c.dataset.k==="all"))); renderDrive(todayCT());
-    const el=document.getElementById(hs.slice(1)); if(el) el.scrollIntoView({block:"start"}); }
-  else if(/^#plan=e\d+(,e\d+){0,29}$/.test(hs)) openPlan(hs.slice(6).split(","));
+  else if(/^#d\d+$/.test(hs)) openDrive(hs.slice(1));
+  else if(/^#plan=e\d+(,e\d+){0,29}$/.test(hs)){ go("saved",{noHistory:true}); openPlan(hs.slice(6).split(",")); }
+  else { const m=hs.match(/^#\/(\w+)/); go(m?m[1]:"home",{noHistory:true}); }
 }
 handleHash(); addEventListener("hashchange",handleHash);
 
