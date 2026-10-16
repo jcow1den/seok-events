@@ -585,7 +585,7 @@ const TAGS = {free:"Free",kids:"Kid-friendly",indoor:"Indoors"};
 const DIST = {any:"Any distance",mi15:"Within 15 mi",mi30:"Within 30 mi",mi60:"Within 60 mi"};
 const distMi = k => parseInt(k.slice(2),10);
 const state = {cat:"all",area:"all",when:"all",q:"",from:"",dist:"any",tags:[],view:"list"};
-try{ Object.assign(state, JSON.parse(localStorage.getItem("seok-f2")||"{}"), {q:""}); }catch(e){}
+try{ Object.assign(state, JSON.parse(localStorage.getItem("seok-f2")||"{}"), {q:"",when:"all",cat:"all",tags:[]}); }catch(e){} /* each visit starts with every event showing; only place settings carry over */
 if(state.when==="free"){ state.when="all"; state.tags=["free"]; }
 if(!Array.isArray(state.tags)) state.tags=[];
 state.tags=state.tags.filter(k=>TAGS[k]);
@@ -627,6 +627,7 @@ const addDays=(s,n)=>{const d=ymd(s);d.setUTCDate(d.getUTCDate()+n);return iso(d
 const fmt=(s,o)=>ymd(s).toLocaleDateString("en-US",Object.assign({timeZone:"UTC"},o));
 function weekend(today){ const dow=ymd(today).getUTCDay(); const fri = dow===0?addDays(today,-2):dow===6?addDays(today,-1):addDays(today,5-dow); return [fri<today?today:fri, addDays(fri,2)]; }
 function range(today){
+  if(state.q&&state.when!=="saved") return [today,"9999-12-31"]; /* searching always looks at every date */
   if(state.when==="today") return [today,today];
   if(state.when==="weekend") return weekend(today);
   if(state.when==="week") return [today,addDays(today,6)];
@@ -907,10 +908,10 @@ function queryWords(q){ q=q.toLowerCase().trim(); const out=[]; for(const ph of 
   return out.concat(q.split(/[^a-z0-9'&]+/).filter(w=>w&&!["the","a","an","in","at","on","and","near","for","of","to","events","event","things","stuff","do","what","whats","where","is","are"].includes(w))); }
 function qMatch(item,hay,isDrive){ const ws=queryWords(state.q); return !ws.length || ws.every(w=>wordFits(w,hay,item,isDrive)); }
 function matches(e){
-  if(state.cat!=="all"&&e.category!==state.cat) return false;
+  if(state.cat!=="all"&&e.category!==state.cat&&!state.q) return false;
   if(state.area!=="all"&&e.area!==state.area) return false;
   if(state.when==="saved"&&!SAVED.has(e.id)) return false;
-  for(const tg of state.tags) if(!e[tg]) return false;
+  if(!state.q) for(const tg of state.tags) if(!e[tg]) return false;
   if(state.from&&state.dist!=="any"){ const m=miles(e); if(m!=null&&m>distMi(state.dist)) return false; }
   if(state.q){ const hay=(e.title+" "+e.venue+" "+e.address+" "+e.description+" "+AREAS[e.area]+" "+(e.time||"")+" "+CATS[e.category]+" "+(e.performer||[]).join(" ")).toLowerCase();
     if(!qMatch(e,hay,false)) return false; }
@@ -939,7 +940,7 @@ function render(){
   renderDrive(today);
   const hits=EVENTS.filter(e=>overlaps(e,a,b)&&matches(e)).map(e=>[firstActive(e,a),e])
     .sort((x,y)=>x[0].localeCompare(y[0])||startKey(x[1])-startKey(y[1])||x[1].title.localeCompare(y[1].title)).map(p=>p[1]);
-  document.getElementById("count").textContent=hits.length+(hits.length===1?" event":" events");
+  document.getElementById("count").textContent=hits.length+(hits.length===1?" event":" events")+(state.q&&state.when!=="saved"&&state.when!=="all"?" · all dates":"");
   const list=document.getElementById("list"); list.textContent="";
   if(state.view==="map") drawMap(hits);
   if(!hits.length){ list.append(h("div",{class:"empty"},
