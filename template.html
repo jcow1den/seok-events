@@ -257,6 +257,15 @@ dialog.wxd{overflow-x:hidden}
 .soon{display:inline-block;margin-left:6px;padding:2px 6px;border-radius:4px;background:rgba(255,255,255,.25);font-size:12px;letter-spacing:.06em;vertical-align:middle}
 .snack{position:fixed;left:50%;bottom:calc(18px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:999px;font-weight:700;font-size:14px;z-index:50;box-shadow:0 6px 20px rgba(0,0,0,.25);max-width:calc(100% - 32px);text-align:center}
 .verdict{margin:0;padding:10px 12px;border-radius:8px;background:color-mix(in srgb,var(--c-markets) 14%,transparent);font-weight:700}
+/* Next-up live countdown */
+.nextup{justify-self:start;display:flex;align-items:center;gap:12px;margin-top:6px;background:rgba(14,20,17,.86);color:#f4f1ea;border:1px solid rgba(255,255,255,.12);border-radius:14px;padding:10px 14px;cursor:pointer;text-align:left;font:inherit;box-shadow:0 8px 24px rgba(0,0,0,.18);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);max-width:100%}
+.nextup .lab{font:700 11px/1 var(--body);letter-spacing:.12em;text-transform:uppercase;color:#9fd8b9;display:flex;align-items:center;gap:6px}
+.nextup .ev{display:block;font-weight:700;font-size:14.5px;line-height:1.25;margin-top:4px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:min(58vw,360px)}
+.nextup .clock{font:700 22px/1 ui-monospace,"SF Mono",Menlo,Consolas,monospace;font-variant-numeric:tabular-nums;letter-spacing:.01em;white-space:nowrap}
+.nextup .clock small{font-size:12px;opacity:.7;margin:0 3px 0 1px}
+.live{display:inline-flex;align-items:center;gap:7px;font-size:12.5px;font-weight:600;opacity:.85;margin-top:2px}
+.dot{width:8px;height:8px;border-radius:50%;background:#4ade80;box-shadow:0 0 0 0 rgba(74,222,128,.6);flex:none}
+@media (prefers-reduced-motion:no-preference){ .dot{animation:pulse 2s infinite} @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(74,222,128,.55)}70%{box-shadow:0 0 0 8px rgba(74,222,128,0)}100%{box-shadow:0 0 0 0 rgba(74,222,128,0)}} }
 /* Shelves (rows of picks, one theme per row) */
 .shelves{display:grid;grid-template-columns:minmax(0,1fr);gap:22px}
 .shelf{min-width:0}
@@ -395,6 +404,7 @@ dialog.wxd{overflow-x:hidden}
     <h1>Southeast Oklahoma <span>Events</span></h1>
     <p class="lede">Festivals, live music, markets, and hometown happenings across southeast Oklahoma, in big towns and small ones. Plus the big shows worth the drive.</p>
     <p class="greet" id="greet" aria-live="polite"></p>
+    <button class="nextup" id="nextup" type="button" hidden></button>
   </div>
   <svg class="season-top" id="season-top" viewBox="0 0 1200 34" preserveAspectRatio="none" aria-hidden="true" hidden></svg>
   <svg class="ridges" viewBox="0 0 1200 170" preserveAspectRatio="none" aria-hidden="true">
@@ -412,6 +422,7 @@ dialog.wxd{overflow-x:hidden}
         <div class="stat"><b id="s-weekend">0</b><span>This weekend</span></div>
         <div class="stat"><b id="s-towns">0</b><span>Areas covered</span></div>
       </div>
+      <div class="live"><span class="dot" aria-hidden="true"></span><span id="live-txt"></span></div>
       <div class="from"><svg aria-hidden="true"><use href="#i-pin"/></svg><label for="from">Distances from</label>
         <select id="from"><option value="">Pick your town</option></select>
         <button class="nearbtn" id="near" type="button"><svg aria-hidden="true"><use href="#i-loc"/></svg>Near me</button>
@@ -562,6 +573,7 @@ const TOWNS = __TOWNS__; /* [name, lat, lon] — every town and ZIP-code communi
 const SPONSORS = {};
 const SHOW_AD_INVITES = false;
 const SITE_URL = "https://jcow1den.github.io/seok-events/";
+const BUILT = "__BUILT__"; /* the day this page was last rebuilt with fresh listings */
 
 const CATS = {all:"All",festivals:"Festivals",music:"Music",markets:"Markets",community:"Community",sports:"Sports"};
 const AREAS = {all:"All areas",mcalester:"McAlester area",wilburton:"Wilburton",eufaula:"Lake Eufaula area",atoka:"Atoka",
@@ -1197,6 +1209,31 @@ document.getElementById("plan-open").addEventListener("click",()=>openPlan());
   const g=document.getElementById("greet"), yr=today.slice(0,4);
   if(season==="halloween"&&!q){ const n=daysBetween(today,yr+"-10-31"); g.textContent+= n>0?" 🎃 "+n+(n===1?" day":" days")+" till Halloween.":" 🎃 Happy Halloween!"; }
   if(season==="christmas"&&!q&&md>="12-01"){ const n=daysBetween(today,yr+"-12-25"); if(n>=0) g.textContent+= n>0?" 🎄 "+n+(n===1?" day":" days")+" till Christmas.":" 🎄 Merry Christmas!"; }
+})();
+
+/* ===== Live status + next-up countdown ===== */
+(function(){
+  const today=todayCT();
+  const d=daysBetween(BUILT,today);
+  document.getElementById("live-txt").textContent="Listings updated "+(d<=0?"today":d===1?"yesterday":fmt(BUILT,{month:"short",day:"numeric"}));
+  // Central time wall clock -> real instant (handles daylight saving)
+  const tzOff=ms=>{ const p=Object.fromEntries(new Intl.DateTimeFormat("en-US",{timeZone:"America/Chicago",hourCycle:"h23",year:"numeric",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",second:"2-digit"}).formatToParts(new Date(ms)).map(x=>[x.type,x.value]));
+    return Date.UTC(+p.year,+p.month-1,+p.day,+p.hour,+p.minute,+p.second)-ms; };
+  const ctInstant=(ds,mins)=>{ const [y,m,dd]=ds.split("-").map(Number); const wall=Date.UTC(y,m-1,dd,Math.floor(mins/60),mins%60); let g=wall-tzOff(wall); return wall-tzOff(g); };
+  // Only events whose listing starts with a clear start time ("8:00 PM", "7 PM")
+  const startMins=e=>{ const m=(e.time||"").match(/^\s*(\d{1,2})(?::(\d{2}))?\s*(AM|PM)\b/i); if(!m) return null; let h=+m[1]%12; if(m[3].toUpperCase()==="PM") h+=12; return h*60+(+(m[2]||0)); };
+  const now=Date.now();
+  const cands=EVENTS.filter(e=>!e.endDate&&!e.unconfirmed&&(e.featured||e.category==="festivals"||e.category==="music")&&e.date>=today&&e.date<=addDays(today,14))
+    .map(e=>{ const sm=startMins(e); return sm==null?null:[ctInstant(e.date,sm),e]; }).filter(x=>x&&x[0]>now).sort((a,b)=>a[0]-b[0]);
+  if(!cands.length) return;
+  const [at,e]=cands[0], btn=document.getElementById("nextup"); const pad=n=>String(n).padStart(2,"0");
+  btn.append(h("span",null,h("span",{class:"lab"},"Next up · "+e.town),h("span",{class:"ev"},e.title)),h("span",{class:"clock",id:"nu-clock","aria-label":"Time until it starts"}));
+  btn.setAttribute("aria-label","Next up: "+e.title+" in "+e.town+". Open details.");
+  const clock=()=>{ let s=Math.max(0,Math.floor((at-Date.now())/1000)); const dd=Math.floor(s/86400); s%=86400; const hh=Math.floor(s/3600); s%=3600; const mm=Math.floor(s/60), ss=s%60;
+    const c=document.getElementById("nu-clock"); c.textContent=""; if(dd) c.append(String(dd),h("small",null,"d")); c.append(pad(hh),h("small",null,"h"),pad(mm),h("small",null,"m"),pad(ss),h("small",null,"s")); };
+  clock(); setInterval(clock,1000);
+  btn.addEventListener("click",()=>{ if(state.view==="map") setView("list"); openEvent(e.id,true); });
+  btn.hidden=false;
 })();
 
 /* ===== Bottom tab bar (phones) ===== */
