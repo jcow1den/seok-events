@@ -62,7 +62,8 @@ button,input,select,textarea{font:inherit;color:inherit}
 :focus-visible{outline:3px solid var(--clay);outline-offset:2px}
 
 /* Masthead */
-.hero{position:relative;background:linear-gradient(180deg,var(--sky-top) 0%,var(--sky-low) 62%,var(--sky-low) 100%);overflow:hidden}
+.hero{position:relative;background:linear-gradient(180deg,var(--sky-top) 0%,var(--sky-low) 62%,var(--sky-low) 100%);overflow-x:clip}
+.under{position:relative;z-index:20}
 .hero .wrap{position:relative;z-index:2;padding-block:26px 0;display:grid;gap:8px}
 .badge{justify-self:start;display:inline-flex;align-items:center;gap:6px;background:var(--pine);color:var(--pine-ink);
   font:700 13px/1 var(--display);letter-spacing:.1em;text-transform:uppercase;padding:6px 10px 5px;border-radius:4px}
@@ -256,6 +257,39 @@ dialog.wxd{overflow-x:hidden}
 .soon{display:inline-block;margin-left:6px;padding:2px 6px;border-radius:4px;background:rgba(255,255,255,.25);font-size:12px;letter-spacing:.06em;vertical-align:middle}
 .snack{position:fixed;left:50%;bottom:calc(18px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:999px;font-weight:700;font-size:14px;z-index:50;box-shadow:0 6px 20px rgba(0,0,0,.25);max-width:calc(100% - 32px);text-align:center}
 .verdict{margin:0;padding:10px 12px;border-radius:8px;background:color-mix(in srgb,var(--c-markets) 14%,transparent);font-weight:700}
+/* Shelves (rows of picks, one theme per row) */
+.shelves{display:grid;grid-template-columns:minmax(0,1fr);gap:22px}
+.shelf{min-width:0}
+.shelf-h{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin:0 0 8px}
+.shelf-h h3{margin:0;font:800 21px/1 var(--display);text-transform:uppercase;letter-spacing:.02em}
+.shelf-h small{color:var(--muted);font-size:14px}
+.poster.mini{flex-basis:min(64%,230px)}
+.poster.mini .top{padding:9px 12px 8px}
+.poster.mini .top .d{font-size:23px}
+.poster.mini .top svg{width:22px;height:22px}
+.poster.mini .bd{padding:10px 12px 12px}
+.poster.mini .t{font-size:15px}
+.poster.mini .m{font-size:13px}
+.more-shelves{justify-self:start}
+/* Search suggestions */
+.search{position:relative}
+.sugg{position:absolute;left:0;right:0;top:calc(100% + 6px);background:var(--surface);color:var(--ink);border:1px solid var(--line);border-radius:14px;box-shadow:0 14px 40px rgba(0,0,0,.25);padding:6px;z-index:30;list-style:none;margin:0}
+.sugg li{display:flex;align-items:center;gap:10px;padding:10px 10px;border-radius:9px;cursor:pointer;font-size:15px;line-height:1.25}
+.sugg li[aria-selected="true"],.sugg li:hover{background:var(--chip)}
+.sugg .si{width:26px;text-align:center;flex:none}
+.sugg .st{flex:1;min-width:0}
+.sugg .st small{display:block;color:var(--muted);font-size:12.5px}
+.sugg .kind{font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);flex:none}
+/* Bottom tab bar on phones (like most big apps) */
+.tabbar{display:none}
+@media (max-width:699px){
+  body{padding-bottom:calc(64px + env(safe-area-inset-bottom,0px))}
+  .tabbar{display:grid;grid-template-columns:repeat(5,1fr);position:fixed;left:0;right:0;bottom:0;z-index:40;background:color-mix(in srgb,var(--surface) 94%,transparent);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-top:1px solid var(--line);padding-bottom:env(safe-area-inset-bottom,0px)}
+  .tabbar button{border:0;background:none;color:var(--muted);font:600 11px/1.1 var(--body);display:grid;justify-items:center;gap:3px;padding:8px 2px 9px;cursor:pointer;position:relative}
+  .tabbar .ti{font-size:20px;line-height:1}
+  .tabbar .n{position:absolute;top:4px;left:calc(50% + 6px);background:var(--clay);color:var(--on-cat);border-radius:999px;font-size:10px;padding:1px 5px;font-weight:800}
+  .snack{bottom:calc(76px + env(safe-area-inset-bottom,0px))}
+}
 /* Countdown tag on Worth the drive */
 .cd{display:inline-block;margin-left:8px;padding:1px 6px;border-radius:4px;background:color-mix(in srgb,var(--clay) 14%,transparent);color:var(--clay);font-size:11px;letter-spacing:.06em}
 /* Did you know */
@@ -384,7 +418,8 @@ dialog.wxd{overflow-x:hidden}
         <span class="from-msg" id="from-msg" role="status"></span></div>
       <div class="search" role="search">
         <svg aria-hidden="true"><use href="#i-search"/></svg>
-        <input id="q" type="search" placeholder="Search events" aria-label="Search events" autocomplete="off">
+        <input id="q" type="search" placeholder="Try “Hugo”, “free”, or “fish fry”" aria-label="Search events, towns, or things to do" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="sugg">
+        <ul class="sugg" id="sugg" role="listbox" aria-label="Suggestions" hidden></ul>
         <select id="area" aria-label="Area"></select>
       </div>
     </div>
@@ -408,8 +443,8 @@ dialog.wxd{overflow-x:hidden}
       <button class="x" id="install-x" type="button" aria-label="Dismiss">×</button>
     </div>
     <section id="hl-sec" aria-labelledby="hl-h">
-      <div class="sec-h"><h2 id="hl-h">Don't miss</h2><span class="right"><small id="hl-sub"></small><button class="surprise" id="surprise" type="button">🎲 Surprise me</button></span></div>
-      <div class="rail" id="rail"></div>
+      <div class="sec-h"><h2 id="hl-h">Good stuff coming up</h2><span class="right"><small id="hl-sub"></small><button class="surprise" id="surprise" type="button">🎲 Surprise me</button></span></div>
+      <div class="shelves" id="shelves"></div>
     </section>
     <div class="planbar" id="planbar">
       <p><b>Plan my weekend</b><span id="plan-line">Tap the ♥ on a few things for this weekend and we'll line them up for you.</span></p>
@@ -492,6 +527,13 @@ dialog.wxd{overflow-x:hidden}
     <p class="note" id="wx-note"></p>
   </div>
 </dialog>
+<nav class="tabbar" id="tabbar" aria-label="Shortcuts">
+  <button type="button" data-go="top"><span class="ti" aria-hidden="true">🏠</span>Home</button>
+  <button type="button" data-go="search"><span class="ti" aria-hidden="true">🔍</span>Search</button>
+  <button type="button" data-go="plan"><span class="ti" aria-hidden="true">🗓️</span>Weekend</button>
+  <button type="button" data-go="saved"><span class="ti" aria-hidden="true">♥</span>Saved<span class="n" id="tab-n" hidden></span></button>
+  <button type="button" data-go="passport"><span class="ti" aria-hidden="true">🎟️</span>Passport</button>
+</nav>
 <dialog class="wxd" id="plan-dlg" aria-labelledby="plan-title">
   <div class="wxd-in">
     <div class="wxd-h"><div><h3 id="plan-title">Your weekend</h3><p id="plan-sub"></p></div><button class="x" id="plan-close" type="button" aria-label="Close">×</button></div>
@@ -503,7 +545,7 @@ dialog.wxd{overflow-x:hidden}
 <footer><div class="wrap gut">
   <p>Listings are gathered from organizers, venues, chambers of commerce, libraries, and tourism listings. Times change, so check with the host before you drive out. Distances are measured town to town in a straight line, so the drive is usually a little longer.</p>
   <p>Weather forecasts by <a href="https://open-meteo.com/" target="_blank" rel="noopener" style="color:inherit">Open-Meteo</a>, shown for each event's town. Tap a forecast for hour-by-hour details. <button class="linkbtn" id="install-foot" type="button">Add this site to your home screen</button></p>
-  <p>© <span id="yr"></span> Southeast Oklahoma Events · Made in southeast Oklahoma.</p>
+  <p>© <span id="yr"></span> Southeast Oklahoma Events · Made in southeast Oklahoma, where “just down the road” can mean 40 minutes.</p>
 </div></footer>
 
 <script>
@@ -654,7 +696,7 @@ async function openWx(e,day){
   document.getElementById("wx-sub").textContent=fmt(day,{weekday:"long",month:"long",day:"numeric"})+" · for "+e.title;
   document.getElementById("wx-nws").href="https://forecast.weather.gov/MapClick.php?lat="+e.lat.toFixed(4)+"&lon="+e.lon.toFixed(4);
   document.getElementById("wx-note").textContent="Forecast for the center of "+e.town+" from Open-Meteo. Forecasts change, so check again closer to the day.";
-  const body=document.getElementById("wx-body"); body.textContent="Loading the forecast…";
+  const body=document.getElementById("wx-body"); body.textContent="Checking the sky…";
   if(typeof wxDlg.showModal==="function") wxDlg.showModal(); else wxDlg.setAttribute("open","");
   const url="https://api.open-meteo.com/v1/forecast?latitude="+e.lat+"&longitude="+e.lon+
     "&hourly=temperature_2m,precipitation_probability,weather_code,wind_speed_10m"+
@@ -717,6 +759,7 @@ function card(e,today){
       h("span",{class:"kick"},h("span",{class:"c"},CATS[e.category]),h("span",{class:"a"},AREAS[e.area]),miLabel(e)&&h("span",{class:"mi"},miLabel(e)),...tags),
       h("span",{class:"ti"},e.title),
       h("span",{class:"wh"},[e.time,e.venue].filter(Boolean).join(" · "))), heart));
+  d.addEventListener("toggle",()=>{ if(d.open) markSeen(e.id); });
   const toast=h("span",{class:"toast",role:"status"});
   const share=h("button",{class:"btn",type:"button"},icon("send"),"Share");
   share.addEventListener("click",()=>shareEvent(e,toast));
@@ -744,6 +787,39 @@ function poster(e,today){
       h("span",{class:"t"},e.title),h("span",{class:"m"},[e.venue,AREAS[e.area],miLabel(e)].filter(Boolean).join(" · "))));
   b.addEventListener("click",()=>openEvent(e.id,true));
   return b;
+}
+/* ===== Shelves: rows of picks, each with a clear reason it's there ===== */
+const BIG_TOWNS=new Set(["McAlester","Durant","Ada","Okmulgee","Poteau","Idabel","Broken Bow","Hugo"]);
+let SEEN=[]; try{ SEEN=JSON.parse(localStorage.getItem("seok-seen")||"[]"); if(!Array.isArray(SEEN)) SEEN=[]; }catch(e){ SEEN=[]; }
+function markSeen(id){ SEEN=[id,...SEEN.filter(x=>x!==id)].slice(0,12); try{localStorage.setItem("seok-seen",JSON.stringify(SEEN))}catch(e){} }
+let showAllShelves=false;
+function renderShelves(today,upcoming){
+  const box=document.getElementById("shelves"); box.textContent="";
+  const pool=upcoming.filter(e=>matches(e));
+  const within=(e,n)=>overlaps(e,today,addDays(today,n));
+  const byDate=list=>list.map(e=>[firstActive(e,today),e]).filter(x=>x[0]).sort((x,y)=>x[0].localeCompare(y[0])||startKey(x[1])-startKey(y[1])).map(x=>x[1]);
+  const savedCats={}; for(const id of SAVED){ const e=EVENTS.find(x=>x.id===id); if(e) savedCats[e.category]=(savedCats[e.category]||0)+1; }
+  const favCat=Object.entries(savedCats).sort((a,b)=>b[1]-a[1])[0];
+  const CATWORD={festivals:"festivals",music:"live music",markets:"markets",community:"community events",sports:"sports"};
+  const rows=[
+    {t:"Happening today",s:"No time like the present.",min:1,items:byDate(pool.filter(e=>firstActive(e,today)===today))},
+    {t:"Don't miss",s:"The big ones in the next 10 days.",min:1,big:true,items:(()=>{ const p=pool.filter(e=>within(e,10)); return [...byDate(p.filter(e=>e.featured)),...byDate(p.filter(e=>!e.featured&&(e.category==="festivals"||e.category==="music")))]; })()},
+    {t:"Picked up where you left off",s:"Events you looked at recently.",min:1,items:SEEN.map(id=>pool.find(e=>e.id===id)).filter(Boolean)},
+    favCat&&{t:"More "+CATWORD[favCat[0]],s:"Because you ♥ "+CATWORD[favCat[0]]+".",min:2,items:byDate(pool.filter(e=>e.category===favCat[0]&&!SAVED.has(e.id)&&within(e,30)))},
+    {t:"Free stuff",s:"Our favorite price.",min:2,items:byDate(pool.filter(e=>e.free&&within(e,30)))},
+    {t:"Bring the kids",s:"The hosts say it's family-friendly.",min:2,items:byDate(pool.filter(e=>e.kids&&within(e,30)))},
+    {t:"Live music",s:"Dust off the dancing boots.",min:2,items:byDate(pool.filter(e=>e.category==="music"&&within(e,14)))},
+    {t:"Small-town gems",s:"Worth taking the back roads.",min:2,items:byDate(pool.filter(e=>!BIG_TOWNS.has(e.town)&&within(e,30)))}
+  ].filter(r=>r&&r.items.length>=r.min);
+  const LIMIT=4; let n=0;
+  for(const r of rows){
+    const rail=h("div",{class:"rail"}); r.items.slice(0,10).forEach(e=>{ const pst=poster(e,today); if(!r.big) pst.classList.add("mini"); rail.append(pst); });
+    const sh=h("section",{class:"shelf","aria-label":r.t},h("div",{class:"shelf-h"},h("h3",null,r.t),h("small",null,r.s)),rail);
+    if(n>=LIMIT&&!showAllShelves) sh.hidden=true; box.append(sh); n++;
+  }
+  if(rows.length>LIMIT){ const b=h("button",{class:"btn more-shelves",type:"button","aria-expanded":String(showAllShelves)},showAllShelves?"Show fewer":"More ideas ("+(rows.length-LIMIT)+" more rows)");
+    b.addEventListener("click",()=>{ showAllShelves=!showAllShelves; render(); }); box.append(b); }
+  return rows.length;
 }
 function sponsorCard(areaKey){
   const s=SPONSORS[areaKey];
@@ -774,14 +850,9 @@ function render(){
   document.getElementById("s-weekend").textContent=upcoming.filter(e=>overlaps(e,wa,wb)).length;
   document.getElementById("s-towns").textContent=new Set(upcoming.map(e=>e.area)).size;
 
-  // Don't miss: featured first, then festivals and concerts in the next 10 days
-  const pool=upcoming.filter(e=>overlaps(e,today,addDays(today,10))&&(state.area==="all"||e.area===state.area)&&!(state.from&&state.dist!=="any"&&(miles(e)??0)>distMi(state.dist))&&state.tags.every(tg=>e[tg])&&state.when!=="saved");
-  const hl=[...pool.filter(e=>e.featured), ...pool.filter(e=>!e.featured&&(e.category==="festivals"||e.category==="music"))]
-    .sort((x,y)=>(y.featured?1:0)-(x.featured?1:0)||firstActive(x,today).localeCompare(firstActive(y,today))).slice(0,8);
-  const rail=document.getElementById("rail"); rail.textContent="";
-  hl.forEach(e=>rail.append(poster(e,today)));
-  document.getElementById("hl-sec").hidden=!hl.length||!!state.q;
-  document.getElementById("hl-sub").textContent="Next 10 days"+(state.area!=="all"?" · "+AREAS[state.area]:"")+(state.from&&state.dist!=="any"?" · "+DIST[state.dist].toLowerCase()+" of "+state.from:"");
+  const shown=renderShelves(today,upcoming);
+  document.getElementById("hl-sec").hidden=!shown||!!state.q||state.when==="saved";
+  document.getElementById("hl-sub").textContent=[state.area!=="all"?AREAS[state.area]:"",state.from&&state.dist!=="any"?DIST[state.dist].toLowerCase()+" of "+state.from:""].filter(Boolean).join(" · ");
   document.getElementById("dist-row").hidden=!state.from;
 
   const dk=document.getElementById("dyk"); dk.textContent="";
@@ -799,7 +870,7 @@ function render(){
   if(state.view==="map") drawMap(hits);
   if(!hits.length){ list.append(h("div",{class:"empty"},
     state.when==="saved"&&!SAVED.size?"Nothing saved yet. Tap the ♥ on anything that looks good and it'll wait for you here.":
-    state.q?`Couldn't find "${state.q}". Try a town name or a shorter word.`:"Quiet out there for those filters. Try another area or a wider date range.")); return; }
+    state.q?`Couldn't find “${state.q}”. Try a town name, or something like “fish fry.”`:"Quieter than a deer stand at dawn. Try another area or a wider date range.")); return; }
   const groups=new Map(); for(const e of hits){ const k=firstActive(e,a); if(!groups.has(k))groups.set(k,[]); groups.get(k).push(e); }
   // In-feed sponsors: when browsing all areas, rotate area sponsors between day groups
   const rot=Object.keys(SPONSORS).filter(k=>k!=="all"); let gi=0;
@@ -870,7 +941,7 @@ chipRow("when-row",WHEN,"when",false); chipRow("cat-row",CATS,"cat",true); chipR
   for(const [k,v] of Object.entries(TAGS)){ const b=h("button",{class:"chip tagchip",type:"button","data-t":k,"aria-pressed":String(state.tags.includes(k))},v);
     b.addEventListener("click",()=>{ state.tags=state.tags.includes(k)?state.tags.filter(x=>x!==k):[...state.tags,k]; save(); syncControls(); render(); }); row.append(b); } })();
 function savedCount(){ const ids=new Set(EVENTS.filter(e=>(e.endDate||e.date)>=todayCT()).map(e=>e.id)); return [...SAVED].filter(id=>ids.has(id)).length; }
-function updateSavedChip(){ const c=document.querySelector('#when-row .chip[data-k="saved"]'); if(c){ const n=savedCount(); c.textContent="♥ Saved"+(n?" ("+n+")":""); } if(typeof updatePlanBar==="function") updatePlanBar(); }
+function updateSavedChip(){ const c=document.querySelector('#when-row .chip[data-k="saved"]'); if(c){ const n=savedCount(); c.textContent="♥ Saved"+(n?" ("+n+")":""); const tn=document.getElementById("tab-n"); if(tn){ tn.textContent=n; tn.hidden=!n; } } if(typeof updatePlanBar==="function") updatePlanBar(); }
 function toggleSave(id){ SAVED.has(id)?SAVED.delete(id):SAVED.add(id); persistSaved(); updateSavedChip(); if(state.when==="saved") render(); }
 /* ===== Map (Leaflet + OpenStreetMap, loaded only when someone opens it) ===== */
 let MAP=null, LAYER=null, leafletP=null;
@@ -911,7 +982,7 @@ document.getElementById("v-map").addEventListener("click",()=>setView("map"));
 document.getElementById("near").addEventListener("click",()=>{
   const msg=document.getElementById("from-msg");
   if(!navigator.geolocation){ msg.textContent="This browser can't share your location. Pick your town from the list instead."; return; }
-  msg.textContent="Finding your town…";
+  msg.textContent="Looking around…";
   navigator.geolocation.getCurrentPosition(p=>{
     const la=p.coords.latitude, lo=p.coords.longitude, k=Math.cos(la*Math.PI/180); let best=null, bd=Infinity;
     for(const t of TOWNS){ const d=(t[1]-la)**2+((t[2]-lo)*k)**2; if(d<bd){ bd=d; best=t; } }
@@ -961,11 +1032,14 @@ if(!AREAS[state.area]) state.area="all"; if(!CATS[state.cat]) state.cat="all"; i
   const today=todayCT(), dw=dow(today), [wa,wb]=weekend(today);
   const n=EVENTS.filter(e=>(e.endDate||e.date)>=today&&overlaps(e,wa,wb)).length;
   const days=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
-  const line = dw===5 ? "It's Friday. "+(n>1?n+" things to do this weekend.":"Here's your weekend.")
-    : dw===6 ? "It's Saturday. Get out there."
-    : dw===0 ? "Sunday plans? Have a look."
-    : dw===4 ? "Happy Thursday. The weekend's almost here."
-    : "Happy "+days[dw]+". Here's what's coming up.";
+  const pick=a=>a[Math.floor(Math.random()*a.length)];
+  const line = dw===5 ? pick(["It's Friday. "+(n>1?n+" things to do this weekend. Pick one. Or five.":"Here's your weekend."),"Friday! The weekend starts now."])
+    : dw===6 ? pick(["It's Saturday. Coffee first, then let's go.","Saturday. Boots on, let's find something good."])
+    : dw===0 ? pick(["Sunday. Slow morning, then maybe something fun?","Sunday plans? Here's what's on."])
+    : dw===1 ? pick(["Monday. Let's find you something to look forward to.","Monday. Plan something good for later."])
+    : dw===2 ? pick(["Tuesday is a fine day to plan Saturday.","Tuesday. The weekend won't plan itself."])
+    : dw===3 ? pick(["Wednesday. Halfway to the weekend.","Hump day. Here's what's ahead."])
+    : pick(["Thursday. The weekend's practically here.","Happy Thursday. Let's line up the weekend."]);
   document.getElementById("greet").textContent=line;
 })();
 document.getElementById("surprise").addEventListener("click",()=>{
@@ -977,7 +1051,7 @@ document.getElementById("surprise").addEventListener("click",()=>{
   if(!pool.length){ snack("Nothing this week yet. Check back soon."); return; }
   const pick=pool[Math.floor(Math.random()*pool.length)];
   if(state.view==="map") setView("list");
-  openEvent(pick.id,true); snack("How about this one? 🎲");
+  openEvent(pick.id,true); snack(["How about this one? 🎲","This one looks fun. 🎲","Feeling lucky? Try this. 🎲"][Math.floor(Math.random()*3)]);
 });
 /* ===== Small Town Passport ===== */
 const BADGES=[
@@ -1123,6 +1197,58 @@ document.getElementById("plan-open").addEventListener("click",()=>openPlan());
   const g=document.getElementById("greet"), yr=today.slice(0,4);
   if(season==="halloween"&&!q){ const n=daysBetween(today,yr+"-10-31"); g.textContent+= n>0?" 🎃 "+n+(n===1?" day":" days")+" till Halloween.":" 🎃 Happy Halloween!"; }
   if(season==="christmas"&&!q&&md>="12-01"){ const n=daysBetween(today,yr+"-12-25"); if(n>=0) g.textContent+= n>0?" 🎄 "+n+(n===1?" day":" days")+" till Christmas.":" 🎄 Merry Christmas!"; }
+})();
+
+/* ===== Bottom tab bar (phones) ===== */
+document.getElementById("tabbar").addEventListener("click",ev=>{
+  const b=ev.target.closest("button[data-go]"); if(!b) return; const go=b.dataset.go, smooth=matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth";
+  if(go==="top") scrollTo({top:0,behavior:smooth});
+  else if(go==="search"){ const q=document.getElementById("q"); q.scrollIntoView({block:"center",behavior:smooth}); setTimeout(()=>q.focus(),250); }
+  else if(go==="plan") openPlan();
+  else if(go==="saved"){ state.when="saved"; save(); syncControls(); render(); if(state.view==="map") setView("list"); document.getElementById("all-h").scrollIntoView({block:"start",behavior:smooth}); }
+  else if(go==="passport") document.getElementById("passport").scrollIntoView({block:"start",behavior:smooth});
+});
+
+/* ===== Search suggestions (towns, quick filters, and events) ===== */
+(function(){
+  const q=document.getElementById("q"), ul=document.getElementById("sugg"); let items=[], sel=-1;
+  const QUICK=[
+    {w:["free"],si:"🆓",t:"Free events",k:"Filter",run:()=>{ if(!state.tags.includes("free")) state.tags=[...state.tags,"free"]; }},
+    {w:["kids","kid","family","children"],si:"🧒",t:"Kid-friendly events",k:"Filter",run:()=>{ if(!state.tags.includes("kids")) state.tags=[...state.tags,"kids"]; }},
+    {w:["weekend","this weekend","saturday","friday","sunday"],si:"📅",t:"This weekend",k:"Filter",run:()=>{ state.when="weekend"; }},
+    {w:["today","tonight"],si:"⏰",t:"Today",k:"Filter",run:()=>{ state.when="today"; }},
+    {w:["music","live music","concert","band","show"],si:"🎸",t:"Live music",k:"Category",run:()=>{ state.cat="music"; }},
+    {w:["festival","fest","fair"],si:"🎪",t:"Festivals",k:"Category",run:()=>{ state.cat="festivals"; }},
+    {w:["market","farmers","flea","craft"],si:"🧺",t:"Markets",k:"Category",run:()=>{ state.cat="markets"; }},
+    {w:["sports","game","rodeo","run","5k","fishing"],si:"🏆",t:"Sports",k:"Category",run:()=>{ state.cat="sports"; }},
+    {w:["indoor","inside","rain"],si:"🏠",t:"Indoor events",k:"Filter",run:()=>{ if(!state.tags.includes("indoor")) state.tags=[...state.tags,"indoor"]; }}];
+  function build(){
+    const v=q.value.trim().toLowerCase(), today=todayCT(); items=[];
+    if(v.length<2){ close(); return; }
+    const up=EVENTS.filter(e=>(e.endDate||e.date)>=today);
+    for(const x of QUICK) if(x.w.some(w=>w.startsWith(v)||v.startsWith(w))) items.push({si:x.si,t:x.t,k:x.k,run:()=>{ x.run(); q.value=""; state.q=""; }});
+    const towns=new Map(); for(const e of up){ if(e.town&&e.town.toLowerCase().startsWith(v)) towns.set(e.town,(towns.get(e.town)||0)+1); }
+    for(const [town,n] of [...towns].sort((a,b)=>b[1]-a[1]).slice(0,3)) items.push({si:"📍",t:town,sub:n+(n===1?" event":" events")+" coming up",k:"Town",run:()=>{ q.value=town; state.q=town; }});
+    const words=v.split(/\s+/);
+    const wordsOf=e=>(e.title+" "+e.venue+" "+e.town).toLowerCase().split(/[^a-z0-9']+/);
+    const evs=up.filter(e=>{ const ws=wordsOf(e); return words.every(w=>ws.some(x=>x.startsWith(w))); }).map(e=>[firstActive(e,today),e]).filter(x=>x[0]).sort((a,b)=>a[0].localeCompare(b[0])).slice(0,5);
+    for(const [day,e] of evs) items.push({si:"🎟️",t:e.title,sub:fmt(day,{weekday:"short",month:"short",day:"numeric"})+" · "+e.town,k:"Event",run:()=>{ q.value=""; state.q=""; setTimeout(()=>{ if(state.view==="map") setView("list"); openEvent(e.id,true); },0); }});
+    const max=matchMedia("(max-width:699px)").matches?6:8; items=items.slice(0,max);
+    ul.textContent=""; sel=-1;
+    if(!items.length){ close(); return; }
+    items.forEach((it,i)=>{ const li=h("li",{role:"option",id:"sg"+i,"aria-selected":"false"},h("span",{class:"si","aria-hidden":"true"},it.si),h("span",{class:"st"},it.t,it.sub&&h("small",null,it.sub)),h("span",{class:"kind"},it.k));
+      li.addEventListener("mousedown",ev=>{ ev.preventDefault(); choose(i); }); ul.append(li); });
+    ul.hidden=false; q.setAttribute("aria-expanded","true");
+  }
+  function close(){ ul.hidden=true; q.setAttribute("aria-expanded","false"); q.removeAttribute("aria-activedescendant"); sel=-1; }
+  function choose(i){ const it=items[i]; if(!it) return; close(); it.run(); save(); syncControls(); render(); q.blur();
+    document.getElementById("all-h").scrollIntoView({block:"start",behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth"}); }
+  function mark(i){ sel=(i+items.length)%items.length; [...ul.children].forEach((li,k)=>li.setAttribute("aria-selected",String(k===sel))); q.setAttribute("aria-activedescendant","sg"+sel); }
+  q.addEventListener("input",build); q.addEventListener("focus",build);
+  q.addEventListener("keydown",ev=>{ if(ul.hidden) return;
+    if(ev.key==="ArrowDown"){ ev.preventDefault(); mark(sel+1); } else if(ev.key==="ArrowUp"){ ev.preventDefault(); mark(sel-1); }
+    else if(ev.key==="Enter"&&sel>-1){ ev.preventDefault(); choose(sel); } else if(ev.key==="Escape"){ close(); } });
+  q.addEventListener("blur",()=>setTimeout(close,120));
 })();
 
 syncControls(); updateSavedChip(); renderPassport();
