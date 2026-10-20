@@ -698,6 +698,17 @@ dialog.wxd{overflow-x:hidden}
 </div></footer>
 
 <script>
+/* ===== Visit counts (GoatCounter: anonymous, no cookies) ===== */
+window.goatcounter=Object.assign(window.goatcounter||{},{no_onload:true});
+const STAT_BASE="/seok-events/", TAB_NAMES={home:"Home",events:"Events",drive:"Out of town",saved:"Saved",more:"More"}, STATQ=[];
+let STATS_ON=false;
+function stat(o){ try{ const g=window.goatcounter; if(g&&g.count) g.count(o); else if(STATQ.length<50) STATQ.push(o); }catch(e){} }
+function statFlush(){ while(STATQ.length) stat(STATQ.shift()); }
+/* Screen views: the first one keeps where the visitor came from (Facebook, Google...); later ones are moves inside the site */
+function statView(first){ const o={path:STAT_BASE+(TAB==="home"?"":"#/"+TAB),title:TAB_NAMES[TAB]||TAB}; if(!first) o.referrer=""; stat(o); }
+function titleOf(id){ const x=EVENTS.find(e=>e.id===id)||DRIVE.find(d=>d.id===id); return x?x.title:id; }
+function statEv(what){ what=String(what).replace(/\s+/g," ").trim().slice(0,180); if(what) stat({path:what,title:what,event:true,referrer:""}); }
+
 /* ===== Content ===== */
 const EVENTS = __EVENTS__;
 const DRIVE = __DRIVE__; /* Big shows outside the region, kept separate from local events */
@@ -902,6 +913,7 @@ let snackT; function snack(msg){ let s=document.querySelector(".snack"); if(!s){
   s.textContent=msg; s.hidden=false; clearTimeout(snackT); snackT=setTimeout(()=>{ s.hidden=true; },2400); }
 /* Share: the phone's own share menu when it has one, otherwise copy the text and link */
 function shareThing(title,lines,url,toast){
+  statEv("Shared: "+title);
   const text=[title,...lines].filter(Boolean).join("\n");
   if(navigator.share){ navigator.share({title,text,url}).catch(()=>{}); return; }
   copyText(text+"\n"+url,()=>{ if(toast) toast.textContent="Copied"; snack("Copied. Paste it in a text or a post."); },()=>{ if(toast) toast.textContent=url; });
@@ -1272,7 +1284,7 @@ let lastSavedN=null;
 function updateSavedChip(){ const n=savedCount();
   document.querySelectorAll(".tab-n").forEach(tn=>{ tn.textContent=n; tn.hidden=!n; if(lastSavedN!==null&&n>lastSavedN){ tn.classList.remove("bump"); void tn.offsetWidth; tn.classList.add("bump"); } });
   lastSavedN=n; if(typeof updatePlanBar==="function") updatePlanBar(); }
-function toggleSave(id){ const was=SAVED.size; SAVED.has(id)?SAVED.delete(id):SAVED.add(id); persistSaved(); updateSavedChip();
+function toggleSave(id){ const was=SAVED.size; SAVED.has(id)?SAVED.delete(id):SAVED.add(id); persistSaved(); updateSavedChip(); if(SAVED.has(id)) statEv("Saved: "+titleOf(id));
   if(SAVED.has(id)){ try{ navigator.vibrate&&navigator.vibrate(8); }catch(e){} if(was===0) confetti(40); }
   if(TAB==="saved") renderSaved(todayCT()); }
 /* Confetti: a quick burst for the good moments (skipped if the device asks for less motion) */
@@ -1577,6 +1589,7 @@ function go(tab,opts={}){
   document.querySelectorAll("[data-tab]").forEach(b=>{ if(b.dataset.tab===tab) b.setAttribute("aria-current","page"); else b.removeAttribute("aria-current"); });
   if(tab==="saved"){ renderSaved(todayCT()); renderPassport(); }
   if(tab==="events"&&state.view==="map") setTimeout(()=>MAP&&MAP.invalidateSize(),50);
+  if(changed&&STATS_ON) statView(false);
   if(changed&&!opts.noHistory){ try{ history.pushState({tab},"",tab==="home"?location.pathname+location.search:"#/"+tab); }catch(e){} }
   if(!opts.noTop) scrollTo({top:0});
 }
@@ -1651,6 +1664,16 @@ function handleHash(){
   else { const m=hs.match(/^#\/(\w+)/); go(m?m[1]:"home",{noHistory:true}); }
 }
 handleHash(); addEventListener("hashchange",handleHash);
+STATS_ON=true; statView(true);
+/* What people do: open an event, tap Directions / Add to calendar / Event info, subscribe, roll Surprise me, search */
+document.addEventListener("toggle",ev=>{ const d=ev.target; if(d.matches&&d.matches("details.ev")&&d.open) statEv("Opened: "+titleOf(d.id)); },true);
+document.addEventListener("click",ev=>{
+  const b=ev.target.closest&&ev.target.closest("a.btn,#surprise"); if(!b) return;
+  if(b.id==="surprise") return statEv("Surprise me");
+  if(/^cal-/.test(b.id)) return statEv("Subscribed: "+b.textContent);
+  const c=b.closest("details.ev,article.drv"); statEv(b.textContent+(c?": "+titleOf(c.id):""));
+},true);
+(function(){ let t, last=""; document.getElementById("q").addEventListener("input",ev=>{ clearTimeout(t); t=setTimeout(()=>{ const v=ev.target.value.trim().toLowerCase(); if(v.length>=3&&v!==last){ last=v; statEv("Search: "+v); } },1500); }); })();
 
 /* ===== Submit form ===== */
 const fc=document.getElementById("f-cat");
@@ -1673,5 +1696,6 @@ document.getElementById("copy").addEventListener("click",()=>{
     document.getElementById("copy-note").textContent="Text selected. Copy it, then paste it into a Facebook message."; });
 });
 </script>
+<script data-goatcounter="https://seokevents.goatcounter.com/count" async src="https://gc.zgo.at/count.js" onload="statFlush()"></script>
 </body>
 </html>
