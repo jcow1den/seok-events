@@ -21,20 +21,6 @@
   ]
  },
  {
-  "id": "e022",
-  "date": "2026-10-19",
-  "title": "Pride of McAlester: Across the Universe",
-  "category": "music",
-  "area": "mcalester",
-  "time": "8:00 – 10:00 PM",
-  "venue": "Hook Eales Stadium",
-  "address": "1261 N 6th St, McAlester, OK 74501",
-  "description": "Community performance of the Pride of McAlester's 2026 marching show, Across the Universe.",
-  "performer": [
-   "Pride of McAlester Marching Band"
-  ]
- },
- {
   "id": "e023",
   "date": "2026-10-23",
   "title": "Heritage Hills Halloween Carnival",
@@ -1202,7 +1188,7 @@
   "title": "Okmulgee Festival of Lights Parade",
   "category": "community",
   "area": "okmulgee-east",
-  "time": "Time to be announced",
+  "time": "7:00 PM",
   "venue": "Downtown Okmulgee",
   "address": "Okmulgee, OK",
   "description": "A lighted parade that kicks off Christmas on the Square in downtown Okmulgee.",
@@ -1244,8 +1230,7 @@
   "description": "Kyle Gates live at the Hochatown Saloon.",
   "performer": [
    "Kyle Gates"
-  ],
-  "unconfirmed": true
+  ]
  },
  {
   "id": "e173",
@@ -1440,44 +1425,6 @@
   "indoor": true
  },
  {
-  "id": "e185",
-  "date": "2026-10-19",
-  "title": "Adult Elephant Expedition",
-  "category": "community",
-  "area": "hugo-antlers",
-  "time": "9:00 AM – 3:00 PM",
-  "venue": "Endangered Ark Foundation",
-  "address": "2657 E 2070 Rd, Hugo, OK 74743",
-  "description": "All-day adult program with hand-feeding and bathing elephants, a facility tour and lunch with elephant specialists.",
-  "organizer": "Endangered Ark Foundation"
- },
- {
-  "id": "e186",
-  "date": "2026-10-19",
-  "title": "TeenTober: Odd Squad DIY Crystal Ball",
-  "category": "community",
-  "area": "mcalester",
-  "time": "4:30 PM - 5:30 PM",
-  "venue": "McAlester Public Library",
-  "address": "401 N 2nd St, McAlester, OK 74501",
-  "description": "Teens make a crystal ball keepsake at the library.",
-  "indoor": true,
-  "organizer": "McAlester Public Library"
- },
- {
-  "id": "e187",
-  "date": "2026-10-19",
-  "title": "Advanced Brush Hour",
-  "category": "community",
-  "area": "mcalester",
-  "time": "4:30 PM - 6:00 PM",
-  "venue": "McAlester Public Library",
-  "address": "401 N 2nd St, McAlester, OK 74501",
-  "description": "Local artist Terri Estrada shares watercolor techniques with adults at the library.",
-  "indoor": true,
-  "organizer": "McAlester Public Library"
- },
- {
   "id": "e188",
   "date": "2026-10-19",
   "endDate": "2026-10-30",
@@ -1494,22 +1441,6 @@
   "address": "229 W Main St, Wilburton, OK 74578",
   "description": "Local farmers, ranchers, bakers and crafters sell fresh local products on Mondays, Wednesdays and Fridays through October. SNAP and Senior Farmers Market cards are accepted.",
   "organizer": "Wilburton Main Street Inc."
- },
- {
-  "id": "e189",
-  "date": "2026-10-20",
-  "title": "Okmulgee Lions Club Pancake Day",
-  "category": "community",
-  "area": "okmulgee-east",
-  "time": "7:00 AM – 2:00 PM",
-  "venue": "First Presbyterian Church",
-  "address": "401 S Seminole Ave, Okmulgee, OK 74447",
-  "description": "Annual Lions Club pancake meal with pancakes, bacon, sausage and drinks for $10.",
-  "organizer": "Okmulgee Lions Club",
-  "offers": {
-   "low": 10
-  },
-  "indoor": true
  },
  {
   "id": "e190",
@@ -1529,19 +1460,6 @@
   "kids": true,
   "indoor": true,
   "organizer": "McAlester Public Library"
- },
- {
-  "id": "e191",
-  "date": "2026-10-20",
-  "title": "Social Crafts & Swaps: Soup Swap and Mason Jar Decoupage",
-  "category": "community",
-  "area": "atoka",
-  "time": "1:00 PM",
-  "venue": "Atoka County Library",
-  "address": "Atoka County Library, Atoka, OK",
-  "description": "The library's monthly crafts and swaps gathering pairs a soup swap with a mason jar decoupage craft. Swappers bring four pint jars of homemade soup and take home four different kinds.",
-  "indoor": true,
-  "organizer": "Atoka County Library"
  },
  {
   "id": "e192",
@@ -3557,5 +3475,214 @@
   "free": true,
   "kids": true,
   "indoor": true
+ },
+ {
+  "id": "e331",
+  "date": "2026-12-12",
+  "title": "Wilburton Christmas Parade",
+  "category": "community",
+  "area": "wilburton",
+  "time": "6:00 PM - 7:00 PM",
+  "venue": "Downtown Wilburton (Main Street / US-270)",
+  "address": "Main Street, Wilburton, OK",
+  "description": "Wilburton's Christmas parade down Main Street. This year's theme is \"'Twas A Magical Storybook Christmas.\"",
+  "organizer": "Wilburton Area Chamber of Commerce"
+ },
+ {
+  "id": "e332",
+  "date": "2026-12-11",
+  "title": "Holdenville Christmas Parade",
+  "category": "community",
+  "area": "ada-holdenville",
+  "time": "6:00 PM",
+  "venue": "Main Street, Holdenville",
+  "address": "Main St, Holdenville, OK 74848",
+  "description": "Decorated floats and marching bands down Main Street, with prizes given away during the parade."
+ },
+ {
+  "id": "e333",
+  "date": "2026-10-29",
+  "title": "Movies in the Park 2: Monster House",
+  "category": "community",
+  "area": "mcalester",
+  "time": "6:30 PM - 8:00 PM",
+  "venue": "Southeast Expo Center",
+  "address": "4500 W US-270, McAlester, OK 74501",
+  "description": "Free movie night at the Expo showing Monster House.",
+  "free": true
+ },
+ {
+  "id": "e334",
+  "date": "2026-10-23",
+  "title": "Heartstill Arts & Entertainment",
+  "category": "music",
+  "area": "atoka",
+  "time": "5:00 - 8:00 PM",
+  "venue": "Reba's Place",
+  "address": "319 E Court St, Atoka, OK 74525",
+  "description": "Live entertainment at Reba's Place.",
+  "unconfirmed": true
+ },
+ {
+  "id": "e335",
+  "date": "2026-10-24",
+  "title": "Laura Linda Live",
+  "category": "music",
+  "area": "atoka",
+  "time": "5:00 - 8:00 PM",
+  "venue": "301 E Court St",
+  "address": "301 E Court St, Atoka, OK",
+  "description": "Live music downtown Atoka.",
+  "performer": [
+   "Laura Linda"
+  ],
+  "unconfirmed": true
+ },
+ {
+  "id": "e336",
+  "date": "2026-10-25",
+  "title": "Sawyer Guymon Live",
+  "category": "music",
+  "area": "atoka",
+  "time": "12:00 - 3:00 PM",
+  "venue": "301 E Court St",
+  "address": "301 E Court St, Atoka, OK",
+  "description": "Sunday afternoon live music downtown Atoka.",
+  "performer": [
+   "Sawyer Guymon"
+  ],
+  "unconfirmed": true
+ },
+ {
+  "id": "e337",
+  "date": "2026-11-14",
+  "title": "Shawnda Rains Entertainment Group",
+  "category": "music",
+  "area": "atoka",
+  "time": "5:00 - 8:00 PM",
+  "venue": "301 E Court St",
+  "address": "301 E Court St, Atoka, OK",
+  "description": "Live music downtown Atoka.",
+  "unconfirmed": true
+ },
+ {
+  "id": "e338",
+  "date": "2026-11-14",
+  "title": "Frybread Workshop",
+  "category": "community",
+  "area": "durant",
+  "time": "11:00 AM and 1:00 PM",
+  "venue": "Choctaw Cultural Center",
+  "address": "1919 Hina Hanta Way, Calera, OK 74730",
+  "description": "Learn to make frybread at the Choctaw Cultural Center and take home a kit. Registration required.",
+  "offers": {
+   "low": 20
+  },
+  "organizer": "Choctaw Cultural Center",
+  "indoor": true
+ },
+ {
+  "id": "e339",
+  "date": "2026-11-28",
+  "title": "Cinema at the Center: Megamind",
+  "category": "community",
+  "area": "durant",
+  "time": "Time to be announced",
+  "venue": "Choctaw Cultural Center",
+  "address": "1919 Hina Hanta Way, Calera, OK 74730",
+  "description": "Free movie day with snacks at the Choctaw Cultural Center.",
+  "free": true,
+  "organizer": "Choctaw Cultural Center"
+ },
+ {
+  "id": "e340",
+  "date": "2026-11-30",
+  "title": "Sulphur Christmas Parade of Lights",
+  "category": "community",
+  "area": "ada-holdenville",
+  "time": "6:00 PM – 8:00 PM",
+  "venue": "Downtown Sulphur",
+  "address": "717 W Broadway Ave, Sulphur, OK 73086",
+  "description": "Lighted floats, decorated cars, trucks, golf carts and motorcycles, horses and walkers roll through downtown Sulphur, with Santa and Mrs. Claus at the end.",
+  "free": true
+ },
+ {
+  "id": "e341",
+  "date": "2027-03-12",
+  "title": "Derrick Stroup",
+  "category": "shows",
+  "area": "durant",
+  "time": "8:00 PM",
+  "venue": "Choctaw Grand Theater, Choctaw Casino & Resort",
+  "address": "4216 S Hwy 69/75, Durant, OK 74701",
+  "description": "Stand-up comedian Derrick Stroup at the Choctaw Grand Theater.",
+  "indoor": true,
+  "performer": [
+   "Derrick Stroup"
+  ]
+ },
+ {
+  "id": "e342",
+  "date": "2027-04-09",
+  "title": "Emily Ann Roberts",
+  "category": "music",
+  "area": "durant",
+  "time": "8:00 PM",
+  "venue": "Choctaw Grand Theater, Choctaw Casino & Resort",
+  "address": "4216 S Hwy 69/75, Durant, OK 74701",
+  "description": "Country singer Emily Ann Roberts in concert.",
+  "indoor": true,
+  "performer": [
+   "Emily Ann Roberts"
+  ]
+ },
+ {
+  "id": "e343",
+  "date": "2026-10-23",
+  "endDate": "2026-10-25",
+  "title": "Down-Home Oktoberfest",
+  "category": "festivals",
+  "area": "idabel-broken-bow",
+  "time": "Time to be announced",
+  "venue": "Beavers Bend Brewery",
+  "address": "46 Coho Rd, Broken Bow, OK 74728",
+  "description": "Oktoberfest weekend at Beavers Bend Brewery.",
+  "unconfirmed": true
+ },
+ {
+  "id": "e344",
+  "date": "2026-10-24",
+  "title": "Nighttime Halloween Train of Terror",
+  "category": "community",
+  "area": "idabel-broken-bow",
+  "time": "Time to be announced",
+  "venue": "Beavers Bend Depot",
+  "address": "290 Beavers Bend Loop, Broken Bow, OK 74728",
+  "description": "Nighttime Halloween train ride at the Beavers Bend Depot.",
+  "unconfirmed": true
+ },
+ {
+  "id": "e345",
+  "date": "2026-10-24",
+  "title": "Lumberjax Festival",
+  "category": "festivals",
+  "area": "idabel-broken-bow",
+  "time": "Time to be announced",
+  "venue": "Wright City",
+  "address": "Wright City, OK",
+  "description": "Fall festival in Wright City.",
+  "unconfirmed": true
+ },
+ {
+  "id": "e346",
+  "date": "2026-10-31",
+  "title": "Webbie Live in Idabel",
+  "category": "music",
+  "area": "idabel-broken-bow",
+  "time": "Time to be announced",
+  "venue": "Idabel Fairgrounds",
+  "address": "Idabel Fairgrounds, Idabel, OK",
+  "description": "Rapper Webbie performs at the Idabel Fairgrounds on Halloween night.",
+  "unconfirmed": true
  }
 ]
