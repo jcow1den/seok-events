@@ -1,4 +1,6 @@
 [
- {"date":"2026-10-17","time":"09:30","format":"today","title":"Where we'd be today (Sat Oct 17)","image":"social/img/2026-10-17-saturday.png","events":["e011","e013","e020","e014","e021","e119"]},
- {"date":"2026-10-19","time":"10:30","format":"this-week","title":"No need to wait for the weekend (Mon-Thu Oct 19-22)","image":"social/img/2026-10-19-monday.png","events":["e022","e188","e189","e195","e103","e196","e206","e025"]}
+ {"date": "2026-10-17", "time": "09:30", "format": "today", "title": "Where we'd be today (Sat Oct 17)", "image": "social/img/2026-10-17-saturday.png", "events": ["e011", "e013", "e020", "e014", "e021", "e119"]},
+ {"date": "2026-10-19", "time": "10:30", "format": "this-week", "title": "No need to wait for the weekend (Mon-Thu Oct 19-22)", "image": "social/img/2026-10-19-monday.png", "events": ["e022", "e188", "e189", "e195", "e103", "e196", "e206", "e025"]},
+ {"date": "2026-10-21", "time": "12:00", "format": "settle-this", "title": "Settle this: Ribtoberfest or Jinglebell Market (Sat Nov 7, McAlester)", "image": "social/img/2026-10-21-wednesday.png", "events": ["e051", "e052"]},
+ {"date": "2026-10-22", "time": "11:30", "format": "weekend", "title": "Weekend plans, sorted (Fri-Sun Oct 23-25)", "image": "social/img/2026-10-22-weekend.png", "events": ["e206", "e025", "e121", "e198", "e197", "e035", "e030"]}
 ]
