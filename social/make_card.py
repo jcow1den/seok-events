@@ -9,7 +9,7 @@ card.json fields:
   subtitle: optional short line under the headline
   items:    optional, up to 6: [{"cat": "festivals|music|shows|markets|community|sports", "title": "...", "meta": "Sat 6 PM · Wilburton"}]
   big:      optional large statement or question instead of a list, e.g. "Fish fry or chili cook-off?"
-  footer:   optional, defaults to the site address
+  footer:   optional small line at the bottom; leave it out (cards look like a friend's post, not an ad)
 Text only: no emoji (the renderer has no emoji font).
 """
 import json, sys, html, pathlib
@@ -76,8 +76,8 @@ def render(spec, out):
     if spec.get("big"): parts.append('<div class="big">%s</div>' % e(spec["big"]))
     if rows: parts.append('<div class="list">%s</div>' % rows)
     doc = ('<!doctype html><html><head><meta charset="utf-8"><style>%s</style></head><body><div class="sun"></div>%s'
-           '<div class="wrap">%s</div><div class="foot">Southeast Oklahoma Events<small>%s</small></div></body></html>'
-           % (css, RIDGE, "".join(parts), e(spec.get("footer", "jcow1den.github.io/seok-events"))))
+           '<div class="wrap">%s</div>%s</body></html>'
+           % (css, RIDGE, "".join(parts), ('<div class="foot"><small>%s</small></div>' % e(spec["footer"])) if spec.get("footer") else ""))
     with sync_playwright() as p:
         b = p.chromium.launch()
         pg = b.new_page(viewport={"width": 1080, "height": 1350})
