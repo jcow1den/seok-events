@@ -71,20 +71,6 @@
   "url": "https://www.paycomcenter.com/events"
  },
  {
-  "id": "d009",
-  "kind": "shows",
-  "date": "2026-10-22",
-  "title": "Wynonna Judd: The Hard Truth Tour",
-  "time": "8:00 PM",
-  "description": "Country star on her Hard Truth Tour.",
-  "city": "Tulsa",
-  "venue": "The Cove at River Spirit Casino Resort",
-  "address": "8330 Riverside Pkwy, Tulsa, OK 74137",
-  "lat": 36.0284,
-  "lon": -95.9306,
-  "url": "https://www.riverspirittulsa.com/entertainment"
- },
- {
   "id": "d010",
   "kind": "shows",
   "date": "2026-10-24",
@@ -265,20 +251,6 @@
    6,
    0
   ]
- },
- {
-  "id": "d027",
-  "kind": "sports",
-  "date": "2026-10-22",
-  "title": "OKC Thunder vs. Denver Nuggets",
-  "time": "8:30 PM",
-  "description": "NBA game.",
-  "city": "Oklahoma City",
-  "venue": "Paycom Center",
-  "address": "100 W Reno Ave, Oklahoma City, OK 73102",
-  "lat": 35.4726,
-  "lon": -97.5199,
-  "url": "https://www.paycomcenter.com/events"
  },
  {
   "id": "d028",
@@ -1914,19 +1886,6 @@
   "url": "https://www.songkick.com/venues/3192449-criterion/calendar"
  },
  {
-  "id": "d155",
-  "kind": "shows",
-  "date": "2026-10-21",
-  "title": "Medium Build",
-  "description": "With Bella White.",
-  "city": "Oklahoma City",
-  "venue": "Tower Theatre",
-  "address": "425 NW 23rd St, Oklahoma City, OK 73103",
-  "lat": 35.4925,
-  "lon": -97.5196,
-  "url": "https://songkick.com/venues/85495-tower-theatre/calendar"
- },
- {
   "id": "d156",
   "kind": "shows",
   "date": "2026-10-23",
@@ -2107,19 +2066,6 @@
   "lat": 35.4663,
   "lon": -97.5275,
   "url": "https://www.songkick.com/es/venues/3543559-jones-assembly"
- },
- {
-  "id": "d171",
-  "kind": "shows",
-  "date": "2026-10-22",
-  "title": "Ole 60",
-  "description": "With Arcy Drive.",
-  "city": "Oklahoma City",
-  "venue": "The Zoo Amphitheatre",
-  "address": "2101 NE 50th St, Oklahoma City, OK 73111",
-  "lat": 35.5232,
-  "lon": -97.4735,
-  "url": "https://developer.songkick.com/venues/635-zoo-amphitheatre"
  },
  {
   "id": "d172",

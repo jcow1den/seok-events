@@ -406,20 +406,6 @@
   ]
  },
  {
-  "id": "e103",
-  "date": "2026-10-22",
-  "title": "Autumn Ragland Live",
-  "category": "music",
-  "area": "mcalester",
-  "time": "6:30 – 10:00 PM",
-  "venue": "DWNTWN 312",
-  "address": "McAlester, OK",
-  "description": "Live music with Autumn Ragland.",
-  "performer": [
-   "Autumn Ragland"
-  ]
- },
- {
   "id": "e104",
   "date": "2026-10-23",
   "title": "Boos & Brews Costume Party",
@@ -911,7 +897,7 @@
   "venue": "Downtown Main Street",
   "address": "Main St, Durant, OK 74701",
   "description": "Downtown businesses hand out candy along Main Street.",
-  "unconfirmed": true
+  "organizer": "Durant Main Street"
  },
  {
   "id": "e146",
@@ -1443,96 +1429,6 @@
   "organizer": "Wilburton Main Street Inc."
  },
  {
-  "id": "e190",
-  "date": "2026-10-20",
-  "endDate": "2026-10-22",
-  "openDays": [
-   2,
-   4
-  ],
-  "title": "Wiggle Worms: Farms",
-  "category": "community",
-  "area": "mcalester",
-  "time": "10:00 AM - 10:30 AM",
-  "venue": "McAlester Public Library",
-  "address": "401 N 2nd St, McAlester, OK 74501",
-  "description": "Toddler storytime with farm stories, songs and movement, held Tuesday and Thursday.",
-  "kids": true,
-  "indoor": true,
-  "organizer": "McAlester Public Library"
- },
- {
-  "id": "e192",
-  "date": "2026-10-21",
-  "title": "Sewing Club: Improv Quilt Block",
-  "category": "community",
-  "area": "mcalester",
-  "time": "11:00 AM - 12:30 PM",
-  "venue": "McAlester Public Library",
-  "address": "401 N 2nd St, McAlester, OK 74501",
-  "description": "Make an improv quilt block or bring your own project and sew alongside others.",
-  "indoor": true,
-  "organizer": "McAlester Public Library"
- },
- {
-  "id": "e193",
-  "date": "2026-10-21",
-  "title": "Cyber Squad: Lite Bright Makers",
-  "category": "community",
-  "area": "mcalester",
-  "time": "4:00 PM - 5:00 PM",
-  "venue": "McAlester Public Library",
-  "address": "401 N 2nd St, McAlester, OK 74501",
-  "description": "Kids and teens make glowing pixel art on giant Lite-Brite boards.",
-  "kids": true,
-  "indoor": true,
-  "organizer": "McAlester Public Library"
- },
- {
-  "id": "e194",
-  "date": "2026-10-22",
-  "title": "Midnight Reading Club",
-  "category": "community",
-  "area": "mcalester",
-  "time": "5:00 PM - 6:00 PM",
-  "venue": "McAlester Public Library",
-  "address": "401 N 2nd St, McAlester, OK 74501",
-  "description": "Adults gather to discuss eerie poems and forgotten tales.",
-  "indoor": true,
-  "organizer": "McAlester Public Library"
- },
- {
-  "id": "e195",
-  "date": "2026-10-22",
-  "title": "Taste of McAlester Banquet and Auction",
-  "category": "community",
-  "area": "mcalester",
-  "time": "6:00 PM",
-  "venue": "Southeast Expo Center",
-  "address": "4500 US-270, McAlester, OK 74501",
-  "description": "Local restaurants offer samples, with live and silent auctions benefiting Shared Blessings.",
-  "indoor": true,
-  "organizer": "Shared Blessings"
- },
- {
-  "id": "e196",
-  "date": "2026-10-22",
-  "title": "McSwain Theatre Thursday Movie: The Haunted Mansion",
-  "category": "community",
-  "area": "ada-holdenville",
-  "time": "2:00 PM and 7:00 PM",
-  "venue": "McSwain Theatre",
-  "address": "McSwain Theatre, 130 W Main St, Ada, OK 74820",
-  "description": "A screening of the 2003 PG film about a family that inherits a haunted estate. Tickets are $3, or $2 for seniors and children 12 and under; a $5 combo adds popcorn and a drink.",
-  "indoor": true,
-  "organizer": "Chickasaw Nation",
-  "offers": {
-   "low": 2,
-   "high": 5
-  },
-  "kids": true
- },
- {
   "id": "e197",
   "date": "2026-10-23",
   "title": "An Evening with Poe",
@@ -1679,11 +1575,11 @@
   "title": "Viking Festival",
   "category": "festivals",
   "area": "poteau",
-  "time": "Saturday 10:00 AM – 8:00 PM; Sunday hours to be announced",
+  "time": "10:00 AM – 5:00 PM both days",
   "venue": "Heavener Runestone Park",
   "address": "18365 Runestone Rd, Heavener, OK 74937",
-  "description": "Two-day Viking-themed festival with vendors, food trucks, crafts, contests and live entertainment for all ages.",
-  "organizer": "Heavener Runestone Park",
+  "description": "Two-day Viking festival at the runestone with a living-history encampment and live battles by the Glomesdal Vikings of Oklahoma (Sat 11 AM & 4 PM, Sun 11 AM & 3 PM), Viking games like the log throw and fish toss, Little Viking archery and spear throwing, beard, braid and war-cry contests, birds of prey, blacksmith demos, face painting, food trucks and mead. General parking is downtown at Monument Bank (400 E 1st St) with ADA-accessible shuttles from 9:45 AM to 5:30 PM. Tickets online or at the Friends of Heavener Runestone tent in the park.",
+  "organizer": "Friends of Heavener Runestone",
   "kids": true
  },
  {
@@ -3684,5 +3580,21 @@
   "address": "Idabel Fairgrounds, Idabel, OK",
   "description": "Rapper Webbie performs at the Idabel Fairgrounds on Halloween night.",
   "unconfirmed": true
+ },
+ {
+  "id": "e347",
+  "date": "2026-10-24",
+  "endDate": "2026-10-31",
+  "openDays": [
+   6
+  ],
+  "title": "Durant Farmers Market",
+  "category": "markets",
+  "area": "durant",
+  "time": "8:00 AM – 1:00 PM",
+  "venue": "Market Square",
+  "address": "Market Square, Durant, OK",
+  "description": "Saturday morning farmers market in downtown Durant's Market Square.",
+  "organizer": "Durant Main Street"
  }
 ]
