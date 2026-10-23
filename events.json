@@ -3596,5 +3596,27 @@
   "address": "Market Square, Durant, OK",
   "description": "Saturday morning farmers market in downtown Durant's Market Square.",
   "organizer": "Durant Main Street"
+ },
+ {
+  "id": "e348",
+  "date": "2026-09-29",
+  "endDate": "2026-10-31",
+  "title": "Cornerstone Kids' Ranch Pumpkin Patch",
+  "category": "festivals",
+  "area": "ada-holdenville",
+  "time": "Fri 2–7 PM · Sat 11 AM–7 PM · Sun 2–7 PM, through Oct 31",
+  "venue": "Cornerstone Kids' Ranch",
+  "address": "11960 County Rd 3536, Ada, OK 74820",
+  "description": "Ada's pumpkin patch: pick a pumpkin, hayrides, train rides, a petting zoo, hay bale castle and maze, pedal car track, duck races and carnival games. Pony rides Fri–Sun; gem mining, rock climbing and zip lines cost extra. $12 per person, 2 and under free with a paying adult. Picnics welcome, concession stand on site.",
+  "kids": true,
+  "offers": {
+   "low": 12
+  },
+  "organizer": "Cornerstone Kids' Ranch",
+  "openDays": [
+   5,
+   6,
+   0
+  ]
  }
 ]

@@ -3704,5 +3704,20 @@
   "lon": -97.0781,
   "description": "The 25th ICE! exhibit, carved around the Harry Potter films. Tickets through Christmas at Gaylord Texan.",
   "url": "https://www.natja.org/press-releases/holiday-wonder-returns-as-gaylord-texan-resort-debuts-22nd-annual-lone-star-christmas-with-marquee-attraction-ice-featuring-harry-potter/"
+ },
+ {
+  "id": "d290",
+  "kind": "family",
+  "date": "2026-09-19",
+  "endDate": "2026-11-14",
+  "title": "Fall Festival at Orr Family Farm",
+  "time": "Select days through Nov 14. Check the farm's calendar before you go",
+  "description": "Pumpkin patch, hayrides, train rides, a maze, pony rides, barnyard animals, carnival rides, and a zip line and ropes course, plus Halloween Light Nights on a lighted trail. Tickets from $24.95.",
+  "city": "Oklahoma City",
+  "venue": "Orr Family Farm",
+  "address": "14400 S Western Ave, Oklahoma City, OK 73170",
+  "lat": 35.4726,
+  "lon": -97.5199,
+  "url": "https://travelok.com/listings/view.profile/id.26031"
  }
 ]
