@@ -4,11 +4,13 @@ Usage:  python3 social/make_card.py card.json social/img/2026-10-22-weekend.png
 
 card.json fields:
   theme:    "pine" (dark green), "sunset" (warm orange), "cream" (light), or "night" (dark blue)
-  kicker:   small label on top, e.g. "This weekend"
+  kicker:   optional small label on top, e.g. "This weekend"
   title:    big headline, e.g. "Oct 23-25 around SE Oklahoma"
   subtitle: optional short line under the headline
   items:    optional, up to 6: [{"cat": "festivals|music|shows|markets|community|sports", "title": "...", "meta": "Sat 6 PM · Wilburton"}]
   big:      optional large statement or question instead of a list, e.g. "Fish fry or chili cook-off?"
+  photo:    optional path to a photo (from social/photos.py); fills the card, text sits at the bottom
+  credit:   photo credit line (required with photo), e.g. "Photo: Jane Smith, CC BY-SA 4.0"
   footer:   optional small line at the bottom; leave it out (cards look like a friend's post, not an ad)
 Text only: no emoji (the renderer has no emoji font).
 """
@@ -45,6 +47,11 @@ h1{font:800 H1SIZEpx/.95 Barlow;text-transform:uppercase;letter-spacing:-.01em}
 .foot{position:absolute;left:76px;bottom:44px;font:800 38px/1 Barlow;text-transform:uppercase;letter-spacing:.04em;color:#f4f1ea}
 .foot small{display:block;font:600 30px/1 Barlow;letter-spacing:.03em;color:#d8e6dc;margin-top:8px;text-transform:none}
 .sun{position:absolute;right:110px;bottom:128px;width:104px;height:104px;border-radius:50%;background:#e87c48}
+.photo{position:absolute;inset:0;background-size:cover;background-position:center}
+.shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 38%,rgba(0,0,0,.35) 58%,rgba(0,0,0,.82) 100%)}
+.pwrap{position:absolute;left:0;right:0;bottom:0;padding:0 76px 92px;display:flex;flex-direction:column;gap:20px;color:#fff}
+.pwrap h1{font-size:96px}.pwrap .sub{color:#f1ece2}.pwrap .big{margin-top:0;font-size:120px}
+.credit{position:absolute;right:28px;bottom:22px;font-size:22px;color:rgba(255,255,255,.82);text-shadow:0 1px 3px rgba(0,0,0,.7)}
 """
 
 RIDGE = """<svg class="ridge" viewBox="0 0 1080 250" preserveAspectRatio="none">
@@ -71,22 +78,40 @@ def render(spec, out):
               .replace("FONTDIR/BarlowCondensed-SemiBold.ttf", font("BarlowCondensed-SemiBold.ttf")))
     rows = "".join('<div class="it"><div class="ic">%s</div><div><div class="t">%s</div><div class="m">%s</div></div></div>'
                    % (icon(i.get("cat", "festivals"), CATCOL.get(i.get("cat"), th["accent"])), e(i.get("title")), e(i.get("meta"))) for i in items)
-    parts = ['<div class="kick">%s</div>' % e(spec.get("kicker", "Southeast Oklahoma Events")), "<h1>%s</h1>" % e(spec.get("title"))]
+    parts = []
+    if spec.get("kicker"): parts.append('<div class="kick">%s</div>' % e(spec["kicker"]))
+    if spec.get("title"): parts.append("<h1>%s</h1>" % e(spec["title"]))
     if spec.get("subtitle"): parts.append('<div class="sub">%s</div>' % e(spec["subtitle"]))
     if spec.get("big"): parts.append('<div class="big">%s</div>' % e(spec["big"]))
     if rows: parts.append('<div class="list">%s</div>' % rows)
+    if spec.get("photo"):
+        if not spec.get("credit"):
+            sys.exit("A photo needs its credit line (see the photo's .json from social/photos.py)")
+        img = "data:image/jpeg;base64," + base64.b64encode(pathlib.Path(spec["photo"]).read_bytes()).decode()
+        doc = ('<!doctype html><html><head><meta charset="utf-8"><style>%s</style></head><body>'
+               '<div class="photo" style="background-image:url(%s);background-position:%s"></div><div class="shade"></div>'
+               '<div class="pwrap">%s</div><div class="credit">%s</div></body></html>'
+               % (css, img, e(spec.get("focus", "center")), "".join(p for p in parts if 'class="list"' not in p), e(spec["credit"])))
+        return shoot(doc, out, 1350)
     doc = ('<!doctype html><html><head><meta charset="utf-8"><style>%s</style></head><body><div class="sun"></div>%s'
            '<div class="wrap">%s</div>%s</body></html>'
            % (css, RIDGE, "".join(parts), ('<div class="foot"><small>%s</small></div>' % e(spec["footer"])) if spec.get("footer") else ""))
+    return shoot(doc, out, 1100)
+
+
+def shoot(doc, out, limit):
     with sync_playwright() as p:
         b = p.chromium.launch()
         pg = b.new_page(viewport={"width": 1080, "height": 1350})
         pg.set_content(doc)
         pg.evaluate("document.fonts.ready"); pg.wait_for_timeout(300)
         bottom = pg.evaluate("Math.max(...[...document.querySelectorAll('.wrap > *')].map(n => n.getBoundingClientRect().bottom))")
+        top = pg.evaluate("(()=>{const w=document.querySelector('.pwrap');return w?w.getBoundingClientRect().top:9999})()")
         pg.screenshot(path=out)
         b.close()
-    if bottom > 1100:
+    if top < 560:
+        print("WARNING: the text covers too much of the photo. Use a shorter title or drop the subtitle, then render again.")
+    if bottom > limit:
         print("WARNING: text runs into the mountains at the bottom (%dpx). Use fewer items or shorter text, then render again." % bottom)
     print("wrote", out)
 
