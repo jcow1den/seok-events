@@ -21,161 +21,6 @@
   ]
  },
  {
-  "id": "e023",
-  "date": "2026-10-23",
-  "title": "Heritage Hills Halloween Carnival",
-  "category": "community",
-  "area": "mcalester",
-  "time": "4:30 – 7:00 PM",
-  "venue": "Heritage Hills Living Center",
-  "address": "411 N West St, McAlester, OK 74501",
-  "description": "Halloween carnival for the community at Heritage Hills."
- },
- {
-  "id": "e024",
-  "date": "2026-10-23",
-  "title": "Big Boogie",
-  "category": "music",
-  "area": "idabel-broken-bow",
-  "time": "10:00 PM",
-  "venue": "Hochatown Saloon, Outside Stage",
-  "address": "28 Old Hochatown Rd, Broken Bow, OK 74728",
-  "description": "Memphis rapper Big Boogie live in Hochatown.",
-  "performer": [
-   "Big Boogie"
-  ]
- },
- {
-  "id": "e025",
-  "date": "2026-10-24",
-  "title": "Wewoka Sorghum Festival",
-  "category": "festivals",
-  "area": "ada-holdenville",
-  "time": "8:00 AM – 5:00 PM",
-  "venue": "Seminole Nation Museum",
-  "address": "524 S Wewoka Ave, Wewoka, OK",
-  "description": "51st annual festival honoring sorghum, with vendors, Native and cultural food, a parade, a 5K, and a car show. Free.",
-  "free": true,
-  "kids": true
- },
- {
-  "id": "e026",
-  "date": "2026-10-24",
-  "title": "Rabies Vaccine Clinic & Pet Blessing",
-  "category": "community",
-  "area": "mcalester",
-  "time": "9:00 AM",
-  "venue": "All Saints Episcopal Church",
-  "address": "325 E Washington Ave, McAlester, OK",
-  "description": "Low-cost rabies vaccinations plus a pet blessing.",
-  "unconfirmed": true,
-  "indoor": true
- },
- {
-  "id": "e027",
-  "date": "2026-10-24",
-  "title": "Jordie Lane Live",
-  "category": "music",
-  "area": "mcalester",
-  "time": "7:00 PM",
-  "venue": "Spaceship Earth Coffee Co",
-  "address": "345 E Choctaw Ave, McAlester, OK",
-  "description": "Spotlight Series show with Nashville-based Australian singer-songwriter Jordie Lane.",
-  "indoor": true,
-  "performer": [
-   "Jordie Lane"
-  ]
- },
- {
-  "id": "e028",
-  "date": "2026-10-24",
-  "title": "America's Guardians Haunted House",
-  "category": "community",
-  "area": "okmulgee-east",
-  "time": "7:00 – 10:30 PM",
-  "venue": "America's Guardians Haunted House",
-  "address": "420 W Main St, Henryetta, OK",
-  "description": "Halloween haunted house fundraiser. $5. Also open Oct 31.",
-  "unconfirmed": true
- },
- {
-  "id": "e029",
-  "date": "2026-10-24",
-  "endDate": "2026-10-25",
-  "title": "McAlester Gun Show",
-  "category": "markets",
-  "area": "mcalester",
-  "time": "Sat 9 AM – 5 PM · Sun 10 AM – 4 PM",
-  "venue": "Southeast Expo Center",
-  "address": "4500 W US-270, McAlester, OK 74501",
-  "description": "Firearms, knives, ammo, and accessories. $10, veterans $9, 12 and under free; good both days.",
-  "unconfirmed": true,
-  "indoor": true
- },
- {
-  "id": "e030",
-  "date": "2026-10-24",
-  "title": "The Forge Car Show & Fall Festival",
-  "category": "festivals",
-  "area": "mcalester",
-  "time": "8:00 AM – 6:00 PM",
-  "venue": "First Assembly of God",
-  "address": "1800 Hardy Springs Rd, McAlester, OK 74501",
-  "description": "Car show and fall festival at First Assembly of God."
- },
- {
-  "id": "e031",
-  "date": "2026-10-24",
-  "title": "Fall in Love with Quilts Quilt Show",
-  "category": "markets",
-  "area": "mcalester",
-  "time": "9:00 AM – 4:00 PM",
-  "venue": "Southeast Expo Center",
-  "address": "4500 W US-270, McAlester, OK 74501",
-  "description": "Annual quilt show at the Southeast Expo Center.",
-  "indoor": true
- },
- {
-  "id": "e032",
-  "date": "2026-10-24",
-  "title": "The CarnEVIL Ball",
-  "category": "community",
-  "area": "mcalester",
-  "time": "8:00 PM – midnight",
-  "venue": "Southeast Expo Center",
-  "address": "4500 W US-270, McAlester, OK 74501",
-  "description": "Halloween masquerade ball at the Southeast Expo Center.",
-  "indoor": true
- },
- {
-  "id": "e033",
-  "date": "2026-10-24",
-  "endDate": "2026-10-25",
-  "title": "Toby Keith Foundation Bass Tournament",
-  "category": "sports",
-  "area": "eufaula",
-  "time": "Sat – Sun",
-  "venue": "Tumbleweed's Steakhouse on the Water",
-  "address": "400 1/2 Lakeshore Dr, Eufaula, OK 74432",
-  "description": "Lake Eufaula fishing tournament benefiting the Toby Keith Foundation.",
-  "organizer": "Toby Keith Foundation"
- },
- {
-  "id": "e035",
-  "date": "2026-10-24",
-  "title": "Halloween Trick or Treat",
-  "category": "community",
-  "area": "durant",
-  "time": "6:00 – 8:00 PM",
-  "venue": "Choctaw Cultural Center",
-  "address": "1919 Hina Hanta Way, Calera, OK 74730",
-  "description": "Free indoor trick-or-treat with candy, a costume contest, and a cake walk.",
-  "free": true,
-  "kids": true,
-  "organizer": "Choctaw Cultural Center",
-  "indoor": true
- },
- {
   "id": "e036",
   "date": "2026-10-26",
   "title": "Adventure Head Start Trunk or Treat",
@@ -406,18 +251,6 @@
   ]
  },
  {
-  "id": "e104",
-  "date": "2026-10-23",
-  "title": "Boos & Brews Costume Party",
-  "category": "community",
-  "area": "mcalester",
-  "time": "7:00 – 9:00 PM",
-  "venue": "BierKraft",
-  "address": "McAlester, OK",
-  "description": "Halloween costume party at BierKraft.",
-  "indoor": true
- },
- {
   "id": "e105",
   "date": "2026-10-30",
   "title": "TJ Wicks Live",
@@ -490,20 +323,6 @@
   "organizer": "Talihina Chamber of Commerce"
  },
  {
-  "id": "e111",
-  "date": "2026-10-24",
-  "title": "Cinema at the Center: Monsters, Inc.",
-  "category": "community",
-  "area": "durant",
-  "time": "1:00 PM",
-  "venue": "Choctaw Cultural Center",
-  "address": "1919 Hina Hanta Way, Calera, OK 74730",
-  "description": "Free family movie at the Choctaw Cultural Center.",
-  "free": true,
-  "kids": true,
-  "organizer": "Choctaw Cultural Center"
- },
- {
   "id": "e114",
   "date": "2026-10-30",
   "title": "The Broke Teachers",
@@ -538,52 +357,6 @@
   "address": "301 E Court St, Atoka, OK",
   "description": "Live music downtown Atoka.",
   "unconfirmed": true
- },
- {
-  "id": "e121",
-  "date": "2026-10-24",
-  "title": "Jordan Rainer Live",
-  "category": "music",
-  "area": "ada-holdenville",
-  "time": "7:00 PM",
-  "venue": "McSwain Theatre",
-  "address": "130 W Main St, Ada, OK 74820",
-  "description": "Atoka-raised Chickasaw singer-songwriter, a four-chair turn on NBC's The Voice. Tickets $15–$25.",
-  "indoor": true,
-  "performer": [
-   "Jordan Rainer"
-  ],
-  "offers": {
-   "low": 15,
-   "high": 25
-  },
-  "organizer": "Chickasaw Nation"
- },
- {
-  "id": "e122",
-  "date": "2026-10-24",
-  "title": "Stigler Fall Festival & Highway 9 Rod Fest",
-  "category": "festivals",
-  "area": "eufaula",
-  "time": "9:00 AM – 3:00 PM",
-  "venue": "Downtown Stigler",
-  "address": "Stigler, OK",
-  "description": "Fall festival downtown with vendors, food, live music, and a kids' area.",
-  "unconfirmed": true,
-  "kids": true
- },
- {
-  "id": "e123",
-  "date": "2026-10-25",
-  "title": "The Williamsons Gospel Concert",
-  "category": "music",
-  "area": "eufaula",
-  "time": "6:00 PM",
-  "venue": "Eufaula First Free Will Baptist Church",
-  "address": "Eufaula, OK",
-  "description": "Gospel music with The Williamsons.",
-  "unconfirmed": true,
-  "indoor": true
  },
  {
   "id": "e124",
@@ -905,23 +678,12 @@
   "title": "Cheery Carriage Rides",
   "category": "community",
   "area": "durant",
-  "time": "Evenings",
+  "time": "Fri 5:00 – 9:00 PM · Sat 5:00 – 10:00 PM",
   "venue": "Market Square, Downtown Durant",
   "address": "Market Square, Durant, OK 74701",
   "description": "Horse-drawn carriage rides through historic downtown Durant, leaving from Market Square.",
   "endDate": "2026-12-05",
-  "unconfirmed": true
- },
- {
-  "id": "e147",
-  "date": "2026-10-24",
-  "title": "Halloween Ghost Painting Class",
-  "category": "community",
-  "area": "mcalester",
-  "time": "5:00 – 6:30 PM",
-  "venue": "Pink Pop",
-  "address": "McAlester, OK",
-  "description": "A Halloween ghost painting class."
+  "organizer": "Durant Main Street"
  },
  {
   "id": "e148",
@@ -1181,26 +943,14 @@
   "organizer": "Okmulgee Main Street"
  },
  {
-  "id": "e170",
-  "date": "2026-10-24",
-  "title": "Okmulgee Chili Fest",
-  "category": "festivals",
-  "area": "okmulgee-east",
-  "time": "Time to be announced",
-  "venue": "Downtown Okmulgee",
-  "address": "Okmulgee, OK",
-  "description": "Long-running downtown chili cook-off with food and entertainment.",
-  "organizer": "Okmulgee Main Street"
- },
- {
   "id": "e171",
   "date": "2026-10-30",
   "title": "Scare on the Square",
   "category": "community",
   "area": "okmulgee-east",
-  "time": "Time to be announced",
-  "venue": "Downtown Okmulgee",
-  "address": "Okmulgee, OK",
+  "time": "4:00 PM – 7:00 PM",
+  "venue": "Okmulgee Main Street on the Square",
+  "address": "100 E 6th St, Okmulgee, OK 74447",
   "description": "Family-friendly Halloween event downtown.",
   "organizer": "Okmulgee Main Street"
  },
@@ -1429,19 +1179,6 @@
   "organizer": "Wilburton Main Street Inc."
  },
  {
-  "id": "e197",
-  "date": "2026-10-23",
-  "title": "An Evening with Poe",
-  "category": "shows",
-  "area": "idabel-broken-bow",
-  "time": "6:30 PM – 8:00 PM",
-  "venue": "Downtown Broken Bow Amphitheatre",
-  "address": "Downtown Broken Bow Amphitheatre, Broken Bow, OK",
-  "description": "The Broken Bow Theatrical Society presents a one-night program of readings and performances of Edgar Allan Poe works, including \"The Raven\" and \"The Cask of Amontillado.\"",
-  "organizer": "Broken Bow Theatrical Society",
-  "free": true
- },
- {
   "id": "e198",
   "date": "2026-10-23",
   "endDate": "2026-10-31",
@@ -1462,143 +1199,6 @@
   }
  },
  {
-  "id": "e199",
-  "date": "2026-10-23",
-  "endDate": "2026-10-24",
-  "title": "Celebrity Chef Takeover with Cat Cora",
-  "category": "community",
-  "area": "poteau",
-  "time": "Seatings at 5:00 PM and 7:30 PM",
-  "venue": "Seven Ponies, Choctaw Casino & Resort – Pocola",
-  "address": "3400 Choctaw Rd, Pocola, OK 74902",
-  "description": "Iron Chef Cat Cora hosts a four-course dinner at Seven Ponies. Tables for two are $250 and tables for four are $500.",
-  "performer": [
-   "Cat Cora"
-  ],
-  "organizer": "Choctaw Casinos & Resorts",
-  "offers": {
-   "low": 250,
-   "high": 500
-  },
-  "indoor": true
- },
- {
-  "id": "e200",
-  "date": "2026-10-23",
-  "title": "Halloween Bingo Night",
-  "category": "community",
-  "area": "poteau",
-  "time": "5:00 PM – 8:00 PM",
-  "venue": "Choctaw Dale Cox Event Center",
-  "address": "Choctaw Dale Cox Event Center, Poteau, OK",
-  "description": "Family bingo night with 25-plus rounds, a dessert auction, concessions and a costume contest. Entry is $15 with bingo sheets.",
-  "organizer": "LeFlore County Futbol Club",
-  "offers": {
-   "low": 15
-  },
-  "kids": true,
-  "indoor": true,
-  "unconfirmed": true
- },
- {
-  "id": "e201",
-  "date": "2026-10-23",
-  "title": "Weird Science: Dancing Ghosts",
-  "category": "community",
-  "area": "mcalester",
-  "time": "4:00 PM - 5:00 PM",
-  "venue": "McAlester Public Library",
-  "address": "401 N 2nd St, McAlester, OK 74501",
-  "description": "Make a wiggly dancing ghost to take home. Open to all ages.",
-  "kids": true,
-  "indoor": true,
-  "organizer": "McAlester Public Library"
- },
- {
-  "id": "e202",
-  "date": "2026-10-23",
-  "title": "Oklahoma Guard Dogs Kiamichi Chapter Meet and Greet",
-  "category": "community",
-  "area": "mcalester",
-  "time": "5:00 PM - 9:00 PM",
-  "venue": "Southeast Expo Center (2nd floor)",
-  "address": "4500 US-270, McAlester, OK 74501",
-  "description": "Meet members of the local Kiamichi Chapter of the Oklahoma Guard Dogs. Free hot dogs, chips and drinks, and everyone is welcome.",
-  "indoor": true,
-  "organizer": "Oklahoma Guard Dogs, Kiamichi Chapter"
- },
- {
-  "id": "e203",
-  "date": "2026-10-23",
-  "title": "Twilight & Magic",
-  "category": "community",
-  "area": "durant",
-  "time": "5:00 PM - 9:00 PM",
-  "venue": "Three Valley Museum",
-  "address": "401 W Main St, Durant, OK 74701",
-  "description": "Durant Main Street hosts craft vendors inside and outside the Three Valley Museum, with live music and an outdoor movie. Ticketed craft projects run $45 to $80 and include charcuterie and refreshments.",
-  "organizer": "Durant Main Street"
- },
- {
-  "id": "e204",
-  "date": "2026-10-23",
-  "title": "Caden Gillard at Gilley's",
-  "category": "music",
-  "area": "durant",
-  "time": "7:00 PM",
-  "venue": "Gilley's, Choctaw Casino & Resort",
-  "address": "4216 S Hwy 69/75, Durant, OK 74701",
-  "description": "Caden Gillard performs at Gilley's inside Choctaw Casino & Resort in Durant.",
-  "indoor": true,
-  "performer": [
-   "Caden Gillard"
-  ],
-  "unconfirmed": true
- },
- {
-  "id": "e205",
-  "date": "2026-10-24",
-  "title": "Bingo Loco",
-  "category": "shows",
-  "area": "hugo-antlers",
-  "time": "Doors 6:00 PM, show 7:00 PM",
-  "venue": "Stage 271, Choctaw Casino & Resort – Grant",
-  "address": "1516 US-271, Grant, OK 74738",
-  "description": "Three-hour interactive bingo stage show with dance-offs, lip sync battles and prizes. 21 and older.",
-  "organizer": "Choctaw Casinos & Resorts",
-  "indoor": true
- },
- {
-  "id": "e206",
-  "date": "2026-10-24",
-  "endDate": "2026-10-25",
-  "title": "Viking Festival",
-  "category": "festivals",
-  "area": "poteau",
-  "time": "10:00 AM – 5:00 PM both days",
-  "venue": "Heavener Runestone Park",
-  "address": "18365 Runestone Rd, Heavener, OK 74937",
-  "description": "Two-day Viking festival at the runestone with a living-history encampment and live battles by the Glomesdal Vikings of Oklahoma (Sat 11 AM & 4 PM, Sun 11 AM & 3 PM), Viking games like the log throw and fish toss, Little Viking archery and spear throwing, beard, braid and war-cry contests, birds of prey, blacksmith demos, face painting, food trucks and mead. General parking is downtown at Monument Bank (400 E 1st St) with ADA-accessible shuttles from 9:45 AM to 5:30 PM. Tickets online or at the Friends of Heavener Runestone tent in the park.",
-  "organizer": "Friends of Heavener Runestone",
-  "kids": true
- },
- {
-  "id": "e207",
-  "date": "2026-10-24",
-  "title": "Spook-o-Jamma 2",
-  "category": "music",
-  "area": "poteau",
-  "time": "Booths 4:00 PM, music 6:00 PM",
-  "venue": "Pocket Park, Downtown Poteau",
-  "address": "220 Dewey Ave, Poteau, OK 74953",
-  "description": "Evening market with River Valley vendors, live music including The Black Diamonds, a costume contest, a food truck and drinks.",
-  "performer": [
-   "The Black Diamonds"
-  ],
-  "organizer": "Kevin Clarkson",
-  "unconfirmed": true
- },
- {
   "id": "e208",
   "date": "2026-10-24",
   "endDate": "2026-10-30",
@@ -1614,166 +1214,6 @@
   "address": "205 Teakwood Dr, Poteau, OK 74953",
   "description": "Free family game nights for elementary-age children at a home Halloween display, with prizes and photo spots. Held Oct. 24 and Oct. 30.",
   "organizer": "Anderson Holiday Fun",
-  "free": true,
-  "kids": true,
-  "unconfirmed": true
- },
- {
-  "id": "e209",
-  "date": "2026-10-24",
-  "title": "Halloween Costume Night at Skate-Reation",
-  "category": "community",
-  "area": "poteau",
-  "time": "7:00 PM – 10:00 PM",
-  "venue": "Skate-Reation",
-  "address": "201 Hughes Dr, Poteau, OK 74953",
-  "description": "Halloween skate night with prizes for the best costume.",
-  "organizer": "Skate-Reation",
-  "indoor": true,
-  "unconfirmed": true
- },
- {
-  "id": "e210",
-  "date": "2026-10-24",
-  "title": "Buckets of Spooky Fun",
-  "category": "community",
-  "area": "okmulgee-east",
-  "time": "10:00 AM – 2:00 PM",
-  "venue": "McCoy's Building Supply",
-  "address": "3428 N Wood Dr, Okmulgee, OK 74447",
-  "description": "Free kids activity decorating glow-in-the-dark Halloween buckets, while supplies last.",
-  "organizer": "McCoy's Building Supply",
-  "free": true,
-  "kids": true,
-  "unconfirmed": true
- },
- {
-  "id": "e211",
-  "date": "2026-10-24",
-  "title": "Murder Mystery Party",
-  "category": "shows",
-  "area": "okmulgee-east",
-  "time": "6:00 PM – 9:00 PM",
-  "venue": "Prairie Witch Coffee",
-  "address": "813 E 6th St, Okmulgee, OK 74447",
-  "description": "Costumed monster-themed murder mystery evening with heavy appetizers; $25 per person.",
-  "organizer": "Prairie Witch Coffee",
-  "offers": {
-   "low": 25
-  },
-  "indoor": true,
-  "unconfirmed": true
- },
- {
-  "id": "e212",
-  "date": "2026-10-24",
-  "title": "CASA Superhero 5K & 1 Mile Fun Run",
-  "category": "sports",
-  "area": "mcalester",
-  "time": "1 mile fun run 9:00 AM, 5K 9:30 AM",
-  "venue": "2nd St & Choctaw Ave",
-  "address": "N 2nd St & E Choctaw Ave, McAlester, OK 74501",
-  "description": "The 5th annual CASA Superhero Run, with an out-and-back 5K through Chadick Park and a 1-mile fun run. Superhero costumes are encouraged, and proceeds support San Bois CASA.",
-  "organizer": "San Bois CASA"
- },
- {
-  "id": "e213",
-  "date": "2026-10-24",
-  "title": "McAlester Elks Halloween Party & Costume Contest",
-  "category": "community",
-  "area": "mcalester",
-  "time": "7:00 PM - 2:00 AM",
-  "venue": "Elks Lodge #533",
-  "address": "3100 Elk Dr, McAlester, OK 74501",
-  "description": "Halloween party with DJ Wade and a costume contest paying $1,000, $500 and $250 to the top three. Ages 21 and up with photo ID; $20 cover.",
-  "indoor": true,
-  "offers": {
-   "low": 20
-  },
-  "organizer": "McAlester Elks Lodge #533"
- },
- {
-  "id": "e214",
-  "date": "2026-10-24",
-  "title": "ECU Homecoming Parade",
-  "category": "community",
-  "area": "ada-holdenville",
-  "time": "11:00 AM",
-  "venue": "Main Street, downtown Ada",
-  "address": "Main Street, Ada, OK",
-  "description": "East Central University's \"Spirit of Roary\" homecoming parade starts in downtown Ada and follows Main Street to the ECU campus. This year's theme is \"A Haunting in Tiger Town.\"",
-  "organizer": "East Central University"
- },
- {
-  "id": "e215",
-  "date": "2026-10-24",
-  "title": "Spirit of Roary Trunk-or-Treat",
-  "category": "community",
-  "area": "ada-holdenville",
-  "time": "Following the homecoming parade",
-  "venue": "Kerr Activities Center parking lot, East Central University",
-  "address": "Kerr Activities Center, East Central University, Ada, OK",
-  "description": "A trunk-or-treat in the Kerr Activities Center parking lot right after the ECU homecoming parade.",
-  "organizer": "East Central University"
- },
- {
-  "id": "e216",
-  "date": "2026-10-24",
-  "title": "The Red 78's at Doc's Food Truck Park",
-  "category": "music",
-  "area": "ada-holdenville",
-  "time": "7:00 PM",
-  "venue": "Doc's Food Truck Park",
-  "address": "Doc's Food Truck Park, Ada, OK",
-  "description": "The Red 78's play live at Doc's Food Truck Park in Ada.",
-  "performer": [
-   "The Red 78's"
-  ],
-  "unconfirmed": true
- },
- {
-  "id": "e217",
-  "date": "2026-10-24",
-  "title": "Saturday Movie Screening: The Phantom of the Opera",
-  "category": "community",
-  "area": "ada-holdenville",
-  "time": "6:30 PM",
-  "venue": "Anoli' Theater, Chickasaw Cultural Center",
-  "address": "Chickasaw Cultural Center, 867 Cooper Memorial Dr, Sulphur, OK 73086",
-  "description": "Screening of The Phantom of the Opera on the Anoli' Theater's four-story screen. Tickets are sold at the door: $4 adults, $3 children 12 and under, or $6 with popcorn and a drink.",
-  "indoor": true,
-  "organizer": "Chickasaw Cultural Center",
-  "offers": {
-   "low": 3,
-   "high": 6
-  }
- },
- {
-  "id": "e218",
-  "date": "2026-10-25",
-  "title": "The Batchelor Family in Concert",
-  "category": "music",
-  "area": "poteau",
-  "time": "10:30 AM",
-  "venue": "God's Country Cowboy Church",
-  "address": "53001 Hwy 271 S, Talihina, OK 74571",
-  "description": "Southern gospel group The Batchelor Family performs at God's Country Cowboy Church.",
-  "performer": [
-   "The Batchelor Family"
-  ],
-  "unconfirmed": true
- },
- {
-  "id": "e219",
-  "date": "2026-10-25",
-  "title": "YMCA Community Open House",
-  "category": "community",
-  "area": "okmulgee-east",
-  "time": "1:00 PM – 5:00 PM",
-  "venue": "Okmulgee Family YMCA",
-  "address": "106 W 13th St, Okmulgee, OK 74447",
-  "description": "Free open house with basketball, fitness classes, tours, food trucks, vendors and kids STEM play; open to non-members.",
-  "organizer": "Okmulgee County Family YMCA",
   "free": true,
   "kids": true,
   "unconfirmed": true
@@ -3408,48 +2848,6 @@
   "free": true
  },
  {
-  "id": "e334",
-  "date": "2026-10-23",
-  "title": "Heartstill Arts & Entertainment",
-  "category": "music",
-  "area": "atoka",
-  "time": "5:00 - 8:00 PM",
-  "venue": "Reba's Place",
-  "address": "319 E Court St, Atoka, OK 74525",
-  "description": "Live entertainment at Reba's Place.",
-  "unconfirmed": true
- },
- {
-  "id": "e335",
-  "date": "2026-10-24",
-  "title": "Laura Linda Live",
-  "category": "music",
-  "area": "atoka",
-  "time": "5:00 - 8:00 PM",
-  "venue": "301 E Court St",
-  "address": "301 E Court St, Atoka, OK",
-  "description": "Live music downtown Atoka.",
-  "performer": [
-   "Laura Linda"
-  ],
-  "unconfirmed": true
- },
- {
-  "id": "e336",
-  "date": "2026-10-25",
-  "title": "Sawyer Guymon Live",
-  "category": "music",
-  "area": "atoka",
-  "time": "12:00 - 3:00 PM",
-  "venue": "301 E Court St",
-  "address": "301 E Court St, Atoka, OK",
-  "description": "Sunday afternoon live music downtown Atoka.",
-  "performer": [
-   "Sawyer Guymon"
-  ],
-  "unconfirmed": true
- },
- {
   "id": "e337",
   "date": "2026-11-14",
   "title": "Shawnda Rains Entertainment Group",
@@ -3533,43 +2931,6 @@
   ]
  },
  {
-  "id": "e343",
-  "date": "2026-10-23",
-  "endDate": "2026-10-25",
-  "title": "Down-Home Oktoberfest",
-  "category": "festivals",
-  "area": "idabel-broken-bow",
-  "time": "Time to be announced",
-  "venue": "Beavers Bend Brewery",
-  "address": "46 Coho Rd, Broken Bow, OK 74728",
-  "description": "Oktoberfest weekend at Beavers Bend Brewery.",
-  "unconfirmed": true
- },
- {
-  "id": "e344",
-  "date": "2026-10-24",
-  "title": "Nighttime Halloween Train of Terror",
-  "category": "community",
-  "area": "idabel-broken-bow",
-  "time": "Time to be announced",
-  "venue": "Beavers Bend Depot",
-  "address": "290 Beavers Bend Loop, Broken Bow, OK 74728",
-  "description": "Nighttime Halloween train ride at the Beavers Bend Depot.",
-  "unconfirmed": true
- },
- {
-  "id": "e345",
-  "date": "2026-10-24",
-  "title": "Lumberjax Festival",
-  "category": "festivals",
-  "area": "idabel-broken-bow",
-  "time": "Time to be announced",
-  "venue": "Wright City",
-  "address": "Wright City, OK",
-  "description": "Fall festival in Wright City.",
-  "unconfirmed": true
- },
- {
   "id": "e346",
   "date": "2026-10-31",
   "title": "Webbie Live in Idabel",
@@ -3620,15 +2981,124 @@
   ]
  },
  {
-  "id": "e349",
-  "date": "2026-10-24",
-  "title": "Duchess Creek Backyard Cook-Off",
-  "category": "festivals",
-  "area": "eufaula",
-  "time": "1 PM · awards 5:45 PM",
-  "venue": "Finn's Fireworks Park (Duchess Creek, Lake Eufaula)",
-  "address": "Finn's Fireworks Park, Porum, OK 74455",
-  "description": "3rd annual backyard BBQ cook-off with chicken, pork, open and brisket categories. People's Choice plates go on sale 4–4:45 PM: $15 gets you samples, a vote, a commemorative Frisbee and a prize ticket. Also a cornhole tournament (2-person teams, sign-up at 1:15, play at 1:45), live music, vendor booths, On the LAMb Winery, and Halloween games and prizes for kids (wear your costume).",
+  "id": "e350",
+  "date": "2026-11-13",
+  "endDate": "2026-11-14",
+  "title": "Magnolia Christmas Festival",
+  "category": "markets",
+  "area": "durant",
+  "time": "Time to be announced",
+  "venue": "Choctaw Event Center",
+  "address": "3702 Choctaw Rd, Durant, OK 74701",
+  "description": "Holiday shopping with more than 100 vendors, children's activities, a game show hosted by community leaders, and food. Free admission.",
+  "free": true,
   "kids": true
+ },
+ {
+  "id": "e351",
+  "date": "2026-11-13",
+  "title": "Imanoli Writers Conference",
+  "category": "community",
+  "area": "ada-holdenville",
+  "time": "9:00 AM – 4:00 PM",
+  "venue": "Anoli' Theater, Chickasaw Cultural Center",
+  "address": "Chickasaw Cultural Center, 867 Cooper Memorial Dr, Sulphur, OK 73086",
+  "description": "Writing conference with sessions from professional writers, open to writers of all ages. Free and open to the public; registration required (CulturalEnhancement@Chickasaw.net or 580-272-9326).",
+  "performer": [
+   "Danica Nava",
+   "Rebecca Weir",
+   "Hailey Robinson",
+   "Kati Cain",
+   "Jackson Davis"
+  ],
+  "organizer": "Chickasaw Nation",
+  "free": true,
+  "indoor": true
+ },
+ {
+  "id": "e352",
+  "date": "2026-11-14",
+  "title": "Michael Roberts Fancy Dancers",
+  "category": "shows",
+  "area": "idabel-broken-bow",
+  "time": "2:00 PM – 4:00 PM",
+  "venue": "Cypress Lawn, Choctaw Landing",
+  "address": "272 N State Highway 259A, Hochatown, OK 74728",
+  "description": "The Michael Roberts Fancy Dancers perform on the Cypress Lawn at Choctaw Landing.",
+  "performer": [
+   "Michael Roberts Fancy Dancers"
+  ],
+  "organizer": "Choctaw Landing"
+ },
+ {
+  "id": "e353",
+  "date": "2026-11-19",
+  "title": "McSwain Theatre Thursday Movie: Home Alone",
+  "category": "community",
+  "area": "ada-holdenville",
+  "time": "2:00 PM and 7:00 PM",
+  "venue": "McSwain Theatre",
+  "address": "McSwain Theatre, 130 W Main St, Ada, OK 74820",
+  "description": "A screening of the 1990 PG holiday comedy Home Alone. Tickets are $3, or $2 for seniors and children 12 and under; a $5 combo adds popcorn and a drink.",
+  "indoor": true,
+  "organizer": "Chickasaw Nation",
+  "offers": {
+   "low": 2,
+   "high": 5
+  }
+ },
+ {
+  "id": "e354",
+  "date": "2026-11-20",
+  "title": "Stickball Demonstration at Choctaw Landing",
+  "category": "community",
+  "area": "idabel-broken-bow",
+  "time": "2:00 PM – 4:00 PM",
+  "venue": "Choctaw Landing",
+  "address": "272 N State Highway 259A, Hochatown, OK 74728",
+  "description": "A stickball demonstration at Choctaw Landing.",
+  "organizer": "Choctaw Landing"
+ },
+ {
+  "id": "e355",
+  "date": "2026-11-27",
+  "title": "Enter Eden Live at Choctaw Landing",
+  "category": "music",
+  "area": "idabel-broken-bow",
+  "time": "2:00 PM – 5:00 PM",
+  "venue": "Cypress Lawn, Choctaw Landing",
+  "address": "272 N State Highway 259A, Hochatown, OK 74728",
+  "description": "Enter Eden plays live on the Cypress Lawn at Choctaw Landing.",
+  "performer": [
+   "Enter Eden"
+  ],
+  "organizer": "Choctaw Landing"
+ },
+ {
+  "id": "e356",
+  "date": "2026-11-28",
+  "title": "Southeast Remedy Live at Choctaw Landing",
+  "category": "music",
+  "area": "idabel-broken-bow",
+  "time": "2:00 PM – 5:00 PM",
+  "venue": "Cypress Lawn, Choctaw Landing",
+  "address": "272 N State Highway 259A, Hochatown, OK 74728",
+  "description": "Southeast Remedy plays live on the Cypress Lawn at Choctaw Landing.",
+  "performer": [
+   "Southeast Remedy"
+  ],
+  "organizer": "Choctaw Landing"
+ },
+ {
+  "id": "e357",
+  "date": "2026-11-28",
+  "title": "Shop Small Saturday in Downtown Durant",
+  "category": "markets",
+  "area": "durant",
+  "time": "Time to be announced",
+  "venue": "Historic Downtown Durant",
+  "address": "Historic Downtown Durant, Durant, OK",
+  "description": "Shop Small Saturday in Durant's historic downtown, listed by Durant Main Street.",
+  "organizer": "Durant Main Street"
  }
 ]
