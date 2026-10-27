@@ -3153,5 +3153,52 @@
   "venue": "Location to be announced",
   "address": "Location to be announced, McAlester, OK",
   "description": "McAlester's two McWinter Wonderland Christmas Zones open for the holiday season, the same day as the Great McAlester Snowball Fight. Details on travelmcalester.com."
+ },
+ {
+  "id": "e362",
+  "date": "2026-10-29",
+  "title": "Eufaula Merchant Trick-or-Treat",
+  "category": "community",
+  "time": "4:30 – 6:30 PM",
+  "venue": "Downtown Eufaula",
+  "address": "Downtown Eufaula, Eufaula, OK",
+  "description": "Trick-or-treat with downtown Eufaula merchants, put on by the Eufaula Area Chamber of Commerce. Residential trick-or-treating follows afterward.",
+  "kids": true,
+  "organizer": "Eufaula Area Chamber of Commerce",
+  "area": "eufaula"
+ },
+ {
+  "id": "e363",
+  "date": "2026-10-30",
+  "title": "Eufaula Homecoming Parade",
+  "category": "community",
+  "time": "1:00 PM",
+  "venue": "Downtown Eufaula",
+  "address": "Downtown Eufaula, Eufaula, OK",
+  "description": "Eufaula's homecoming parade through downtown.",
+  "area": "eufaula"
+ },
+ {
+  "id": "e364",
+  "date": "2026-10-31",
+  "title": "VFW Annual Golf Tournament",
+  "category": "sports",
+  "time": "9:00 AM shotgun start",
+  "venue": "Arrowhead State Park Golf Course",
+  "address": "3657 Main Park Rd, Canadian, OK",
+  "description": "The VFW's annual golf tournament at Arrowhead State Park Golf Course, 9 AM shotgun start.",
+  "area": "eufaula"
+ },
+ {
+  "id": "e365",
+  "date": "2026-10-31",
+  "title": "Samhain Celebration at Crystal Cactus",
+  "category": "community",
+  "time": "10:00 AM – 6:00 PM",
+  "venue": "Crystal Cactus",
+  "address": "Crystal Cactus, Eufaula, OK",
+  "description": "All-day Samhain celebration at Crystal Cactus in Eufaula.",
+  "indoor": true,
+  "area": "eufaula"
  }
 ]
