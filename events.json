@@ -3200,5 +3200,18 @@
   "description": "All-day Samhain celebration at Crystal Cactus in Eufaula.",
   "indoor": true,
   "area": "eufaula"
+ },
+ {
+  "id": "e366",
+  "date": "2026-10-31",
+  "title": "Hartshorne Fall Festival",
+  "category": "festivals",
+  "area": "mcalester",
+  "time": "11:00 AM – 4:00 PM",
+  "venue": "Hartshorne Community Center",
+  "address": "307 S 12th St, Hartshorne, OK 74547",
+  "description": "11 AM kids & pets costume parade (meet at Beare Manor), 11:30 games with Zella Kincaid, 12:30 baking and pumpkin decorating judging, and 1–4 PM live music from Gerald Rowland and Southern Drive (line dancing at 1). All day: vendors, a maze, obstacle course and slide, archery, free kids games, and trick-or-treating.",
+  "kids": true,
+  "unconfirmed": true
  }
 ]
