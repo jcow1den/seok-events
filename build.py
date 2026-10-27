@@ -56,7 +56,7 @@ def postal(addr):
         if m:
             out["postalCode"] = m.group(1)
         street = ", ".join(parts[:-2])
-        if street:
+        if street and "to be announced" not in street.lower():
             out["streetAddress"] = street
     return out
 
@@ -73,7 +73,7 @@ for e in live:
         "endDate": e.get("endDate") or e["date"],
         "eventStatus": "https://schema.org/EventScheduled",
         "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-        "location": {"@type": "Place", "name": e.get("venue") or e["town"], "address": postal(e["address"])},
+        "location": {"@type": "Place", "name": (e.get("venue") if e.get("venue") and "to be announced" not in e["venue"].lower() else e["town"]), "address": postal(e["address"])},
         "description": ((e.get("time") + ". ") if e.get("time") else "") + e.get("description", ""),
         "image": [SITE + "icons/event-1x1.png", SITE + "icons/event-4x3.png", SITE + "icons/event-16x9.png"],
         "url": SITE + "#" + e["id"],
