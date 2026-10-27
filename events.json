@@ -1300,7 +1300,7 @@
   "time": "5:00 PM - 7:00 PM",
   "venue": "Eastern Oklahoma State College",
   "address": "Eastern Oklahoma State College, Wilburton, OK",
-  "description": "Trunk or treat listed on the City of Wilburton community calendar."
+  "description": "Trunk or treat night at Eastern Oklahoma State College, with the Chamber of Commerce costume contest."
  },
  {
   "id": "e226",
@@ -1382,9 +1382,9 @@
   "category": "community",
   "area": "wilburton",
   "time": "5:30 PM - 7:00 PM",
-  "venue": "Location to be announced",
-  "address": "Location to be announced, Wilburton, OK",
-  "description": "Choctaw Nation trunk or treat listed on the City of Wilburton community calendar."
+  "venue": "Jennifer Woods Community Center",
+  "address": "Jennifer Woods Community Center, Wilburton, OK",
+  "description": "Choctaw Nation trunk or treat at the Jennifer Woods Community Center, part of Wilburton's Halloweek lineup."
  },
  {
   "id": "e232",
@@ -1541,10 +1541,10 @@
   "title": "Wilburton City-Wide Trick or Treat",
   "category": "community",
   "area": "wilburton",
-  "time": "5:30 PM - 9:00 PM",
+  "time": "6:00 PM - 9:00 PM",
   "venue": "Citywide",
   "address": "Citywide, Wilburton, OK",
-  "description": "City-wide trick-or-treat hours in Wilburton."
+  "description": "Community-wide trick-or-treat hours in Wilburton, right after the Main Street candy crawl. (The city calendar listed a 5:30 start; the Halloweek schedule says 6.)"
  },
  {
   "id": "e244",
@@ -3100,5 +3100,22 @@
   "address": "Historic Downtown Durant, Durant, OK",
   "description": "Shop Small Saturday in Durant's historic downtown, listed by Durant Main Street.",
   "organizer": "Durant Main Street"
+ },
+ {
+  "id": "e350",
+  "date": "2026-10-30",
+  "endDate": "2026-10-31",
+  "title": "VFW Haunted House",
+  "category": "community",
+  "area": "wilburton",
+  "time": "7:00 – 11:00 PM both nights",
+  "venue": "Goddard Building, Eastern Oklahoma State College",
+  "address": "Goddard Building, Eastern Oklahoma State College, Wilburton, OK",
+  "description": "The Wilburton VFW Auxiliary #3649 and VFW open a haunted house in the Goddard Building on the EOSC campus. Meant for middle schoolers, high schoolers, college students and adults; because it's scary, younger kids are asked not to come. Admission is a $5 donation per person.",
+  "indoor": true,
+  "organizer": "VFW Auxiliary #3649",
+  "offers": {
+   "low": 5
+  }
  }
 ]
