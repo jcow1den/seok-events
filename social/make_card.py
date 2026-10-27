@@ -10,7 +10,8 @@ card.json fields:
   items:    optional, up to 6: [{"cat": "festivals|music|shows|markets|community|sports", "title": "...", "meta": "Sat 6 PM · Wilburton"}]
   big:      optional large statement or question instead of a list, e.g. "Fish fry or chili cook-off?"
   photo:    optional path to a photo (from social/photos.py); fills the card, text sits at the bottom
-  credit:   photo credit line (required with photo), e.g. "Photo: Jane Smith, CC BY-SA 4.0"
+  credit:   photo credit line (required with a Wikimedia photo), e.g. "Photo: Jane Smith, CC BY-SA 4.0"
+  scene:    true for a picture from social/scenes/ (no credit line)
   footer:   optional small line at the bottom; leave it out (cards look like a friend's post, not an ad)
 Text only: no emoji (the renderer has no emoji font).
 """
@@ -85,13 +86,13 @@ def render(spec, out):
     if spec.get("big"): parts.append('<div class="big">%s</div>' % e(spec["big"]))
     if rows: parts.append('<div class="list">%s</div>' % rows)
     if spec.get("photo"):
-        if not spec.get("credit"):
+        if not spec.get("credit") and not spec.get("scene"):
             sys.exit("A photo needs its credit line (see the photo's .json from social/photos.py)")
         img = "data:image/jpeg;base64," + base64.b64encode(pathlib.Path(spec["photo"]).read_bytes()).decode()
         doc = ('<!doctype html><html><head><meta charset="utf-8"><style>%s</style></head><body>'
                '<div class="photo" style="background-image:url(%s);background-position:%s"></div><div class="shade"></div>'
                '<div class="pwrap">%s</div><div class="credit">%s</div></body></html>'
-               % (css, img, e(spec.get("focus", "center")), "".join(p for p in parts if 'class="list"' not in p), e(spec["credit"])))
+               % (css, img, e(spec.get("focus", "center")), "".join(p for p in parts if 'class="list"' not in p), e(spec.get("credit", ""))))
         return shoot(doc, out, 1350)
     doc = ('<!doctype html><html><head><meta charset="utf-8"><style>%s</style></head><body><div class="sun"></div>%s'
            '<div class="wrap">%s</div>%s</body></html>'

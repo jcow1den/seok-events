@@ -1,0 +1,14 @@
+[
+ {"file": "pumpkin-patch.jpg", "season": "fall (Oct-mid Nov)", "tags": ["pumpkin patch", "fall festival", "farm", "harvest"]},
+ {"file": "bbq-smoker.jpg", "season": "any", "tags": ["bbq", "cook-off", "food", "ribs", "smoker"]},
+ {"file": "christmas-main-street-1.jpg", "season": "Christmas (late Nov-Dec)", "tags": ["christmas", "downtown", "holiday market", "lights", "small town"]},
+ {"file": "christmas-main-street-2.jpg", "season": "Christmas (late Nov-Dec)", "tags": ["christmas", "downtown", "parade", "lights", "small town"]},
+ {"file": "christmas-tree-town-square.jpg", "season": "Christmas (late Nov-Dec)", "tags": ["christmas", "tree lighting", "lights", "town square"]},
+ {"file": "veterans-day-flags.jpg", "season": "Veterans Day (early Nov), Memorial Day, Fourth of July", "tags": ["veterans", "flags", "patriotic"]},
+ {"file": "lake-sunset-dock.jpg", "season": "any", "tags": ["lake", "fishing", "sunset", "outdoors", "weekend"]},
+ {"file": "thanksgiving-pies.jpg", "season": "Thanksgiving (Nov)", "tags": ["thanksgiving", "food", "pie", "dinner", "bake sale"]},
+ {"file": "fall-mountains-1.jpg", "season": "fall (Oct-Nov)", "tags": ["fall foliage", "mountains", "scenic drive", "outdoors"]},
+ {"file": "fall-mountains-fog-2.jpg", "season": "fall (Oct-Nov)", "tags": ["fall foliage", "mountains", "scenic drive", "outdoors"]},
+ {"file": "live-music-stage.jpg", "season": "any", "tags": ["live music", "concert", "country", "acoustic", "bar"]},
+ {"file": "fireworks-over-lake.jpg", "season": "New Year's Eve, Fourth of July", "tags": ["fireworks", "lake", "celebration"]}
+]
