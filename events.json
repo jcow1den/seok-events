@@ -3117,5 +3117,16 @@
   "offers": {
    "low": 5
   }
+ },
+ {
+  "id": "e359",
+  "date": "2026-10-31",
+  "title": "First Responder Trunk or Treat",
+  "category": "community",
+  "area": "atoka",
+  "time": "5:00 – 7:00 PM",
+  "venue": "N Delaware Ave between E Court St & A St",
+  "address": "N Delaware Ave, Atoka, OK 74525",
+  "description": "Trunk or treat with local first responders on N Delaware Ave, between E Court St and A St in downtown Atoka."
  }
 ]
