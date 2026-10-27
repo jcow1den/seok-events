@@ -137,9 +137,9 @@
   "title": "Choctaw Powwow",
   "category": "festivals",
   "area": "durant",
-  "time": "Fri doors 1 PM, Grand Entry 7 PM · Sat & Sun from 10 AM",
+  "time": "Grand Entries: Fri 7 PM · Sat 12:30 & 6:30 PM · Sun 12:30 PM",
   "venue": "Choctaw Event Center",
-  "address": "3702 Choctaw Rd, Durant, OK 74701",
+  "address": "Choctaw Casino & Resort, 3702 Choctaw Rd, Durant, OK 74701",
   "description": "One of the nation's largest powwows: gourd dancing, Grand Entries, dance and drum contests, and Choctaw hymns Sunday. Free.",
   "free": true,
   "indoor": true,
@@ -149,25 +149,28 @@
  {
   "id": "e048",
   "date": "2026-11-07",
-  "title": "Olde Town Flea Market",
+  "title": "Olde Town Junk & Flea Market",
   "category": "markets",
   "area": "mcalester",
   "time": "8:00 AM",
   "venue": "Olde Town Flea Market",
   "address": "2645 N Main St, McAlester, OK",
-  "description": "First-Saturday flea market with vintage finds and handmade goods.",
-  "unconfirmed": true
+  "description": "First-Saturday flea market with vintage finds and handmade goods."
  },
  {
   "id": "e049",
   "date": "2026-11-07",
-  "title": "Dancing Rabbit Music Festival Finale",
+  "title": "Dancing Rabbit Music Festival: Blacktop Mojo & Sisteria",
   "category": "music",
   "area": "mcalester",
   "time": "6:00 – 11:30 PM",
   "venue": "East Choctaw Ave",
   "address": "E Choctaw Ave, McAlester, OK",
-  "description": "Free outdoor music festival downtown on Choctaw Avenue."
+  "description": "Dancing Rabbit Music Festival on East Choctaw Ave downtown, featuring Blacktop Mojo and Sisteria.",
+  "performer": [
+   "Blacktop Mojo",
+   "Sisteria"
+  ]
  },
  {
   "id": "e050",
@@ -3128,5 +3131,27 @@
   "venue": "N Delaware Ave between E Court St & A St",
   "address": "N Delaware Ave, Atoka, OK 74525",
   "description": "Trunk or treat with local first responders on N Delaware Ave, between E Court St and A St in downtown Atoka."
+ },
+ {
+  "id": "e360",
+  "date": "2026-11-06",
+  "title": "True Crime Cemetery Tour",
+  "category": "community",
+  "area": "mcalester",
+  "time": "Time to be announced",
+  "venue": "Location to be announced",
+  "address": "Location to be announced, McAlester, OK",
+  "description": "A true-crime themed cemetery tour on Travel McAlester's November lineup. Time and meeting spot to be announced; check travelmcalester.com."
+ },
+ {
+  "id": "e361",
+  "date": "2026-11-28",
+  "title": "McWinter Wonderland Christmas Zones Open",
+  "category": "festivals",
+  "area": "mcalester",
+  "time": "Time to be announced",
+  "venue": "Location to be announced",
+  "address": "Location to be announced, McAlester, OK",
+  "description": "McAlester's two McWinter Wonderland Christmas Zones open for the holiday season, the same day as the Great McAlester Snowball Fight. Details on travelmcalester.com."
  }
 ]
