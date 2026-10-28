@@ -3655,5 +3655,19 @@
   "organizer": "Stigler-Haskell County Chamber of Commerce",
   "unconfirmed": true,
   "id": "e402"
+ },
+ {
+  "id": "e403",
+  "date": "2026-10-31",
+  "title": "Stuart Trick-or-Treating",
+  "category": "community",
+  "area": "ada-holdenville",
+  "time": "Time to be announced",
+  "venue": "Around town in Stuart",
+  "address": "Stuart, OK 74570",
+  "description": "Town trick-or-treating in Stuart on Halloween night. Locals say the school's kids also walk downtown to trick-or-treat on Friday at 12:30 PM.",
+  "free": true,
+  "kids": true,
+  "unconfirmed": true
  }
 ]
