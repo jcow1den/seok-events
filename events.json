@@ -21,18 +21,6 @@
   ]
  },
  {
-  "id": "e036",
-  "date": "2026-10-26",
-  "title": "Adventure Head Start Trunk or Treat",
-  "category": "community",
-  "area": "mcalester",
-  "time": "5:00 – 7:00 PM",
-  "venue": "Adventure Head Start",
-  "address": "1615 S George Nigh Expy, McAlester, OK 74501",
-  "description": "Halloween trunk or treat for kids in costume.",
-  "kids": true
- },
- {
   "id": "e037",
   "date": "2026-10-29",
   "title": "Trunk or Treat: Party at the Expo",
@@ -286,15 +274,16 @@
  {
   "id": "e108",
   "date": "2026-11-06",
-  "title": "Dustin de la Garza",
+  "title": "Dustin de la Garza with Austin Dixon",
   "category": "music",
   "area": "idabel-broken-bow",
-  "time": "10:00 PM",
+  "time": "Doors 7:00 PM, show 10:00 PM",
   "venue": "Hochatown Saloon",
   "address": "28 Old Hochatown Rd, Broken Bow, OK 74728",
-  "description": "Live music at Hochatown Saloon.",
+  "description": "Live music at Hochatown Saloon from Dustin de la Garza with Austin Dixon.",
   "performer": [
-   "Dustin de la Garza"
+   "Dustin de la Garza",
+   "Austin Dixon"
   ]
  },
  {
@@ -368,11 +357,10 @@
   "title": "Trends & Treasures Craft Fair",
   "category": "markets",
   "area": "eufaula",
-  "time": "Time TBA",
+  "time": "10:00 AM – 4:00 PM",
   "venue": "Trends & Treasures",
-  "address": "510 W Gentry Ave, Checotah, OK",
-  "description": "Small-town craft fair with local artists and growers, plus a food truck.",
-  "unconfirmed": true
+  "address": "510 W Gentry Ave, Checotah, OK 74426",
+  "description": "Small-town craft fair with local artists and growers, plus a food truck and free parking."
  },
  {
   "id": "e125",
@@ -406,7 +394,7 @@
   "title": "Bayker Blankenship with Read Southall & Caroline Grace",
   "category": "music",
   "area": "durant",
-  "time": "Evening",
+  "time": "7:30 PM",
   "venue": "Choctaw Grand Theater, Choctaw Casino & Resort",
   "address": "4216 S Hwy 69/75, Durant, OK 74701",
   "description": "Country triple bill at the Choctaw Grand Theater.",
@@ -732,7 +720,7 @@
   "time": "6:00 – 8:00 PM",
   "venue": "Arvest Park",
   "address": "Arvest Park, McAlester, OK",
-  "description": "McAlester flips on its Christmas lights at Arvest Park with the Festival of Trees."
+  "description": "McAlester flips on its Christmas lights at Arvest Park with the 4th annual Festival of Trees. Santa and his reindeer will be there."
  },
  {
   "id": "e152",
@@ -978,14 +966,13 @@
   "title": "Los Socios del Ritmo",
   "category": "music",
   "area": "poteau",
-  "time": "See venue for time",
+  "time": "Doors 8:00 PM, show 9:00 PM",
   "venue": "Choctaw Casino & Resort – Pocola",
   "address": "3400 Choctaw Rd, Pocola, OK 74902",
-  "description": "Los Socios del Ritmo live on the Center Stage.",
+  "description": "Los Socios del Ritmo live on CenterStage. Under 18 must be with a parent or guardian.",
   "performer": [
    "Los Socios del Ritmo"
   ],
-  "unconfirmed": true,
   "indoor": true
  },
  {
@@ -994,14 +981,13 @@
   "title": "Chris Janson",
   "category": "music",
   "area": "poteau",
-  "time": "See venue for time",
+  "time": "Doors 7:00 PM, show 8:00 PM",
   "venue": "Choctaw Casino & Resort – Pocola",
   "address": "3400 Choctaw Rd, Pocola, OK 74902",
   "description": "Country singer Chris Janson live on the Center Stage.",
   "performer": [
    "Chris Janson"
   ],
-  "unconfirmed": true,
   "indoor": true
  },
  {
@@ -1220,37 +1206,6 @@
   "organizer": "Anderson Holiday Fun",
   "free": true,
   "kids": true,
-  "unconfirmed": true
- },
- {
-  "id": "e220",
-  "date": "2026-10-26",
-  "title": "Halloween Pajama Storytime",
-  "category": "community",
-  "area": "poteau",
-  "time": "6:00 PM – 7:00 PM",
-  "venue": "Patrick Lynch Public Library",
-  "address": "206 S McKenna St, Poteau, OK 74953",
-  "description": "Family Halloween storytime in pajamas or costumes with stories, games, crafts and treats.",
-  "organizer": "Patrick Lynch Public Library",
-  "kids": true,
-  "indoor": true,
-  "unconfirmed": true
- },
- {
-  "id": "e221",
-  "date": "2026-10-27",
-  "title": "Dustin Perkins at El Adobe Mexican Grill",
-  "category": "music",
-  "area": "atoka",
-  "time": "7:00 PM",
-  "venue": "El Adobe Mexican Grill",
-  "address": "472 S Mississippi Ave, Atoka, OK 74525",
-  "description": "Dustin Perkins plays a Taco Tuesday set at El Adobe Mexican Grill in Atoka.",
-  "indoor": true,
-  "performer": [
-   "Dustin Perkins"
-  ],
   "unconfirmed": true
  },
  {
@@ -3275,5 +3230,430 @@
   "venue": "Midnight Riders",
   "address": "McAlester, OK 74501",
   "description": "A grown-ups' Halloween party with a costume contest."
+ },
+ {
+  "date": "2026-10-30",
+  "title": "Atoka High School \"HalloComing\" Homecoming Parade",
+  "category": "community",
+  "area": "atoka",
+  "time": "2:00 PM",
+  "venue": "Downtown Atoka",
+  "address": "Downtown Atoka, Atoka, OK",
+  "description": "Halloween-themed homecoming parade through downtown Atoka. Coronation follows at 6:30 PM at the AHS football field before the 7 PM kickoff.",
+  "organizer": "Atoka High School",
+  "id": "e372"
+ },
+ {
+  "date": "2026-11-03",
+  "title": "Blood Drive in Talihina",
+  "category": "community",
+  "area": "poteau",
+  "time": "7:30 AM – 5:30 PM",
+  "venue": "Choctaw Nation Health Care Center",
+  "address": "1 Choctaw Way, Talihina, OK 74571",
+  "description": "Blood drive for the Annual Blood Drive Challenge. Walk-ins welcome, or book through the Oklahoma Blood Institute.",
+  "organizer": "Choctaw Nation of Oklahoma",
+  "indoor": true,
+  "id": "e373"
+ },
+ {
+  "date": "2026-11-20",
+  "title": "Chris Cash Live at PMAC 2.0",
+  "category": "music",
+  "area": "poteau",
+  "time": "8:00 – 11:00 PM",
+  "venue": "PMAC 2.0",
+  "address": "22138 Arnall Rd, Poteau, OK 74953",
+  "description": "Singer-songwriter Chris Cash plays his first show at PMAC 2.0 and takes song requests.",
+  "performer": [
+   "Chris Cash"
+  ],
+  "unconfirmed": true,
+  "id": "e374"
+ },
+ {
+  "date": "2026-11-21",
+  "title": "Pajama Jam Skate Night",
+  "category": "community",
+  "area": "poteau",
+  "time": "7:00 PM",
+  "venue": "Skate-Reation",
+  "address": "201 Hughes Dr, Poteau, OK 74953",
+  "description": "Skate night where everyone comes in pajamas or onesies.",
+  "indoor": true,
+  "unconfirmed": true,
+  "id": "e375"
+ },
+ {
+  "date": "2026-12-05",
+  "title": "LeFlore County Coffee Crawl",
+  "category": "community",
+  "area": "poteau",
+  "time": "8:30 – 11:30 AM",
+  "venue": "The Coffee Cup",
+  "address": "401 N Broadway St, Poteau, OK 74953",
+  "description": "Three-stop coffee tour with talks and samples: The Coffee Cup/Good Day Coffee in Poteau (8:30), Nana's Coffee House in Pocola (9:45) and Eight Forks Ranch in Poteau (11:00).",
+  "offers": {
+   "low": 20
+  },
+  "unconfirmed": true,
+  "id": "e376"
+ },
+ {
+  "date": "2026-12-12",
+  "title": "Pink Christmas Candle Painting Party",
+  "category": "community",
+  "area": "hugo-antlers",
+  "time": "2:00 – 4:00 PM (doors 1:30 PM)",
+  "venue": "Sweet Meltz",
+  "address": "408 N M St, Hugo, OK 74743",
+  "description": "Decorate two pillar candles, with hot cocoa, cupcakes, snacks and goodie bags. Supplies provided; kids under 14 need a parent or guardian.",
+  "indoor": true,
+  "organizer": "Sweet Meltz",
+  "id": "e377"
+ },
+ {
+  "date": "2026-11-19",
+  "title": "Thanksgiving Community Dinner in Idabel",
+  "category": "community",
+  "area": "idabel-broken-bow",
+  "time": "6:00 PM",
+  "venue": "Idabel Community Center",
+  "address": "2408 E Lincoln Rd, Idabel, OK 74745",
+  "description": "The Choctaw Nation invites the public to a Thanksgiving community dinner.",
+  "organizer": "Choctaw Nation of Oklahoma",
+  "indoor": true,
+  "id": "e378"
+ },
+ {
+  "date": "2026-11-22",
+  "title": "Melodies of Love",
+  "category": "music",
+  "area": "durant",
+  "time": "Doors 5:00 PM, show 6:00 PM",
+  "venue": "Choctaw Grand Theater, Choctaw Casino & Resort",
+  "address": "4216 S Hwy 69/75, Durant, OK 74701",
+  "description": "An evening of Vietnamese love songs, from ballads and bolero to contemporary favorites, sung by five artists.",
+  "performer": [
+   "Tuấn Ngọc",
+   "Lệ Quyên",
+   "Đan Nguyên",
+   "Chu Thúy Quỳnh",
+   "Lương Tùng Quang"
+  ],
+  "indoor": true,
+  "id": "e379"
+ },
+ {
+  "date": "2026-11-20",
+  "title": "Curator Talk: Carriers of Culture",
+  "category": "community",
+  "area": "durant",
+  "time": "11:00 AM",
+  "venue": "Choctaw Cultural Center",
+  "address": "1919 Hina Hanta Way, Calera, OK 74730",
+  "description": "The Choctaw Cultural Center's monthly curator talk, this time on the Carriers of Culture exhibition. Register through the center's events page.",
+  "indoor": true,
+  "organizer": "Choctaw Cultural Center",
+  "id": "e380"
+ },
+ {
+  "date": "2026-12-12",
+  "title": "Cinema at the Center: Happy Feet",
+  "category": "community",
+  "area": "durant",
+  "time": "1:00 PM",
+  "venue": "Choctaw Cultural Center",
+  "address": "1919 Hina Hanta Way, Calera, OK 74730",
+  "description": "Free screening of Happy Feet at the Choctaw Cultural Center.",
+  "free": true,
+  "indoor": true,
+  "organizer": "Choctaw Cultural Center",
+  "id": "e381"
+ },
+ {
+  "date": "2026-12-12",
+  "title": "Frybread Workshop",
+  "category": "community",
+  "area": "durant",
+  "time": "11:00 AM and 1:00 PM",
+  "venue": "Choctaw Cultural Center",
+  "address": "1919 Hina Hanta Way, Calera, OK 74730",
+  "description": "Hands-on frybread workshop in two sessions. Registration required.",
+  "indoor": true,
+  "organizer": "Choctaw Cultural Center",
+  "id": "e382"
+ },
+ {
+  "date": "2026-11-07",
+  "title": "Carter Combs at Mountain Fork Brewery",
+  "category": "music",
+  "area": "idabel-broken-bow",
+  "time": "1:00 PM",
+  "venue": "Mountain Fork Brewery Taproom",
+  "address": "Mountain Fork Brewery Taproom, Hochatown, OK",
+  "description": "Live music from Carter Combs in the Mountain Fork Brewery taproom.",
+  "performer": [
+   "Carter Combs"
+  ],
+  "unconfirmed": true,
+  "id": "e383"
+ },
+ {
+  "date": "2026-11-14",
+  "title": "Coby Winn Band at Mountain Fork Brewery",
+  "category": "music",
+  "area": "idabel-broken-bow",
+  "time": "6:30 PM",
+  "venue": "Mountain Fork Brewery Taproom",
+  "address": "Mountain Fork Brewery Taproom, Hochatown, OK",
+  "description": "Live music from Coby Winn Band in the Mountain Fork Brewery taproom.",
+  "performer": [
+   "Coby Winn Band"
+  ],
+  "unconfirmed": true,
+  "id": "e384"
+ },
+ {
+  "date": "2026-11-20",
+  "title": "Clay Logan at Mountain Fork Brewery",
+  "category": "music",
+  "area": "idabel-broken-bow",
+  "time": "6:30 PM",
+  "venue": "Mountain Fork Brewery Taproom",
+  "address": "Mountain Fork Brewery Taproom, Hochatown, OK",
+  "description": "Live music from Clay Logan in the Mountain Fork Brewery taproom.",
+  "performer": [
+   "Clay Logan"
+  ],
+  "unconfirmed": true,
+  "id": "e385"
+ },
+ {
+  "date": "2026-11-21",
+  "title": "Gage & The Live Rounds at Mountain Fork Brewery",
+  "category": "music",
+  "area": "idabel-broken-bow",
+  "time": "6:30 PM",
+  "venue": "Mountain Fork Brewery Taproom",
+  "address": "Mountain Fork Brewery Taproom, Hochatown, OK",
+  "description": "Live music from Gage & The Live Rounds in the Mountain Fork Brewery taproom.",
+  "performer": [
+   "Gage & The Live Rounds"
+  ],
+  "unconfirmed": true,
+  "id": "e386"
+ },
+ {
+  "date": "2026-11-27",
+  "title": "Dusty Holster Band at Mountain Fork Brewery",
+  "category": "music",
+  "area": "idabel-broken-bow",
+  "time": "6:30 PM",
+  "venue": "Mountain Fork Brewery Taproom",
+  "address": "Mountain Fork Brewery Taproom, Hochatown, OK",
+  "description": "Live music from Dusty Holster Band in the Mountain Fork Brewery taproom.",
+  "performer": [
+   "Dusty Holster Band"
+  ],
+  "unconfirmed": true,
+  "id": "e387"
+ },
+ {
+  "date": "2026-11-28",
+  "title": "Savage Hurley at Mountain Fork Brewery",
+  "category": "music",
+  "area": "idabel-broken-bow",
+  "time": "6:30 PM",
+  "venue": "Mountain Fork Brewery Taproom",
+  "address": "Mountain Fork Brewery Taproom, Hochatown, OK",
+  "description": "Live music from Savage Hurley in the Mountain Fork Brewery taproom.",
+  "performer": [
+   "Savage Hurley"
+  ],
+  "unconfirmed": true,
+  "id": "e388"
+ },
+ {
+  "date": "2026-10-30",
+  "title": "Ryan Rhynes at Ole Red Tishomingo",
+  "category": "music",
+  "area": "ada-holdenville",
+  "time": "5:30 PM",
+  "venue": "Ole Red Tishomingo",
+  "address": "214 W Main St, Tishomingo, OK 73460",
+  "description": "Live music from Ryan Rhynes at Ole Red Tishomingo.",
+  "performer": [
+   "Ryan Rhynes"
+  ],
+  "indoor": true,
+  "id": "e389"
+ },
+ {
+  "date": "2026-10-30",
+  "title": "Final Friday Fellowship Community Meal",
+  "category": "community",
+  "area": "eufaula",
+  "time": "6:00 PM",
+  "venue": "Sycamores Community Church",
+  "address": "420103 E 1147 Rd, Checotah, OK 74426",
+  "description": "Community meal with soups and chilis on the menu.",
+  "organizer": "Sycamores Community Church",
+  "unconfirmed": true,
+  "id": "e390"
+ },
+ {
+  "date": "2026-10-31",
+  "title": "Curtis Eugene Woodfork Turkey Shoot",
+  "category": "community",
+  "area": "eufaula",
+  "time": "11:00 AM – 2:00 PM",
+  "venue": "Warrior School Grounds",
+  "address": "Warrior School Grounds, Checotah, OK",
+  "description": "The annual turkey shoot on the Warrior School grounds, 10 miles west of Checotah.",
+  "id": "e391"
+ },
+ {
+  "date": "2026-10-31",
+  "title": "Checotah's Annual Trunk or Treat",
+  "category": "community",
+  "area": "eufaula",
+  "time": "5:30 PM",
+  "venue": "Downtown Checotah",
+  "address": "Downtown Checotah, Checotah, OK",
+  "description": "Kids in costume collect candy from local businesses, churches and organizations downtown.",
+  "kids": true,
+  "organizer": "Checotah Chamber of Commerce",
+  "unconfirmed": true,
+  "id": "e392"
+ },
+ {
+  "date": "2026-10-31",
+  "title": "Haunted Forest at Lake Eufaula State Park",
+  "category": "community",
+  "area": "eufaula",
+  "time": "Dark until 10:00 PM",
+  "venue": "Lake Eufaula State Park",
+  "address": "Lake Eufaula State Park, Checotah, OK",
+  "description": "The park's Saturday-night haunted forest wraps up for October, with concessions, T-shirts and face painting.",
+  "id": "e393"
+ },
+ {
+  "date": "2026-10-31",
+  "title": "Ada Farmers Market",
+  "category": "markets",
+  "area": "ada-holdenville",
+  "time": "7:00 AM – 2:00 PM",
+  "venue": "12th Street and Townsend parking lot",
+  "address": "12th St and Townsend, Ada, OK 74820",
+  "description": "Saturday farmers market in Ada.",
+  "id": "e394"
+ },
+ {
+  "date": "2026-11-07",
+  "title": "Artillery Demonstrations at Honey Springs Battlefield",
+  "category": "community",
+  "area": "eufaula",
+  "time": "10:30 AM, 11:30 AM, 1:30 PM and 2:30 PM",
+  "venue": "Honey Springs Battlefield",
+  "address": "423159 E 1030 Rd, Checotah, OK 74426",
+  "description": "The 1st Arkansas Mountain Artillery fires a Mountain Howitzer and a Mountain Rifle, followed by a short talk by director Jim Spillars. Free with regular admission.",
+  "organizer": "Oklahoma Historical Society",
+  "id": "e395"
+ },
+ {
+  "date": "2026-11-11",
+  "title": "Checotah Veterans Day",
+  "category": "community",
+  "area": "eufaula",
+  "time": "Time to be announced",
+  "venue": "Location to be announced",
+  "address": "Location to be announced, Checotah, OK",
+  "description": "Veterans Day event on the Checotah Chamber of Commerce calendar. Details to be announced.",
+  "organizer": "Checotah Chamber of Commerce",
+  "id": "e396"
+ },
+ {
+  "date": "2026-11-14",
+  "title": "Public Reception: \"My Baggage: Back to Wewoka\" by C. Maxx Stevens",
+  "category": "community",
+  "area": "ada-holdenville",
+  "time": "11:00 AM – 2:00 PM",
+  "venue": "Seminole Nation Museum",
+  "address": "524 S Wewoka Ave, Wewoka, OK 74884",
+  "description": "Reception for Seminole/Muscogee artist C. Maxx Stevens, whose exhibit uses vintage luggage and found objects to explore the idea of place.",
+  "indoor": true,
+  "organizer": "Seminole Nation Museum",
+  "id": "e397"
+ },
+ {
+  "date": "2026-11-15",
+  "title": "Kindergarten Klassic Horse Event",
+  "category": "sports",
+  "area": "eufaula",
+  "time": "10:00 AM",
+  "venue": "Checotah Round Up Club",
+  "address": "Checotah Round Up Club, Checotah, OK",
+  "description": "Horse event with $5,000 added, with first-timer, Futurity, Derby, Youth, Senior and High Roller classes.",
+  "organizer": "Wine Glass Horses",
+  "unconfirmed": true,
+  "id": "e398"
+ },
+ {
+  "date": "2026-11-21",
+  "title": "Ole Red's Christmas Express Experience",
+  "category": "community",
+  "area": "ada-holdenville",
+  "time": "Doors 5:30 PM, movie 6:00 PM",
+  "venue": "The Doghouse at Ole Red Tishomingo",
+  "address": "214 W Main St, Tishomingo, OK 73460",
+  "description": "Pajama night inspired by the Polar Express: kid-friendly dinner, a Christmas movie, popcorn, hot chocolate, and a train ticket and sleigh bell for every guest.",
+  "kids": true,
+  "indoor": true,
+  "organizer": "Ole Red Tishomingo",
+  "id": "e399"
+ },
+ {
+  "date": "2026-12-18",
+  "title": "Ole Red's Christmas Express Experience",
+  "category": "community",
+  "area": "ada-holdenville",
+  "time": "Doors 5:30 PM, movie 6:00 PM",
+  "venue": "The Doghouse at Ole Red Tishomingo",
+  "address": "214 W Main St, Tishomingo, OK 73460",
+  "description": "Pajama night inspired by the Polar Express: kid-friendly dinner, a Christmas movie, popcorn, hot chocolate, and a train ticket and sleigh bell for every guest.",
+  "kids": true,
+  "indoor": true,
+  "organizer": "Ole Red Tishomingo",
+  "id": "e400"
+ },
+ {
+  "date": "2026-11-28",
+  "title": "The Swon Brothers 9th Annual Thanksgiving Show",
+  "category": "music",
+  "area": "ada-holdenville",
+  "time": "Doors 6:30 PM, dinner 7:00 PM, show 8:00 PM",
+  "venue": "The Doghouse at Ole Red Tishomingo",
+  "address": "214 W Main St, Tishomingo, OK 73460",
+  "description": "The Swon Brothers' Thanksgiving weekend show. Tickets include a reserved seat and a smoked pork dinner with sides.",
+  "performer": [
+   "The Swon Brothers"
+  ],
+  "indoor": true,
+  "organizer": "Ole Red Tishomingo",
+  "id": "e401"
+ },
+ {
+  "date": "2026-12-05",
+  "title": "Stigler Christmas Parade: Christmas at the Movies",
+  "category": "community",
+  "area": "eufaula",
+  "time": "10:00 AM",
+  "venue": "Downtown Stigler",
+  "address": "204 E Main St, Stigler, OK 74462",
+  "description": "Each parade entry is themed on a Christmas movie, and the crowd guesses which one.",
+  "organizer": "Stigler-Haskell County Chamber of Commerce",
+  "unconfirmed": true,
+  "id": "e402"
  }
 ]
