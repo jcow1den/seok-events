@@ -4,5 +4,7 @@
  {"date": "2026-10-21", "time": "12:00", "format": "settle-this", "title": "Settle this: Ribtoberfest or Jinglebell Market (Sat Nov 7, McAlester)", "image": "social/img/2026-10-21-wednesday.png", "events": ["e051", "e052"]},
  {"date": "2026-10-22", "time": "11:30", "format": "weekend", "title": "Weekend plans, sorted (Fri-Sun Oct 23-25)", "image": "social/img/2026-10-22-weekend.png", "events": ["e206", "e025", "e121", "e198", "e197", "e035", "e030"]},
  {"date": "2026-10-24", "time": "09:30", "format": "spotlight", "title": "If you only do one thing today: Viking Festival, Heavener", "image": "social/img/2026-10-24-saturday.png", "photo": "", "events": ["e206"]},
- {"date": "2026-10-26", "time": "10:30", "format": "this-week", "title": "Thursday is stacked (Mon-Thu Oct 26-29)", "image": "social/img/2026-10-26-monday.png", "photo": "", "events": ["e227", "e224", "e037", "e225", "e236", "e242"]}
+ {"date": "2026-10-26", "time": "10:30", "format": "this-week", "title": "Thursday is stacked (Mon-Thu Oct 26-29)", "image": "social/img/2026-10-26-monday.png", "photo": "", "events": ["e227", "e224", "e037", "e225", "e236", "e242"]},
+ {"date": "2026-10-28", "time": "12:00", "format": "question", "title": "Best thing in the candy bag? (trick-or-treat vote)", "image": "social/img/2026-10-28-wednesday.png", "photo": "", "events": ["e362", "e145", "e242", "e370"]},
+ {"date": "2026-10-29", "time": "11:30", "format": "weekend", "title": "Halloween weekend: where we'd go (Fri-Sat Oct 30-31)", "image": "social/img/2026-10-29-weekend.png", "photo": "scene:pumpkin-patch.jpg", "events": ["e171", "e229", "e367", "e366", "e246"]}
 ]
