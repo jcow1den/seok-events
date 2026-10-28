@@ -1288,12 +1288,11 @@
   "category": "community",
   "area": "mcalester",
   "time": "9:00 AM - 4:00 PM",
-  "venue": "McAlester Discovery Campus",
-  "address": "1016 E South Ave, McAlester, OK 74501",
+  "venue": "Fire Administration Building",
+  "address": "South Ave, McAlester, OK 74501",
   "description": "Kids can see fire trucks, utility trucks and other big vehicles up close, climb aboard and meet the people who operate them.",
   "free": true,
-  "kids": true,
-  "organizer": "McAlester Discovery Campus"
+  "kids": true
  },
  {
   "id": "e225",
@@ -2846,9 +2845,9 @@
   "category": "community",
   "area": "mcalester",
   "time": "6:30 PM - 8:00 PM",
-  "venue": "Southeast Expo Center",
+  "venue": "Southeast Expo Center and Motor Speedway",
   "address": "4500 W US-270, McAlester, OK 74501",
-  "description": "Free movie night at the Expo showing Monster House.",
+  "description": "Free showing of Monster House at 6:30 PM, part of Trunk or Treat: Party at the Expo.",
   "free": true
  },
  {
@@ -3214,5 +3213,67 @@
   "description": "11 AM kids & pets costume parade (meet at Beare Manor), 11:30 games with Zella Kincaid, 12:30 baking and pumpkin decorating judging, and 1–4 PM live music from Gerald Rowland and Southern Drive (line dancing at 1). All day: vendors, a maze, obstacle course and slide, archery, free kids games, and trick-or-treating.",
   "kids": true,
   "organizer": "Hartshorne Community Center"
+ },
+ {
+  "id": "e367",
+  "date": "2026-10-31",
+  "title": "Coalgate Auto Show",
+  "category": "community",
+  "area": "atoka",
+  "time": "Starts 8:00 AM",
+  "venue": "Donald Mike Mayer Field",
+  "address": "Donald Mike Mayer Field, Coalgate, OK 74538",
+  "description": "A car show with a big wheels race, chili cook-off, costume contest, vendors and more. All proceeds go to the Coalgate Wildcat Band Boosters. Questions: bandboosters.coalgate@gmail.com.",
+  "kids": true,
+  "organizer": "Coalgate Wildcat Band Boosters"
+ },
+ {
+  "id": "e368",
+  "date": "2026-10-31",
+  "title": "Stonewall Cars & Coffee",
+  "category": "community",
+  "area": "ada-holdenville",
+  "time": "8:00 AM – 10:00 AM",
+  "venue": "Backwoods Beauty Salon",
+  "address": "107 W Main St, Stonewall, OK 74871",
+  "description": "Cars & coffee on Main Street in Stonewall, hosted by D&H Classics. Free entry.",
+  "free": true,
+  "organizer": "D&H Classics"
+ },
+ {
+  "id": "e369",
+  "date": "2026-10-29",
+  "title": "General Knowledge Trivia Night",
+  "category": "community",
+  "area": "mcalester",
+  "time": "Time to be announced",
+  "venue": "Spaceship Earth Coffee Co.",
+  "address": "345 E Choctaw Ave, McAlester, OK 74501",
+  "description": "Weekly general knowledge trivia night at Spaceship Earth Coffee.",
+  "indoor": true
+ },
+ {
+  "id": "e370",
+  "date": "2026-10-31",
+  "title": "McAlester Citywide Trick-or-Treating",
+  "category": "community",
+  "area": "mcalester",
+  "time": "6:00 – 9:00 PM",
+  "venue": "Neighborhoods across McAlester",
+  "address": "McAlester, OK 74501",
+  "description": "Trick-or-treating across McAlester on Halloween night.",
+  "free": true,
+  "kids": true
+ },
+ {
+  "id": "e371",
+  "date": "2026-10-31",
+  "title": "Midnight Riders Halloween Party & Costume Contest",
+  "category": "community",
+  "area": "mcalester",
+  "time": "Time to be announced",
+  "venue": "Midnight Riders",
+  "address": "McAlester, OK 74501",
+  "description": "A grown-ups' Halloween party with a costume contest."
  }
 ]
