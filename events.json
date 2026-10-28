@@ -39,11 +39,12 @@
   "category": "community",
   "area": "mcalester",
   "time": "5:00 – 8:00 PM",
-  "venue": "Southeast Expo Center",
+  "venue": "Southeast Expo Center and Motor Speedway",
   "address": "4500 W US-270, McAlester, OK 74501",
-  "description": "Indoor Halloween party at the Expo with trunk or treat.",
-  "indoor": true,
-  "kids": true
+  "description": "Trunk or treat with tons of decorated trunks from local businesses, plus inflatables, games, hayrides, and a free showing of Monster House at 6:30 PM. Free.",
+  "kids": true,
+  "free": true,
+  "organizer": "Travel McAlester"
  },
  {
   "id": "e039",
