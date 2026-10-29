@@ -263,6 +263,9 @@ dialog.wxd{overflow-x:hidden}
 .nextup .ev{display:block;font-weight:700;font-size:14.5px;line-height:1.25;margin-top:4px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:min(58vw,360px)}
 .nextup .clock{font:700 22px/1 ui-monospace,"SF Mono",Menlo,Consolas,monospace;font-variant-numeric:tabular-nums;letter-spacing:.01em;white-space:nowrap}
 .nextup .clock small{font-size:12px;opacity:.7;margin:0 3px 0 1px}
+.nextup{box-sizing:border-box}.nextup>span:first-child{min-width:0;flex:1 1 auto}.nextup .clock{flex:none}
+.kv a.src{color:inherit;text-decoration:underline;word-break:break-all}
+@media (max-width:440px){.nextup{gap:10px;padding:9px 12px}.nextup .ev{max-width:100%}.nextup .clock{font-size:17px}.nextup .clock small{font-size:10px;margin:0 2px 0 1px}}
 .live{display:inline-flex;align-items:center;gap:7px;font-size:12.5px;font-weight:600;opacity:.85;margin-top:2px}
 .dot{width:8px;height:8px;border-radius:50%;background:#4ade80;box-shadow:0 0 0 0 rgba(74,222,128,.6);flex:none}
 @media (prefers-reduced-motion:no-preference){ .dot{animation:pulse 2s infinite} @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(74,222,128,.55)}70%{box-shadow:0 0 0 8px rgba(74,222,128,0)}100%{box-shadow:0 0 0 0 rgba(74,222,128,0)}} }
@@ -951,7 +954,8 @@ function card(e,today){
     e.unconfirmed&&h("p",{class:"note"},"We haven't confirmed this one with the organizer yet. Check with the host before you go."),
     h("dl",{class:"kv"},h("dt",null,"When"),h("dd",null,whenText(e)+(e.time?" · "+e.time:"")),
       e.venue&&h("dt",null,"Where"),e.venue&&h("dd",null,e.venue),
-      e.address&&h("dt",null,"Address"),e.address&&h("dd",null,e.address)),
+      e.address&&h("dt",null,"Address"),e.address&&h("dd",null,e.address),
+      e.source&&h("dt",null,"Source"),e.source&&h("dd",null,h("a",{href:e.source,target:"_blank",rel:"noopener",class:"src"},srcHost(e.source)))),
     h("div",{class:"acts"},
       h("a",{class:"btn pri",href:maps(e),target:"_blank",rel:"noopener"},icon("pin"),"Directions"),
       h("a",{class:"btn",href:gcal(e),target:"_blank",rel:"noopener"},icon("cal"),"Add to calendar"),
@@ -1554,6 +1558,7 @@ document.getElementById("plan-open").addEventListener("click",()=>openPlan());
   if(season==="christmas"&&!q&&md>="12-01"){ const n=daysBetween(today,yr+"-12-25"); if(n>=0) g.textContent+= n>0?" 🎄 "+n+(n===1?" day":" days")+" till Christmas.":" 🎄 Merry Christmas!"; }
 })();
 
+function srcHost(u){ try{ return new URL(u).hostname.replace(/^www\./,""); }catch(x){ return "Event page"; } }
 /* ===== Live status + next-up countdown ===== */
 (function(){
   const today=todayCT();

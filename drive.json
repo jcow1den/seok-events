@@ -5,13 +5,14 @@
   "date": "2026-11-08",
   "title": "MercyMe",
   "time": "7:00 PM",
-  "description": "Christian music concert.",
+  "description": "MercyMe brings the hits like I Can Only Imagine to Paycom Center for a Sunday night show.",
   "city": "Oklahoma City",
   "venue": "Paycom Center",
   "address": "100 W Reno Ave, Oklahoma City, OK 73102",
   "lat": 35.4726,
   "lon": -97.5199,
-  "url": "https://www.paycomcenter.com/events"
+  "url": "https://www.paycomcenter.com/events",
+  "source": "https://www.paycomcenter.com/events/detail/mercyme-2026"
  },
  {
   "id": "d007",
@@ -19,13 +20,14 @@
   "date": "2026-11-09",
   "title": "Jonas Brothers: Burning Up Tour All Over Again",
   "time": "7:30 PM",
-  "description": "Tour honoring their 2008 Burning Up Tour.",
+  "description": "The Jonas Brothers bring back the Burning Up Tour from 2008, with the old songs front and center.",
   "city": "Oklahoma City",
   "venue": "Paycom Center",
   "address": "100 W Reno Ave, Oklahoma City, OK 73102",
   "lat": 35.4726,
   "lon": -97.5199,
-  "url": "https://www.paycomcenter.com/events"
+  "url": "https://www.paycomcenter.com/events",
+  "source": "https://www.paycomcenter.com/events/detail/jonas-brothers-26"
  },
  {
   "id": "d016",
@@ -47,27 +49,29 @@
   "date": "2026-10-30",
   "title": "Teddy Swims: The UGLY Tour",
   "time": "7:00 PM · doors 6:00",
-  "description": "Arena concert.",
+  "description": "Teddy Swims brings The UGLY Tour to Fort Worth. Big soul and pop voice, arena show.",
   "city": "Fort Worth",
   "venue": "Dickies Arena",
   "address": "1911 Montgomery St, Fort Worth, TX",
   "lat": 32.7392,
   "lon": -97.3852,
-  "url": "https://dickiesarena.com/events"
+  "url": "https://dickiesarena.com/events",
+  "source": "https://dickiesarena.com/event/2026-10-30-teddy-swims/"
  },
  {
   "id": "d018",
   "kind": "shows",
   "date": "2026-11-01",
   "title": "MercyMe with Jeremy Camp, Tim Timmons & Sam Wesley",
-  "time": "7:00 PM · doors 6:00",
-  "description": "Christian music concert.",
+  "time": "Doors 5:30 PM, show 7:00 PM",
+  "description": "MercyMe with Jeremy Camp, Tim Timmons and Sam Wesley at Dickies Arena.",
   "city": "Fort Worth",
   "venue": "Dickies Arena",
   "address": "1911 Montgomery St, Fort Worth, TX",
   "lat": 32.7392,
   "lon": -97.3852,
-  "url": "https://dickiesarena.com/events"
+  "url": "https://dickiesarena.com/events",
+  "source": "https://dickiesarena.com/event/2026-11-01-mercyme/"
  },
  {
   "id": "d019",
@@ -75,21 +79,22 @@
   "date": "2026-11-07",
   "title": "John Summit: CTRL ESCAPE Arena Tour",
   "time": "7:00 PM · doors 6:00",
-  "description": "Two nights of electronic dance music.",
+  "description": "John Summit plays two nights of house and electronic dance music on his CTRL ESCAPE arena tour.",
   "city": "Fort Worth",
   "venue": "Dickies Arena",
   "address": "1911 Montgomery St, Fort Worth, TX",
   "lat": 32.7392,
   "lon": -97.3852,
   "url": "https://dickiesarena.com/events",
-  "endDate": "2026-11-08"
+  "endDate": "2026-11-08",
+  "source": "https://dickiesarena.com/event/2026-11-07-john-summit/"
  },
  {
   "id": "d020",
   "kind": "family",
   "date": "2026-11-13",
   "title": "Hot Wheels Monster Trucks Live: Glow-N-Fire",
-  "time": "Times vary by day",
+  "time": "Fri 7 PM, Sat 11:30 AM & 6:30 PM, Sun 1:30 PM",
   "description": "Monster truck show. Check the arena for each day's times.",
   "city": "Fort Worth",
   "venue": "Dickies Arena",
@@ -97,7 +102,8 @@
   "lat": 32.7392,
   "lon": -97.3852,
   "url": "https://dickiesarena.com/events",
-  "endDate": "2026-11-15"
+  "endDate": "2026-11-15",
+  "source": "https://dickiesarena.com/event/2026-11-13-15-hot-wheels-glow-n-fire/"
  },
  {
   "id": "d023",
@@ -116,7 +122,8 @@
   "openDays": [
    5,
    6
-  ]
+  ],
+  "source": "https://okcastle.com/halloween-festival-faq/halloween-festival-faq/"
  },
  {
   "id": "d025",
@@ -135,7 +142,8 @@
   "openDays": [
    6,
    0
-  ]
+  ],
+  "source": "https://www.okczoo.org/HTZ"
  },
  {
   "id": "d026",
@@ -156,7 +164,8 @@
    5,
    6,
    0
-  ]
+  ],
+  "source": "https://tulsazoo.org/hallowzooeen"
  },
  {
   "id": "d030",
@@ -164,13 +173,14 @@
   "date": "2026-11-04",
   "title": "OKC Thunder vs. Cleveland Cavaliers",
   "time": "7:00 PM",
-  "description": "NBA game.",
+  "description": "The Thunder host the Cleveland Cavaliers at Paycom Center.",
   "city": "Oklahoma City",
   "venue": "Paycom Center",
   "address": "100 W Reno Ave, Oklahoma City, OK 73102",
   "lat": 35.4726,
   "lon": -97.5199,
-  "url": "https://www.paycomcenter.com/events"
+  "url": "https://www.paycomcenter.com/events",
+  "source": "https://www.paycomcenter.com/events"
  },
  {
   "id": "d031",
@@ -178,68 +188,59 @@
   "date": "2026-11-07",
   "title": "OKC Thunder vs. Washington Wizards",
   "time": "7:00 PM",
-  "description": "NBA game.",
+  "description": "The Thunder host the Washington Wizards on a Saturday night at Paycom Center.",
   "city": "Oklahoma City",
   "venue": "Paycom Center",
   "address": "100 W Reno Ave, Oklahoma City, OK 73102",
   "lat": 35.4726,
   "lon": -97.5199,
-  "url": "https://www.paycomcenter.com/events"
+  "url": "https://www.paycomcenter.com/events",
+  "source": "https://www.paycomcenter.com/events"
  },
  {
   "id": "d033",
   "kind": "sports",
   "date": "2026-10-31",
   "title": "Oklahoma Sooners vs. South Carolina",
-  "time": "Kickoff time TBA",
-  "description": "OU home football.",
+  "time": "Kickoff 3:15 PM",
+  "description": "OU hosts South Carolina on Halloween in Norman. On SEC Network.",
   "city": "Norman",
   "venue": "Gaylord Family Oklahoma Memorial Stadium",
   "address": "1185 Asp Ave, Norman, OK",
   "lat": 35.2086,
   "lon": -97.4445,
-  "url": "https://soonersports.com/news/2025/12/11/ous-2026-sec-football-schedule-announced"
+  "url": "https://soonersports.com/news/2025/12/11/ous-2026-sec-football-schedule-announced",
+  "source": "https://gamecocksonline.com/news/2026/10/19/south-carolina-at-oklahoma-oct-31-set-for-415-p-m-et/"
  },
  {
   "id": "d034",
   "kind": "sports",
   "date": "2026-11-14",
   "title": "Oklahoma Sooners vs. Ole Miss",
-  "time": "Kickoff time TBA",
-  "description": "OU home football.",
+  "time": "Kickoff 2:30 PM",
+  "description": "OU hosts Ole Miss in an SEC game at Owen Field in Norman.",
   "city": "Norman",
   "venue": "Gaylord Family Oklahoma Memorial Stadium",
   "address": "1185 Asp Ave, Norman, OK",
   "lat": 35.2086,
   "lon": -97.4445,
-  "url": "https://soonersports.com/news/2025/12/11/ous-2026-sec-football-schedule-announced"
- },
- {
-  "id": "d036",
-  "kind": "sports",
-  "date": "2026-11-14",
-  "title": "Oklahoma State Cowboys vs. Texas Tech",
-  "time": "Kickoff time TBA",
-  "description": "OSU home football.",
-  "city": "Stillwater",
-  "venue": "Boone Pickens Stadium",
-  "address": "700 W Hall of Fame Ave, Stillwater, OK 74075",
-  "lat": 36.1396,
-  "lon": -97.063,
-  "url": "https://www.okstate.com/news/2026/1/21/cowboy-football-2026-oklahoma-state-football-schedule-announced"
+  "url": "https://soonersports.com/news/2025/12/11/ous-2026-sec-football-schedule-announced",
+  "source": "https://soonersports.com/game-center/15631"
  },
  {
   "id": "d037",
   "kind": "shows",
   "date": "2026-11-06",
   "title": "Three Days Grace",
-  "description": "With I Prevail and The Funeral Portrait.",
+  "description": "Three Days Grace on the Alienation Tour, with I Prevail and The Funeral Portrait.",
   "city": "Tulsa",
   "venue": "BOK Center",
   "address": "200 S Denver Ave, Tulsa, OK 74103",
   "lat": 36.1539,
   "lon": -95.9954,
-  "url": "https://www.songkick.com/venues/11944-bok-center/calendar"
+  "url": "https://www.songkick.com/venues/11944-bok-center/calendar",
+  "source": "https://www.bokcenter.com/events/detail/3daysgrace-26",
+  "time": "7:00 PM"
  },
  {
   "id": "d038",
@@ -337,13 +338,15 @@
   "kind": "shows",
   "date": "2026-11-15",
   "title": "Leanne Morgan",
-  "description": "Stand-up comedy.",
+  "description": "Tennessee comedian Leanne Morgan brings her stand-up about family, marriage and being a mama to Paycom Center.",
   "city": "Oklahoma City",
   "venue": "Paycom Center",
   "address": "100 W Reno Ave, Oklahoma City, OK 73102",
   "lat": 35.4726,
   "lon": -97.5199,
-  "url": "https://www.songkick.com/venues/626796-paycom-center/calendar"
+  "url": "https://www.songkick.com/venues/626796-paycom-center/calendar",
+  "source": "https://www.paycomcenter.com/events/detail/leanne-morgan-26",
+  "time": "7:00 PM"
  },
  {
   "id": "d046",
@@ -376,13 +379,15 @@
   "kind": "shows",
   "date": "2026-11-13",
   "title": "La Mafia",
-  "description": "",
+  "description": "Tejano legends La Mafia play Lucas Oil Live at WinStar. Doors open 90 minutes before the show.",
   "city": "Thackerville",
   "venue": "Lucas Oil Live at WinStar",
   "address": "777 Casino Ave, Thackerville, OK 73459",
   "lat": 33.7882,
   "lon": -97.1363,
-  "url": "https://www.songkick.com/venues/4503575-lucas-oil-live-winstar-world-casino-and-resort/calendar"
+  "url": "https://www.songkick.com/venues/4503575-lucas-oil-live-winstar-world-casino-and-resort/calendar",
+  "source": "https://www.winstar.com/event/la-mafia-2026/",
+  "time": "8:00 PM"
  },
  {
   "id": "d049",
@@ -467,26 +472,30 @@
   "kind": "shows",
   "date": "2026-11-07",
   "title": "Three Dog Night",
-  "description": "",
+  "description": "Three Dog Night plays the hits at The Cove at River Spirit.",
   "city": "Tulsa",
   "venue": "The Cove at River Spirit Casino Resort",
   "address": "8330 Riverside Pkwy, Tulsa, OK 74137",
   "lat": 36.0284,
   "lon": -95.9306,
-  "url": "https://songkick.com/venues/4477115-cove-river-spirit-casino-resort/calendar"
+  "url": "https://songkick.com/venues/4477115-cove-river-spirit-casino-resort/calendar",
+  "source": "https://www.travelok.com/listings/view.profile/id.33431/event.55024",
+  "time": "Doors 7:00 PM, show 8:00 PM"
  },
  {
   "id": "d056",
   "kind": "shows",
   "date": "2026-11-19",
   "title": "Kenny Wayne Shepherd Band",
-  "description": "",
+  "description": "Blues guitar from Kenny Wayne Shepherd and his band at The Cove.",
   "city": "Tulsa",
   "venue": "The Cove at River Spirit Casino Resort",
   "address": "8330 Riverside Pkwy, Tulsa, OK 74137",
   "lat": 36.0284,
   "lon": -95.9306,
-  "url": "https://songkick.com/venues/4477115-cove-river-spirit-casino-resort/calendar"
+  "url": "https://songkick.com/venues/4477115-cove-river-spirit-casino-resort/calendar",
+  "source": "https://www.travelok.com/listings/view.profile/id.32102/55568",
+  "time": "Doors 7:00 PM, show 8:00 PM"
  },
  {
   "id": "d057",
@@ -702,52 +711,60 @@
   "kind": "shows",
   "date": "2026-11-04",
   "title": "Doja Cat",
-  "description": "",
+  "description": "Doja Cat in concert at American Airlines Center.",
   "city": "Dallas",
   "venue": "American Airlines Center",
   "address": "2500 Victory Ave, Dallas, TX",
   "lat": 32.8132,
   "lon": -96.8142,
-  "url": "https://www.songkick.com/venues/673-american-airlines-center/calendar"
+  "url": "https://www.songkick.com/venues/673-american-airlines-center/calendar",
+  "source": "https://www.americanairlinescenter.com/events/detail/doja-cat-26",
+  "time": "Doors 6:00 PM, show 7:30 PM"
  },
  {
   "id": "d074",
   "kind": "shows",
   "date": "2026-11-10",
   "title": "Jonas Brothers",
-  "description": "",
+  "description": "Jonas Brothers bring the Burning Up Tour to Dallas.",
   "city": "Dallas",
   "venue": "American Airlines Center",
   "address": "2500 Victory Ave, Dallas, TX",
   "lat": 32.8132,
   "lon": -96.8142,
-  "url": "https://www.songkick.com/venues/673-american-airlines-center/calendar"
+  "url": "https://www.songkick.com/venues/673-american-airlines-center/calendar",
+  "source": "https://www.americanairlinescenter.com/events/detail/jonas-brothers-2",
+  "time": "Doors 6:00 PM, show 7:30 PM"
  },
  {
   "id": "d075",
   "kind": "shows",
   "date": "2026-11-11",
   "title": "KATSEYE",
-  "description": "",
+  "description": "Pop group KATSEYE in concert at American Airlines Center.",
   "city": "Dallas",
   "venue": "American Airlines Center",
   "address": "2500 Victory Ave, Dallas, TX",
   "lat": 32.8132,
   "lon": -96.8142,
-  "url": "https://www.songkick.com/venues/673-american-airlines-center/calendar"
+  "url": "https://www.songkick.com/venues/673-american-airlines-center/calendar",
+  "source": "https://www.americanairlinescenter.com/events/detail/katseye",
+  "time": "Doors 6:30 PM, show 8:00 PM"
  },
  {
   "id": "d076",
   "kind": "shows",
   "date": "2026-11-20",
   "title": "Journey",
-  "description": "",
+  "description": "Journey plays the classics at American Airlines Center.",
   "city": "Dallas",
   "venue": "American Airlines Center",
   "address": "2500 Victory Ave, Dallas, TX",
   "lat": 32.8132,
   "lon": -96.8142,
-  "url": "https://www.songkick.com/venues/673-american-airlines-center/calendar"
+  "url": "https://www.songkick.com/venues/673-american-airlines-center/calendar",
+  "source": "https://www.americanairlinescenter.com/events/detail/journey",
+  "time": "Doors 6:00 PM, show 7:30 PM"
  },
  {
   "id": "d077",
@@ -807,13 +824,14 @@
   "date": "2026-11-18",
   "title": "OKC Thunder vs. Atlanta Hawks",
   "time": "7:00 PM tip",
-  "description": "Thunder home game.",
+  "description": "The Thunder host the Atlanta Hawks at Paycom Center.",
   "city": "Oklahoma City",
   "venue": "Paycom Center",
   "address": "100 W Reno Ave, Oklahoma City, OK 73102",
   "lat": 35.4726,
   "lon": -97.5199,
-  "url": "https://www.news9.com/oklahoma-city-thunder/okc-thunder-2026-27-full-schedule-82-games"
+  "url": "https://www.news9.com/oklahoma-city-thunder/okc-thunder-2026-27-full-schedule-82-games",
+  "source": "https://www.paycomcenter.com/events"
  },
  {
   "id": "d082",
@@ -821,13 +839,14 @@
   "date": "2026-11-20",
   "title": "OKC Thunder vs. New Orleans Pelicans",
   "time": "7:00 PM tip",
-  "description": "Thunder home game. NBA Cup game.",
+  "description": "The Thunder host the New Orleans Pelicans in an NBA Cup game at Paycom Center.",
   "city": "Oklahoma City",
   "venue": "Paycom Center",
   "address": "100 W Reno Ave, Oklahoma City, OK 73102",
   "lat": 35.4726,
   "lon": -97.5199,
-  "url": "https://www.news9.com/oklahoma-city-thunder/okc-thunder-2026-27-full-schedule-82-games"
+  "url": "https://www.news9.com/oklahoma-city-thunder/okc-thunder-2026-27-full-schedule-82-games",
+  "source": "https://www.paycomcenter.com/events"
  },
  {
   "id": "d083",
@@ -1073,78 +1092,90 @@
   "kind": "shows",
   "date": "2026-10-30",
   "title": "Van Full of Nuns",
-  "description": "",
+  "description": "Pop Punk Nite costume party with Van Full of Nuns and Waiting 4 April. All ages.",
   "city": "Tulsa",
   "venue": "Cain's Ballroom",
   "address": "423 N Main St, Tulsa, OK 74103",
   "lat": 36.1594,
   "lon": -95.9928,
-  "url": "https://songkick.com/venues/1232-cains-ballroom/calendar"
+  "url": "https://songkick.com/venues/1232-cains-ballroom/calendar",
+  "source": "https://www.cainsballroom.com/event/pop-punk-nite-by-van-full-of-nuns-5/cains-ballroom/tulsa--oklahoma/",
+  "time": "Doors 7:00 PM"
  },
  {
   "id": "d103",
   "kind": "shows",
   "date": "2026-11-04",
   "title": "Neko Case and Destroyer",
-  "description": "",
+  "description": "Neko Case on the Neon Grey Midnight Green Tour, with Destroyer playing solo. All ages.",
   "city": "Tulsa",
   "venue": "Cain's Ballroom",
   "address": "423 N Main St, Tulsa, OK 74103",
   "lat": 36.1594,
   "lon": -95.9928,
-  "url": "https://songkick.com/venues/1232-cains-ballroom/calendar"
+  "url": "https://songkick.com/venues/1232-cains-ballroom/calendar",
+  "source": "https://www.cainsballroom.com/event/neko-case/cains-ballroom/tulsa--oklahoma/",
+  "time": "Doors 6:30 PM"
  },
  {
   "id": "d104",
   "kind": "shows",
   "date": "2026-11-05",
   "title": "Southall",
-  "description": "",
+  "description": "Oklahoma's own Southall with The Ransom Brothers. All ages.",
   "city": "Tulsa",
   "venue": "Cain's Ballroom",
   "address": "423 N Main St, Tulsa, OK 74103",
   "lat": 36.1594,
   "lon": -95.9928,
-  "url": "https://songkick.com/venues/1232-cains-ballroom/calendar"
+  "url": "https://songkick.com/venues/1232-cains-ballroom/calendar",
+  "source": "https://www.cainsballroom.com/event/southall-2/cains-ballroom/tulsa--oklahoma/",
+  "time": "Doors 6:30 PM"
  },
  {
   "id": "d105",
   "kind": "shows",
   "date": "2026-11-10",
   "title": "Rival Sons",
-  "description": "With The Blue Stones and The Velveteers.",
+  "description": "Rock and roll from Rival Sons on the Domestic Bliss Tour, with The Blue Stones and The Velveteers.",
   "city": "Tulsa",
   "venue": "Cain's Ballroom",
   "address": "423 N Main St, Tulsa, OK 74103",
   "lat": 36.1594,
   "lon": -95.9928,
-  "url": "https://songkick.com/venues/1232-cains-ballroom/calendar"
+  "url": "https://songkick.com/venues/1232-cains-ballroom/calendar",
+  "source": "https://www.cainsballroom.com/event/rival-sons/cains-ballroom/tulsa--oklahoma/",
+  "time": "Doors 7:00 PM"
  },
  {
   "id": "d106",
   "kind": "shows",
   "date": "2026-11-11",
   "title": "Wilderado",
-  "description": "",
+  "description": "Tulsa band Wilderado with Ken Pomeroy, a Route 66 centennial concert. Sold out.",
   "city": "Tulsa",
   "venue": "Cain's Ballroom",
   "address": "423 N Main St, Tulsa, OK 74103",
   "lat": 36.1594,
   "lon": -95.9928,
-  "url": "https://songkick.com/venues/1232-cains-ballroom/calendar"
+  "url": "https://songkick.com/venues/1232-cains-ballroom/calendar",
+  "source": "https://www.cainsballroom.com/event/wilderado-with-ken-pomeroy/cains-ballroom/tulsa--oklahoma/",
+  "time": "Doors 6:00 PM"
  },
  {
   "id": "d107",
   "kind": "shows",
   "date": "2026-11-12",
   "title": "Hayes Carll",
-  "description": "",
+  "description": "Texas songwriter Hayes Carll with The Droptines and Lance Roark. All ages.",
   "city": "Tulsa",
   "venue": "Cain's Ballroom",
   "address": "423 N Main St, Tulsa, OK 74103",
   "lat": 36.1594,
   "lon": -95.9928,
-  "url": "https://songkick.com/venues/1232-cains-ballroom/calendar"
+  "url": "https://songkick.com/venues/1232-cains-ballroom/calendar",
+  "source": "https://www.cainsballroom.com/event/hayes-carll/cains-ballroom/tulsa--oklahoma/",
+  "time": "Doors 6:00 PM"
  },
  {
   "id": "d108",
@@ -1490,14 +1521,16 @@
   "kind": "shows",
   "date": "2026-11-18",
   "title": "The Phantom of the Opera",
-  "description": "Celebrity Attractions Broadway series.",
+  "description": "The Phantom of the Opera tour comes to Tulsa's Chapman Music Hall for two weeks.",
   "city": "Tulsa",
   "venue": "Tulsa Performing Arts Center",
   "address": "110 E 2nd St, Tulsa, OK 74103",
   "lat": 36.1527,
   "lon": -95.991,
   "url": "https://tulsaflyer.org/2026/03/25/culture/arts/post/tulsa-broadway-plays-2026-27/",
-  "endDate": "2026-11-29"
+  "endDate": "2026-11-29",
+  "source": "https://www.tulsa-theater.com/shows/tulsa-performing-arts-center-chapman-music-hall/phantom-of-the-opera/tickets/calendar",
+  "time": "Most nights 7:30 PM, matinees on select days (no show Nov 26)"
  },
  {
   "id": "d136",
@@ -1559,78 +1592,90 @@
   "kind": "shows",
   "date": "2026-11-01",
   "title": "Ryan Bingham",
-  "description": "With The Texas Gentlemen.",
+  "description": "Ryan Bingham with The Texas Gentlemen. Red dirt and Americana.",
   "city": "Oklahoma City",
   "venue": "The Criterion",
   "address": "500 E Sheridan Ave, Oklahoma City, OK 73104",
   "lat": 35.466,
   "lon": -97.5089,
-  "url": "https://www.songkick.com/venues/3192449-criterion/calendar"
+  "url": "https://www.songkick.com/venues/3192449-criterion/calendar",
+  "source": "https://www.jambase.com/show/ryan-bingham-the-criterion-20261101",
+  "time": "Doors 7:00 PM"
  },
  {
   "id": "d142",
   "kind": "shows",
   "date": "2026-11-04",
   "title": "Daughtry",
-  "description": "",
+  "description": "Daughtry live at The Criterion. Chris Daughtry's rock band with the radio hits.",
   "city": "Oklahoma City",
   "venue": "The Criterion",
   "address": "500 E Sheridan Ave, Oklahoma City, OK 73104",
   "lat": 35.466,
   "lon": -97.5089,
-  "url": "https://www.songkick.com/venues/3192449-criterion/calendar"
+  "url": "https://www.songkick.com/venues/3192449-criterion/calendar",
+  "source": "https://criterionokc.com/shows/",
+  "time": "Doors 6:00 PM"
  },
  {
   "id": "d143",
   "kind": "shows",
   "date": "2026-11-06",
   "title": "Underoath, August Burns Red & Atreyu",
-  "description": "With As Cities Burn.",
+  "description": "Underoath, August Burns Red and Atreyu share a bill, with As Cities Burn opening.",
   "city": "Oklahoma City",
   "venue": "The Criterion",
   "address": "500 E Sheridan Ave, Oklahoma City, OK 73104",
   "lat": 35.466,
   "lon": -97.5089,
-  "url": "https://www.songkick.com/venues/3192449-criterion/calendar"
+  "url": "https://www.songkick.com/venues/3192449-criterion/calendar",
+  "source": "https://criterionokc.com/shows/",
+  "time": "Doors 5:30 PM"
  },
  {
   "id": "d144",
   "kind": "shows",
   "date": "2026-11-12",
   "title": "Thundercat",
-  "description": "",
+  "description": "Bass player and singer Thundercat live at The Criterion.",
   "city": "Oklahoma City",
   "venue": "The Criterion",
   "address": "500 E Sheridan Ave, Oklahoma City, OK 73104",
   "lat": 35.466,
   "lon": -97.5089,
-  "url": "https://www.songkick.com/venues/3192449-criterion/calendar"
+  "url": "https://www.songkick.com/venues/3192449-criterion/calendar",
+  "source": "https://criterionokc.com/shows/",
+  "time": "Doors 7:00 PM"
  },
  {
   "id": "d145",
   "kind": "shows",
   "date": "2026-11-13",
   "title": "Switchfoot and Anberlin",
-  "description": "",
+  "description": "Switchfoot with Anberlin on the Forever Now Tour.",
   "city": "Oklahoma City",
   "venue": "The Criterion",
   "address": "500 E Sheridan Ave, Oklahoma City, OK 73104",
   "lat": 35.466,
   "lon": -97.5089,
-  "url": "https://www.songkick.com/venues/3192449-criterion/calendar"
+  "url": "https://www.songkick.com/venues/3192449-criterion/calendar",
+  "source": "https://criterionokc.com/shows/switchfoot-with-special-guest-anberlin-forever-now-tour/",
+  "time": "Doors 7:00 PM"
  },
  {
   "id": "d146",
   "kind": "shows",
   "date": "2026-11-16",
   "title": "Mannequin Pussy and Wednesday",
-  "description": "",
+  "description": "Mannequin Pussy and Wednesday on a co-headline tour.",
   "city": "Oklahoma City",
   "venue": "The Criterion",
   "address": "500 E Sheridan Ave, Oklahoma City, OK 73104",
   "lat": 35.466,
   "lon": -97.5089,
-  "url": "https://www.songkick.com/venues/3192449-criterion/calendar"
+  "url": "https://www.songkick.com/venues/3192449-criterion/calendar",
+  "source": "https://criterionokc.com/shows/",
+  "time": "Doors 7:00 PM"
  },
  {
   "id": "d147",
@@ -1728,39 +1773,45 @@
   "kind": "shows",
   "date": "2026-11-01",
   "title": "PJ Morton",
-  "description": "",
+  "description": "PJ Morton on the Saturday Night Sunday Morning Tour. Soul, gospel and R&B. All ages.",
   "city": "Oklahoma City",
   "venue": "Tower Theatre",
   "address": "425 NW 23rd St, Oklahoma City, OK 73103",
   "lat": 35.4925,
   "lon": -97.5196,
-  "url": "https://songkick.com/venues/85495-tower-theatre/calendar"
+  "url": "https://songkick.com/venues/85495-tower-theatre/calendar",
+  "source": "https://towertheatreokc.com/events/pj-morton-saturday-night-sunday-morning-tour/",
+  "time": "Doors 7:00 PM, show 8:00 PM"
  },
  {
   "id": "d161",
   "kind": "shows",
   "date": "2026-11-04",
   "title": "The War and Treaty",
-  "description": "",
+  "description": "The War and Treaty, the husband and wife duo mixing soul, country and gospel. All ages.",
   "city": "Oklahoma City",
   "venue": "Tower Theatre",
   "address": "425 NW 23rd St, Oklahoma City, OK 73103",
   "lat": 35.4925,
   "lon": -97.5196,
-  "url": "https://songkick.com/venues/85495-tower-theatre/calendar"
+  "url": "https://songkick.com/venues/85495-tower-theatre/calendar",
+  "source": "https://towertheatreokc.com/events/the-war-and-treaty/",
+  "time": "Doors 7:00 PM, show 8:00 PM"
  },
  {
   "id": "d162",
   "kind": "shows",
   "date": "2026-11-14",
   "title": "Lily Rose",
-  "description": "",
+  "description": "Country singer Lily Rose with Erin Kinsey. All ages.",
   "city": "Oklahoma City",
   "venue": "Tower Theatre",
   "address": "425 NW 23rd St, Oklahoma City, OK 73103",
   "lat": 35.4925,
   "lon": -97.5196,
-  "url": "https://songkick.com/venues/85495-tower-theatre/calendar"
+  "url": "https://songkick.com/venues/85495-tower-theatre/calendar",
+  "source": "https://towertheatreokc.com/events/lily-rose/",
+  "time": "Doors 7:00 PM, show 8:00 PM"
  },
  {
   "id": "d163",
@@ -1819,26 +1870,32 @@
   "kind": "shows",
   "date": "2026-10-30",
   "title": "Old Crow Medicine Show",
-  "description": "",
+  "description": "Old Crow Medicine Show on the Union Made Tour, with Ken Pomeroy opening.",
   "city": "Oklahoma City",
   "venue": "The Jones Assembly",
   "address": "901 W Sheridan Ave, Oklahoma City, OK",
   "lat": 35.4663,
   "lon": -97.5275,
-  "url": "https://www.songkick.com/es/venues/3543559-jones-assembly"
+  "url": "https://www.songkick.com/es/venues/3543559-jones-assembly",
+  "source": "https://www.jambase.com/show/old-crow-medicine-show-the-jones-assembly-20261030",
+  "time": "Doors 6:30 PM",
+  "unconfirmed": true
  },
  {
   "id": "d169",
   "kind": "shows",
   "date": "2026-11-02",
   "title": "Shakey Graves",
-  "description": "With Wild Pink.",
+  "description": "Shakey Graves with Wild Pink on the Fondness Etc. Tour.",
   "city": "Oklahoma City",
   "venue": "The Jones Assembly",
   "address": "901 W Sheridan Ave, Oklahoma City, OK",
   "lat": 35.4663,
   "lon": -97.5275,
-  "url": "https://www.songkick.com/es/venues/3543559-jones-assembly"
+  "url": "https://www.songkick.com/es/venues/3543559-jones-assembly",
+  "source": "https://songbeacon.com/show/shakey-graves-fondness-etc-tour-at-the-jones-assembly-2026-11-02-effad1ec-tickets",
+  "time": "Doors 6:30 PM",
+  "unconfirmed": true
  },
  {
   "id": "d170",
@@ -1871,35 +1928,38 @@
   "kind": "shows",
   "date": "2026-11-04",
   "title": "The Phantom of the Opera",
-  "description": "OKC Broadway.",
+  "description": "The Phantom of the Opera tour plays two weeks at the Civic Center for OKC Broadway.",
   "city": "Oklahoma City",
   "venue": "Civic Center Music Hall",
   "address": "201 N Walker Ave, Oklahoma City, OK 73102",
   "lat": 35.4693,
   "lon": -97.5188,
   "url": "https://www.okcciviccenter.com/events",
-  "endDate": "2026-11-15"
+  "endDate": "2026-11-15",
+  "source": "https://www.okcciviccenter.com/events/detail/the-phantom-of-the-opera",
+  "time": "Most nights 7:30 PM, matinees Nov 5, 7, 8, 14 and 15"
  },
  {
   "id": "d176",
   "kind": "shows",
   "date": "2026-11-06",
   "title": "Randy Travis: More Life Tour",
-  "description": "",
+  "description": "James Dupré and Randy Travis's longtime band play his hits, with Randy on stage with them.",
   "city": "Oklahoma City",
   "venue": "Civic Center Music Hall",
   "address": "201 N Walker Ave, Oklahoma City, OK 73102",
   "lat": 35.4693,
   "lon": -97.5188,
   "url": "https://www.okcciviccenter.com/events",
-  "time": "7:30 PM"
+  "time": "7:30 PM",
+  "source": "https://www.okcciviccenter.com/events/detail/randy-travis-more-life-tour"
  },
  {
   "id": "d177",
   "kind": "shows",
   "date": "2026-10-30",
   "title": "OKC Philharmonic: Music to Die For",
-  "description": "Spooky-season pops concert.",
+  "description": "The OKC Philharmonic plays spooky music from film, stage and the classics for Halloween weekend.",
   "city": "Oklahoma City",
   "venue": "Civic Center Music Hall",
   "address": "201 N Walker Ave, Oklahoma City, OK 73102",
@@ -1907,7 +1967,8 @@
   "lon": -97.5188,
   "url": "https://www.okcphil.org/events-tickets/26-27-season/",
   "endDate": "2026-10-31",
-  "time": "7:30 PM"
+  "time": "7:30 PM",
+  "source": "https://www.okcphil.org/concerts/music-to-die-for/"
  },
  {
   "id": "d178",
@@ -2059,7 +2120,8 @@
   "lon": -95.9954,
   "time": "7:05 PM",
   "description": "ECHL hockey as the Tulsa Oilers host the Wichita Thunder at BOK Center.",
-  "url": "https://www.bokcenter.com/events/detail/tulsa-oilers-hockey-76"
+  "url": "https://www.bokcenter.com/events/detail/tulsa-oilers-hockey-76",
+  "source": "https://www.bokcenter.com/events"
  },
  {
   "id": "d190",
@@ -2073,7 +2135,8 @@
   "lon": -95.9954,
   "time": "3:05 PM",
   "description": "ECHL hockey as the Tulsa Oilers host the Wichita Thunder at BOK Center.",
-  "url": "https://www.bokcenter.com/events/detail/tulsa-oilers-hockey-77"
+  "url": "https://www.bokcenter.com/events/detail/tulsa-oilers-hockey-77",
+  "source": "https://www.bokcenter.com/events"
  },
  {
   "id": "d191",
@@ -2087,7 +2150,8 @@
   "lon": -95.991,
   "time": "3:00 PM",
   "description": "One performance only of the live Fraggle Rock stage show for families.",
-  "url": "https://www.tulsakids.com/?p=167921"
+  "url": "https://www.tulsakids.com/?p=167921",
+  "source": "https://www.fragglerocklive.com/tulsa-landing-page"
  },
  {
   "id": "d192",
@@ -2100,7 +2164,10 @@
   "lat": 35.4651,
   "lon": -97.5083,
   "description": "Downtown in December kicks off with the city's official tree lighting in Bricktown.",
-  "url": "https://www.downtownindecember.com/"
+  "url": "https://www.downtownindecember.com/",
+  "source": "https://downtownindecember.com/tree-lighting/",
+  "time": "5:30 – 7:30 PM (tree lit at 6)",
+  "free": true
  },
  {
   "id": "d193",
@@ -2114,7 +2181,9 @@
   "lat": 35.4726,
   "lon": -97.5199,
   "description": "Downtown OKC's seasonal outdoor ice rink returns to the Myriad Gardens for Downtown in December.",
-  "url": "https://www.downtownindecember.com/"
+  "url": "https://www.downtownindecember.com/",
+  "source": "https://myriadgardens.org/visit-us/seasonal/devonicerink/",
+  "time": "Mon–Thu 3–9 PM, Fri 3–11 PM, Sat 11 AM–11 PM, Sun 11 AM–7 PM"
  },
  {
   "id": "d194",
@@ -2127,7 +2196,9 @@
   "lat": 32.8132,
   "lon": -96.8142,
   "description": "Punjabi singer Karan Aujla in concert with Ikky.",
-  "url": "https://www.songkick.com/venues/673-american-airlines-center/calendar"
+  "url": "https://www.songkick.com/venues/673-american-airlines-center/calendar",
+  "source": "https://www.americanairlinescenter.com/events/detail/karan-aujla",
+  "time": "Doors 6:30 PM, show 8:00 PM"
  },
  {
   "id": "d195",
@@ -2142,7 +2213,8 @@
   "lon": -97.4806,
   "time": "5:30 PM - 11:00 PM",
   "description": "Holiday light sculptures fill the zoo nightly, with walk-through and drive-thru options; tickets from about $14.",
-  "url": "https://www.okczoo.org/safarilights"
+  "url": "https://www.okczoo.org/safarilights",
+  "source": "https://www.okczoo.org/safarilights"
  },
  {
   "id": "d196",
@@ -2156,7 +2228,8 @@
   "lon": -95.9954,
   "time": "7:05 PM",
   "description": "ECHL hockey as the Tulsa Oilers host the Allen Americans at BOK Center.",
-  "url": "https://www.bokcenter.com/events/detail/tulsa-oilers-hockey-78"
+  "url": "https://www.bokcenter.com/events/detail/tulsa-oilers-hockey-78",
+  "source": "https://www.bokcenter.com/events"
  },
  {
   "id": "d197",
@@ -2170,7 +2243,8 @@
   "lon": -95.9954,
   "time": "3:05 PM",
   "description": "ECHL hockey as the Tulsa Oilers host the Allen Americans at BOK Center.",
-  "url": "https://www.bokcenter.com/events/detail/tulsa-oilers-hockey-79"
+  "url": "https://www.bokcenter.com/events/detail/tulsa-oilers-hockey-79",
+  "source": "https://www.bokcenter.com/events"
  },
  {
   "id": "d198",
@@ -3103,7 +3177,8 @@
   "lon": -95.9928,
   "time": "Doors 5:30 PM",
   "description": "Chili cook-off with live sets from Greyhounds, JD Simo, Samantha Crain and Stepmom.",
-  "url": "https://www.cainsballroom.com/events/"
+  "url": "https://www.cainsballroom.com/events/",
+  "source": "https://www.cainsballroom.com/event/rock-n-folk-n-chili-cook-off/cains-ballroom/tulsa--oklahoma/"
  },
  {
   "id": "d265",
@@ -3158,8 +3233,9 @@
   "lat": 36.158,
   "lon": -95.9939,
   "time": "Doors 6 PM, show 7 PM",
-  "description": "Comedy show. Ages 18 and up.",
-  "url": "https://tulsatheater.com/events/"
+  "description": "Nurse Blake's comedy show about life in health care. Ages 18 and up.",
+  "url": "https://tulsatheater.com/events/",
+  "source": "https://tulsatheater.com/event/nurse-blake-but-did-you-die-comedy-tour/tulsa-theater/"
  },
  {
   "id": "d269",
@@ -3242,7 +3318,9 @@
   "lat": 35.4925,
   "lon": -97.5196,
   "description": "Stand-up comedy, with an early and a late show.",
-  "url": "https://towertheatreokc.com/"
+  "url": "https://towertheatreokc.com/",
+  "source": "https://towertheatreokc.com/events/dusty-slay-the-neighborhood-guy/",
+  "time": "Doors 6:00 PM, show 7:00 PM (late show also)"
  },
  {
   "id": "d275",
@@ -3443,11 +3521,13 @@
   "title": "ICE! featuring Harry Potter at Gaylord Texan",
   "city": "Grapevine",
   "venue": "Gaylord Texan Resort",
-  "address": "Gaylord Texan Resort, Grapevine, TX",
+  "address": "1501 Gaylord Trail, Grapevine, TX 76051",
   "lat": 32.9343,
   "lon": -97.0781,
   "description": "The 25th ICE! exhibit, carved around the Harry Potter films. Tickets through Christmas at Gaylord Texan.",
-  "url": "https://www.natja.org/press-releases/holiday-wonder-returns-as-gaylord-texan-resort-debuts-22nd-annual-lone-star-christmas-with-marquee-attraction-ice-featuring-harry-potter/"
+  "url": "https://www.natja.org/press-releases/holiday-wonder-returns-as-gaylord-texan-resort-debuts-22nd-annual-lone-star-christmas-with-marquee-attraction-ice-featuring-harry-potter/",
+  "source": "https://www.christmasatgaylordtexan.com/ice",
+  "time": "Timed entry, pick a time when you buy tickets"
  },
  {
   "id": "d290",
@@ -3455,14 +3535,15 @@
   "date": "2026-09-19",
   "endDate": "2026-11-14",
   "title": "Fall Festival at Orr Family Farm",
-  "time": "Select days through Nov 14. Check the farm's calendar before you go",
+  "time": "10:00 AM – 5:00 PM on open days (Nov 7, 8 and 14 in November)",
   "description": "Pumpkin patch, hayrides, train rides, a maze, pony rides, barnyard animals, carnival rides, and a zip line and ropes course, plus Halloween Light Nights on a lighted trail. Tickets from $24.95.",
   "city": "Oklahoma City",
   "venue": "Orr Family Farm",
   "address": "14400 S Western Ave, Oklahoma City, OK 73170",
   "lat": 35.4726,
   "lon": -97.5199,
-  "url": "https://travelok.com/listings/view.profile/id.26031"
+  "url": "https://travelok.com/listings/view.profile/id.26031",
+  "source": "https://okcmom.com/calendar/orr-family-farm-fall-festival-7/2026-11-14/"
  },
  {
   "id": "d291",
@@ -3655,7 +3736,9 @@
   "description": "Anniversary tour of the Frankie Valli and the Four Seasons musical.",
   "url": "https://fortworth.culturemap.com/news/entertainment/broadway-bass-2026-2027-season/",
   "lat": 32.7555,
-  "lon": -97.3308
+  "lon": -97.3308,
+  "source": "https://www.basshall.com/tickets-events/calendar/",
+  "time": "Tue–Fri 7:30 PM, Sat 1:30 & 7:30 PM, Sun 1:30 & 6:30 PM"
  },
  {
   "id": "d305",
@@ -3740,7 +3823,9 @@
   "description": "Holiday light displays at the Fort Worth Botanic Garden, including the Winter Cathedral installation.",
   "url": "https://fortworth.culturemap.com/news/entertainment/fort-worth-botanic-garden-brings-back-christmas-light-cathedral-in-2026/",
   "lat": 32.7555,
-  "lon": -97.3308
+  "lon": -97.3308,
+  "source": "https://fwbg.org/full-calendar/christmas-in-the-garden/",
+  "time": "Timed entry 5:30 – 8:00 PM, open until 9 PM"
  },
  {
   "id": "d311",
@@ -3769,7 +3854,8 @@
   "time": "6:00 – 10:00 PM Sun–Thu, 6:00 – 11:00 PM Fri–Sat",
   "description": "Free walk-through and drive-through holiday light festival, now in its 34th year.",
   "url": "https://www.chickashafestivaloflight.org/",
-  "id": "d312"
+  "id": "d312",
+  "source": "https://www.travelok.com/listings/view.profile/id.15643/event.55369"
  },
  {
   "kind": "festivals",
@@ -3797,7 +3883,9 @@
   "lon": -96.7166,
   "description": "Holiday displays and a Christmas Village, plus evening Holiday at Night hours. The last season for the 12 Days of Christmas gazebos.",
   "url": "https://www.dallasarboretum.org/holiday",
-  "id": "d314"
+  "id": "d314",
+  "source": "https://www.dallasarboretum.org/events-activities/holiday-at-the-arboretum/",
+  "time": "Day 9:00 AM – 4:00 PM, Holiday at Night 5:00 – 10:00 PM"
  },
  {
   "kind": "shows",
