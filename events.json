@@ -636,11 +636,13 @@
   "title": "Choctaw Christmas",
   "category": "festivals",
   "area": "durant",
-  "time": "Starts 10:00 AM",
+  "time": "10:00 AM – 5:00 PM",
   "venue": "Choctaw Cultural Center",
   "address": "1919 Hina Hanta Way, Calera, OK 74730",
-  "description": "Christmas celebration at the Choctaw Cultural Center. See the Cultural Center for the full lineup and tickets.",
-  "organizer": "Choctaw Cultural Center"
+  "description": "A Choctaw Christmas at the Choctaw Cultural Center with holiday programs and workshops.",
+  "organizer": "Choctaw Cultural Center",
+  "source": "https://choctawculturalcenter.com/events/page/2/",
+  "xmas": "more"
  },
  {
   "id": "e144",
@@ -651,7 +653,11 @@
   "time": "7:00 PM",
   "venue": "Downtown Durant",
   "address": "215 N 4th Ave, Durant, OK 74701",
-  "description": "Downtown Durant's holiday kickoff parade, always held the first Tuesday of December."
+  "description": "Downtown Durant's holiday kickoff parade, always held the first Tuesday of December.",
+  "source": "https://www.travelok.com/listings/view.profile/id.21968/55264",
+  "xmas": "parade",
+  "free": true,
+  "kids": true
  },
  {
   "id": "e145",
@@ -677,7 +683,9 @@
   "address": "Market Square, Durant, OK 74701",
   "description": "Horse-drawn carriage rides through historic downtown Durant, leaving from Market Square.",
   "endDate": "2026-12-05",
-  "organizer": "Durant Main Street"
+  "organizer": "Durant Main Street",
+  "source": "https://durantmainstreet.org/small-town-christmas",
+  "xmas": "more"
  },
  {
   "id": "e148",
@@ -700,7 +708,8 @@
   "venue": "Pittsburg County Farmers Market",
   "address": "11 N Main St, McAlester, OK 74501",
   "description": "Fourth year for the farmers market's holiday market. Local crafters and bakers with handmade gifts, downtown at Main and Choctaw.",
-  "source": "https://travelmcalester.com/events/e/pittsburg-county-farmers-market-4th-annual-holiday-market--6969c6128bb3ab5f7ab7c5d0/"
+  "source": "https://travelmcalester.com/events/e/pittsburg-county-farmers-market-4th-annual-holiday-market--6969c6128bb3ab5f7ab7c5d0/",
+  "xmas": "market"
  },
  {
   "id": "e150",
@@ -725,7 +734,8 @@
   "address": "S 2nd St & E Chickasaw Ave, McAlester, OK 74501",
   "description": "McAlester flips on its Christmas lights at Arvest Park with the 4th annual Festival of Trees. Santa and his reindeer will be there.",
   "source": "https://travelmcalester.com/events/e/2026-festival-of-trees-lights-on-at-arvest-park-69a86f37ad39e119265b9c0c/",
-  "free": true
+  "free": true,
+  "xmas": "tree"
  },
  {
   "id": "e152",
@@ -758,7 +768,8 @@
   "time": "9:00 AM – 4:00 PM",
   "venue": "Boys & Girls Club",
   "address": "McAlester, OK",
-  "description": "Holiday shopping fair at the Boys & Girls Club."
+  "description": "Holiday shopping fair at the Boys & Girls Club.",
+  "unconfirmed": true
  },
  {
   "id": "e155",
@@ -766,10 +777,14 @@
   "title": "Michael J. Miller Toy Giveaway",
   "category": "community",
   "area": "mcalester",
-  "time": "See host for time",
+  "time": "10:00 AM – 4:00 PM",
   "venue": "Southeast Expo Center",
   "address": "4500 W US-270, McAlester, OK 74501",
-  "description": "Annual Christmas toy giveaway at the Southeast Expo Center."
+  "description": "The yearly toy giveaway hosted by the J. Michael Miller Law Firm at the Southeast Expo Center.",
+  "source": "https://travelmcalester.com/events/e/michael-j-millers-toy-giveaway-6adbc2b6804a9862bab44d77/",
+  "xmas": "more",
+  "free": true,
+  "kids": true
  },
  {
   "id": "e156",
@@ -807,8 +822,10 @@
   "time": "9:00 AM – 5:00 PM",
   "venue": "Southeast Expo Center",
   "address": "4500 W US-270, McAlester, OK 74501",
-  "description": "Holiday market with boutiques, handmade goods, jewelry, home decor, art, and crafts.",
-  "indoor": true
+  "description": "Holiday shopping at the Southeast Expo Center with vendors selling vintage Christmas, holiday decor, gifts and handmade goods.",
+  "indoor": true,
+  "source": "https://travelmcalester.com/events/e/sleigh-bells-market-69553100971a089061b7fa9c/",
+  "xmas": "market"
  },
  {
   "id": "e159",
@@ -818,9 +835,10 @@
   "area": "mcalester",
   "time": "7:00 – 9:00 PM",
   "venue": "S. Arch Thompson Auditorium",
-  "address": "201 E Adams Ave, McAlester, OK",
+  "address": "201 E Adams Ave, McAlester, OK 74501",
   "description": "Christmas concert by the community choir.",
-  "indoor": true
+  "indoor": true,
+  "source": "https://travelmcalester.com/events/e/community-choir-christmas-concert-6a74a33b850bbfa310026e17/"
  },
  {
   "id": "e160",
@@ -834,7 +852,8 @@
   "description": "Broken Bow lights the hometown Christmas tree and train on the Chamber lawn. Carols, hot cocoa and cookies, pictures with Santa, and goodie bags for the first 200 kids. Free.",
   "organizer": "Broken Bow Area Chamber of Commerce",
   "source": "https://brokenbowareachamber.com/event/hometown-christmas-tree-train-lighting/",
-  "free": true
+  "free": true,
+  "xmas": "tree"
  },
  {
   "id": "e161",
@@ -880,7 +899,11 @@
   "venue": "Downtown Broken Bow",
   "address": "113 W Martin Luther King Dr, Broken Bow, OK 74728",
   "description": "The 56th annual McCurtain County Christmas Parade, starting near the Broken Bow Area Chamber of Commerce. This year's theme: Songs of the Season.",
-  "organizer": "Broken Bow Area Chamber of Commerce"
+  "organizer": "Broken Bow Area Chamber of Commerce",
+  "source": "https://brokenbowareachamber.com/event/56th-annual-mccurtain-county-christmas-parade-songs-of-the-season/",
+  "xmas": "parade",
+  "free": true,
+  "kids": true
  },
  {
   "id": "e166",
@@ -891,7 +914,8 @@
   "time": "6:00 – 9:00 PM",
   "venue": "Idabel (location to be announced)",
   "address": "Idabel, OK",
-  "description": "Idabel's Christmas tree lighting."
+  "description": "Idabel's Christmas tree lighting.",
+  "unconfirmed": true
  },
  {
   "id": "e167",
@@ -899,10 +923,14 @@
   "title": "Idabel Christmas Parade",
   "category": "community",
   "area": "idabel-broken-bow",
-  "time": "6:30 PM",
-  "venue": "Idabel (route to be announced)",
-  "address": "Idabel, OK",
-  "description": "Idabel's Christmas parade."
+  "time": "6:30 – 9:00 PM",
+  "venue": "Downtown Idabel",
+  "address": "E Main St, Idabel, OK 74745",
+  "description": "Idabel's Christmas parade.",
+  "source": "https://brokenbowareachamber.com/event/idabel-christmas-parade/",
+  "xmas": "parade",
+  "free": true,
+  "kids": true
  },
  {
   "id": "e168",
@@ -916,7 +944,9 @@
   "description": "Arts market, food trucks, and holiday fun downtown. No cost to attend, and parking is free.",
   "free": true,
   "organizer": "Okmulgee Main Street",
-  "endDate": "2026-12-13"
+  "endDate": "2026-12-13",
+  "source": "https://www.okmulgeemainstreet.com/event-details/christmas-on-the-square-2026-2026-12-10-17-00",
+  "xmas": "more"
  },
  {
   "id": "e169",
@@ -924,11 +954,15 @@
   "title": "Okmulgee Festival of Lights Parade",
   "category": "community",
   "area": "okmulgee-east",
-  "time": "7:00 PM",
-  "venue": "Downtown Okmulgee",
-  "address": "Okmulgee, OK",
+  "time": "7:00 – 9:00 PM",
+  "venue": "Downtown Okmulgee (6th Street)",
+  "address": "100 E 6th St, Okmulgee, OK 74447",
   "description": "A lighted parade that kicks off Christmas on the Square in downtown Okmulgee.",
-  "organizer": "Okmulgee Main Street"
+  "organizer": "Okmulgee Main Street",
+  "source": "https://www.travelok.com/listings/view.profile/id.17780/55273",
+  "xmas": "parade",
+  "free": true,
+  "kids": true
  },
  {
   "id": "e171",
@@ -1775,7 +1809,8 @@
   "free": true,
   "kids": true,
   "organizer": "Poteau Chamber of Commerce, LeFlore County Development Coalition and Lake Wister State Park",
-  "source": "https://www.travelok.com/listings/view.profile/id.18184/55383"
+  "source": "https://www.travelok.com/listings/view.profile/id.18184/55383",
+  "xmas": "lights"
  },
  {
   "id": "e272",
@@ -1798,11 +1833,13 @@
   "area": "durant",
   "time": "5:00 PM - 8:00 PM",
   "venue": "Historic Market Square",
-  "address": "Historic Market Square, Durant, OK",
-  "description": "The City of Durant lights the tree on Market Square. Visitors can write letters to Santa and make a take-home ornament, and letters can be dropped off through Dec. 15.",
+  "address": "N 1st Ave & W Evergreen St, Durant, OK 74701",
+  "description": "Durant lights the city tree at Historic Market Square, and Santa's Mailbox opens. Letters go in through Dec 15. Put a return address on yours to get a reply from Santa.",
   "free": true,
   "organizer": "City of Durant and Durant Main Street",
-  "unconfirmed": true
+  "source": "https://durantmainstreet.org/small-town-christmas",
+  "xmas": "tree",
+  "kids": true
  },
  {
   "id": "e274",
@@ -1916,7 +1953,8 @@
   "venue": "Wheelock Academy Historic Site",
   "address": "1377 Wheelock Rd, Garvin, OK 74736",
   "description": "A Christmas fair held at the Wheelock Academy Historic Site near Garvin.",
-  "unconfirmed": true
+  "source": "https://beaversbendcabincountry.com/event/native-american-christmas-fair/",
+  "xmas": "market"
  },
  {
   "id": "e282",
@@ -1940,24 +1978,29 @@
   "title": "Celebration of Lights",
   "category": "community",
   "area": "ada-holdenville",
-  "time": "Nightly; hours to be announced",
+  "time": "6:00 – 9:00 PM nightly",
   "venue": "Chickasaw Cultural Center",
-  "address": "Chickasaw Cultural Center, 867 Cooper Memorial Dr, Sulphur, OK 73086",
-  "description": "A free drive-through light display with dozens of traditional Christmas scenes and Chickasaw cultural pieces. It runs nightly through Dec. 31.",
+  "address": "867 Cooper Memorial Dr, Sulphur, OK 73086",
+  "description": "Free drive through light display on the Chickasaw Cultural Center grounds, with traditional Christmas scenes and Chickasaw cultural pieces. Free candy canes.",
   "free": true,
-  "organizer": "Chickasaw Cultural Center"
+  "organizer": "Chickasaw Cultural Center",
+  "source": "https://www.chickasawculturalcenter.com/experience/2026-1/events/2026-celebration-of-lights/",
+  "xmas": "lights"
  },
  {
   "id": "e284",
-  "date": "2026-12-01",
+  "date": "2026-12-05",
   "endDate": "2026-12-27",
   "title": "Winter Wonderland at Broken Bow City Park",
   "category": "festivals",
   "area": "idabel-broken-bow",
-  "time": "9:00 AM – 6:00 PM",
+  "time": "Lights on after dark",
   "venue": "Broken Bow City Park",
-  "address": "Broken Bow City Park, Broken Bow, OK",
-  "description": "Holiday Winter Wonderland at Broken Bow City Park running through most of December."
+  "address": "1211 James Butler Dr, Broken Bow, OK 74728",
+  "description": "Christmas lights and displays at Broken Bow City Park. Free to walk or drive through.",
+  "source": "https://www.travelok.com/listings/view.profile/id.34917/54774",
+  "free": true,
+  "xmas": "lights"
  },
  {
   "id": "e285",
@@ -1972,7 +2015,8 @@
   "free": true,
   "indoor": true,
   "organizer": "Durant Main Street and Three Valley Museum",
-  "unconfirmed": true
+  "source": "https://durantmainstreet.org/small-town-christmas",
+  "xmas": "more"
  },
  {
   "id": "e286",
@@ -2038,7 +2082,8 @@
   "address": "N 5th St & W Trudgeon St, Henryetta, OK 74437",
   "description": "Holiday market on the first three weekends of December in downtown Henryetta.",
   "organizer": "Henryetta Chamber of Commerce",
-  "free": true
+  "free": true,
+  "unconfirmed": true
  },
  {
   "id": "e290",
@@ -2052,7 +2097,8 @@
   "description": "Poteau's evening Christmas parade rolls down Dewey Avenue through downtown. This year's theme is \"All American Christmas.\" Lights, floats, bands and Santa. Free to watch.",
   "organizer": "Poteau Chamber of Commerce",
   "source": "https://www.poteauchamber.com/Events/Annual-Events/Christmas-Parade",
-  "free": true
+  "free": true,
+  "xmas": "parade"
  },
  {
   "id": "e291",
@@ -2062,13 +2108,15 @@
   "area": "eufaula",
   "time": "Ice rink 2:00 PM - 10:00 PM; parade 6:30 PM",
   "venue": "Downtown Checotah",
-  "address": "Downtown Checotah, Checotah, OK",
-  "description": "A lighted Christmas parade with a Dolly Parton and Elvis theme, plus a mobile synthetic ice rink, games, youth performances, photos with Santa and the Chamber's prize giveaways after the parade. Ice skating is $10 per person per session with skates included.",
+  "address": "Downtown Checotah, Checotah, OK 74426",
+  "description": "Winter Wonderland meets A Rhinestone Christmas. Ice skating downtown from 2 to 10 PM ($10 a session with skates), food trucks, youth performances, the lighted parade at 6:30 and Santa photos after.",
   "kids": true,
   "organizer": "Checotah Chamber of Commerce",
   "offers": {
    "low": 10
-  }
+  },
+  "source": "https://checotah.com/winter-wonderland-meets-a-rhinestone-christma",
+  "xmas": "parade"
  },
  {
   "id": "e292",
@@ -2079,8 +2127,12 @@
   "time": "6:30 PM",
   "venue": "Downtown McAlester",
   "address": "Carl Albert Pkwy and Choctaw Ave, McAlester, OK 74501",
-  "description": "Lighted Christmas parade with the theme \"A Story Book Christmas,\" running east on Carl Albert Parkway from A Street to 5th Street, then along Choctaw Avenue to Main Street.",
-  "organizer": "The Railway District"
+  "description": "Lighted night parade with the theme A Storybook Christmas. It heads east on Carl Albert Parkway from A Street to 5th Street, then turns onto Choctaw Avenue to Main Street. Santa rides the last float.",
+  "organizer": "The Railway District",
+  "source": "https://therailwaydistrict.com/district-events/christmas-parade/",
+  "xmas": "parade",
+  "free": true,
+  "kids": true
  },
  {
   "id": "e293",
@@ -2120,12 +2172,14 @@
   "title": "Holiday in the Ark",
   "category": "festivals",
   "area": "hugo-antlers",
-  "time": "Session times on the foundation website",
+  "time": "2 hour sessions: Dec 12 & 13 at 3 PM · Dec 18 at 4 PM · Dec 19 at 1:30 & 4 PM · Dec 20 at 1:30 PM · Dec 21 & 22 at 4 PM",
   "venue": "Endangered Ark Foundation",
   "address": "2657 E 2070 Rd, Hugo, OK 74743",
-  "description": "Ticketed holiday visit with Santa, Mrs. Claus, elves and the Grinch, plus feeding and meeting the elephants and gift shopping. Space is limited.",
+  "description": "Christmas at the Endangered Ark Foundation elephant farm: visit with Santa, Mrs. Claus and the Grinch, meet and feed the elephants, and make crafts. Buy session tickets on the website.",
   "organizer": "Endangered Ark Foundation",
-  "kids": true
+  "kids": true,
+  "source": "https://www.holidayintheark.com/",
+  "xmas": "santa"
  },
  {
   "id": "e296",
@@ -2138,7 +2192,9 @@
   "address": "415 W Main St, Henryetta, OK 74437",
   "description": "Annual Christmas parade with holiday floats along Henryetta's Main Street.",
   "free": true,
-  "kids": true
+  "kids": true,
+  "source": "https://www.travelok.com/listings/view.profile/id.37455/event.53824",
+  "xmas": "parade"
  },
  {
   "id": "e297",
@@ -2162,7 +2218,8 @@
   "venue": "Downtown Hochatown",
   "address": "N US Hwy 259, Broken Bow, OK 74728",
   "description": "A day of Christmas celebration in downtown Hochatown.",
-  "unconfirmed": true
+  "unconfirmed": true,
+  "source": "https://beaversbendcabincountry.com/event/christmas-in-hochatown-2/"
  },
  {
   "id": "e299",
@@ -2176,7 +2233,9 @@
   "description": "Breakfast with Santa, a Christmas story from Mrs. Claus, photos with Santa and animals in holiday outfits. It is the last chance to see the Gingerbread House Competition display. Ticket prices have not been announced.",
   "indoor": true,
   "organizer": "Durant Main Street and Three Valley Museum",
-  "unconfirmed": true
+  "source": "https://durantmainstreet.org/small-town-christmas",
+  "xmas": "santa",
+  "kids": true
  },
  {
   "id": "e300",
@@ -2648,11 +2707,15 @@
   "title": "Wilburton Christmas Parade",
   "category": "community",
   "area": "wilburton",
-  "time": "6:00 PM - 7:00 PM",
+  "time": "6:00 PM",
   "venue": "Downtown Wilburton (Main Street / US-270)",
-  "address": "Main Street, Wilburton, OK",
-  "description": "Wilburton's Christmas parade down Main Street. This year's theme is \"'Twas A Magical Storybook Christmas.\"",
-  "organizer": "Wilburton Area Chamber of Commerce"
+  "address": "W Main St, Wilburton, OK 74578",
+  "description": "Downtown Christmas parade on Main Street with the theme 'Twas A Magical Storybook Christmas.",
+  "organizer": "Wilburton Area Chamber of Commerce",
+  "source": "https://www.wilburtonchamber.org/christmas-parade",
+  "xmas": "parade",
+  "free": true,
+  "kids": true
  },
  {
   "id": "e332",
@@ -2663,7 +2726,10 @@
   "time": "6:00 PM",
   "venue": "Main Street, Holdenville",
   "address": "Main St, Holdenville, OK 74848",
-  "description": "Decorated floats and marching bands down Main Street, with prizes given away during the parade."
+  "description": "Decorated floats and marching bands down Main Street, with prizes given away during the parade.",
+  "source": "https://www.travelok.com/listings/view.profile/id.15132/event.40844",
+  "xmas": "parade",
+  "free": true
  },
  {
   "id": "e333",
@@ -2728,8 +2794,11 @@
   "time": "6:00 PM – 8:00 PM",
   "venue": "Downtown Sulphur",
   "address": "717 W Broadway Ave, Sulphur, OK 73086",
-  "description": "Lighted floats, decorated cars, trucks, golf carts and motorcycles, horses and walkers roll through downtown Sulphur, with Santa and Mrs. Claus at the end.",
-  "free": true
+  "description": "Lighted floats, cars, golf carts, motorcycles and horses. The route starts on 12th Street, heads east on Broadway, north on 5th, east on Muskogee and north on 2nd to Vinita Avenue.",
+  "free": true,
+  "source": "https://www.travelok.com/listings/view.profile/id.29912/55239",
+  "xmas": "parade",
+  "kids": true
  },
  {
   "id": "e341",
@@ -2826,7 +2895,8 @@
   "description": "Holiday shopping with more than 100 vendors, children's activities, a game show hosted by community leaders, and food. Free admission.",
   "free": true,
   "kids": true,
-  "source": "https://www.durantchamber.org/events/magnoliafestival"
+  "source": "https://www.durantchamber.org/events/magnoliafestival",
+  "xmas": "market"
  },
  {
   "id": "e351",
@@ -2984,13 +3054,16 @@
  {
   "id": "e361",
   "date": "2026-11-28",
-  "title": "McWinter Wonderland Christmas Zones Open",
+  "title": "Great McAlester Snowball Fight and McWinter Wonderland Opening",
   "category": "festivals",
   "area": "mcalester",
-  "time": "Time to be announced",
-  "venue": "Location to be announced",
-  "address": "Location to be announced, McAlester, OK",
-  "description": "McAlester's two McWinter Wonderland Christmas Zones open for the holiday season, the same day as the Great McAlester Snowball Fight. Details on travelmcalester.com."
+  "time": "10:00 – 11:00 AM",
+  "venue": "Choctaw Ave between Main St and 2nd St",
+  "address": "E Choctaw Ave, McAlester, OK 74501",
+  "description": "The first Great McAlester Snowball Fight opens the Santa's Workshop zone on Choctaw Avenue. McWinter Wonderland's two Christmas zones, Santa's Workshop on Choctaw and A Vintage Christmas in Olde Town, run Saturdays through Dec 19.",
+  "source": "https://travelmcalester.com/events/e/the-great-mcalester-snowball-fight-6a75fd2e2409726cfa0b8887/",
+  "xmas": "more",
+  "kids": true
  },
  {
   "id": "e362",
@@ -3932,5 +4005,50 @@
   "description": "Shop the locally owned stores around the Okmulgee square on Small Business Saturday.",
   "source": "https://www.okmulgeemainstreet.com/event-details/shop-small-saturday-1",
   "free": true
+ },
+ {
+  "id": "e437",
+  "date": "2026-12-05",
+  "title": "Pat Taylor Memorial Christmas Parade of Lights",
+  "category": "community",
+  "area": "ada-holdenville",
+  "time": "7:00 PM",
+  "venue": "Downtown Ada (Main Street)",
+  "address": "Main St, Ada, OK 74820",
+  "description": "Ada's 38th lighted Christmas parade fills eight blocks of downtown. This year's theme is Home for the Holidays: Celebrating 125 Years of Ada.",
+  "source": "https://www.chickasawcountry.com/events/ada-main-street-presents-home-holidays-christmas-parade",
+  "free": true,
+  "kids": true,
+  "xmas": "parade"
+ },
+ {
+  "id": "e438",
+  "date": "2026-11-23",
+  "endDate": "2026-12-31",
+  "title": "Trail of Lights at Wintersmith Park",
+  "category": "festivals",
+  "area": "ada-holdenville",
+  "time": "5:30 – 9:30 PM nightly",
+  "venue": "Wintersmith Park",
+  "address": "1621 Wintersmith Dr, Ada, OK 74820",
+  "description": "Drive or walk the lighted trail through Wintersmith Park. Look for the 13 tree Forest of Lights near the east entrance and the blue Memory Tree.",
+  "source": "https://www.chickasawcountry.com/article/magical-holiday-light-displays-chickasaw-country",
+  "free": true,
+  "xmas": "lights"
+ },
+ {
+  "id": "e439",
+  "date": "2026-12-20",
+  "title": "Talihina Christmas Parade: A Charlie Brown Christmas",
+  "category": "community",
+  "area": "poteau",
+  "time": "6:00 PM",
+  "venue": "Downtown Talihina (lineup at Living Faith Pentecostal Church)",
+  "address": "Downtown Talihina, Talihina, OK 74571",
+  "description": "Talihina's Christmas parade with a Charlie Brown Christmas theme. Floats line up by 5:30 PM.",
+  "source": "https://talihinacc.com/event/christmas-parade-charlie-brown-christmas/",
+  "free": true,
+  "kids": true,
+  "xmas": "parade"
  }
 ]

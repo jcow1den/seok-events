@@ -185,13 +185,123 @@ for e in live:
 lines.append("END:VCALENDAR")
 open("events.ics", "w", newline="").write("\r\n".join(fold(l) for l in lines) + "\r\n")
 
+# ---------- christmas/index.html (plain HTML holiday guide, Nov 14 to Dec 24) ----------
+import html as _h
+from pathlib import Path
+XS, XE = "2026-11-14", "2026-12-24"
+XT = [("parade", "Christmas parades"), ("lights", "Christmas lights and drive throughs"), ("tree", "Tree lightings"),
+      ("market", "Christmas markets"), ("santa", "Visits with Santa"), ("more", "More holiday fun")]
+AREAS = {"ada-holdenville": "Ada & Holdenville", "atoka": "Atoka", "durant": "Durant", "eufaula": "Eufaula & Checotah",
+         "hugo-antlers": "Hugo & Antlers", "idabel-broken-bow": "Idabel & Broken Bow", "mcalester": "McAlester",
+         "okmulgee-east": "Okmulgee & Henryetta", "poteau": "Poteau", "wilburton": "Wilburton"}
+
+
+def xin(e):
+    return e.get("xmas") and not e.get("unconfirmed") and e.get("source") and e["date"] <= XE and (e.get("endDate") or e["date"]) >= max(XS, today)
+
+
+def xdate(e):
+    d1 = date.fromisoformat(e["date"])
+    s = d1.strftime("%a %b ") + str(d1.day)
+    if e.get("endDate") and e["endDate"] != e["date"]:
+        d2 = date.fromisoformat(e["endDate"])
+        s += " to " + d2.strftime("%b ") + str(d2.day) + (", " + str(d2.year) if d2.year != d1.year else "")
+    return s
+
+
+def xitem(e, place, link):
+    x = _h.escape
+    bits = [f'<li id="x-{x(e["id"])}"><h4>{x(e["title"])}</h4>',
+            f'<p class="when"><b>{x(xdate(e))}</b>' + (f' · {x(e["time"])}' if e.get("time") else "") + "</p>",
+            f'<p class="where">{x(place)}</p>']
+    if e.get("description"):
+        bits.append(f"<p>{x(e['description'])}</p>")
+    bits.append(f'<p class="src"><a href="{link}">More on the event site</a>' +
+                (" · Free" if e.get("free") else "") + "</p></li>")
+    return "".join(bits)
+
+
+xl = sorted([e for e in events if xin(e)], key=lambda e: (e["date"], e["title"]))
+xd = sorted([d for d in json.load(open("drive.json")) if xin(d)], key=lambda e: (e["date"], e["title"]))
+secs, toc, xcount = [], [], 0
+for k, label in XT:
+    items = [e for e in xl if e["xmas"] == k]
+    if not items:
+        continue
+    xcount += len(items)
+    toc.append(f'<a href="#{k}">{label} ({len(items)})</a>')
+    lis = "".join(xitem(e, f'{e.get("venue") or e["town"]}, {e["address"]}' if e.get("venue") and e["venue"] not in e["address"] else e["address"], _h.escape(e["source"])) for e in items)
+    secs.append(f'<section id="{k}"><h2>{label}</h2><ul>{lis}</ul></section>')
+if xd:
+    toc.append(f'<a href="#drive">OKC, Tulsa and DFW ({len(xd)})</a>')
+    lis = "".join(xitem(d, f'{d["venue"]}, {d["address"]}', _h.escape(d.get("url") or d["source"])) for d in xd)
+    secs.append(f'<section id="drive"><h2>Worth the drive: OKC, Tulsa and DFW</h2><ul>{lis}</ul></section>')
+xtitle = "Christmas in Southeast Oklahoma 2026: Parades, Lights, Markets and Santa"
+xdesc = (f"{xcount} Christmas parades, light displays, tree lightings, markets and visits with Santa across southeast Oklahoma "
+         "from Nov 14 to Dec 24, 2026, with dates, times and addresses. Plus the big ones in OKC, Tulsa and DFW.")
+xpage = f"""<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{xtitle}</title>
+<meta name="description" content="{_h.escape(xdesc)}">
+<link rel="canonical" href="{SITE}christmas/">
+<meta name="theme-color" content="#1d4a37">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Southeast Oklahoma Events">
+<meta property="og:title" content="{xtitle}">
+<meta property="og:description" content="{_h.escape(xdesc)}">
+<meta property="og:url" content="{SITE}christmas/">
+<meta property="og:image" content="{SITE}icons/share.png">
+<link rel="icon" href="../icons/icon-192.png">
+<style>
+:root{{--bg:#edf0ec;--surface:#fff;--ink:#17201b;--muted:#56625a;--line:#d5ddd6;--pine:#1d4a37;--clay:#b4461d}}
+@media (prefers-color-scheme: dark){{:root{{--bg:#0f1412;--surface:#181e1b;--ink:#e6ece7;--muted:#97a39b;--line:#2a332e;--pine:#69b58f;--clay:#ee8c60;color-scheme:dark}}}}
+*{{box-sizing:border-box}}
+body{{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}}
+.wrap{{max-width:760px;margin:0 auto;padding:16px}}
+header{{background:var(--pine);color:#fff}}
+header a{{color:#fff}}
+h1{{font:800 clamp(30px,8vw,48px)/1 "Arial Narrow",Arial,sans-serif;text-transform:uppercase;margin:8px 0}}
+h2{{font:800 24px/1.1 "Arial Narrow",Arial,sans-serif;text-transform:uppercase;margin:28px 0 8px;border-bottom:3px solid var(--clay);padding-bottom:4px}}
+h3{{margin:18px 0 6px;font-size:15px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}}
+h4{{margin:0 0 4px;font-size:17px;line-height:1.25}}
+nav.toc{{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}}
+nav.toc a{{background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:7px 12px;color:var(--ink);text-decoration:none;font-weight:600;font-size:14px}}
+ul{{list-style:none;margin:0;padding:0}}
+li{{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin:0 0 10px}}
+li p{{margin:2px 0}}
+.when{{color:var(--clay)}} .where,.src{{color:var(--muted);font-size:14px}}
+a{{color:var(--pine)}}
+footer{{color:var(--muted);font-size:14px;padding:24px 0}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+<p><a href="../">‹ All southeast Oklahoma events</a></p>
+<h1>Christmas in Southeast Oklahoma 2026</h1>
+<p>Parades, lights, tree lightings, markets and Santa from McAlester to Durant to Broken Bow, Nov 14 to Dec 24. Every listing links to the event's own page or the town's tourism site, so check there for weather changes.</p>
+</div></header>
+<main class="wrap">
+<nav class="toc" aria-label="Guide sections">{"".join(toc)}</nav>
+{"".join(secs)}
+</main>
+<footer class="wrap">Updated {today}. Know of a parade or light display we missed? Message the Southeast Oklahoma Area Events page on Facebook. <a href="../">See every event this week</a>.</footer>
+</body>
+</html>
+"""
+Path("christmas").mkdir(exist_ok=True)
+open("christmas/index.html", "w").write(xpage)
+
 # ---------- sitemap.xml ----------
 open("sitemap.xml", "w").write(
     '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-    f"  <url><loc>{SITE}</loc><lastmod>{today}</lastmod><changefreq>daily</changefreq></url>\n</urlset>\n")
+    f"  <url><loc>{SITE}</loc><lastmod>{today}</lastmod><changefreq>daily</changefreq></url>\n"
+    f"  <url><loc>{SITE}christmas/</loc><lastmod>{today}</lastmod><changefreq>weekly</changefreq></url>\n</urlset>\n")
 
 # Plain-text sitemap: one URL per line (the simplest format Google accepts)
-open("sitemap.txt", "w").write(SITE + "\n")
+open("sitemap.txt", "w").write(SITE + "\n" + SITE + "christmas/\n")
 
 print(f"Built: {len(live)} upcoming events ({len(events) - len(live)} past dropped), "
-      f"{len(ld)} sent to Google, calendar feed and sitemap updated.")
+      f"{len(ld)} sent to Google, calendar feed and sitemap updated. Christmas guide: {xcount} local + {len(xd)} out of town.")

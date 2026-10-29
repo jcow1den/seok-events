@@ -1085,7 +1085,10 @@
   "address": "1025 W Kenosha St, Broken Arrow, OK 74012",
   "lat": 36.0526,
   "lon": -95.7908,
-  "url": "https://www.rhemalights.org/"
+  "url": "https://www.rhemalights.org/",
+  "source": "https://www.rhemalights.org/",
+  "xmas": "lights",
+  "free": true
  },
  {
   "id": "d102",
@@ -2214,7 +2217,8 @@
   "time": "5:30 PM - 11:00 PM",
   "description": "Holiday light sculptures fill the zoo nightly, with walk-through and drive-thru options; tickets from about $14.",
   "url": "https://www.okczoo.org/safarilights",
-  "source": "https://www.okczoo.org/safarilights"
+  "source": "https://www.okczoo.org/safarilights",
+  "xmas": "lights"
  },
  {
   "id": "d196",
@@ -2289,9 +2293,11 @@
   "address": "2727 S Rockford Rd, Tulsa, OK 74114",
   "lat": 36.1239,
   "lon": -95.9686,
-  "time": "5:30 PM",
+  "time": "5:30 – 9:30 PM on select nights, timed tickets",
   "description": "Holiday lights and Festival Nights at Philbrook on select nights, including Dec. 21-23, with holiday films on some dates.",
-  "url": "https://www.philbrook.org/keyword/festival"
+  "url": "https://www.philbrook.org/keyword/festival",
+  "source": "https://www.philbrook.org/keyword/festival",
+  "xmas": "lights"
  },
  {
   "id": "d201",
@@ -3495,9 +3501,11 @@
   "address": "3900 Tulsa Botanic Dr, Tulsa, OK",
   "lat": 36.154,
   "lon": -95.9928,
-  "time": "5:00 - 9:00 PM, select nights",
+  "time": "5:00 – 9:00 PM select nights (closed Dec 24, 25 and 31)",
   "description": "Holiday light walk on select nights (Nov 27-29; Dec 2-6, 9-13, 16-23 and 26-30). Timed-entry tickets: $20 adults, $9 kids 3-15, under 3 free; members less.",
-  "url": "https://tulsabotanic.org/botanic-garden-of-lights/"
+  "url": "https://tulsabotanic.org/botanic-garden-of-lights/",
+  "source": "https://tulsabotanic.org/connect/botanic-garden-of-lights/",
+  "xmas": "lights"
  },
  {
   "id": "d288",
@@ -3527,7 +3535,8 @@
   "description": "The 25th ICE! exhibit, carved around the Harry Potter films. Tickets through Christmas at Gaylord Texan.",
   "url": "https://www.natja.org/press-releases/holiday-wonder-returns-as-gaylord-texan-resort-debuts-22nd-annual-lone-star-christmas-with-marquee-attraction-ice-featuring-harry-potter/",
   "source": "https://www.christmasatgaylordtexan.com/ice",
-  "time": "Timed entry, pick a time when you buy tickets"
+  "time": "Timed entry, pick a time when you buy tickets",
+  "xmas": "lights"
  },
  {
   "id": "d290",
@@ -3825,7 +3834,8 @@
   "lat": 32.7555,
   "lon": -97.3308,
   "source": "https://fwbg.org/full-calendar/christmas-in-the-garden/",
-  "time": "Timed entry 5:30 – 8:00 PM, open until 9 PM"
+  "time": "Timed entry 5:30 – 8:00 PM, open until 9 PM",
+  "xmas": "lights"
  },
  {
   "id": "d311",
@@ -3839,7 +3849,9 @@
   "description": "Fort Worth's annual lighted holiday parade through downtown.",
   "url": "https://www.papercitymag.com/events/gm-financial-parade-of-lights/",
   "lat": 32.7555,
-  "lon": -97.3308
+  "lon": -97.3308,
+  "source": "https://www.dfwi.org/events/our-events/parade-of-lights",
+  "xmas": "parade"
  },
  {
   "kind": "festivals",
@@ -3855,7 +3867,8 @@
   "description": "Free walk-through and drive-through holiday light festival, now in its 34th year.",
   "url": "https://www.chickashafestivaloflight.org/",
   "id": "d312",
-  "source": "https://www.travelok.com/listings/view.profile/id.15643/event.55369"
+  "source": "https://www.travelok.com/listings/view.profile/id.15643/event.55369",
+  "xmas": "lights"
  },
  {
   "kind": "festivals",
@@ -3869,7 +3882,10 @@
   "lon": -95.9954,
   "description": "Downtown Tulsa's holiday festival with an outdoor ice rink next to the BOK Center.",
   "url": "https://web1.travelok.com/listings/view.profile/id.19905",
-  "id": "d313"
+  "id": "d313",
+  "source": "https://www.arvestwinterfest.com/",
+  "time": "Weekdays 5 – 10 PM · weekends noon – 11 PM",
+  "xmas": "more"
  },
  {
   "kind": "festivals",
@@ -3885,7 +3901,8 @@
   "url": "https://www.dallasarboretum.org/holiday",
   "id": "d314",
   "source": "https://www.dallasarboretum.org/events-activities/holiday-at-the-arboretum/",
-  "time": "Day 9:00 AM – 4:00 PM, Holiday at Night 5:00 – 10:00 PM"
+  "time": "Day 9:00 AM – 4:00 PM, Holiday at Night 5:00 – 10:00 PM",
+  "xmas": "lights"
  },
  {
   "kind": "shows",
@@ -3983,5 +4000,56 @@
   "description": "Comedian Eric Andre's 2027 stand-up tour stops in Oklahoma City.",
   "url": "https://www.ticketnews.com/2026/10/comedian-eric-andre-announces-40-date-subtle-standup-tour-for-2027/",
   "id": "d321"
+ },
+ {
+  "id": "d322",
+  "kind": "festivals",
+  "date": "2026-12-12",
+  "title": "Tulsa Christmas Parade (100th year)",
+  "city": "Tulsa",
+  "venue": "Downtown Tulsa",
+  "address": "Downtown Tulsa, OK 74103",
+  "lat": 36.154,
+  "lon": -95.9928,
+  "time": "11:00 AM",
+  "description": "The 100th Tulsa Christmas Parade with floats, bands and giant balloons downtown. Free.",
+  "url": "https://tulsachristmasparade.org/",
+  "source": "https://www.travelok.com/listings/view.profile/id.18712/55592",
+  "free": true,
+  "xmas": "parade"
+ },
+ {
+  "id": "d323",
+  "kind": "family",
+  "date": "2026-11-13",
+  "endDate": "2027-01-31",
+  "title": "Devon Ice Rink at Myriad Gardens",
+  "city": "Oklahoma City",
+  "venue": "Myriad Botanical Gardens",
+  "address": "301 W Reno Ave, Oklahoma City, OK 73102",
+  "lat": 35.4655,
+  "lon": -97.5175,
+  "time": "Mon–Thu 3 – 9 PM · Fri 3 – 11 PM · Sat 11 AM – 11 PM · Sun 11 AM – 7 PM",
+  "description": "Outdoor ice skating downtown, part of Downtown in December.",
+  "url": "https://myriadgardens.org/visit-us/seasonal/devonicerink/",
+  "source": "https://myriadgardens.org/visit-us/seasonal/devonicerink/",
+  "xmas": "more"
+ },
+ {
+  "id": "d324",
+  "kind": "festivals",
+  "date": "2026-11-14",
+  "endDate": "2026-12-30",
+  "title": "Ardmore Festival of Lights",
+  "city": "Ardmore",
+  "venue": "Ardmore Regional Park",
+  "address": "2704 N Rockford Rd, Ardmore, OK 73401",
+  "lat": 34.214,
+  "lon": -97.118,
+  "time": "6:00 – 10:00 PM, until 11 PM Fri & Sat",
+  "description": "A 1.5 mile drive through more than 150 animated light displays, one of the biggest in southern Oklahoma.",
+  "url": "https://www.exploreardmore.com/attraction/ardmore-festival-of-lights/",
+  "source": "https://www.chickasawcountry.com/article/magical-holiday-light-displays-chickasaw-country",
+  "xmas": "lights"
  }
 ]
