@@ -3669,5 +3669,17 @@
   "free": true,
   "kids": true,
   "unconfirmed": true
+ },
+ {
+  "id": "e404",
+  "date": "2026-11-04",
+  "title": "Remote-Work Job Fair",
+  "category": "community",
+  "area": "mcalester",
+  "time": "12:00 – 1:00 PM",
+  "venue": "Eastern Oklahoma State College – McAlester",
+  "address": "1802 E College Ave, McAlester, OK 74501",
+  "description": "Meet hiring companies offering remote work, including TTEC, Five Star, MCI, VXI, Kelly Connect and Transcom. Questions: 918-400-9404 or WROeast@workreadyoklahoma.com.",
+  "organizer": "Work Ready Oklahoma"
  }
 ]
