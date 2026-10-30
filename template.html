@@ -32,7 +32,7 @@
   --bg:#edf0ec; --surface:#ffffff; --raised:#f6f8f5; --ink:#17201b; --muted:#56625a; --line:#d5ddd6;
   --pine:#1d4a37; --pine-ink:#ffffff; --clay:#b4461d;
   --sky-top:#c9ddd6; --sky-low:#f3d2a6; --ridge1:#7fa58e; --ridge2:#3f7259; --ridge3:#1d4a37; --hero-ink:#ffffff;
-  --c-festivals:#b4461d; --c-music:#6346a0; --c-markets:#2b7a55; --c-community:#24679a; --c-sports:#9a7413; --c-shows:#a8336a;
+  --c-festivals:#b4461d; --c-music:#6346a0; --c-markets:#2b7a55; --c-community:#24679a; --c-sports:#9a7413; --c-shows:#a8336a; --c-wrestling:#8a2f3c;
   --chip:#e1e7e2; --on-cat:#ffffff; --sponsor:#fbf7ee; --sponsor-line:#e6d8b8;
   --display:"Barlow Condensed","Arial Narrow",Arial,sans-serif;
   --body:"Figtree",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
@@ -42,13 +42,13 @@
   --bg:#0f1412; --surface:#181e1b; --raised:#1e2521; --ink:#e6ece7; --muted:#97a39b; --line:#2a332e;
   --pine:#69b58f; --pine-ink:#0c1510; --clay:#ee8c60;
   --sky-top:#1b2b33; --sky-low:#5b3a2a; --ridge1:#2b4237; --ridge2:#1c3128; --ridge3:#121d18; --hero-ink:#f2efe6;
-  --c-festivals:#ee8c60; --c-music:#a993e0; --c-markets:#62c08e; --c-community:#6fb0e0; --c-sports:#e0b84f; --c-shows:#ec8fbd;
+  --c-festivals:#ee8c60; --c-music:#a993e0; --c-markets:#62c08e; --c-community:#6fb0e0; --c-sports:#e0b84f; --c-shows:#ec8fbd; --c-wrestling:#ef8f9c;
   --chip:#232b27; --on-cat:#10140f; --sponsor:#1f1d16; --sponsor-line:#4a4130; color-scheme:dark}}
 :root[data-theme="dark"]{
   --bg:#0f1412; --surface:#181e1b; --raised:#1e2521; --ink:#e6ece7; --muted:#97a39b; --line:#2a332e;
   --pine:#69b58f; --pine-ink:#0c1510; --clay:#ee8c60;
   --sky-top:#1b2b33; --sky-low:#5b3a2a; --ridge1:#2b4237; --ridge2:#1c3128; --ridge3:#121d18; --hero-ink:#f2efe6;
-  --c-festivals:#ee8c60; --c-music:#a993e0; --c-markets:#62c08e; --c-community:#6fb0e0; --c-sports:#e0b84f; --c-shows:#ec8fbd;
+  --c-festivals:#ee8c60; --c-music:#a993e0; --c-markets:#62c08e; --c-community:#6fb0e0; --c-sports:#e0b84f; --c-shows:#ec8fbd; --c-wrestling:#ef8f9c;
   --chip:#232b27; --on-cat:#10140f; --sponsor:#1f1d16; --sponsor-line:#4a4130; color-scheme:dark}
 
 *{box-sizing:border-box}
@@ -69,7 +69,7 @@ button,input,select,textarea{font:inherit;color:inherit}
   font:700 13px/1 var(--display);letter-spacing:.1em;text-transform:uppercase;padding:6px 10px 5px;border-radius:4px}
 .hero h1{margin:4px 0 0;font:800 clamp(36px,10vw,68px)/.92 var(--display);text-transform:uppercase;letter-spacing:-.01em;color:var(--ink);text-wrap:balance}
 .hero h1 span{display:block;color:var(--pine)}
-.xguide{margin:10px 0 0}.xguide a{display:inline-block;background:var(--clay);color:#fff;font-weight:700;font-size:14px;padding:7px 12px;border-radius:999px;text-decoration:none}
+.xguide{margin:10px 0 0;display:flex;flex-wrap:wrap;gap:8px}.xguide a{display:inline-block;background:var(--clay);color:#fff;font-weight:700;font-size:14px;padding:7px 12px;border-radius:999px;text-decoration:none}
 .hero p.lede{margin:2px 0 0;color:var(--ink);opacity:.82;max-width:44ch;font-weight:500}
 .ridges{display:block;width:100%;height:auto;margin-top:-6px;position:relative;z-index:1}
 .ridges .r1{fill:var(--ridge1)} .ridges .r2{fill:var(--ridge2)} .ridges .r3{fill:var(--ridge3)}
@@ -469,6 +469,7 @@ dialog.wxd{overflow-x:hidden}
   <symbol id="i-community" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2.5"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><path d="M15 15.5c.6-.3 1.3-.5 2-.5 2.2 0 4 1.8 4 4"/></symbol>
   <symbol id="i-shows" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 5h18v4a2 2 0 0 0 0 4v4H3v-4a2 2 0 0 0 0-4z"/><path d="M14 5v12" stroke-dasharray="2 2"/></symbol>
   <symbol id="i-sports" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21h8M12 17v4"/><path d="M7 4h10v5a5 5 0 0 1-10 0z"/><path d="M17 6h3a3 3 0 0 1-3 4M7 6H4a3 3 0 0 0 3 4"/></symbol>
+  <symbol id="i-wrestling" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="7" cy="5" r="2"/><circle cx="17" cy="5" r="2"/><path d="M5 21l2-7 5-3 5 3 2 7"/><path d="M7 14l-3-4M17 14l3-4M9 11l3 3 3-3"/></symbol>
   <symbol id="i-all" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 9h18M8 2v4M16 2v4"/></symbol>
   <symbol id="i-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s7-6.5 7-12a7 7 0 0 0-14 0c0 5.5 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></symbol>
   <symbol id="i-cal" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 9h18M8 2v4M16 2v4M12 13v5M9.5 15.5h5"/></symbol>
@@ -500,7 +501,7 @@ dialog.wxd{overflow-x:hidden}
     <span class="badge">Kiamichi Country · Lake Country</span>
     <h1>Southeast Oklahoma <span>Events</span></h1>
     <p class="lede">Festivals, live music, markets, and hometown happenings across southeast Oklahoma, in big towns and small ones. Plus the big shows worth the drive.</p>
-    <p class="xguide"><a href="christmas/">Christmas guide: parades, lights and Santa ›</a></p>
+    <p class="xguide"><a href="christmas/">Christmas guide: parades, lights and Santa ›</a> <a href="wrestling/">Wrestling tournaments and sign up links ›</a></p>
     <p class="greet" id="greet" aria-live="polite"></p>
     <button class="newpill" id="newpill" type="button" hidden></button>
     <button class="nextup" id="nextup" type="button" hidden></button>
@@ -729,7 +730,7 @@ const SHOW_AD_INVITES = false;
 const SITE_URL = "https://jcow1den.github.io/seok-events/";
 const BUILT = "__BUILT__"; /* the day this page was last rebuilt with fresh listings */
 
-const CATS = {all:"All",festivals:"Festivals",music:"Music",shows:"Shows & comedy",markets:"Markets",community:"Community",sports:"Sports"};
+const CATS = {all:"All",festivals:"Festivals",music:"Music",shows:"Shows & comedy",markets:"Markets",community:"Community",sports:"Sports",wrestling:"Wrestling"};
 const AREAS = {all:"All areas",mcalester:"McAlester area",wilburton:"Wilburton",eufaula:"Lake Eufaula area",atoka:"Atoka",
   durant:"Durant","ada-holdenville":"Ada / Holdenville","okmulgee-east":"Okmulgee / Henryetta",
   "hugo-antlers":"Hugo / Antlers","idabel-broken-bow":"Idabel / Broken Bow",poteau:"Poteau area"};
@@ -986,7 +987,7 @@ function renderShelves(today,upcoming){
   const byDate=list=>list.map(e=>[firstActive(e,today),e]).filter(x=>x[0]).sort((x,y)=>x[0].localeCompare(y[0])||startKey(x[1])-startKey(y[1])).map(x=>x[1]);
   const savedCats={}; for(const id of SAVED){ const e=EVENTS.find(x=>x.id===id); if(e) savedCats[e.category]=(savedCats[e.category]||0)+1; }
   const favCat=Object.entries(savedCats).sort((a,b)=>b[1]-a[1])[0];
-  const CATWORD={festivals:"festivals",music:"live music",shows:"shows",markets:"markets",community:"community events",sports:"sports"};
+  const CATWORD={festivals:"festivals",music:"live music",shows:"shows",markets:"markets",community:"community events",sports:"sports",wrestling:"wrestling"};
   const rows=[
     {t:"Happening today",s:"No time like the present.",min:1,items:byDate(pool.filter(e=>firstActive(e,today)===today))},
     {t:"Don't miss",s:"The big ones in the next 10 days.",min:1,big:true,items:(()=>{ const p=pool.filter(e=>within(e,10)); return [...byDate(p.filter(e=>e.featured)),...byDate(p.filter(e=>!e.featured&&(e.category==="festivals"||e.category==="music")))]; })()},
@@ -1053,6 +1054,7 @@ const SYN = {
   sports:{alt:["sports","game","tournament","race","rodeo"],cat:"sports",kind:"sports"},
   football:{alt:["football","sooners","cowboys","vs"],kind:"sports"},
   basketball:{alt:["basketball","thunder"],kind:"sports"},
+  wrestling:{alt:["wrestling","wrestle","tournament","open","duals","takedown"],cat:"wrestling"}, wrestle:{ref:"wrestling"},
   kids:{flag:"kids",alt:["kids","children","family","youth","storytime","toddler","teen"]},
   kid:{ref:"kids"}, family:{ref:"kids"}, children:{ref:"kids"},
   free:{flag:"free",alt:["free"]},
@@ -1178,6 +1180,7 @@ function renderHome(today,upcoming){
     {em:"🧒",t:"Bring the kids",c:n(e=>e.kids),go:()=>setFilters({tags:["kids"]})},
     {em:"🧺",t:"Markets",c:n(e=>e.category==="markets"),go:()=>setFilters({cat:"markets"})},
     {em:"🏆",t:"Sports",c:n(e=>e.category==="sports"),go:()=>setFilters({cat:"sports"})},
+    {em:"🤼",t:"Wrestling",c:n(e=>e.category==="wrestling"),go:()=>setFilters({cat:"wrestling"})},
     {em:"🤝",t:"Community",c:n(e=>e.category==="community"),go:()=>setFilters({cat:"community"})},
     {em:"🌆",t:"Tulsa",c:drives.filter(d=>cityGroup(d.city)==="tulsa").length,go:()=>{ go("drive"); setDriveCity("tulsa"); }},
     {em:"🌃",t:"Oklahoma City",c:drives.filter(d=>cityGroup(d.city)==="okc").length,go:()=>{ go("drive"); setDriveCity("okc"); }},
@@ -1626,6 +1629,7 @@ document.getElementById("q").addEventListener("input",ev=>{ if(ev.target.value.t
     {w:["festival","fest","fair"],si:"🎪",t:"Festivals",k:"Category",run:()=>{ state.cat="festivals"; }},
     {w:["market","farmers","flea","craft"],si:"🧺",t:"Markets",k:"Category",run:()=>{ state.cat="markets"; }},
     {w:["sports","game","rodeo","run","5k","fishing"],si:"🏆",t:"Sports",k:"Category",run:()=>{ state.cat="sports"; }},
+    {w:["wrestling","wrestle","tournament","takedown"],si:"🤼",t:"Wrestling",k:"Category",run:()=>{ state.cat="wrestling"; }},
     {w:["indoor","inside","rain"],si:"🏠",t:"Indoor events",k:"Filter",run:()=>{ if(!state.tags.includes("indoor")) state.tags=[...state.tags,"indoor"]; }}];
   function build(){
     const v=q.value.trim().toLowerCase(), today=todayCT(); items=[];
