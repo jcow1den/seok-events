@@ -4327,5 +4327,57 @@
   "source": "https://www.choctawnation.com/events/community-centers/thanksgiving-meal-wilburton-elder/",
   "organizer": "Choctaw Nation District 6",
   "indoor": true
+ },
+ {
+  "id": "e468",
+  "date": "2026-10-30",
+  "title": "Frights & Flights Tarmac Trick-or-Treat",
+  "category": "community",
+  "area": "durant",
+  "time": "6:00 – 8:00 PM",
+  "venue": "Durant Regional Airport, Eaker Field",
+  "address": "10 Waldron Rd, Durant, OK 74701",
+  "description": "Trick or treat out on the tarmac at the Durant airport, with costumes, candy and airplanes up close. Fun for the whole family.",
+  "kids": true,
+  "source": "https://texomaweekendguide.com/events/frights-and-flights-durant-regional-airport-2026-10-30/"
+ },
+ {
+  "id": "e469",
+  "date": "2026-10-30",
+  "title": "Kiamichi Tech Trunk or Treat",
+  "category": "community",
+  "area": "durant",
+  "time": "5:00 – 7:00 PM",
+  "venue": "Kiamichi Tech Durant Campus",
+  "address": "810 Waldron Rd, Durant, OK 74701",
+  "description": "Trunk or treat at Kiamichi Tech in Durant, plus touch a truck, face painting and more for the kids.",
+  "kids": true,
+  "source": "https://www.kxii.com/2026/10/13/2026-halloween-events-texoma/"
+ },
+ {
+  "id": "e470",
+  "date": "2026-10-31",
+  "title": "Trunk or Treat at the Durant Stockyards",
+  "category": "community",
+  "area": "durant",
+  "time": "5:00 – 8:00 PM",
+  "venue": "Durant Stockyards",
+  "address": "2201 S 9th Ave, Durant, OK 74701",
+  "description": "Halloween night trunk or treat out at the Durant Stockyards. Bring the kids in costume.",
+  "kids": true,
+  "source": "https://www.kxii.com/2026/10/13/2026-halloween-events-texoma/"
+ },
+ {
+  "id": "e471",
+  "date": "2026-10-31",
+  "title": "Trick-or-Treat Main Street Tishomingo",
+  "category": "community",
+  "area": "ada-holdenville",
+  "time": "4:00 – 6:00 PM",
+  "venue": "Downtown Tishomingo",
+  "address": "Main St, Tishomingo, OK 73460",
+  "description": "Trick or treating along Main Street in downtown Tishomingo on Halloween afternoon.",
+  "kids": true,
+  "source": "https://www.kxii.com/2026/10/13/2026-halloween-events-texoma/"
  }
 ]
