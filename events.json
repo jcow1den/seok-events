@@ -4619,5 +4619,73 @@
   "description": "Halloween candy event for kids in the Cottonwood community near Coalgate.",
   "source": "https://www.facebook.com/groups/391455954249751/",
   "kids": true
+ },
+ {
+  "id": "e490",
+  "date": "2026-10-30",
+  "title": "The Haunted Woods at Blessed Arrows Acres",
+  "category": "community",
+  "area": "atoka",
+  "time": "Farm opens 7:00 PM · woods 8:00 – 10:30 PM",
+  "venue": "Blessed Arrows Acres",
+  "address": "17248 SH 48, Coalgate, OK 74538",
+  "description": "A haunted walk through the woods on a family farm outside Coalgate. $10 a person, and group rates are available by texting Meg at 580 853 8270.",
+  "organizer": "Blessed Arrows Acres and Local Friends",
+  "offers": {
+   "low": 10,
+   "high": 10
+  },
+  "source": "https://www.facebook.com/photo/?fbid=122123070093301993&set=a.122096191137301993"
+ },
+ {
+  "id": "e491",
+  "date": "2026-10-31",
+  "title": "The Haunted Woods at Blessed Arrows Acres",
+  "category": "community",
+  "area": "atoka",
+  "time": "Farm opens 7:00 PM · woods 8:00 – 10:30 PM",
+  "venue": "Blessed Arrows Acres",
+  "address": "17248 SH 48, Coalgate, OK 74538",
+  "description": "A haunted walk through the woods on a family farm outside Coalgate. $10 a person, and group rates are available by texting Meg at 580 853 8270.",
+  "organizer": "Blessed Arrows Acres and Local Friends",
+  "offers": {
+   "low": 10,
+   "high": 10
+  },
+  "source": "https://www.facebook.com/photo/?fbid=122123070093301993&set=a.122096191137301993"
+ },
+ {
+  "id": "e492",
+  "date": "2026-11-06",
+  "title": "The Haunted Woods at Blessed Arrows Acres",
+  "category": "community",
+  "area": "atoka",
+  "time": "7:00 – 10:00 PM",
+  "venue": "Blessed Arrows Acres",
+  "address": "17248 SH 48, Coalgate, OK 74538",
+  "description": "A haunted walk through the woods on a family farm outside Coalgate. $10 a person, and group rates are available by texting Meg at 580 853 8270.",
+  "organizer": "Blessed Arrows Acres and Local Friends",
+  "offers": {
+   "low": 10,
+   "high": 10
+  },
+  "source": "https://www.facebook.com/photo/?fbid=122123070093301993&set=a.122096191137301993"
+ },
+ {
+  "id": "e493",
+  "date": "2026-11-07",
+  "title": "The Haunted Woods at Blessed Arrows Acres",
+  "category": "community",
+  "area": "atoka",
+  "time": "7:00 – 10:00 PM",
+  "venue": "Blessed Arrows Acres",
+  "address": "17248 SH 48, Coalgate, OK 74538",
+  "description": "A haunted walk through the woods on a family farm outside Coalgate. $10 a person, and group rates are available by texting Meg at 580 853 8270.",
+  "organizer": "Blessed Arrows Acres and Local Friends",
+  "offers": {
+   "low": 10,
+   "high": 10
+  },
+  "source": "https://www.facebook.com/photo/?fbid=122123070093301993&set=a.122096191137301993"
  }
 ]
