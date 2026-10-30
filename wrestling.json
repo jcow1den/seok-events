@@ -1,6 +1,29 @@
 [
  {
   "id": "w001",
+  "title": "Jon Zerzavy Memorial Takedown",
+  "date": "2026-10-31",
+  "city": "Cache",
+  "state": "OK",
+  "venue": "Cache High School",
+  "address": "102 West H Avenue, Cache, OK 73527",
+  "styles": "Folkstyle",
+  "source": "https://www.flowrestling.org/nextgen/events/16219673/information",
+  "provider": "Trackwrestling",
+  "register": "https://www.trackwrestling.com/registration/TW_Register.jsp?tournamentGroupId=291454132",
+  "registerLabel": "Register on Trackwrestling",
+  "start": "8 AM",
+  "deadline": "2026-10-30",
+  "levels": [
+   "kids"
+  ],
+  "divisions": "Youth divisions",
+  "lat": 34.6232,
+  "lon": -98.625,
+  "region": "ok"
+ },
+ {
+  "id": "w002",
   "title": "Midwest City Mayhem",
   "date": "2026-10-31",
   "city": "Midwest City",
@@ -25,7 +48,7 @@
   "region": "ok"
  },
  {
-  "id": "w002",
+  "id": "w003",
   "title": "Bixby HS and JH Open",
   "date": "2026-11-06",
   "city": "Bixby",
@@ -52,7 +75,7 @@
   "region": "ok"
  },
  {
-  "id": "w003",
+  "id": "w004",
   "title": "Women's Viking Open",
   "date": "2026-11-06",
   "city": "Poteau",
@@ -74,7 +97,7 @@
   "region": "seok"
  },
  {
-  "id": "w004",
+  "id": "w005",
   "title": "CJS Open Tournament",
   "date": "2026-11-07",
   "city": "Edmond",
@@ -98,7 +121,7 @@
   "region": "ok"
  },
  {
-  "id": "w005",
+  "id": "w006",
   "title": "Catoosa Youth Wrestling Tournament",
   "date": "2026-11-07",
   "city": "Catoosa",
@@ -121,7 +144,7 @@
   "region": "ok"
  },
  {
-  "id": "w006",
+  "id": "w007",
   "title": "Chandler Open",
   "date": "2026-11-07",
   "city": "Chandler",
@@ -146,7 +169,7 @@
   "region": "ok"
  },
  {
-  "id": "w007",
+  "id": "w008",
   "title": "MacArthur Open",
   "date": "2026-11-07",
   "city": "Lawton",
@@ -165,12 +188,12 @@
    "hs"
   ],
   "divisions": "Youth and high school divisions",
-  "lat": -98.3366,
-  "lon": 34.6094,
+  "lat": 34.6094,
+  "lon": -98.3366,
   "region": "ok"
  },
  {
-  "id": "w008",
+  "id": "w009",
   "title": "Norman Preseason Classic",
   "date": "2026-11-07",
   "city": "Norman",
@@ -193,7 +216,7 @@
   "region": "ok"
  },
  {
-  "id": "w009",
+  "id": "w010",
   "title": "Shawnee Stucker Scrap",
   "date": "2026-11-07",
   "city": "Shawnee",
@@ -216,7 +239,7 @@
   "region": "ok"
  },
  {
-  "id": "w010",
+  "id": "w011",
   "title": "Tahlequah Kids Tournament",
   "date": "2026-11-07",
   "city": "Tahlequah",
@@ -240,7 +263,7 @@
   "region": "ok"
  },
  {
-  "id": "w011",
+  "id": "w012",
   "title": "Viking Open",
   "date": "2026-11-07",
   "city": "Poteau",
@@ -262,7 +285,7 @@
   "region": "seok"
  },
  {
-  "id": "w012",
+  "id": "w013",
   "title": "The Mountie Open",
   "date": "2026-11-07",
   "city": "Rogers",
@@ -283,7 +306,7 @@
   "region": "ar"
  },
  {
-  "id": "w013",
+  "id": "w014",
   "title": "Warrior Wrestling Classic",
   "date": "2026-11-07",
   "city": "Argyle",
@@ -304,7 +327,7 @@
   "region": "tx"
  },
  {
-  "id": "w014",
+  "id": "w015",
   "title": "Rumble in Rogers",
   "date": "2026-11-08",
   "city": "Rogers",
@@ -325,7 +348,7 @@
   "region": "ar"
  },
  {
-  "id": "w015",
+  "id": "w016",
   "title": "Season Kickoff Youth Duals",
   "date": "2026-11-08",
   "city": "Argyle",
@@ -347,7 +370,7 @@
   "region": "tx"
  },
  {
-  "id": "w016",
+  "id": "w017",
   "title": "Joe Zamora and Skylar Holman BA Open",
   "date": "2026-11-13",
   "endDate": "2026-11-14",
@@ -370,7 +393,7 @@
   "region": "ok"
  },
  {
-  "id": "w017",
+  "id": "w018",
   "title": "Bridge Creek Battle",
   "date": "2026-11-14",
   "city": "Bridge Creek",
@@ -395,7 +418,7 @@
   "region": "ok"
  },
  {
-  "id": "w018",
+  "id": "w019",
   "title": "Hinton Classic Wrestling Tournament",
   "date": "2026-11-14",
   "city": "Hinton",
@@ -420,7 +443,7 @@
   "region": "ok"
  },
  {
-  "id": "w019",
+  "id": "w020",
   "title": "Mark Peck Westmoore Open",
   "date": "2026-11-14",
   "city": "Oklahoma City",
@@ -443,7 +466,7 @@
   "region": "ok"
  },
  {
-  "id": "w020",
+  "id": "w021",
   "title": "Patriot Pride",
   "date": "2026-11-14",
   "city": "Oklahoma City",
@@ -466,7 +489,7 @@
   "region": "ok"
  },
  {
-  "id": "w021",
+  "id": "w022",
   "title": "Perry I-35 Throwdown",
   "date": "2026-11-14",
   "city": "Perry",
@@ -491,7 +514,7 @@
   "region": "ok"
  },
  {
-  "id": "w022",
+  "id": "w023",
   "title": "Team Tulsa Veterans Day Classic",
   "date": "2026-11-14",
   "city": "Tulsa",
@@ -516,7 +539,7 @@
   "region": "ok"
  },
  {
-  "id": "w023",
+  "id": "w024",
   "title": "Vikings Wrestling Tournament",
   "date": "2026-11-14",
   "city": "Poteau",
@@ -541,7 +564,7 @@
   "region": "seok"
  },
  {
-  "id": "w024",
+  "id": "w025",
   "title": "Yukon Ladies Open",
   "date": "2026-11-14",
   "city": "Yukon",
@@ -566,7 +589,7 @@
   "region": "ok"
  },
  {
-  "id": "w025",
+  "id": "w026",
   "title": "Zebra Classic",
   "date": "2026-11-14",
   "city": "Claremore",
@@ -587,7 +610,7 @@
   "region": "ok"
  },
  {
-  "id": "w026",
+  "id": "w027",
   "title": "Texan Scramble",
   "date": "2026-11-14",
   "city": "Ponder",
@@ -607,7 +630,7 @@
   "region": "tx"
  },
  {
-  "id": "w027",
+  "id": "w028",
   "title": "War at West",
   "date": "2026-11-14",
   "city": "Centerton",
@@ -628,7 +651,7 @@
   "region": "ar"
  },
  {
-  "id": "w028",
+  "id": "w029",
   "title": "Morrison Kids Tournament",
   "date": "2026-11-15",
   "city": "Morrison",
@@ -652,7 +675,7 @@
   "region": "ok"
  },
  {
-  "id": "w029",
+  "id": "w030",
   "title": "Tulsa Kickoff Classic",
   "date": "2026-11-19",
   "city": "Tulsa",
@@ -678,7 +701,7 @@
   "region": "ok"
  },
  {
-  "id": "w030",
+  "id": "w031",
   "title": "Union and Pryor IceFighter Open",
   "date": "2026-11-20",
   "endDate": "2026-11-21",
@@ -701,7 +724,7 @@
   "region": "ok"
  },
  {
-  "id": "w031",
+  "id": "w032",
   "title": "Battle for the Bell",
   "date": "2026-11-21",
   "city": "Midwest City",
@@ -726,7 +749,7 @@
   "region": "ok"
  },
  {
-  "id": "w032",
+  "id": "w033",
   "title": "Bronco Open",
   "date": "2026-11-21",
   "city": "Mustang",
@@ -745,12 +768,12 @@
    "hs"
   ],
   "divisions": "Youth and high school divisions",
-  "lat": -97.7275,
-  "lon": 35.3849,
+  "lat": 35.3849,
+  "lon": -97.7275,
   "region": "ok"
  },
  {
-  "id": "w033",
+  "id": "w034",
   "title": "Cory Leslie Memorial Tournament",
   "date": "2026-11-21",
   "city": "Glenpool",
@@ -772,7 +795,31 @@
   "region": "ok"
  },
  {
-  "id": "w034",
+  "id": "w035",
+  "title": "John Smith Open",
+  "date": "2026-11-21",
+  "city": "Del City",
+  "state": "OK",
+  "venue": "Del City High School",
+  "address": "1900 South Sunnylane Road, Del City, OK 73115",
+  "styles": "Folkstyle",
+  "source": "https://www.flowrestling.org/nextgen/events/16279057/information",
+  "provider": "FloArena",
+  "register": "https://www.flowrestling.org/nextgen/events/16279057/information",
+  "registerLabel": "Event page and details",
+  "regNote": "No online sign up is posted. Check the event page or contact the host school.",
+  "start": "10 AM",
+  "levels": [
+   "hs",
+   "open"
+  ],
+  "divisions": "High school divisions",
+  "lat": 35.4452,
+  "lon": -97.4405,
+  "region": "ok"
+ },
+ {
+  "id": "w036",
   "title": "Kingfisher Battle for the Ring",
   "date": "2026-11-21",
   "city": "Kingfisher",
@@ -796,7 +843,7 @@
   "region": "ok"
  },
  {
-  "id": "w035",
+  "id": "w037",
   "title": "L-Town Showdown",
   "date": "2026-11-21",
   "city": "Lawton",
@@ -817,7 +864,7 @@
   "region": "ok"
  },
  {
-  "id": "w036",
+  "id": "w038",
   "title": "Midwest City HS Open",
   "date": "2026-11-21",
   "city": "Midwest City",
@@ -835,12 +882,12 @@
    "hs"
   ],
   "divisions": "High school divisions",
-  "lat": -97.3984,
-  "lon": 35.4515,
+  "lat": 35.4515,
+  "lon": -97.3984,
   "region": "ok"
  },
  {
-  "id": "w037",
+  "id": "w039",
   "title": "Rumble on the River (Verdigris)",
   "date": "2026-11-21",
   "city": "Verdigris",
@@ -865,7 +912,7 @@
   "region": "ok"
  },
  {
-  "id": "w038",
+  "id": "w040",
   "title": "Southmoore Greg George Preseason Classic",
   "date": "2026-11-21",
   "city": "Moore",
@@ -889,7 +936,7 @@
   "region": "ok"
  },
  {
-  "id": "w039",
+  "id": "w041",
   "title": "Tomahawk Throwdown",
   "date": "2026-11-21",
   "city": "Comanche",
@@ -913,7 +960,7 @@
   "region": "ok"
  },
  {
-  "id": "w040",
+  "id": "w042",
   "title": "Vian Kids Tournament",
   "date": "2026-11-21",
   "city": "Vian",
@@ -937,7 +984,7 @@
   "region": "seok"
  },
  {
-  "id": "w041",
+  "id": "w043",
   "title": "Texan Tussle Open",
   "date": "2026-11-21",
   "city": "Arlington",
@@ -957,7 +1004,7 @@
   "region": "tx"
  },
  {
-  "id": "w042",
+  "id": "w044",
   "title": "Warner Eagle Classic",
   "date": "2026-11-23",
   "city": "Warner",
@@ -980,7 +1027,31 @@
   "region": "seok"
  },
  {
-  "id": "w043",
+  "id": "w045",
+  "title": "Edmond Memorial Pre-Turkey Open",
+  "date": "2026-11-25",
+  "city": "Edmond",
+  "state": "OK",
+  "venue": "Edmond Memorial High School",
+  "address": "1000 East 15th Street, Edmond, OK 73013",
+  "styles": "Folkstyle",
+  "source": "https://www.flowrestling.org/nextgen/events/16219687/information",
+  "provider": "FloArena",
+  "register": "https://www.flowrestling.org/nextgen/events/16219687/information",
+  "registerLabel": "Event page and details",
+  "regNote": "No online sign up is posted. Check the event page or contact the host school.",
+  "start": "8 AM",
+  "levels": [
+   "kids",
+   "hs"
+  ],
+  "divisions": "Youth and high school divisions",
+  "lat": 35.6373,
+  "lon": -97.4686,
+  "region": "ok"
+ },
+ {
+  "id": "w046",
   "title": "Marlow Outlaw Open",
   "date": "2026-11-25",
   "city": "Marlow",
@@ -999,12 +1070,12 @@
    "hs"
   ],
   "divisions": "Youth and high school divisions",
-  "lat": -97.9685,
-  "lon": 34.6443,
+  "lat": 34.6443,
+  "lon": -97.9685,
   "region": "ok"
  },
  {
-  "id": "w044",
+  "id": "w047",
   "title": "Tuttle Pre-Turkey",
   "date": "2026-11-25",
   "city": "Tuttle",
@@ -1023,12 +1094,12 @@
    "hs"
   ],
   "divisions": "Youth and high school divisions",
-  "lat": -97.8115,
-  "lon": 35.2947,
+  "lat": 35.2947,
+  "lon": -97.8115,
   "region": "ok"
  },
  {
-  "id": "w045",
+  "id": "w048",
   "title": "Battle for the Buckle",
   "date": "2026-11-28",
   "city": "Tuttle",
@@ -1050,7 +1121,7 @@
   "region": "ok"
  },
  {
-  "id": "w046",
+  "id": "w049",
   "title": "Bixby Thanksgiving Classic",
   "date": "2026-11-28",
   "city": "Bixby",
@@ -1074,7 +1145,7 @@
   "region": "ok"
  },
  {
-  "id": "w047",
+  "id": "w050",
   "title": "Black Diamond Classic",
   "date": "2026-11-28",
   "city": "Sallisaw",
@@ -1098,7 +1169,7 @@
   "region": "seok"
  },
  {
-  "id": "w048",
+  "id": "w051",
   "title": "Harvest Hammer",
   "date": "2026-11-28",
   "city": "Bethel",
@@ -1122,7 +1193,7 @@
   "region": "seok"
  },
  {
-  "id": "w049",
+  "id": "w052",
   "title": "Pawnee Kids Tournament",
   "date": "2026-11-28",
   "city": "Pawnee",
@@ -1145,7 +1216,7 @@
   "region": "ok"
  },
  {
-  "id": "w050",
+  "id": "w053",
   "title": "Stilly Boys Nationals",
   "date": "2026-11-28",
   "endDate": "2026-11-29",
@@ -1168,7 +1239,7 @@
   "region": "seok"
  },
  {
-  "id": "w051",
+  "id": "w054",
   "title": "UWC1 Thanksgiving Throwdown",
   "date": "2026-11-28",
   "city": "Tulsa",
@@ -1189,7 +1260,7 @@
   "region": "ok"
  },
  {
-  "id": "w052",
+  "id": "w055",
   "title": "Bentonville Tiger Classic Thanksgiving Throwdown 2026",
   "date": "2026-11-28",
   "city": "Bentonville",
@@ -1210,7 +1281,7 @@
   "region": "ar"
  },
  {
-  "id": "w053",
+  "id": "w056",
   "title": "Bulldog Brawl Novice Tournament",
   "date": "2026-11-29",
   "city": "Greenwood",
@@ -1231,7 +1302,7 @@
   "region": "ar"
  },
  {
-  "id": "w054",
+  "id": "w057",
   "title": "Blackwell Battle for the Ring",
   "date": "2026-12-05",
   "city": "Blackwell",
@@ -1255,7 +1326,7 @@
   "region": "ok"
  },
  {
-  "id": "w055",
+  "id": "w058",
   "title": "Harrah Classic",
   "date": "2026-12-05",
   "city": "Harrah",
@@ -1279,7 +1350,7 @@
   "region": "ok"
  },
  {
-  "id": "w056",
+  "id": "w059",
   "title": "Ring of Fire",
   "date": "2026-12-05",
   "city": "Durant",
@@ -1303,7 +1374,7 @@
   "region": "seok"
  },
  {
-  "id": "w057",
+  "id": "w060",
   "title": "Sperry Small Town Throwdown",
   "date": "2026-12-05",
   "city": "Sperry",
@@ -1327,7 +1398,7 @@
   "region": "ok"
  },
  {
-  "id": "w058",
+  "id": "w061",
   "title": "Wrestlemania",
   "date": "2026-12-05",
   "city": "Broken Arrow",
@@ -1349,7 +1420,7 @@
   "region": "ok"
  },
  {
-  "id": "w059",
+  "id": "w062",
   "title": "Clearwater Showdown on the Ninnescah",
   "date": "2026-12-05",
   "city": "Clearwater",
@@ -1370,7 +1441,7 @@
   "region": "ks"
  },
  {
-  "id": "w060",
+  "id": "w063",
   "title": "King of the Ring",
   "date": "2026-12-06",
   "city": "Wichita",
@@ -1391,7 +1462,7 @@
   "region": "ks"
  },
  {
-  "id": "w061",
+  "id": "w064",
   "title": "Bartlesville Kids Tournament",
   "date": "2026-12-12",
   "city": "Bartlesville",
@@ -1414,7 +1485,7 @@
   "region": "ok"
  },
  {
-  "id": "w062",
+  "id": "w065",
   "title": "Battle for the Hammer",
   "date": "2026-12-12",
   "city": "Yukon",
@@ -1436,7 +1507,7 @@
   "region": "ok"
  },
  {
-  "id": "w063",
+  "id": "w066",
   "title": "Challenge of the Talons",
   "date": "2026-12-12",
   "city": "Morris",
@@ -1460,7 +1531,7 @@
   "region": "ok"
  },
  {
-  "id": "w064",
+  "id": "w067",
   "title": "Grand Lake Throwdown",
   "date": "2026-12-12",
   "city": "Grove",
@@ -1484,7 +1555,7 @@
   "region": "ok"
  },
  {
-  "id": "w065",
+  "id": "w068",
   "title": "Hennessey Smackdown",
   "date": "2026-12-12",
   "city": "Hennessey",
@@ -1508,7 +1579,7 @@
   "region": "ok"
  },
  {
-  "id": "w066",
+  "id": "w069",
   "title": "Ironman Classic",
   "date": "2026-12-12",
   "city": "Choctaw",
@@ -1532,7 +1603,7 @@
   "region": "ok"
  },
  {
-  "id": "w067",
+  "id": "w070",
   "title": "Rumble in the Jungle",
   "date": "2026-12-12",
   "city": "Coweta",
@@ -1554,7 +1625,7 @@
   "region": "ok"
  },
  {
-  "id": "w068",
+  "id": "w071",
   "title": "Ark City Battle on the Border",
   "date": "2026-12-12",
   "city": "Arkansas City",
@@ -1575,7 +1646,7 @@
   "region": "ks"
  },
  {
-  "id": "w069",
+  "id": "w072",
   "title": "Pratt Ground & Pound",
   "date": "2026-12-12",
   "city": "Pratt",
@@ -1595,7 +1666,7 @@
   "region": "ks"
  },
  {
-  "id": "w070",
+  "id": "w073",
   "title": "Moore Holiday Classic",
   "date": "2026-12-19",
   "city": "Moore",
@@ -1619,7 +1690,7 @@
   "region": "ok"
  },
  {
-  "id": "w071",
+  "id": "w074",
   "title": "Newkirk Kids Tournament",
   "date": "2026-12-19",
   "city": "Newkirk",
@@ -1644,7 +1715,7 @@
   "region": "ok"
  },
  {
-  "id": "w072",
+  "id": "w075",
   "title": "Owasso Ram Rumble",
   "date": "2026-12-19",
   "city": "Owasso",
@@ -1665,7 +1736,7 @@
   "region": "ok"
  },
  {
-  "id": "w073",
+  "id": "w076",
   "title": "Tulsa Battle for the Belt",
   "date": "2026-12-19",
   "city": "Tulsa",
@@ -1693,7 +1764,7 @@
   "region": "ok"
  },
  {
-  "id": "w074",
+  "id": "w077",
   "title": "Texas Christmas Showcase",
   "date": "2026-12-19",
   "city": "Melissa",
@@ -1716,7 +1787,7 @@
   "region": "tx"
  },
  {
-  "id": "w075",
+  "id": "w078",
   "title": "Warrior Clash",
   "date": "2026-12-19",
   "city": "Park City",
@@ -1738,7 +1809,7 @@
   "region": "ks"
  },
  {
-  "id": "w076",
+  "id": "w079",
   "title": "Wildcat Classic",
   "date": "2026-12-20",
   "city": "El Dorado",
@@ -1759,7 +1830,7 @@
   "region": "ks"
  },
  {
-  "id": "w077",
+  "id": "w080",
   "title": "Brushy Christmas Brawl",
   "date": "2026-12-23",
   "city": "Brushy",
@@ -1783,7 +1854,7 @@
   "region": "seok"
  },
  {
-  "id": "w078",
+  "id": "w081",
   "title": "Wyandotte Classic",
   "date": "2026-12-23",
   "city": "Wyandotte",
@@ -1807,7 +1878,7 @@
   "region": "ok"
  },
  {
-  "id": "w079",
+  "id": "w082",
   "title": "Skiatook SMAKDown",
   "date": "2026-12-26",
   "city": "Skiatook",
@@ -1831,7 +1902,7 @@
   "region": "ok"
  },
  {
-  "id": "w080",
+  "id": "w083",
   "title": "Standfast Stampede",
   "date": "2026-12-26",
   "city": "Edmond",
@@ -1856,7 +1927,7 @@
   "region": "ok"
  },
  {
-  "id": "w081",
+  "id": "w084",
   "title": "USJOC (US Junior Open Championships)",
   "date": "2026-12-31",
   "city": "Oklahoma City",
@@ -1882,7 +1953,7 @@
   "region": "ok"
  },
  {
-  "id": "w082",
+  "id": "w085",
   "title": "Black Flag Brawl",
   "date": "2027-01-02",
   "city": "Mannford",
@@ -1906,7 +1977,7 @@
   "region": "ok"
  },
  {
-  "id": "w083",
+  "id": "w086",
   "title": "Gore Rumble on the River",
   "date": "2027-01-02",
   "city": "Gore",
@@ -1930,7 +2001,7 @@
   "region": "seok"
  },
  {
-  "id": "w084",
+  "id": "w087",
   "title": "Vinita Super Hornet",
   "date": "2027-01-02",
   "city": "Vinita",
@@ -1954,7 +2025,7 @@
   "region": "ok"
  },
  {
-  "id": "w085",
+  "id": "w088",
   "title": "2nd Annual Girls Holiday Havoc",
   "date": "2027-01-02",
   "city": "Chanute",
@@ -1976,7 +2047,7 @@
   "region": "ks"
  },
  {
-  "id": "w086",
+  "id": "w089",
   "title": "Crusader Clash",
   "date": "2027-01-02",
   "city": "Wichita",
@@ -1997,7 +2068,7 @@
   "region": "ks"
  },
  {
-  "id": "w087",
+  "id": "w090",
   "title": "Valley Center Round Robin",
   "date": "2027-01-02",
   "city": "Valley Center",
@@ -2017,7 +2088,7 @@
   "region": "ks"
  },
  {
-  "id": "w088",
+  "id": "w091",
   "title": "Circle Classic",
   "date": "2027-01-03",
   "city": "Towanda",
@@ -2038,7 +2109,7 @@
   "region": "ks"
  },
  {
-  "id": "w089",
+  "id": "w092",
   "title": "Battle at the Axe",
   "date": "2027-01-09",
   "city": "Norman",
@@ -2063,7 +2134,7 @@
   "region": "ok"
  },
  {
-  "id": "w090",
+  "id": "w093",
   "title": "Bedlam Battle",
   "date": "2027-01-09",
   "city": "Stillwater",
@@ -2087,7 +2158,7 @@
   "region": "ok"
  },
  {
-  "id": "w091",
+  "id": "w094",
   "title": "Berryhill Brawl",
   "date": "2027-01-09",
   "city": "Berryhill",
@@ -2111,7 +2182,7 @@
   "region": "ok"
  },
  {
-  "id": "w092",
+  "id": "w095",
   "title": "Keystone Klassic",
   "date": "2027-01-09",
   "city": "Sand Springs",
@@ -2133,7 +2204,7 @@
   "region": "ok"
  },
  {
-  "id": "w093",
+  "id": "w096",
   "title": "Salina King and Queen of the Ring",
   "date": "2027-01-09",
   "city": "Salina",
@@ -2157,7 +2228,7 @@
   "region": "ok"
  },
  {
-  "id": "w094",
+  "id": "w097",
   "title": "Trojan Wars",
   "date": "2027-01-09",
   "city": "Oklahoma City",
@@ -2179,7 +2250,7 @@
   "region": "ok"
  },
  {
-  "id": "w095",
+  "id": "w098",
   "title": "Greenwood Garrett Haralson Memorial Youth Wrestling Tournament",
   "date": "2027-01-09",
   "city": "Greenwood",
@@ -2199,7 +2270,7 @@
   "region": "ar"
  },
  {
-  "id": "w096",
+  "id": "w099",
   "title": "Grizzly Bear Brawl",
   "date": "2027-01-10",
   "city": "Wichita",
@@ -2221,7 +2292,7 @@
   "region": "ks"
  },
  {
-  "id": "w097",
+  "id": "w100",
   "title": "Rumble in the Jungle",
   "date": "2027-01-10",
   "city": "Andover",
@@ -2242,7 +2313,7 @@
   "region": "ks"
  },
  {
-  "id": "w098",
+  "id": "w101",
   "title": "Thrill in Madill JH",
   "date": "2027-01-15",
   "city": "Madill",
@@ -2260,12 +2331,12 @@
    "kids"
   ],
   "divisions": "Youth and junior high divisions",
-  "lat": -96.7766,
-  "lon": 34.0855,
+  "lat": 34.0855,
+  "lon": -96.7766,
   "region": "seok"
  },
  {
-  "id": "w099",
+  "id": "w102",
   "title": "Bristow Kids Tournament",
   "date": "2027-01-16",
   "city": "Bristow",
@@ -2289,7 +2360,7 @@
   "region": "ok"
  },
  {
-  "id": "w100",
+  "id": "w103",
   "title": "John Cowan Memorial",
   "date": "2027-01-16",
   "city": "Locust Grove",
@@ -2313,7 +2384,7 @@
   "region": "ok"
  },
  {
-  "id": "w101",
+  "id": "w104",
   "title": "NGC Throwdown",
   "date": "2027-01-16",
   "city": "Norman",
@@ -2337,7 +2408,7 @@
   "region": "ok"
  },
  {
-  "id": "w102",
+  "id": "w105",
   "title": "Outlaw Shootout",
   "date": "2027-01-16",
   "city": "Marlow",
@@ -2361,7 +2432,7 @@
   "region": "ok"
  },
  {
-  "id": "w103",
+  "id": "w106",
   "title": "Thrill in Madill",
   "date": "2027-01-16",
   "city": "Madill",
@@ -2384,7 +2455,7 @@
   "region": "seok"
  },
  {
-  "id": "w104",
+  "id": "w107",
   "title": "David Goodsell Jr Memorial",
   "date": "2027-01-16",
   "city": "Wichita",
@@ -2405,7 +2476,7 @@
   "region": "ks"
  },
  {
-  "id": "w105",
+  "id": "w108",
   "title": "Perkins Kids Tournament",
   "date": "2027-01-17",
   "city": "Perkins",
@@ -2429,7 +2500,7 @@
   "region": "ok"
  },
  {
-  "id": "w106",
+  "id": "w109",
   "title": "Battle in the Bear's Den",
   "date": "2027-01-23",
   "city": "Noble",
@@ -2453,7 +2524,7 @@
   "region": "ok"
  },
  {
-  "id": "w107",
+  "id": "w110",
   "title": "Bulldog Open",
   "date": "2027-01-23",
   "city": "Wagoner",
@@ -2477,7 +2548,7 @@
   "region": "ok"
  },
  {
-  "id": "w108",
+  "id": "w111",
   "title": "Gladiators at the Coliseum",
   "date": "2027-01-23",
   "city": "Stroud",
@@ -2501,7 +2572,7 @@
   "region": "ok"
  },
  {
-  "id": "w109",
+  "id": "w112",
   "title": "Oiltown Throwdown",
   "date": "2027-01-23",
   "city": "Ponca City",
@@ -2525,7 +2596,7 @@
   "region": "ok"
  },
  {
-  "id": "w110",
+  "id": "w113",
   "title": "Augusta Open/Novice",
   "date": "2027-01-23",
   "city": "Augusta",
@@ -2546,7 +2617,7 @@
   "region": "ks"
  },
  {
-  "id": "w111",
+  "id": "w114",
   "title": "Prime Warrior Classic",
   "date": "2027-01-30",
   "city": "Washington",
@@ -2570,7 +2641,7 @@
   "region": "ok"
  },
  {
-  "id": "w112",
+  "id": "w115",
   "title": "Tonkawa Kids Tournament",
   "date": "2027-01-30",
   "city": "Tonkawa",
@@ -2594,7 +2665,7 @@
   "region": "ok"
  },
  {
-  "id": "w113",
+  "id": "w116",
   "title": "Chad Bottorff Classic",
   "date": "2027-01-30",
   "city": "Springdale",
@@ -2615,7 +2686,7 @@
   "region": "ar"
  },
  {
-  "id": "w114",
+  "id": "w117",
   "title": "Woods Classic",
   "date": "2027-01-31",
   "city": "Chanute",
@@ -2634,5 +2705,78 @@
   "regNote": "No online sign up link is posted yet. The event page has the host contact.",
   "note": "USA Wrestling card required.",
   "region": "ks"
+ },
+ {
+  "id": "w118",
+  "title": "Clash of the Titans",
+  "date": "2027-02-06",
+  "city": "Midwest City",
+  "state": "OK",
+  "venue": "Carl Albert High School",
+  "address": "2009 South Post Road, Midwest City, OK 73130",
+  "styles": "Folkstyle",
+  "source": "https://www.flowrestling.org/nextgen/events/16218802/information",
+  "provider": "FloArena",
+  "register": "https://events.flowrestling.org/event/6e89e87a-6785-4ae1-a58f-a4d22546c879/registration",
+  "registerLabel": "Register on FloArena",
+  "start": "8 AM",
+  "fee": "$25",
+  "regNote": "Online sign up isn't open right now. Check back closer to the date.",
+  "levels": [
+   "kids",
+   "girls"
+  ],
+  "divisions": "Open, novice and girls brackets, 4U to 15U",
+  "lat": 35.4448,
+  "lon": -97.3539,
+  "region": "ok"
+ },
+ {
+  "id": "w119",
+  "title": "Clinton Kids Tournament",
+  "date": "2027-02-06",
+  "city": "Clinton",
+  "state": "OK",
+  "address": "Clinton, OK",
+  "styles": "Folkstyle",
+  "source": "https://www.flowrestling.org/nextgen/events/16218800/information",
+  "provider": "FloArena",
+  "register": "https://events.flowrestling.org/event/7de4d00b-70b8-4be9-a8cb-e6ab67aef038/registration",
+  "registerLabel": "Register on FloArena",
+  "start": "8 AM",
+  "fee": "$25",
+  "regNote": "Online sign up isn't open right now. Check back closer to the date.",
+  "levels": [
+   "kids",
+   "girls"
+  ],
+  "divisions": "Open, novice and girls brackets, 4U to 15U",
+  "lat": 35.5156,
+  "lon": -98.9673,
+  "region": "ok"
+ },
+ {
+  "id": "w120",
+  "title": "Hominy Kids Tournament",
+  "date": "2027-02-06",
+  "city": "Hominy",
+  "state": "OK",
+  "address": "Hominy, OK",
+  "styles": "Folkstyle",
+  "source": "https://www.flowrestling.org/nextgen/events/16218801/information",
+  "provider": "FloArena",
+  "register": "https://events.flowrestling.org/event/87d3ee6b-72b4-49ed-a769-1e625fabe66f/registration",
+  "registerLabel": "Register on FloArena",
+  "start": "8 AM",
+  "fee": "$25",
+  "regNote": "Online sign up isn't open right now. Check back closer to the date.",
+  "levels": [
+   "kids",
+   "girls"
+  ],
+  "divisions": "Open, novice and girls brackets, 4U to 15U",
+  "lat": 36.4142,
+  "lon": -96.3953,
+  "region": "ok"
  }
 ]

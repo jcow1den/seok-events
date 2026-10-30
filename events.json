@@ -22,20 +22,6 @@
   "source": "https://www.hugopumpkinfestival.com/"
  },
  {
-  "id": "e037",
-  "date": "2026-10-29",
-  "title": "Trunk or Treat: Party at the Expo",
-  "category": "community",
-  "area": "mcalester",
-  "time": "5:00 – 8:00 PM",
-  "venue": "Southeast Expo Center and Motor Speedway",
-  "address": "4500 W US-270, McAlester, OK 74501",
-  "description": "Trunk or treat with tons of decorated trunks from local businesses, plus inflatables, games, hayrides, and a free showing of Monster House at 6:30 PM. Free.",
-  "kids": true,
-  "free": true,
-  "organizer": "Travel McAlester"
- },
- {
   "id": "e039",
   "date": "2026-10-31",
   "title": "Building Athletes Trick-or-Trot 5K & Fun Run",
@@ -688,17 +674,6 @@
   "xmas": "more"
  },
  {
-  "id": "e148",
-  "date": "2026-10-28",
-  "title": "Trunk or Treat on Electric Ave",
-  "category": "community",
-  "area": "mcalester",
-  "time": "6:00 – 7:00 PM",
-  "venue": "405 W Electric Ave",
-  "address": "405 W Electric Ave, McAlester, OK 74501",
-  "description": "Trunk or treat in McAlester."
- },
- {
   "id": "e149",
   "date": "2026-11-21",
   "title": "PCFM 4th Annual Holiday Market",
@@ -747,17 +722,6 @@
   "venue": "Southeast Expo Center",
   "address": "4500 W US-270, McAlester, OK 74501",
   "description": "The annual Pittsburg County Elected Officials Thanksgiving meal giveaway."
- },
- {
-  "id": "e153",
-  "date": "2026-11-28",
-  "title": "The Great McAlester Snowball Fight",
-  "category": "community",
-  "area": "mcalester",
-  "time": "10:00 – 11:00 AM",
-  "venue": "Choctaw Ave, between Main St and 2nd St",
-  "address": "E Choctaw Ave, McAlester, OK",
-  "description": "A downtown snowball fight on Choctaw Avenue."
  },
  {
   "id": "e154",
@@ -1067,8 +1031,8 @@
   "performer": [
    "Theran Rose"
   ],
-  "unconfirmed": true,
-  "indoor": true
+  "indoor": true,
+  "source": "https://www.bandsintown.com/v/10349388-reba's-place"
  },
  {
   "id": "e180",
@@ -1194,100 +1158,6 @@
   "kids": true,
   "unconfirmed": true,
   "source": "https://fortsmith.macaronikid.com/events/68b83d78cd8b867d848c2171/anderson-family-game-nights"
- },
- {
-  "id": "e222",
-  "date": "2026-10-28",
-  "title": "Calvary Baptist Fall Festival",
-  "category": "community",
-  "area": "okmulgee-east",
-  "time": "Time to be announced",
-  "venue": "Calvary Baptist Church",
-  "address": "1327 E 13th St, Okmulgee, OK 74447",
-  "description": "Annual church fall festival with games, trunk-or-treat and free food.",
-  "organizer": "Calvary Okmulgee",
-  "kids": true,
-  "unconfirmed": true
- },
- {
-  "id": "e223",
-  "date": "2026-10-29",
-  "title": "Trick or Trade at GCTC",
-  "category": "community",
-  "area": "okmulgee-east",
-  "time": "5:00 PM – 7:00 PM",
-  "venue": "Green Country Technology Center",
-  "address": "1100 N Wood Dr, Okmulgee, OK 74447",
-  "description": "Annual community trick-or-treat with candy and fall activities, open to the public.",
-  "organizer": "Green Country Technology Center",
-  "kids": true,
-  "unconfirmed": true
- },
- {
-  "id": "e224",
-  "date": "2026-10-29",
-  "title": "Touch A Truck",
-  "category": "community",
-  "area": "mcalester",
-  "time": "9:00 AM - 4:00 PM",
-  "venue": "Fire Administration Building",
-  "address": "South Ave, McAlester, OK 74501",
-  "description": "Kids can see fire trucks, utility trucks and other big vehicles up close, climb aboard and meet the people who operate them.",
-  "free": true,
-  "kids": true
- },
- {
-  "id": "e225",
-  "date": "2026-10-29",
-  "title": "EOSC Trunk or Treat",
-  "category": "community",
-  "area": "wilburton",
-  "time": "5:00 PM - 7:00 PM",
-  "venue": "Eastern Oklahoma State College",
-  "address": "Eastern Oklahoma State College, Wilburton, OK",
-  "description": "Trunk or treat night at Eastern Oklahoma State College, with the Chamber of Commerce costume contest."
- },
- {
-  "id": "e226",
-  "date": "2026-10-29",
-  "title": "Ladies Paint Night",
-  "category": "community",
-  "area": "mcalester",
-  "time": "6:00 PM - 8:00 PM",
-  "venue": "The Church of Jesus Christ of Latter-day Saints",
-  "address": "405 W Electric Ave, McAlester, OK 74501",
-  "description": "Pauline Wilbur teaches how to paint a lighthouse. Bring a 4x6 or 5x7 canvas; paint and brushes are provided.",
-  "indoor": true,
-  "organizer": "The Church of Jesus Christ of Latter-day Saints"
- },
- {
-  "id": "e227",
-  "date": "2026-10-29",
-  "title": "McSwain Theatre Thursday Movie: Hocus Pocus",
-  "category": "community",
-  "area": "ada-holdenville",
-  "time": "2:00 PM and 7:00 PM",
-  "venue": "McSwain Theatre",
-  "address": "McSwain Theatre, 130 W Main St, Ada, OK 74820",
-  "description": "A screening of the 1993 PG comedy about three witches who return on Halloween night. Tickets are $3, or $2 for seniors and children 12 and under; a $5 combo adds popcorn and a drink.",
-  "indoor": true,
-  "organizer": "Chickasaw Nation",
-  "offers": {
-   "low": 2,
-   "high": 5
-  }
- },
- {
-  "id": "e228",
-  "date": "2026-10-29",
-  "title": "Safe Trick or Treat at Southeastern",
-  "category": "community",
-  "area": "durant",
-  "time": "6:30 PM - 8:30 PM",
-  "venue": "Southeastern Oklahoma State University",
-  "address": "Southeastern Oklahoma State University, Durant, OK",
-  "description": "Southeastern Oklahoma State University hosts a safe trick-or-treat event on its Durant campus, listed under its community events.",
-  "organizer": "Southeastern Oklahoma State University"
  },
  {
   "id": "e229",
@@ -1929,19 +1799,6 @@
    "low": 15
   },
   "unconfirmed": true
- },
- {
-  "id": "e280",
-  "date": "2026-11-28",
-  "title": "Shop Small Saturday in Downtown Okmulgee",
-  "category": "markets",
-  "area": "okmulgee-east",
-  "time": "10:00 AM – 2:00 PM",
-  "venue": "Okmulgee Main Street",
-  "address": "100 E 6th St, Okmulgee, OK 74447",
-  "description": "Shop Small Saturday encouraging holiday shopping at downtown Okmulgee's local businesses.",
-  "organizer": "Okmulgee Main Street",
-  "free": true
  },
  {
   "id": "e281",
@@ -2732,24 +2589,12 @@
   "free": true
  },
  {
-  "id": "e333",
-  "date": "2026-10-29",
-  "title": "Movies in the Park 2: Monster House",
-  "category": "community",
-  "area": "mcalester",
-  "time": "6:30 PM - 8:00 PM",
-  "venue": "Southeast Expo Center and Motor Speedway",
-  "address": "4500 W US-270, McAlester, OK 74501",
-  "description": "Free showing of Monster House at 6:30 PM, part of Trunk or Treat: Party at the Expo.",
-  "free": true
- },
- {
   "id": "e337",
   "date": "2026-11-14",
   "title": "Shawnda Rains Entertainment Group at Reba's Place",
   "category": "music",
   "area": "atoka",
-  "time": "5:00 - 8:00 PM",
+  "time": "5:00 – 8:00 PM",
   "venue": "Reba's Place",
   "address": "301 E Court St, Atoka, OK 74525",
   "description": "Singers from Shawnda Rains' performance studio, the program that helped start Carrie Underwood and Kacey Musgraves, take the stage at Reba's Place.",
@@ -3066,19 +2911,6 @@
   "kids": true
  },
  {
-  "id": "e362",
-  "date": "2026-10-29",
-  "title": "Eufaula Merchant Trick-or-Treat",
-  "category": "community",
-  "time": "4:30 – 6:30 PM",
-  "venue": "Downtown Eufaula",
-  "address": "Downtown Eufaula, Eufaula, OK",
-  "description": "Trick-or-treat with downtown Eufaula merchants, put on by the Eufaula Area Chamber of Commerce. Residential trick-or-treating follows afterward.",
-  "kids": true,
-  "organizer": "Eufaula Area Chamber of Commerce",
-  "area": "eufaula"
- },
- {
   "id": "e365",
   "date": "2026-10-31",
   "title": "Samhain Celebration at Crystal Cactus",
@@ -3090,18 +2922,6 @@
   "indoor": true,
   "area": "eufaula",
   "source": "https://www.crystal-cactus.com/events-classes"
- },
- {
-  "id": "e369",
-  "date": "2026-10-29",
-  "title": "General Knowledge Trivia Night",
-  "category": "community",
-  "area": "mcalester",
-  "time": "Time to be announced",
-  "venue": "Spaceship Earth Coffee Co.",
-  "address": "345 E Choctaw Ave, McAlester, OK 74501",
-  "description": "Weekly general knowledge trivia night at Spaceship Earth Coffee.",
-  "indoor": true
  },
  {
   "id": "e370",
@@ -4152,6 +3972,332 @@
   "address": "700 South 5th Avenue, Madill, OK 73446",
   "description": "High school wrestling tournament at Madill High School. Come cheer on the local teams.",
   "source": "https://www.flowrestling.org/nextgen/events/16265517/information",
+  "indoor": true
+ },
+ {
+  "id": "e448",
+  "date": "2026-11-05",
+  "endDate": "2026-11-19",
+  "openDays": [
+   4
+  ],
+  "title": "Little Tyke's Thursday Tales",
+  "category": "community",
+  "area": "hugo-antlers",
+  "time": "Thursdays 10:00 – 11:00 AM",
+  "venue": "Choctaw County Public Library",
+  "address": "703 E Jackson St, Hugo, OK 74743",
+  "description": "Stories and an art activity for little ones every Thursday morning at the Hugo library.",
+  "source": "https://www.seolibraries.com/event/little-tykes-thursday-tales-35705",
+  "organizer": "Southeast Oklahoma Library System",
+  "free": true,
+  "indoor": true,
+  "kids": true
+ },
+ {
+  "id": "e449",
+  "date": "2026-11-06",
+  "endDate": "2026-11-20",
+  "openDays": [
+   5
+  ],
+  "title": "Fun Friday",
+  "category": "community",
+  "area": "hugo-antlers",
+  "time": "Fridays 2:00 – 3:00 PM",
+  "venue": "Choctaw County Public Library",
+  "address": "703 E Jackson St, Hugo, OK 74743",
+  "description": "Friday afternoon fun for kids at the Hugo library, with STEM and art projects that change each week.",
+  "source": "https://www.seolibraries.com/event/fun-friday-35709",
+  "organizer": "Southeast Oklahoma Library System",
+  "free": true,
+  "indoor": true,
+  "kids": true
+ },
+ {
+  "id": "e450",
+  "date": "2026-11-02",
+  "endDate": "2026-11-23",
+  "openDays": [
+   1
+  ],
+  "title": "Wise and Playful",
+  "category": "community",
+  "area": "hugo-antlers",
+  "time": "Mondays 2:00 – 3:00 PM",
+  "venue": "Choctaw County Public Library",
+  "address": "703 E Jackson St, Hugo, OK 74743",
+  "description": "A relaxed Monday afternoon of board games and good company for adults at the Hugo library.",
+  "source": "https://www.seolibraries.com/event/wise-and-playful-35724",
+  "organizer": "Southeast Oklahoma Library System",
+  "free": true,
+  "indoor": true
+ },
+ {
+  "id": "e451",
+  "date": "2026-10-30",
+  "title": "Storytime Senses",
+  "category": "community",
+  "area": "poteau",
+  "time": "10:00 – 11:00 AM",
+  "venue": "Heavener Public Library",
+  "address": "203 E Avenue C, Heavener, OK 74937",
+  "description": "A hands on storytime for little ones at the Heavener library.",
+  "source": "https://www.seolibraries.com/event/enchanted-tales-33819",
+  "organizer": "Southeast Oklahoma Library System",
+  "free": true,
+  "indoor": true,
+  "kids": true
+ },
+ {
+  "id": "e452",
+  "date": "2026-11-07",
+  "endDate": "2026-11-21",
+  "openDays": [
+   6
+  ],
+  "title": "Game On! Next Level Gaming",
+  "category": "community",
+  "area": "poteau",
+  "time": "Saturdays 9:00 AM – 1:00 PM",
+  "venue": "Heavener Public Library",
+  "address": "203 E Avenue C, Heavener, OK 74937",
+  "description": "Saturday morning video games at the Heavener library. Drop in and play.",
+  "source": "https://www.seolibraries.com/event/game-next-level-gaming-35289",
+  "organizer": "Southeast Oklahoma Library System",
+  "free": true,
+  "indoor": true,
+  "kids": true
+ },
+ {
+  "id": "e453",
+  "date": "2026-11-03",
+  "endDate": "2026-11-24",
+  "openDays": [
+   2
+  ],
+  "title": "Tiny Tot Storytime",
+  "category": "community",
+  "area": "poteau",
+  "time": "Tuesdays 10:00 – 11:00 AM",
+  "venue": "Patrick Lynch Public Library",
+  "address": "206 S McKenna St, Poteau, OK 74953",
+  "description": "Stories, songs and a little craft for toddlers and preschoolers every Tuesday at the Poteau library.",
+  "source": "https://www.seolibraries.com/event/tiny-tot-storytime-34133",
+  "organizer": "Southeast Oklahoma Library System",
+  "free": true,
+  "indoor": true,
+  "kids": true
+ },
+ {
+  "id": "e454",
+  "date": "2026-10-31",
+  "title": "Weekend Wonder Tales: The Good, the Bad, and the Spooky",
+  "category": "community",
+  "area": "poteau",
+  "time": "10:00 – 10:30 AM",
+  "venue": "Patrick Lynch Public Library",
+  "address": "206 S McKenna St, Poteau, OK 74953",
+  "description": "A Halloween morning storytime at the Poteau library. Costumes are welcome.",
+  "source": "https://www.seolibraries.com/event/weekend-wonder-tales-34830",
+  "organizer": "Southeast Oklahoma Library System",
+  "free": true,
+  "indoor": true,
+  "kids": true
+ },
+ {
+  "id": "e455",
+  "date": "2026-11-14",
+  "endDate": "2026-11-21",
+  "openDays": [
+   6
+  ],
+  "title": "Weekend Wonder Tales",
+  "category": "community",
+  "area": "poteau",
+  "time": "Saturdays 10:00 – 10:30 AM",
+  "venue": "Patrick Lynch Public Library",
+  "address": "206 S McKenna St, Poteau, OK 74953",
+  "description": "A short Saturday storytime at the Poteau library for kids and their grownups.",
+  "source": "https://www.seolibraries.com/event/weekend-wonder-tales-35603",
+  "organizer": "Southeast Oklahoma Library System",
+  "free": true,
+  "indoor": true,
+  "kids": true
+ },
+ {
+  "id": "e456",
+  "date": "2026-11-06",
+  "endDate": "2026-11-20",
+  "openDays": [
+   5
+  ],
+  "title": "Story Sprouts and Little Makers",
+  "category": "community",
+  "area": "poteau",
+  "time": "Fridays 11:00 AM – 12:00 PM",
+  "venue": "Talihina Public Library",
+  "address": "900 Second St, Talihina, OK 74571",
+  "description": "Storytime at 11 followed by a simple make and take craft at 11:30 at the Talihina library.",
+  "source": "https://www.seolibraries.com/event/story-sprouts-35353",
+  "organizer": "Southeast Oklahoma Library System",
+  "free": true,
+  "indoor": true,
+  "kids": true
+ },
+ {
+  "id": "e457",
+  "date": "2026-11-03",
+  "endDate": "2026-11-24",
+  "openDays": [
+   2
+  ],
+  "title": "Book Bugs Storytime",
+  "category": "community",
+  "area": "eufaula",
+  "time": "Tuesdays 10:00 – 11:00 AM",
+  "venue": "Stigler Public Library",
+  "address": "410 NE 6th St, Stigler, OK 74462",
+  "description": "Stories and play for young kids every Tuesday morning at the Stigler library.",
+  "source": "https://www.seolibraries.com/event/book-bugs-storytime-35787",
+  "organizer": "Southeast Oklahoma Library System",
+  "free": true,
+  "indoor": true,
+  "kids": true
+ },
+ {
+  "id": "e458",
+  "date": "2026-11-14",
+  "title": "Genealogy Lock In",
+  "category": "community",
+  "area": "eufaula",
+  "time": "2:00 – 8:00 PM",
+  "venue": "Stigler Public Library",
+  "address": "410 NE 6th St, Stigler, OK 74462",
+  "description": "Spend an afternoon and evening digging into your family history at the Stigler library, with help and resources on hand.",
+  "source": "https://www.seolibraries.com/event/genealogy-lock-35786",
+  "organizer": "Southeast Oklahoma Library System",
+  "free": true,
+  "indoor": true
+ },
+ {
+  "id": "e459",
+  "date": "2026-11-03",
+  "endDate": "2026-11-24",
+  "openDays": [
+   2
+  ],
+  "title": "Raina's Reading Rainbows Storytime",
+  "category": "community",
+  "area": "atoka",
+  "time": "Tuesdays 11:00 AM – 12:00 PM",
+  "venue": "Coal County Public Library",
+  "address": "115 W Ohio Ave, Coalgate, OK 74538",
+  "description": "A fun storytime with a new theme each Tuesday at the Coalgate library.",
+  "source": "https://www.seolibraries.com/event/rainas-reading-rainbows-smile-guardian-storytime-35340",
+  "organizer": "Southeast Oklahoma Library System",
+  "free": true,
+  "indoor": true,
+  "kids": true
+ },
+ {
+  "id": "e460",
+  "date": "2026-11-10",
+  "title": "Crafty Kids Club: Paint Your Own Dino Racer",
+  "category": "community",
+  "area": "wilburton",
+  "time": "4:00 – 5:00 PM",
+  "venue": "Latimer County Public Library",
+  "address": "301 W Ada Ave, Wilburton, OK 74578",
+  "description": "Kids paint their own dinosaur racer to take home at the Wilburton library.",
+  "source": "https://www.seolibraries.com/event/crafty-kids-club-paint-your-own-dino-racer-34424",
+  "organizer": "Southeast Oklahoma Library System",
+  "free": true,
+  "indoor": true,
+  "kids": true
+ },
+ {
+  "id": "e461",
+  "date": "2026-11-19",
+  "title": "Creative Coalition: Dino Night Light and Suncatchers",
+  "category": "community",
+  "area": "wilburton",
+  "time": "3:30 – 4:30 PM",
+  "venue": "Latimer County Public Library",
+  "address": "301 W Ada Ave, Wilburton, OK 74578",
+  "description": "Make a dinosaur night light and suncatchers at the Wilburton library.",
+  "source": "https://www.seolibraries.com/event/creative-coalition-dino-night-light-dinosaur-suncatchers-34679",
+  "organizer": "Southeast Oklahoma Library System",
+  "free": true,
+  "indoor": true,
+  "kids": true
+ },
+ {
+  "id": "e462",
+  "date": "2026-11-24",
+  "title": "Crafty Kids Club: Turkey Puppet Craft",
+  "category": "community",
+  "area": "wilburton",
+  "time": "4:00 – 5:00 PM",
+  "venue": "Latimer County Public Library",
+  "address": "301 W Ada Ave, Wilburton, OK 74578",
+  "description": "Kids make a turkey puppet just in time for Thanksgiving at the Wilburton library.",
+  "source": "https://www.seolibraries.com/event/crafty-kids-club-turkey-puppet-craft-34427",
+  "organizer": "Southeast Oklahoma Library System",
+  "free": true,
+  "indoor": true,
+  "kids": true
+ },
+ {
+  "id": "e463",
+  "date": "2026-11-06",
+  "endDate": "2026-11-08",
+  "title": "T&S AHRMA Off Road Finals Championship",
+  "category": "sports",
+  "area": "okmulgee-east",
+  "time": "Fri from 8:00 AM · Sat & Sun from 7:15 AM",
+  "venue": "T&S Racing at Nichols Park",
+  "address": "Lake Rd, Henryetta, OK 74437",
+  "description": "Vintage dirt bike trials, cross country and motocross racing for the AHRMA off road finals, two miles south of downtown Henryetta. Gate is $15 a day and kids 15 and under get in free.",
+  "source": "https://ahrma.motorsportreg.com/events/11-06-08-t-s-racing-ok-cc-mx-ahrma-093521",
+  "organizer": "T&S Racing",
+  "kids": true,
+  "offers": {
+   "low": 15
+  }
+ },
+ {
+  "id": "e464",
+  "date": "2026-11-13",
+  "title": "America Recycles Day",
+  "category": "community",
+  "area": "okmulgee-east",
+  "time": "9:00 AM – 3:00 PM",
+  "venue": "Muscogee Nation Recycle Center",
+  "address": "12675 Gun Club Rd, Okmulgee, OK 74447",
+  "description": "Bring old papers for free shredding from 9 to 1 and drop off old electronics for recycling at the Muscogee Nation Recycle Center.",
+  "source": "https://www.muscogeenation.com/2026/10/21/america-recycles-day-with-oes-november-13/",
+  "organizer": "Muscogee Nation Office of Environmental Services",
+  "free": true
+ },
+ {
+  "id": "e465",
+  "date": "2026-11-04",
+  "endDate": "2026-11-25",
+  "openDays": [
+   3
+  ],
+  "title": "Lap Sit and Story Time",
+  "category": "community",
+  "area": "okmulgee-east",
+  "time": "Wednesdays 10:00 AM and 11:00 AM",
+  "venue": "Okmulgee Public Library",
+  "address": "218 S Okmulgee Ave, Okmulgee, OK 74447",
+  "description": "Weekly stories, rhymes and songs for babies, toddlers and preschoolers at the Okmulgee library. It's a good idea to call ahead the week of Thanksgiving.",
+  "source": "https://ok-okmulgee.civicplus.com/195/Services",
+  "organizer": "Okmulgee Public Library",
+  "free": true,
+  "kids": true,
   "indoor": true
  }
 ]

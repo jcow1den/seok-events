@@ -30,20 +30,6 @@
   "source": "https://www.paycomcenter.com/events/detail/jonas-brothers-26"
  },
  {
-  "id": "d016",
-  "kind": "shows",
-  "date": "2026-10-29",
-  "title": "Morrissey: Live in Concert",
-  "time": "8:00 PM · doors 7:00",
-  "description": "Arena concert.",
-  "city": "Fort Worth",
-  "venue": "Dickies Arena",
-  "address": "1911 Montgomery St, Fort Worth, TX",
-  "lat": 32.7392,
-  "lon": -97.3852,
-  "url": "https://dickiesarena.com/events"
- },
- {
   "id": "d017",
   "kind": "shows",
   "date": "2026-10-30",
@@ -626,20 +612,6 @@
   "lat": 32.7392,
   "lon": -97.3852,
   "url": "https://www.songkick.com/venues/4109379-dickies-arena/calendar"
- },
- {
-  "id": "d067",
-  "kind": "shows",
-  "date": "2026-12-18",
-  "title": "Matt Rife",
-  "description": "Stand-up comedy. Also Saturday, Dec 19.",
-  "city": "Fort Worth",
-  "venue": "Dickies Arena",
-  "address": "1911 Montgomery St, Fort Worth, TX",
-  "lat": 32.7392,
-  "lon": -97.3852,
-  "url": "https://www.songkick.com/venues/4109379-dickies-arena/calendar",
-  "endDate": "2026-12-19"
  },
  {
   "id": "d068",
@@ -1442,19 +1414,6 @@
   "url": "https://songkick.com/venues/1232-cains-ballroom/calendar"
  },
  {
-  "id": "d129",
-  "kind": "shows",
-  "date": "2026-10-29",
-  "title": "Tauren Wells",
-  "description": "",
-  "city": "Tulsa",
-  "venue": "Tulsa Theater",
-  "address": "105 W Reconciliation Way, Tulsa, OK 74103",
-  "lat": 36.158,
-  "lon": -95.9939,
-  "url": "https://songkick.com/venues/4385170-tulsa-theater/calendar"
- },
- {
   "id": "d130",
   "kind": "shows",
   "date": "2026-11-21",
@@ -1576,19 +1535,6 @@
   "lon": -95.991,
   "url": "https://tulsaflyer.org/2026/03/25/culture/arts/post/tulsa-broadway-plays-2026-27/",
   "endDate": "2027-04-11"
- },
- {
-  "id": "d140",
-  "kind": "shows",
-  "date": "2026-10-29",
-  "title": "Los Gemelos de Sinaloa",
-  "description": "",
-  "city": "Oklahoma City",
-  "venue": "The Criterion",
-  "address": "500 E Sheridan Ave, Oklahoma City, OK 73104",
-  "lat": 35.466,
-  "lon": -97.5089,
-  "url": "https://www.songkick.com/venues/3192449-criterion/calendar"
  },
  {
   "id": "d141",
@@ -1757,19 +1703,6 @@
   "lat": 35.466,
   "lon": -97.5089,
   "url": "https://www.songkick.com/venues/3192449-criterion/calendar"
- },
- {
-  "id": "d159",
-  "kind": "shows",
-  "date": "2026-10-28",
-  "title": "Madeon and Anamanaguchi",
-  "description": "",
-  "city": "Oklahoma City",
-  "venue": "Tower Theatre",
-  "address": "425 NW 23rd St, Oklahoma City, OK 73103",
-  "lat": 35.4925,
-  "lon": -97.5196,
-  "url": "https://songkick.com/venues/85495-tower-theatre/calendar"
  },
  {
   "id": "d160",
@@ -2081,20 +2014,6 @@
   "url": "https://www.okcphil.org/events-tickets/26-27-season/",
   "endDate": "2027-04-24",
   "time": "7:30 PM"
- },
- {
-  "id": "d186",
-  "kind": "sports",
-  "date": "2026-10-29",
-  "title": "Tulsa Oilers vs. Wichita Thunder",
-  "description": "",
-  "city": "Tulsa",
-  "venue": "BOK Center",
-  "address": "200 S Denver Ave, Tulsa, OK 74103",
-  "lat": 36.1539,
-  "lon": -95.9954,
-  "url": "https://tulsaoilers.com/news/2026/05/oilers-unveil-2026-27-schedule-ahead-of-clubs-75th-campaign",
-  "time": "7:05 PM"
  },
  {
   "id": "d187",
