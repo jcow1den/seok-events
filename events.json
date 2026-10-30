@@ -4379,5 +4379,113 @@
   "description": "Trick or treating along Main Street in downtown Tishomingo on Halloween afternoon.",
   "kids": true,
   "source": "https://www.kxii.com/2026/10/13/2026-halloween-events-texoma/"
+ },
+ {
+  "id": "e472",
+  "date": "2026-10-30",
+  "title": "High Hill Fire Department Trunk or Treat",
+  "category": "community",
+  "area": "mcalester",
+  "time": "6:30 – 8:30 PM",
+  "venue": "High Hill Fire Department",
+  "address": "4128 Highhill Rd, McAlester, OK 74501",
+  "description": "Free trunk or treat at the High Hill fire station with hotdogs, fire safety games, a blow up cake and a visit from Sparky the Fire Dog.",
+  "kids": true,
+  "free": true,
+  "source": "https://www.facebook.com/photo.php?fbid=1054237617637293"
+ },
+ {
+  "id": "e473",
+  "date": "2026-10-30",
+  "title": "TrueGrit Jiu Jitsu Trunk or Treat",
+  "category": "community",
+  "area": "mcalester",
+  "time": "6:00 – 7:30 PM",
+  "venue": "TrueGrit Jiu Jitsu and Defense",
+  "address": "1609 N Strong Blvd Suite 500B, McAlester, OK 74501",
+  "description": "Candy, costumes and a fun evening with neighbors at the TrueGrit Jiu Jitsu trunk or treat.",
+  "kids": true,
+  "source": "https://www.facebook.com/photo.php?fbid=2371086087027286"
+ },
+ {
+  "id": "e474",
+  "date": "2026-10-30",
+  "title": "Halloween Cosmic Bowling and Costume Bash",
+  "category": "community",
+  "area": "mcalester",
+  "time": "7:00 – 10:00 PM",
+  "venue": "Great Balls of Fire",
+  "address": "3003 Elks Rd, McAlester, OK 74501",
+  "description": "Cosmic bowling and a haunted house, $10 each per person, plus a free costume contest. Sign up 7 to 8:30, judging at 8:30 and winners at 9, with prizes for best kids, best family or group and most creative.",
+  "indoor": true,
+  "source": "https://www.facebook.com/photo.php?fbid=10227256485278399"
+ },
+ {
+  "id": "e475",
+  "date": "2026-10-30",
+  "title": "Patriot CDJR Halloween Spooktacular",
+  "category": "community",
+  "area": "mcalester",
+  "time": "6:30 PM",
+  "venue": "Patriot CDJR of McAlester",
+  "address": "916 S George Nigh Expy, McAlester, OK 74501",
+  "description": "Friday night is the Haunted Car Show at 6:30 with $750, $500 and $250 prizes. Both nights have jump houses, inflatable mazes, axe throwing, cotton candy, popcorn, food trucks, face painting, a balloon guy, a haunted showroom, trunk or treat and cornhole.",
+  "kids": true,
+  "source": "https://www.facebook.com/photo.php?fbid=2371086513693910"
+ },
+ {
+  "id": "e476",
+  "date": "2026-10-31",
+  "title": "Patriot CDJR Halloween Spooktacular",
+  "category": "community",
+  "area": "mcalester",
+  "time": "Costume contest 7:00 PM",
+  "venue": "Patriot CDJR of McAlester",
+  "address": "916 S George Nigh Expy, McAlester, OK 74501",
+  "description": "Saturday night is the costume contest at 7 with $750, $500 and $250 prizes. Both nights have jump houses, inflatable mazes, axe throwing, cotton candy, popcorn, food trucks, face painting, a balloon guy, a haunted showroom, trunk or treat and cornhole.",
+  "kids": true,
+  "source": "https://www.facebook.com/photo.php?fbid=2371086513693910"
+ },
+ {
+  "id": "e477",
+  "date": "2026-10-30",
+  "title": "Pittsburg Trail of Death",
+  "category": "community",
+  "area": "mcalester",
+  "time": "Starts at dark",
+  "venue": "Drew Park",
+  "address": "Drew Park, Pittsburg Ave, Pittsburg, OK 74560",
+  "description": "Last night of the season for southeast Oklahoma's original haunted trail. $10 to get in or $20 for a fast pass, with concessions. Proceeds help the PantherPride Booster Club.",
+  "offers": {
+   "low": 10,
+   "high": 20
+  },
+  "source": "https://www.facebook.com/photo.php?fbid=29367145026254208"
+ },
+ {
+  "id": "e478",
+  "date": "2026-10-30",
+  "title": "House of Michael Myers: The Final Passage",
+  "category": "community",
+  "area": "eufaula",
+  "time": "Starts at dark",
+  "venue": "House of Michael Myers",
+  "address": "401 N Prairie Dr, Stigler, OK 74462",
+  "description": "Free haunted house plus Festival of Frights carnival games, donations welcome. The street is walking only, so park at the health and wellness building or the Choctaw dental clinic and walk over.",
+  "free": true,
+  "source": "https://www.facebook.com/photo.php?fbid=29547591818167307"
+ },
+ {
+  "id": "e479",
+  "date": "2026-10-31",
+  "title": "House of Michael Myers: The Final Passage",
+  "category": "community",
+  "area": "eufaula",
+  "time": "Starts at dark",
+  "venue": "House of Michael Myers",
+  "address": "401 N Prairie Dr, Stigler, OK 74462",
+  "description": "Free haunted house plus Festival of Frights carnival games, donations welcome. Prizes are handed out tonight only. The street is walking only, so park at the health and wellness building or the Choctaw dental clinic and walk over.",
+  "free": true,
+  "source": "https://www.facebook.com/photo.php?fbid=29547591818167307"
  }
 ]
