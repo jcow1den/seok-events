@@ -4299,5 +4299,33 @@
   "free": true,
   "kids": true,
   "indoor": true
+ },
+ {
+  "id": "e466",
+  "date": "2026-11-05",
+  "title": "Breakfast with the Chamber",
+  "category": "community",
+  "area": "atoka",
+  "time": "8:15 AM",
+  "venue": "First Family Federal Credit Union",
+  "address": "117 S Mississippi Ave, Atoka, OK 74525",
+  "description": "Start your morning with coffee and good conversation at the Atoka Area Chamber's monthly breakfast, hosted this time by First Family FCU. It's a relaxed way to meet local business owners and community leaders and catch up on Chamber news. Members and newcomers are both welcome.",
+  "source": "https://atokaokchamber.com/event/november-breakfast-with-the-chamber/",
+  "organizer": "Atoka Area Chamber of Commerce",
+  "indoor": true
+ },
+ {
+  "id": "e467",
+  "date": "2026-11-18",
+  "title": "Thanksgiving Community Lunch",
+  "category": "community",
+  "area": "wilburton",
+  "time": "11:00 AM",
+  "venue": "Jennifer Woods Community Center",
+  "address": "1455 NW Hwy 2, Wilburton, OK 74578",
+  "description": "Come celebrate the holiday together with a Thanksgiving meal at the Choctaw Nation community center in Wilburton. Questions can go to the community center.",
+  "source": "https://www.choctawnation.com/events/community-centers/thanksgiving-meal-wilburton-elder/",
+  "organizer": "Choctaw Nation District 6",
+  "indoor": true
  }
 ]
