@@ -231,22 +231,6 @@
   "source": "https://www.hochatownsaloon.com/events/aaron-watson"
  },
  {
-  "id": "e105",
-  "date": "2026-10-30",
-  "title": "TJ Wicks Live",
-  "category": "music",
-  "area": "mcalester",
-  "time": "6:00 – 8:00 PM",
-  "venue": "BierKraft",
-  "address": "925 E Washington Ave, McAlester, OK 74501",
-  "description": "Oklahoma singer songwriter TJ Wicks plays a Friday evening set at BierKraft, McAlester's craft beer spot.",
-  "indoor": true,
-  "performer": [
-   "TJ Wicks"
-  ],
-  "source": "https://travelmcalester.com/events/"
- },
- {
   "id": "e106",
   "date": "2026-11-14",
   "title": "David Nail: Down to the Studs",
@@ -307,18 +291,6 @@
   "kids": true,
   "organizer": "Talihina Chamber of Commerce",
   "source": "https://talihinacc.com/blog/talihina-fall-festival/"
- },
- {
-  "id": "e114",
-  "date": "2026-10-30",
-  "title": "The Broke Teachers",
-  "category": "music",
-  "area": "atoka",
-  "time": "5:00 – 8:00 PM",
-  "venue": "Reba's Place",
-  "address": "301 E Court St, Atoka, OK 74525",
-  "description": "The Broke Teachers, three Oklahoma public school teachers who play acoustic classic rock and country, on the stage at Reba's Place.",
-  "source": "https://www.rebasplace.com/events"
  },
  {
   "id": "e115",
@@ -828,7 +800,8 @@
   "time": "11:00 AM – 8:00 PM",
   "venue": "Choctaw Landing",
   "address": "272 N State Hwy 259A, Broken Bow, OK 74728",
-  "description": "Native fashion show and film festival at Choctaw Landing."
+  "description": "Native fashion show and film festival at Choctaw Landing.",
+  "source": "https://choctawlanding.com/events/native-fashion-film-festival"
  },
  {
   "id": "e163",
@@ -929,19 +902,6 @@
   "kids": true
  },
  {
-  "id": "e171",
-  "date": "2026-10-30",
-  "title": "Scare on the Square",
-  "category": "community",
-  "area": "okmulgee-east",
-  "time": "4:00 PM – 7:00 PM",
-  "venue": "Okmulgee Main Street on the Square",
-  "address": "100 E 6th St, Okmulgee, OK 74447",
-  "description": "Trick or treat with downtown businesses around the square and the Council House, plus Rotary's free costume contest at Rotary Pocket Park on Sixth Street (sign up at 4, contest at 5). Parking is free.",
-  "organizer": "Okmulgee Main Street",
-  "source": "https://www.okmulgeemainstreet.com/event-details/scare-on-the-square-1"
- },
- {
   "id": "e172",
   "date": "2026-11-21",
   "title": "Kyle Gates",
@@ -1024,15 +984,15 @@
   "title": "Theran Rose at Reba's Place",
   "category": "music",
   "area": "atoka",
-  "time": "5:00 PM",
+  "time": "5:00 – 8:00 PM",
   "venue": "Reba's Place",
-  "address": "319 E Court St, Atoka, OK 74525",
-  "description": "Live music at Reba's Place.",
+  "address": "301 E Court St, Atoka, OK 74525",
+  "description": "Theran Rose is a 17 year old country singer and songwriter who mixes traditional Texas country with Oklahoma red dirt. Catch her Saturday evening set at Reba's Place.",
   "performer": [
    "Theran Rose"
   ],
   "indoor": true,
-  "source": "https://www.bandsintown.com/v/10349388-reba's-place"
+  "source": "https://www.rebasplace.com/events"
  },
  {
   "id": "e180",
@@ -1099,25 +1059,6 @@
   "indoor": true
  },
  {
-  "id": "e188",
-  "date": "2026-10-19",
-  "endDate": "2026-10-30",
-  "openDays": [
-   1,
-   3,
-   5
-  ],
-  "title": "Wilburton Main Street Farmers Market",
-  "category": "markets",
-  "area": "wilburton",
-  "time": "9:00 AM - 1:00 PM",
-  "venue": "Wilburton Main Street Farmers Market",
-  "address": "229 W Main St, Wilburton, OK 74578",
-  "description": "Local farmers, ranchers, bakers and crafters sell fresh local products on Mondays, Wednesdays and Fridays through October. SNAP and Senior Farmers Market cards are accepted.",
-  "organizer": "Wilburton Main Street Inc.",
-  "source": "https://www.wilburton.gov/Home/City-Calendar/Events/evr/92/wilburton-main-street-farmers-market-2"
- },
- {
   "id": "e198",
   "date": "2026-10-23",
   "endDate": "2026-10-31",
@@ -1137,72 +1078,6 @@
    "high": 15
   },
   "source": "https://www.hugonews.com/news/fort-towson-haunted-trail-debut"
- },
- {
-  "id": "e208",
-  "date": "2026-10-24",
-  "endDate": "2026-10-30",
-  "openDays": [
-   5,
-   6
-  ],
-  "title": "Halloween Spooktacular Game Nights",
-  "category": "community",
-  "area": "poteau",
-  "time": "6:00 PM – 8:00 PM",
-  "venue": "Anderson Holiday Fun Halloween display",
-  "address": "205 Teakwood Dr, Poteau, OK 74953",
-  "description": "Free family game nights for elementary-age children at a home Halloween display, with prizes and photo spots. Held Oct. 24 and Oct. 30.",
-  "organizer": "Anderson Holiday Fun",
-  "free": true,
-  "kids": true,
-  "unconfirmed": true,
-  "source": "https://fortsmith.macaronikid.com/events/68b83d78cd8b867d848c2171/anderson-family-game-nights"
- },
- {
-  "id": "e229",
-  "date": "2026-10-30",
-  "title": "Music on Main: Will Wesley",
-  "category": "music",
-  "area": "idabel-broken-bow",
-  "time": "7:00 – 9:00 PM",
-  "venue": "Downtown Broken Bow",
-  "address": "Main St, Broken Bow, OK 74728",
-  "description": "Free fall edition of Music on Main in downtown Broken Bow featuring Will Wesley.",
-  "performer": [
-   "Will Wesley"
-  ],
-  "organizer": "Broken Bow Area Chamber of Commerce",
-  "free": true,
-  "source": "https://brokenbowareachamber.com/event/music-on-main-in-downtown-broken-bow-2/"
- },
- {
-  "id": "e231",
-  "date": "2026-10-30",
-  "title": "Choctaw Nation Trunk or Treat",
-  "category": "community",
-  "area": "wilburton",
-  "time": "5:30 PM - 7:00 PM",
-  "venue": "Jennifer Woods Community Center",
-  "address": "1455 NW Hwy 2, Wilburton, OK 74578",
-  "description": "Choctaw Nation District 6 trunk or treat with candy filled trunks, games and costumes. Free.",
-  "source": "https://www.wilburton.gov/Home/City-Calendar/Events/choctaw-nation-trunk-or-treat",
-  "free": true,
-  "kids": true
- },
- {
-  "id": "e232",
-  "date": "2026-10-30",
-  "title": "Halloween at the Chickasaw Nation Tribal Library",
-  "category": "community",
-  "area": "ada-holdenville",
-  "time": "6:00 PM - 8:00 PM",
-  "venue": "Chickasaw Nation Tribal Library",
-  "address": "1003 Chamber Loop, Ada, OK 74820",
-  "description": "Candy, games and a showing of the 1985 film Clue at the Tribal Library. Costumes are encouraged for all ages.",
-  "indoor": true,
-  "organizer": "Chickasaw Nation",
-  "source": "https://www.chickasaw.net/Calendar.aspx"
  },
  {
   "id": "e233",
@@ -2699,7 +2574,7 @@
   "time": "Fri 2–7 PM · Sat 11 AM–7 PM · Sun 2–7 PM, through Oct 31",
   "venue": "Cornerstone Kids' Ranch",
   "address": "11960 County Rd 3536, Ada, OK 74820",
-  "description": "Ada's pumpkin patch: pick a pumpkin, hayrides, train rides, a petting zoo, hay bale castle and maze, pedal car track, duck races and carnival games. Pony rides Fri–Sun; gem mining, rock climbing and zip lines cost extra. $12 per person, 2 and under free with a paying adult. Picnics welcome, concession stand on site.",
+  "description": "Ada's pumpkin patch: pick a pumpkin, hayrides, train rides, a petting zoo, hay bale castle and maze, pedal car track, duck races and carnival games. Pony rides Friday through Sunday; gem mining, rock climbing and zip lines cost extra. $12 per person, 2 and under free with a paying adult. Picnics welcome, concession stand on site.",
   "kids": true,
   "offers": {
    "low": 12
@@ -2810,7 +2685,8 @@
   "performer": [
    "Enter Eden"
   ],
-  "organizer": "Choctaw Landing"
+  "organizer": "Choctaw Landing",
+  "source": "https://choctawlanding.com/events"
  },
  {
   "id": "e356",
@@ -2825,7 +2701,8 @@
   "performer": [
    "Southeast Remedy"
   ],
-  "organizer": "Choctaw Landing"
+  "organizer": "Choctaw Landing",
+  "source": "https://choctawlanding.com/events"
  },
  {
   "id": "e357",
@@ -2933,19 +2810,6 @@
   "address": "2805 N Main St, McAlester, OK 74501",
   "description": "Halloween party at Midnight Riders with a costume contest at 11 PM. 21 and up with ID.",
   "source": "https://travelmcalester.com/events/e/halloween-party-6adf55a265eddd42828ed523/"
- },
- {
-  "date": "2026-10-30",
-  "title": "Atoka High School \"HalloComing\" Homecoming Parade",
-  "category": "community",
-  "area": "atoka",
-  "time": "2:00 PM",
-  "venue": "Downtown Atoka",
-  "address": "E Court St, Atoka, OK 74525",
-  "description": "Halloween-themed homecoming parade through downtown Atoka. Coronation follows at 6:30 PM at the AHS football field before the 7 PM kickoff.",
-  "organizer": "Atoka High School",
-  "id": "e372",
-  "source": "https://www.atokacountytimes.com/article/2823,halloween-homecoming"
  },
  {
   "date": "2026-11-03",
@@ -3154,36 +3018,6 @@
   ],
   "unconfirmed": true,
   "id": "e388"
- },
- {
-  "date": "2026-10-30",
-  "title": "Ryan Rhynes at Ole Red Tishomingo",
-  "category": "music",
-  "area": "ada-holdenville",
-  "time": "5:30 PM",
-  "venue": "Ole Red Tishomingo",
-  "address": "214 W Main St, Tishomingo, OK 73460",
-  "description": "Oklahoma country singer Ryan Rhynes plays the Friday evening slot at Ole Red, the Blake Shelton restaurant and bar on Main Street in Tishomingo.",
-  "performer": [
-   "Ryan Rhynes"
-  ],
-  "indoor": true,
-  "id": "e389",
-  "source": "https://olered.com/tishomingo/event/ryan-rhynes-36/"
- },
- {
-  "date": "2026-10-30",
-  "title": "Final Friday Fellowship Community Meal",
-  "category": "community",
-  "area": "eufaula",
-  "time": "6:00 PM",
-  "venue": "Sycamores Community Church",
-  "address": "420103 E 1147 Rd, Checotah, OK 74426",
-  "description": "Free supper the last Friday of every month. Open to anybody, no sign up and nothing to bring.",
-  "organizer": "Sycamores Community Church",
-  "id": "e390",
-  "source": "https://sycamores.church/",
-  "free": true
  },
  {
   "date": "2026-10-31",
@@ -3404,20 +3238,6 @@
   "organizer": "Choctaw Nation"
  },
  {
-  "id": "e410",
-  "date": "2026-10-30",
-  "title": "Halloween Dance",
-  "category": "community",
-  "area": "mcalester",
-  "time": "6:00 PM",
-  "venue": "Saint John Parish Hall",
-  "address": "300 E Washington Ave, McAlester, OK 74501",
-  "description": "Oklahomans for Independent Living hosts a Halloween dance at Saint John Parish Hall with music and costume contests.",
-  "source": "https://themcalesterminute.beehiiv.com/p/mcalester-s-halloween-week-oct-26-nov-1",
-  "organizer": "Oklahomans for Independent Living",
-  "indoor": true
- },
- {
   "id": "e411",
   "date": "2026-10-31",
   "title": "Table Top Gaming",
@@ -3444,22 +3264,6 @@
   "description": "A guided walk through the spooky woods with live actors and a clue hunt for treasure. Little ones get storytelling and pumpkin painting. $10 for ages 7 and up, 6 and under free. Cash only.",
   "source": "https://www.travelok.com/listings/view.profile/id.38007/55460",
   "kids": true
- },
- {
-  "id": "e413",
-  "date": "2026-10-30",
-  "title": "Mini Halloween Party",
-  "category": "community",
-  "time": "2:00 – 3:00 PM",
-  "description": "Fun Friday at the Hugo library turns into a mini Halloween party for kids and teens. Costumes welcome.",
-  "source": "https://www.seolibraries.com/event/fun-friday-34917",
-  "kids": true,
-  "area": "hugo-antlers",
-  "venue": "Choctaw County Public Library",
-  "address": "703 E Jackson St, Hugo, OK 74743",
-  "free": true,
-  "indoor": true,
-  "organizer": "Southeast Oklahoma Library System"
  },
  {
   "id": "e414",
@@ -4019,22 +3823,6 @@
   "indoor": true
  },
  {
-  "id": "e451",
-  "date": "2026-10-30",
-  "title": "Storytime Senses",
-  "category": "community",
-  "area": "poteau",
-  "time": "10:00 – 11:00 AM",
-  "venue": "Heavener Public Library",
-  "address": "203 E Avenue C, Heavener, OK 74937",
-  "description": "A hands on storytime for little ones at the Heavener library.",
-  "source": "https://www.seolibraries.com/event/enchanted-tales-33819",
-  "organizer": "Southeast Oklahoma Library System",
-  "free": true,
-  "indoor": true,
-  "kids": true
- },
- {
   "id": "e452",
   "date": "2026-11-07",
   "endDate": "2026-11-21",
@@ -4314,32 +4102,6 @@
   "indoor": true
  },
  {
-  "id": "e468",
-  "date": "2026-10-30",
-  "title": "Frights & Flights Tarmac Trick-or-Treat",
-  "category": "community",
-  "area": "durant",
-  "time": "6:00 – 8:00 PM",
-  "venue": "Durant Regional Airport, Eaker Field",
-  "address": "10 Waldron Rd, Durant, OK 74701",
-  "description": "Trick or treat out on the tarmac at the Durant airport, with costumes, candy and airplanes up close. Fun for the whole family.",
-  "kids": true,
-  "source": "https://texomaweekendguide.com/events/frights-and-flights-durant-regional-airport-2026-10-30/"
- },
- {
-  "id": "e469",
-  "date": "2026-10-30",
-  "title": "Kiamichi Tech Trunk or Treat",
-  "category": "community",
-  "area": "durant",
-  "time": "5:00 – 7:00 PM",
-  "venue": "Kiamichi Tech Durant Campus",
-  "address": "810 Waldron Rd, Durant, OK 74701",
-  "description": "Trunk or treat at Kiamichi Tech in Durant, plus touch a truck, face painting and more for the kids.",
-  "kids": true,
-  "source": "https://www.kxii.com/2026/10/13/2026-halloween-events-texoma/"
- },
- {
   "id": "e470",
   "date": "2026-10-31",
   "title": "Trunk or Treat at the Durant Stockyards",
@@ -4366,59 +4128,6 @@
   "source": "https://www.kxii.com/2026/10/13/2026-halloween-events-texoma/"
  },
  {
-  "id": "e472",
-  "date": "2026-10-30",
-  "title": "High Hill Fire Department Trunk or Treat",
-  "category": "community",
-  "area": "mcalester",
-  "time": "6:30 – 8:30 PM",
-  "venue": "High Hill Fire Department",
-  "address": "4128 Highhill Rd, McAlester, OK 74501",
-  "description": "Free trunk or treat at the High Hill fire station with hotdogs, fire safety games, a blow up cake and a visit from Sparky the Fire Dog.",
-  "kids": true,
-  "free": true,
-  "source": "https://www.facebook.com/photo.php?fbid=1054237617637293"
- },
- {
-  "id": "e473",
-  "date": "2026-10-30",
-  "title": "TrueGrit Jiu Jitsu Trunk or Treat",
-  "category": "community",
-  "area": "mcalester",
-  "time": "6:00 – 7:30 PM",
-  "venue": "TrueGrit Jiu Jitsu and Defense",
-  "address": "1609 N Strong Blvd Suite 500B, McAlester, OK 74501",
-  "description": "Candy, costumes and a fun evening with neighbors at the TrueGrit Jiu Jitsu trunk or treat.",
-  "kids": true,
-  "source": "https://www.facebook.com/photo.php?fbid=2371086087027286"
- },
- {
-  "id": "e474",
-  "date": "2026-10-30",
-  "title": "Halloween Cosmic Bowling and Costume Bash",
-  "category": "community",
-  "area": "mcalester",
-  "time": "7:00 – 10:00 PM",
-  "venue": "Great Balls of Fire",
-  "address": "3003 Elks Rd, McAlester, OK 74501",
-  "description": "Cosmic bowling and a haunted house, $10 each per person, plus a free costume contest. Sign up 7 to 8:30, judging at 8:30 and winners at 9, with prizes for best kids, best family or group and most creative.",
-  "indoor": true,
-  "source": "https://www.facebook.com/photo.php?fbid=10227256485278399"
- },
- {
-  "id": "e475",
-  "date": "2026-10-30",
-  "title": "Patriot CDJR Halloween Spooktacular",
-  "category": "community",
-  "area": "mcalester",
-  "time": "6:30 PM",
-  "venue": "Patriot CDJR of McAlester",
-  "address": "916 S George Nigh Expy, McAlester, OK 74501",
-  "description": "Friday night is the Haunted Car Show at 6:30 with $750, $500 and $250 prizes. Both nights have jump houses, inflatable mazes, axe throwing, cotton candy, popcorn, food trucks, face painting, a balloon guy, a haunted showroom, trunk or treat and cornhole.",
-  "kids": true,
-  "source": "https://www.facebook.com/photo.php?fbid=2371086513693910"
- },
- {
   "id": "e476",
   "date": "2026-10-31",
   "title": "Patriot CDJR Halloween Spooktacular",
@@ -4430,35 +4139,6 @@
   "description": "Saturday night is the costume contest at 7 with $750, $500 and $250 prizes. Both nights have jump houses, inflatable mazes, axe throwing, cotton candy, popcorn, food trucks, face painting, a balloon guy, a haunted showroom, trunk or treat and cornhole.",
   "kids": true,
   "source": "https://www.facebook.com/photo.php?fbid=2371086513693910"
- },
- {
-  "id": "e477",
-  "date": "2026-10-30",
-  "title": "Pittsburg Trail of Death",
-  "category": "community",
-  "area": "mcalester",
-  "time": "Starts at dark",
-  "venue": "Drew Park",
-  "address": "Drew Park, Pittsburg Ave, Pittsburg, OK 74560",
-  "description": "Last night of the season for southeast Oklahoma's original haunted trail. $10 to get in or $20 for a fast pass, with concessions. Proceeds help the PantherPride Booster Club.",
-  "offers": {
-   "low": 10,
-   "high": 20
-  },
-  "source": "https://www.facebook.com/photo.php?fbid=29367145026254208"
- },
- {
-  "id": "e478",
-  "date": "2026-10-30",
-  "title": "House of Michael Myers: The Final Passage",
-  "category": "community",
-  "area": "eufaula",
-  "time": "Starts at dark",
-  "venue": "House of Michael Myers",
-  "address": "401 N Prairie Dr, Stigler, OK 74462",
-  "description": "Free haunted house plus Festival of Frights carnival games, donations welcome. The street is walking only, so park at the health and wellness building or the Choctaw dental clinic and walk over.",
-  "free": true,
-  "source": "https://www.facebook.com/photo.php?fbid=29547591818167307"
  },
  {
   "id": "e479",
@@ -4606,23 +4286,6 @@
   "kids": true
  },
  {
-  "id": "e490",
-  "date": "2026-10-30",
-  "title": "The Haunted Woods at Blessed Arrows Acres",
-  "category": "community",
-  "area": "atoka",
-  "time": "Farm opens 7:00 PM · woods 8:00 – 10:30 PM",
-  "venue": "Blessed Arrows Acres",
-  "address": "17248 SH 48, Coalgate, OK 74538",
-  "description": "A haunted walk through the woods on a family farm outside Coalgate. $10 a person, and group rates are available by texting Meg at 580 853 8270.",
-  "organizer": "Blessed Arrows Acres and Local Friends",
-  "offers": {
-   "low": 10,
-   "high": 10
-  },
-  "source": "https://www.facebook.com/photo/?fbid=122123070093301993&set=a.122096191137301993"
- },
- {
   "id": "e491",
   "date": "2026-10-31",
   "title": "The Haunted Woods at Blessed Arrows Acres",
@@ -4674,19 +4337,6 @@
   "source": "https://www.facebook.com/photo/?fbid=122123070093301993&set=a.122096191137301993"
  },
  {
-  "id": "e494",
-  "date": "2026-10-30",
-  "title": "Wicked Woods Haunt",
-  "category": "community",
-  "area": "eufaula",
-  "venue": "Wicked Woods Haunt (Rustic Woods)",
-  "address": "418580 Texanna Rd, Eufaula, OK 74432",
-  "description": "Three haunted attractions in the woods: the Unhinged Trail, Mabel's Nightmare and a Kidz Trail for younger kids, plus carnival games and the Blue Barrel food truck. $10 per person, add a $3 Touch Pass.",
-  "kids": true,
-  "source": "https://frightmaps.com/houses/oklahoma/wicked-woods-haunt",
-  "time": "7:30 – 10:30 PM"
- },
- {
   "id": "e495",
   "date": "2026-10-31",
   "title": "Wicked Woods Haunt",
@@ -4698,5 +4348,131 @@
   "kids": true,
   "source": "https://frightmaps.com/houses/oklahoma/wicked-woods-haunt",
   "time": "7:30 – 11:30 PM"
+ },
+ {
+  "id": "e496",
+  "date": "2026-11-11",
+  "title": "Durant Veterans Day Parade & Reception",
+  "category": "community",
+  "area": "durant",
+  "time": "9:30 AM",
+  "venue": "Downtown Durant (Main Street)",
+  "address": "Main St, Durant, OK 74701",
+  "description": "Come line Main Street and thank our veterans. This year's theme is 250 Years of Service, Sacrifice, and Strength Because of Our Veterans, and there's a reception at the VFW at 123 S 2nd Ave right after the parade. Groups who want to walk or ride in it need to sign up with the Chamber by noon on November 5.",
+  "source": "https://events.yodel.today/durant-ok/event/Durant-Area-Chamber-of-Commerce/Veterans-Day-Parade---Reception/6a469bedd8a648894e084199",
+  "organizer": "Durant Area Chamber of Commerce",
+  "free": true,
+  "kids": true
+ },
+ {
+  "id": "e497",
+  "date": "2026-11-07",
+  "title": "LeFlore County Veterans Day Parade",
+  "category": "community",
+  "area": "poteau",
+  "time": "10:00 AM",
+  "venue": "Wister (lineup at the new Wister school gym)",
+  "address": "201 Logan St, Wister, OK 74966",
+  "description": "The county's Veterans Day parade rolls through Wister again this year, with grand marshals Sgt. Dot Hunter, Spc. 4 Joseph Houle and Senior Chief Gary Ludwig. Stick around afterward for free hamburgers at the Turnipseed Pavilion, cooked by the Wister Fire Department and Wister Pride. To enter a float, call Wister City Hall at 918 655 7421 or the Poteau Chamber at 918 647 9178. Lineup starts at 8:30.",
+  "source": "https://okwnews.com/news/whatzup/leflore-county-veterans-day-parade-information/",
+  "organizer": "LeFlore County Parade Association",
+  "free": true,
+  "kids": true
+ },
+ {
+  "id": "e498",
+  "date": "2026-11-21",
+  "title": "Line Dance & Let Loose",
+  "category": "community",
+  "area": "hugo-antlers",
+  "time": "1:00 – 2:00 PM",
+  "venue": "Choctaw County Public Library",
+  "address": "703 E Jackson St, Hugo, OK 74743",
+  "description": "Round two of line dancing at the Hugo library. Kids, teens and grownups are all welcome, and no experience is needed.",
+  "source": "https://www.seolibraries.com/event/line-dance-let-loose-35713",
+  "organizer": "Southeast Oklahoma Library System",
+  "free": true,
+  "indoor": true,
+  "kids": true
+ },
+ {
+  "id": "e499",
+  "date": "2026-11-20",
+  "title": "Olivia Claire at Reba's Place",
+  "category": "music",
+  "area": "atoka",
+  "time": "5:00 – 8:00 PM",
+  "venue": "Reba's Place",
+  "address": "301 E Court St, Atoka, OK 74525",
+  "description": "Heartsill Arts & Entertainment brings singer Olivia Claire to Reba's Place for a Friday evening of live music over dinner.",
+  "performer": [
+   "Olivia Claire"
+  ],
+  "indoor": true,
+  "source": "https://www.rebasplace.com/events"
+ },
+ {
+  "id": "e500",
+  "date": "2026-11-27",
+  "title": "Dalton Shackelford at Reba's Place",
+  "category": "music",
+  "area": "atoka",
+  "time": "5:00 PM",
+  "venue": "Reba's Place",
+  "address": "301 E Court St, Atoka, OK 74525",
+  "description": "Dalton Shackelford plays the night after Thanksgiving at Reba's Place, a good excuse to get out of the house and let somebody else do the cooking.",
+  "performer": [
+   "Dalton Shackelford"
+  ],
+  "indoor": true,
+  "source": "https://www.bandsintown.com/e/1040337146-dalton-shackelford-at-reba's-place"
+ },
+ {
+  "id": "e501",
+  "date": "2026-10-31",
+  "endDate": "2026-11-28",
+  "openDays": [
+   6
+  ],
+  "title": "Handmade Artisan Crafted Market",
+  "category": "markets",
+  "area": "okmulgee-east",
+  "time": "Saturdays 4:00 – 7:00 PM, weather permitting",
+  "venue": "Henryetta Farmers Market Pavilion",
+  "address": "198 E Lake Rd, Henryetta, OK 74437",
+  "description": "Every Saturday afternoon the pavilion fills up with local makers selling things they made themselves: homemade soaps, baked treats, jams, jewelry, crochet, woodwork, plants and more. Free to walk through, and a nice way to get some early Christmas shopping done.",
+  "source": "https://vendorsmap.com/events/29569",
+  "free": true
+ },
+ {
+  "id": "e502",
+  "date": "2026-11-03",
+  "title": "Community Health Fair",
+  "category": "community",
+  "area": "mcalester",
+  "time": "9:00 AM – 12:00 PM",
+  "venue": "Hartshorne Public Library",
+  "address": "720 Pennsylvania Ave, Hartshorne, OK 74547",
+  "description": "The Hartshorne library and the Pittsburg County Health Department team up for a morning health fair with info on food safety, WIC and Medicaid, plus a free blood pressure check.",
+  "source": "https://www.seolibraries.com/event/health-fair-37690",
+  "organizer": "Hartshorne Public Library and Pittsburg County Health Department",
+  "free": true,
+  "indoor": true
+ },
+ {
+  "id": "e503",
+  "date": "2026-11-17",
+  "title": "Health Fair & Community Baby Shower",
+  "category": "community",
+  "area": "poteau",
+  "time": "11:30 AM – 1:30 PM",
+  "venue": "Patrick Lynch Public Library",
+  "address": "206 S McKenna St, Poteau, OK 74953",
+  "description": "Save the Children hosts a health fair and community baby shower in the library's community room. A good stop for expecting parents and families with little ones.",
+  "source": "https://www.seolibraries.com/event/stc-health-fair-community-baby-shower-37663",
+  "organizer": "Save the Children",
+  "free": true,
+  "indoor": true,
+  "kids": true
  }
 ]

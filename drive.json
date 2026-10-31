@@ -30,21 +30,6 @@
   "source": "https://www.paycomcenter.com/events/detail/jonas-brothers-26"
  },
  {
-  "id": "d017",
-  "kind": "shows",
-  "date": "2026-10-30",
-  "title": "Teddy Swims: The UGLY Tour",
-  "time": "7:00 PM · doors 6:00",
-  "description": "Teddy Swims brings The UGLY Tour to Fort Worth. Big soul and pop voice, arena show.",
-  "city": "Fort Worth",
-  "venue": "Dickies Arena",
-  "address": "1911 Montgomery St, Fort Worth, TX",
-  "lat": 32.7392,
-  "lon": -97.3852,
-  "url": "https://dickiesarena.com/events",
-  "source": "https://dickiesarena.com/event/2026-10-30-teddy-swims/"
- },
- {
   "id": "d018",
   "kind": "shows",
   "date": "2026-11-01",
@@ -1051,7 +1036,7 @@
   "endDate": "2027-01-01",
   "title": "Rhema Christmas Lights",
   "time": "Lights on 6:00 PM Nov 25 · then nightly 5:30 – 11:30 PM",
-  "description": "One of Oklahoma's biggest Christmas light displays. Free admission and free parking; train rides $10 adults, $5 ages 4–12, free 3 and under.",
+  "description": "One of Oklahoma's biggest Christmas light displays. Free admission and free parking; train rides $10 adults, $5 ages 4 to 12, free 3 and under.",
   "city": "Broken Arrow",
   "venue": "Rhema Bible Church",
   "address": "1025 W Kenosha St, Broken Arrow, OK 74012",
@@ -1061,21 +1046,6 @@
   "source": "https://www.rhemalights.org/",
   "xmas": "lights",
   "free": true
- },
- {
-  "id": "d102",
-  "kind": "shows",
-  "date": "2026-10-30",
-  "title": "Van Full of Nuns",
-  "description": "Pop Punk Nite costume party with Van Full of Nuns and Waiting 4 April. All ages.",
-  "city": "Tulsa",
-  "venue": "Cain's Ballroom",
-  "address": "423 N Main St, Tulsa, OK 74103",
-  "lat": 36.1594,
-  "lon": -95.9928,
-  "url": "https://songkick.com/venues/1232-cains-ballroom/calendar",
-  "source": "https://www.cainsballroom.com/event/pop-punk-nite-by-van-full-of-nuns-5/cains-ballroom/tulsa--oklahoma/",
-  "time": "Doors 7:00 PM"
  },
  {
   "id": "d103",
@@ -1802,22 +1772,6 @@
   "url": "https://songkick.com/venues/85495-tower-theatre/calendar"
  },
  {
-  "id": "d168",
-  "kind": "shows",
-  "date": "2026-10-30",
-  "title": "Old Crow Medicine Show",
-  "description": "Old Crow Medicine Show on the Union Made Tour, with Ken Pomeroy opening.",
-  "city": "Oklahoma City",
-  "venue": "The Jones Assembly",
-  "address": "901 W Sheridan Ave, Oklahoma City, OK",
-  "lat": 35.4663,
-  "lon": -97.5275,
-  "url": "https://www.songkick.com/es/venues/3543559-jones-assembly",
-  "source": "https://www.jambase.com/show/old-crow-medicine-show-the-jones-assembly-20261030",
-  "time": "Doors 6:30 PM",
-  "unconfirmed": true
- },
- {
   "id": "d169",
   "kind": "shows",
   "date": "2026-11-02",
@@ -2029,21 +1983,6 @@
   "url": "https://tulsaoilers.com/news/2026/05/oilers-unveil-2026-27-schedule-ahead-of-clubs-75th-campaign",
   "endDate": "2026-11-29",
   "time": "7:05 PM"
- },
- {
-  "id": "d189",
-  "kind": "sports",
-  "date": "2026-10-30",
-  "title": "Tulsa Oilers vs. Wichita Thunder",
-  "city": "Tulsa",
-  "venue": "BOK Center",
-  "address": "200 S Denver Ave, Tulsa, OK 74103",
-  "lat": 36.1539,
-  "lon": -95.9954,
-  "time": "7:05 PM",
-  "description": "ECHL hockey as the Tulsa Oilers host the Wichita Thunder at BOK Center.",
-  "url": "https://www.bokcenter.com/events/detail/tulsa-oilers-hockey-76",
-  "source": "https://www.bokcenter.com/events"
  },
  {
   "id": "d190",
@@ -3970,5 +3909,50 @@
   "url": "https://www.exploreardmore.com/attraction/ardmore-festival-of-lights/",
   "source": "https://www.chickasawcountry.com/article/magical-holiday-light-displays-chickasaw-country",
   "xmas": "lights"
+ },
+ {
+  "kind": "family",
+  "date": "2026-11-11",
+  "title": "Tulsa Veterans Day Parade",
+  "city": "Tulsa",
+  "venue": "Downtown Tulsa (VFW Post 577)",
+  "address": "1109 E 6th St, Tulsa, OK 74120",
+  "lat": 36.1527,
+  "lon": -95.9772,
+  "time": "11:00 AM",
+  "description": "One of the oldest Veterans Day parades in the country steps off at 11. VFW Post 577 serves breakfast from 7 to 8 that morning and hosts an after party once the parade wraps up.",
+  "url": "https://www.tulsaveteransdayparade.com/",
+  "source": "https://www.tulsaveteransdayparade.com/",
+  "id": "d325"
+ },
+ {
+  "kind": "family",
+  "date": "2026-11-08",
+  "title": "Norman Veterans Day Parade and Celebration",
+  "city": "Norman",
+  "venue": "Reaves Park",
+  "address": "2501 S Jenkins Ave, Norman, OK 73072",
+  "lat": 35.1933,
+  "lon": -97.4428,
+  "time": "2:00 PM",
+  "description": "A parade, guest speakers, military vehicles to look at up close and daytime fireworks, all honoring the men and women who served. Easy one to bring the whole family to.",
+  "url": "https://www.normanok.gov/events/veterans-day-parade-and-celebration",
+  "source": "https://www.normanok.gov/events/veterans-day-parade-and-celebration",
+  "id": "d326"
+ },
+ {
+  "kind": "family",
+  "date": "2026-11-07",
+  "title": "Ardmore Veterans Parade and Ceremony",
+  "city": "Ardmore",
+  "venue": "Depot Park",
+  "address": "251 E Main St, Ardmore, OK 73401",
+  "lat": 34.1743,
+  "lon": -97.1286,
+  "time": "12:00 – 2:00 PM",
+  "description": "Ardmore honors its veterans with a parade downtown and a ceremony at Depot Park.",
+  "url": "https://www.chickasawcountry.com/events/veterans-parade-and-ceremony-depot-park",
+  "source": "https://www.chickasawcountry.com/events/veterans-parade-and-ceremony-depot-park",
+  "id": "d327"
  }
 ]

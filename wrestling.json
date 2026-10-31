@@ -13,7 +13,7 @@
   "register": "https://www.trackwrestling.com/registration/TW_Register.jsp?tournamentGroupId=291454132",
   "registerLabel": "Register on Trackwrestling",
   "start": "8 AM",
-  "deadline": "2026-10-30",
+  "regNote": "Online sign up has closed for this one.",
   "levels": [
    "kids"
   ],
@@ -31,13 +31,13 @@
   "venue": "Midwest City High School",
   "address": "Midwest City, OK",
   "styles": "Folkstyle",
-  "source": "https://www.flowrestling.org/nextgen/events/16218765/information",
+  "source": "https://www.flowrestling.org/nextgen/events/16325017/information",
   "provider": "FloArena",
   "register": "https://events.flowrestling.org/event/2c5f7626-d612-4eb1-b19b-a8f2f2858131/registration",
   "registerLabel": "Register on FloArena",
   "start": "8 AM",
   "fee": "$25",
-  "deadline": "2026-10-30",
+  "regNote": "Online sign up has closed for this one.",
   "levels": [
    "kids",
    "girls"
