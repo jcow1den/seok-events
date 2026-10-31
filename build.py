@@ -15,7 +15,7 @@ import json, sys, re
 from datetime import datetime, timezone, date, timedelta
 
 SITE = "https://jcow1den.github.io/seok-events/"
-FALLBACK_TOWNS = {"Longtown": "Eufaula", "Hochatown": "Broken Bow"}  # towns without their own ZIP code
+FALLBACK_TOWNS = {"Longtown": "Eufaula", "Hochatown": "Broken Bow", "Tushka": "Atoka"}  # towns without their own ZIP code
 
 events = json.load(open("events.json"))
 towns = json.load(open("towns.json"))
