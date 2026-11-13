@@ -2,7 +2,8 @@
 
 Edit events.json, then run:  python3 build.py
 Writes index.html, events.ics (calendar feed), and sitemap.xml.
-Also builds christmas/index.html and wrestling/index.html (from wrestling.json).
+Also builds christmas/index.html, wrestling/index.html (from wrestling.json),
+and sports/index.html (from sports.json).
 
 Event fields: id, date (YYYY-MM-DD), endDate (optional), title,
 category (festivals|music|shows|markets|community|sports|wrestling), area, time, venue,
@@ -475,16 +476,152 @@ document.querySelectorAll(".fl button").forEach(function(b){{b.addEventListener(
 Path("wrestling").mkdir(exist_ok=True)
 open("wrestling/index.html", "w").write(wpage)
 
+# ---------- sports/index.html (football, basketball, college wrestling, spring sports) ----------
+sports = json.load(open("sports.json")) if Path("sports.json").exists() else {}
+SPORT_ORDER = [("football", "Football"), ("basketball", "Basketball"),
+               ("college", "College Wrestling"), ("spring", "Spring Sports")]
+
+
+def sdate(d):
+    dt = date.fromisoformat(d)
+    return dt.strftime("%a %b ") + str(dt.day)
+
+
+def scard(g):
+    x = _h.escape
+    tags = "".join(f'<span>{x(t)}</span>' for t in g.get("tags", []))
+    bits = ['<li>']
+    if tags:
+        bits.append(f'<p class="tags">{tags}</p>')
+    bits.append(f'<h3>{x(g["title"])}</h3>')
+    when = sdate(g["date"])
+    if g.get("time"):
+        when += " · " + g["time"]
+    bits.append(f'<p class="when"><b>{x(when)}</b></p>')
+    place = ""
+    if g.get("venue") and g.get("address") and g["venue"] not in g["address"]:
+        place = f'{g["venue"]}, {g["address"]}'
+    elif g.get("address"):
+        place = g["address"]
+    elif g.get("venue"):
+        place = g["venue"]
+    if place:
+        bits.append(f'<p class="where">{x(place)}</p>')
+    if g.get("note"):
+        bits.append(f'<p>{x(g["note"])}</p>')
+    if g.get("link"):
+        bits.append(f'<p class="act"><a href="{x(g["link"])}" rel="noopener" target="_blank">{x(g.get("linkLabel") or "Details")}</a></p>')
+    bits.append('</li>')
+    return "".join(bits)
+
+
+def sscores(scores):
+    x = _h.escape
+    out = []
+    for s in scores:
+        out.append(f'<li><b>{x(s["title"])}</b><span>{x(s.get("note", ""))}</span></li>')
+    return "".join(out)
+
+
+ssecs, stoc = [], []
+x = _h.escape
+for key, label in SPORT_ORDER:
+    s = sports.get(key)
+    if not s:
+        continue
+    stoc.append(f'<a href="#{key}">{label}</a>')
+    bits = [f'<section id="{key}"><h2>{x(s["title"])}</h2><p>{x(s.get("intro", ""))}</p>']
+    up = [g for g in s.get("upcoming", []) if (g.get("endDate") or g["date"]) >= today]
+    up.sort(key=lambda g: g["date"])
+    if up:
+        bits.append(f'<ul>{"".join(scard(g) for g in up)}</ul>')
+    if s.get("path"):
+        bits.append(f'<p class="path">{x(s["path"])}</p>')
+    sc = [c for c in s.get("scores", [])]
+    if sc:
+        bits.append(f'<h3>Recent finals</h3><ul class="scores">{sscores(sc)}</ul>')
+    if s.get("note"):
+        bits.append(f'<p class="note">{x(s["note"])}</p>')
+    bits.append('</section>')
+    ssecs.append("".join(bits))
+scount = sum(len([g for g in sports.get(k, {}).get("upcoming", []) if (g.get("endDate") or g["date"]) >= today]) for k, _ in SPORT_ORDER)
+stitle = "Sports in Southeast Oklahoma 2026 and 2027: Football Playoffs, Basketball, College Wrestling"
+sdesc = ("Football playoff games and scores, basketball season openers, college wrestling duals to watch, "
+         "and spring sports across southeast Oklahoma, with dates, times, venues, and links to schedules.")
+spage = f"""<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{stitle}</title>
+<meta name="description" content="{_h.escape(sdesc)}">
+<link rel="canonical" href="{SITE}sports/">
+<meta name="theme-color" content="#1d4a37">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Southeast Oklahoma Events">
+<meta property="og:title" content="{stitle}">
+<meta property="og:description" content="{_h.escape(sdesc)}">
+<meta property="og:url" content="{SITE}sports/">
+<meta property="og:image" content="{SITE}icons/share.png">
+<link rel="icon" href="../icons/icon-192.png">
+<style>
+:root{{--bg:#edf0ec;--surface:#fff;--ink:#17201b;--muted:#56625a;--line:#d5ddd6;--pine:#1d4a37;--clay:#b4461d;--chip:#e1e7e2}}
+@media (prefers-color-scheme: dark){{:root{{--bg:#0f1412;--surface:#181e1b;--ink:#e6ece7;--muted:#97a39b;--line:#2a332e;--pine:#69b58f;--clay:#ee8c60;--chip:#232b27;color-scheme:dark}}}}
+*{{box-sizing:border-box}}
+body{{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}}
+.wrap{{max-width:760px;margin:0 auto;padding:16px}}
+header{{background:var(--pine);color:#fff}}
+header a{{color:#fff}}
+h1{{font:800 clamp(30px,8vw,48px)/1 "Arial Narrow",Arial,sans-serif;text-transform:uppercase;margin:8px 0}}
+h2{{font:800 24px/1.1 "Arial Narrow",Arial,sans-serif;text-transform:uppercase;margin:28px 0 8px;border-bottom:3px solid var(--clay);padding-bottom:4px}}
+h3{{margin:0 0 4px;font-size:18px;line-height:1.25}}
+nav.toc{{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}}
+nav.toc a{{background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:7px 12px;color:var(--ink);text-decoration:none;font-weight:600;font-size:14px}}
+.wrestle-banner{{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin:16px 0}}
+.wrestle-banner a{{font-weight:700}}
+ul{{list-style:none;margin:0;padding:0}}
+li{{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin:0 0 10px}}
+li p{{margin:3px 0}}
+.tags{{display:flex;gap:6px;flex-wrap:wrap}}
+.tags span{{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;padding:2px 8px;border-radius:999px;background:var(--chip);color:var(--muted)}}
+.when{{color:var(--clay)}} .where,.note{{color:var(--muted);font-size:14px}}
+.path{{font-weight:700}}
+ul.scores li{{display:flex;flex-wrap:wrap;gap:4px 12px;align-items:baseline}}
+ul.scores span{{color:var(--muted);font-size:14px}}
+.act a{{font-size:14px;font-weight:700}}
+a{{color:var(--pine)}}
+footer{{color:var(--muted);font-size:14px;padding:24px 0}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+<p><a href="../">‹ All southeast Oklahoma events</a></p>
+<h1>Sports in Southeast Oklahoma</h1>
+<p>Football playoffs and scores, basketball season openers, college wrestling duals worth the drive, and spring sports when they return. Wrestling tournaments live on their own page.</p>
+</div></header>
+<main class="wrap">
+<div class="wrestle-banner">🏆 <a href="../wrestling/">Wrestling tournaments and sign up links ›</a> Kids, junior high, high school and girls tournaments across Oklahoma.</div>
+<nav class="toc" aria-label="Sections">{"".join(stoc)}</nav>
+{"".join(ssecs)}
+</main>
+<footer class="wrap">Updated {today}. Scores are from MaxPreps team schedules and the cited sources. Know of a game or score we missed? Message the Southeast Oklahoma Area Events page on Facebook. <a href="../">See every event this week</a>.</footer>
+</body>
+</html>
+"""
+Path("sports").mkdir(exist_ok=True)
+open("sports/index.html", "w").write(spage)
+
 # ---------- sitemap.xml ----------
 open("sitemap.xml", "w").write(
     '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
     f"  <url><loc>{SITE}</loc><lastmod>{today}</lastmod><changefreq>daily</changefreq></url>\n"
     f"  <url><loc>{SITE}christmas/</loc><lastmod>{today}</lastmod><changefreq>weekly</changefreq></url>\n"
-    f"  <url><loc>{SITE}wrestling/</loc><lastmod>{today}</lastmod><changefreq>daily</changefreq></url>\n</urlset>\n")
+    f"  <url><loc>{SITE}wrestling/</loc><lastmod>{today}</lastmod><changefreq>daily</changefreq></url>\n"
+    f"  <url><loc>{SITE}sports/</loc><lastmod>{today}</lastmod><changefreq>daily</changefreq></url>\n</urlset>\n")
 
 # Plain-text sitemap: one URL per line (the simplest format Google accepts)
-open("sitemap.txt", "w").write(SITE + "\n" + SITE + "christmas/\n" + SITE + "wrestling/\n")
+open("sitemap.txt", "w").write(SITE + "\n" + SITE + "christmas/\n" + SITE + "wrestling/\n" + SITE + "sports/\n")
 
 print(f"Built: {len(live)} upcoming events ({len(events) - len(live)} past dropped), "
       f"{len(ld)} sent to Google, calendar feed and sitemap updated. Christmas guide: {xcount} local + {len(xd)} out of town. "
-      f"Wrestling guide: {wcount} tournaments ({wn['seok']} in southeast OK).")
+      f"Wrestling guide: {wcount} tournaments ({wn['seok']} in southeast OK). Sports guide: {scount} upcoming games.")
