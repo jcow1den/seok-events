@@ -263,6 +263,27 @@
   "region": "ok"
  },
  {
+  "id": "w013",
+  "title": "The Mountie Open",
+  "date": "2026-11-07",
+  "city": "Rogers",
+  "state": "AR",
+  "venue": "Berry Arena",
+  "address": "2300 s Dixieland, Rogers, AR 72758",
+  "styles": "Folkstyle",
+  "source": "https://www.usawrestlingevents.com/event/2700009402",
+  "provider": "USA Wrestling",
+  "levels": [
+   "kids",
+   "hs"
+  ],
+  "divisions": "15U , High school",
+  "register": "https://www.usawmembership.com/usaw_events/2700009402?section=registration",
+  "registerLabel": "Register on USA Wrestling",
+  "note": "USA Wrestling card required.",
+  "region": "ar"
+ },
+ {
   "id": "w012",
   "title": "Viking Open",
   "date": "2026-11-07",
@@ -283,27 +304,6 @@
   "lat": 35.0392,
   "lon": -94.6342,
   "region": "seok"
- },
- {
-  "id": "w013",
-  "title": "The Mountie Open",
-  "date": "2026-11-07",
-  "city": "Rogers",
-  "state": "AR",
-  "venue": "Berry Arena",
-  "address": "2300 s Dixieland, Rogers, AR 72758",
-  "styles": "Folkstyle",
-  "source": "https://www.usawrestlingevents.com/event/2700009402",
-  "provider": "USA Wrestling",
-  "levels": [
-   "kids",
-   "hs"
-  ],
-  "divisions": "15U , High school",
-  "register": "https://www.usawmembership.com/usaw_events/2700009402?section=registration",
-  "registerLabel": "Register on USA Wrestling",
-  "note": "USA Wrestling card required.",
-  "region": "ar"
  },
  {
   "id": "w014",
@@ -416,6 +416,43 @@
   "lat": 35.2351,
   "lon": -97.7367,
   "region": "ok"
+ },
+ {
+  "id": "w123",
+  "title": "Broken Arrow Open",
+  "date": "2026-11-14",
+  "endDate": "2026-11-15",
+  "city": "Broken Arrow",
+  "state": "OK",
+  "venue": "Broken Arrow High School",
+  "address": "Broken Arrow High School, Broken Arrow, OK",
+  "register": "https://files.smartsites.parentsquare.com/5924/2026_hs-ms_wrestling_schedule_1.pdf",
+  "source": "https://files.smartsites.parentsquare.com/5924/2026_hs-ms_wrestling_schedule_1.pdf",
+  "registerLabel": "Flyer",
+  "region": "ok",
+  "levels": [
+   "ms",
+   "hs",
+   "girls"
+  ],
+  "divisions": "JH / HS Girls Sat, JH / HS Boys Sun"
+ },
+ {
+  "id": "w122",
+  "title": "Hinton Classic",
+  "date": "2026-11-14",
+  "city": "Hinton",
+  "state": "OK",
+  "venue": "Hinton High School",
+  "address": "708 N Broadway St, Hinton, OK",
+  "register": "https://www.flowrestling.org/events/2dFWSKA0LiF0kPS1/information",
+  "source": "https://www.flowrestling.org/events/2dFWSKA0LiF0kPS1/information",
+  "region": "ok",
+  "levels": [
+   "ms",
+   "hs"
+  ],
+  "divisions": "JH Boys & Girls, HS Boys & Girls"
  },
  {
   "id": "w019",
@@ -539,6 +576,45 @@
   "region": "ok"
  },
  {
+  "id": "w027",
+  "title": "Texan Scramble",
+  "date": "2026-11-14",
+  "city": "Ponder",
+  "state": "TX",
+  "venue": "Ponder Junior High School",
+  "address": "501 Shaffner Street, Ponder, TX 76259",
+  "styles": "Folkstyle",
+  "source": "https://www.usawrestlingevents.com/event/2700106402",
+  "provider": "USA Wrestling",
+  "levels": [
+   "kids"
+  ],
+  "divisions": "Youth divisions",
+  "register": "https://www.usawmembership.com/usaw_events/2700106402?section=registration",
+  "registerLabel": "Register on USA Wrestling",
+  "note": "USA Wrestling card required.",
+  "region": "tx"
+ },
+ {
+  "id": "w121",
+  "title": "Veterans Day Classic: Individual Tournament",
+  "date": "2026-11-14",
+  "city": "Tulsa",
+  "state": "OK",
+  "venue": "Memorial Veterans Arena",
+  "address": "5840 S Hudson Ave, Tulsa, OK",
+  "register": "https://teamtulsa918.weebly.com/veterans-classic.html",
+  "source": "https://teamtulsa918.weebly.com/veterans-classic.html",
+  "region": "ok",
+  "levels": [
+   "kids",
+   "girls"
+  ],
+  "divisions": "Open, Novice and Girls divisions",
+  "fee": "$25 entry",
+  "note": "Sessions: 9:00 AM for 4U and all Novice, 11:30 AM for 6U and all Girls, 2:30 PM for all Open divisions."
+ },
+ {
   "id": "w024",
   "title": "Vikings Wrestling Tournament",
   "date": "2026-11-14",
@@ -562,6 +638,27 @@
   "lat": 35.0537,
   "lon": -94.6236,
   "region": "seok"
+ },
+ {
+  "id": "w028",
+  "title": "War at West",
+  "date": "2026-11-14",
+  "city": "Centerton",
+  "state": "AR",
+  "venue": "Bentonville West High School",
+  "address": "1352 Gamble Rd, Centerton, AR 72719",
+  "styles": "Folkstyle",
+  "source": "https://www.usawrestlingevents.com/event/2700018402",
+  "provider": "USA Bracketing",
+  "levels": [
+   "kids",
+   "girls"
+  ],
+  "divisions": "Open and girls 6U to 15U, novice 8U to 15U",
+  "register": "https://www.usabracketing.com/events/a6c74456-f307-47fe-a087-e75848eb6cc6",
+  "registerLabel": "Register on USA Bracketing",
+  "note": "USA Wrestling card required.",
+  "region": "ar"
  },
  {
   "id": "w025",
@@ -610,47 +707,6 @@
   "region": "ok"
  },
  {
-  "id": "w027",
-  "title": "Texan Scramble",
-  "date": "2026-11-14",
-  "city": "Ponder",
-  "state": "TX",
-  "venue": "Ponder Junior High School",
-  "address": "501 Shaffner Street, Ponder, TX 76259",
-  "styles": "Folkstyle",
-  "source": "https://www.usawrestlingevents.com/event/2700106402",
-  "provider": "USA Wrestling",
-  "levels": [
-   "kids"
-  ],
-  "divisions": "Youth divisions",
-  "register": "https://www.usawmembership.com/usaw_events/2700106402?section=registration",
-  "registerLabel": "Register on USA Wrestling",
-  "note": "USA Wrestling card required.",
-  "region": "tx"
- },
- {
-  "id": "w028",
-  "title": "War at West",
-  "date": "2026-11-14",
-  "city": "Centerton",
-  "state": "AR",
-  "venue": "Bentonville West High School",
-  "address": "1352 Gamble Rd, Centerton, AR 72719",
-  "styles": "Folkstyle",
-  "source": "https://www.usawrestlingevents.com/event/2700018402",
-  "provider": "USA Bracketing",
-  "levels": [
-   "kids",
-   "girls"
-  ],
-  "divisions": "Open and girls 6U to 15U, novice 8U to 15U",
-  "register": "https://www.usabracketing.com/events/a6c74456-f307-47fe-a087-e75848eb6cc6",
-  "registerLabel": "Register on USA Bracketing",
-  "note": "USA Wrestling card required.",
-  "region": "ar"
- },
- {
   "id": "w029",
   "title": "Morrison Kids Tournament",
   "date": "2026-11-15",
@@ -675,9 +731,26 @@
   "region": "ok"
  },
  {
+  "id": "w124",
+  "title": "Veterans Day Youth Duals",
+  "date": "2026-11-15",
+  "city": "Tulsa",
+  "state": "OK",
+  "venue": "Memorial Veterans Arena",
+  "address": "5840 S Hudson Ave, Tulsa, OK",
+  "register": "https://teamtulsa918.weebly.com/veterans-classic.html",
+  "source": "https://teamtulsa918.weebly.com/veterans-classic.html",
+  "region": "ok",
+  "levels": [
+   "kids"
+  ],
+  "divisions": "Team duals, 9U, 12U and Girls 12U",
+  "fee": "$375 per team"
+ },
+ {
   "id": "w030",
   "title": "Tulsa Kickoff Classic",
-  "date": "2026-11-19",
+  "date": "2026-11-20",
   "city": "Tulsa",
   "state": "OK",
   "venue": "Expo Square Pavilion",
@@ -936,6 +1009,26 @@
   "region": "ok"
  },
  {
+  "id": "w043",
+  "title": "Texan Tussle Open",
+  "date": "2026-11-21",
+  "city": "Arlington",
+  "state": "TX",
+  "venue": "Sam Houston High School",
+  "address": "2000 Sam Houston Drive, Arlington, TX 76014",
+  "styles": "Folkstyle",
+  "source": "https://www.usawrestlingevents.com/event/2700106502",
+  "provider": "USA Wrestling",
+  "levels": [
+   "kids"
+  ],
+  "divisions": "Youth divisions",
+  "register": "https://www.usawmembership.com/usaw_events/2700106502?section=registration",
+  "registerLabel": "Register on USA Wrestling",
+  "note": "USA Wrestling card required.",
+  "region": "tx"
+ },
+ {
   "id": "w041",
   "title": "Tomahawk Throwdown",
   "date": "2026-11-21",
@@ -982,26 +1075,6 @@
   "lat": 35.4984,
   "lon": -94.9697,
   "region": "seok"
- },
- {
-  "id": "w043",
-  "title": "Texan Tussle Open",
-  "date": "2026-11-21",
-  "city": "Arlington",
-  "state": "TX",
-  "venue": "Sam Houston High School",
-  "address": "2000 Sam Houston Drive, Arlington, TX 76014",
-  "styles": "Folkstyle",
-  "source": "https://www.usawrestlingevents.com/event/2700106502",
-  "provider": "USA Wrestling",
-  "levels": [
-   "kids"
-  ],
-  "divisions": "Youth divisions",
-  "register": "https://www.usawmembership.com/usaw_events/2700106502?section=registration",
-  "registerLabel": "Register on USA Wrestling",
-  "note": "USA Wrestling card required.",
-  "region": "tx"
  },
  {
   "id": "w044",
@@ -1119,6 +1192,27 @@
   "registerLabel": "Register on USA Wrestling",
   "note": "USA Wrestling card required.",
   "region": "ok"
+ },
+ {
+  "id": "w055",
+  "title": "Bentonville Tiger Classic Thanksgiving Throwdown 2026",
+  "date": "2026-11-28",
+  "city": "Bentonville",
+  "state": "AR",
+  "venue": "Tiger Arena, Bentonville High School",
+  "address": "1801 SE J Street, Bentonville, AR 72713",
+  "styles": "Folkstyle",
+  "source": "https://www.usawrestlingevents.com/event/2700110302",
+  "provider": "USA Wrestling",
+  "levels": [
+   "kids"
+  ],
+  "divisions": "10U, 12U, 14U, 8U",
+  "register": "https://www.usawrestlingevents.com/event/2700110302",
+  "registerLabel": "Event details and sign up info",
+  "regNote": "No online sign up link is posted yet. The event page has the host contact.",
+  "note": "USA Wrestling card required.",
+  "region": "ar"
  },
  {
   "id": "w049",
@@ -1260,27 +1354,6 @@
   "region": "ok"
  },
  {
-  "id": "w055",
-  "title": "Bentonville Tiger Classic Thanksgiving Throwdown 2026",
-  "date": "2026-11-28",
-  "city": "Bentonville",
-  "state": "AR",
-  "venue": "Tiger Arena, Bentonville High School",
-  "address": "1801 SE J Street, Bentonville, AR 72713",
-  "styles": "Folkstyle",
-  "source": "https://www.usawrestlingevents.com/event/2700110302",
-  "provider": "USA Wrestling",
-  "levels": [
-   "kids"
-  ],
-  "divisions": "10U, 12U, 14U, 8U",
-  "register": "https://www.usawrestlingevents.com/event/2700110302",
-  "registerLabel": "Event details and sign up info",
-  "regNote": "No online sign up link is posted yet. The event page has the host contact.",
-  "note": "USA Wrestling card required.",
-  "region": "ar"
- },
- {
   "id": "w056",
   "title": "Bulldog Brawl Novice Tournament",
   "date": "2026-11-29",
@@ -1324,6 +1397,27 @@
   "lat": 36.8045,
   "lon": -97.2828,
   "region": "ok"
+ },
+ {
+  "id": "w062",
+  "title": "Clearwater Showdown on the Ninnescah",
+  "date": "2026-12-05",
+  "city": "Clearwater",
+  "state": "KS",
+  "venue": "Clearwater High School",
+  "address": "1201 E. Ross, Clearwater, KS 67026",
+  "styles": "Folkstyle",
+  "source": "https://www.usawrestlingevents.com/event/2700080202",
+  "provider": "USA Wrestling",
+  "levels": [
+   "kids"
+  ],
+  "divisions": "10U, 12U, 14U, 8U, 6U beginners",
+  "register": "https://www.usawrestlingevents.com/event/2700080202",
+  "registerLabel": "Event details and sign up info",
+  "regNote": "No online sign up link is posted yet. The event page has the host contact.",
+  "note": "USA Wrestling card required.",
+  "region": "ks"
  },
  {
   "id": "w058",
@@ -1420,27 +1514,6 @@
   "region": "ok"
  },
  {
-  "id": "w062",
-  "title": "Clearwater Showdown on the Ninnescah",
-  "date": "2026-12-05",
-  "city": "Clearwater",
-  "state": "KS",
-  "venue": "Clearwater High School",
-  "address": "1201 E. Ross, Clearwater, KS 67026",
-  "styles": "Folkstyle",
-  "source": "https://www.usawrestlingevents.com/event/2700080202",
-  "provider": "USA Wrestling",
-  "levels": [
-   "kids"
-  ],
-  "divisions": "10U, 12U, 14U, 8U, 6U beginners",
-  "register": "https://www.usawrestlingevents.com/event/2700080202",
-  "registerLabel": "Event details and sign up info",
-  "regNote": "No online sign up link is posted yet. The event page has the host contact.",
-  "note": "USA Wrestling card required.",
-  "region": "ks"
- },
- {
   "id": "w063",
   "title": "King of the Ring",
   "date": "2026-12-06",
@@ -1456,6 +1529,27 @@
   ],
   "divisions": "10U, 12U, 14U, 8U",
   "register": "https://www.usawrestlingevents.com/event/2700076602",
+  "registerLabel": "Event details and sign up info",
+  "regNote": "No online sign up link is posted yet. The event page has the host contact.",
+  "note": "USA Wrestling card required.",
+  "region": "ks"
+ },
+ {
+  "id": "w071",
+  "title": "Ark City Battle on the Border",
+  "date": "2026-12-12",
+  "city": "Arkansas City",
+  "state": "KS",
+  "venue": "Arkansas City High School",
+  "address": "1200 W Radio Lane, Arkansas City, KS 67005",
+  "styles": "Folkstyle",
+  "source": "https://www.usawrestlingevents.com/event/2700028202",
+  "provider": "USA Wrestling",
+  "levels": [
+   "kids"
+  ],
+  "divisions": "10U, 12U, 6U, 8U",
+  "register": "https://www.usawrestlingevents.com/event/2700028202",
   "registerLabel": "Event details and sign up info",
   "regNote": "No online sign up link is posted yet. The event page has the host contact.",
   "note": "USA Wrestling card required.",
@@ -1603,6 +1697,26 @@
   "region": "ok"
  },
  {
+  "id": "w072",
+  "title": "Pratt Ground & Pound",
+  "date": "2026-12-12",
+  "city": "Pratt",
+  "state": "KS",
+  "venue": "Pratt High School",
+  "address": "400 S. Hamilton, Pratt, KS 67124",
+  "styles": "Folkstyle",
+  "source": "https://www.usawrestlingevents.com/event/2700066702",
+  "provider": "USA Bracketing",
+  "levels": [
+   "kids"
+  ],
+  "divisions": "Youth divisions",
+  "register": "https://www.usabracketing.com/events/6e6bcd8f-2864-477e-9628-018d82fba30e/registration/general",
+  "registerLabel": "Register on USA Bracketing",
+  "note": "USA Wrestling card required.",
+  "region": "ks"
+ },
+ {
   "id": "w070",
   "title": "Rumble in the Jungle",
   "date": "2026-12-12",
@@ -1623,47 +1737,6 @@
   "registerLabel": "Register on USA Wrestling",
   "note": "USA Wrestling card required.",
   "region": "ok"
- },
- {
-  "id": "w071",
-  "title": "Ark City Battle on the Border",
-  "date": "2026-12-12",
-  "city": "Arkansas City",
-  "state": "KS",
-  "venue": "Arkansas City High School",
-  "address": "1200 W Radio Lane, Arkansas City, KS 67005",
-  "styles": "Folkstyle",
-  "source": "https://www.usawrestlingevents.com/event/2700028202",
-  "provider": "USA Wrestling",
-  "levels": [
-   "kids"
-  ],
-  "divisions": "10U, 12U, 6U, 8U",
-  "register": "https://www.usawrestlingevents.com/event/2700028202",
-  "registerLabel": "Event details and sign up info",
-  "regNote": "No online sign up link is posted yet. The event page has the host contact.",
-  "note": "USA Wrestling card required.",
-  "region": "ks"
- },
- {
-  "id": "w072",
-  "title": "Pratt Ground & Pound",
-  "date": "2026-12-12",
-  "city": "Pratt",
-  "state": "KS",
-  "venue": "Pratt High School",
-  "address": "400 S. Hamilton, Pratt, KS 67124",
-  "styles": "Folkstyle",
-  "source": "https://www.usawrestlingevents.com/event/2700066702",
-  "provider": "USA Bracketing",
-  "levels": [
-   "kids"
-  ],
-  "divisions": "Youth divisions",
-  "register": "https://www.usabracketing.com/events/6e6bcd8f-2864-477e-9628-018d82fba30e/registration/general",
-  "registerLabel": "Register on USA Bracketing",
-  "note": "USA Wrestling card required.",
-  "region": "ks"
  },
  {
   "id": "w073",
@@ -1736,6 +1809,29 @@
   "region": "ok"
  },
  {
+  "id": "w077",
+  "title": "Texas Christmas Showcase",
+  "date": "2026-12-19",
+  "city": "Melissa",
+  "state": "TX",
+  "venue": "Melissa High School",
+  "address": "3030 Milrany Ln., Melissa, TX 75454",
+  "styles": "Folkstyle",
+  "source": "https://www.usawrestlingevents.com/event/2700062302",
+  "provider": "USA Wrestling",
+  "levels": [
+   "kids",
+   "ms",
+   "hs",
+   "girls"
+  ],
+  "divisions": "Open 5U to high school, girls 7U to high school, novice 7U to middle school",
+  "register": "https://www.usawmembership.com/usaw_events/2700062302?section=registration",
+  "registerLabel": "Register on USA Wrestling",
+  "note": "USA Wrestling card required.",
+  "region": "tx"
+ },
+ {
   "id": "w076",
   "title": "Tulsa Battle for the Belt",
   "date": "2026-12-19",
@@ -1762,29 +1858,6 @@
   "lat": 36.1369,
   "lon": -95.9329,
   "region": "ok"
- },
- {
-  "id": "w077",
-  "title": "Texas Christmas Showcase",
-  "date": "2026-12-19",
-  "city": "Melissa",
-  "state": "TX",
-  "venue": "Melissa High School",
-  "address": "3030 Milrany Ln., Melissa, TX 75454",
-  "styles": "Folkstyle",
-  "source": "https://www.usawrestlingevents.com/event/2700062302",
-  "provider": "USA Wrestling",
-  "levels": [
-   "kids",
-   "ms",
-   "hs",
-   "girls"
-  ],
-  "divisions": "Open 5U to high school, girls 7U to high school, novice 7U to middle school",
-  "register": "https://www.usawmembership.com/usaw_events/2700062302?section=registration",
-  "registerLabel": "Register on USA Wrestling",
-  "note": "USA Wrestling card required.",
-  "region": "tx"
  },
  {
   "id": "w078",
@@ -1953,6 +2026,28 @@
   "region": "ok"
  },
  {
+  "id": "w088",
+  "title": "2nd Annual Girls Holiday Havoc",
+  "date": "2027-01-02",
+  "city": "Chanute",
+  "state": "KS",
+  "venue": "Chanute High School",
+  "address": "1501 W. 36th St, Chanute, KS 66720",
+  "styles": "Folkstyle",
+  "source": "https://www.usawrestlingevents.com/event/2700093002",
+  "provider": "USA Wrestling",
+  "levels": [
+   "kids",
+   "girls"
+  ],
+  "divisions": "10U, 12U, 14U, 6U, 8U",
+  "register": "https://www.usawrestlingevents.com/event/2700093002",
+  "registerLabel": "Event details and sign up info",
+  "regNote": "No online sign up link is posted yet. The event page has the host contact.",
+  "note": "USA Wrestling card required.",
+  "region": "ks"
+ },
+ {
   "id": "w085",
   "title": "Black Flag Brawl",
   "date": "2027-01-02",
@@ -1975,6 +2070,27 @@
   "lat": 36.1334,
   "lon": -96.3545,
   "region": "ok"
+ },
+ {
+  "id": "w089",
+  "title": "Crusader Clash",
+  "date": "2027-01-02",
+  "city": "Wichita",
+  "state": "KS",
+  "venue": "Kapaun Mt Carmel",
+  "address": "8506 E Central Ave, Wichita, KS 67206",
+  "styles": "Folkstyle",
+  "source": "https://www.usawrestlingevents.com/event/2700018902",
+  "provider": "USA Wrestling",
+  "levels": [
+   "kids"
+  ],
+  "divisions": "10U, 12U, 14U, 6U, 8U",
+  "register": "https://www.usawrestlingevents.com/event/2700018902",
+  "registerLabel": "Event details and sign up info",
+  "regNote": "No online sign up link is posted yet. The event page has the host contact.",
+  "note": "USA Wrestling card required.",
+  "region": "ks"
  },
  {
   "id": "w086",
@@ -2001,6 +2117,26 @@
   "region": "seok"
  },
  {
+  "id": "w090",
+  "title": "Valley Center Round Robin",
+  "date": "2027-01-02",
+  "city": "Valley Center",
+  "state": "KS",
+  "venue": "Valley Center High School",
+  "address": "9600 N Meridian, Valley Center, KS 67147",
+  "styles": "Folkstyle",
+  "source": "https://www.usawrestlingevents.com/event/2700009902",
+  "provider": "USA Wrestling",
+  "levels": [
+   "kids"
+  ],
+  "divisions": "10U, 12U, 14U, 8U",
+  "register": "https://flowrestling.org/events/16145378",
+  "registerLabel": "Register on FloWrestling",
+  "note": "USA Wrestling card required.",
+  "region": "ks"
+ },
+ {
   "id": "w087",
   "title": "Vinita Super Hornet",
   "date": "2027-01-02",
@@ -2023,69 +2159,6 @@
   "lat": 36.6387,
   "lon": -95.1541,
   "region": "ok"
- },
- {
-  "id": "w088",
-  "title": "2nd Annual Girls Holiday Havoc",
-  "date": "2027-01-02",
-  "city": "Chanute",
-  "state": "KS",
-  "venue": "Chanute High School",
-  "address": "1501 W. 36th St, Chanute, KS 66720",
-  "styles": "Folkstyle",
-  "source": "https://www.usawrestlingevents.com/event/2700093002",
-  "provider": "USA Wrestling",
-  "levels": [
-   "kids",
-   "girls"
-  ],
-  "divisions": "10U, 12U, 14U, 6U, 8U",
-  "register": "https://www.usawrestlingevents.com/event/2700093002",
-  "registerLabel": "Event details and sign up info",
-  "regNote": "No online sign up link is posted yet. The event page has the host contact.",
-  "note": "USA Wrestling card required.",
-  "region": "ks"
- },
- {
-  "id": "w089",
-  "title": "Crusader Clash",
-  "date": "2027-01-02",
-  "city": "Wichita",
-  "state": "KS",
-  "venue": "Kapaun Mt Carmel",
-  "address": "8506 E Central Ave, Wichita, KS 67206",
-  "styles": "Folkstyle",
-  "source": "https://www.usawrestlingevents.com/event/2700018902",
-  "provider": "USA Wrestling",
-  "levels": [
-   "kids"
-  ],
-  "divisions": "10U, 12U, 14U, 6U, 8U",
-  "register": "https://www.usawrestlingevents.com/event/2700018902",
-  "registerLabel": "Event details and sign up info",
-  "regNote": "No online sign up link is posted yet. The event page has the host contact.",
-  "note": "USA Wrestling card required.",
-  "region": "ks"
- },
- {
-  "id": "w090",
-  "title": "Valley Center Round Robin",
-  "date": "2027-01-02",
-  "city": "Valley Center",
-  "state": "KS",
-  "venue": "Valley Center High School",
-  "address": "9600 N Meridian, Valley Center, KS 67147",
-  "styles": "Folkstyle",
-  "source": "https://www.usawrestlingevents.com/event/2700009902",
-  "provider": "USA Wrestling",
-  "levels": [
-   "kids"
-  ],
-  "divisions": "10U, 12U, 14U, 8U",
-  "register": "https://flowrestling.org/events/16145378",
-  "registerLabel": "Register on FloWrestling",
-  "note": "USA Wrestling card required.",
-  "region": "ks"
  },
  {
   "id": "w091",
@@ -2182,6 +2255,26 @@
   "region": "ok"
  },
  {
+  "id": "w098",
+  "title": "Greenwood Garrett Haralson Memorial Youth Wrestling Tournament",
+  "date": "2027-01-09",
+  "city": "Greenwood",
+  "state": "AR",
+  "venue": "H.B. Stewart Arena",
+  "address": "530 E Gary St., Greenwood, AR 72936",
+  "styles": "Folkstyle",
+  "source": "https://www.usawrestlingevents.com/event/2700029002",
+  "provider": "USA Wrestling",
+  "levels": [
+   "kids"
+  ],
+  "divisions": "10U, 12U, 8U, U15, 6U beginners",
+  "register": "https://www.usawmembership.com/usaw_events/2700029002?section=registration",
+  "registerLabel": "Register on USA Wrestling",
+  "note": "USA Wrestling card required.",
+  "region": "ar"
+ },
+ {
   "id": "w095",
   "title": "Keystone Klassic",
   "date": "2027-01-09",
@@ -2248,26 +2341,6 @@
   "registerLabel": "Register on USA Wrestling",
   "note": "USA Wrestling card required.",
   "region": "ok"
- },
- {
-  "id": "w098",
-  "title": "Greenwood Garrett Haralson Memorial Youth Wrestling Tournament",
-  "date": "2027-01-09",
-  "city": "Greenwood",
-  "state": "AR",
-  "venue": "H.B. Stewart Arena",
-  "address": "530 E Gary St., Greenwood, AR 72936",
-  "styles": "Folkstyle",
-  "source": "https://www.usawrestlingevents.com/event/2700029002",
-  "provider": "USA Wrestling",
-  "levels": [
-   "kids"
-  ],
-  "divisions": "10U, 12U, 8U, U15, 6U beginners",
-  "register": "https://www.usawmembership.com/usaw_events/2700029002?section=registration",
-  "registerLabel": "Register on USA Wrestling",
-  "note": "USA Wrestling card required.",
-  "region": "ar"
  },
  {
   "id": "w099",
@@ -2358,6 +2431,27 @@
   "lat": 35.8306,
   "lon": -96.3911,
   "region": "ok"
+ },
+ {
+  "id": "w107",
+  "title": "David Goodsell Jr Memorial",
+  "date": "2027-01-16",
+  "city": "Wichita",
+  "state": "KS",
+  "venue": "Bishop Carroll Catholic High School",
+  "address": "8101 W Central, Wichita, KS 67212",
+  "styles": "Folkstyle",
+  "source": "https://www.usawrestlingevents.com/event/2700018602",
+  "provider": "USA Wrestling",
+  "levels": [
+   "kids"
+  ],
+  "divisions": "10U, 12U, 14U, 8U",
+  "register": "https://www.usawrestlingevents.com/event/2700018602",
+  "registerLabel": "Event details and sign up info",
+  "regNote": "No online sign up link is posted yet. The event page has the host contact.",
+  "note": "USA Wrestling card required.",
+  "region": "ks"
  },
  {
   "id": "w103",
@@ -2455,27 +2549,6 @@
   "region": "seok"
  },
  {
-  "id": "w107",
-  "title": "David Goodsell Jr Memorial",
-  "date": "2027-01-16",
-  "city": "Wichita",
-  "state": "KS",
-  "venue": "Bishop Carroll Catholic High School",
-  "address": "8101 W Central, Wichita, KS 67212",
-  "styles": "Folkstyle",
-  "source": "https://www.usawrestlingevents.com/event/2700018602",
-  "provider": "USA Wrestling",
-  "levels": [
-   "kids"
-  ],
-  "divisions": "10U, 12U, 14U, 8U",
-  "register": "https://www.usawrestlingevents.com/event/2700018602",
-  "registerLabel": "Event details and sign up info",
-  "regNote": "No online sign up link is posted yet. The event page has the host contact.",
-  "note": "USA Wrestling card required.",
-  "region": "ks"
- },
- {
   "id": "w108",
   "title": "Perkins Kids Tournament",
   "date": "2027-01-17",
@@ -2498,6 +2571,27 @@
   "lat": 35.9739,
   "lon": -97.0336,
   "region": "ok"
+ },
+ {
+  "id": "w113",
+  "title": "Augusta Open/Novice",
+  "date": "2027-01-23",
+  "city": "Augusta",
+  "state": "KS",
+  "venue": "Augusta High School",
+  "address": "2020 Ohio St., Augusta, KS 67010",
+  "styles": "Folkstyle",
+  "source": "https://www.usawrestlingevents.com/event/2700014302",
+  "provider": "USA Wrestling",
+  "levels": [
+   "kids"
+  ],
+  "divisions": "10U, 12U, 14U, 8U",
+  "register": "https://www.usawrestlingevents.com/event/2700014302",
+  "registerLabel": "Event details and sign up info",
+  "regNote": "No online sign up link is posted yet. The event page has the host contact.",
+  "note": "USA Wrestling card required.",
+  "region": "ks"
  },
  {
   "id": "w109",
@@ -2596,25 +2690,25 @@
   "region": "ok"
  },
  {
-  "id": "w113",
-  "title": "Augusta Open/Novice",
-  "date": "2027-01-23",
-  "city": "Augusta",
-  "state": "KS",
-  "venue": "Augusta High School",
-  "address": "2020 Ohio St., Augusta, KS 67010",
+  "id": "w116",
+  "title": "Chad Bottorff Classic",
+  "date": "2027-01-30",
+  "city": "Springdale",
+  "state": "AR",
+  "venue": "Shiloh Christian School",
+  "address": "1707 Johnson Road, Springdale, AR 72762",
   "styles": "Folkstyle",
-  "source": "https://www.usawrestlingevents.com/event/2700014302",
+  "source": "https://www.usawrestlingevents.com/event/2700116302",
   "provider": "USA Wrestling",
   "levels": [
    "kids"
   ],
   "divisions": "10U, 12U, 14U, 8U",
-  "register": "https://www.usawrestlingevents.com/event/2700014302",
+  "register": "https://www.usawrestlingevents.com/event/2700116302",
   "registerLabel": "Event details and sign up info",
   "regNote": "No online sign up link is posted yet. The event page has the host contact.",
   "note": "USA Wrestling card required.",
-  "region": "ks"
+  "region": "ar"
  },
  {
   "id": "w114",
@@ -2663,27 +2757,6 @@
   "lat": 36.6784,
   "lon": -97.31,
   "region": "ok"
- },
- {
-  "id": "w116",
-  "title": "Chad Bottorff Classic",
-  "date": "2027-01-30",
-  "city": "Springdale",
-  "state": "AR",
-  "venue": "Shiloh Christian School",
-  "address": "1707 Johnson Road, Springdale, AR 72762",
-  "styles": "Folkstyle",
-  "source": "https://www.usawrestlingevents.com/event/2700116302",
-  "provider": "USA Wrestling",
-  "levels": [
-   "kids"
-  ],
-  "divisions": "10U, 12U, 14U, 8U",
-  "register": "https://www.usawrestlingevents.com/event/2700116302",
-  "registerLabel": "Event details and sign up info",
-  "regNote": "No online sign up link is posted yet. The event page has the host contact.",
-  "note": "USA Wrestling card required.",
-  "region": "ar"
  },
  {
   "id": "w117",
