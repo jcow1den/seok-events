@@ -3382,10 +3382,10 @@
     "title": "Music on Main: Southeast Remedy",
     "category": "music",
     "area": "idabel-broken-bow",
-    "time": "7:00 PM – 9:00 PM",
-    "venue": "Downtown Broken Bow",
-    "address": "Downtown Broken Bow, Broken Bow, OK",
-    "description": "Music on Main in downtown Broken Bow featuring Southeast Remedy.",
+    "time": "4:00 PM – 6:00 PM",
+    "venue": "Main Street, Broken Bow",
+    "address": "Main Street, Broken Bow, OK 74728",
+    "description": "Free Music on Main concert in downtown Broken Bow featuring Southeast Remedy.",
     "performer": [
       "Southeast Remedy"
     ]
@@ -5255,5 +5255,34 @@
     "free": true,
     "kids": true,
     "indoor": true
+  },
+  {
+    "id": "e568",
+    "date": "2026-11-26",
+    "title": "Thanksgiving Buffet at Chop House",
+    "category": "community",
+    "area": "hugo-antlers",
+    "time": "11:00 AM-7:00 PM",
+    "venue": "Chop House, Choctaw Casino & Resort – Grant",
+    "address": "1516 US-271, Grant, OK 74738",
+    "description": "Thanksgiving buffet at Chop House. Reservations: https://bit.ly/3P2v8xQ",
+    "source": "https://www.facebook.com/events/1321072883393220/"
+  },
+  {
+    "id": "e569",
+    "date": "2026-12-13",
+    "title": "Elvis Christmas Spectacular with Kraig Parker",
+    "category": "shows",
+    "area": "durant",
+    "time": "3:00 PM",
+    "venue": "Choctaw Grand Theater, Choctaw Casino & Resort",
+    "address": "4216 S Hwy 69/75, Durant, OK 74701",
+    "description": "Kraig Parker presents a world-premiere Elvis Christmas tribute show.",
+    "performer": [
+      "Kraig Parker"
+    ],
+    "indoor": true,
+    "xmas": "more",
+    "source": "https://www.ticketmaster.com/choctaw-grand-theater-boletos-durant/venue/99275"
   }
 ]
