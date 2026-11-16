@@ -1,179 +1,171 @@
 {
-  "basketball": {
-    "intro": "Oklahoma splits its tip-off. Small schools are already playing, and the bigger schools, including McAlester, open in December.",
-    "note": "Varsity December schedules are posted by each school on MaxPreps and school athletics sites as they are finalized. The Lady Buffaloes preview, with head coach Kourtnee Beshears, is already up from McAlester Athletics.",
-    "title": "Basketball: Season Opening",
-    "upcoming": [
-      {
-        "address": "",
-        "date": "2026-12-01",
-        "link": "",
-        "linkLabel": "",
-        "note": "Oklahoma's 2A through 6A basketball season starts Dec 1. McAlester plays in 5A, so the Buffaloes and Lady Buffaloes open from this date. Classes A and B started Nov 2 and are already in their season.",
-        "tags": [
-          "Season opener window",
-          "McAlester is 5A"
-        ],
-        "time": "",
-        "title": "Classes 2A-6A tip off statewide",
-        "venue": ""
-      },
-      {
-        "address": "",
-        "date": "2027-01-07",
-        "link": "",
-        "linkLabel": "",
-        "note": "",
-        "tags": [],
-        "time": "7:30 PM",
-        "title": "Freshman: McAlester vs Durant",
-        "venue": ""
-      },
-      {
-        "address": "",
-        "date": "2027-01-11",
-        "link": "",
-        "linkLabel": "",
-        "note": "",
-        "tags": [],
-        "time": "7:30 PM",
-        "title": "Freshman: McAlester vs Ada",
-        "venue": ""
-      },
-      {
-        "address": "",
-        "date": "2027-01-25",
-        "link": "",
-        "linkLabel": "",
-        "note": "",
-        "tags": [],
-        "time": "7:30 PM",
-        "title": "Freshman: McAlester vs Broken Bow",
-        "venue": ""
-      }
-    ]
-  },
-  "college": {
-    "intro": "For families who want to watch the top level in person without leaving Oklahoma. Both Oklahoma State and Oklahoma come to Tulsa in December.",
+ "basketball": {
+  "intro": "Oklahoma splits its tip-off. Small schools are already playing, and the bigger schools, including McAlester, open in December.",
+  "note": "Varsity December schedules are posted by each school on MaxPreps and school athletics sites as they are finalized. The Lady Buffaloes preview, with head coach Kourtnee Beshears, is already up from McAlester Athletics.",
+  "title": "Basketball: Season Opening",
+  "upcoming": [
+   {
+    "address": "",
+    "date": "2026-12-01",
+    "link": "",
+    "linkLabel": "",
+    "note": "Oklahoma's 2A through 6A basketball season starts Dec 1. McAlester plays in 5A, so the Buffaloes and Lady Buffaloes open from this date. Classes A and B started Nov 2 and are already in their season.",
+    "tags": [
+     "Season opener window",
+     "McAlester is 5A"
+    ],
+    "time": "",
+    "title": "Classes 2A-6A tip off statewide",
+    "venue": ""
+   },
+   {
+    "address": "",
+    "date": "2027-01-07",
+    "link": "",
+    "linkLabel": "",
     "note": "",
-    "scores": [
-      {
-        "date": "2026-11-13",
-        "note": "Nov 13 · Gallagher-Iba Arena, sellout 12,527",
-        "title": "Oklahoma State 27, Nebraska 6"
-      },
-      {
-        "date": "2026-11-08",
-        "note": "Nov 8 · Gallagher-Iba Arena, home opener",
-        "title": "Oklahoma State 45, Drexel 0"
-      }
+    "tags": [],
+    "time": "7:30 PM",
+    "title": "Freshman: McAlester vs Durant",
+    "venue": ""
+   },
+   {
+    "address": "",
+    "date": "2027-01-11",
+    "link": "",
+    "linkLabel": "",
+    "note": "",
+    "tags": [],
+    "time": "7:30 PM",
+    "title": "Freshman: McAlester vs Ada",
+    "venue": ""
+   },
+   {
+    "address": "",
+    "date": "2027-01-25",
+    "link": "",
+    "linkLabel": "",
+    "note": "",
+    "tags": [],
+    "time": "7:30 PM",
+    "title": "Freshman: McAlester vs Broken Bow",
+    "venue": ""
+   }
+  ]
+ },
+ "college": {
+  "intro": "For families who want to watch the top level in person without leaving Oklahoma. Both Oklahoma State and Oklahoma come to Tulsa in December.",
+  "note": "",
+  "scores": [
+   {
+    "date": "2026-11-15",
+    "note": "Nov 15 \u00b7 Lloyd Noble Center, Norman",
+    "title": "Penn State 41, Oklahoma 0"
+   },
+   {
+    "date": "2026-11-13",
+    "note": "Nov 13 \u00b7 Gallagher-Iba Arena, sellout 12,527",
+    "title": "Oklahoma State 27, Nebraska 6"
+   },
+   {
+    "date": "2026-11-08",
+    "note": "Nov 8 \u00b7 Gallagher-Iba Arena, home opener",
+    "title": "Oklahoma State 45, Drexel 0"
+   }
+  ],
+  "title": "College Wrestling to Watch",
+  "upcoming": [
+   {
+    "address": "204 S Denver Ave, Tulsa, OK 74103",
+    "date": "2026-12-12",
+    "link": "",
+    "linkLabel": "",
+    "note": "Dec 12-13. Sessions Dec 12 at 9:00 AM and 3:00 PM, and Dec 13 at 10:00 AM and 6:00 PM. Oklahoma State and Oklahoma are both in the field.",
+    "tags": [
+     "In Tulsa",
+     "Dec 12-13"
     ],
-    "title": "College Wrestling to Watch",
-    "upcoming": [
-      {
-        "address": "Norman, OK",
-        "date": "2026-11-15",
-        "link": "",
-        "linkLabel": "",
-        "note": "Penn State comes in as the preseason No. 1 and five-time defending national champion, in the first wrestling event at Lloyd Noble since 2021.",
-        "tags": [
-          "College dual"
-        ],
-        "time": "",
-        "title": "Penn State at Oklahoma",
-        "venue": "Lloyd Noble Center"
-      },
-      {
-        "address": "204 S Denver Ave, Tulsa, OK 74103",
-        "date": "2026-12-12",
-        "link": "",
-        "linkLabel": "",
-        "note": "Dec 12-13. Sessions Dec 12 at 9:00 AM and 3:00 PM, and Dec 13 at 10:00 AM and 6:00 PM. Oklahoma State and Oklahoma are both in the field.",
-        "tags": [
-          "In Tulsa",
-          "Dec 12-13"
-        ],
-        "time": "",
-        "title": "National Duals Invitational",
-        "venue": "BOK Center"
-      },
-      {
-        "address": "Tempe, AZ",
-        "date": "2026-11-20",
-        "link": "https://okstate.com/news/2026/11/14/cowboy-wrestling-blasts-by-no-3-nebraska",
-        "linkLabel": "Oklahoma State recap",
-        "note": "No. 2 Oklahoma State at No. 14 Arizona State. First road dual of the season.",
-        "tags": [
-          "College dual"
-        ],
-        "time": "7:00 PM CT",
-        "title": "Oklahoma State at Arizona State",
-        "venue": "Desert Financial Arena"
-      }
-    ]
-  },
-  "football": {
-    "intro": "OSSAA playoffs are underway. Broken Bow is still alive at home, and McAlester's season is in the books.",
-    "note": "McAlester finished 4-6 overall and 3-4 in district play. Scores above are from MaxPreps team schedules, updated Nov 10.",
-    "path": "Playoff path: second round Nov 20, state championships Dec 3-12, with the Class 4A final on Dec 5.",
-    "scores": [
-      {
-        "date": "2026-11-13",
-        "note": "Nov 13 · Class 4A first round · Broken Bow Memorial Stadium",
-        "title": "Broken Bow 45, Wagoner 14"
-      },
-      {
-        "date": "2026-11-06",
-        "note": "Week 10 · Broken Bow finishes 9-1",
-        "title": "Broken Bow 37, Mannford 7"
-      },
-      {
-        "date": "2026-11-06",
-        "note": "Nov 6 · at Del City",
-        "title": "Del City 45, McAlester 16"
-      },
-      {
-        "date": "2026-10-30",
-        "note": "Oct 30 · in McAlester",
-        "title": "Bishop Kelley 45, McAlester 28"
-      },
-      {
-        "date": "2026-10-23",
-        "note": "Oct 23 · at East Central",
-        "title": "McAlester 54, East Central 14"
-      },
-      {
-        "date": "2026-10-15",
-        "note": "Oct 15 · in McAlester",
-        "title": "McAlester 50, Will Rogers 0"
-      },
-      {
-        "date": "2026-11-06",
-        "note": "Week 10 · Wagoner reaches the playoffs at 5-5",
-        "title": "Wagoner 23, Cushing 14"
-      }
+    "time": "",
+    "title": "National Duals Invitational",
+    "venue": "BOK Center"
+   },
+   {
+    "address": "Tempe, AZ",
+    "date": "2026-11-20",
+    "link": "https://okstate.com/news/2026/11/14/cowboy-wrestling-blasts-by-no-3-nebraska",
+    "linkLabel": "Oklahoma State recap",
+    "note": "No. 2 Oklahoma State at No. 14 Arizona State. First road dual of the season.",
+    "tags": [
+     "College dual"
     ],
-    "title": "Football: Playoffs & Scores",
-    "upcoming": [
-      {
-        "address": "Weatherford, OK",
-        "date": "2026-11-20",
-        "link": "https://www.maxpreps.com/ok/broken-bow/broken-bow-savages/football/schedule/",
-        "linkLabel": "Broken Bow schedule on MaxPreps",
-        "note": "Class 4A quarterfinal.",
-        "tags": [
-          "Playoff game",
-          "Class 4A"
-        ],
-        "time": "7:00 PM",
-        "title": "Broken Bow (10-1) at Weatherford (11-0)",
-        "venue": "Weatherford"
-      }
-    ]
-  },
-  "spring": {
-    "intro": "Off-season right now. This panel is ready for spring 2027 schedules, scores, and tournaments.",
-    "note": "Baseball, fastpitch and slowpitch softball, soccer, track, and golf return in the spring. When a local school or travel team posts a spring schedule or a tournament in Southeast Oklahoma, it will be listed here the same way wrestling is listed, with dates, location, and a link to register or follow along. Coaches and parents: send a spring schedule or tournament flyer to the page now and it will be queued for this panel instead of getting buried in a feed.",
-    "title": "Baseball, Softball & Spring Sports"
-  }
+    "time": "7:00 PM CT",
+    "title": "Oklahoma State at Arizona State",
+    "venue": "Desert Financial Arena"
+   }
+  ]
+ },
+ "football": {
+  "intro": "OSSAA playoffs are underway. Broken Bow is still alive at home, and McAlester's season is in the books.",
+  "note": "McAlester finished 4-6 overall and 3-4 in district play. Scores above are from MaxPreps team schedules, updated Nov 10.",
+  "path": "Playoff path: second round Nov 20, state championships Dec 3-12, with the Class 4A final on Dec 5.",
+  "scores": [
+   {
+    "date": "2026-11-13",
+    "note": "Nov 13 \u00b7 Class 4A first round \u00b7 Broken Bow Memorial Stadium",
+    "title": "Broken Bow 45, Wagoner 14"
+   },
+   {
+    "date": "2026-11-06",
+    "note": "Week 10 \u00b7 Broken Bow finishes 9-1",
+    "title": "Broken Bow 37, Mannford 7"
+   },
+   {
+    "date": "2026-11-06",
+    "note": "Nov 6 \u00b7 at Del City",
+    "title": "Del City 45, McAlester 16"
+   },
+   {
+    "date": "2026-10-30",
+    "note": "Oct 30 \u00b7 in McAlester",
+    "title": "Bishop Kelley 45, McAlester 28"
+   },
+   {
+    "date": "2026-10-23",
+    "note": "Oct 23 \u00b7 at East Central",
+    "title": "McAlester 54, East Central 14"
+   },
+   {
+    "date": "2026-10-15",
+    "note": "Oct 15 \u00b7 in McAlester",
+    "title": "McAlester 50, Will Rogers 0"
+   },
+   {
+    "date": "2026-11-06",
+    "note": "Week 10 \u00b7 Wagoner reaches the playoffs at 5-5",
+    "title": "Wagoner 23, Cushing 14"
+   }
+  ],
+  "title": "Football: Playoffs & Scores",
+  "upcoming": [
+   {
+    "address": "Weatherford, OK",
+    "date": "2026-11-20",
+    "link": "https://www.maxpreps.com/ok/broken-bow/broken-bow-savages/football/schedule/",
+    "linkLabel": "Broken Bow schedule on MaxPreps",
+    "note": "Class 4A quarterfinal.",
+    "tags": [
+     "Playoff game",
+     "Class 4A"
+    ],
+    "time": "7:00 PM",
+    "title": "Broken Bow (10-1) at Weatherford (11-0)",
+    "venue": "Weatherford"
+   }
+  ]
+ },
+ "spring": {
+  "intro": "Off-season right now. This panel is ready for spring 2027 schedules, scores, and tournaments.",
+  "note": "Baseball, fastpitch and slowpitch softball, soccer, track, and golf return in the spring. When a local school or travel team posts a spring schedule or a tournament in Southeast Oklahoma, it will be listed here the same way wrestling is listed, with dates, location, and a link to register or follow along. Coaches and parents: send a spring schedule or tournament flyer to the page now and it will be queued for this panel instead of getting buried in a feed.",
+  "title": "Baseball, Softball & Spring Sports"
+ }
 }
