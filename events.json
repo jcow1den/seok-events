@@ -3396,17 +3396,6 @@
   "xmas": "lights"
  },
  {
-  "id": "e549",
-  "date": "2026-11-28",
-  "title": "Chase Matthew, Holdin' It Down Tour 2026 with Tayler Holder",
-  "category": "music",
-  "area": "durant",
-  "time": "8:00 PM",
-  "address": "4418 US-69, Durant, OK 74701",
-  "description": "Country concert at the Choctaw Grand Theater.",
-  "venue": "Choctaw Grand Theater"
- },
- {
   "id": "e130",
   "date": "2026-11-28",
   "title": "Chase Matthew: Holdin' It Down Tour",
@@ -3822,17 +3811,6 @@
    "Hudson Westbrook"
   ],
   "indoor": true
- },
- {
-  "id": "e553",
-  "date": "2026-12-04",
-  "title": "Hudson Westbrook with Kenny Whitmire and Ethan Burdick",
-  "category": "music",
-  "area": "durant",
-  "time": "8:00 PM",
-  "address": "4418 US-69, Durant, OK 74701",
-  "description": "Country concert at the Choctaw Grand Theater.",
-  "venue": "Choctaw Grand Theater"
  },
  {
   "id": "e167",
@@ -5246,5 +5224,91 @@
   "indoor": true,
   "xmas": "more",
   "source": "https://www.ticketmaster.com/choctaw-grand-theater-boletos-durant/venue/99275"
+ },
+ {
+  "id": "e570",
+  "date": "2026-11-21",
+  "title": "Choctaw Christmas Arts & Crafts Fair",
+  "category": "markets",
+  "area": "mcalester",
+  "time": "8:30 AM-5:00 PM",
+  "venue": "McAlester Choctaw Community Center",
+  "address": "3274 Afullota Hina, McAlester, OK 74501",
+  "description": "A full day of holiday shopping hosted by the District 11 Choctaw Seniors.",
+  "xmas": "market",
+  "source": "https://themcalesterminute.beehiiv.com/p/mcalester-s-week-nov-16-22"
+ },
+ {
+  "id": "e571",
+  "date": "2026-11-20",
+  "title": "Milwaukee Demo Event at Atwoods",
+  "category": "community",
+  "area": "mcalester",
+  "time": "9:00 AM-3:00 PM",
+  "venue": "Atwoods",
+  "address": "1510 S George Nigh Expy, McAlester, OK 74501",
+  "description": "A Milwaukee representative is on site with hot deals on tool kits and expert advice to help you pick the right tool.",
+  "source": "https://www.facebook.com/events/1767598867873636/"
+ },
+ {
+  "id": "e572",
+  "date": "2026-11-21",
+  "title": "Lightning C Arena Saddle Series & NBHA OK06 Finale",
+  "category": "sports",
+  "area": "mcalester",
+  "time": "11:00 AM",
+  "venue": "Lightning C Arena",
+  "address": "210 Lightning C Arena Rd, McAlester, OK 74501",
+  "description": "Exhibitions 11 AM-2 PM, pee-wees and youth at 2 PM, then Open, Senior, Derby, Futurity and HighStakes at 3 PM. Open to all.",
+  "source": "https://www.facebook.com/events/1813185883432732/"
+ },
+ {
+  "id": "e573",
+  "date": "2026-11-27",
+  "title": "Christmas Tree Lighting",
+  "category": "community",
+  "area": "mcalester",
+  "time": "6:30 PM",
+  "venue": "Sam Wampler's Freedom Ford",
+  "address": "720 S George Nigh Expy, McAlester, OK 74501",
+  "description": "Community Christmas tree lighting at Freedom Ford.",
+  "xmas": "tree",
+  "source": "https://themcalesterminute.beehiiv.com/p/mcalester-s-week-nov-16-22"
+ },
+ {
+  "id": "e574",
+  "date": "2026-11-22",
+  "title": "PAWS: Barksgiving",
+  "category": "community",
+  "area": "mcalester",
+  "time": "2:00-5:00 PM",
+  "venue": "All Saints Episcopal Church",
+  "address": "325 E Washington Ave, McAlester, OK 74501",
+  "description": "Takeout meals for pets, $10 each. Preorder at 918-470-7297 and pick up between 2 and 5 PM.",
+  "source": "https://themcalesterminute.beehiiv.com/p/mcalester-s-week-nov-16-22"
+ },
+ {
+  "id": "e575",
+  "date": "2026-12-31",
+  "title": "Aaron Owens New Year's Eve",
+  "category": "music",
+  "area": "idabel-broken-bow",
+  "time": "9:00 PM",
+  "venue": "Hochatown Saloon",
+  "address": "28 Old Hochatown Rd, Broken Bow, OK 74728",
+  "description": "New Year's Eve with Aaron Owens at Hochatown Saloon.",
+  "source": "https://www.bandsintown.com/v/10031821-hochatown-saloon"
+ },
+ {
+  "id": "e576",
+  "date": "2026-11-22",
+  "title": "Jokers and Jester Comedy Tour",
+  "category": "shows",
+  "area": "mcalester",
+  "time": "8:00 PM",
+  "venue": "Midnight Riders",
+  "address": "2805 N Main St, McAlester, OK 74501",
+  "description": "A night of stand-up from the Jokers and Jester tour, featuring The Lone Jester and The Educated Redneck.",
+  "source": "https://themcalesterminute.beehiiv.com/p/mcalester-s-week-nov-16-22"
  }
 ]
