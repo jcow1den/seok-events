@@ -5334,5 +5334,68 @@
   "address": "2206 N Main St, McAlester, OK 74501",
   "description": "Tour the space, ask questions, and learn how adult day care can support your family. Light refreshments and door prizes throughout the day.",
   "source": "https://www.facebook.com/events/41313786924886338/"
+ },
+ {
+  "id": "e579",
+  "date": "2026-11-21",
+  "title": "Haywood Arpelar VFD/Blue VFD Community Thanksgiving Luncheon",
+  "category": "community",
+  "area": "mcalester",
+  "time": "11:00 AM-3:00 PM",
+  "venue": "Haywood School Cafeteria",
+  "address": "11551 W State Highway 31, McAlester, OK 74501",
+  "description": "Haywood Arpelar VFD and Blue VFD host a community Thanksgiving luncheon at the Haywood School cafeteria. Everyone in the Haywood, Arpelar, and Blue communities is welcome.",
+  "source": "https://www.facebook.com/events/2530848374107642/"
+ },
+ {
+  "id": "e580",
+  "date": "2026-12-19",
+  "title": "Wreaths Across America Wreath Laying Ceremony",
+  "category": "community",
+  "area": "mcalester",
+  "time": "11:00 AM",
+  "venue": "Unknown Soldier Pavilion, Oak Hill Cemetery",
+  "address": "1708 E Carl Albert Pkwy, McAlester, OK 74501",
+  "description": "Annual Wreaths Across America ceremony honoring veterans with the ceremonial placement of remembrance wreaths, hosted by the Daughters of the American Revolution and the Sons of the American Revolution.",
+  "source": "https://www.facebook.com/events/1097865793281958/",
+  "xmas": "more"
+ },
+ {
+  "id": "e581",
+  "date": "2026-12-06",
+  "title": "Annual Polar Express Brunch",
+  "category": "community",
+  "area": "eufaula",
+  "time": "10:00 AM-2:00 PM",
+  "venue": "Tulip & Table",
+  "address": "306 S Main St, Eufaula, OK 74432",
+  "description": "All aboard for the annual Polar Express Brunch with gourmet hot chocolate in adult and kid versions. Wear your PJs.",
+  "source": "https://www.facebook.com/events/1094960786235471/",
+  "xmas": "more"
+ },
+ {
+  "id": "e582",
+  "date": "2026-12-05",
+  "title": "The Holiday Hustle 5K",
+  "category": "sports",
+  "area": "atoka",
+  "time": "8:00 AM-12:00 PM",
+  "venue": "Coal County Fair Barn",
+  "address": "101 SW Fair Barn Rd, Coalgate, OK 74538",
+  "description": "Holiday vendor market 8 AM-12 PM, Jingle Jog 1-mile at 9 AM, and Holiday Hustle 5K at 10 AM. Race check-in begins at 8 AM. Entry $20 for 18 and up, $10 for ages 5-17, free for 4 and under.",
+  "source": "https://www.facebook.com/events/1747688139634627/",
+  "xmas": "more"
+ },
+ {
+  "id": "e583",
+  "date": "2026-12-01",
+  "title": "\"Let the Wookiee Win\" Chess Night",
+  "category": "community",
+  "area": "mcalester",
+  "time": "6:00 PM",
+  "venue": "Spaceship Earth Coffee",
+  "address": "345 E Choctaw Ave, McAlester, OK 74501",
+  "description": "Monthly chess night aboard Spaceship Earth. Each player tracks wins and losses through the night.",
+  "source": "https://www.facebook.com/events/2048702209083271/"
  }
 ]
