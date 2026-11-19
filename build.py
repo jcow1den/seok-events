@@ -289,7 +289,7 @@ footer{{color:var(--muted);font-size:14px;padding:24px 0}}
 <nav class="toc" aria-label="Guide sections">{"".join(toc)}</nav>
 {"".join(secs)}
 </main>
-<footer class="wrap">Updated {today}. Know of a parade or light display we missed? Message the Southeast Oklahoma Area Events page on Facebook. <a href="../">See every event this week</a>.</footer>
+<footer class="wrap">Updated {today}. Know of a parade or light display we missed? Message the Southeast Oklahoma Area Events page on Facebook. <a href="../">See all Southeast Oklahoma events this week</a> · <a href="../mcalester/">McAlester events</a> · <a href="../wrestling/">Wrestling tournaments</a> · <a href="../sports/">Sports in Southeast Oklahoma</a>.</footer>
 </body>
 </html>
 """
@@ -464,7 +464,7 @@ footer{{color:var(--muted);font-size:14px;padding:24px 0}}
 <p>Sign up sites like USA Bracketing, FloArena and Trackwrestling ask you to make a free account the first time. Weights, brackets and times can change after sign ups close, so check the event page the night before.</p>
 </section>
 </main>
-<footer class="wrap">Updated {today}. Know of a tournament we missed? Message the Southeast Oklahoma Area Events page on Facebook. <a href="../">See every event this week</a>.</footer>
+<footer class="wrap">Updated {today}. Know of a tournament we missed? Message the Southeast Oklahoma Area Events page on Facebook. <a href="../">See all Southeast Oklahoma events this week</a> · <a href="../mcalester/">McAlester events</a> · <a href="../sports/">Sports in Southeast Oklahoma</a> · <a href="../christmas/">Christmas in Southeast Oklahoma</a>.</footer>
 <script>
 (function(){{var s={{rg:"",lv:""}};
 function run(){{var any=false;document.querySelectorAll("main section[id^=m]").forEach(function(sec){{var n=0;sec.querySelectorAll("li").forEach(function(li){{var ok=(!s.rg||li.dataset.rg===s.rg)&&(!s.lv||(" "+li.dataset.lv+" ").indexOf(" "+s.lv+" ")>-1);li.hidden=!ok;if(ok)n++;}});sec.hidden=!n;if(n)any=true;}});document.getElementById("none").hidden=any;}}
@@ -604,12 +604,103 @@ footer{{color:var(--muted);font-size:14px;padding:24px 0}}
 <nav class="toc" aria-label="Sections">{"".join(stoc)}</nav>
 {"".join(ssecs)}
 </main>
-<footer class="wrap">Updated {today}. Scores are from MaxPreps team schedules and the cited sources. Know of a game or score we missed? Message the Southeast Oklahoma Area Events page on Facebook. <a href="../">See every event this week</a>.</footer>
+<footer class="wrap">Updated {today}. Scores are from MaxPreps team schedules and the cited sources. Know of a game or score we missed? Message the Southeast Oklahoma Area Events page on Facebook. <a href="../">See all Southeast Oklahoma events this week</a> · <a href="../mcalester/">McAlester events</a> · <a href="../christmas/">Christmas in Southeast Oklahoma</a>.</footer>
 </body>
 </html>
 """
 Path("sports").mkdir(exist_ok=True)
 open("sports/index.html", "w").write(spage)
+
+# ---------- mcalester/index.html (plain HTML McAlester guide) ----------
+MCATS = [("festivals", "Festivals"), ("music", "Live music"), ("shows", "Shows and comedy"),
+         ("markets", "Markets and shopping"), ("community", "Community"), ("sports", "Sports"),
+         ("wrestling", "Wrestling")]
+
+
+def min_(e):
+    return e.get("area") == "mcalester" and not e.get("unconfirmed") and (e.get("endDate") or e["date"]) >= today
+
+
+def mitem(e):
+    x = _h.escape
+    place = f'{e["venue"]}, {e["address"]}' if e.get("venue") and e["venue"] not in e["address"] else e["address"]
+    bits = [f'<li id="m-{x(e["id"])}"><h4>{x(e["title"])}</h4>',
+            f'<p class="when"><b>{x(xdate(e))}</b>' + (f' · {x(e["time"])}' if e.get("time") else "") + "</p>",
+            f'<p class="where">{x(place)}</p>']
+    if e.get("description"):
+        bits.append(f"<p>{x(e['description'])}</p>")
+    link = _h.escape(e["source"]) if e.get("source") else "../#" + e["id"]
+    bits.append(f'<p class="src"><a href="{link}">More on the event site</a>' +
+                (" · Free" if e.get("free") else "") + "</p></li>")
+    return "".join(bits)
+
+
+ml = sorted([e for e in events if min_(e)], key=lambda e: (e["date"], e["title"]))
+msecs, mtoc, mcount = [], [], 0
+for k, label in MCATS:
+    items = [e for e in ml if e["category"] == k]
+    if not items:
+        continue
+    mcount += len(items)
+    mtoc.append(f'<a href="#{k}">{label} ({len(items)})</a>')
+    lis = "".join(mitem(e) for e in items)
+    msecs.append(f'<section id="{k}"><h2>{label}</h2><ul>{lis}</ul></section>')
+mtitle = "McAlester Events: Things to Do in McAlester, Oklahoma This Week"
+mdesc = (f"{mcount} McAlester events coming up: festivals, live music, markets, community happenings and sports "
+         "in McAlester, Oklahoma, with dates, times and addresses.")
+mpage = f"""<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{mtitle}</title>
+<meta name="description" content="{_h.escape(mdesc)}">
+<link rel="canonical" href="{SITE}mcalester/">
+<meta name="theme-color" content="#1d4a37">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Southeast Oklahoma Events">
+<meta property="og:title" content="{mtitle}">
+<meta property="og:description" content="{_h.escape(mdesc)}">
+<meta property="og:url" content="{SITE}mcalester/">
+<meta property="og:image" content="{SITE}icons/share.png">
+<link rel="icon" href="../icons/icon-192.png">
+<style>
+:root{{--bg:#edf0ec;--surface:#fff;--ink:#17201b;--muted:#56625a;--line:#d5ddd6;--pine:#1d4a37;--clay:#b4461d}}
+@media (prefers-color-scheme: dark){{:root{{--bg:#0f1412;--surface:#181e1b;--ink:#e6ece7;--muted:#97a39b;--line:#2a332e;--pine:#69b58f;--clay:#ee8c60;color-scheme:dark}}}}
+*{{box-sizing:border-box}}
+body{{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}}
+.wrap{{max-width:760px;margin:0 auto;padding:16px}}
+header{{background:var(--pine);color:#fff}}
+header a{{color:#fff}}
+h1{{font:800 clamp(30px,8vw,48px)/1 "Arial Narrow",Arial,sans-serif;text-transform:uppercase;margin:8px 0}}
+h2{{font:800 24px/1.1 "Arial Narrow",Arial,sans-serif;text-transform:uppercase;margin:28px 0 8px;border-bottom:3px solid var(--clay);padding-bottom:4px}}
+h4{{margin:0 0 4px;font-size:17px;line-height:1.25}}
+nav.toc{{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}}
+nav.toc a{{background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:7px 12px;color:var(--ink);text-decoration:none;font-weight:600;font-size:14px}}
+ul{{list-style:none;margin:0;padding:0}}
+li{{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin:0 0 10px}}
+li p{{margin:2px 0}}
+.when{{color:var(--clay)}} .where,.src{{color:var(--muted);font-size:14px}}
+a{{color:var(--pine)}}
+footer{{color:var(--muted);font-size:14px;padding:24px 0}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+<p><a href="../">‹ All southeast Oklahoma events</a></p>
+<h1>McAlester Events</h1>
+<p>McAlester events this week and coming up: festivals, live music, markets, and hometown happenings in McAlester, Oklahoma, with dates, times, and addresses. Every listing links to the event's own page when one is posted, so check there for weather changes.</p>
+</div></header>
+<main class="wrap">
+<nav class="toc" aria-label="Guide sections">{"".join(mtoc)}</nav>
+{"".join(msecs)}
+</main>
+<footer class="wrap">Updated {today}. Know of a McAlester event we missed? Message the Southeast Oklahoma Area Events page on Facebook. <a href="../">See all Southeast Oklahoma events this week</a> · <a href="../christmas/">Christmas in Southeast Oklahoma</a> · <a href="../wrestling/">Wrestling tournaments</a> · <a href="../sports/">Sports in Southeast Oklahoma</a>.</footer>
+</body>
+</html>
+"""
+Path("mcalester").mkdir(exist_ok=True)
+open("mcalester/index.html", "w").write(mpage)
 
 # ---------- sitemap.xml ----------
 open("sitemap.xml", "w").write(
@@ -617,11 +708,13 @@ open("sitemap.xml", "w").write(
     f"  <url><loc>{SITE}</loc><lastmod>{today}</lastmod><changefreq>daily</changefreq></url>\n"
     f"  <url><loc>{SITE}christmas/</loc><lastmod>{today}</lastmod><changefreq>weekly</changefreq></url>\n"
     f"  <url><loc>{SITE}wrestling/</loc><lastmod>{today}</lastmod><changefreq>daily</changefreq></url>\n"
-    f"  <url><loc>{SITE}sports/</loc><lastmod>{today}</lastmod><changefreq>daily</changefreq></url>\n</urlset>\n")
+    f"  <url><loc>{SITE}sports/</loc><lastmod>{today}</lastmod><changefreq>daily</changefreq></url>\n"
+    f"  <url><loc>{SITE}mcalester/</loc><lastmod>{today}</lastmod><changefreq>daily</changefreq></url>\n</urlset>\n")
 
 # Plain-text sitemap: one URL per line (the simplest format Google accepts)
-open("sitemap.txt", "w").write(SITE + "\n" + SITE + "christmas/\n" + SITE + "wrestling/\n" + SITE + "sports/\n")
+open("sitemap.txt", "w").write(SITE + "\n" + SITE + "christmas/\n" + SITE + "wrestling/\n" + SITE + "sports/\n" + SITE + "mcalester/\n")
 
 print(f"Built: {len(live)} upcoming events ({len(events) - len(live)} past dropped), "
       f"{len(ld)} sent to Google, calendar feed and sitemap updated. Christmas guide: {xcount} local + {len(xd)} out of town. "
-      f"Wrestling guide: {wcount} tournaments ({wn['seok']} in southeast OK). Sports guide: {scount} upcoming games.")
+      f"Wrestling guide: {wcount} tournaments ({wn['seok']} in southeast OK). Sports guide: {scount} upcoming games. "
+      f"McAlester guide: {mcount} events.")
