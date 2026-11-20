@@ -5397,5 +5397,54 @@
   "address": "345 E Choctaw Ave, McAlester, OK 74501",
   "description": "Monthly chess night aboard Spaceship Earth. Each player tracks wins and losses through the night.",
   "source": "https://www.facebook.com/events/2048702209083271/"
+ },
+ {
+  "id": "e584",
+  "date": "2026-11-21",
+  "title": "Silent Auction Bake Sale",
+  "category": "community",
+  "area": "idabel-broken-bow",
+  "time": "10:00 AM",
+  "venue": "Gates of Glory Fellowship",
+  "address": "184 Hamilton Road, Idabel, OK 74745",
+  "description": "Online silent auction of homemade pies, cakes, cookies and breads for Thanksgiving. Bidding opens at 10 AM on the church Facebook page, winners pick up at the church, and proceeds support the church and its ministries.",
+  "source": "https://www.facebook.com/events/2303393383774522/"
+ },
+ {
+  "id": "e585",
+  "date": "2026-11-24",
+  "title": "100 Turkeys. 100 Families.",
+  "category": "community",
+  "area": "idabel-broken-bow",
+  "time": "6:00 PM",
+  "venue": "Synergy Dispensary",
+  "address": "113 W 1st St, Broken Bow, OK 74728",
+  "description": "Free turkeys for 100 local families, open to the public with no purchase or medical card required. One turkey per household, first come first served while supplies last, bring ID.",
+  "source": "https://www.facebook.com/events/2426316218175182/"
+ },
+ {
+  "id": "e586",
+  "date": "2026-12-03",
+  "title": "WonderLight Lantern Festival",
+  "category": "festivals",
+  "area": "mcalester",
+  "time": "5:30-8:30 PM",
+  "venue": "Southeast Expo Center",
+  "address": "4500 W US-270, McAlester, OK 74501",
+  "description": "Walk through more than 100 luminous lantern displays with glowing stilt walkers, aerialists and light-up dance performances. Tickets online only at wonderlightusa.com, one per person, same-day re-entry included.",
+  "source": "https://www.facebook.com/events/1855601175789028/"
+ },
+ {
+  "id": "e587",
+  "date": "2026-12-05",
+  "title": "Christmas on Main",
+  "category": "community",
+  "area": "ada-holdenville",
+  "time": "10:00 AM-4:00 PM",
+  "venue": "Downtown Ada (The Venue on Main)",
+  "address": "116 W Main St, Ada, OK 74820",
+  "description": "Ada Main Street hosts a full day downtown with a Ferris wheel, carriage rides, hayride, barrel train, inflatables and food trucks. Santa and face painting at The Venue on Main, Christmas movies at the McSwain Theatre 4-7 PM, then the Pat Taylor Memorial Parade of Lights at 7 PM.",
+  "source": "https://www.facebook.com/events/993366997192145/",
+  "xmas": "more"
  }
 ]
