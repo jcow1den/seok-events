@@ -58,6 +58,11 @@
   "note": "",
   "scores": [
    {
+    "date": "2026-11-20",
+    "note": "Nov 20 \u00b7 Desert Financial Arena, Tempe",
+    "title": "Oklahoma State 28, Arizona State 10"
+   },
+   {
     "date": "2026-11-15",
     "note": "Nov 15 \u00b7 Lloyd Noble Center, Norman",
     "title": "Penn State 41, Oklahoma 0"
@@ -88,27 +93,19 @@
     "time": "",
     "title": "National Duals Invitational",
     "venue": "BOK Center"
-   },
-   {
-    "address": "Tempe, AZ",
-    "date": "2026-11-20",
-    "link": "https://okstate.com/news/2026/11/14/cowboy-wrestling-blasts-by-no-3-nebraska",
-    "linkLabel": "Oklahoma State recap",
-    "note": "No. 2 Oklahoma State at No. 14 Arizona State. First road dual of the season.",
-    "tags": [
-     "College dual"
-    ],
-    "time": "7:00 PM CT",
-    "title": "Oklahoma State at Arizona State",
-    "venue": "Desert Financial Arena"
    }
   ]
  },
  "football": {
-  "intro": "OSSAA playoffs are underway. Broken Bow is still alive at home, and McAlester's season is in the books.",
-  "note": "McAlester finished 4-6 overall and 3-4 in district play. Scores above are from MaxPreps team schedules, updated Nov 10.",
-  "path": "Playoff path: second round Nov 20, state championships Dec 3-12, with the Class 4A final on Dec 5.",
+  "intro": "Broken Bow is in the Class 4A semifinals after a 51-49 quarterfinal win at Weatherford. McAlester season is in the books.",
+  "note": "McAlester finished 4-6 overall and 3-4 in district play. Scores are from The Oklahoman and MaxPreps, updated Nov 21.",
+  "path": "Playoff path: semifinals Nov 27, Class 4A championship Dec 5 at noon at Chad Richison Stadium, University of Central Oklahoma.",
   "scores": [
+   {
+    "date": "2026-11-20",
+    "note": "Nov 20 \u00b7 Class 4A quarterfinal \u00b7 at Weatherford",
+    "title": "Broken Bow 51, Weatherford 49"
+   },
    {
     "date": "2026-11-13",
     "note": "Nov 13 \u00b7 Class 4A first round \u00b7 Broken Bow Memorial Stadium",
@@ -148,18 +145,19 @@
   "title": "Football: Playoffs & Scores",
   "upcoming": [
    {
-    "address": "Weatherford, OK",
-    "date": "2026-11-20",
+    "address": "",
+    "date": "2026-11-27",
     "link": "https://www.maxpreps.com/ok/broken-bow/broken-bow-savages/football/schedule/",
     "linkLabel": "Broken Bow schedule on MaxPreps",
-    "note": "Class 4A quarterfinal.",
+    "note": "Class 4A semifinal. Neutral site and kickoff time to be announced by OSSAA.",
     "tags": [
      "Playoff game",
-     "Class 4A"
+     "Class 4A",
+     "Semifinal"
     ],
-    "time": "7:00 PM",
-    "title": "Broken Bow (10-1) at Weatherford (11-0)",
-    "venue": "Weatherford"
+    "time": "",
+    "title": "Broken Bow (11-1) vs Fort Gibson (11-1)",
+    "venue": "Neutral site TBD"
    }
   ]
  },
