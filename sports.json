@@ -59,22 +59,22 @@
   "scores": [
    {
     "date": "2026-11-20",
-    "note": "Nov 20 \u00b7 Desert Financial Arena, Tempe",
+    "note": "Nov 20 · Desert Financial Arena, Tempe",
     "title": "Oklahoma State 28, Arizona State 10"
    },
    {
     "date": "2026-11-15",
-    "note": "Nov 15 \u00b7 Lloyd Noble Center, Norman",
+    "note": "Nov 15 · Lloyd Noble Center, Norman",
     "title": "Penn State 41, Oklahoma 0"
    },
    {
     "date": "2026-11-13",
-    "note": "Nov 13 \u00b7 Gallagher-Iba Arena, sellout 12,527",
+    "note": "Nov 13 · Gallagher-Iba Arena, sellout 12,527",
     "title": "Oklahoma State 27, Nebraska 6"
    },
    {
     "date": "2026-11-08",
-    "note": "Nov 8 \u00b7 Gallagher-Iba Arena, home opener",
+    "note": "Nov 8 · Gallagher-Iba Arena, home opener",
     "title": "Oklahoma State 45, Drexel 0"
    }
   ],
@@ -97,67 +97,67 @@
   ]
  },
  "football": {
-  "intro": "Broken Bow is in the Class 4A semifinals after a 51-49 quarterfinal win at Weatherford. McAlester season is in the books.",
-  "note": "McAlester finished 4-6 overall and 3-4 in district play. Scores are from The Oklahoman and MaxPreps, updated Nov 21.",
+  "intro": "Broken Bow is in the Class 4A semifinals after a 51-49 quarterfinal win at Weatherford. The semifinal against Fort Gibson is Friday, Nov 27 at 7 PM at East Central University in Ada. McAlester season is in the books.",
+  "note": "McAlester finished 4-6 overall and 3-4 in district play. Scores are from The Oklahoman and MaxPreps, updated Nov 22.",
   "path": "Playoff path: semifinals Nov 27, Class 4A championship Dec 5 at noon at Chad Richison Stadium, University of Central Oklahoma.",
   "scores": [
    {
     "date": "2026-11-20",
-    "note": "Nov 20 \u00b7 Class 4A quarterfinal \u00b7 at Weatherford",
+    "note": "Nov 20 · Class 4A quarterfinal · at Weatherford",
     "title": "Broken Bow 51, Weatherford 49"
    },
    {
     "date": "2026-11-13",
-    "note": "Nov 13 \u00b7 Class 4A first round \u00b7 Broken Bow Memorial Stadium",
+    "note": "Nov 13 · Class 4A first round · Broken Bow Memorial Stadium",
     "title": "Broken Bow 45, Wagoner 14"
    },
    {
     "date": "2026-11-06",
-    "note": "Week 10 \u00b7 Broken Bow finishes 9-1",
+    "note": "Week 10 · Broken Bow finishes 9-1",
     "title": "Broken Bow 37, Mannford 7"
    },
    {
     "date": "2026-11-06",
-    "note": "Nov 6 \u00b7 at Del City",
+    "note": "Nov 6 · at Del City",
     "title": "Del City 45, McAlester 16"
    },
    {
     "date": "2026-10-30",
-    "note": "Oct 30 \u00b7 in McAlester",
+    "note": "Oct 30 · in McAlester",
     "title": "Bishop Kelley 45, McAlester 28"
    },
    {
     "date": "2026-10-23",
-    "note": "Oct 23 \u00b7 at East Central",
+    "note": "Oct 23 · at East Central",
     "title": "McAlester 54, East Central 14"
    },
    {
     "date": "2026-10-15",
-    "note": "Oct 15 \u00b7 in McAlester",
+    "note": "Oct 15 · in McAlester",
     "title": "McAlester 50, Will Rogers 0"
    },
    {
     "date": "2026-11-06",
-    "note": "Week 10 \u00b7 Wagoner reaches the playoffs at 5-5",
+    "note": "Week 10 · Wagoner reaches the playoffs at 5-5",
     "title": "Wagoner 23, Cushing 14"
    }
   ],
   "title": "Football: Playoffs & Scores",
   "upcoming": [
    {
-    "address": "",
+    "address": "1100 E 14th St, Ada, OK 74820",
     "date": "2026-11-27",
     "link": "https://www.maxpreps.com/ok/broken-bow/broken-bow-savages/football/schedule/",
     "linkLabel": "Broken Bow schedule on MaxPreps",
-    "note": "Class 4A semifinal. Neutral site and kickoff time to be announced by OSSAA.",
+    "note": "Class 4A semifinal at East Central University in Ada.",
     "tags": [
      "Playoff game",
      "Class 4A",
      "Semifinal"
     ],
-    "time": "",
+    "time": "7:00 PM",
     "title": "Broken Bow (11-1) vs Fort Gibson (11-1)",
-    "venue": "Neutral site TBD"
+    "venue": "Koi Ishto Stadium, East Central University"
    }
   ]
  },
