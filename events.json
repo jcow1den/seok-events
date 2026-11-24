@@ -3478,7 +3478,7 @@
   "title": "Great McAlester Snowball Fight and McWinter Wonderland Opening",
   "category": "festivals",
   "area": "mcalester",
-  "time": "10:00 – 11:00 AM",
+  "time": "1:00 PM",
   "venue": "Choctaw Ave between Main St and 2nd St",
   "address": "E Choctaw Ave, McAlester, OK 74501",
   "description": "The first Great McAlester Snowball Fight opens the Santa's Workshop zone on Choctaw Avenue. McWinter Wonderland's two Christmas zones, Santa's Workshop on Choctaw and A Vintage Christmas in Olde Town, run Saturdays through Dec 19.",
@@ -6025,5 +6025,64 @@
   "performer": "Brent Giddens",
   "xmas": "more",
   "source": "https://www.facebook.com/events/980413917856667/"
+ },
+ {
+  "id": "e629",
+  "date": "2026-12-17",
+  "endDate": "2026-12-17",
+  "title": "Home for the Paw-lidays Adoption Event",
+  "category": "community",
+  "area": "idabel-broken-bow",
+  "time": "10:00 AM-2:00 PM",
+  "venue": "New Broken Bow Animal Shelter",
+  "address": "1051 East Martin Luther King Dr, Broken Bow, OK 74728",
+  "description": "Adoption event at the new shelter. Adoption fee covered all December by Jennifer Broades State Farm with shelter approval required. Adopters receive a leash, treats, Christmas stocking, and first family photo while supplies last. Tours, cookies, and cocoa for visitors.",
+  "source": "https://www.facebook.com/events/1168253158888283/"
+ },
+ {
+  "id": "e630",
+  "date": "2026-12-17",
+  "endDate": "2026-12-17",
+  "title": "Christmas Celebrations for Children with Disabilities",
+  "category": "community",
+  "area": "mcalester",
+  "time": "6:00 PM",
+  "venue": "Dream City Church",
+  "address": "124 V Hubert Smith Dr, McAlester, OK 74501",
+  "description": "Christmas celebration for children with disabilities hosted by Oklahomans for Independent Living: Santa, cookies, cocoa, and gifts. Registration is required to receive a gift; register by Dec 15 at 5 PM by calling the O.I.L. office at 918-426-6220.",
+  "xmas": "santa",
+  "kids": true,
+  "source": "https://www.facebook.com/events/1433196398544993/"
+ },
+ {
+  "id": "e631",
+  "date": "2026-11-27",
+  "endDate": "2026-11-27",
+  "title": "Black Friday Gravel Adventure",
+  "category": "sports",
+  "area": "mcalester",
+  "time": "8:30 AM",
+  "venue": "Spaceship Earth Coffee",
+  "address": "345 E Choctaw Ave, McAlester, OK 74501",
+  "description": "Unsupported gravel ride up to 45 miles with shorter out-and-back options. Meet at 8:30 AM at Spaceship Earth Coffee to convoy to the start; coffee opens at 8 AM. Bring what you need to eat, drink, and get yourself out of a bind.",
+  "source": "https://www.facebook.com/events/2211520693135455/"
+ },
+ {
+  "id": "e632",
+  "date": "2026-11-28",
+  "endDate": "2026-12-19",
+  "openDays": [
+   6
+  ],
+  "title": "McWinter Wonderland Saturdays",
+  "category": "festivals",
+  "area": "mcalester",
+  "time": "1:00 PM-5:00 PM",
+  "venue": "Downtown Choctaw Ave and Olde Town",
+  "address": "E Choctaw Ave, McAlester, OK 74501",
+  "description": "Opening day for the Santa's Workshop zone downtown, the Vintage Christmas zone in Olde Town, and holiday pop-up markets. Santa is at the Choctaw Ave Bandstand from 1 PM to 3 PM. Every Saturday through Dec 19.",
+  "xmas": "more",
+  "kids": true,
+  "source": "https://www.themcalesterminute.com/p/pass-the-gravy-then-the-snowballs"
  }
 ]
