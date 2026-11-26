@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:e501-20261128@seok-events
-DTSTAMP:20261124T145552Z
+DTSTAMP:20261126T145008Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Handmade Artisan Crafted Market
@@ -25,91 +25,8 @@ URL:https://jcow1den.github.io/seok-events/#e501
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:e457-20261124@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261124
-DTEND;VALUE=DATE:20261125
-SUMMARY:Book Bugs Storytime
-DESCRIPTION:Tuesdays 10:00 – 11:00 AM\nStories and play for young kids e
- very Tuesday morning at the Stigler library.\nhttps://jcow1den.github.io/
- seok-events/#e457
-LOCATION:Stigler Public Library\, 410 NE 6th St\, Stigler\, OK 74462
-URL:https://jcow1den.github.io/seok-events/#e457
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e459-20261124@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261124
-DTEND;VALUE=DATE:20261125
-SUMMARY:Raina's Reading Rainbows Storytime
-DESCRIPTION:Tuesdays 11:00 AM – 12:00 PM\nA fun storytime with a new the
- me each Tuesday at the Coalgate library.\nhttps://jcow1den.github.io/seok
- -events/#e459
-LOCATION:Coal County Public Library\, 115 W Ohio Ave\, Coalgate\, OK 74538
-URL:https://jcow1den.github.io/seok-events/#e459
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e416-20261124@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261124
-DTEND;VALUE=DATE:20261125
-SUMMARY:Read\, Play\, Grow! and Bookworm Adventures
-DESCRIPTION:Tuesdays 10:30 AM (birth to 5) · 3:30 PM (kids)\nTwo Tuesday 
- storytimes at the Wilburton library. Read\, Play\, Grow! in the morning f
- or babies through age 5\, and Bookworm Adventures after school.\nhttps://
- jcow1den.github.io/seok-events/#e416
-LOCATION:Latimer County Public Library\, 301 W Ada Ave\, Wilburton\, OK 74
- 578
-URL:https://jcow1den.github.io/seok-events/#e416
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e453-20261124@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261124
-DTEND;VALUE=DATE:20261125
-SUMMARY:Tiny Tot Storytime
-DESCRIPTION:Tuesdays 10:00 – 11:00 AM\nStories\, songs and a little craf
- t for toddlers and preschoolers every Tuesday at the Poteau library.\nhtt
- ps://jcow1den.github.io/seok-events/#e453
-LOCATION:Patrick Lynch Public Library\, 206 S McKenna St\, Poteau\, OK 749
- 53
-URL:https://jcow1den.github.io/seok-events/#e453
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e415-20261124@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261124
-DTEND;VALUE=DATE:20261125
-SUMMARY:Wiggle Worms Toddler Storytime
-DESCRIPTION:Tue & Thu 10:00 – 10:30 AM\nStories\, songs and wiggles for 
- toddlers every Tuesday and Thursday morning at the McAlester library. No 
- storytime Thanksgiving Day.\nhttps://jcow1den.github.io/seok-events/#e415
-LOCATION:McAlester Public Library\, 401 N 2nd St\, McAlester\, OK 74501
-URL:https://jcow1den.github.io/seok-events/#e415
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e465-20261125@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261125
-DTEND;VALUE=DATE:20261126
-SUMMARY:Lap Sit and Story Time
-DESCRIPTION:Wednesdays 10:00 AM and 11:00 AM\nWeekly stories\, rhymes and 
- songs for babies\, toddlers and preschoolers at the Okmulgee library. It'
- s a good idea to call ahead the week of Thanksgiving.\nhttps://jcow1den.g
- ithub.io/seok-events/#e465
-LOCATION:Okmulgee Public Library\, 218 S Okmulgee Ave\, Okmulgee\, OK 7444
- 7
-URL:https://jcow1den.github.io/seok-events/#e465
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:e271@seok-events
-DTSTAMP:20261124T145552Z
+DTSTAMP:20261126T145008Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261226
 SUMMARY:Lights on the Island
@@ -124,7 +41,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e438@seok-events
-DTSTAMP:20261124T145552Z
+DTSTAMP:20261126T145008Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20270101
 SUMMARY:Trail of Lights at Wintersmith Park
@@ -137,2255 +54,8 @@ URL:https://jcow1den.github.io/seok-events/#e438
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:e462@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261124
-DTEND;VALUE=DATE:20261125
-SUMMARY:Crafty Kids Club: Turkey Puppet Craft (4:00 – 5:00 PM)
-DESCRIPTION:4:00 – 5:00 PM\nKids make a turkey puppet just in time for T
- hanksgiving at the Wilburton library.\nhttps://jcow1den.github.io/seok-ev
- ents/#e462
-LOCATION:Latimer County Public Library\, 301 W Ada Ave\, Wilburton\, OK 74
- 578
-URL:https://jcow1den.github.io/seok-events/#e462
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e151@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261124
-DTEND;VALUE=DATE:20261125
-SUMMARY:Festival of Trees & Lights On (6:30 – 8:00 PM)
-DESCRIPTION:6:30 – 8:00 PM\nMcAlester flips on its Christmas lights at A
- rvest Park with the 4th annual Festival of Trees. Santa and his reindeer 
- will be there.\nhttps://jcow1den.github.io/seok-events/#e151
-LOCATION:Arvest Park\, S 2nd St & E Chickasaw Ave\, McAlester\, OK 74501
-URL:https://jcow1den.github.io/seok-events/#e151
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e435@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261124
-DTEND;VALUE=DATE:20261125
-SUMMARY:Kids Make and Take Sugar Cookie Workshop (10:00 AM)
-DESCRIPTION:10:00 AM\nKids decorate and take home a dozen plus sugar cooki
- es with a beginner kit. Drinks included. Tickets required.\nConfirm detai
- ls with the host before you go.\nhttps://jcow1den.github.io/seok-events/#
- e435
-LOCATION:Prairie Witch Coffee\, 813 E 6th St\, Okmulgee\, OK 74447
-URL:https://jcow1den.github.io/seok-events/#e435
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e547@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261125
-DTEND;VALUE=DATE:20261126
-SUMMARY:Cam Allen Thanksgiving Special (10:00 PM (doors 7 PM))
-DESCRIPTION:10:00 PM (doors 7 PM)\nCam Allen live in concert for the Hocha
- town Saloon Thanksgiving Special.\nhttps://jcow1den.github.io/seok-events
- /#e547
-LOCATION:Hochatown Saloon\, 28 Old Hochatown Rd\, Broken Bow\, OK 74728
-URL:https://jcow1den.github.io/seok-events/#e547
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e546@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261125
-DTEND;VALUE=DATE:20261126
-SUMMARY:Free Thanksgiving Dinner (9:00 AM)
-DESCRIPTION:9:00 AM\nA completely free Thanksgiving dinner. Menu items are
-  also available for purchase.\nhttps://jcow1den.github.io/seok-events/#e5
- 46
-LOCATION:Fat Boys Cafe\, 606 E Wyandotte Ave\, McAlester\, OK 74501
-URL:https://jcow1den.github.io/seok-events/#e546
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e545@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261125
-DTEND;VALUE=DATE:20261126
-SUMMARY:Thanksgiving Eve Party (Doors 4:00 PM\, music about 7:00 PM)
-DESCRIPTION:Doors 4:00 PM\, music about 7:00 PM\nRun away from home on Tha
- nksgiving Eve for craft beer and live rock and blues music by Bebo.\nhttp
- s://jcow1den.github.io/seok-events/#e545
-LOCATION:BierKraft\, 925 E Washington Ave\, McAlester\, OK 74501
-URL:https://jcow1den.github.io/seok-events/#e545
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e275@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261126
-DTEND;VALUE=DATE:20261127
-SUMMARY:Hochatown Turkey Trot (8:00 AM)
-DESCRIPTION:8:00 AM\nThanksgiving morning 5K run/walk with a 1-mile kids f
- un run. Registration details to be announced.\nConfirm details with the h
- ost before you go.\nhttps://jcow1den.github.io/seok-events/#e275
-LOCATION:Hochatown\, Hochatown\, Broken Bow\, OK
-URL:https://jcow1den.github.io/seok-events/#e275
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e548@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261126
-DTEND;VALUE=DATE:20261127
-SUMMARY:Thanksgiving Buffet at Tuklo Grill (10:00 AM-10:00 PM)
-DESCRIPTION:10:00 AM-10:00 PM\nThanksgiving buffet filled with holiday fav
- orites. Reservations: 580-380-9483.\nhttps://jcow1den.github.io/seok-even
- ts/#e548
-LOCATION:Choctaw Landing Casino and Resort\, 272 N State Hwy 259A\, Broken
-  Bow\, OK 74728
-URL:https://jcow1den.github.io/seok-events/#e548
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e152@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261126
-DTEND;VALUE=DATE:20261127
-SUMMARY:Thanksgiving Meal Giveaway (See host for time)
-DESCRIPTION:See host for time\nThe annual Pittsburg County Elected Officia
- ls Thanksgiving meal giveaway.\nhttps://jcow1den.github.io/seok-events/#e
- 152
-LOCATION:Southeast Expo Center\, 4500 W US-270\, McAlester\, OK 74501
-URL:https://jcow1den.github.io/seok-events/#e152
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e500@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261127
-DTEND;VALUE=DATE:20261128
-SUMMARY:Dalton Shackelford at Reba's Place (5:00 PM)
-DESCRIPTION:5:00 PM\nDalton Shackelford plays the night after Thanksgiving
-  at Reba's Place\, a good excuse to get out of the house and let somebody
-  else do the cooking.\nhttps://jcow1den.github.io/seok-events/#e500
-LOCATION:Reba's Place\, 301 E Court St\, Atoka\, OK 74525
-URL:https://jcow1den.github.io/seok-events/#e500
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e387@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261127
-DTEND;VALUE=DATE:20261128
-SUMMARY:Dusty Holster Band at Mountain Fork Brewery (6:30 PM)
-DESCRIPTION:6:30 PM\nLive music from Dusty Holster Band in the Mountain Fo
- rk Brewery taproom.\nConfirm details with the host before you go.\nhttps:
- //jcow1den.github.io/seok-events/#e387
-LOCATION:Mountain Fork Brewery Taproom\, Mountain Fork Brewery Taproom\, H
- ochatown\, OK
-URL:https://jcow1den.github.io/seok-events/#e387
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e355@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261127
-DTEND;VALUE=DATE:20261128
-SUMMARY:Enter Eden Live at Choctaw Landing (2:00 PM – 5:00 PM)
-DESCRIPTION:2:00 PM – 5:00 PM\nEnter Eden plays live on the Cypress Lawn
-  at Choctaw Landing.\nhttps://jcow1den.github.io/seok-events/#e355
-LOCATION:Cypress Lawn\, Choctaw Landing\, 272 N State Highway 259A\, Hocha
- town\, OK 74728
-URL:https://jcow1den.github.io/seok-events/#e355
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e276@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261127
-DTEND;VALUE=DATE:20261128
-SUMMARY:Music on Main: Southeast Remedy (4:00 PM – 6:00 PM)
-DESCRIPTION:4:00 PM – 6:00 PM\nFree Music on Main concert in downtown Br
- oken Bow featuring Southeast Remedy.\nhttps://jcow1den.github.io/seok-eve
- nts/#e276
-LOCATION:Main Street\, Broken Bow\, Main Street\, Broken Bow\, OK 74728
-URL:https://jcow1den.github.io/seok-events/#e276
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e283@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261128
-DTEND;VALUE=DATE:20270101
-SUMMARY:Celebration of Lights
-DESCRIPTION:6:00 – 9:00 PM nightly\nFree drive through light display on 
- the Chickasaw Cultural Center grounds\, with traditional Christmas scenes
-  and Chickasaw cultural pieces. Free candy canes.\nhttps://jcow1den.githu
- b.io/seok-events/#e283
-LOCATION:Chickasaw Cultural Center\, 867 Cooper Memorial Dr\, Sulphur\, OK
-  73086
-URL:https://jcow1den.github.io/seok-events/#e283
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e130@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261128
-DTEND;VALUE=DATE:20261129
-SUMMARY:Chase Matthew: Holdin' It Down Tour (8:00 PM)
-DESCRIPTION:8:00 PM\nCountry artist Chase Matthew with Tayler Holder.\nhtt
- ps://jcow1den.github.io/seok-events/#e130
-LOCATION:Choctaw Grand Theater\, Choctaw Casino & Resort\, 4216 S Hwy 69/7
- 5\, Durant\, OK 74701
-URL:https://jcow1den.github.io/seok-events/#e130
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e278@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261128
-DTEND;VALUE=DATE:20261129
-SUMMARY:Chelcie Lynn "Trailer Trash Tammy" (Doors 7:00 PM\, show 8:00 PM)
-DESCRIPTION:Doors 7:00 PM\, show 8:00 PM\nComedian Chelcie Lynn performs a
- s her character Trailer Trash Tammy.\nhttps://jcow1den.github.io/seok-eve
- nts/#e278
-LOCATION:Stage 271\, Choctaw Casino & Resort – Grant\, 1516 US-271\, Gra
- nt\, OK 74738
-URL:https://jcow1den.github.io/seok-events/#e278
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e339@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261128
-DTEND;VALUE=DATE:20261129
-SUMMARY:Cinema at the Center: Megamind (Time to be announced)
-DESCRIPTION:Time to be announced\nFree movie day with snacks at the Chocta
- w Cultural Center.\nhttps://jcow1den.github.io/seok-events/#e339
-LOCATION:Choctaw Cultural Center\, 1919 Hina Hanta Way\, Calera\, OK 74730
-URL:https://jcow1den.github.io/seok-events/#e339
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e282@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261128
-DTEND;VALUE=DATE:20261129
-SUMMARY:Connor Blaze at Doc's Food Truck Park (7:00 PM)
-DESCRIPTION:7:00 PM\nConnor Blaze performs live at Doc's Food Truck Park i
- n Ada.\nConfirm details with the host before you go.\nhttps://jcow1den.gi
- thub.io/seok-events/#e282
-LOCATION:Doc's Food Truck Park\, Doc's Food Truck Park\, Ada\, OK
-URL:https://jcow1den.github.io/seok-events/#e282
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e279@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261128
-DTEND;VALUE=DATE:20261129
-SUMMARY:Final Destruction: Metal vs Metal (2:00 PM)
-DESCRIPTION:2:00 PM\nDestruction racing with camper\, boat and mini stock 
- races plus burnout and jump contests. Children 12 and under free.\nConfir
- m details with the host before you go.\nhttps://jcow1den.github.io/seok-e
- vents/#e279
-LOCATION:Tri-State Speedway\, 1705 W Race Track Rd\, Pocola\, OK 74902
-URL:https://jcow1den.github.io/seok-events/#e279
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e361@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261128
-DTEND;VALUE=DATE:20261129
-SUMMARY:Great McAlester Snowball Fight and McWinter Wonderland Opening (1:
- 00 PM)
-DESCRIPTION:1:00 PM\nThe first Great McAlester Snowball Fight opens the Sa
- nta's Workshop zone on Choctaw Avenue. McWinter Wonderland's two Christma
- s zones\, Santa's Workshop on Choctaw and A Vintage Christmas in Olde Tow
- n\, run Saturdays through Dec 19.\nhttps://jcow1den.github.io/seok-events
- /#e361
-LOCATION:Choctaw Ave between Main St and 2nd St\, E Choctaw Ave\, McAleste
- r\, OK 74501
-URL:https://jcow1den.github.io/seok-events/#e361
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e445@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261128
-DTEND;VALUE=DATE:20261129
-SUMMARY:Harvest Hammer (Starts 8 AM)
-DESCRIPTION:Starts 8 AM\nOKWA kids tournament with open\, novice and girls
-  brackets from 6U to 15U. Online sign up is $25 and closes Nov 25.\nhttps
- ://jcow1den.github.io/seok-events/#e445
-LOCATION:Bethel\, OK 74724
-URL:https://jcow1den.github.io/seok-events/#e445
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e550@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261128
-DTEND;VALUE=DATE:20261129
-SUMMARY:MTB 101: Intro to McAlester Urban Trails (10:00 AM-12:00 PM)
-DESCRIPTION:10:00 AM-12:00 PM\nTry the trails with loaner bikes and helmet
- s provided\, plus guided groups at different levels. No experience needed
- .\nhttps://jcow1den.github.io/seok-events/#e550
-LOCATION:McAlester Urban Trails\, 1500 N Strong Blvd\, McAlester\, OK 7450
- 1
-URL:https://jcow1den.github.io/seok-events/#e550
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e281@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261128
-DTEND;VALUE=DATE:20261129
-SUMMARY:Native American Christmas Fair (9:00 AM - 4:00 PM)
-DESCRIPTION:9:00 AM - 4:00 PM\nA Christmas fair held at the Wheelock Acade
- my Historic Site near Garvin.\nhttps://jcow1den.github.io/seok-events/#e2
- 81
-LOCATION:Wheelock Academy Historic Site\, 1377 Wheelock Rd\, Garvin\, OK 7
- 4736
-URL:https://jcow1den.github.io/seok-events/#e281
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e388@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261128
-DTEND;VALUE=DATE:20261129
-SUMMARY:Savage Hurley at Mountain Fork Brewery (6:30 PM)
-DESCRIPTION:6:30 PM\nLive music from Savage Hurley in the Mountain Fork Br
- ewery taproom.\nConfirm details with the host before you go.\nhttps://jco
- w1den.github.io/seok-events/#e388
-LOCATION:Mountain Fork Brewery Taproom\, Mountain Fork Brewery Taproom\, H
- ochatown\, OK
-URL:https://jcow1den.github.io/seok-events/#e388
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e436@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261128
-DTEND;VALUE=DATE:20261129
-SUMMARY:Shop Small Saturday (10:00 AM – 2:00 PM)
-DESCRIPTION:10:00 AM – 2:00 PM\nShop the locally owned stores around the
-  Okmulgee square on Small Business Saturday.\nhttps://jcow1den.github.io/
- seok-events/#e436
-LOCATION:Downtown Okmulgee\, 100 E 6th St\, Okmulgee\, OK 74447
-URL:https://jcow1den.github.io/seok-events/#e436
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e357@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261128
-DTEND;VALUE=DATE:20261129
-SUMMARY:Shop Small Saturday in Downtown Durant (Time to be announced)
-DESCRIPTION:Time to be announced\nShop Small Saturday in Durant's historic
-  downtown\, listed by Durant Main Street.\nhttps://jcow1den.github.io/seo
- k-events/#e357
-LOCATION:Historic Downtown Durant\, Historic Downtown Durant\, Durant\, OK
-URL:https://jcow1den.github.io/seok-events/#e357
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e513@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261128
-DTEND;VALUE=DATE:20261129
-SUMMARY:Silent Book Club (9:30 – 11:30 AM)
-DESCRIPTION:9:30 – 11:30 AM\nBring whatever you're reading\, or borrow s
- omething from the shelves\, and enjoy a quiet morning of reading with oth
- er book lovers. No assigned book and no pressure\, just good company.\nht
- tps://jcow1den.github.io/seok-events/#e513
-LOCATION:Idabel Public Library\, 103 E Main St\, Idabel\, OK 74745
-URL:https://jcow1den.github.io/seok-events/#e513
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e277@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261128
-DTEND;VALUE=DATE:20261129
-SUMMARY:Small Business Saturday in Broken Bow (10:00 AM)
-DESCRIPTION:10:00 AM\nShop-local Small Business Saturday promoted by the B
- roken Bow Area Chamber of Commerce.\nhttps://jcow1den.github.io/seok-even
- ts/#e277
-LOCATION:Downtown Broken Bow\, Downtown Broken Bow\, Broken Bow\, OK 74728
-URL:https://jcow1den.github.io/seok-events/#e277
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e356@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261128
-DTEND;VALUE=DATE:20261129
-SUMMARY:Southeast Remedy Live at Choctaw Landing (2:00 PM – 5:00 PM)
-DESCRIPTION:2:00 PM – 5:00 PM\nSoutheast Remedy plays live on the Cypres
- s Lawn at Choctaw Landing.\nhttps://jcow1den.github.io/seok-events/#e356
-LOCATION:Cypress Lawn\, Choctaw Landing\, 272 N State Highway 259A\, Hocha
- town\, OK 74728
-URL:https://jcow1den.github.io/seok-events/#e356
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e444@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261128
-DTEND;VALUE=DATE:20261130
-SUMMARY:Stilly Boys Nationals
-DESCRIPTION:Two day kids folkstyle tournament with open\, novice and girls
-  brackets\, hosted by the Stilly Boys. Sign up is open now on BoutBoard.\
- nhttps://jcow1den.github.io/seok-events/#e444
-LOCATION:Choctaw Casino & Resort\, 4216 S US 69\, Durant\, OK 74701
-URL:https://jcow1den.github.io/seok-events/#e444
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e401@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261128
-DTEND;VALUE=DATE:20261129
-SUMMARY:The Swon Brothers 9th Annual Thanksgiving Show (Doors 6:30 PM\, di
- nner 7:00 PM\, show 8:00 PM)
-DESCRIPTION:Doors 6:30 PM\, dinner 7:00 PM\, show 8:00 PM\nThe Swon Brothe
- rs' Thanksgiving weekend show. Tickets include a reserved seat and a smok
- ed pork dinner with sides.\nhttps://jcow1den.github.io/seok-events/#e401
-LOCATION:The Doghouse at Ole Red Tishomingo\, 214 W Main St\, Tishomingo\,
-  OK 73460
-URL:https://jcow1den.github.io/seok-events/#e401
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e551@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261130
-DTEND;VALUE=DATE:20261201
-SUMMARY:Adult Hip Hop Fitness (7 PM)
-DESCRIPTION:7 PM\nEasy-to-learn hip hop moves to iconic hip hop music. Wor
- k off the Thanksgiving turkey.\nhttps://jcow1den.github.io/seok-events/#e
- 551
-LOCATION:421 E Cherokee\, McAlester\, OK 74501
-URL:https://jcow1den.github.io/seok-events/#e551
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e340@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261130
-DTEND;VALUE=DATE:20261201
-SUMMARY:Sulphur Christmas Parade of Lights (6:00 PM – 8:00 PM)
-DESCRIPTION:6:00 PM – 8:00 PM\nLighted floats\, cars\, golf carts\, moto
- rcycles and horses. The route starts on 12th Street\, heads east on Broad
- way\, north on 5th\, east on Muskogee and north on 2nd to Vinita Avenue.\
- nhttps://jcow1den.github.io/seok-events/#e340
-LOCATION:Downtown Sulphur\, 717 W Broadway Ave\, Sulphur\, OK 73086
-URL:https://jcow1den.github.io/seok-events/#e340
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e144@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261201
-DTEND;VALUE=DATE:20261202
-SUMMARY:Durant Christmas Parade (7:00 PM)
-DESCRIPTION:7:00 PM\nDowntown Durant's holiday kickoff parade\, always hel
- d the first Tuesday of December.\nhttps://jcow1den.github.io/seok-events/
- #e144
-LOCATION:Downtown Durant\, 215 N 4th Ave\, Durant\, OK 74701
-URL:https://jcow1den.github.io/seok-events/#e144
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e285@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261201
-DTEND;VALUE=DATE:20261202
-SUMMARY:Holiday Open House at Three Valley Museum (3:00 PM - 7:00 PM)
-DESCRIPTION:3:00 PM - 7:00 PM\nA free open house before the Christmas para
- de\, with carolers\, cookies and punch\, and the first look at the Ginger
- bread House Competition display.\nhttps://jcow1den.github.io/seok-events/
- #e285
-LOCATION:Three Valley Museum\, 401 W Main St\, Durant\, OK 74701
-URL:https://jcow1den.github.io/seok-events/#e285
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e166@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261201
-DTEND;VALUE=DATE:20261202
-SUMMARY:Idabel Christmas Tree Lighting (6:00 – 9:00 PM)
-DESCRIPTION:6:00 – 9:00 PM\nIdabel's Christmas tree lighting.\nConfirm d
- etails with the host before you go.\nhttps://jcow1den.github.io/seok-even
- ts/#e166
-LOCATION:Idabel (location to be announced)\, Idabel\, OK
-URL:https://jcow1den.github.io/seok-events/#e166
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e287@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261203
-DTEND;VALUE=DATE:20261207
-SUMMARY:A Christmas Carol (Broken Bow Theatrical Society)
-DESCRIPTION:Time to be announced\nThe Broken Bow Theatrical Society stages
-  A Christmas Carol over four days.\nConfirm details with the host before 
- you go.\nhttps://jcow1den.github.io/seok-events/#e287
-LOCATION:Southeastern Idabel Campus\, 2805 NE Lincoln Rd\, Idabel\, OK 747
- 45
-URL:https://jcow1den.github.io/seok-events/#e287
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e552@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261203
-DTEND;VALUE=DATE:20261204
-SUMMARY:One Day of HOPE (11:30 AM)
-DESCRIPTION:11:30 AM\nA celebration supporting the women and children at H
- ope House.\nhttps://jcow1den.github.io/seok-events/#e552
-LOCATION:Hope House\, 1210 E Cherokee\, McAlester\, OK 74501
-URL:https://jcow1den.github.io/seok-events/#e552
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e286@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261203
-DTEND;VALUE=DATE:20261204
-SUMMARY:Trivia Night at Campe' Diem (6:30 PM – 9:00 PM)
-DESCRIPTION:6:30 PM – 9:00 PM\nTrivia night at Campe' Diem\, listed on t
- he Broken Bow chamber calendar.\nhttps://jcow1den.github.io/seok-events/#
- e286
-LOCATION:Campe' Diem\, Campe' Diem\, Broken Bow\, OK
-URL:https://jcow1den.github.io/seok-events/#e286
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e288@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261204
-DTEND;VALUE=DATE:20261206
-SUMMARY:Celebrity Chef Takeover with Kevin Lee & Nini Nguyen
-DESCRIPTION:Seatings at 5:00 PM and 7:30 PM\nTwo-night multi-course dinner
-  hosted by chefs Kevin Lee and Nini Nguyen. Tables for two are $250 and t
- ables for four are $500.\nhttps://jcow1den.github.io/seok-events/#e288
-LOCATION:Seven Ponies\, Choctaw Casino & Resort – Pocola\, 3400 Choctaw 
- Rd\, Pocola\, OK 74902
-URL:https://jcow1den.github.io/seok-events/#e288
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e146@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261204
-DTEND;VALUE=DATE:20261206
-SUMMARY:Cheery Carriage Rides
-DESCRIPTION:Fri 5:00 – 9:00 PM · Sat 5:00 – 10:00 PM\nHorse-drawn car
- riage rides through historic downtown Durant\, leaving from Market Square
- .\nhttps://jcow1den.github.io/seok-events/#e146
-LOCATION:Market Square\, Downtown Durant\, Market Square\, Durant\, OK 747
- 01
-URL:https://jcow1den.github.io/seok-events/#e146
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e289-20261204@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261204
-DTEND;VALUE=DATE:20261205
-SUMMARY:Henryetta Mistletoe Market
-DESCRIPTION:Fri 5 – 8 PM · Sat 11 AM – 8 PM\nHoliday market on the fi
- rst three weekends of December in downtown Henryetta.\nhttps://jcow1den.g
- ithub.io/seok-events/#e289
-LOCATION:N 5th St & W Trudgeon St\, N 5th St & W Trudgeon St\, Henryetta\,
-  OK 74437
-URL:https://jcow1den.github.io/seok-events/#e289
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e289-20261205@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261205
-DTEND;VALUE=DATE:20261206
-SUMMARY:Henryetta Mistletoe Market
-DESCRIPTION:Fri 5 – 8 PM · Sat 11 AM – 8 PM\nHoliday market on the fi
- rst three weekends of December in downtown Henryetta.\nhttps://jcow1den.g
- ithub.io/seok-events/#e289
-LOCATION:N 5th St & W Trudgeon St\, N 5th St & W Trudgeon St\, Henryetta\,
-  OK 74437
-URL:https://jcow1den.github.io/seok-events/#e289
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e289-20261211@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261211
-DTEND;VALUE=DATE:20261212
-SUMMARY:Henryetta Mistletoe Market
-DESCRIPTION:Fri 5 – 8 PM · Sat 11 AM – 8 PM\nHoliday market on the fi
- rst three weekends of December in downtown Henryetta.\nhttps://jcow1den.g
- ithub.io/seok-events/#e289
-LOCATION:N 5th St & W Trudgeon St\, N 5th St & W Trudgeon St\, Henryetta\,
-  OK 74437
-URL:https://jcow1den.github.io/seok-events/#e289
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e289-20261212@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261212
-DTEND;VALUE=DATE:20261213
-SUMMARY:Henryetta Mistletoe Market
-DESCRIPTION:Fri 5 – 8 PM · Sat 11 AM – 8 PM\nHoliday market on the fi
- rst three weekends of December in downtown Henryetta.\nhttps://jcow1den.g
- ithub.io/seok-events/#e289
-LOCATION:N 5th St & W Trudgeon St\, N 5th St & W Trudgeon St\, Henryetta\,
-  OK 74437
-URL:https://jcow1den.github.io/seok-events/#e289
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e289-20261218@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261218
-DTEND;VALUE=DATE:20261219
-SUMMARY:Henryetta Mistletoe Market
-DESCRIPTION:Fri 5 – 8 PM · Sat 11 AM – 8 PM\nHoliday market on the fi
- rst three weekends of December in downtown Henryetta.\nhttps://jcow1den.g
- ithub.io/seok-events/#e289
-LOCATION:N 5th St & W Trudgeon St\, N 5th St & W Trudgeon St\, Henryetta\,
-  OK 74437
-URL:https://jcow1den.github.io/seok-events/#e289
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e289-20261219@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261219
-DTEND;VALUE=DATE:20261220
-SUMMARY:Henryetta Mistletoe Market
-DESCRIPTION:Fri 5 – 8 PM · Sat 11 AM – 8 PM\nHoliday market on the fi
- rst three weekends of December in downtown Henryetta.\nhttps://jcow1den.g
- ithub.io/seok-events/#e289
-LOCATION:N 5th St & W Trudgeon St\, N 5th St & W Trudgeon St\, Henryetta\,
-  OK 74437
-URL:https://jcow1den.github.io/seok-events/#e289
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e131@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261204
-DTEND;VALUE=DATE:20261205
-SUMMARY:Hudson Westbrook (8:00 PM)
-DESCRIPTION:8:00 PM\nTexas country singer Hudson Westbrook with special gu
- ests Kenny Whitmire and Ethan Burdick.\nhttps://jcow1den.github.io/seok-e
- vents/#e131
-LOCATION:Choctaw Grand Theater\, Choctaw Casino & Resort\, 4216 S Hwy 69/7
- 5\, Durant\, OK 74701
-URL:https://jcow1den.github.io/seok-events/#e131
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e167@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261204
-DTEND;VALUE=DATE:20261205
-SUMMARY:Idabel Christmas Parade (6:30 – 9:00 PM)
-DESCRIPTION:6:30 – 9:00 PM\nIdabel's Christmas parade.\nhttps://jcow1den
- .github.io/seok-events/#e167
-LOCATION:Downtown Idabel\, E Main St\, Idabel\, OK 74745
-URL:https://jcow1den.github.io/seok-events/#e167
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e143@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261205
-DTEND;VALUE=DATE:20261206
-SUMMARY:Choctaw Christmas (10:00 AM – 5:00 PM)
-DESCRIPTION:10:00 AM – 5:00 PM\nA Choctaw Christmas at the Choctaw Cultu
- ral Center with holiday programs and workshops.\nhttps://jcow1den.github.
- io/seok-events/#e143
-LOCATION:Choctaw Cultural Center\, 1919 Hina Hanta Way\, Calera\, OK 74730
-URL:https://jcow1den.github.io/seok-events/#e143
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e132@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261205
-DTEND;VALUE=DATE:20261206
-SUMMARY:Darius Rucker (8:00 PM)
-DESCRIPTION:8:00 PM\nCountry star Darius Rucker live.\nhttps://jcow1den.gi
- thub.io/seok-events/#e132
-LOCATION:Choctaw Grand Theater\, Choctaw Casino & Resort\, 4216 S Hwy 69/7
- 5\, Durant\, OK 74701
-URL:https://jcow1den.github.io/seok-events/#e132
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e163@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261205
-DTEND;VALUE=DATE:20261206
-SUMMARY:First Saturday at the Forest Heritage Center (9:00 AM – 3:00 PM)
-DESCRIPTION:9:00 AM – 3:00 PM\nMonthly First Saturday program at the For
- est Heritage Center in Beavers Bend.\nhttps://jcow1den.github.io/seok-eve
- nts/#e163
-LOCATION:Forest Heritage Center\, Beavers Bend State Park\, 4350 S Hwy 259
- A\, Broken Bow\, OK 74728
-URL:https://jcow1den.github.io/seok-events/#e163
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e554@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261205
-DTEND;VALUE=DATE:20261206
-SUMMARY:Holiday Kid's Market (10 AM-1 PM)
-DESCRIPTION:10 AM-1 PM\nShop young local entrepreneurs. Free to attend.\nh
- ttps://jcow1den.github.io/seok-events/#e554
-LOCATION:Siege\, 1606 Arlington St A\, Ada\, OK 74820
-URL:https://jcow1den.github.io/seok-events/#e554
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e376@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261205
-DTEND;VALUE=DATE:20261206
-SUMMARY:LeFlore County Coffee Crawl (8:30 – 11:30 AM)
-DESCRIPTION:8:30 – 11:30 AM\nThree-stop coffee tour with talks and sampl
- es: The Coffee Cup/Good Day Coffee in Poteau (8:30)\, Nana's Coffee House
-  in Pocola (9:45) and Eight Forks Ranch in Poteau (11:00).\nConfirm detai
- ls with the host before you go.\nhttps://jcow1den.github.io/seok-events/#
- e376
-LOCATION:The Coffee Cup\, 401 N Broadway St\, Poteau\, OK 74953
-URL:https://jcow1den.github.io/seok-events/#e376
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e155@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261205
-DTEND;VALUE=DATE:20261206
-SUMMARY:Michael J. Miller Toy Giveaway (10:00 AM – 4:00 PM)
-DESCRIPTION:10:00 AM – 4:00 PM\nThe yearly toy giveaway hosted by the J.
-  Michael Miller Law Firm at the Southeast Expo Center.\nhttps://jcow1den.
- github.io/seok-events/#e155
-LOCATION:Southeast Expo Center\, 4500 W US-270\, McAlester\, OK 74501
-URL:https://jcow1den.github.io/seok-events/#e155
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e555@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261205
-DTEND;VALUE=DATE:20261206
-SUMMARY:Olde Town Flea Market (8 AM-3 PM)
-DESCRIPTION:8 AM-3 PM\nMonthly first-Saturday flea market with vintage fin
- ds and handmade goods.\nhttps://jcow1den.github.io/seok-events/#e555
-LOCATION:Main Street Junction\, 2645 N Main St\, McAlester\, OK 74501
-URL:https://jcow1den.github.io/seok-events/#e555
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e437@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261205
-DTEND;VALUE=DATE:20261206
-SUMMARY:Pat Taylor Memorial Christmas Parade of Lights (7:00 PM)
-DESCRIPTION:7:00 PM\nAda's 38th lighted Christmas parade fills eight block
- s of downtown. This year's theme is Home for the Holidays: Celebrating 12
- 5 Years of Ada.\nhttps://jcow1den.github.io/seok-events/#e437
-LOCATION:Downtown Ada (Main Street)\, Main St\, Ada\, OK 74820
-URL:https://jcow1den.github.io/seok-events/#e437
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e290@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261205
-DTEND;VALUE=DATE:20261206
-SUMMARY:Poteau Christmas Parade (6:00 PM)
-DESCRIPTION:6:00 PM\nPoteau's evening Christmas parade rolls down Dewey Av
- enue through downtown. This year's theme is "All American Christmas." Lig
- hts\, floats\, bands and Santa. Free to watch.\nhttps://jcow1den.github.i
- o/seok-events/#e290
-LOCATION:Downtown Dewey District\, Dewey Ave\, Poteau\, OK 74953
-URL:https://jcow1den.github.io/seok-events/#e290
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e443@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261205
-DTEND;VALUE=DATE:20261206
-SUMMARY:Ring of Fire (Starts 8 AM)
-DESCRIPTION:Starts 8 AM\nOKWA kids tournament with open\, novice and girls
-  brackets from 6U to 15U. Online sign up is $25 and closes Dec 2.\nhttps:
- //jcow1den.github.io/seok-events/#e443
-LOCATION:Durant\, OK 74701
-URL:https://jcow1den.github.io/seok-events/#e443
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e154@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261205
-DTEND;VALUE=DATE:20261206
-SUMMARY:Santa Helper Fair (9:00 AM – 4:00 PM)
-DESCRIPTION:9:00 AM – 4:00 PM\nHoliday shopping fair at the Boys & Girls
-  Club.\nConfirm details with the host before you go.\nhttps://jcow1den.gi
- thub.io/seok-events/#e154
-LOCATION:Boys & Girls Club\, McAlester\, OK
-URL:https://jcow1den.github.io/seok-events/#e154
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e556@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261205
-DTEND;VALUE=DATE:20261206
-SUMMARY:Santa at the Silo (2-5 PM)
-DESCRIPTION:2-5 PM\nFree cookies\, hot cocoa\, and pictures with Santa ins
- ide the Grain Silo.\nhttps://jcow1den.github.io/seok-events/#e556
-LOCATION:Porches & Pastures\, 114375 N Old Highway 69\, Eufaula\, OK 74432
-URL:https://jcow1den.github.io/seok-events/#e556
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e402@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261205
-DTEND;VALUE=DATE:20261206
-SUMMARY:Stigler Christmas Parade: Christmas at the Movies (10:00 AM)
-DESCRIPTION:10:00 AM\nEach parade entry is themed on a Christmas movie\, a
- nd the crowd guesses which one.\nConfirm details with the host before you
-  go.\nhttps://jcow1den.github.io/seok-events/#e402
-LOCATION:Downtown Stigler\, 204 E Main St\, Stigler\, OK 74462
-URL:https://jcow1den.github.io/seok-events/#e402
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e164@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261205
-DTEND;VALUE=DATE:20261206
-SUMMARY:Winter Wonderland Kick Off (See host for time)
-DESCRIPTION:See host for time\nBroken Bow's Winter Wonderland season kicks
-  off in City Park.\nhttps://jcow1den.github.io/seok-events/#e164
-LOCATION:Broken Bow City Park\, Broken Bow City Park\, Broken Bow\, OK
-URL:https://jcow1den.github.io/seok-events/#e164
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e284@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261205
-DTEND;VALUE=DATE:20261228
-SUMMARY:Winter Wonderland at Broken Bow City Park
-DESCRIPTION:Lights on after dark\nChristmas lights and displays at Broken 
- Bow City Park. Free to walk or drive through.\nhttps://jcow1den.github.io
- /seok-events/#e284
-LOCATION:Broken Bow City Park\, 1211 James Butler Dr\, Broken Bow\, OK 747
- 28
-URL:https://jcow1den.github.io/seok-events/#e284
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e557@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261206
-DTEND;VALUE=DATE:20261207
-SUMMARY:MPS Holiday Program\, Hughes Middle School & MHS Choir (3:00 PM)
-DESCRIPTION:3:00 PM\nFree McAlester Public Schools holiday program\, open 
- to the public.\nhttps://jcow1den.github.io/seok-events/#e557
-LOCATION:S. Arch Thompson Auditorium\, 201 E Adams Ave\, McAlester\, OK 74
- 501
-URL:https://jcow1den.github.io/seok-events/#e557
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e291@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261207
-DTEND;VALUE=DATE:20261208
-SUMMARY:Checotah Christmas Parade: A Rhinestone Christmas (Ice rink 2:00 P
- M - 10:00 PM\; parade 6:30 PM)
-DESCRIPTION:Ice rink 2:00 PM - 10:00 PM\; parade 6:30 PM\nWinter Wonderlan
- d meets A Rhinestone Christmas. Ice skating downtown from 2 to 10 PM ($10
-  a session with skates)\, food trucks\, youth performances\, the lighted 
- parade at 6:30 and Santa photos after.\nhttps://jcow1den.github.io/seok-e
- vents/#e291
-LOCATION:Downtown Checotah\, 114 N Broadway St\, Checotah\, OK 74426
-URL:https://jcow1den.github.io/seok-events/#e291
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e558@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261207
-DTEND;VALUE=DATE:20261208
-SUMMARY:MPS Holiday Program\, Will Rogers Kindergarten (6:00 PM)
-DESCRIPTION:6:00 PM\nFree McAlester Public Schools holiday program\, open 
- to the public.\nhttps://jcow1den.github.io/seok-events/#e558
-LOCATION:S. Arch Thompson Auditorium\, 201 E Adams Ave\, McAlester\, OK 74
- 501
-URL:https://jcow1den.github.io/seok-events/#e558
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e165@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261207
-DTEND;VALUE=DATE:20261208
-SUMMARY:McCurtain County Christmas Parade: Songs of the Season (6:30 – 9
- :00 PM)
-DESCRIPTION:6:30 – 9:00 PM\nThe 56th annual McCurtain County Christmas P
- arade\, starting near the Broken Bow Area Chamber of Commerce. This year'
- s theme: Songs of the Season.\nhttps://jcow1den.github.io/seok-events/#e1
- 65
-LOCATION:Downtown Broken Bow\, 113 W Martin Luther King Dr\, Broken Bow\, 
- OK 74728
-URL:https://jcow1den.github.io/seok-events/#e165
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e560@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261208
-DTEND;VALUE=DATE:20261209
-SUMMARY:MPS Holiday Program\, Will Rogers 1st Grade (5:30 PM)
-DESCRIPTION:5:30 PM\nFree McAlester Public Schools holiday program\, open 
- to the public.\nhttps://jcow1den.github.io/seok-events/#e560
-LOCATION:S. Arch Thompson Auditorium\, 201 E Adams Ave\, McAlester\, OK 74
- 501
-URL:https://jcow1den.github.io/seok-events/#e560
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e561@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261208
-DTEND;VALUE=DATE:20261209
-SUMMARY:MPS Holiday Program\, Will Rogers 2nd Grade (7:00 PM)
-DESCRIPTION:7:00 PM\nFree McAlester Public Schools holiday program\, open 
- to the public.\nhttps://jcow1den.github.io/seok-events/#e561
-LOCATION:S. Arch Thompson Auditorium\, 201 E Adams Ave\, McAlester\, OK 74
- 501
-URL:https://jcow1den.github.io/seok-events/#e561
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e168@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261210
-DTEND;VALUE=DATE:20261214
-SUMMARY:Christmas on the Square
-DESCRIPTION:Thu & Fri from 5 PM · Sat 5 – 9 PM · Sun from noon\nArts m
- arket\, food trucks\, and holiday fun downtown. No cost to attend\, and p
- arking is free.\nhttps://jcow1den.github.io/seok-events/#e168
-LOCATION:Okmulgee Main Street on the Square\, 100 E 6th St\, Okmulgee\, OK
-  74447
-URL:https://jcow1den.github.io/seok-events/#e168
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e156@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261210
-DTEND;VALUE=DATE:20261211
-SUMMARY:Kody West Live (8:00 PM)
-DESCRIPTION:8:00 PM\nSpotlight Series show with Texas country artist Kody 
- West.\nhttps://jcow1den.github.io/seok-events/#e156
-LOCATION:DWNTWN 312\, McAlester\, OK
-URL:https://jcow1den.github.io/seok-events/#e156
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e563@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261210
-DTEND;VALUE=DATE:20261211
-SUMMARY:McAlester's Storybook Christmas Parade (6:30 PM)
-DESCRIPTION:6:30 PM\nThis year's theme is A Storybook Christmas\, Oklahoma
- 's largest Christmas parade. Register at therailwaydistrict.com.\nhttps:/
- /jcow1den.github.io/seok-events/#e563
-LOCATION:Choctaw Ave and cross streets\, McAlester\, OK 74501
-URL:https://jcow1den.github.io/seok-events/#e563
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e169@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261210
-DTEND;VALUE=DATE:20261211
-SUMMARY:Okmulgee Festival of Lights Parade (7:00 – 9:00 PM)
-DESCRIPTION:7:00 – 9:00 PM\nA lighted parade that kicks off Christmas on
-  the Square in downtown Okmulgee.\nhttps://jcow1den.github.io/seok-events
- /#e169
-LOCATION:Downtown Okmulgee (6th Street)\, 100 E 6th St\, Okmulgee\, OK 744
- 47
-URL:https://jcow1den.github.io/seok-events/#e169
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e562@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261210
-DTEND;VALUE=DATE:20261211
-SUMMARY:SPOTLIGHT SERIES: Kody West (Doors 7:00 PM\, show 8:00 PM)
-DESCRIPTION:Doors 7:00 PM\, show 8:00 PM\nTexas country built for singing 
- back. Limited seating\, $30 tickets.\nhttps://jcow1den.github.io/seok-eve
- nts/#e562
-LOCATION:Dancing Rabbit (Downtown 312)\, 312 E Choctaw Ave\, McAlester\, O
- K 74501
-URL:https://jcow1den.github.io/seok-events/#e562
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e292@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261210
-DTEND;VALUE=DATE:20261211
-SUMMARY:The Railway District Christmas Parade (6:30 PM)
-DESCRIPTION:6:30 PM\nLighted night parade with the theme A Storybook Chris
- tmas. It heads east on Carl Albert Parkway from A Street to 5th Street\, 
- then turns onto Choctaw Avenue to Main Street. Santa rides the last float
- .\nhttps://jcow1den.github.io/seok-events/#e292
-LOCATION:Downtown McAlester\, Carl Albert Pkwy and Choctaw Ave\, McAlester
- \, OK 74501
-URL:https://jcow1den.github.io/seok-events/#e292
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e293@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261211
-DTEND;VALUE=DATE:20261212
-SUMMARY:Connor Blaze at Doc's Food Truck Park (7:00 PM)
-DESCRIPTION:7:00 PM\nConnor Blaze performs live at Doc's Food Truck Park i
- n Ada.\nConfirm details with the host before you go.\nhttps://jcow1den.gi
- thub.io/seok-events/#e293
-LOCATION:Doc's Food Truck Park\, Doc's Food Truck Park\, Ada\, OK
-URL:https://jcow1den.github.io/seok-events/#e293
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e332@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261211
-DTEND;VALUE=DATE:20261212
-SUMMARY:Holdenville Christmas Parade (6:00 PM)
-DESCRIPTION:6:00 PM\nDecorated floats and marching bands down Main Street\
- , with prizes given away during the parade.\nhttps://jcow1den.github.io/s
- eok-events/#e332
-LOCATION:Main Street\, Holdenville\, Main St\, Holdenville\, OK 74848
-URL:https://jcow1den.github.io/seok-events/#e332
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e565@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261211
-DTEND;VALUE=DATE:20261212
-SUMMARY:MPS Holiday Program\, Hughes Middle School Bands (7:00 PM)
-DESCRIPTION:7:00 PM\nFree McAlester Public Schools holiday program\, open 
- to the public.\nhttps://jcow1den.github.io/seok-events/#e565
-LOCATION:S. Arch Thompson Auditorium\, 201 E Adams Ave\, McAlester\, OK 74
- 501
-URL:https://jcow1den.github.io/seok-events/#e565
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e564@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261211
-DTEND;VALUE=DATE:20261212
-SUMMARY:MPS Holiday Program\, Parker Intermediate Center Band (6:00 PM)
-DESCRIPTION:6:00 PM\nFree McAlester Public Schools holiday program\, open 
- to the public.\nhttps://jcow1den.github.io/seok-events/#e564
-LOCATION:S. Arch Thompson Auditorium\, 201 E Adams Ave\, McAlester\, OK 74
- 501
-URL:https://jcow1den.github.io/seok-events/#e564
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e157@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261211
-DTEND;VALUE=DATE:20261213
-SUMMARY:Winter Pull Classic: Truck and Tractor Pull
-DESCRIPTION:See host for times\nTruck and tractor pulls at the Expo Center
- .\nhttps://jcow1den.github.io/seok-events/#e157
-LOCATION:Southeast Expo Center & Motor Speedway\, 4500 W US-270\, McAleste
- r\, OK 74501
-URL:https://jcow1den.github.io/seok-events/#e157
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e299@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261212
-DTEND;VALUE=DATE:20261213
-SUMMARY:Breakfast with Santa & Mrs. Claus (9:00 AM - 12:00 PM)
-DESCRIPTION:9:00 AM - 12:00 PM\nBreakfast with Santa\, a Christmas story f
- rom Mrs. Claus\, photos with Santa and animals in holiday outfits. It is 
- the last chance to see the Gingerbread House Competition display. Ticket 
- prices have not been announced.\nhttps://jcow1den.github.io/seok-events/#
- e299
-LOCATION:Three Valley Museum\, 401 W Main St\, Durant\, OK 74701
-URL:https://jcow1den.github.io/seok-events/#e299
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e298@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261212
-DTEND;VALUE=DATE:20261213
-SUMMARY:Christmas in Hochatown (Time to be announced)
-DESCRIPTION:Time to be announced\nA day of Christmas celebration in downto
- wn Hochatown.\nConfirm details with the host before you go.\nhttps://jcow
- 1den.github.io/seok-events/#e298
-LOCATION:Downtown Hochatown\, N US Hwy 259\, Broken Bow\, OK 74728
-URL:https://jcow1den.github.io/seok-events/#e298
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e381@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261212
-DTEND;VALUE=DATE:20261213
-SUMMARY:Cinema at the Center: Happy Feet (1:00 PM)
-DESCRIPTION:1:00 PM\nFree screening of Happy Feet at the Choctaw Cultural 
- Center.\nhttps://jcow1den.github.io/seok-events/#e381
-LOCATION:Choctaw Cultural Center\, 1919 Hina Hanta Way\, Calera\, OK 74730
-URL:https://jcow1den.github.io/seok-events/#e381
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e159@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261212
-DTEND;VALUE=DATE:20261213
-SUMMARY:Community Choir Christmas Concert (7:00 – 9:00 PM)
-DESCRIPTION:7:00 – 9:00 PM\nChristmas concert by the community choir.\nh
- ttps://jcow1den.github.io/seok-events/#e159
-LOCATION:S. Arch Thompson Auditorium\, 201 E Adams Ave\, McAlester\, OK 74
- 501
-URL:https://jcow1den.github.io/seok-events/#e159
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e382@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261212
-DTEND;VALUE=DATE:20261213
-SUMMARY:Frybread Workshop (11:00 AM and 1:00 PM)
-DESCRIPTION:11:00 AM and 1:00 PM\nHands-on frybread workshop in two sessio
- ns. Registration required.\nhttps://jcow1den.github.io/seok-events/#e382
-LOCATION:Choctaw Cultural Center\, 1919 Hina Hanta Way\, Calera\, OK 74730
-URL:https://jcow1den.github.io/seok-events/#e382
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e297@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261212
-DTEND;VALUE=DATE:20261213
-SUMMARY:Gallery 259 Christmas Market (11:00 AM - 4:00 PM)
-DESCRIPTION:11:00 AM - 4:00 PM\nA Christmas market at Gallery 259 in the H
- ochatown area.\nConfirm details with the host before you go.\nhttps://jco
- w1den.github.io/seok-events/#e297
-LOCATION:Gallery 259\, 175 Post Oak Rd\, Broken Bow\, OK 74728
-URL:https://jcow1den.github.io/seok-events/#e297
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e133@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261212
-DTEND;VALUE=DATE:20261213
-SUMMARY:Gwen Stefani (8:00 PM)
-DESCRIPTION:8:00 PM\nGwen Stefani live in Durant.\nhttps://jcow1den.github
- .io/seok-events/#e133
-LOCATION:Choctaw Grand Theater\, Choctaw Casino & Resort\, 4216 S Hwy 69/7
- 5\, Durant\, OK 74701
-URL:https://jcow1den.github.io/seok-events/#e133
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e296@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261212
-DTEND;VALUE=DATE:20261213
-SUMMARY:Henryetta Christmas Parade (6:30 PM)
-DESCRIPTION:6:30 PM\nAnnual Christmas parade with holiday floats along Hen
- ryetta's Main Street.\nhttps://jcow1den.github.io/seok-events/#e296
-LOCATION:Main Street\, 415 W Main St\, Henryetta\, OK 74437
-URL:https://jcow1den.github.io/seok-events/#e296
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e295@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261212
-DTEND;VALUE=DATE:20261223
-SUMMARY:Holiday in the Ark
-DESCRIPTION:2 hour sessions: Dec 12 & 13 at 3 PM · Dec 18 at 4 PM · Dec 
- 19 at 1:30 & 4 PM · Dec 20 at 1:30 PM · Dec 21 & 22 at 4 PM\nChristmas 
- at the Endangered Ark Foundation elephant farm: visit with Santa\, Mrs. C
- laus and the Grinch\, meet and feed the elephants\, and make crafts. Buy 
- session tickets on the website.\nhttps://jcow1den.github.io/seok-events/#
- e295
-LOCATION:Endangered Ark Foundation\, 2657 E 2070 Rd\, Hugo\, OK 74743
-URL:https://jcow1den.github.io/seok-events/#e295
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e294@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261212
-DTEND;VALUE=DATE:20261213
-SUMMARY:LeAnn Rimes (Doors 7:00 PM\, show 8:00 PM)
-DESCRIPTION:Doors 7:00 PM\, show 8:00 PM\nLeAnn Rimes performs live at Sta
- ge 271. Seating is limited.\nhttps://jcow1den.github.io/seok-events/#e294
-LOCATION:Stage 271\, Choctaw Casino & Resort – Grant\, 1516 US-271\, Gra
- nt\, OK 74738
-URL:https://jcow1den.github.io/seok-events/#e294
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e377@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261212
-DTEND;VALUE=DATE:20261213
-SUMMARY:Pink Christmas Candle Painting Party (2:00 – 4:00 PM (doors 1:30
-  PM))
-DESCRIPTION:2:00 – 4:00 PM (doors 1:30 PM)\nDecorate two pillar candles\
- , with hot cocoa\, cupcakes\, snacks and goodie bags. Supplies provided\;
-  kids under 14 need a parent or guardian.\nhttps://jcow1den.github.io/seo
- k-events/#e377
-LOCATION:Sweet Meltz\, 408 N M St\, Hugo\, OK 74743
-URL:https://jcow1den.github.io/seok-events/#e377
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e158@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261212
-DTEND;VALUE=DATE:20261213
-SUMMARY:Sleigh Bells Market (9:00 AM – 5:00 PM)
-DESCRIPTION:9:00 AM – 5:00 PM\nHoliday shopping at the Southeast Expo Ce
- nter with vendors selling vintage Christmas\, holiday decor\, gifts and h
- andmade goods.\nhttps://jcow1den.github.io/seok-events/#e158
-LOCATION:Southeast Expo Center\, 4500 W US-270\, McAlester\, OK 74501
-URL:https://jcow1den.github.io/seok-events/#e158
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e331@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261212
-DTEND;VALUE=DATE:20261213
-SUMMARY:Wilburton Christmas Parade (6:00 PM)
-DESCRIPTION:6:00 PM\nDowntown Christmas parade on Main Street with the the
- me 'Twas A Magical Storybook Christmas.\nhttps://jcow1den.github.io/seok-
- events/#e331
-LOCATION:Downtown Wilburton (Main Street / US-270)\, W Main St\, Wilburton
- \, OK 74578
-URL:https://jcow1den.github.io/seok-events/#e331
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e508@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261213
-DTEND;VALUE=DATE:20261214
-SUMMARY:8th Annual Okie Christmas Toy Run (9:00 AM)
-DESCRIPTION:9:00 AM\nMotorcycles\, cars\, trucks\, side by sides and even 
- horses parade from Freedom by Ed Morse to the Durant Elks Lodge #63 on Ga
- tes Ave. Once there\, enjoy a live and silent auction\, games and a pulle
- d pork lunch. This year's goal is to adopt every Bryan County child signe
- d up for Toys for Tots.\nhttps://jcow1den.github.io/seok-events/#e508
-LOCATION:Freedom Chrysler Dodge Jeep RAM by Ed Morse (start)\, 2516 Univer
- sity Blvd\, Durant\, OK 74701
-URL:https://jcow1den.github.io/seok-events/#e508
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e566@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261213
-DTEND;VALUE=DATE:20261214
-SUMMARY:MPS Holiday Program\, McAlester High School Band (2:00 PM)
-DESCRIPTION:2:00 PM\nFree McAlester Public Schools holiday program\, open 
- to the public.\nhttps://jcow1den.github.io/seok-events/#e566
-LOCATION:S. Arch Thompson Auditorium\, 201 E Adams Ave\, McAlester\, OK 74
- 501
-URL:https://jcow1den.github.io/seok-events/#e566
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e135@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261218
-DTEND;VALUE=DATE:20261219
-SUMMARY:Jake Worthington (8:00 PM)
-DESCRIPTION:8:00 PM\nCountry singer Jake Worthington live.\nhttps://jcow1d
- en.github.io/seok-events/#e135
-LOCATION:Choctaw Grand Theater\, Choctaw Casino & Resort\, 4216 S Hwy 69/7
- 5\, Durant\, OK 74701
-URL:https://jcow1den.github.io/seok-events/#e135
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e400@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261218
-DTEND;VALUE=DATE:20261219
-SUMMARY:Ole Red's Christmas Express Experience (Doors 5:30 PM\, movie 6:00
-  PM)
-DESCRIPTION:Doors 5:30 PM\, movie 6:00 PM\nPajama night inspired by the Po
- lar Express: kid-friendly dinner\, a Christmas movie\, popcorn\, hot choc
- olate\, and a train ticket and sleigh bell for every guest.\nhttps://jcow
- 1den.github.io/seok-events/#e400
-LOCATION:The Doghouse at Ole Red Tishomingo\, 214 W Main St\, Tishomingo\,
-  OK 73460
-URL:https://jcow1den.github.io/seok-events/#e400
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e300@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261219
-DTEND;VALUE=DATE:20261220
-SUMMARY:McSwain Theatre Showcase featuring Jae L. & Crossover (7:00 PM)
-DESCRIPTION:7:00 PM\nJae L. Stilwell and the Crossover Band perform at the
-  McSwain Theatre. The theatre's website lists this show as sold out.\nhtt
- ps://jcow1den.github.io/seok-events/#e300
-LOCATION:McSwain Theatre\, McSwain Theatre\, 130 W Main St\, Ada\, OK 7482
- 0
-URL:https://jcow1den.github.io/seok-events/#e300
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e136@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261219
-DTEND;VALUE=DATE:20261220
-SUMMARY:Nickelback (8:00 PM)
-DESCRIPTION:8:00 PM\nNickelback live in Durant.\nhttps://jcow1den.github.i
- o/seok-events/#e136
-LOCATION:Choctaw Grand Theater\, Choctaw Casino & Resort\, 4216 S Hwy 69/7
- 5\, Durant\, OK 74701
-URL:https://jcow1den.github.io/seok-events/#e136
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e439@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261220
-DTEND;VALUE=DATE:20261221
-SUMMARY:Talihina Christmas Parade: A Charlie Brown Christmas (6:00 PM)
-DESCRIPTION:6:00 PM\nTalihina's Christmas parade with a Charlie Brown Chri
- stmas theme. Floats line up by 5:30 PM.\nhttps://jcow1den.github.io/seok-
- events/#e439
-LOCATION:Downtown Talihina (lineup at Living Faith Pentecostal Church)\, D
- owntown Talihina\, Talihina\, OK 74571
-URL:https://jcow1den.github.io/seok-events/#e439
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e567@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261221
-DTEND;VALUE=DATE:20261222
-SUMMARY:McAlester Area Christmas Promotion $10\,000 Cash Giveaway (7:00 PM
- )
-DESCRIPTION:7:00 PM\n32nd Annual McAlester Area Christmas Promotion $10\,0
- 00 cash giveaway\, presented by Sam Wampler's Freedom Ford. One free tick
- et for visiting a participating business (no purchase necessary)\, plus o
- ne additional ticket for every $10 spent. Must be present to win. Drawing
-  audited by Tina Davenport-McKamie.\nhttps://jcow1den.github.io/seok-even
- ts/#e567
-LOCATION:Downtown McAlester\, Downtown McAlester\, McAlester\, OK 74501
-URL:https://jcow1den.github.io/seok-events/#e567
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e175@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261226
-DTEND;VALUE=DATE:20261227
-SUMMARY:Becky Robinson (See venue for time)
-DESCRIPTION:See venue for time\nStand-up comedy from Becky Robinson.\nConf
- irm details with the host before you go.\nhttps://jcow1den.github.io/seok
- -events/#e175
-LOCATION:Choctaw Casino & Resort – Pocola\, 3400 Choctaw Rd\, Pocola\, O
- K 74902
-URL:https://jcow1den.github.io/seok-events/#e175
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e301@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261226
-DTEND;VALUE=DATE:20261227
-SUMMARY:Connor Blaze at Doc's Food Truck Park (7:00 PM)
-DESCRIPTION:7:00 PM\nConnor Blaze performs live at Doc's Food Truck Park i
- n Ada.\nConfirm details with the host before you go.\nhttps://jcow1den.gi
- thub.io/seok-events/#e301
-LOCATION:Doc's Food Truck Park\, Doc's Food Truck Park\, Ada\, OK
-URL:https://jcow1den.github.io/seok-events/#e301
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e302@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261231
-DTEND;VALUE=DATE:20270101
-SUMMARY:McSwain Theatre Showcase featuring Jae L. & Crossover: New Year's 
- Eve (7:00 PM)
-DESCRIPTION:7:00 PM\nJae L. Stilwell and the Crossover Band perform at the
-  McSwain Theatre. The theatre's website lists this show as sold out.\nhtt
- ps://jcow1den.github.io/seok-events/#e302
-LOCATION:McSwain Theatre\, McSwain Theatre\, 130 W Main St\, Ada\, OK 7482
- 0
-URL:https://jcow1den.github.io/seok-events/#e302
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e137@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261231
-DTEND;VALUE=DATE:20270101
-SUMMARY:Stephen Wilson Jr. on New Year's Eve (8:00 PM)
-DESCRIPTION:8:00 PM\nRing in the new year with singer-songwriter Stephen W
- ilson Jr.\nhttps://jcow1den.github.io/seok-events/#e137
-LOCATION:Choctaw Grand Theater\, Choctaw Casino & Resort\, 4216 S Hwy 69/7
- 5\, Durant\, OK 74701
-URL:https://jcow1den.github.io/seok-events/#e137
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e303@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20270102
-DTEND;VALUE=DATE:20270103
-SUMMARY:First Saturday at the Forest Heritage Center (10:00 AM – 3:00 PM
- )
-DESCRIPTION:10:00 AM – 3:00 PM\nFree hands-on program that may include f
- orestry\, wildlife\, conservation\, traditional crafts and local history.
- \nhttps://jcow1den.github.io/seok-events/#e303
-LOCATION:Forest Heritage Center\, Beavers Bend State Park\, 4350 S State H
- wy 259A\, Broken Bow\, OK 74728
-URL:https://jcow1den.github.io/seok-events/#e303
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e304@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20270102
-DTEND;VALUE=DATE:20270103
-SUMMARY:Who's Bad: Michael Jackson Tribute (Doors 7:00 PM\, show 8:00 PM)
-DESCRIPTION:Doors 7:00 PM\, show 8:00 PM\nMichael Jackson tribute show. Gu
- ests under 18 must be with a parent or guardian.\nhttps://jcow1den.github
- .io/seok-events/#e304
-LOCATION:CenterStage\, Choctaw Casino & Resort – Pocola\, 3400 Choctaw R
- d\, Pocola\, OK 74902
-URL:https://jcow1den.github.io/seok-events/#e304
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e305@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20270109
-DTEND;VALUE=DATE:20270110
-SUMMARY:501Bryze (Doors 7:00 PM\, show 8:00 PM)
-DESCRIPTION:Doors 7:00 PM\, show 8:00 PM\nCountry rap artist 501Bryze perf
- orms live at Stage 271.\nhttps://jcow1den.github.io/seok-events/#e305
-LOCATION:Stage 271\, Choctaw Casino & Resort – Grant\, 1516 US-271\, Gra
- nt\, OK 74738
-URL:https://jcow1den.github.io/seok-events/#e305
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e306@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20270112
-DTEND;VALUE=DATE:20270113
-SUMMARY:Musical Arts Series: John Quijano\, guitar (7:30 PM)
-DESCRIPTION:7:30 PM\nJohn Quijano\, guitar performs in Southeastern Oklaho
- ma State University's Musical Arts Series.\nhttps://jcow1den.github.io/se
- ok-events/#e306
-LOCATION:Fine Arts Recital Hall\, Southeastern Oklahoma State University\,
-  Fine Arts Recital Hall\, Southeastern Oklahoma State University\, Durant
- \, OK
-URL:https://jcow1den.github.io/seok-events/#e306
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e446@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20270115
-DTEND;VALUE=DATE:20270116
-SUMMARY:Thrill in Madill JH (Starts 9:30 AM)
-DESCRIPTION:Starts 9:30 AM\nJunior high wrestling tournament at Madill. No
-  online sign up is posted\, so coaches should contact the school.\nhttps:
- //jcow1den.github.io/seok-events/#e446
-LOCATION:601 South 5th Avenue\, Madill\, OK 73446
-URL:https://jcow1den.github.io/seok-events/#e446
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e447@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20270116
-DTEND;VALUE=DATE:20270117
-SUMMARY:Thrill in Madill (Starts 9:30 AM)
-DESCRIPTION:Starts 9:30 AM\nHigh school wrestling tournament at Madill Hig
- h School. Come cheer on the local teams.\nhttps://jcow1den.github.io/seok
- -events/#e447
-LOCATION:Madill High School\, 700 South 5th Avenue\, Madill\, OK 73446
-URL:https://jcow1den.github.io/seok-events/#e447
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e138@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20270123
-DTEND;VALUE=DATE:20270124
-SUMMARY:Tom Segura: Preposterous (8:00 PM)
-DESCRIPTION:8:00 PM\nStand-up comedy from Tom Segura.\nhttps://jcow1den.gi
- thub.io/seok-events/#e138
-LOCATION:Choctaw Grand Theater\, Choctaw Casino & Resort\, 4216 S Hwy 69/7
- 5\, Durant\, OK 74701
-URL:https://jcow1den.github.io/seok-events/#e138
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e182@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20270130
-DTEND;VALUE=DATE:20270131
-SUMMARY:Marty Stuart (7:00 PM)
-DESCRIPTION:7:00 PM\nCountry legend Marty Stuart live in Grant.\nConfirm d
- etails with the host before you go.\nhttps://jcow1den.github.io/seok-even
- ts/#e182
-LOCATION:Choctaw Casino & Resort – Grant\, 1516 Hwy 271 S\, Grant\, OK 7
- 4738
-URL:https://jcow1den.github.io/seok-events/#e182
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e307@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20270212
-DTEND;VALUE=DATE:20270214
-SUMMARY:Celebrity Chef Takeover with Bryan Voltaggio
-DESCRIPTION:Seatings at 5:00 PM and 7:30 PM\nTwo-night chef-driven dinner 
- hosted by Top Chef finalist Bryan Voltaggio.\nhttps://jcow1den.github.io/
- seok-events/#e307
-LOCATION:Seven Ponies\, Choctaw Casino & Resort – Pocola\, 3400 Choctaw 
- Rd\, Pocola\, OK 74902
-URL:https://jcow1den.github.io/seok-events/#e307
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e139@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20270212
-DTEND;VALUE=DATE:20270213
-SUMMARY:Daughtry: 20 Years Unplugged Tour (7:00 PM)
-DESCRIPTION:7:00 PM\nDaughtry's 20 Years Unplugged Tour.\nhttps://jcow1den
- .github.io/seok-events/#e139
-LOCATION:Choctaw Grand Theater\, Choctaw Casino & Resort\, 4216 S Hwy 69/7
- 5\, Durant\, OK 74701
-URL:https://jcow1den.github.io/seok-events/#e139
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e308@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20270213
-DTEND;VALUE=DATE:20270214
-SUMMARY:First Saturday Valentine's Program at the Forest Heritage Center (
- 10:00 AM – 3:00 PM)
-DESCRIPTION:10:00 AM – 3:00 PM\nFree Valentine's-themed First Saturday p
- rogram at the Forest Heritage Center museum.\nhttps://jcow1den.github.io/
- seok-events/#e308
-LOCATION:Forest Heritage Center\, Beavers Bend State Park\, 4350 S State H
- wy 259A\, Broken Bow\, OK 74728
-URL:https://jcow1den.github.io/seok-events/#e308
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e309@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20270220
-DTEND;VALUE=DATE:20270221
-SUMMARY:Elijah Scott (Doors 7:00 PM\, show 8:00 PM)
-DESCRIPTION:Doors 7:00 PM\, show 8:00 PM\nCountry singer Elijah Scott perf
- orms at Stage 271.\nhttps://jcow1den.github.io/seok-events/#e309
-LOCATION:Stage 271\, Choctaw Casino & Resort – Grant\, 1516 US-271\, Gra
- nt\, OK 74738
-URL:https://jcow1den.github.io/seok-events/#e309
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e183@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20270227
-DTEND;VALUE=DATE:20270228
-SUMMARY:Niko Moon (Doors 7:00 PM\, show 8:00 PM)
-DESCRIPTION:Doors 7:00 PM\, show 8:00 PM\nNiko Moon live at Stage 271 in G
- rant.\nhttps://jcow1den.github.io/seok-events/#e183
-LOCATION:Stage 271\, Choctaw Casino & Resort\, 1516 US-271\, Grant\, OK 74
- 738
-URL:https://jcow1den.github.io/seok-events/#e183
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e311@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20270306
-DTEND;VALUE=DATE:20270307
-SUMMARY:13th Annual Trivia Night (6:00 PM)
-DESCRIPTION:6:00 PM\nAnnual trivia night at Carl Albert State College\; th
- eme to be announced.\nConfirm details with the host before you go.\nhttps
- ://jcow1den.github.io/seok-events/#e311
-LOCATION:Hoffman/Wilson Center\, Carl Albert State College\, 1507 S McKenn
- a St\, Poteau\, OK 74953
-URL:https://jcow1den.github.io/seok-events/#e311
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e310@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20270306
-DTEND;VALUE=DATE:20270307
-SUMMARY:First Saturday at the Forest Heritage Center (10:00 AM – 3:00 PM
- )
-DESCRIPTION:10:00 AM – 3:00 PM\nFree hands-on program that may include f
- orestry\, wildlife\, conservation\, traditional crafts and local history.
- \nhttps://jcow1den.github.io/seok-events/#e310
-LOCATION:Forest Heritage Center\, Beavers Bend State Park\, 4350 S State H
- wy 259A\, Broken Bow\, OK 74728
-URL:https://jcow1den.github.io/seok-events/#e310
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e341@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20270312
-DTEND;VALUE=DATE:20270313
-SUMMARY:Derrick Stroup (8:00 PM)
-DESCRIPTION:8:00 PM\nStand-up comedian Derrick Stroup at the Choctaw Grand
-  Theater.\nhttps://jcow1den.github.io/seok-events/#e341
-LOCATION:Choctaw Grand Theater\, Choctaw Casino & Resort\, 4216 S Hwy 69/7
- 5\, Durant\, OK 74701
-URL:https://jcow1den.github.io/seok-events/#e341
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e140@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20270320
-DTEND;VALUE=DATE:20270321
-SUMMARY:Jon Pardi (8:00 PM)
-DESCRIPTION:8:00 PM\nCountry star Jon Pardi live.\nhttps://jcow1den.github
- .io/seok-events/#e140
-LOCATION:Choctaw Grand Theater\, Choctaw Casino & Resort\, 4216 S Hwy 69/7
- 5\, Durant\, OK 74701
-URL:https://jcow1den.github.io/seok-events/#e140
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e312@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20270323
-DTEND;VALUE=DATE:20270324
-SUMMARY:Musical Arts Series: Dr. Anne-Marie Condacse\, soprano\, and Dr. E
- lena Lyalina\, piano (7:30 PM)
-DESCRIPTION:7:30 PM\nDr. Anne-Marie Condacse\, soprano\, and Dr. Elena Lya
- lina\, piano performs in Southeastern Oklahoma State University's Musical
-  Arts Series.\nhttps://jcow1den.github.io/seok-events/#e312
-LOCATION:Fine Arts Recital Hall\, Southeastern Oklahoma State University\,
-  Fine Arts Recital Hall\, Southeastern Oklahoma State University\, Durant
- \, OK
-URL:https://jcow1den.github.io/seok-events/#e312
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e313@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20270402
-DTEND;VALUE=DATE:20270404
-SUMMARY:Celebrity Chef Takeover with Lorena Garcia
-DESCRIPTION:Seatings at 5:00 PM and 7:30 PM\nTwo-night multi-course dinner
-  with chef Lorena Garcia blending Latin influences with contemporary tech
- nique. Tables for two are $250 and tables for four are $500.\nhttps://jco
- w1den.github.io/seok-events/#e313
-LOCATION:Seven Ponies\, Choctaw Casino & Resort – Pocola\, 3400 Choctaw 
- Rd\, Pocola\, OK 74902
-URL:https://jcow1den.github.io/seok-events/#e313
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e314@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20270403
-DTEND;VALUE=DATE:20270404
-SUMMARY:First Saturday at the Forest Heritage Center (10:00 AM – 3:00 PM
- )
-DESCRIPTION:10:00 AM – 3:00 PM\nFree hands-on program that may include f
- orestry\, wildlife\, conservation\, traditional crafts and local history.
- \nhttps://jcow1den.github.io/seok-events/#e314
-LOCATION:Forest Heritage Center\, Beavers Bend State Park\, 4350 S State H
- wy 259A\, Broken Bow\, OK 74728
-URL:https://jcow1den.github.io/seok-events/#e314
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e342@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20270409
-DTEND;VALUE=DATE:20270410
-SUMMARY:Emily Ann Roberts (8:00 PM)
-DESCRIPTION:8:00 PM\nCountry singer Emily Ann Roberts in concert.\nhttps:/
- /jcow1den.github.io/seok-events/#e342
-LOCATION:Choctaw Grand Theater\, Choctaw Casino & Resort\, 4216 S Hwy 69/7
- 5\, Durant\, OK 74701
-URL:https://jcow1den.github.io/seok-events/#e342
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e315@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20270410
-DTEND;VALUE=DATE:20270411
-SUMMARY:Musical Arts Series: Dr. Tommy Poole Jazz Ensemble (4:00 PM)
-DESCRIPTION:4:00 PM\nDr. Tommy Poole Jazz Ensemble performs in Southeaster
- n Oklahoma State University's Musical Arts Series.\nhttps://jcow1den.gith
- ub.io/seok-events/#e315
-LOCATION:Fine Arts Recital Hall\, Southeastern Oklahoma State University\,
-  Fine Arts Recital Hall\, Southeastern Oklahoma State University\, Durant
- \, OK
-URL:https://jcow1den.github.io/seok-events/#e315
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e316@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20270411
-DTEND;VALUE=DATE:20270412
-SUMMARY:50 Shades of Pink 6K(ish) Walk/Hike/Run (9:00 AM – 12:00 PM)
-DESCRIPTION:9:00 AM – 12:00 PM\nMostly walking fundraiser of about 4.3 m
- iles through Beavers Bend for breast cancer research\; participants dress
-  in pink.\nConfirm details with the host before you go.\nhttps://jcow1den
- .github.io/seok-events/#e316
-LOCATION:Girls Gone Wine\, 10216 N US Hwy 259\, Broken Bow\, OK 74728
-URL:https://jcow1den.github.io/seok-events/#e316
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e141@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20270417
-DTEND;VALUE=DATE:20270418
-SUMMARY:Matt Mathews: Not What I Ordered World Tour (4:30 PM and 8:00 PM)
-DESCRIPTION:4:30 PM and 8:00 PM\nComedian Matt Mathews\, two shows.\nhttps
- ://jcow1den.github.io/seok-events/#e141
-LOCATION:Choctaw Grand Theater\, Choctaw Casino & Resort\, 4216 S Hwy 69/7
- 5\, Durant\, OK 74701
-URL:https://jcow1den.github.io/seok-events/#e141
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e184@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20270424
-DTEND;VALUE=DATE:20270425
-SUMMARY:Joe Pug (7:00 PM)
-DESCRIPTION:7:00 PM\nSinger-songwriter Joe Pug live.\nConfirm details with
-  the host before you go.\nhttps://jcow1den.github.io/seok-events/#e184
-LOCATION:Spaceship Earth Coffee Co\, 345 E Choctaw Ave\, McAlester\, OK
-URL:https://jcow1den.github.io/seok-events/#e184
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e317@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20270501
-DTEND;VALUE=DATE:20270502
-SUMMARY:First Saturday at the Forest Heritage Center (10:00 AM – 3:00 PM
- )
-DESCRIPTION:10:00 AM – 3:00 PM\nFree hands-on program that may include f
- orestry\, wildlife\, conservation\, traditional crafts and local history.
- \nhttps://jcow1den.github.io/seok-events/#e317
-LOCATION:Forest Heritage Center\, Beavers Bend State Park\, 4350 S State H
- wy 259A\, Broken Bow\, OK 74728
-URL:https://jcow1den.github.io/seok-events/#e317
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e318@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20270507
-DTEND;VALUE=DATE:20270509
-SUMMARY:55th Annual McAlester Italian Festival
-DESCRIPTION:Fri 11:00 AM - 11:00 PM\; Sat 10:00 AM - 10:00 PM\nTwo-day fes
- tival with indoor and outdoor vendors\, Italian food\, live music and car
- nival rides. Admission is free.\nConfirm details with the host before you
-  go.\nhttps://jcow1den.github.io/seok-events/#e318
-LOCATION:Southeast Expo Center and Motor Speedway\, 4500 US-270\, McAleste
- r\, OK 74501
-URL:https://jcow1den.github.io/seok-events/#e318
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e319@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20270605
-DTEND;VALUE=DATE:20270606
-SUMMARY:First Saturday at the Forest Heritage Center (10:00 AM – 3:00 PM
- )
-DESCRIPTION:10:00 AM – 3:00 PM\nFree hands-on program that may include f
- orestry\, wildlife\, conservation\, traditional crafts and local history.
- \nhttps://jcow1den.github.io/seok-events/#e319
-LOCATION:Forest Heritage Center\, Beavers Bend State Park\, 4350 S State H
- wy 259A\, Broken Bow\, OK 74728
-URL:https://jcow1den.github.io/seok-events/#e319
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e320@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20270605
-DTEND;VALUE=DATE:20270606
-SUMMARY:Stomp Dance at the Kullihoma Grounds (8:30 PM - midnight)
-DESCRIPTION:8:30 PM - midnight\nA Chickasaw stomp dance at the Kullihoma G
- rounds east of Ada. The Chickasaw Nation says it is open to the public an
- d all ages are welcome.\nhttps://jcow1den.github.io/seok-events/#e320
-LOCATION:Kullihoma Grounds\, Kullihoma Grounds\, 13078 County Road 3680\, 
- Allen\, OK 74825
-URL:https://jcow1den.github.io/seok-events/#e320
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e321@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20270703
-DTEND;VALUE=DATE:20270704
-SUMMARY:First Saturday at the Forest Heritage Center (10:00 AM – 3:00 PM
- )
-DESCRIPTION:10:00 AM – 3:00 PM\nFree hands-on program that may include f
- orestry\, wildlife\, conservation\, traditional crafts and local history.
- \nhttps://jcow1den.github.io/seok-events/#e321
-LOCATION:Forest Heritage Center\, Beavers Bend State Park\, 4350 S State H
- wy 259A\, Broken Bow\, OK 74728
-URL:https://jcow1den.github.io/seok-events/#e321
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e322@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20270717
-DTEND;VALUE=DATE:20270719
-SUMMARY:Stomp Dance at the Kullihoma Grounds
-DESCRIPTION:9:00 PM - 6:00 AM\nA Chickasaw stomp dance at the Kullihoma Gr
- ounds east of Ada. The Chickasaw Nation says it is open to the public and
-  all ages are welcome.\nhttps://jcow1den.github.io/seok-events/#e322
-LOCATION:Kullihoma Grounds\, Kullihoma Grounds\, 13078 County Road 3680\, 
- Allen\, OK 74825
-URL:https://jcow1den.github.io/seok-events/#e322
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e323@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20270807
-DTEND;VALUE=DATE:20270808
-SUMMARY:First Saturday at the Forest Heritage Center (10:00 AM – 3:00 PM
- )
-DESCRIPTION:10:00 AM – 3:00 PM\nFree hands-on program that may include f
- orestry\, wildlife\, conservation\, traditional crafts and local history.
- \nhttps://jcow1den.github.io/seok-events/#e323
-LOCATION:Forest Heritage Center\, Beavers Bend State Park\, 4350 S State H
- wy 259A\, Broken Bow\, OK 74728
-URL:https://jcow1den.github.io/seok-events/#e323
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e324@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20270814
-DTEND;VALUE=DATE:20270815
-SUMMARY:Stomp Dance at the Kullihoma Grounds (9:00 PM - midnight)
-DESCRIPTION:9:00 PM - midnight\nA Chickasaw stomp dance at the Kullihoma G
- rounds east of Ada. The Chickasaw Nation says it is open to the public an
- d all ages are welcome.\nhttps://jcow1den.github.io/seok-events/#e324
-LOCATION:Kullihoma Grounds\, Kullihoma Grounds\, 13078 County Road 3680\, 
- Allen\, OK 74825
-URL:https://jcow1den.github.io/seok-events/#e324
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e325@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20270904
-DTEND;VALUE=DATE:20270905
-SUMMARY:First Saturday at the Forest Heritage Center (10:00 AM – 3:00 PM
- )
-DESCRIPTION:10:00 AM – 3:00 PM\nFree hands-on program that may include f
- orestry\, wildlife\, conservation\, traditional crafts and local history.
- \nhttps://jcow1den.github.io/seok-events/#e325
-LOCATION:Forest Heritage Center\, Beavers Bend State Park\, 4350 S State H
- wy 259A\, Broken Bow\, OK 74728
-URL:https://jcow1den.github.io/seok-events/#e325
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e326@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20270924
-DTEND;VALUE=DATE:20270925
-SUMMARY:Stomp Dance at the Kullihoma Grounds (8:00 PM - midnight)
-DESCRIPTION:8:00 PM - midnight\nA Chickasaw stomp dance at the Kullihoma G
- rounds east of Ada. The Chickasaw Nation says it is open to the public an
- d all ages are welcome.\nhttps://jcow1den.github.io/seok-events/#e326
-LOCATION:Kullihoma Grounds\, Kullihoma Grounds\, 13078 County Road 3680\, 
- Allen\, OK 74825
-URL:https://jcow1den.github.io/seok-events/#e326
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e327@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20271002
-DTEND;VALUE=DATE:20271003
-SUMMARY:First Saturday at the Forest Heritage Center (10:00 AM – 3:00 PM
- )
-DESCRIPTION:10:00 AM – 3:00 PM\nFree hands-on program that may include f
- orestry\, wildlife\, conservation\, traditional crafts and local history.
- \nhttps://jcow1den.github.io/seok-events/#e327
-LOCATION:Forest Heritage Center\, Beavers Bend State Park\, 4350 S State H
- wy 259A\, Broken Bow\, OK 74728
-URL:https://jcow1den.github.io/seok-events/#e327
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e328@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20271002
-DTEND;VALUE=DATE:20271003
-SUMMARY:Holdenville Fall Festival & Car Show (Time to be announced)
-DESCRIPTION:Time to be announced\nA fall festival and car show on Main Str
- eet in Holdenville.\nConfirm details with the host before you go.\nhttps:
- //jcow1den.github.io/seok-events/#e328
-LOCATION:Main Street\, Holdenville\, Main Street\, Holdenville\, OK
-URL:https://jcow1den.github.io/seok-events/#e328
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e329@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20271112
-DTEND;VALUE=DATE:20271115
-SUMMARY:Beavers Bend Folk Festival & Craft Show
-DESCRIPTION:Time to be announced\nAnnual three-day folk festival with demo
- nstrations of early-1900s crafts such as woodturning and papermaking.\nht
- tps://jcow1den.github.io/seok-events/#e329
-LOCATION:Forest Heritage Center\, Beavers Bend State Park\, 4350 S State H
- wy 259A\, Broken Bow\, OK 74728
-URL:https://jcow1den.github.io/seok-events/#e329
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e330@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20271204
-DTEND;VALUE=DATE:20271205
-SUMMARY:First Saturday at the Forest Heritage Center (10:00 AM – 3:00 PM
- )
-DESCRIPTION:10:00 AM – 3:00 PM\nFree hands-on program that may include f
- orestry\, wildlife\, conservation\, traditional crafts and local history.
- \nhttps://jcow1den.github.io/seok-events/#e330
-LOCATION:Forest Heritage Center\, Beavers Bend State Park\, 4350 S State H
- wy 259A\, Broken Bow\, OK 74728
-URL:https://jcow1den.github.io/seok-events/#e330
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e568@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261126
-DTEND;VALUE=DATE:20261127
-SUMMARY:Thanksgiving Buffet at Chop House (11:00 AM-7:00 PM)
-DESCRIPTION:11:00 AM-7:00 PM\nThanksgiving buffet at Chop House. Reservati
- ons: https://bit.ly/3P2v8xQ\nhttps://jcow1den.github.io/seok-events/#e568
-LOCATION:Chop House\, Choctaw Casino & Resort – Grant\, 1516 US-271\, Gr
- ant\, OK 74738
-URL:https://jcow1den.github.io/seok-events/#e568
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e569@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261213
-DTEND;VALUE=DATE:20261214
-SUMMARY:Elvis Christmas Spectacular with Kraig Parker (3:00 PM)
-DESCRIPTION:3:00 PM\nKraig Parker presents a world-premiere Elvis Christma
- s tribute show.\nhttps://jcow1den.github.io/seok-events/#e569
-LOCATION:Choctaw Grand Theater\, Choctaw Casino & Resort\, 4216 S Hwy 69/7
- 5\, Durant\, OK 74701
-URL:https://jcow1den.github.io/seok-events/#e569
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e573@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261127
-DTEND;VALUE=DATE:20261128
-SUMMARY:Christmas Tree Lighting (6:30 PM)
-DESCRIPTION:6:30 PM\nCommunity Christmas tree lighting at Freedom Ford.\nh
- ttps://jcow1den.github.io/seok-events/#e573
-LOCATION:Sam Wampler's Freedom Ford\, 720 S George Nigh Expy\, McAlester\,
-  OK 74501
-URL:https://jcow1den.github.io/seok-events/#e573
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e575@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261231
-DTEND;VALUE=DATE:20270101
-SUMMARY:Aaron Owens New Year's Eve (9:00 PM)
-DESCRIPTION:9:00 PM\nNew Year's Eve with Aaron Owens at Hochatown Saloon.\
- nhttps://jcow1den.github.io/seok-events/#e575
-LOCATION:Hochatown Saloon\, 28 Old Hochatown Rd\, Broken Bow\, OK 74728
-URL:https://jcow1den.github.io/seok-events/#e575
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e580@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261219
-DTEND;VALUE=DATE:20261220
-SUMMARY:Wreaths Across America Wreath Laying Ceremony (11:00 AM)
-DESCRIPTION:11:00 AM\nAnnual Wreaths Across America ceremony honoring vete
- rans with the ceremonial placement of remembrance wreaths\, hosted by the
-  Daughters of the American Revolution and the Sons of the American Revolu
- tion.\nhttps://jcow1den.github.io/seok-events/#e580
-LOCATION:Unknown Soldier Pavilion\, Oak Hill Cemetery\, 1708 E Carl Albert
-  Pkwy\, McAlester\, OK 74501
-URL:https://jcow1den.github.io/seok-events/#e580
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e581@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261206
-DTEND;VALUE=DATE:20261207
-SUMMARY:Annual Polar Express Brunch (10:00 AM-2:00 PM)
-DESCRIPTION:10:00 AM-2:00 PM\nAll aboard for the annual Polar Express Brun
- ch with gourmet hot chocolate in adult and kid versions. Wear your PJs.\n
- https://jcow1den.github.io/seok-events/#e581
-LOCATION:Tulip & Table\, 306 S Main St\, Eufaula\, OK 74432
-URL:https://jcow1den.github.io/seok-events/#e581
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e582@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261205
-DTEND;VALUE=DATE:20261206
-SUMMARY:The Holiday Hustle 5K (8:00 AM-12:00 PM)
-DESCRIPTION:8:00 AM-12:00 PM\nHoliday vendor market 8 AM-12 PM\, Jingle Jo
- g 1-mile at 9 AM\, and Holiday Hustle 5K at 10 AM. Race check-in begins a
- t 8 AM. Entry $20 for 18 and up\, $10 for ages 5-17\, free for 4 and unde
- r.\nhttps://jcow1den.github.io/seok-events/#e582
-LOCATION:Coal County Fair Barn\, 101 SW Fair Barn Rd\, Coalgate\, OK 74538
-URL:https://jcow1den.github.io/seok-events/#e582
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e583@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261201
-DTEND;VALUE=DATE:20261202
-SUMMARY:"Let the Wookiee Win" Chess Night (6:00 PM)
-DESCRIPTION:6:00 PM\nMonthly chess night aboard Spaceship Earth. Each play
- er tracks wins and losses through the night.\nhttps://jcow1den.github.io/
- seok-events/#e583
-LOCATION:Spaceship Earth Coffee\, 345 E Choctaw Ave\, McAlester\, OK 74501
-URL:https://jcow1den.github.io/seok-events/#e583
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e585@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261124
-DTEND;VALUE=DATE:20261125
-SUMMARY:100 Turkeys. 100 Families. (6:00 PM)
-DESCRIPTION:6:00 PM\nFree turkeys for 100 local families\, open to the pub
- lic with no purchase or medical card required. One turkey per household\,
-  first come first served while supplies last\, bring ID.\nhttps://jcow1de
- n.github.io/seok-events/#e585
-LOCATION:Synergy Dispensary\, 113 W 1st St\, Broken Bow\, OK 74728
-URL:https://jcow1den.github.io/seok-events/#e585
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e586@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261203
-DTEND;VALUE=DATE:20261204
-SUMMARY:WonderLight Lantern Festival (5:30-8:30 PM)
-DESCRIPTION:5:30-8:30 PM\nWalk through more than 100 luminous lantern disp
- lays with glowing stilt walkers\, aerialists and light-up dance performan
- ces. Tickets online only at wonderlightusa.com\, one per person\, same-da
- y re-entry included.\nhttps://jcow1den.github.io/seok-events/#e586
-LOCATION:Southeast Expo Center\, 4500 W US-270\, McAlester\, OK 74501
-URL:https://jcow1den.github.io/seok-events/#e586
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e587@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261205
-DTEND;VALUE=DATE:20261206
-SUMMARY:Christmas on Main (10:00 AM-4:00 PM)
-DESCRIPTION:10:00 AM-4:00 PM\nAda Main Street hosts a full day downtown wi
- th a Ferris wheel\, carriage rides\, hayride\, barrel train\, inflatables
-  and food trucks. Santa and face painting at The Venue on Main\, Christma
- s movies at the McSwain Theatre 4-7 PM\, then the Pat Taylor Memorial Par
- ade of Lights at 7 PM.\nhttps://jcow1den.github.io/seok-events/#e587
-LOCATION:Downtown Ada (The Venue on Main)\, 116 W Main St\, Ada\, OK 74820
-URL:https://jcow1den.github.io/seok-events/#e587
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e588@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261127
-DTEND;VALUE=DATE:20261230
-SUMMARY:2026 Festival of Trees
-DESCRIPTION:10:00 AM\nBusinesses\, schools and community groups decorate t
- rees at the museum for judging on Nov 27. The display stays open through 
- Dec 29\, with a Peoples Choice vote decided Dec 19.\nhttps://jcow1den.git
- hub.io/seok-events/#e588
-LOCATION:Museum of the Red River\, 812 E Lincoln Rd\, Idabel\, OK 74745
-URL:https://jcow1den.github.io/seok-events/#e588
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e589@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261128
-DTEND;VALUE=DATE:20261129
-SUMMARY:Small Business Saturday at The Social House (12:00-6:00 PM)
-DESCRIPTION:12:00-6:00 PM\nDowntown Hugo hosts local vendors and makers fo
- r Small Business Saturday with free admission. A free family movie night 
- follows at 6 PM with hot cocoa.\nhttps://jcow1den.github.io/seok-events/#
- e589
-LOCATION:The Social House\, 208 N 2nd St\, Hugo\, OK 74743
-URL:https://jcow1den.github.io/seok-events/#e589
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e590@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261129
-DTEND;VALUE=DATE:20261130
-SUMMARY:Christmas at Yanush - Light Up Christmas! (6:00-8:00 PM)
-DESCRIPTION:6:00-8:00 PM\nYanush Assembly of God flips on its Christmas li
- ghts for drive-through or walk-through viewing with hot chocolate and can
- dy canes. Free Christmas dinner baskets for families of four while they l
- ast.\nhttps://jcow1den.github.io/seok-events/#e590
-LOCATION:Yanush Assembly of God\, 14088 SE Hwy 2\, Tuskahoma\, OK 74574
-URL:https://jcow1den.github.io/seok-events/#e590
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e591@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261212
-DTEND;VALUE=DATE:20261213
-SUMMARY:Christmas in Hochatown 2026 (3:30 PM)
-DESCRIPTION:3:30 PM\nChoctaw Landing hosts a Christmas market and activity
-  walk with live stage entertainment\, a kids slime bar\, photo booth\, ch
- aracter parade\, and Santa and Mrs. Claus story time.\nhttps://jcow1den.g
- ithub.io/seok-events/#e591
-LOCATION:Choctaw Landing\, 272 N State Highway 259A\, Broken Bow\, OK 7472
- 8
-URL:https://jcow1den.github.io/seok-events/#e591
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e592@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261221
-DTEND;VALUE=DATE:20261222
-SUMMARY:Sip\, Sit\, & Celebrate! (5:30 PM)
-DESCRIPTION:5:30 PM\nWatch the McAlester $10K Drawing broadcast from DWNTW
- N312 with Christmas cookies and hot cocoa. General admission $12\, VIP ta
- bles for 4 or 6 include drawing tickets and food. Advance tickets and foo
- d orders close Dec 16.\nhttps://jcow1den.github.io/seok-events/#e592
-LOCATION:DWNTWN312\, 312 E Choctaw Ave\, McAlester\, OK 74501
-URL:https://jcow1den.github.io/seok-events/#e592
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e593@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261221
-DTEND;VALUE=DATE:20261222
-SUMMARY:Blue Christmas Service (6:00-7:00 PM)
-DESCRIPTION:6:00-7:00 PM\nA quiet\, contemplative holiday service for anyo
- ne carrying grief\, anger\, doubt or fear this season. All are welcome.\n
- https://jcow1den.github.io/seok-events/#e593
-LOCATION:All Saints Episcopal Church\, 325 E Washington Ave\, McAlester\, 
- OK 74501
-URL:https://jcow1den.github.io/seok-events/#e593
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e594@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261205
-DTEND;VALUE=DATE:20261206
-SUMMARY:Christmas Market (9:00 AM-3:00 PM)
-DESCRIPTION:9:00 AM-3:00 PM\nMore than 70 small businesses sell indoors at
-  the Agriplex for Christmas shopping. Free admission.\nhttps://jcow1den.g
- ithub.io/seok-events/#e594
-LOCATION:Pontotoc County Agriplex Convention Center\, 1710 N Broadway\, Ad
- a\, OK 74820
-URL:https://jcow1den.github.io/seok-events/#e594
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e595@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261205
-DTEND;VALUE=DATE:20261206
-SUMMARY:Ladies Of Freedom Christmas Tea (10:00 AM-2:00 PM)
-DESCRIPTION:10:00 AM-2:00 PM\nFree ladies Christmas tea for ages 12 and up
-  with coffee bar\, tea luncheon\, worship\, door prizes and an ornament e
- xchange. Doors open at 9:30 AM\, bring a dish to share and a wrapped orna
- ment.\nhttps://jcow1den.github.io/seok-events/#e595
-LOCATION:Morris Assembly of God\, 206 N Hughes Ave\, Morris\, OK 74445
-URL:https://jcow1den.github.io/seok-events/#e595
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:e597@seok-events
-DTSTAMP:20261124T145552Z
+DTSTAMP:20261126T145008Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261129
 SUMMARY:Shop Small Henryetta
@@ -2401,8 +71,61 @@ URL:https://jcow1den.github.io/seok-events/#e597
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:e152@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Thanksgiving Meal Giveaway (See host for time)
+DESCRIPTION:See host for time\nThe annual Pittsburg County Elected Officia
+ ls Thanksgiving meal giveaway.\nhttps://jcow1den.github.io/seok-events/#e
+ 152
+LOCATION:Southeast Expo Center\, 4500 W US-270\, McAlester\, OK 74501
+URL:https://jcow1den.github.io/seok-events/#e152
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e275@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Hochatown Turkey Trot (8:00 AM)
+DESCRIPTION:8:00 AM\nThanksgiving morning 5K run/walk with a 1-mile kids f
+ un run. Registration details to be announced.\nConfirm details with the h
+ ost before you go.\nhttps://jcow1den.github.io/seok-events/#e275
+LOCATION:Hochatown\, Hochatown\, Broken Bow\, OK
+URL:https://jcow1den.github.io/seok-events/#e275
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e548@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Thanksgiving Buffet at Tuklo Grill (10:00 AM-10:00 PM)
+DESCRIPTION:10:00 AM-10:00 PM\nThanksgiving buffet filled with holiday fav
+ orites. Reservations: 580-380-9483.\nhttps://jcow1den.github.io/seok-even
+ ts/#e548
+LOCATION:Choctaw Landing Casino and Resort\, 272 N State Hwy 259A\, Broken
+  Bow\, OK 74728
+URL:https://jcow1den.github.io/seok-events/#e548
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e568@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Thanksgiving Buffet at Chop House (11:00 AM-7:00 PM)
+DESCRIPTION:11:00 AM-7:00 PM\nThanksgiving buffet at Chop House. Reservati
+ ons: https://bit.ly/3P2v8xQ\nhttps://jcow1den.github.io/seok-events/#e568
+LOCATION:Chop House\, Choctaw Casino & Resort – Grant\, 1516 US-271\, Gr
+ ant\, OK 74738
+URL:https://jcow1den.github.io/seok-events/#e568
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:e599@seok-events
-DTSTAMP:20261124T145552Z
+DTSTAMP:20261126T145008Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Thanksgiving Late Night Shopping (5:00 PM-9:00 PM)
@@ -2416,7 +139,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e600@seok-events
-DTSTAMP:20261124T145552Z
+DTSTAMP:20261126T145008Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Thanksgiving Dinner at The Knotty Pine (6:00 PM)
@@ -2429,8 +152,364 @@ URL:https://jcow1den.github.io/seok-events/#e600
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:e276@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Music on Main: Southeast Remedy (4:00 PM – 6:00 PM)
+DESCRIPTION:4:00 PM – 6:00 PM\nFree Music on Main concert in downtown Br
+ oken Bow featuring Southeast Remedy.\nhttps://jcow1den.github.io/seok-eve
+ nts/#e276
+LOCATION:Main Street\, Broken Bow\, Main Street\, Broken Bow\, OK 74728
+URL:https://jcow1den.github.io/seok-events/#e276
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e355@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Enter Eden Live at Choctaw Landing (2:00 PM – 5:00 PM)
+DESCRIPTION:2:00 PM – 5:00 PM\nEnter Eden plays live on the Cypress Lawn
+  at Choctaw Landing.\nhttps://jcow1den.github.io/seok-events/#e355
+LOCATION:Cypress Lawn\, Choctaw Landing\, 272 N State Highway 259A\, Hocha
+ town\, OK 74728
+URL:https://jcow1den.github.io/seok-events/#e355
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e387@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Dusty Holster Band at Mountain Fork Brewery (6:30 PM)
+DESCRIPTION:6:30 PM\nLive music from Dusty Holster Band in the Mountain Fo
+ rk Brewery taproom.\nConfirm details with the host before you go.\nhttps:
+ //jcow1den.github.io/seok-events/#e387
+LOCATION:Mountain Fork Brewery Taproom\, Mountain Fork Brewery Taproom\, H
+ ochatown\, OK
+URL:https://jcow1den.github.io/seok-events/#e387
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e500@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Dalton Shackelford at Reba's Place (5:00 PM)
+DESCRIPTION:5:00 PM\nDalton Shackelford plays the night after Thanksgiving
+  at Reba's Place\, a good excuse to get out of the house and let somebody
+  else do the cooking.\nhttps://jcow1den.github.io/seok-events/#e500
+LOCATION:Reba's Place\, 301 E Court St\, Atoka\, OK 74525
+URL:https://jcow1den.github.io/seok-events/#e500
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e573@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Christmas Tree Lighting (6:30 PM)
+DESCRIPTION:6:30 PM\nCommunity Christmas tree lighting at Freedom Ford.\nh
+ ttps://jcow1den.github.io/seok-events/#e573
+LOCATION:Sam Wampler's Freedom Ford\, 720 S George Nigh Expy\, McAlester\,
+  OK 74501
+URL:https://jcow1den.github.io/seok-events/#e573
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e588@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261230
+SUMMARY:2026 Festival of Trees
+DESCRIPTION:10:00 AM\nBusinesses\, schools and community groups decorate t
+ rees at the museum for judging on Nov 27. The display stays open through 
+ Dec 29\, with a Peoples Choice vote decided Dec 19.\nhttps://jcow1den.git
+ hub.io/seok-events/#e588
+LOCATION:Museum of the Red River\, 812 E Lincoln Rd\, Idabel\, OK 74745
+URL:https://jcow1den.github.io/seok-events/#e588
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e631@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Black Friday Gravel Adventure
+DESCRIPTION:8:30 AM\nUnsupported gravel ride up to 45 miles with shorter o
+ ut-and-back options. Meet at 8:30 AM at Spaceship Earth Coffee to convoy 
+ to the start\; coffee opens at 8 AM. Bring what you need to eat\, drink\,
+  and get yourself out of a bind.\nhttps://jcow1den.github.io/seok-events/
+ #e631
+LOCATION:Spaceship Earth Coffee\, 345 E Choctaw Ave\, McAlester\, OK 74501
+URL:https://jcow1den.github.io/seok-events/#e631
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e130@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Chase Matthew: Holdin' It Down Tour (8:00 PM)
+DESCRIPTION:8:00 PM\nCountry artist Chase Matthew with Tayler Holder.\nhtt
+ ps://jcow1den.github.io/seok-events/#e130
+LOCATION:Choctaw Grand Theater\, Choctaw Casino & Resort\, 4216 S Hwy 69/7
+ 5\, Durant\, OK 74701
+URL:https://jcow1den.github.io/seok-events/#e130
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e277@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Small Business Saturday in Broken Bow (10:00 AM)
+DESCRIPTION:10:00 AM\nShop-local Small Business Saturday promoted by the B
+ roken Bow Area Chamber of Commerce.\nhttps://jcow1den.github.io/seok-even
+ ts/#e277
+LOCATION:Downtown Broken Bow\, Downtown Broken Bow\, Broken Bow\, OK 74728
+URL:https://jcow1den.github.io/seok-events/#e277
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e278@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Chelcie Lynn "Trailer Trash Tammy" (Doors 7:00 PM\, show 8:00 PM)
+DESCRIPTION:Doors 7:00 PM\, show 8:00 PM\nComedian Chelcie Lynn performs a
+ s her character Trailer Trash Tammy.\nhttps://jcow1den.github.io/seok-eve
+ nts/#e278
+LOCATION:Stage 271\, Choctaw Casino & Resort – Grant\, 1516 US-271\, Gra
+ nt\, OK 74738
+URL:https://jcow1den.github.io/seok-events/#e278
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e279@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Final Destruction: Metal vs Metal (2:00 PM)
+DESCRIPTION:2:00 PM\nDestruction racing with camper\, boat and mini stock 
+ races plus burnout and jump contests. Children 12 and under free.\nConfir
+ m details with the host before you go.\nhttps://jcow1den.github.io/seok-e
+ vents/#e279
+LOCATION:Tri-State Speedway\, 1705 W Race Track Rd\, Pocola\, OK 74902
+URL:https://jcow1den.github.io/seok-events/#e279
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e281@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Native American Christmas Fair (9:00 AM - 4:00 PM)
+DESCRIPTION:9:00 AM - 4:00 PM\nA Christmas fair held at the Wheelock Acade
+ my Historic Site near Garvin.\nhttps://jcow1den.github.io/seok-events/#e2
+ 81
+LOCATION:Wheelock Academy Historic Site\, 1377 Wheelock Rd\, Garvin\, OK 7
+ 4736
+URL:https://jcow1den.github.io/seok-events/#e281
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e282@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Connor Blaze at Doc's Food Truck Park (7:00 PM)
+DESCRIPTION:7:00 PM\nConnor Blaze performs live at Doc's Food Truck Park i
+ n Ada.\nConfirm details with the host before you go.\nhttps://jcow1den.gi
+ thub.io/seok-events/#e282
+LOCATION:Doc's Food Truck Park\, Doc's Food Truck Park\, Ada\, OK
+URL:https://jcow1den.github.io/seok-events/#e282
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e283@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20270101
+SUMMARY:Celebration of Lights
+DESCRIPTION:6:00 – 9:00 PM nightly\nFree drive through light display on 
+ the Chickasaw Cultural Center grounds\, with traditional Christmas scenes
+  and Chickasaw cultural pieces. Free candy canes.\nhttps://jcow1den.githu
+ b.io/seok-events/#e283
+LOCATION:Chickasaw Cultural Center\, 867 Cooper Memorial Dr\, Sulphur\, OK
+  73086
+URL:https://jcow1den.github.io/seok-events/#e283
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e339@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Cinema at the Center: Megamind (Time to be announced)
+DESCRIPTION:Time to be announced\nFree movie day with snacks at the Chocta
+ w Cultural Center.\nhttps://jcow1den.github.io/seok-events/#e339
+LOCATION:Choctaw Cultural Center\, 1919 Hina Hanta Way\, Calera\, OK 74730
+URL:https://jcow1den.github.io/seok-events/#e339
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e356@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Southeast Remedy Live at Choctaw Landing (2:00 PM – 5:00 PM)
+DESCRIPTION:2:00 PM – 5:00 PM\nSoutheast Remedy plays live on the Cypres
+ s Lawn at Choctaw Landing.\nhttps://jcow1den.github.io/seok-events/#e356
+LOCATION:Cypress Lawn\, Choctaw Landing\, 272 N State Highway 259A\, Hocha
+ town\, OK 74728
+URL:https://jcow1den.github.io/seok-events/#e356
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e357@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Shop Small Saturday in Downtown Durant (Time to be announced)
+DESCRIPTION:Time to be announced\nShop Small Saturday in Durant's historic
+  downtown\, listed by Durant Main Street.\nhttps://jcow1den.github.io/seo
+ k-events/#e357
+LOCATION:Historic Downtown Durant\, Historic Downtown Durant\, Durant\, OK
+URL:https://jcow1den.github.io/seok-events/#e357
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e361@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Great McAlester Snowball Fight and McWinter Wonderland Opening (1:
+ 00 PM)
+DESCRIPTION:1:00 PM\nThe first Great McAlester Snowball Fight opens the Sa
+ nta's Workshop zone on Choctaw Avenue. McWinter Wonderland's two Christma
+ s zones\, Santa's Workshop on Choctaw and A Vintage Christmas in Olde Tow
+ n\, run Saturdays through Dec 19.\nhttps://jcow1den.github.io/seok-events
+ /#e361
+LOCATION:Choctaw Ave between Main St and 2nd St\, E Choctaw Ave\, McAleste
+ r\, OK 74501
+URL:https://jcow1den.github.io/seok-events/#e361
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e388@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Savage Hurley at Mountain Fork Brewery (6:30 PM)
+DESCRIPTION:6:30 PM\nLive music from Savage Hurley in the Mountain Fork Br
+ ewery taproom.\nConfirm details with the host before you go.\nhttps://jco
+ w1den.github.io/seok-events/#e388
+LOCATION:Mountain Fork Brewery Taproom\, Mountain Fork Brewery Taproom\, H
+ ochatown\, OK
+URL:https://jcow1den.github.io/seok-events/#e388
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e401@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:The Swon Brothers 9th Annual Thanksgiving Show (Doors 6:30 PM\, di
+ nner 7:00 PM\, show 8:00 PM)
+DESCRIPTION:Doors 6:30 PM\, dinner 7:00 PM\, show 8:00 PM\nThe Swon Brothe
+ rs' Thanksgiving weekend show. Tickets include a reserved seat and a smok
+ ed pork dinner with sides.\nhttps://jcow1den.github.io/seok-events/#e401
+LOCATION:The Doghouse at Ole Red Tishomingo\, 214 W Main St\, Tishomingo\,
+  OK 73460
+URL:https://jcow1den.github.io/seok-events/#e401
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e436@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Shop Small Saturday (10:00 AM – 2:00 PM)
+DESCRIPTION:10:00 AM – 2:00 PM\nShop the locally owned stores around the
+  Okmulgee square on Small Business Saturday.\nhttps://jcow1den.github.io/
+ seok-events/#e436
+LOCATION:Downtown Okmulgee\, 100 E 6th St\, Okmulgee\, OK 74447
+URL:https://jcow1den.github.io/seok-events/#e436
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e444@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261130
+SUMMARY:Stilly Boys Nationals
+DESCRIPTION:Two day kids folkstyle tournament with open\, novice and girls
+  brackets\, hosted by the Stilly Boys. Sign up is open now on BoutBoard.\
+ nhttps://jcow1den.github.io/seok-events/#e444
+LOCATION:Choctaw Casino & Resort\, 4216 S US 69\, Durant\, OK 74701
+URL:https://jcow1den.github.io/seok-events/#e444
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e445@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Harvest Hammer (Starts 8 AM)
+DESCRIPTION:Starts 8 AM\nOKWA kids tournament with open\, novice and girls
+  brackets from 6U to 15U. Online sign up is $25 and closes Nov 25.\nhttps
+ ://jcow1den.github.io/seok-events/#e445
+LOCATION:Bethel\, OK 74724
+URL:https://jcow1den.github.io/seok-events/#e445
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e513@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Silent Book Club (9:30 – 11:30 AM)
+DESCRIPTION:9:30 – 11:30 AM\nBring whatever you're reading\, or borrow s
+ omething from the shelves\, and enjoy a quiet morning of reading with oth
+ er book lovers. No assigned book and no pressure\, just good company.\nht
+ tps://jcow1den.github.io/seok-events/#e513
+LOCATION:Idabel Public Library\, 103 E Main St\, Idabel\, OK 74745
+URL:https://jcow1den.github.io/seok-events/#e513
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e550@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:MTB 101: Intro to McAlester Urban Trails (10:00 AM-12:00 PM)
+DESCRIPTION:10:00 AM-12:00 PM\nTry the trails with loaner bikes and helmet
+ s provided\, plus guided groups at different levels. No experience needed
+ .\nhttps://jcow1den.github.io/seok-events/#e550
+LOCATION:McAlester Urban Trails\, 1500 N Strong Blvd\, McAlester\, OK 7450
+ 1
+URL:https://jcow1den.github.io/seok-events/#e550
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e589@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Small Business Saturday at The Social House (12:00-6:00 PM)
+DESCRIPTION:12:00-6:00 PM\nDowntown Hugo hosts local vendors and makers fo
+ r Small Business Saturday with free admission. A free family movie night 
+ follows at 6 PM with hot cocoa.\nhttps://jcow1den.github.io/seok-events/#
+ e589
+LOCATION:The Social House\, 208 N 2nd St\, Hugo\, OK 74743
+URL:https://jcow1den.github.io/seok-events/#e589
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:e601@seok-events
-DTSTAMP:20261124T145552Z
+DTSTAMP:20261126T145008Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Free Family Movie Night: How the Grinch Stole Christmas (6:00 PM-8
@@ -2445,7 +524,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e602@seok-events
-DTSTAMP:20261124T145552Z
+DTSTAMP:20261126T145008Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Dakota Ragsdill at The Tap (8:00 PM)
@@ -2456,8 +535,162 @@ URL:https://jcow1den.github.io/seok-events/#e602
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:e632-20261128@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:McWinter Wonderland Saturdays
+DESCRIPTION:1:00 PM-5:00 PM\nOpening day for the Santa's Workshop zone dow
+ ntown\, the Vintage Christmas zone in Olde Town\, and holiday pop-up mark
+ ets. Santa is at the Choctaw Ave Bandstand from 1 PM to 3 PM. Every Satur
+ day through Dec 19.\nhttps://jcow1den.github.io/seok-events/#e632
+LOCATION:Downtown Choctaw Ave and Olde Town\, E Choctaw Ave\, McAlester\, 
+ OK 74501
+URL:https://jcow1den.github.io/seok-events/#e632
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e632-20261205@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:McWinter Wonderland Saturdays
+DESCRIPTION:1:00 PM-5:00 PM\nOpening day for the Santa's Workshop zone dow
+ ntown\, the Vintage Christmas zone in Olde Town\, and holiday pop-up mark
+ ets. Santa is at the Choctaw Ave Bandstand from 1 PM to 3 PM. Every Satur
+ day through Dec 19.\nhttps://jcow1den.github.io/seok-events/#e632
+LOCATION:Downtown Choctaw Ave and Olde Town\, E Choctaw Ave\, McAlester\, 
+ OK 74501
+URL:https://jcow1den.github.io/seok-events/#e632
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e632-20261212@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:McWinter Wonderland Saturdays
+DESCRIPTION:1:00 PM-5:00 PM\nOpening day for the Santa's Workshop zone dow
+ ntown\, the Vintage Christmas zone in Olde Town\, and holiday pop-up mark
+ ets. Santa is at the Choctaw Ave Bandstand from 1 PM to 3 PM. Every Satur
+ day through Dec 19.\nhttps://jcow1den.github.io/seok-events/#e632
+LOCATION:Downtown Choctaw Ave and Olde Town\, E Choctaw Ave\, McAlester\, 
+ OK 74501
+URL:https://jcow1den.github.io/seok-events/#e632
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e632-20261219@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:McWinter Wonderland Saturdays
+DESCRIPTION:1:00 PM-5:00 PM\nOpening day for the Santa's Workshop zone dow
+ ntown\, the Vintage Christmas zone in Olde Town\, and holiday pop-up mark
+ ets. Santa is at the Choctaw Ave Bandstand from 1 PM to 3 PM. Every Satur
+ day through Dec 19.\nhttps://jcow1den.github.io/seok-events/#e632
+LOCATION:Downtown Choctaw Ave and Olde Town\, E Choctaw Ave\, McAlester\, 
+ OK 74501
+URL:https://jcow1den.github.io/seok-events/#e632
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e590@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Christmas at Yanush - Light Up Christmas! (6:00-8:00 PM)
+DESCRIPTION:6:00-8:00 PM\nYanush Assembly of God flips on its Christmas li
+ ghts for drive-through or walk-through viewing with hot chocolate and can
+ dy canes. Free Christmas dinner baskets for families of four while they l
+ ast.\nhttps://jcow1den.github.io/seok-events/#e590
+LOCATION:Yanush Assembly of God\, 14088 SE Hwy 2\, Tuskahoma\, OK 74574
+URL:https://jcow1den.github.io/seok-events/#e590
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e340@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:Sulphur Christmas Parade of Lights (6:00 PM – 8:00 PM)
+DESCRIPTION:6:00 PM – 8:00 PM\nLighted floats\, cars\, golf carts\, moto
+ rcycles and horses. The route starts on 12th Street\, heads east on Broad
+ way\, north on 5th\, east on Muskogee and north on 2nd to Vinita Avenue.\
+ nhttps://jcow1den.github.io/seok-events/#e340
+LOCATION:Downtown Sulphur\, 717 W Broadway Ave\, Sulphur\, OK 73086
+URL:https://jcow1den.github.io/seok-events/#e340
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e551@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:Adult Hip Hop Fitness (7 PM)
+DESCRIPTION:7 PM\nEasy-to-learn hip hop moves to iconic hip hop music. Wor
+ k off the Thanksgiving turkey.\nhttps://jcow1den.github.io/seok-events/#e
+ 551
+LOCATION:421 E Cherokee\, McAlester\, OK 74501
+URL:https://jcow1den.github.io/seok-events/#e551
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e144@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:Durant Christmas Parade (7:00 PM)
+DESCRIPTION:7:00 PM\nDowntown Durant's holiday kickoff parade\, always hel
+ d the first Tuesday of December.\nhttps://jcow1den.github.io/seok-events/
+ #e144
+LOCATION:Downtown Durant\, 215 N 4th Ave\, Durant\, OK 74701
+URL:https://jcow1den.github.io/seok-events/#e144
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e166@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:Idabel Christmas Tree Lighting (6:00 – 9:00 PM)
+DESCRIPTION:6:00 – 9:00 PM\nIdabel's Christmas tree lighting.\nConfirm d
+ etails with the host before you go.\nhttps://jcow1den.github.io/seok-even
+ ts/#e166
+LOCATION:Idabel (location to be announced)\, Idabel\, OK
+URL:https://jcow1den.github.io/seok-events/#e166
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e285@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:Holiday Open House at Three Valley Museum (3:00 PM - 7:00 PM)
+DESCRIPTION:3:00 PM - 7:00 PM\nA free open house before the Christmas para
+ de\, with carolers\, cookies and punch\, and the first look at the Ginger
+ bread House Competition display.\nhttps://jcow1den.github.io/seok-events/
+ #e285
+LOCATION:Three Valley Museum\, 401 W Main St\, Durant\, OK 74701
+URL:https://jcow1den.github.io/seok-events/#e285
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e583@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:"Let the Wookiee Win" Chess Night (6:00 PM)
+DESCRIPTION:6:00 PM\nMonthly chess night aboard Spaceship Earth. Each play
+ er tracks wins and losses through the night.\nhttps://jcow1den.github.io/
+ seok-events/#e583
+LOCATION:Spaceship Earth Coffee\, 345 E Choctaw Ave\, McAlester\, OK 74501
+URL:https://jcow1den.github.io/seok-events/#e583
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:e603@seok-events
-DTSTAMP:20261124T145552Z
+DTSTAMP:20261126T145008Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Christmas Open House at Landrum ENT (3:00 PM-6:00 PM)
@@ -2469,8 +702,61 @@ URL:https://jcow1den.github.io/seok-events/#e603
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:e286@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:Trivia Night at Campe' Diem (6:30 PM – 9:00 PM)
+DESCRIPTION:6:30 PM – 9:00 PM\nTrivia night at Campe' Diem\, listed on t
+ he Broken Bow chamber calendar.\nhttps://jcow1den.github.io/seok-events/#
+ e286
+LOCATION:Campe' Diem\, Campe' Diem\, Broken Bow\, OK
+URL:https://jcow1den.github.io/seok-events/#e286
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e287@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261207
+SUMMARY:A Christmas Carol (Broken Bow Theatrical Society)
+DESCRIPTION:Time to be announced\nThe Broken Bow Theatrical Society stages
+  A Christmas Carol over four days.\nConfirm details with the host before 
+ you go.\nhttps://jcow1den.github.io/seok-events/#e287
+LOCATION:Southeastern Idabel Campus\, 2805 NE Lincoln Rd\, Idabel\, OK 747
+ 45
+URL:https://jcow1den.github.io/seok-events/#e287
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e552@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:One Day of HOPE (11:30 AM)
+DESCRIPTION:11:30 AM\nA celebration supporting the women and children at H
+ ope House.\nhttps://jcow1den.github.io/seok-events/#e552
+LOCATION:Hope House\, 1210 E Cherokee\, McAlester\, OK 74501
+URL:https://jcow1den.github.io/seok-events/#e552
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e586@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:WonderLight Lantern Festival (5:30-8:30 PM)
+DESCRIPTION:5:30-8:30 PM\nWalk through more than 100 luminous lantern disp
+ lays with glowing stilt walkers\, aerialists and light-up dance performan
+ ces. Tickets online only at wonderlightusa.com\, one per person\, same-da
+ y re-entry included.\nhttps://jcow1den.github.io/seok-events/#e586
+LOCATION:Southeast Expo Center\, 4500 W US-270\, McAlester\, OK 74501
+URL:https://jcow1den.github.io/seok-events/#e586
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:e604@seok-events
-DTSTAMP:20261124T145552Z
+DTSTAMP:20261126T145008Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:FirstBank's Christmas in the Park (Parade 6:00 PM\; park festiviti
@@ -2485,8 +771,146 @@ URL:https://jcow1den.github.io/seok-events/#e604
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:e131@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:Hudson Westbrook (8:00 PM)
+DESCRIPTION:8:00 PM\nTexas country singer Hudson Westbrook with special gu
+ ests Kenny Whitmire and Ethan Burdick.\nhttps://jcow1den.github.io/seok-e
+ vents/#e131
+LOCATION:Choctaw Grand Theater\, Choctaw Casino & Resort\, 4216 S Hwy 69/7
+ 5\, Durant\, OK 74701
+URL:https://jcow1den.github.io/seok-events/#e131
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e146@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261206
+SUMMARY:Cheery Carriage Rides
+DESCRIPTION:Fri 5:00 – 9:00 PM · Sat 5:00 – 10:00 PM\nHorse-drawn car
+ riage rides through historic downtown Durant\, leaving from Market Square
+ .\nhttps://jcow1den.github.io/seok-events/#e146
+LOCATION:Market Square\, Downtown Durant\, Market Square\, Durant\, OK 747
+ 01
+URL:https://jcow1den.github.io/seok-events/#e146
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e167@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:Idabel Christmas Parade (6:30 – 9:00 PM)
+DESCRIPTION:6:30 – 9:00 PM\nIdabel's Christmas parade.\nhttps://jcow1den
+ .github.io/seok-events/#e167
+LOCATION:Downtown Idabel\, E Main St\, Idabel\, OK 74745
+URL:https://jcow1den.github.io/seok-events/#e167
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e288@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261206
+SUMMARY:Celebrity Chef Takeover with Kevin Lee & Nini Nguyen
+DESCRIPTION:Seatings at 5:00 PM and 7:30 PM\nTwo-night multi-course dinner
+  hosted by chefs Kevin Lee and Nini Nguyen. Tables for two are $250 and t
+ ables for four are $500.\nhttps://jcow1den.github.io/seok-events/#e288
+LOCATION:Seven Ponies\, Choctaw Casino & Resort – Pocola\, 3400 Choctaw 
+ Rd\, Pocola\, OK 74902
+URL:https://jcow1den.github.io/seok-events/#e288
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e289-20261204@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:Henryetta Mistletoe Market
+DESCRIPTION:Fri 5 – 8 PM · Sat 11 AM – 8 PM\nHoliday market on the fi
+ rst three weekends of December in downtown Henryetta.\nhttps://jcow1den.g
+ ithub.io/seok-events/#e289
+LOCATION:N 5th St & W Trudgeon St\, N 5th St & W Trudgeon St\, Henryetta\,
+  OK 74437
+URL:https://jcow1den.github.io/seok-events/#e289
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e289-20261205@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Henryetta Mistletoe Market
+DESCRIPTION:Fri 5 – 8 PM · Sat 11 AM – 8 PM\nHoliday market on the fi
+ rst three weekends of December in downtown Henryetta.\nhttps://jcow1den.g
+ ithub.io/seok-events/#e289
+LOCATION:N 5th St & W Trudgeon St\, N 5th St & W Trudgeon St\, Henryetta\,
+  OK 74437
+URL:https://jcow1den.github.io/seok-events/#e289
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e289-20261211@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:Henryetta Mistletoe Market
+DESCRIPTION:Fri 5 – 8 PM · Sat 11 AM – 8 PM\nHoliday market on the fi
+ rst three weekends of December in downtown Henryetta.\nhttps://jcow1den.g
+ ithub.io/seok-events/#e289
+LOCATION:N 5th St & W Trudgeon St\, N 5th St & W Trudgeon St\, Henryetta\,
+  OK 74437
+URL:https://jcow1den.github.io/seok-events/#e289
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e289-20261212@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Henryetta Mistletoe Market
+DESCRIPTION:Fri 5 – 8 PM · Sat 11 AM – 8 PM\nHoliday market on the fi
+ rst three weekends of December in downtown Henryetta.\nhttps://jcow1den.g
+ ithub.io/seok-events/#e289
+LOCATION:N 5th St & W Trudgeon St\, N 5th St & W Trudgeon St\, Henryetta\,
+  OK 74437
+URL:https://jcow1den.github.io/seok-events/#e289
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e289-20261218@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:Henryetta Mistletoe Market
+DESCRIPTION:Fri 5 – 8 PM · Sat 11 AM – 8 PM\nHoliday market on the fi
+ rst three weekends of December in downtown Henryetta.\nhttps://jcow1den.g
+ ithub.io/seok-events/#e289
+LOCATION:N 5th St & W Trudgeon St\, N 5th St & W Trudgeon St\, Henryetta\,
+  OK 74437
+URL:https://jcow1den.github.io/seok-events/#e289
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e289-20261219@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:Henryetta Mistletoe Market
+DESCRIPTION:Fri 5 – 8 PM · Sat 11 AM – 8 PM\nHoliday market on the fi
+ rst three weekends of December in downtown Henryetta.\nhttps://jcow1den.g
+ ithub.io/seok-events/#e289
+LOCATION:N 5th St & W Trudgeon St\, N 5th St & W Trudgeon St\, Henryetta\,
+  OK 74437
+URL:https://jcow1den.github.io/seok-events/#e289
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:e605@seok-events
-DTSTAMP:20261124T145552Z
+DTSTAMP:20261126T145008Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Indian Taco Sale (11:00 AM-1:00 PM)
@@ -2500,7 +924,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e606@seok-events
-DTSTAMP:20261124T145552Z
+DTSTAMP:20261126T145008Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Studio 45 First Friday Art Night (5:00 PM-8:00 PM)
@@ -2513,7 +937,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e607@seok-events
-DTSTAMP:20261124T145552Z
+DTSTAMP:20261126T145008Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Symphonic Sinatra at Christmas (7:30 PM)
@@ -2526,7 +950,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e608@seok-events
-DTSTAMP:20261124T145552Z
+DTSTAMP:20261126T145008Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Brushes and Brews: Holiday Welcome Mats (6:00 PM-8:30 PM)
@@ -2539,8 +963,261 @@ URL:https://jcow1den.github.io/seok-events/#e608
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:e132@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Darius Rucker (8:00 PM)
+DESCRIPTION:8:00 PM\nCountry star Darius Rucker live.\nhttps://jcow1den.gi
+ thub.io/seok-events/#e132
+LOCATION:Choctaw Grand Theater\, Choctaw Casino & Resort\, 4216 S Hwy 69/7
+ 5\, Durant\, OK 74701
+URL:https://jcow1den.github.io/seok-events/#e132
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e143@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Choctaw Christmas (10:00 AM – 5:00 PM)
+DESCRIPTION:10:00 AM – 5:00 PM\nA Choctaw Christmas at the Choctaw Cultu
+ ral Center with holiday programs and workshops.\nhttps://jcow1den.github.
+ io/seok-events/#e143
+LOCATION:Choctaw Cultural Center\, 1919 Hina Hanta Way\, Calera\, OK 74730
+URL:https://jcow1den.github.io/seok-events/#e143
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e154@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Santa Helper Fair (9:00 AM – 4:00 PM)
+DESCRIPTION:9:00 AM – 4:00 PM\nHoliday shopping fair at the Boys & Girls
+  Club.\nConfirm details with the host before you go.\nhttps://jcow1den.gi
+ thub.io/seok-events/#e154
+LOCATION:Boys & Girls Club\, McAlester\, OK
+URL:https://jcow1den.github.io/seok-events/#e154
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e155@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Michael J. Miller Toy Giveaway (10:00 AM – 4:00 PM)
+DESCRIPTION:10:00 AM – 4:00 PM\nThe yearly toy giveaway hosted by the J.
+  Michael Miller Law Firm at the Southeast Expo Center.\nhttps://jcow1den.
+ github.io/seok-events/#e155
+LOCATION:Southeast Expo Center\, 4500 W US-270\, McAlester\, OK 74501
+URL:https://jcow1den.github.io/seok-events/#e155
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e163@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:First Saturday at the Forest Heritage Center (9:00 AM – 3:00 PM)
+DESCRIPTION:9:00 AM – 3:00 PM\nMonthly First Saturday program at the For
+ est Heritage Center in Beavers Bend.\nhttps://jcow1den.github.io/seok-eve
+ nts/#e163
+LOCATION:Forest Heritage Center\, Beavers Bend State Park\, 4350 S Hwy 259
+ A\, Broken Bow\, OK 74728
+URL:https://jcow1den.github.io/seok-events/#e163
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e164@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Winter Wonderland Kick Off (See host for time)
+DESCRIPTION:See host for time\nBroken Bow's Winter Wonderland season kicks
+  off in City Park.\nhttps://jcow1den.github.io/seok-events/#e164
+LOCATION:Broken Bow City Park\, Broken Bow City Park\, Broken Bow\, OK
+URL:https://jcow1den.github.io/seok-events/#e164
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e284@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261228
+SUMMARY:Winter Wonderland at Broken Bow City Park
+DESCRIPTION:Lights on after dark\nChristmas lights and displays at Broken 
+ Bow City Park. Free to walk or drive through.\nhttps://jcow1den.github.io
+ /seok-events/#e284
+LOCATION:Broken Bow City Park\, 1211 James Butler Dr\, Broken Bow\, OK 747
+ 28
+URL:https://jcow1den.github.io/seok-events/#e284
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e290@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Poteau Christmas Parade (6:00 PM)
+DESCRIPTION:6:00 PM\nPoteau's evening Christmas parade rolls down Dewey Av
+ enue through downtown. This year's theme is "All American Christmas." Lig
+ hts\, floats\, bands and Santa. Free to watch.\nhttps://jcow1den.github.i
+ o/seok-events/#e290
+LOCATION:Downtown Dewey District\, Dewey Ave\, Poteau\, OK 74953
+URL:https://jcow1den.github.io/seok-events/#e290
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e376@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:LeFlore County Coffee Crawl (8:30 – 11:30 AM)
+DESCRIPTION:8:30 – 11:30 AM\nThree-stop coffee tour with talks and sampl
+ es: The Coffee Cup/Good Day Coffee in Poteau (8:30)\, Nana's Coffee House
+  in Pocola (9:45) and Eight Forks Ranch in Poteau (11:00).\nConfirm detai
+ ls with the host before you go.\nhttps://jcow1den.github.io/seok-events/#
+ e376
+LOCATION:The Coffee Cup\, 401 N Broadway St\, Poteau\, OK 74953
+URL:https://jcow1den.github.io/seok-events/#e376
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e402@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Stigler Christmas Parade: Christmas at the Movies (10:00 AM)
+DESCRIPTION:10:00 AM\nEach parade entry is themed on a Christmas movie\, a
+ nd the crowd guesses which one.\nConfirm details with the host before you
+  go.\nhttps://jcow1den.github.io/seok-events/#e402
+LOCATION:Downtown Stigler\, 204 E Main St\, Stigler\, OK 74462
+URL:https://jcow1den.github.io/seok-events/#e402
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e437@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Pat Taylor Memorial Christmas Parade of Lights (7:00 PM)
+DESCRIPTION:7:00 PM\nAda's 38th lighted Christmas parade fills eight block
+ s of downtown. This year's theme is Home for the Holidays: Celebrating 12
+ 5 Years of Ada.\nhttps://jcow1den.github.io/seok-events/#e437
+LOCATION:Downtown Ada (Main Street)\, Main St\, Ada\, OK 74820
+URL:https://jcow1den.github.io/seok-events/#e437
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e443@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Ring of Fire (Starts 8 AM)
+DESCRIPTION:Starts 8 AM\nOKWA kids tournament with open\, novice and girls
+  brackets from 6U to 15U. Online sign up is $25 and closes Dec 2.\nhttps:
+ //jcow1den.github.io/seok-events/#e443
+LOCATION:Durant\, OK 74701
+URL:https://jcow1den.github.io/seok-events/#e443
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e554@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Holiday Kid's Market (10 AM-1 PM)
+DESCRIPTION:10 AM-1 PM\nShop young local entrepreneurs. Free to attend.\nh
+ ttps://jcow1den.github.io/seok-events/#e554
+LOCATION:Siege\, 1606 Arlington St A\, Ada\, OK 74820
+URL:https://jcow1den.github.io/seok-events/#e554
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e555@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Olde Town Flea Market (8 AM-3 PM)
+DESCRIPTION:8 AM-3 PM\nMonthly first-Saturday flea market with vintage fin
+ ds and handmade goods.\nhttps://jcow1den.github.io/seok-events/#e555
+LOCATION:Main Street Junction\, 2645 N Main St\, McAlester\, OK 74501
+URL:https://jcow1den.github.io/seok-events/#e555
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e556@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Santa at the Silo (2-5 PM)
+DESCRIPTION:2-5 PM\nFree cookies\, hot cocoa\, and pictures with Santa ins
+ ide the Grain Silo.\nhttps://jcow1den.github.io/seok-events/#e556
+LOCATION:Porches & Pastures\, 114375 N Old Highway 69\, Eufaula\, OK 74432
+URL:https://jcow1den.github.io/seok-events/#e556
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e582@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:The Holiday Hustle 5K (8:00 AM-12:00 PM)
+DESCRIPTION:8:00 AM-12:00 PM\nHoliday vendor market 8 AM-12 PM\, Jingle Jo
+ g 1-mile at 9 AM\, and Holiday Hustle 5K at 10 AM. Race check-in begins a
+ t 8 AM. Entry $20 for 18 and up\, $10 for ages 5-17\, free for 4 and unde
+ r.\nhttps://jcow1den.github.io/seok-events/#e582
+LOCATION:Coal County Fair Barn\, 101 SW Fair Barn Rd\, Coalgate\, OK 74538
+URL:https://jcow1den.github.io/seok-events/#e582
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e587@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Christmas on Main (10:00 AM-4:00 PM)
+DESCRIPTION:10:00 AM-4:00 PM\nAda Main Street hosts a full day downtown wi
+ th a Ferris wheel\, carriage rides\, hayride\, barrel train\, inflatables
+  and food trucks. Santa and face painting at The Venue on Main\, Christma
+ s movies at the McSwain Theatre 4-7 PM\, then the Pat Taylor Memorial Par
+ ade of Lights at 7 PM.\nhttps://jcow1den.github.io/seok-events/#e587
+LOCATION:Downtown Ada (The Venue on Main)\, 116 W Main St\, Ada\, OK 74820
+URL:https://jcow1den.github.io/seok-events/#e587
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e594@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Christmas Market (9:00 AM-3:00 PM)
+DESCRIPTION:9:00 AM-3:00 PM\nMore than 70 small businesses sell indoors at
+  the Agriplex for Christmas shopping. Free admission.\nhttps://jcow1den.g
+ ithub.io/seok-events/#e594
+LOCATION:Pontotoc County Agriplex Convention Center\, 1710 N Broadway\, Ad
+ a\, OK 74820
+URL:https://jcow1den.github.io/seok-events/#e594
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e595@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Ladies Of Freedom Christmas Tea (10:00 AM-2:00 PM)
+DESCRIPTION:10:00 AM-2:00 PM\nFree ladies Christmas tea for ages 12 and up
+  with coffee bar\, tea luncheon\, worship\, door prizes and an ornament e
+ xchange. Doors open at 9:30 AM\, bring a dish to share and a wrapped orna
+ ment.\nhttps://jcow1den.github.io/seok-events/#e595
+LOCATION:Morris Assembly of God\, 206 N Hughes Ave\, Morris\, OK 74445
+URL:https://jcow1den.github.io/seok-events/#e595
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:e609@seok-events
-DTSTAMP:20261124T145552Z
+DTSTAMP:20261126T145008Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Pancakes with Santa (8:00 AM-10:00 AM)
@@ -2556,7 +1233,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e610@seok-events
-DTSTAMP:20261124T145552Z
+DTSTAMP:20261126T145008Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Christmas Market on the Handcrafted & Homegrown Shopping Trail (9:
@@ -2573,7 +1250,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e611@seok-events
-DTSTAMP:20261124T145552Z
+DTSTAMP:20261126T145008Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Santa Minis at the Mini Mall (2:00 PM-6:00 PM)
@@ -2586,7 +1263,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e612@seok-events
-DTSTAMP:20261124T145552Z
+DTSTAMP:20261126T145008Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:TJ Wicks & the Top Hands at The Tap (7:00 PM)
@@ -2599,7 +1276,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e613@seok-events
-DTSTAMP:20261124T145552Z
+DTSTAMP:20261126T145008Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Christmas Parade of Lights (6:00 PM)
@@ -2612,7 +1289,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e614@seok-events
-DTSTAMP:20261124T145552Z
+DTSTAMP:20261126T145008Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Free Pictures with Krampus (4:00 PM)
@@ -2625,8 +1302,34 @@ URL:https://jcow1den.github.io/seok-events/#e614
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:e557@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:MPS Holiday Program\, Hughes Middle School & MHS Choir (3:00 PM)
+DESCRIPTION:3:00 PM\nFree McAlester Public Schools holiday program\, open 
+ to the public.\nhttps://jcow1den.github.io/seok-events/#e557
+LOCATION:S. Arch Thompson Auditorium\, 201 E Adams Ave\, McAlester\, OK 74
+ 501
+URL:https://jcow1den.github.io/seok-events/#e557
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e581@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:Annual Polar Express Brunch (10:00 AM-2:00 PM)
+DESCRIPTION:10:00 AM-2:00 PM\nAll aboard for the annual Polar Express Brun
+ ch with gourmet hot chocolate in adult and kid versions. Wear your PJs.\n
+ https://jcow1den.github.io/seok-events/#e581
+LOCATION:Tulip & Table\, 306 S Main St\, Eufaula\, OK 74432
+URL:https://jcow1den.github.io/seok-events/#e581
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:e615@seok-events
-DTSTAMP:20261124T145552Z
+DTSTAMP:20261126T145008Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:Surviving the Holidays (2:00 PM-4:00 PM)
@@ -2640,8 +1343,53 @@ URL:https://jcow1den.github.io/seok-events/#e615
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:e165@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+SUMMARY:McCurtain County Christmas Parade: Songs of the Season (6:30 – 9
+ :00 PM)
+DESCRIPTION:6:30 – 9:00 PM\nThe 56th annual McCurtain County Christmas P
+ arade\, starting near the Broken Bow Area Chamber of Commerce. This year'
+ s theme: Songs of the Season.\nhttps://jcow1den.github.io/seok-events/#e1
+ 65
+LOCATION:Downtown Broken Bow\, 113 W Martin Luther King Dr\, Broken Bow\, 
+ OK 74728
+URL:https://jcow1den.github.io/seok-events/#e165
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e291@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+SUMMARY:Checotah Christmas Parade: A Rhinestone Christmas (Ice rink 2:00 P
+ M - 10:00 PM\; parade 6:30 PM)
+DESCRIPTION:Ice rink 2:00 PM - 10:00 PM\; parade 6:30 PM\nWinter Wonderlan
+ d meets A Rhinestone Christmas. Ice skating downtown from 2 to 10 PM ($10
+  a session with skates)\, food trucks\, youth performances\, the lighted 
+ parade at 6:30 and Santa photos after.\nhttps://jcow1den.github.io/seok-e
+ vents/#e291
+LOCATION:Downtown Checotah\, 114 N Broadway St\, Checotah\, OK 74426
+URL:https://jcow1den.github.io/seok-events/#e291
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e558@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+SUMMARY:MPS Holiday Program\, Will Rogers Kindergarten (6:00 PM)
+DESCRIPTION:6:00 PM\nFree McAlester Public Schools holiday program\, open 
+ to the public.\nhttps://jcow1den.github.io/seok-events/#e558
+LOCATION:S. Arch Thompson Auditorium\, 201 E Adams Ave\, McAlester\, OK 74
+ 501
+URL:https://jcow1den.github.io/seok-events/#e558
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:e616@seok-events
-DTSTAMP:20261124T145552Z
+DTSTAMP:20261126T145008Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:District 6 Children's Christmas Party (6:00 PM-8:00 PM)
@@ -2654,8 +1402,116 @@ URL:https://jcow1den.github.io/seok-events/#e616
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:e560@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+SUMMARY:MPS Holiday Program\, Will Rogers 1st Grade (5:30 PM)
+DESCRIPTION:5:30 PM\nFree McAlester Public Schools holiday program\, open 
+ to the public.\nhttps://jcow1den.github.io/seok-events/#e560
+LOCATION:S. Arch Thompson Auditorium\, 201 E Adams Ave\, McAlester\, OK 74
+ 501
+URL:https://jcow1den.github.io/seok-events/#e560
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e561@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+SUMMARY:MPS Holiday Program\, Will Rogers 2nd Grade (7:00 PM)
+DESCRIPTION:7:00 PM\nFree McAlester Public Schools holiday program\, open 
+ to the public.\nhttps://jcow1den.github.io/seok-events/#e561
+LOCATION:S. Arch Thompson Auditorium\, 201 E Adams Ave\, McAlester\, OK 74
+ 501
+URL:https://jcow1den.github.io/seok-events/#e561
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e156@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:Kody West Live (8:00 PM)
+DESCRIPTION:8:00 PM\nSpotlight Series show with Texas country artist Kody 
+ West.\nhttps://jcow1den.github.io/seok-events/#e156
+LOCATION:DWNTWN 312\, McAlester\, OK
+URL:https://jcow1den.github.io/seok-events/#e156
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e168@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261214
+SUMMARY:Christmas on the Square
+DESCRIPTION:Thu & Fri from 5 PM · Sat 5 – 9 PM · Sun from noon\nArts m
+ arket\, food trucks\, and holiday fun downtown. No cost to attend\, and p
+ arking is free.\nhttps://jcow1den.github.io/seok-events/#e168
+LOCATION:Okmulgee Main Street on the Square\, 100 E 6th St\, Okmulgee\, OK
+  74447
+URL:https://jcow1den.github.io/seok-events/#e168
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e169@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:Okmulgee Festival of Lights Parade (7:00 – 9:00 PM)
+DESCRIPTION:7:00 – 9:00 PM\nA lighted parade that kicks off Christmas on
+  the Square in downtown Okmulgee.\nhttps://jcow1den.github.io/seok-events
+ /#e169
+LOCATION:Downtown Okmulgee (6th Street)\, 100 E 6th St\, Okmulgee\, OK 744
+ 47
+URL:https://jcow1den.github.io/seok-events/#e169
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e292@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:The Railway District Christmas Parade (6:30 PM)
+DESCRIPTION:6:30 PM\nLighted night parade with the theme A Storybook Chris
+ tmas. It heads east on Carl Albert Parkway from A Street to 5th Street\, 
+ then turns onto Choctaw Avenue to Main Street. Santa rides the last float
+ .\nhttps://jcow1den.github.io/seok-events/#e292
+LOCATION:Downtown McAlester\, Carl Albert Pkwy and Choctaw Ave\, McAlester
+ \, OK 74501
+URL:https://jcow1den.github.io/seok-events/#e292
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e562@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:SPOTLIGHT SERIES: Kody West (Doors 7:00 PM\, show 8:00 PM)
+DESCRIPTION:Doors 7:00 PM\, show 8:00 PM\nTexas country built for singing 
+ back. Limited seating\, $30 tickets.\nhttps://jcow1den.github.io/seok-eve
+ nts/#e562
+LOCATION:Dancing Rabbit (Downtown 312)\, 312 E Choctaw Ave\, McAlester\, O
+ K 74501
+URL:https://jcow1den.github.io/seok-events/#e562
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e563@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:McAlester's Storybook Christmas Parade (6:30 PM)
+DESCRIPTION:6:30 PM\nThis year's theme is A Storybook Christmas\, Oklahoma
+ 's largest Christmas parade. Register at therailwaydistrict.com.\nhttps:/
+ /jcow1den.github.io/seok-events/#e563
+LOCATION:Choctaw Ave and cross streets\, McAlester\, OK 74501
+URL:https://jcow1den.github.io/seok-events/#e563
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:e617@seok-events
-DTSTAMP:20261124T145552Z
+DTSTAMP:20261126T145008Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:Mistletoe & Merlot (4:30 PM-8:00 PM)
@@ -2672,7 +1528,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e618@seok-events
-DTSTAMP:20261124T145552Z
+DTSTAMP:20261126T145008Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:Make and Take Herbal Tea Class (6:30 PM-8:30 PM)
@@ -2685,8 +1541,73 @@ URL:https://jcow1den.github.io/seok-events/#e618
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:e157@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261213
+SUMMARY:Winter Pull Classic: Truck and Tractor Pull
+DESCRIPTION:See host for times\nTruck and tractor pulls at the Expo Center
+ .\nhttps://jcow1den.github.io/seok-events/#e157
+LOCATION:Southeast Expo Center & Motor Speedway\, 4500 W US-270\, McAleste
+ r\, OK 74501
+URL:https://jcow1den.github.io/seok-events/#e157
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e293@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:Connor Blaze at Doc's Food Truck Park (7:00 PM)
+DESCRIPTION:7:00 PM\nConnor Blaze performs live at Doc's Food Truck Park i
+ n Ada.\nConfirm details with the host before you go.\nhttps://jcow1den.gi
+ thub.io/seok-events/#e293
+LOCATION:Doc's Food Truck Park\, Doc's Food Truck Park\, Ada\, OK
+URL:https://jcow1den.github.io/seok-events/#e293
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e332@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:Holdenville Christmas Parade (6:00 PM)
+DESCRIPTION:6:00 PM\nDecorated floats and marching bands down Main Street\
+ , with prizes given away during the parade.\nhttps://jcow1den.github.io/s
+ eok-events/#e332
+LOCATION:Main Street\, Holdenville\, Main St\, Holdenville\, OK 74848
+URL:https://jcow1den.github.io/seok-events/#e332
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e564@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:MPS Holiday Program\, Parker Intermediate Center Band (6:00 PM)
+DESCRIPTION:6:00 PM\nFree McAlester Public Schools holiday program\, open 
+ to the public.\nhttps://jcow1den.github.io/seok-events/#e564
+LOCATION:S. Arch Thompson Auditorium\, 201 E Adams Ave\, McAlester\, OK 74
+ 501
+URL:https://jcow1den.github.io/seok-events/#e564
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e565@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:MPS Holiday Program\, Hughes Middle School Bands (7:00 PM)
+DESCRIPTION:7:00 PM\nFree McAlester Public Schools holiday program\, open 
+ to the public.\nhttps://jcow1den.github.io/seok-events/#e565
+LOCATION:S. Arch Thompson Auditorium\, 201 E Adams Ave\, McAlester\, OK 74
+ 501
+URL:https://jcow1den.github.io/seok-events/#e565
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:e619@seok-events
-DTSTAMP:20261124T145552Z
+DTSTAMP:20261126T145008Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261213
 SUMMARY:SE Plant Co. 7th Annual Poinsettia Festival
@@ -2699,8 +1620,210 @@ URL:https://jcow1den.github.io/seok-events/#e619
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:e633@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:Bo Phillips Band (9:00 PM)
+DESCRIPTION:9:00 PM\nBo Phillips Band live at Trophy's Bar & Grill.\nhttps
+ ://jcow1den.github.io/seok-events/#e633
+LOCATION:Trophy's Bar & Grill\, 1638 S George Nigh Expy\, McAlester\, OK 7
+ 4501
+URL:https://jcow1den.github.io/seok-events/#e633
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e133@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Gwen Stefani (8:00 PM)
+DESCRIPTION:8:00 PM\nGwen Stefani live in Durant.\nhttps://jcow1den.github
+ .io/seok-events/#e133
+LOCATION:Choctaw Grand Theater\, Choctaw Casino & Resort\, 4216 S Hwy 69/7
+ 5\, Durant\, OK 74701
+URL:https://jcow1den.github.io/seok-events/#e133
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e158@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Sleigh Bells Market (9:00 AM – 5:00 PM)
+DESCRIPTION:9:00 AM – 5:00 PM\nHoliday shopping at the Southeast Expo Ce
+ nter with vendors selling vintage Christmas\, holiday decor\, gifts and h
+ andmade goods.\nhttps://jcow1den.github.io/seok-events/#e158
+LOCATION:Southeast Expo Center\, 4500 W US-270\, McAlester\, OK 74501
+URL:https://jcow1den.github.io/seok-events/#e158
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e159@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Community Choir Christmas Concert (7:00 – 9:00 PM)
+DESCRIPTION:7:00 – 9:00 PM\nChristmas concert by the community choir.\nh
+ ttps://jcow1den.github.io/seok-events/#e159
+LOCATION:S. Arch Thompson Auditorium\, 201 E Adams Ave\, McAlester\, OK 74
+ 501
+URL:https://jcow1den.github.io/seok-events/#e159
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e294@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:LeAnn Rimes (Doors 7:00 PM\, show 8:00 PM)
+DESCRIPTION:Doors 7:00 PM\, show 8:00 PM\nLeAnn Rimes performs live at Sta
+ ge 271. Seating is limited.\nhttps://jcow1den.github.io/seok-events/#e294
+LOCATION:Stage 271\, Choctaw Casino & Resort – Grant\, 1516 US-271\, Gra
+ nt\, OK 74738
+URL:https://jcow1den.github.io/seok-events/#e294
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e295@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261223
+SUMMARY:Holiday in the Ark
+DESCRIPTION:2 hour sessions: Dec 12 & 13 at 3 PM · Dec 18 at 4 PM · Dec 
+ 19 at 1:30 & 4 PM · Dec 20 at 1:30 PM · Dec 21 & 22 at 4 PM\nChristmas 
+ at the Endangered Ark Foundation elephant farm: visit with Santa\, Mrs. C
+ laus and the Grinch\, meet and feed the elephants\, and make crafts. Buy 
+ session tickets on the website.\nhttps://jcow1den.github.io/seok-events/#
+ e295
+LOCATION:Endangered Ark Foundation\, 2657 E 2070 Rd\, Hugo\, OK 74743
+URL:https://jcow1den.github.io/seok-events/#e295
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e296@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Henryetta Christmas Parade (6:30 PM)
+DESCRIPTION:6:30 PM\nAnnual Christmas parade with holiday floats along Hen
+ ryetta's Main Street.\nhttps://jcow1den.github.io/seok-events/#e296
+LOCATION:Main Street\, 415 W Main St\, Henryetta\, OK 74437
+URL:https://jcow1den.github.io/seok-events/#e296
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e297@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Gallery 259 Christmas Market (11:00 AM - 4:00 PM)
+DESCRIPTION:11:00 AM - 4:00 PM\nA Christmas market at Gallery 259 in the H
+ ochatown area.\nConfirm details with the host before you go.\nhttps://jco
+ w1den.github.io/seok-events/#e297
+LOCATION:Gallery 259\, 175 Post Oak Rd\, Broken Bow\, OK 74728
+URL:https://jcow1den.github.io/seok-events/#e297
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e298@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Christmas in Hochatown (Time to be announced)
+DESCRIPTION:Time to be announced\nA day of Christmas celebration in downto
+ wn Hochatown.\nConfirm details with the host before you go.\nhttps://jcow
+ 1den.github.io/seok-events/#e298
+LOCATION:Downtown Hochatown\, N US Hwy 259\, Broken Bow\, OK 74728
+URL:https://jcow1den.github.io/seok-events/#e298
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e299@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Breakfast with Santa & Mrs. Claus (9:00 AM - 12:00 PM)
+DESCRIPTION:9:00 AM - 12:00 PM\nBreakfast with Santa\, a Christmas story f
+ rom Mrs. Claus\, photos with Santa and animals in holiday outfits. It is 
+ the last chance to see the Gingerbread House Competition display. Ticket 
+ prices have not been announced.\nhttps://jcow1den.github.io/seok-events/#
+ e299
+LOCATION:Three Valley Museum\, 401 W Main St\, Durant\, OK 74701
+URL:https://jcow1den.github.io/seok-events/#e299
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e331@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Wilburton Christmas Parade (6:00 PM)
+DESCRIPTION:6:00 PM\nDowntown Christmas parade on Main Street with the the
+ me 'Twas A Magical Storybook Christmas.\nhttps://jcow1den.github.io/seok-
+ events/#e331
+LOCATION:Downtown Wilburton (Main Street / US-270)\, W Main St\, Wilburton
+ \, OK 74578
+URL:https://jcow1den.github.io/seok-events/#e331
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e377@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Pink Christmas Candle Painting Party (2:00 – 4:00 PM (doors 1:30
+  PM))
+DESCRIPTION:2:00 – 4:00 PM (doors 1:30 PM)\nDecorate two pillar candles\
+ , with hot cocoa\, cupcakes\, snacks and goodie bags. Supplies provided\;
+  kids under 14 need a parent or guardian.\nhttps://jcow1den.github.io/seo
+ k-events/#e377
+LOCATION:Sweet Meltz\, 408 N M St\, Hugo\, OK 74743
+URL:https://jcow1den.github.io/seok-events/#e377
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e381@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Cinema at the Center: Happy Feet (1:00 PM)
+DESCRIPTION:1:00 PM\nFree screening of Happy Feet at the Choctaw Cultural 
+ Center.\nhttps://jcow1den.github.io/seok-events/#e381
+LOCATION:Choctaw Cultural Center\, 1919 Hina Hanta Way\, Calera\, OK 74730
+URL:https://jcow1den.github.io/seok-events/#e381
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e382@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Frybread Workshop (11:00 AM and 1:00 PM)
+DESCRIPTION:11:00 AM and 1:00 PM\nHands-on frybread workshop in two sessio
+ ns. Registration required.\nhttps://jcow1den.github.io/seok-events/#e382
+LOCATION:Choctaw Cultural Center\, 1919 Hina Hanta Way\, Calera\, OK 74730
+URL:https://jcow1den.github.io/seok-events/#e382
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e591@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Christmas in Hochatown 2026 (3:30 PM)
+DESCRIPTION:3:30 PM\nChoctaw Landing hosts a Christmas market and activity
+  walk with live stage entertainment\, a kids slime bar\, photo booth\, ch
+ aracter parade\, and Santa and Mrs. Claus story time.\nhttps://jcow1den.g
+ ithub.io/seok-events/#e591
+LOCATION:Choctaw Landing\, 272 N State Highway 259A\, Broken Bow\, OK 7472
+ 8
+URL:https://jcow1den.github.io/seok-events/#e591
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:e620@seok-events
-DTSTAMP:20261124T145552Z
+DTSTAMP:20261126T145008Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Wonder Weavers Kids Crafting (10:00 AM-11:45 AM)
@@ -2714,7 +1837,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e621@seok-events
-DTSTAMP:20261124T145552Z
+DTSTAMP:20261126T145008Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Sweet Treats With Santa (10:00 AM-12:00 PM)
@@ -2729,7 +1852,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e622@seok-events
-DTSTAMP:20261124T145552Z
+DTSTAMP:20261126T145008Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:American German Christmas Market (12:00 PM-9:00 PM)
@@ -2744,7 +1867,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e623@seok-events
-DTSTAMP:20261124T145552Z
+DTSTAMP:20261126T145008Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Sweet Meltz Candle Painting Party (2:00 PM-4:00 PM)
@@ -2759,7 +1882,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e624@seok-events
-DTSTAMP:20261124T145552Z
+DTSTAMP:20261126T145008Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Christmas on the Square (5:00 PM)
@@ -2772,7 +1895,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e625@seok-events
-DTSTAMP:20261124T145552Z
+DTSTAMP:20261126T145008Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Wilburton Christmas Parade: 'Twas A Magical Storybook Christmas (6
@@ -2788,7 +1911,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e626@seok-events
-DTSTAMP:20261124T145552Z
+DTSTAMP:20261126T145008Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:EOSC Agricultural Hall of Fame Celebration (6:00 PM)
@@ -2804,7 +1927,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e627@seok-events
-DTSTAMP:20261124T145552Z
+DTSTAMP:20261126T145008Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Hugo Hard Candy Christmas Parade (Competition judging 4:00 PM\; pa
@@ -2819,23 +1942,63 @@ URL:https://jcow1den.github.io/seok-events/#e627
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:e628@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261219
-DTEND;VALUE=DATE:20261220
-SUMMARY:Legacy Live: A Blue Christmas Elvis Tribute (Doors 6:00 PM\, dinne
- r 6:30 PM\, show 7:30 PM)
-DESCRIPTION:Doors 6:00 PM\, dinner 6:30 PM\, show 7:30 PM\nOklahoma entert
- ainer Brent Giddens performs an Elvis Presley tribute. Tickets are $65 fo
- r dinner and the show or $35 for the show only\, at legacyonmainstreet.co
- m.\nhttps://jcow1den.github.io/seok-events/#e628
-LOCATION:Legacy On Main Street\, 224 N Main St\, Eufaula\, OK 74432
-URL:https://jcow1den.github.io/seok-events/#e628
+UID:e634@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Bo Phillips Band (7:00 PM)
+DESCRIPTION:7:00 PM\nBo Phillips Band plays the EOSC Barn Bash at Eastern 
+ Oklahoma State College.\nhttps://jcow1den.github.io/seok-events/#e634
+LOCATION:Eastern Oklahoma State College\, 1301 W Main St\, Wilburton\, OK 
+ 74578
+URL:https://jcow1den.github.io/seok-events/#e634
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e508@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:8th Annual Okie Christmas Toy Run (9:00 AM)
+DESCRIPTION:9:00 AM\nMotorcycles\, cars\, trucks\, side by sides and even 
+ horses parade from Freedom by Ed Morse to the Durant Elks Lodge #63 on Ga
+ tes Ave. Once there\, enjoy a live and silent auction\, games and a pulle
+ d pork lunch. This year's goal is to adopt every Bryan County child signe
+ d up for Toys for Tots.\nhttps://jcow1den.github.io/seok-events/#e508
+LOCATION:Freedom Chrysler Dodge Jeep RAM by Ed Morse (start)\, 2516 Univer
+ sity Blvd\, Durant\, OK 74701
+URL:https://jcow1den.github.io/seok-events/#e508
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e566@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:MPS Holiday Program\, McAlester High School Band (2:00 PM)
+DESCRIPTION:2:00 PM\nFree McAlester Public Schools holiday program\, open 
+ to the public.\nhttps://jcow1den.github.io/seok-events/#e566
+LOCATION:S. Arch Thompson Auditorium\, 201 E Adams Ave\, McAlester\, OK 74
+ 501
+URL:https://jcow1den.github.io/seok-events/#e566
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e569@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:Elvis Christmas Spectacular with Kraig Parker (3:00 PM)
+DESCRIPTION:3:00 PM\nKraig Parker presents a world-premiere Elvis Christma
+ s tribute show.\nhttps://jcow1den.github.io/seok-events/#e569
+LOCATION:Choctaw Grand Theater\, Choctaw Casino & Resort\, 4216 S Hwy 69/7
+ 5\, Durant\, OK 74701
+URL:https://jcow1den.github.io/seok-events/#e569
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e629@seok-events
-DTSTAMP:20261124T145552Z
+DTSTAMP:20261126T145008Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:Home for the Paw-lidays Adoption Event
@@ -2851,7 +2014,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e630@seok-events
-DTSTAMP:20261124T145552Z
+DTSTAMP:20261126T145008Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:Christmas Celebrations for Children with Disabilities
@@ -2865,78 +2028,776 @@ URL:https://jcow1den.github.io/seok-events/#e630
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:e631@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261127
-DTEND;VALUE=DATE:20261128
-SUMMARY:Black Friday Gravel Adventure
-DESCRIPTION:8:30 AM\nUnsupported gravel ride up to 45 miles with shorter o
- ut-and-back options. Meet at 8:30 AM at Spaceship Earth Coffee to convoy 
- to the start\; coffee opens at 8 AM. Bring what you need to eat\, drink\,
-  and get yourself out of a bind.\nhttps://jcow1den.github.io/seok-events/
- #e631
-LOCATION:Spaceship Earth Coffee\, 345 E Choctaw Ave\, McAlester\, OK 74501
-URL:https://jcow1den.github.io/seok-events/#e631
+UID:e635@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+SUMMARY:Bo Phillips Band (7:00 PM)
+DESCRIPTION:7:00 PM\nBo Phillips Band live at El Adobe Mexican Grill.\nhtt
+ ps://jcow1den.github.io/seok-events/#e635
+LOCATION:El Adobe Mexican Grill\, 472 S Mississippi Ave\, Atoka\, OK 74525
+URL:https://jcow1den.github.io/seok-events/#e635
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:e632-20261128@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261128
-DTEND;VALUE=DATE:20261129
-SUMMARY:McWinter Wonderland Saturdays
-DESCRIPTION:1:00 PM-5:00 PM\nOpening day for the Santa's Workshop zone dow
- ntown\, the Vintage Christmas zone in Olde Town\, and holiday pop-up mark
- ets. Santa is at the Choctaw Ave Bandstand from 1 PM to 3 PM. Every Satur
- day through Dec 19.\nhttps://jcow1den.github.io/seok-events/#e632
-LOCATION:Downtown Choctaw Ave and Olde Town\, E Choctaw Ave\, McAlester\, 
- OK 74501
-URL:https://jcow1den.github.io/seok-events/#e632
+UID:e135@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:Jake Worthington (8:00 PM)
+DESCRIPTION:8:00 PM\nCountry singer Jake Worthington live.\nhttps://jcow1d
+ en.github.io/seok-events/#e135
+LOCATION:Choctaw Grand Theater\, Choctaw Casino & Resort\, 4216 S Hwy 69/7
+ 5\, Durant\, OK 74701
+URL:https://jcow1den.github.io/seok-events/#e135
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:e632-20261205@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261205
-DTEND;VALUE=DATE:20261206
-SUMMARY:McWinter Wonderland Saturdays
-DESCRIPTION:1:00 PM-5:00 PM\nOpening day for the Santa's Workshop zone dow
- ntown\, the Vintage Christmas zone in Olde Town\, and holiday pop-up mark
- ets. Santa is at the Choctaw Ave Bandstand from 1 PM to 3 PM. Every Satur
- day through Dec 19.\nhttps://jcow1den.github.io/seok-events/#e632
-LOCATION:Downtown Choctaw Ave and Olde Town\, E Choctaw Ave\, McAlester\, 
- OK 74501
-URL:https://jcow1den.github.io/seok-events/#e632
+UID:e400@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:Ole Red's Christmas Express Experience (Doors 5:30 PM\, movie 6:00
+  PM)
+DESCRIPTION:Doors 5:30 PM\, movie 6:00 PM\nPajama night inspired by the Po
+ lar Express: kid-friendly dinner\, a Christmas movie\, popcorn\, hot choc
+ olate\, and a train ticket and sleigh bell for every guest.\nhttps://jcow
+ 1den.github.io/seok-events/#e400
+LOCATION:The Doghouse at Ole Red Tishomingo\, 214 W Main St\, Tishomingo\,
+  OK 73460
+URL:https://jcow1den.github.io/seok-events/#e400
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:e632-20261212@seok-events
-DTSTAMP:20261124T145552Z
-DTSTART;VALUE=DATE:20261212
-DTEND;VALUE=DATE:20261213
-SUMMARY:McWinter Wonderland Saturdays
-DESCRIPTION:1:00 PM-5:00 PM\nOpening day for the Santa's Workshop zone dow
- ntown\, the Vintage Christmas zone in Olde Town\, and holiday pop-up mark
- ets. Santa is at the Choctaw Ave Bandstand from 1 PM to 3 PM. Every Satur
- day through Dec 19.\nhttps://jcow1den.github.io/seok-events/#e632
-LOCATION:Downtown Choctaw Ave and Olde Town\, E Choctaw Ave\, McAlester\, 
- OK 74501
-URL:https://jcow1den.github.io/seok-events/#e632
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e632-20261219@seok-events
-DTSTAMP:20261124T145552Z
+UID:e136@seok-events
+DTSTAMP:20261126T145008Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
-SUMMARY:McWinter Wonderland Saturdays
-DESCRIPTION:1:00 PM-5:00 PM\nOpening day for the Santa's Workshop zone dow
- ntown\, the Vintage Christmas zone in Olde Town\, and holiday pop-up mark
- ets. Santa is at the Choctaw Ave Bandstand from 1 PM to 3 PM. Every Satur
- day through Dec 19.\nhttps://jcow1den.github.io/seok-events/#e632
-LOCATION:Downtown Choctaw Ave and Olde Town\, E Choctaw Ave\, McAlester\, 
+SUMMARY:Nickelback (8:00 PM)
+DESCRIPTION:8:00 PM\nNickelback live in Durant.\nhttps://jcow1den.github.i
+ o/seok-events/#e136
+LOCATION:Choctaw Grand Theater\, Choctaw Casino & Resort\, 4216 S Hwy 69/7
+ 5\, Durant\, OK 74701
+URL:https://jcow1den.github.io/seok-events/#e136
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e300@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:McSwain Theatre Showcase featuring Jae L. & Crossover (7:00 PM)
+DESCRIPTION:7:00 PM\nJae L. Stilwell and the Crossover Band perform at the
+  McSwain Theatre. The theatre's website lists this show as sold out.\nhtt
+ ps://jcow1den.github.io/seok-events/#e300
+LOCATION:McSwain Theatre\, McSwain Theatre\, 130 W Main St\, Ada\, OK 7482
+ 0
+URL:https://jcow1den.github.io/seok-events/#e300
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e580@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:Wreaths Across America Wreath Laying Ceremony (11:00 AM)
+DESCRIPTION:11:00 AM\nAnnual Wreaths Across America ceremony honoring vete
+ rans with the ceremonial placement of remembrance wreaths\, hosted by the
+  Daughters of the American Revolution and the Sons of the American Revolu
+ tion.\nhttps://jcow1den.github.io/seok-events/#e580
+LOCATION:Unknown Soldier Pavilion\, Oak Hill Cemetery\, 1300 E Washington 
+ Ave\, McAlester\, OK 74501
+URL:https://jcow1den.github.io/seok-events/#e580
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e628@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:Legacy Live: A Blue Christmas Elvis Tribute (Doors 6:00 PM\, dinne
+ r 6:30 PM\, show 7:30 PM)
+DESCRIPTION:Doors 6:00 PM\, dinner 6:30 PM\, show 7:30 PM\nOklahoma entert
+ ainer Brent Giddens performs an Elvis Presley tribute. Tickets are $65 fo
+ r dinner and the show or $35 for the show only\, at legacyonmainstreet.co
+ m.\nhttps://jcow1den.github.io/seok-events/#e628
+LOCATION:Legacy On Main Street\, 224 N Main St\, Eufaula\, OK 74432
+URL:https://jcow1den.github.io/seok-events/#e628
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e439@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:Talihina Christmas Parade: A Charlie Brown Christmas (6:00 PM)
+DESCRIPTION:6:00 PM\nTalihina's Christmas parade with a Charlie Brown Chri
+ stmas theme. Floats line up by 5:30 PM.\nhttps://jcow1den.github.io/seok-
+ events/#e439
+LOCATION:Downtown Talihina (lineup at Living Faith Pentecostal Church)\, D
+ owntown Talihina\, Talihina\, OK 74571
+URL:https://jcow1den.github.io/seok-events/#e439
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e567@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261221
+DTEND;VALUE=DATE:20261222
+SUMMARY:McAlester Area Christmas Promotion $10\,000 Cash Giveaway (7:00 PM
+ )
+DESCRIPTION:7:00 PM\n32nd Annual McAlester Area Christmas Promotion $10\,0
+ 00 cash giveaway\, presented by Sam Wampler's Freedom Ford. One free tick
+ et for visiting a participating business (no purchase necessary)\, plus o
+ ne additional ticket for every $10 spent. Must be present to win. Drawing
+  audited by Tina Davenport-McKamie.\nhttps://jcow1den.github.io/seok-even
+ ts/#e567
+LOCATION:Downtown McAlester\, Downtown McAlester\, McAlester\, OK 74501
+URL:https://jcow1den.github.io/seok-events/#e567
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e592@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261221
+DTEND;VALUE=DATE:20261222
+SUMMARY:Sip\, Sit\, & Celebrate! (5:30 PM)
+DESCRIPTION:5:30 PM\nWatch the McAlester $10K Drawing broadcast from DWNTW
+ N312 with Christmas cookies and hot cocoa. General admission $12\, VIP ta
+ bles for 4 or 6 include drawing tickets and food. Advance tickets and foo
+ d orders close Dec 16.\nhttps://jcow1den.github.io/seok-events/#e592
+LOCATION:DWNTWN312\, 312 E Choctaw Ave\, McAlester\, OK 74501
+URL:https://jcow1den.github.io/seok-events/#e592
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e593@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261221
+DTEND;VALUE=DATE:20261222
+SUMMARY:Blue Christmas Service (6:00-7:00 PM)
+DESCRIPTION:6:00-7:00 PM\nA quiet\, contemplative holiday service for anyo
+ ne carrying grief\, anger\, doubt or fear this season. All are welcome.\n
+ https://jcow1den.github.io/seok-events/#e593
+LOCATION:All Saints Episcopal Church\, 325 E Washington Ave\, McAlester\, 
  OK 74501
-URL:https://jcow1den.github.io/seok-events/#e632
+URL:https://jcow1den.github.io/seok-events/#e593
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e175@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261226
+DTEND;VALUE=DATE:20261227
+SUMMARY:Becky Robinson (See venue for time)
+DESCRIPTION:See venue for time\nStand-up comedy from Becky Robinson.\nConf
+ irm details with the host before you go.\nhttps://jcow1den.github.io/seok
+ -events/#e175
+LOCATION:Choctaw Casino & Resort – Pocola\, 3400 Choctaw Rd\, Pocola\, O
+ K 74902
+URL:https://jcow1den.github.io/seok-events/#e175
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e301@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261226
+DTEND;VALUE=DATE:20261227
+SUMMARY:Connor Blaze at Doc's Food Truck Park (7:00 PM)
+DESCRIPTION:7:00 PM\nConnor Blaze performs live at Doc's Food Truck Park i
+ n Ada.\nConfirm details with the host before you go.\nhttps://jcow1den.gi
+ thub.io/seok-events/#e301
+LOCATION:Doc's Food Truck Park\, Doc's Food Truck Park\, Ada\, OK
+URL:https://jcow1den.github.io/seok-events/#e301
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e137@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:Stephen Wilson Jr. on New Year's Eve (8:00 PM)
+DESCRIPTION:8:00 PM\nRing in the new year with singer-songwriter Stephen W
+ ilson Jr.\nhttps://jcow1den.github.io/seok-events/#e137
+LOCATION:Choctaw Grand Theater\, Choctaw Casino & Resort\, 4216 S Hwy 69/7
+ 5\, Durant\, OK 74701
+URL:https://jcow1den.github.io/seok-events/#e137
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e302@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:McSwain Theatre Showcase featuring Jae L. & Crossover: New Year's 
+ Eve (7:00 PM)
+DESCRIPTION:7:00 PM\nJae L. Stilwell and the Crossover Band perform at the
+  McSwain Theatre. The theatre's website lists this show as sold out.\nhtt
+ ps://jcow1den.github.io/seok-events/#e302
+LOCATION:McSwain Theatre\, McSwain Theatre\, 130 W Main St\, Ada\, OK 7482
+ 0
+URL:https://jcow1den.github.io/seok-events/#e302
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e575@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:Aaron Owens New Year's Eve (9:00 PM)
+DESCRIPTION:9:00 PM\nNew Year's Eve with Aaron Owens at Hochatown Saloon.\
+ nhttps://jcow1den.github.io/seok-events/#e575
+LOCATION:Hochatown Saloon\, 28 Old Hochatown Rd\, Broken Bow\, OK 74728
+URL:https://jcow1den.github.io/seok-events/#e575
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e303@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20270102
+DTEND;VALUE=DATE:20270103
+SUMMARY:First Saturday at the Forest Heritage Center (10:00 AM – 3:00 PM
+ )
+DESCRIPTION:10:00 AM – 3:00 PM\nFree hands-on program that may include f
+ orestry\, wildlife\, conservation\, traditional crafts and local history.
+ \nhttps://jcow1den.github.io/seok-events/#e303
+LOCATION:Forest Heritage Center\, Beavers Bend State Park\, 4350 S State H
+ wy 259A\, Broken Bow\, OK 74728
+URL:https://jcow1den.github.io/seok-events/#e303
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e304@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20270102
+DTEND;VALUE=DATE:20270103
+SUMMARY:Who's Bad: Michael Jackson Tribute (Doors 7:00 PM\, show 8:00 PM)
+DESCRIPTION:Doors 7:00 PM\, show 8:00 PM\nMichael Jackson tribute show. Gu
+ ests under 18 must be with a parent or guardian.\nhttps://jcow1den.github
+ .io/seok-events/#e304
+LOCATION:CenterStage\, Choctaw Casino & Resort – Pocola\, 3400 Choctaw R
+ d\, Pocola\, OK 74902
+URL:https://jcow1den.github.io/seok-events/#e304
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e305@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20270109
+DTEND;VALUE=DATE:20270110
+SUMMARY:501Bryze (Doors 7:00 PM\, show 8:00 PM)
+DESCRIPTION:Doors 7:00 PM\, show 8:00 PM\nCountry rap artist 501Bryze perf
+ orms live at Stage 271.\nhttps://jcow1den.github.io/seok-events/#e305
+LOCATION:Stage 271\, Choctaw Casino & Resort – Grant\, 1516 US-271\, Gra
+ nt\, OK 74738
+URL:https://jcow1den.github.io/seok-events/#e305
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e306@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20270112
+DTEND;VALUE=DATE:20270113
+SUMMARY:Musical Arts Series: John Quijano\, guitar (7:30 PM)
+DESCRIPTION:7:30 PM\nJohn Quijano\, guitar performs in Southeastern Oklaho
+ ma State University's Musical Arts Series.\nhttps://jcow1den.github.io/se
+ ok-events/#e306
+LOCATION:Fine Arts Recital Hall\, Southeastern Oklahoma State University\,
+  Fine Arts Recital Hall\, Southeastern Oklahoma State University\, Durant
+ \, OK
+URL:https://jcow1den.github.io/seok-events/#e306
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e446@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:Thrill in Madill JH (Starts 9:30 AM)
+DESCRIPTION:Starts 9:30 AM\nJunior high wrestling tournament at Madill. No
+  online sign up is posted\, so coaches should contact the school.\nhttps:
+ //jcow1den.github.io/seok-events/#e446
+LOCATION:601 South 5th Avenue\, Madill\, OK 73446
+URL:https://jcow1den.github.io/seok-events/#e446
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e447@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+SUMMARY:Thrill in Madill (Starts 9:30 AM)
+DESCRIPTION:Starts 9:30 AM\nHigh school wrestling tournament at Madill Hig
+ h School. Come cheer on the local teams.\nhttps://jcow1den.github.io/seok
+ -events/#e447
+LOCATION:Madill High School\, 700 South 5th Avenue\, Madill\, OK 73446
+URL:https://jcow1den.github.io/seok-events/#e447
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e138@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270124
+SUMMARY:Tom Segura: Preposterous (8:00 PM)
+DESCRIPTION:8:00 PM\nStand-up comedy from Tom Segura.\nhttps://jcow1den.gi
+ thub.io/seok-events/#e138
+LOCATION:Choctaw Grand Theater\, Choctaw Casino & Resort\, 4216 S Hwy 69/7
+ 5\, Durant\, OK 74701
+URL:https://jcow1den.github.io/seok-events/#e138
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e182@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+SUMMARY:Marty Stuart (7:00 PM)
+DESCRIPTION:7:00 PM\nCountry legend Marty Stuart live in Grant.\nConfirm d
+ etails with the host before you go.\nhttps://jcow1den.github.io/seok-even
+ ts/#e182
+LOCATION:Choctaw Casino & Resort – Grant\, 1516 Hwy 271 S\, Grant\, OK 7
+ 4738
+URL:https://jcow1den.github.io/seok-events/#e182
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e139@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20270212
+DTEND;VALUE=DATE:20270213
+SUMMARY:Daughtry: 20 Years Unplugged Tour (7:00 PM)
+DESCRIPTION:7:00 PM\nDaughtry's 20 Years Unplugged Tour.\nhttps://jcow1den
+ .github.io/seok-events/#e139
+LOCATION:Choctaw Grand Theater\, Choctaw Casino & Resort\, 4216 S Hwy 69/7
+ 5\, Durant\, OK 74701
+URL:https://jcow1den.github.io/seok-events/#e139
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e307@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20270212
+DTEND;VALUE=DATE:20270214
+SUMMARY:Celebrity Chef Takeover with Bryan Voltaggio
+DESCRIPTION:Seatings at 5:00 PM and 7:30 PM\nTwo-night chef-driven dinner 
+ hosted by Top Chef finalist Bryan Voltaggio.\nhttps://jcow1den.github.io/
+ seok-events/#e307
+LOCATION:Seven Ponies\, Choctaw Casino & Resort – Pocola\, 3400 Choctaw 
+ Rd\, Pocola\, OK 74902
+URL:https://jcow1den.github.io/seok-events/#e307
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e308@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20270213
+DTEND;VALUE=DATE:20270214
+SUMMARY:First Saturday Valentine's Program at the Forest Heritage Center (
+ 10:00 AM – 3:00 PM)
+DESCRIPTION:10:00 AM – 3:00 PM\nFree Valentine's-themed First Saturday p
+ rogram at the Forest Heritage Center museum.\nhttps://jcow1den.github.io/
+ seok-events/#e308
+LOCATION:Forest Heritage Center\, Beavers Bend State Park\, 4350 S State H
+ wy 259A\, Broken Bow\, OK 74728
+URL:https://jcow1den.github.io/seok-events/#e308
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e309@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270221
+SUMMARY:Elijah Scott (Doors 7:00 PM\, show 8:00 PM)
+DESCRIPTION:Doors 7:00 PM\, show 8:00 PM\nCountry singer Elijah Scott perf
+ orms at Stage 271.\nhttps://jcow1den.github.io/seok-events/#e309
+LOCATION:Stage 271\, Choctaw Casino & Resort – Grant\, 1516 US-271\, Gra
+ nt\, OK 74738
+URL:https://jcow1den.github.io/seok-events/#e309
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e183@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20270227
+DTEND;VALUE=DATE:20270228
+SUMMARY:Niko Moon (Doors 7:00 PM\, show 8:00 PM)
+DESCRIPTION:Doors 7:00 PM\, show 8:00 PM\nNiko Moon live at Stage 271 in G
+ rant.\nhttps://jcow1den.github.io/seok-events/#e183
+LOCATION:Stage 271\, Choctaw Casino & Resort\, 1516 US-271\, Grant\, OK 74
+ 738
+URL:https://jcow1den.github.io/seok-events/#e183
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e310@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20270306
+DTEND;VALUE=DATE:20270307
+SUMMARY:First Saturday at the Forest Heritage Center (10:00 AM – 3:00 PM
+ )
+DESCRIPTION:10:00 AM – 3:00 PM\nFree hands-on program that may include f
+ orestry\, wildlife\, conservation\, traditional crafts and local history.
+ \nhttps://jcow1den.github.io/seok-events/#e310
+LOCATION:Forest Heritage Center\, Beavers Bend State Park\, 4350 S State H
+ wy 259A\, Broken Bow\, OK 74728
+URL:https://jcow1den.github.io/seok-events/#e310
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e311@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20270306
+DTEND;VALUE=DATE:20270307
+SUMMARY:13th Annual Trivia Night (6:00 PM)
+DESCRIPTION:6:00 PM\nAnnual trivia night at Carl Albert State College\; th
+ eme to be announced.\nConfirm details with the host before you go.\nhttps
+ ://jcow1den.github.io/seok-events/#e311
+LOCATION:Hoffman/Wilson Center\, Carl Albert State College\, 1507 S McKenn
+ a St\, Poteau\, OK 74953
+URL:https://jcow1den.github.io/seok-events/#e311
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e341@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20270312
+DTEND;VALUE=DATE:20270313
+SUMMARY:Derrick Stroup (8:00 PM)
+DESCRIPTION:8:00 PM\nStand-up comedian Derrick Stroup at the Choctaw Grand
+  Theater.\nhttps://jcow1den.github.io/seok-events/#e341
+LOCATION:Choctaw Grand Theater\, Choctaw Casino & Resort\, 4216 S Hwy 69/7
+ 5\, Durant\, OK 74701
+URL:https://jcow1den.github.io/seok-events/#e341
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e140@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20270320
+DTEND;VALUE=DATE:20270321
+SUMMARY:Jon Pardi (8:00 PM)
+DESCRIPTION:8:00 PM\nCountry star Jon Pardi live.\nhttps://jcow1den.github
+ .io/seok-events/#e140
+LOCATION:Choctaw Grand Theater\, Choctaw Casino & Resort\, 4216 S Hwy 69/7
+ 5\, Durant\, OK 74701
+URL:https://jcow1den.github.io/seok-events/#e140
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e312@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20270323
+DTEND;VALUE=DATE:20270324
+SUMMARY:Musical Arts Series: Dr. Anne-Marie Condacse\, soprano\, and Dr. E
+ lena Lyalina\, piano (7:30 PM)
+DESCRIPTION:7:30 PM\nDr. Anne-Marie Condacse\, soprano\, and Dr. Elena Lya
+ lina\, piano performs in Southeastern Oklahoma State University's Musical
+  Arts Series.\nhttps://jcow1den.github.io/seok-events/#e312
+LOCATION:Fine Arts Recital Hall\, Southeastern Oklahoma State University\,
+  Fine Arts Recital Hall\, Southeastern Oklahoma State University\, Durant
+ \, OK
+URL:https://jcow1den.github.io/seok-events/#e312
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e313@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20270402
+DTEND;VALUE=DATE:20270404
+SUMMARY:Celebrity Chef Takeover with Lorena Garcia
+DESCRIPTION:Seatings at 5:00 PM and 7:30 PM\nTwo-night multi-course dinner
+  with chef Lorena Garcia blending Latin influences with contemporary tech
+ nique. Tables for two are $250 and tables for four are $500.\nhttps://jco
+ w1den.github.io/seok-events/#e313
+LOCATION:Seven Ponies\, Choctaw Casino & Resort – Pocola\, 3400 Choctaw 
+ Rd\, Pocola\, OK 74902
+URL:https://jcow1den.github.io/seok-events/#e313
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e314@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20270403
+DTEND;VALUE=DATE:20270404
+SUMMARY:First Saturday at the Forest Heritage Center (10:00 AM – 3:00 PM
+ )
+DESCRIPTION:10:00 AM – 3:00 PM\nFree hands-on program that may include f
+ orestry\, wildlife\, conservation\, traditional crafts and local history.
+ \nhttps://jcow1den.github.io/seok-events/#e314
+LOCATION:Forest Heritage Center\, Beavers Bend State Park\, 4350 S State H
+ wy 259A\, Broken Bow\, OK 74728
+URL:https://jcow1den.github.io/seok-events/#e314
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e342@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20270409
+DTEND;VALUE=DATE:20270410
+SUMMARY:Emily Ann Roberts (8:00 PM)
+DESCRIPTION:8:00 PM\nCountry singer Emily Ann Roberts in concert.\nhttps:/
+ /jcow1den.github.io/seok-events/#e342
+LOCATION:Choctaw Grand Theater\, Choctaw Casino & Resort\, 4216 S Hwy 69/7
+ 5\, Durant\, OK 74701
+URL:https://jcow1den.github.io/seok-events/#e342
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e315@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20270410
+DTEND;VALUE=DATE:20270411
+SUMMARY:Musical Arts Series: Dr. Tommy Poole Jazz Ensemble (4:00 PM)
+DESCRIPTION:4:00 PM\nDr. Tommy Poole Jazz Ensemble performs in Southeaster
+ n Oklahoma State University's Musical Arts Series.\nhttps://jcow1den.gith
+ ub.io/seok-events/#e315
+LOCATION:Fine Arts Recital Hall\, Southeastern Oklahoma State University\,
+  Fine Arts Recital Hall\, Southeastern Oklahoma State University\, Durant
+ \, OK
+URL:https://jcow1den.github.io/seok-events/#e315
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e316@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20270411
+DTEND;VALUE=DATE:20270412
+SUMMARY:50 Shades of Pink 6K(ish) Walk/Hike/Run (9:00 AM – 12:00 PM)
+DESCRIPTION:9:00 AM – 12:00 PM\nMostly walking fundraiser of about 4.3 m
+ iles through Beavers Bend for breast cancer research\; participants dress
+  in pink.\nConfirm details with the host before you go.\nhttps://jcow1den
+ .github.io/seok-events/#e316
+LOCATION:Girls Gone Wine\, 10216 N US Hwy 259\, Broken Bow\, OK 74728
+URL:https://jcow1den.github.io/seok-events/#e316
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e141@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20270417
+DTEND;VALUE=DATE:20270418
+SUMMARY:Matt Mathews: Not What I Ordered World Tour (4:30 PM and 8:00 PM)
+DESCRIPTION:4:30 PM and 8:00 PM\nComedian Matt Mathews\, two shows.\nhttps
+ ://jcow1den.github.io/seok-events/#e141
+LOCATION:Choctaw Grand Theater\, Choctaw Casino & Resort\, 4216 S Hwy 69/7
+ 5\, Durant\, OK 74701
+URL:https://jcow1den.github.io/seok-events/#e141
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e184@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20270424
+DTEND;VALUE=DATE:20270425
+SUMMARY:Joe Pug (7:00 PM)
+DESCRIPTION:7:00 PM\nSinger-songwriter Joe Pug live.\nConfirm details with
+  the host before you go.\nhttps://jcow1den.github.io/seok-events/#e184
+LOCATION:Spaceship Earth Coffee Co\, 345 E Choctaw Ave\, McAlester\, OK
+URL:https://jcow1den.github.io/seok-events/#e184
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e317@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20270501
+DTEND;VALUE=DATE:20270502
+SUMMARY:First Saturday at the Forest Heritage Center (10:00 AM – 3:00 PM
+ )
+DESCRIPTION:10:00 AM – 3:00 PM\nFree hands-on program that may include f
+ orestry\, wildlife\, conservation\, traditional crafts and local history.
+ \nhttps://jcow1den.github.io/seok-events/#e317
+LOCATION:Forest Heritage Center\, Beavers Bend State Park\, 4350 S State H
+ wy 259A\, Broken Bow\, OK 74728
+URL:https://jcow1den.github.io/seok-events/#e317
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e318@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20270507
+DTEND;VALUE=DATE:20270509
+SUMMARY:55th Annual McAlester Italian Festival
+DESCRIPTION:Fri 11:00 AM - 11:00 PM\; Sat 10:00 AM - 10:00 PM\nTwo-day fes
+ tival with indoor and outdoor vendors\, Italian food\, live music and car
+ nival rides. Admission is free.\nConfirm details with the host before you
+  go.\nhttps://jcow1den.github.io/seok-events/#e318
+LOCATION:Southeast Expo Center and Motor Speedway\, 4500 US-270\, McAleste
+ r\, OK 74501
+URL:https://jcow1den.github.io/seok-events/#e318
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e319@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20270605
+DTEND;VALUE=DATE:20270606
+SUMMARY:First Saturday at the Forest Heritage Center (10:00 AM – 3:00 PM
+ )
+DESCRIPTION:10:00 AM – 3:00 PM\nFree hands-on program that may include f
+ orestry\, wildlife\, conservation\, traditional crafts and local history.
+ \nhttps://jcow1den.github.io/seok-events/#e319
+LOCATION:Forest Heritage Center\, Beavers Bend State Park\, 4350 S State H
+ wy 259A\, Broken Bow\, OK 74728
+URL:https://jcow1den.github.io/seok-events/#e319
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e320@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20270605
+DTEND;VALUE=DATE:20270606
+SUMMARY:Stomp Dance at the Kullihoma Grounds (8:30 PM - midnight)
+DESCRIPTION:8:30 PM - midnight\nA Chickasaw stomp dance at the Kullihoma G
+ rounds east of Ada. The Chickasaw Nation says it is open to the public an
+ d all ages are welcome.\nhttps://jcow1den.github.io/seok-events/#e320
+LOCATION:Kullihoma Grounds\, Kullihoma Grounds\, 13078 County Road 3680\, 
+ Allen\, OK 74825
+URL:https://jcow1den.github.io/seok-events/#e320
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e321@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20270703
+DTEND;VALUE=DATE:20270704
+SUMMARY:First Saturday at the Forest Heritage Center (10:00 AM – 3:00 PM
+ )
+DESCRIPTION:10:00 AM – 3:00 PM\nFree hands-on program that may include f
+ orestry\, wildlife\, conservation\, traditional crafts and local history.
+ \nhttps://jcow1den.github.io/seok-events/#e321
+LOCATION:Forest Heritage Center\, Beavers Bend State Park\, 4350 S State H
+ wy 259A\, Broken Bow\, OK 74728
+URL:https://jcow1den.github.io/seok-events/#e321
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e322@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20270717
+DTEND;VALUE=DATE:20270719
+SUMMARY:Stomp Dance at the Kullihoma Grounds
+DESCRIPTION:9:00 PM - 6:00 AM\nA Chickasaw stomp dance at the Kullihoma Gr
+ ounds east of Ada. The Chickasaw Nation says it is open to the public and
+  all ages are welcome.\nhttps://jcow1den.github.io/seok-events/#e322
+LOCATION:Kullihoma Grounds\, Kullihoma Grounds\, 13078 County Road 3680\, 
+ Allen\, OK 74825
+URL:https://jcow1den.github.io/seok-events/#e322
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e323@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20270807
+DTEND;VALUE=DATE:20270808
+SUMMARY:First Saturday at the Forest Heritage Center (10:00 AM – 3:00 PM
+ )
+DESCRIPTION:10:00 AM – 3:00 PM\nFree hands-on program that may include f
+ orestry\, wildlife\, conservation\, traditional crafts and local history.
+ \nhttps://jcow1den.github.io/seok-events/#e323
+LOCATION:Forest Heritage Center\, Beavers Bend State Park\, 4350 S State H
+ wy 259A\, Broken Bow\, OK 74728
+URL:https://jcow1den.github.io/seok-events/#e323
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e324@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20270814
+DTEND;VALUE=DATE:20270815
+SUMMARY:Stomp Dance at the Kullihoma Grounds (9:00 PM - midnight)
+DESCRIPTION:9:00 PM - midnight\nA Chickasaw stomp dance at the Kullihoma G
+ rounds east of Ada. The Chickasaw Nation says it is open to the public an
+ d all ages are welcome.\nhttps://jcow1den.github.io/seok-events/#e324
+LOCATION:Kullihoma Grounds\, Kullihoma Grounds\, 13078 County Road 3680\, 
+ Allen\, OK 74825
+URL:https://jcow1den.github.io/seok-events/#e324
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e325@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20270904
+DTEND;VALUE=DATE:20270905
+SUMMARY:First Saturday at the Forest Heritage Center (10:00 AM – 3:00 PM
+ )
+DESCRIPTION:10:00 AM – 3:00 PM\nFree hands-on program that may include f
+ orestry\, wildlife\, conservation\, traditional crafts and local history.
+ \nhttps://jcow1den.github.io/seok-events/#e325
+LOCATION:Forest Heritage Center\, Beavers Bend State Park\, 4350 S State H
+ wy 259A\, Broken Bow\, OK 74728
+URL:https://jcow1den.github.io/seok-events/#e325
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e326@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20270924
+DTEND;VALUE=DATE:20270925
+SUMMARY:Stomp Dance at the Kullihoma Grounds (8:00 PM - midnight)
+DESCRIPTION:8:00 PM - midnight\nA Chickasaw stomp dance at the Kullihoma G
+ rounds east of Ada. The Chickasaw Nation says it is open to the public an
+ d all ages are welcome.\nhttps://jcow1den.github.io/seok-events/#e326
+LOCATION:Kullihoma Grounds\, Kullihoma Grounds\, 13078 County Road 3680\, 
+ Allen\, OK 74825
+URL:https://jcow1den.github.io/seok-events/#e326
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e327@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20271002
+DTEND;VALUE=DATE:20271003
+SUMMARY:First Saturday at the Forest Heritage Center (10:00 AM – 3:00 PM
+ )
+DESCRIPTION:10:00 AM – 3:00 PM\nFree hands-on program that may include f
+ orestry\, wildlife\, conservation\, traditional crafts and local history.
+ \nhttps://jcow1den.github.io/seok-events/#e327
+LOCATION:Forest Heritage Center\, Beavers Bend State Park\, 4350 S State H
+ wy 259A\, Broken Bow\, OK 74728
+URL:https://jcow1den.github.io/seok-events/#e327
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e328@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20271002
+DTEND;VALUE=DATE:20271003
+SUMMARY:Holdenville Fall Festival & Car Show (Time to be announced)
+DESCRIPTION:Time to be announced\nA fall festival and car show on Main Str
+ eet in Holdenville.\nConfirm details with the host before you go.\nhttps:
+ //jcow1den.github.io/seok-events/#e328
+LOCATION:Main Street\, Holdenville\, Main Street\, Holdenville\, OK
+URL:https://jcow1den.github.io/seok-events/#e328
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e329@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20271112
+DTEND;VALUE=DATE:20271115
+SUMMARY:Beavers Bend Folk Festival & Craft Show
+DESCRIPTION:Time to be announced\nAnnual three-day folk festival with demo
+ nstrations of early-1900s crafts such as woodturning and papermaking.\nht
+ tps://jcow1den.github.io/seok-events/#e329
+LOCATION:Forest Heritage Center\, Beavers Bend State Park\, 4350 S State H
+ wy 259A\, Broken Bow\, OK 74728
+URL:https://jcow1den.github.io/seok-events/#e329
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e330@seok-events
+DTSTAMP:20261126T145008Z
+DTSTART;VALUE=DATE:20271204
+DTEND;VALUE=DATE:20271205
+SUMMARY:First Saturday at the Forest Heritage Center (10:00 AM – 3:00 PM
+ )
+DESCRIPTION:10:00 AM – 3:00 PM\nFree hands-on program that may include f
+ orestry\, wildlife\, conservation\, traditional crafts and local history.
+ \nhttps://jcow1den.github.io/seok-events/#e330
+LOCATION:Forest Heritage Center\, Beavers Bend State Park\, 4350 S State H
+ wy 259A\, Broken Bow\, OK 74728
+URL:https://jcow1den.github.io/seok-events/#e330
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
